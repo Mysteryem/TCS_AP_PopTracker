@@ -1,0 +1,28 @@
+[
+  {
+    "name": "Obi-Wan Kenobi",
+    "type": "static",
+    "img": "images/items/obi-wankenobi.png",
+    "img_mods": "",
+    "overlay_align": "right",
+    "codes": "obi-wankenobi"
+  },
+  {
+    "name": "Qui-Gon Jinn",
+    "type": "static",
+    "img": "images/items/qui-gonjinn.png",
+    "img_mods": "",
+    "initial_active_state": false,
+    "overlay_align": "right",
+    "codes": "qui-gonjinn"
+  },
+  {
+    "name": "TC-14",
+    "type": "static",
+    "img": "images/items/tc-14.png",
+    "img_mods": "",
+    "initial_active_state": false,
+    "overlay_align": "right",
+    "codes": "tc-14"
+  }
+]
