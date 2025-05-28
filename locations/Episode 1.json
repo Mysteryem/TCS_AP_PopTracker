@@ -1,0 +1,1750 @@
+[
+    {
+        "name": "Episode 1 - hint",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "{}"
+        ],
+        "children": [
+            {
+                "name": "Negotiations - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "children": [
+                    {
+                        "name": "Minikits - hint",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            "{}"
+                        ],
+                        "sections": [
+                            {
+                                "name": "1-1 Minikit 1 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_1_negotiations_minikits_1-1_minikit_1"
+                                ],
+                                "item_count": 2
+                            },
+                            {
+                                "name": "1-1 Minikit 2 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_1_negotiations_minikits_1-1_minikit_2"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-1 Minikit 3 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_1_negotiations_minikits_1-1_minikit_3"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-1 Minikit 4 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_1_negotiations_minikits_1-1_minikit_4"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-1 Minikit 5 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_1_negotiations_minikits_1-1_minikit_5"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-1 Minikit 6 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_1_negotiations_minikits_1-1_minikit_6"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-1 Minikit 7 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_1_negotiations_minikits_1-1_minikit_7"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-1 Minikit 8 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_1_negotiations_minikits_1-1_minikit_8"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-1 Minikit 9 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_1_negotiations_minikits_1-1_minikit_9"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-1 Minikit 10 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_1_negotiations_minikits_1-1_minikit_10"
+                                ],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Episode 1",
+                                "x": "2475",
+                                "y": "1214",
+                                "size": 12
+                            }
+                        ]
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Purchase Battle Droid - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "episode_1_negotiations_purchase_battle_droid"
+                        ],
+                        "item_count": 3
+                    },
+                    {
+                        "name": "Purchase Battle Droid (Security) - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "episode_1_negotiations_purchase_battle_droid_(security)"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Purchase Battle Droid (Commander) - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "episode_1_negotiations_purchase_battle_droid_(commander)"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Purchase Droideka - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "episode_1_negotiations_purchase_droideka"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Purchase Super Gonk (1-1) - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "episode_1_negotiations_purchase_super_gonk_(1-1)"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "1-1 True Jedi - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "episode_1_negotiations_1-1_true_jedi"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "1-1 Completion - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "episode_1_negotiations_1-1_completion"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Episode 1",
+                        "x": "1167",
+                        "y": "2118",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Invasion of Naboo - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "children": [
+                    {
+                        "name": "Minikits - hint",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            "{}"
+                        ],
+                        "sections": [
+                            {
+                                "name": "1-2 Minikit 1 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_1_invasion_of_naboo_minikits_1-2_minikit_1"
+                                ],
+                                "item_count": 2
+                            },
+                            {
+                                "name": "1-2 Minikit 2 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_1_invasion_of_naboo_minikits_1-2_minikit_2"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-2 Minikit 3 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_1_invasion_of_naboo_minikits_1-2_minikit_3"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-2 Minikit 4 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_1_invasion_of_naboo_minikits_1-2_minikit_4"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-2 Minikit 5 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_1_invasion_of_naboo_minikits_1-2_minikit_5"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-2 Minikit 6 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_1_invasion_of_naboo_minikits_1-2_minikit_6"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-2 Minikit 7 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_1_invasion_of_naboo_minikits_1-2_minikit_7"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-2 Minikit 8 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_1_invasion_of_naboo_minikits_1-2_minikit_8"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-2 Minikit 9 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_1_invasion_of_naboo_minikits_1-2_minikit_9"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-2 Minikit 10 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_1_invasion_of_naboo_minikits_1-2_minikit_10"
+                                ],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Episode 1",
+                                "x": "2088",
+                                "y": "618",
+                                "size": 12
+                            }
+                        ]
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Purchase Captain Tarpals - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "episode_1_invasion_of_naboo_purchase_captain_tarpals"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Purchase Boss Nass - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "episode_1_invasion_of_naboo_purchase_boss_nass"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Purchase Royal Guard - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "episode_1_invasion_of_naboo_purchase_royal_guard"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Purchase Fertilizer (1-2) - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "episode_1_invasion_of_naboo_purchase_fertilizer_(1-2)"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "1-2 True Jedi - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "episode_1_invasion_of_naboo_1-2_true_jedi"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "1-2 Completion - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "episode_1_invasion_of_naboo_1-2_completion"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Episode 1",
+                        "x": "1270",
+                        "y": "1389",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Mos Espa Podrace - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "children": [
+                    {
+                        "name": "Minikits - hint",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            "{}"
+                        ],
+                        "sections": [
+                            {
+                                "name": "1-4 Minikit 1 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_1_mos_espa_podrace_minikits_1-4_minikit_1"
+                                ],
+                                "item_count": 2
+                            },
+                            {
+                                "name": "1-4 Minikit 2 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_1_mos_espa_podrace_minikits_1-4_minikit_2"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-4 Minikit 3 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_1_mos_espa_podrace_minikits_1-4_minikit_3"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-4 Minikit 4 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_1_mos_espa_podrace_minikits_1-4_minikit_4"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-4 Minikit 5 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_1_mos_espa_podrace_minikits_1-4_minikit_5"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-4 Minikit 6 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_1_mos_espa_podrace_minikits_1-4_minikit_6"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-4 Minikit 7 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_1_mos_espa_podrace_minikits_1-4_minikit_7"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-4 Minikit 8 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_1_mos_espa_podrace_minikits_1-4_minikit_8"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-4 Minikit 9 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_1_mos_espa_podrace_minikits_1-4_minikit_9"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-4 Minikit 10 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_1_mos_espa_podrace_minikits_1-4_minikit_10"
+                                ],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Episode 1",
+                                "x": "871",
+                                "y": "2388",
+                                "size": 12
+                            }
+                        ]
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Purchase Watto - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "episode_1_mos_espa_podrace_purchase_watto"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Purchase Pit Droid - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "episode_1_mos_espa_podrace_purchase_pit_droid"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Purchase Red Brick Detector (1-4) - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "episode_1_mos_espa_podrace_purchase_red_brick_detector_(1-4)"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "1-4 True Jedi - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "episode_1_mos_espa_podrace_1-4_true_jedi"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "1-4 Completion - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "episode_1_mos_espa_podrace_1-4_completion"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Episode 1",
+                        "x": "2484",
+                        "y": "368",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Darth Maul - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "children": [
+                    {
+                        "name": "Minikits - hint",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            "{}"
+                        ],
+                        "sections": [
+                            {
+                                "name": "1-6 Minikit 1 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_1_darth_maul_minikits_1-6_minikit_1"
+                                ],
+                                "item_count": 2
+                            },
+                            {
+                                "name": "1-6 Minikit 2 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_1_darth_maul_minikits_1-6_minikit_2"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-6 Minikit 3 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_1_darth_maul_minikits_1-6_minikit_3"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-6 Minikit 4 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_1_darth_maul_minikits_1-6_minikit_4"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-6 Minikit 5 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_1_darth_maul_minikits_1-6_minikit_5"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-6 Minikit 6 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_1_darth_maul_minikits_1-6_minikit_6"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-6 Minikit 7 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_1_darth_maul_minikits_1-6_minikit_7"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-6 Minikit 8 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_1_darth_maul_minikits_1-6_minikit_8"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-6 Minikit 9 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_1_darth_maul_minikits_1-6_minikit_9"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-6 Minikit 10 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_1_darth_maul_minikits_1-6_minikit_10"
+                                ],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Episode 1",
+                                "x": "1582",
+                                "y": "2224",
+                                "size": 12
+                            }
+                        ]
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Purchase Darth Maul - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "episode_1_darth_maul_purchase_darth_maul"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Purchase Force Grapple Leap (1-6) - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "episode_1_darth_maul_purchase_force_grapple_leap_(1-6)"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "1-6 True Jedi - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "episode_1_darth_maul_1-6_true_jedi"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "1-6 Completion - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "episode_1_darth_maul_1-6_completion"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Episode 1",
+                        "x": "2146",
+                        "y": "61",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Escape From Naboo - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "children": [
+                    {
+                        "name": "Minikits - hint",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            "{}"
+                        ],
+                        "sections": [
+                            {
+                                "name": "1-3 Minikit 1 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_1_escape_from_naboo_minikits_1-3_minikit_1"
+                                ],
+                                "item_count": 2
+                            },
+                            {
+                                "name": "1-3 Minikit 2 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_1_escape_from_naboo_minikits_1-3_minikit_2"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-3 Minikit 3 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_1_escape_from_naboo_minikits_1-3_minikit_3"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-3 Minikit 4 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_1_escape_from_naboo_minikits_1-3_minikit_4"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-3 Minikit 5 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_1_escape_from_naboo_minikits_1-3_minikit_5"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-3 Minikit 6 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_1_escape_from_naboo_minikits_1-3_minikit_6"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-3 Minikit 7 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_1_escape_from_naboo_minikits_1-3_minikit_7"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-3 Minikit 8 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_1_escape_from_naboo_minikits_1-3_minikit_8"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-3 Minikit 9 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_1_escape_from_naboo_minikits_1-3_minikit_9"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-3 Minikit 10 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_1_escape_from_naboo_minikits_1-3_minikit_10"
+                                ],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Episode 1",
+                                "x": "204",
+                                "y": "2225",
+                                "size": 12
+                            }
+                        ]
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Purchase Padm\u00e9 - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "episode_1_escape_from_naboo_purchase_padm\u00e9"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Purchase Walkie Talkie Disable (1-3) - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "episode_1_escape_from_naboo_purchase_walkie_talkie_disable_(1-3)"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "1-3 True Jedi - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "episode_1_escape_from_naboo_1-3_true_jedi"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "1-3 Completion - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "episode_1_escape_from_naboo_1-3_completion"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Episode 1",
+                        "x": "1354",
+                        "y": "1666",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Retake Theed Palace - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "children": [
+                    {
+                        "name": "Minikits - hint",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            "{}"
+                        ],
+                        "sections": [
+                            {
+                                "name": "1-5 Minikit 1 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_1_retake_theed_palace_minikits_1-5_minikit_1"
+                                ],
+                                "item_count": 2
+                            },
+                            {
+                                "name": "1-5 Minikit 2 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_1_retake_theed_palace_minikits_1-5_minikit_2"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-5 Minikit 3 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_1_retake_theed_palace_minikits_1-5_minikit_3"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-5 Minikit 4 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_1_retake_theed_palace_minikits_1-5_minikit_4"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-5 Minikit 5 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_1_retake_theed_palace_minikits_1-5_minikit_5"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-5 Minikit 6 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_1_retake_theed_palace_minikits_1-5_minikit_6"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-5 Minikit 7 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_1_retake_theed_palace_minikits_1-5_minikit_7"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-5 Minikit 8 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_1_retake_theed_palace_minikits_1-5_minikit_8"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-5 Minikit 9 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_1_retake_theed_palace_minikits_1-5_minikit_9"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-5 Minikit 10 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_1_retake_theed_palace_minikits_1-5_minikit_10"
+                                ],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Episode 1",
+                                "x": "127",
+                                "y": "777",
+                                "size": 12
+                            }
+                        ]
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Purchase Super Slap (1-5) - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "episode_1_retake_theed_palace_purchase_super_slap_(1-5)"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "1-5 True Jedi - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "episode_1_retake_theed_palace_1-5_true_jedi"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "1-5 Completion - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "episode_1_retake_theed_palace_1-5_completion"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Episode 1",
+                        "x": "2464",
+                        "y": "919",
+                        "size": 12
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Episode 1",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Negotiations",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "children": [
+                    {
+                        "name": "Minikits",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "1-1 Minikit 1",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-1 Minikit 2",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-1 Minikit 3",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-1 Minikit 4",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-1 Minikit 5",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-1 Minikit 6",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-1 Minikit 7",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-1 Minikit 8",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-1 Minikit 9",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-1 Minikit 10",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Episode 1",
+                                "x": "2475",
+                                "y": "1214",
+                                "size": 6
+                            }
+                        ]
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Purchase Battle Droid",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Purchase Battle Droid (Security)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Purchase Battle Droid (Commander)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Purchase Droideka",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Purchase Super Gonk (1-1)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "1-1 True Jedi",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "1-1 Completion",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Episode 1",
+                        "x": "1167",
+                        "y": "2118",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Invasion of Naboo",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "children": [
+                    {
+                        "name": "Minikits",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "1-2 Minikit 1",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-2 Minikit 2",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-2 Minikit 3",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-2 Minikit 4",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-2 Minikit 5",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-2 Minikit 6",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-2 Minikit 7",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-2 Minikit 8",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-2 Minikit 9",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-2 Minikit 10",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Episode 1",
+                                "x": "2088",
+                                "y": "618",
+                                "size": 6
+                            }
+                        ]
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Purchase Captain Tarpals",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Purchase Boss Nass",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Purchase Royal Guard",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Purchase Fertilizer (1-2)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "1-2 True Jedi",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "1-2 Completion",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Episode 1",
+                        "x": "1270",
+                        "y": "1389",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Mos Espa Podrace",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "children": [
+                    {
+                        "name": "Minikits",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "1-4 Minikit 1",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-4 Minikit 2",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-4 Minikit 3",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-4 Minikit 4",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-4 Minikit 5",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-4 Minikit 6",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-4 Minikit 7",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-4 Minikit 8",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-4 Minikit 9",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-4 Minikit 10",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Episode 1",
+                                "x": "871",
+                                "y": "2388",
+                                "size": 6
+                            }
+                        ]
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Purchase Watto",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Purchase Pit Droid",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Purchase Red Brick Detector (1-4)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "1-4 True Jedi",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "1-4 Completion",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Episode 1",
+                        "x": "2484",
+                        "y": "368",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Darth Maul",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "children": [
+                    {
+                        "name": "Minikits",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "1-6 Minikit 1",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-6 Minikit 2",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-6 Minikit 3",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-6 Minikit 4",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-6 Minikit 5",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-6 Minikit 6",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-6 Minikit 7",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-6 Minikit 8",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-6 Minikit 9",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-6 Minikit 10",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Episode 1",
+                                "x": "1582",
+                                "y": "2224",
+                                "size": 6
+                            }
+                        ]
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Purchase Darth Maul",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Purchase Force Grapple Leap (1-6)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "1-6 True Jedi",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "1-6 Completion",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Episode 1",
+                        "x": "2146",
+                        "y": "61",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Escape From Naboo",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "children": [
+                    {
+                        "name": "Minikits",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "1-3 Minikit 1",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-3 Minikit 2",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-3 Minikit 3",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-3 Minikit 4",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-3 Minikit 5",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-3 Minikit 6",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-3 Minikit 7",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-3 Minikit 8",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-3 Minikit 9",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-3 Minikit 10",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Episode 1",
+                                "x": "204",
+                                "y": "2225",
+                                "size": 6
+                            }
+                        ]
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Purchase Padm\u00e9",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Purchase Walkie Talkie Disable (1-3)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "1-3 True Jedi",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "1-3 Completion",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Episode 1",
+                        "x": "1354",
+                        "y": "1666",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Retake Theed Palace",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "children": [
+                    {
+                        "name": "Minikits",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "1-5 Minikit 1",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-5 Minikit 2",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-5 Minikit 3",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-5 Minikit 4",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-5 Minikit 5",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-5 Minikit 6",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-5 Minikit 7",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-5 Minikit 8",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-5 Minikit 9",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "1-5 Minikit 10",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Episode 1",
+                                "x": "127",
+                                "y": "777",
+                                "size": 6
+                            }
+                        ]
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Purchase Super Slap (1-5)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "1-5 True Jedi",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "1-5 Completion",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Episode 1",
+                        "x": "2464",
+                        "y": "919",
+                        "size": 6
+                    }
+                ]
+            }
+        ]
+    }
+]

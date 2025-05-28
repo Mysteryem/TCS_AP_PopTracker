@@ -1,0 +1,396 @@
+[
+    {
+        "name": "Cantina - hint",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "{}"
+        ],
+        "children": [
+            {
+                "name": "All Episodes - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Purchase IG-88 - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "cantina_all_episodes_purchase_ig-88"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Purchase Dengar - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "cantina_all_episodes_purchase_dengar"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Purchase 4-LOM - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "cantina_all_episodes_purchase_4-lom"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Purchase Ben Kenobi (Ghost) - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "cantina_all_episodes_purchase_ben_kenobi_(ghost)"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Purchase Anakin Skywalker (Ghost) - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "cantina_all_episodes_purchase_anakin_skywalker_(ghost)"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Purchase Yoda (Ghost) - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "cantina_all_episodes_purchase_yoda_(ghost)"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Purchase R2-Q5 - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "cantina_all_episodes_purchase_r2-q5"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Cantina",
+                        "x": "940",
+                        "y": "1289",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Goal - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Slave I - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "cantina_goal_slave_i"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Cantina",
+                        "x": "1101",
+                        "y": "129",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Bonus Levels - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Mos Espa Podrace (Original) - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "cantina_bonus_levels_mos_espa_podrace_(original)"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Anakin's Flight - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "cantina_bonus_levels_anakin's_flight"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Gunship Cavalry (Original) - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "cantina_bonus_levels_gunship_cavalry_(original)"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "A New Hope (Bonus Level) - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "cantina_bonus_levels_a_new_hope_(bonus_level)"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "LEGO City - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "cantina_bonus_levels_lego_city"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "New Town - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "cantina_bonus_levels_new_town"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Indiana Jones: Trailer - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "cantina_bonus_levels_indiana_jones:_trailer"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Cantina",
+                        "x": "1084",
+                        "y": "1631",
+                        "size": 12
+                    }
+                ]
+            }
+        ],
+        "sections": [
+            {
+                "name": "Purchase Gonk Droid - hint",
+                "access_rules": [],
+                "visibility_rules": [
+                    "cantina_purchase_gonk_droid"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Purchase PK Droid - hint",
+                "access_rules": [],
+                "visibility_rules": [
+                    "cantina_purchase_pk_droid"
+                ],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Cantina",
+                "x": "1605",
+                "y": "1060",
+                "size": 12
+            }
+        ]
+    },
+    {
+        "name": "Cantina",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "All Episodes",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Purchase IG-88",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Purchase Dengar",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Purchase 4-LOM",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Purchase Ben Kenobi (Ghost)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Purchase Anakin Skywalker (Ghost)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Purchase Yoda (Ghost)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Purchase R2-Q5",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Cantina",
+                        "x": "940",
+                        "y": "1289",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Goal",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Slave I",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Cantina",
+                        "x": "1101",
+                        "y": "129",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Bonus Levels",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Mos Espa Podrace (Original)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Anakin's Flight",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Gunship Cavalry (Original)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "A New Hope (Bonus Level)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "LEGO City",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "New Town",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Indiana Jones: Trailer",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Cantina",
+                        "x": "1084",
+                        "y": "1631",
+                        "size": 6
+                    }
+                ]
+            }
+        ],
+        "sections": [
+            {
+                "name": "Purchase Gonk Droid",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Purchase PK Droid",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Cantina",
+                "x": "1605",
+                "y": "1060",
+                "size": 6
+            }
+        ]
+    }
+]

@@ -1,0 +1,1772 @@
+[
+    {
+        "name": "tuskenraider",
+        "type": "toggle",
+        "img": "images/items/tuskenraider.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "tuskenraider"
+    },
+    {
+        "name": "obi-wansstarfighter",
+        "type": "toggle",
+        "img": "images/items/obi-wansstarfighter.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "obi-wansstarfighter"
+    },
+    {
+        "name": "progressivebonuslevel",
+        "type": "toggle",
+        "img": "images/items/progressivebonuslevel.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "progressivebonuslevel"
+    },
+    {
+        "name": "captainantilles",
+        "type": "toggle",
+        "img": "images/items/captainantilles.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "captainantilles"
+    },
+    {
+        "name": "4-lom",
+        "type": "toggle",
+        "img": "images/items/4-lom.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "4-lom"
+    },
+    {
+        "name": "grievous'bodyguard",
+        "type": "toggle",
+        "img": "images/items/grievous'bodyguard.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "grievous'bodyguard"
+    },
+    {
+        "name": "imperialshuttlepilot",
+        "type": "toggle",
+        "img": "images/items/imperialshuttlepilot.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "imperialshuttlepilot"
+    },
+    {
+        "name": "invincibility",
+        "type": "toggle",
+        "img": "images/items/invincibility.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "invincibility"
+    },
+    {
+        "name": "snowspeeder",
+        "type": "toggle",
+        "img": "images/items/snowspeeder.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "snowspeeder"
+    },
+    {
+        "name": "clone(episode3)",
+        "type": "toggle",
+        "img": "images/items/clone(episode3).png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "clone(episode3)"
+    },
+    {
+        "name": "imperialguard",
+        "type": "toggle",
+        "img": "images/items/imperialguard.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "imperialguard"
+    },
+    {
+        "name": "palaceguard",
+        "type": "toggle",
+        "img": "images/items/palaceguard.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "palaceguard"
+    },
+    {
+        "name": "r4-p17",
+        "type": "toggle",
+        "img": "images/items/r4-p17.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "r4-p17"
+    },
+    {
+        "name": "bountyhunterrockets",
+        "type": "toggle",
+        "img": "images/items/bountyhunterrockets.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "bountyhunterrockets"
+    },
+    {
+        "name": "x-wing",
+        "type": "toggle",
+        "img": "images/items/x-wing.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "x-wing"
+    },
+    {
+        "name": "commandercody",
+        "type": "toggle",
+        "img": "images/items/commandercody.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "commandercody"
+    },
+    {
+        "name": "superastromech",
+        "type": "toggle",
+        "img": "images/items/superastromech.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "superastromech"
+    },
+    {
+        "name": "anakinspodracer",
+        "type": "toggle",
+        "img": "images/items/anakinspodracer.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "anakinspodracer"
+    },
+    {
+        "name": "selfdestruct",
+        "type": "toggle",
+        "img": "images/items/selfdestruct.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "selfdestruct"
+    },
+    {
+        "name": "chewbacca",
+        "type": "toggle",
+        "img": "images/items/chewbacca.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "chewbacca"
+    },
+    {
+        "name": "deathstartrooper",
+        "type": "toggle",
+        "img": "images/items/deathstartrooper.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "deathstartrooper"
+    },
+    {
+        "name": "princessleia(prisoner)",
+        "type": "toggle",
+        "img": "images/items/princessleia(prisoner).png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "princessleia(prisoner)"
+    },
+    {
+        "name": "hansolo(hood)",
+        "type": "toggle",
+        "img": "images/items/hansolo(hood).png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "hansolo(hood)"
+    },
+    {
+        "name": "episode2unlock",
+        "type": "toggle",
+        "img": "images/items/episode2unlock.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "episode2unlock"
+    },
+    {
+        "name": "landocalrissian",
+        "type": "toggle",
+        "img": "images/items/landocalrissian.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "landocalrissian"
+    },
+    {
+        "name": "pitdroid",
+        "type": "toggle",
+        "img": "images/items/pitdroid.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "pitdroid"
+    },
+    {
+        "name": "vehiclesmartbomb",
+        "type": "toggle",
+        "img": "images/items/vehiclesmartbomb.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "vehiclesmartbomb"
+    },
+    {
+        "name": "fertilizer",
+        "type": "toggle",
+        "img": "images/items/fertilizer.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "fertilizer"
+    },
+    {
+        "name": "disguisedclone",
+        "type": "toggle",
+        "img": "images/items/disguisedclone.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "disguisedclone"
+    },
+    {
+        "name": "gamorreanguard",
+        "type": "toggle",
+        "img": "images/items/gamorreanguard.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "gamorreanguard"
+    },
+    {
+        "name": "characterstuds",
+        "type": "toggle",
+        "img": "images/items/characterstuds.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "characterstuds"
+    },
+    {
+        "name": "anakinskywalker(ghost)",
+        "type": "toggle",
+        "img": "images/items/anakinskywalker(ghost).png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "anakinskywalker(ghost)"
+    },
+    {
+        "name": "purplestud",
+        "type": "consumable",
+        "img": "images/items/purplestud.png",
+        "img_mods": "",
+        "min_quantity": 0,
+        "max_quantity": 10,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 2,
+        "overlay_align": "right",
+        "overlay_font_size": true,
+        "overlay_background": "#000000",
+        "codes": "purplestud"
+    },
+    {
+        "name": "pkdroid",
+        "type": "toggle",
+        "img": "images/items/pkdroid.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "pkdroid"
+    },
+    {
+        "name": "episode5unlock",
+        "type": "toggle",
+        "img": "images/items/episode5unlock.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "episode5unlock"
+    },
+    {
+        "name": "padme(battle)",
+        "type": "toggle",
+        "img": "images/items/padme(battle).png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "padme(battle)"
+    },
+    {
+        "name": "clone(episode3,swamp)",
+        "type": "toggle",
+        "img": "images/items/clone(episode3,swamp).png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "clone(episode3,swamp)"
+    },
+    {
+        "name": "anakinskywalker(jedi)",
+        "type": "toggle",
+        "img": "images/items/anakinskywalker(jedi).png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "anakinskywalker(jedi)"
+    },
+    {
+        "name": "battledroid(commander)",
+        "type": "toggle",
+        "img": "images/items/battledroid(commander).png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "battledroid(commander)"
+    },
+    {
+        "name": "geonosian",
+        "type": "toggle",
+        "img": "images/items/geonosian.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "geonosian"
+    },
+    {
+        "name": "jawa",
+        "type": "toggle",
+        "img": "images/items/jawa.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "jawa"
+    },
+    {
+        "name": "princessleia(boushh)",
+        "type": "toggle",
+        "img": "images/items/princessleia(boushh).png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "princessleia(boushh)"
+    },
+    {
+        "name": "5minikits",
+        "type": "consumable",
+        "img": "images/items/5minikits.png",
+        "img_mods": "",
+        "min_quantity": 0,
+        "max_quantity": 10,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 2,
+        "overlay_align": "right",
+        "overlay_font_size": true,
+        "overlay_background": "#000000",
+        "codes": "5minikits"
+    },
+    {
+        "name": "lukeskywalker(endor)",
+        "type": "toggle",
+        "img": "images/items/lukeskywalker(endor).png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "lukeskywalker(endor)"
+    },
+    {
+        "name": "padme",
+        "type": "toggle",
+        "img": "images/items/padme.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "padme"
+    },
+    {
+        "name": "battledroid(security)",
+        "type": "toggle",
+        "img": "images/items/battledroid(security).png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "battledroid(security)"
+    },
+    {
+        "name": "snowtrooper",
+        "type": "toggle",
+        "img": "images/items/snowtrooper.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "snowtrooper"
+    },
+    {
+        "name": "benkenobi",
+        "type": "toggle",
+        "img": "images/items/benkenobi.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "benkenobi"
+    },
+    {
+        "name": "princessleia(slave)",
+        "type": "toggle",
+        "img": "images/items/princessleia(slave).png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "princessleia(slave)"
+    },
+    {
+        "name": "battledroid",
+        "type": "toggle",
+        "img": "images/items/battledroid.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "battledroid"
+    },
+    {
+        "name": "admiralackbar",
+        "type": "toggle",
+        "img": "images/items/admiralackbar.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "admiralackbar"
+    },
+    {
+        "name": "lukeskywalker(hoth)",
+        "type": "toggle",
+        "img": "images/items/lukeskywalker(hoth).png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "lukeskywalker(hoth)"
+    },
+    {
+        "name": "rebelfriend",
+        "type": "toggle",
+        "img": "images/items/rebelfriend.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "rebelfriend"
+    },
+    {
+        "name": "wookiee",
+        "type": "toggle",
+        "img": "images/items/wookiee.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "wookiee"
+    },
+    {
+        "name": "bobafett(boy)",
+        "type": "toggle",
+        "img": "images/items/bobafett(boy).png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "bobafett(boy)"
+    },
+    {
+        "name": "disarmtroopers",
+        "type": "toggle",
+        "img": "images/items/disarmtroopers.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "disarmtroopers"
+    },
+    {
+        "name": "infinitetorpedos",
+        "type": "toggle",
+        "img": "images/items/infinitetorpedos.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "infinitetorpedos"
+    },
+    {
+        "name": "wicket",
+        "type": "toggle",
+        "img": "images/items/wicket.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "wicket"
+    },
+    {
+        "name": "restartleveltrap",
+        "type": "toggle",
+        "img": "images/items/restartleveltrap.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "restartleveltrap"
+    },
+    {
+        "name": "lukeskywalker(jedi)",
+        "type": "toggle",
+        "img": "images/items/lukeskywalker(jedi).png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "lukeskywalker(jedi)"
+    },
+    {
+        "name": "explodingblasterbolts",
+        "type": "toggle",
+        "img": "images/items/explodingblasterbolts.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "explodingblasterbolts"
+    },
+    {
+        "name": "dengar",
+        "type": "toggle",
+        "img": "images/items/dengar.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "dengar"
+    },
+    {
+        "name": "hansolo(skiff)",
+        "type": "toggle",
+        "img": "images/items/hansolo(skiff).png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "hansolo(skiff)"
+    },
+    {
+        "name": "speeder",
+        "type": "toggle",
+        "img": "images/items/speeder.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "speeder"
+    },
+    {
+        "name": "bobafett",
+        "type": "toggle",
+        "img": "images/items/bobafett.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "bobafett"
+    },
+    {
+        "name": "princessleia",
+        "type": "toggle",
+        "img": "images/items/princessleia.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "princessleia"
+    },
+    {
+        "name": "anakinskywalker(padawan)",
+        "type": "toggle",
+        "img": "images/items/anakinskywalker(padawan).png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "anakinskywalker(padawan)"
+    },
+    {
+        "name": "superzapper",
+        "type": "toggle",
+        "img": "images/items/superzapper.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "superzapper"
+    },
+    {
+        "name": "princessleia(hoth)",
+        "type": "toggle",
+        "img": "images/items/princessleia(hoth).png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "princessleia(hoth)"
+    },
+    {
+        "name": "padme(geonosis)",
+        "type": "toggle",
+        "img": "images/items/padme(geonosis).png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "padme(geonosis)"
+    },
+    {
+        "name": "princessleia(bespin)",
+        "type": "toggle",
+        "img": "images/items/princessleia(bespin).png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "princessleia(bespin)"
+    },
+    {
+        "name": "padme(clawed)",
+        "type": "toggle",
+        "img": "images/items/padme(clawed).png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "padme(clawed)"
+    },
+    {
+        "name": "regeneratehearts",
+        "type": "toggle",
+        "img": "images/items/regeneratehearts.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "regeneratehearts"
+    },
+    {
+        "name": "benkenobi(ghost)",
+        "type": "toggle",
+        "img": "images/items/benkenobi(ghost).png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "benkenobi(ghost)"
+    },
+    {
+        "name": "walkietalkiedisable",
+        "type": "toggle",
+        "img": "images/items/walkietalkiedisable.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "walkietalkiedisable"
+    },
+    {
+        "name": "superthermaldetector",
+        "type": "toggle",
+        "img": "images/items/superthermaldetector.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "superthermaldetector"
+    },
+    {
+        "name": "captaintarpals",
+        "type": "toggle",
+        "img": "images/items/captaintarpals.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "captaintarpals"
+    },
+    {
+        "name": "beachtrooper",
+        "type": "toggle",
+        "img": "images/items/beachtrooper.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "beachtrooper"
+    },
+    {
+        "name": "ig-88",
+        "type": "toggle",
+        "img": "images/items/ig-88.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "ig-88"
+    },
+    {
+        "name": "queenamidala",
+        "type": "toggle",
+        "img": "images/items/queenamidala.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "queenamidala"
+    },
+    {
+        "name": "superblasters",
+        "type": "toggle",
+        "img": "images/items/superblasters.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "superblasters"
+    },
+    {
+        "name": "bespinguard",
+        "type": "toggle",
+        "img": "images/items/bespinguard.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "bespinguard"
+    },
+    {
+        "name": "generalgrievous",
+        "type": "toggle",
+        "img": "images/items/generalgrievous.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "generalgrievous"
+    },
+    {
+        "name": "darthmaul",
+        "type": "toggle",
+        "img": "images/items/darthmaul.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "darthmaul"
+    },
+    {
+        "name": "lukeskywalker(tatooine)",
+        "type": "toggle",
+        "img": "images/items/lukeskywalker(tatooine).png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "lukeskywalker(tatooine)"
+    },
+    {
+        "name": "rebeltrooper(hoth)",
+        "type": "toggle",
+        "img": "images/items/rebeltrooper(hoth).png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "rebeltrooper(hoth)"
+    },
+    {
+        "name": "darkside",
+        "type": "toggle",
+        "img": "images/items/darkside.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "darkside"
+    },
+    {
+        "name": "rebelpilot",
+        "type": "toggle",
+        "img": "images/items/rebelpilot.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "rebelpilot"
+    },
+    {
+        "name": "jarjarbinks",
+        "type": "toggle",
+        "img": "images/items/jarjarbinks.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "jarjarbinks"
+    },
+    {
+        "name": "droideka",
+        "type": "toggle",
+        "img": "images/items/droideka.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "droideka"
+    },
+    {
+        "name": "ugnaught",
+        "type": "toggle",
+        "img": "images/items/ugnaught.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "ugnaught"
+    },
+    {
+        "name": "republicgunship",
+        "type": "toggle",
+        "img": "images/items/republicgunship.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "republicgunship"
+    },
+    {
+        "name": "supergonk",
+        "type": "toggle",
+        "img": "images/items/supergonk.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "supergonk"
+    },
+    {
+        "name": "obi-wankenobi(episode3)",
+        "type": "toggle",
+        "img": "images/items/obi-wankenobi(episode3).png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "obi-wankenobi(episode3)"
+    },
+    {
+        "name": "episode3unlock",
+        "type": "toggle",
+        "img": "images/items/episode3unlock.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "episode3unlock"
+    },
+    {
+        "name": "episode6unlock",
+        "type": "toggle",
+        "img": "images/items/episode6unlock.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "episode6unlock"
+    },
+    {
+        "name": "jangofett",
+        "type": "toggle",
+        "img": "images/items/jangofett.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "jangofett"
+    },
+    {
+        "name": "superlightsabers",
+        "type": "toggle",
+        "img": "images/items/superlightsabers.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "superlightsabers"
+    },
+    {
+        "name": "c-3po",
+        "type": "toggle",
+        "img": "images/items/c-3po.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "c-3po"
+    },
+    {
+        "name": "progressivescoremultiplier",
+        "type": "toggle",
+        "img": "images/items/progressivescoremultiplier.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "progressivescoremultiplier"
+    },
+    {
+        "name": "lobot",
+        "type": "toggle",
+        "img": "images/items/lobot.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "lobot"
+    },
+    {
+        "name": "grandmofftarkin",
+        "type": "toggle",
+        "img": "images/items/grandmofftarkin.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "grandmofftarkin"
+    },
+    {
+        "name": "superjedislam",
+        "type": "toggle",
+        "img": "images/items/superjedislam.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "superjedislam"
+    },
+    {
+        "name": "hansolo(hoth)",
+        "type": "toggle",
+        "img": "images/items/hansolo(hoth).png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "hansolo(hoth)"
+    },
+    {
+        "name": "r2-d2",
+        "type": "toggle",
+        "img": "images/items/r2-d2.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "r2-d2"
+    },
+    {
+        "name": "theemperor",
+        "type": "toggle",
+        "img": "images/items/theemperor.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "theemperor"
+    },
+    {
+        "name": "perfectdeflect",
+        "type": "toggle",
+        "img": "images/items/perfectdeflect.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "perfectdeflect"
+    },
+    {
+        "name": "dexterjettster",
+        "type": "toggle",
+        "img": "images/items/dexterjettster.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "dexterjettster"
+    },
+    {
+        "name": "shaakti",
+        "type": "toggle",
+        "img": "images/items/shaakti.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "shaakti"
+    },
+    {
+        "name": "captainpanaka",
+        "type": "toggle",
+        "img": "images/items/captainpanaka.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "captainpanaka"
+    },
+    {
+        "name": "bossnass",
+        "type": "toggle",
+        "img": "images/items/bossnass.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "bossnass"
+    },
+    {
+        "name": "bossk",
+        "type": "toggle",
+        "img": "images/items/bossk.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "bossk"
+    },
+    {
+        "name": "gonkdroid",
+        "type": "toggle",
+        "img": "images/items/gonkdroid.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "gonkdroid"
+    },
+    {
+        "name": "princessleia(endor)",
+        "type": "toggle",
+        "img": "images/items/princessleia(endor).png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "princessleia(endor)"
+    },
+    {
+        "name": "battledroid(geonosis)",
+        "type": "toggle",
+        "img": "images/items/battledroid(geonosis).png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "battledroid(geonosis)"
+    },
+    {
+        "name": "stormtrooper",
+        "type": "toggle",
+        "img": "images/items/stormtrooper.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "stormtrooper"
+    },
+    {
+        "name": "lukeskywalker(pilot)",
+        "type": "toggle",
+        "img": "images/items/lukeskywalker(pilot).png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "lukeskywalker(pilot)"
+    },
+    {
+        "name": "clone(episode3,walker)",
+        "type": "toggle",
+        "img": "images/items/clone(episode3,walker).png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "clone(episode3,walker)"
+    },
+    {
+        "name": "ewok",
+        "type": "toggle",
+        "img": "images/items/ewok.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "ewok"
+    },
+    {
+        "name": "forcepull",
+        "type": "toggle",
+        "img": "images/items/forcepull.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "forcepull"
+    },
+    {
+        "name": "lukeskywalker(bespin)",
+        "type": "toggle",
+        "img": "images/items/lukeskywalker(bespin).png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "lukeskywalker(bespin)"
+    },
+    {
+        "name": "clone(episode3,pilot)",
+        "type": "toggle",
+        "img": "images/items/clone(episode3,pilot).png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "clone(episode3,pilot)"
+    },
+    {
+        "name": "skiffguard",
+        "type": "toggle",
+        "img": "images/items/skiffguard.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "skiffguard"
+    },
+    {
+        "name": "tractorbeam",
+        "type": "toggle",
+        "img": "images/items/tractorbeam.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "tractorbeam"
+    },
+    {
+        "name": "hansolo",
+        "type": "toggle",
+        "img": "images/items/hansolo.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "hansolo"
+    },
+    {
+        "name": "darthvader",
+        "type": "toggle",
+        "img": "images/items/darthvader.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "darthvader"
+    },
+    {
+        "name": "macewindu(episode3)",
+        "type": "toggle",
+        "img": "images/items/macewindu(episode3).png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "macewindu(episode3)"
+    },
+    {
+        "name": "obi-wankenobi(jedimaster)",
+        "type": "toggle",
+        "img": "images/items/obi-wankenobi(jedimaster).png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "obi-wankenobi(jedimaster)"
+    },
+    {
+        "name": "studmagnet",
+        "type": "toggle",
+        "img": "images/items/studmagnet.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "studmagnet"
+    },
+    {
+        "name": "tiefighterpilot",
+        "type": "toggle",
+        "img": "images/items/tiefighterpilot.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "tiefighterpilot"
+    },
+    {
+        "name": "greedo",
+        "type": "toggle",
+        "img": "images/items/greedo.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "greedo"
+    },
+    {
+        "name": "deflectbolts",
+        "type": "toggle",
+        "img": "images/items/deflectbolts.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "deflectbolts"
+    },
+    {
+        "name": "royalguard",
+        "type": "toggle",
+        "img": "images/items/royalguard.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "royalguard"
+    },
+    {
+        "name": "clone",
+        "type": "toggle",
+        "img": "images/items/clone.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "clone"
+    },
+    {
+        "name": "kitfisto",
+        "type": "toggle",
+        "img": "images/items/kitfisto.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "kitfisto"
+    },
+    {
+        "name": "taunwe",
+        "type": "toggle",
+        "img": "images/items/taunwe.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "taunwe"
+    },
+    {
+        "name": "luminara",
+        "type": "toggle",
+        "img": "images/items/luminara.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "luminara"
+    },
+    {
+        "name": "sandtrooper",
+        "type": "toggle",
+        "img": "images/items/sandtrooper.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "sandtrooper"
+    },
+    {
+        "name": "episode4unlock",
+        "type": "toggle",
+        "img": "images/items/episode4unlock.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "episode4unlock"
+    },
+    {
+        "name": "minikitdetector",
+        "type": "toggle",
+        "img": "images/items/minikitdetector.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "minikitdetector"
+    },
+    {
+        "name": "hansolo(endor)",
+        "type": "toggle",
+        "img": "images/items/hansolo(endor).png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "hansolo(endor)"
+    },
+    {
+        "name": "anakinskywalker(boy)",
+        "type": "toggle",
+        "img": "images/items/anakinskywalker(boy).png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "anakinskywalker(boy)"
+    },
+    {
+        "name": "lamasu",
+        "type": "toggle",
+        "img": "images/items/lamasu.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "lamasu"
+    },
+    {
+        "name": "watto",
+        "type": "toggle",
+        "img": "images/items/watto.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "watto"
+    },
+    {
+        "name": "hansolo(stormtrooper)",
+        "type": "toggle",
+        "img": "images/items/hansolo(stormtrooper).png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "hansolo(stormtrooper)"
+    },
+    {
+        "name": "redbrickdetector",
+        "type": "toggle",
+        "img": "images/items/redbrickdetector.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "redbrickdetector"
+    },
+    {
+        "name": "plokloon",
+        "type": "toggle",
+        "img": "images/items/plokloon.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "plokloon"
+    },
+    {
+        "name": "r2-q5",
+        "type": "toggle",
+        "img": "images/items/r2-q5.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "r2-q5"
+    },
+    {
+        "name": "aaylasecura",
+        "type": "toggle",
+        "img": "images/items/aaylasecura.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "aaylasecura"
+    },
+    {
+        "name": "bibfortuna",
+        "type": "toggle",
+        "img": "images/items/bibfortuna.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "bibfortuna"
+    },
+    {
+        "name": "y-wing",
+        "type": "toggle",
+        "img": "images/items/y-wing.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "y-wing"
+    },
+    {
+        "name": "milleniumfalcon",
+        "type": "toggle",
+        "img": "images/items/milleniumfalcon.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "milleniumfalcon"
+    },
+    {
+        "name": "lukeskywalker(stormtrooper)",
+        "type": "toggle",
+        "img": "images/items/lukeskywalker(stormtrooper).png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "lukeskywalker(stormtrooper)"
+    },
+    {
+        "name": "anakinsstarfighter",
+        "type": "toggle",
+        "img": "images/items/anakinsstarfighter.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "anakinsstarfighter"
+    },
+    {
+        "name": "imperialofficer",
+        "type": "toggle",
+        "img": "images/items/imperialofficer.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "imperialofficer"
+    },
+    {
+        "name": "zamwesell",
+        "type": "toggle",
+        "img": "images/items/zamwesell.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "zamwesell"
+    },
+    {
+        "name": "fastforce",
+        "type": "toggle",
+        "img": "images/items/fastforce.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "fastforce"
+    },
+    {
+        "name": "yoda",
+        "type": "toggle",
+        "img": "images/items/yoda.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "yoda"
+    },
+    {
+        "name": "superbattledroid",
+        "type": "toggle",
+        "img": "images/items/superbattledroid.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "superbattledroid"
+    },
+    {
+        "name": "rebeltrooper",
+        "type": "toggle",
+        "img": "images/items/rebeltrooper.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "rebeltrooper"
+    },
+    {
+        "name": "fastbuild",
+        "type": "toggle",
+        "img": "images/items/fastbuild.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "fastbuild"
+    },
+    {
+        "name": "macewindu",
+        "type": "toggle",
+        "img": "images/items/macewindu.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "macewindu"
+    },
+    {
+        "name": "landocalrissian(palaceguard)",
+        "type": "toggle",
+        "img": "images/items/landocalrissian(palaceguard).png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "landocalrissian(palaceguard)"
+    },
+    {
+        "name": "tie-interceptor",
+        "type": "toggle",
+        "img": "images/items/tie-interceptor.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "tie-interceptor"
+    },
+    {
+        "name": "imperialspy",
+        "type": "toggle",
+        "img": "images/items/imperialspy.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "imperialspy"
+    },
+    {
+        "name": "lukeskywalker(dagobah)",
+        "type": "toggle",
+        "img": "images/items/lukeskywalker(dagobah).png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "lukeskywalker(dagobah)"
+    },
+    {
+        "name": "ki-adimundi",
+        "type": "toggle",
+        "img": "images/items/ki-adimundi.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "ki-adimundi"
+    },
+    {
+        "name": "countdooku",
+        "type": "toggle",
+        "img": "images/items/countdooku.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "countdooku"
+    },
+    {
+        "name": "superslap",
+        "type": "toggle",
+        "img": "images/items/superslap.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "superslap"
+    },
+    {
+        "name": "forcegrappleleap",
+        "type": "toggle",
+        "img": "images/items/forcegrappleleap.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "forcegrappleleap"
+    },
+    {
+        "name": "indianajones",
+        "type": "toggle",
+        "img": "images/items/indianajones.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "indianajones"
+    },
+    {
+        "name": "superewokcatapult",
+        "type": "toggle",
+        "img": "images/items/superewokcatapult.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "superewokcatapult"
+    },
+    {
+        "name": "yoda(ghost)",
+        "type": "toggle",
+        "img": "images/items/yoda(ghost).png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "yoda(ghost)"
+    },
+    {
+        "name": "chancellorpalpatine",
+        "type": "toggle",
+        "img": "images/items/chancellorpalpatine.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "chancellorpalpatine"
+    },
+    {
+        "name": "naboostarfighter",
+        "type": "toggle",
+        "img": "images/items/naboostarfighter.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "naboostarfighter"
+    },
+    {
+        "name": "update",
+        "type": "toggle",
+        "img": "images/items/update.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "update"
+    }
+]

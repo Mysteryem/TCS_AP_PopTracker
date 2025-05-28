@@ -1,0 +1,138 @@
+{
+    "tabbed_maps_horizontal": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Cantina",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Cantina"
+                    ]
+                }
+            },
+            {
+                "title": "Episode 1",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Episode 1"
+                    ]
+                }
+            },
+            {
+                "title": "Episode 2",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Episode 2"
+                    ]
+                }
+            },
+            {
+                "title": "Episode 3",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Episode 3"
+                    ]
+                }
+            },
+            {
+                "title": "Episode 4",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Episode 4"
+                    ]
+                }
+            },
+            {
+                "title": "Episode 5",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Episode 5"
+                    ]
+                }
+            },
+            {
+                "title": "Episode 6",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Episode 6"
+                    ]
+                }
+            }
+        ]
+    },
+    "tabbed_maps_vertical": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Cantina",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Cantina"
+                    ]
+                }
+            },
+            {
+                "title": "Episode 1",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Episode 1"
+                    ]
+                }
+            },
+            {
+                "title": "Episode 2",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Episode 2"
+                    ]
+                }
+            },
+            {
+                "title": "Episode 3",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Episode 3"
+                    ]
+                }
+            },
+            {
+                "title": "Episode 4",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Episode 4"
+                    ]
+                }
+            },
+            {
+                "title": "Episode 5",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Episode 5"
+                    ]
+                }
+            },
+            {
+                "title": "Episode 6",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Episode 6"
+                    ]
+                }
+            }
+        ]
+    }
+}

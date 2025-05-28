@@ -1,0 +1,1736 @@
+[
+    {
+        "name": "Episode 6 - hint",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "{}"
+        ],
+        "children": [
+            {
+                "name": "Jabba's Palace - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "children": [
+                    {
+                        "name": "Minikits - hint",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            "{}"
+                        ],
+                        "sections": [
+                            {
+                                "name": "6-1 Minikit 1 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_6_jabba's_palace_minikits_6-1_minikit_1"
+                                ],
+                                "item_count": 2
+                            },
+                            {
+                                "name": "6-1 Minikit 2 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_6_jabba's_palace_minikits_6-1_minikit_2"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-1 Minikit 3 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_6_jabba's_palace_minikits_6-1_minikit_3"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-1 Minikit 4 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_6_jabba's_palace_minikits_6-1_minikit_4"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-1 Minikit 5 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_6_jabba's_palace_minikits_6-1_minikit_5"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-1 Minikit 6 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_6_jabba's_palace_minikits_6-1_minikit_6"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-1 Minikit 7 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_6_jabba's_palace_minikits_6-1_minikit_7"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-1 Minikit 8 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_6_jabba's_palace_minikits_6-1_minikit_8"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-1 Minikit 9 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_6_jabba's_palace_minikits_6-1_minikit_9"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-1 Minikit 10 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_6_jabba's_palace_minikits_6-1_minikit_10"
+                                ],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Episode 6",
+                                "x": "1232",
+                                "y": "1479",
+                                "size": 12
+                            }
+                        ]
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Purchase Gamorrean Guard - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "episode_6_jabba's_palace_purchase_gamorrean_guard"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Purchase Bib Fortuna - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "episode_6_jabba's_palace_purchase_bib_fortuna"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Purchase Palace Guard - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "episode_6_jabba's_palace_purchase_palace_guard"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Purchase Bossk - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "episode_6_jabba's_palace_purchase_bossk"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Purchase Super Zapper (6-1) - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "episode_6_jabba's_palace_purchase_super_zapper_(6-1)"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "6-1 True Jedi - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "episode_6_jabba's_palace_6-1_true_jedi"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "6-1 Completion - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "episode_6_jabba's_palace_6-1_completion"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Episode 6",
+                        "x": "2055",
+                        "y": "1495",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Pit of Carkoon - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "children": [
+                    {
+                        "name": "Minikits - hint",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            "{}"
+                        ],
+                        "sections": [
+                            {
+                                "name": "6-2 Minikit 1 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_6_pit_of_carkoon_minikits_6-2_minikit_1"
+                                ],
+                                "item_count": 2
+                            },
+                            {
+                                "name": "6-2 Minikit 2 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_6_pit_of_carkoon_minikits_6-2_minikit_2"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-2 Minikit 3 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_6_pit_of_carkoon_minikits_6-2_minikit_3"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-2 Minikit 4 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_6_pit_of_carkoon_minikits_6-2_minikit_4"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-2 Minikit 5 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_6_pit_of_carkoon_minikits_6-2_minikit_5"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-2 Minikit 6 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_6_pit_of_carkoon_minikits_6-2_minikit_6"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-2 Minikit 7 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_6_pit_of_carkoon_minikits_6-2_minikit_7"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-2 Minikit 8 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_6_pit_of_carkoon_minikits_6-2_minikit_8"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-2 Minikit 9 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_6_pit_of_carkoon_minikits_6-2_minikit_9"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-2 Minikit 10 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_6_pit_of_carkoon_minikits_6-2_minikit_10"
+                                ],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Episode 6",
+                                "x": "2478",
+                                "y": "1606",
+                                "size": 12
+                            }
+                        ]
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Purchase Skiff Guard - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "episode_6_pit_of_carkoon_purchase_skiff_guard"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Purchase Boba Fett - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "episode_6_pit_of_carkoon_purchase_boba_fett"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Purchase Bounty Hunter Rockets (6-2) - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "episode_6_pit_of_carkoon_purchase_bounty_hunter_rockets_(6-2)"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "6-2 True Jedi - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "episode_6_pit_of_carkoon_6-2_true_jedi"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "6-2 Completion - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "episode_6_pit_of_carkoon_6-2_completion"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Episode 6",
+                        "x": "1535",
+                        "y": "1032",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Battle of Endor - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "children": [
+                    {
+                        "name": "Minikits - hint",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            "{}"
+                        ],
+                        "sections": [
+                            {
+                                "name": "6-4 Minikit 1 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_6_battle_of_endor_minikits_6-4_minikit_1"
+                                ],
+                                "item_count": 2
+                            },
+                            {
+                                "name": "6-4 Minikit 2 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_6_battle_of_endor_minikits_6-4_minikit_2"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-4 Minikit 3 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_6_battle_of_endor_minikits_6-4_minikit_3"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-4 Minikit 4 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_6_battle_of_endor_minikits_6-4_minikit_4"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-4 Minikit 5 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_6_battle_of_endor_minikits_6-4_minikit_5"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-4 Minikit 6 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_6_battle_of_endor_minikits_6-4_minikit_6"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-4 Minikit 7 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_6_battle_of_endor_minikits_6-4_minikit_7"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-4 Minikit 8 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_6_battle_of_endor_minikits_6-4_minikit_8"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-4 Minikit 9 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_6_battle_of_endor_minikits_6-4_minikit_9"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-4 Minikit 10 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_6_battle_of_endor_minikits_6-4_minikit_10"
+                                ],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Episode 6",
+                                "x": "1525",
+                                "y": "2139",
+                                "size": 12
+                            }
+                        ]
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Purchase Ewok - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "episode_6_battle_of_endor_purchase_ewok"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Purchase Super Ewok Catapult (6-4) - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "episode_6_battle_of_endor_purchase_super_ewok_catapult_(6-4)"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "6-4 True Jedi - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "episode_6_battle_of_endor_6-4_true_jedi"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "6-4 Completion - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "episode_6_battle_of_endor_6-4_completion"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Episode 6",
+                        "x": "2431",
+                        "y": "2020",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Jedi Destiny - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "children": [
+                    {
+                        "name": "Minikits - hint",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            "{}"
+                        ],
+                        "sections": [
+                            {
+                                "name": "6-5 Minikit 1 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_6_jedi_destiny_minikits_6-5_minikit_1"
+                                ],
+                                "item_count": 2
+                            },
+                            {
+                                "name": "6-5 Minikit 2 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_6_jedi_destiny_minikits_6-5_minikit_2"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-5 Minikit 3 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_6_jedi_destiny_minikits_6-5_minikit_3"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-5 Minikit 4 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_6_jedi_destiny_minikits_6-5_minikit_4"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-5 Minikit 5 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_6_jedi_destiny_minikits_6-5_minikit_5"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-5 Minikit 6 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_6_jedi_destiny_minikits_6-5_minikit_6"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-5 Minikit 7 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_6_jedi_destiny_minikits_6-5_minikit_7"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-5 Minikit 8 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_6_jedi_destiny_minikits_6-5_minikit_8"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-5 Minikit 9 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_6_jedi_destiny_minikits_6-5_minikit_9"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-5 Minikit 10 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_6_jedi_destiny_minikits_6-5_minikit_10"
+                                ],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Episode 6",
+                                "x": "430",
+                                "y": "1829",
+                                "size": 12
+                            }
+                        ]
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Purchase Imperial Guard - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "episode_6_jedi_destiny_purchase_imperial_guard"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Purchase The Emperor - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "episode_6_jedi_destiny_purchase_the_emperor"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "6-5 True Jedi - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "episode_6_jedi_destiny_6-5_true_jedi"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "6-5 Completion - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "episode_6_jedi_destiny_6-5_completion"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Episode 6",
+                        "x": "1353",
+                        "y": "1985",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Into the Death Star - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "children": [
+                    {
+                        "name": "Minikits - hint",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            "{}"
+                        ],
+                        "sections": [
+                            {
+                                "name": "6-6 Minikit 1 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_6_into_the_death_star_minikits_6-6_minikit_1"
+                                ],
+                                "item_count": 2
+                            },
+                            {
+                                "name": "6-6 Minikit 2 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_6_into_the_death_star_minikits_6-6_minikit_2"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-6 Minikit 3 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_6_into_the_death_star_minikits_6-6_minikit_3"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-6 Minikit 4 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_6_into_the_death_star_minikits_6-6_minikit_4"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-6 Minikit 5 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_6_into_the_death_star_minikits_6-6_minikit_5"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-6 Minikit 6 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_6_into_the_death_star_minikits_6-6_minikit_6"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-6 Minikit 7 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_6_into_the_death_star_minikits_6-6_minikit_7"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-6 Minikit 8 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_6_into_the_death_star_minikits_6-6_minikit_8"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-6 Minikit 9 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_6_into_the_death_star_minikits_6-6_minikit_9"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-6 Minikit 10 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_6_into_the_death_star_minikits_6-6_minikit_10"
+                                ],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Episode 6",
+                                "x": "1514",
+                                "y": "1431",
+                                "size": 12
+                            }
+                        ]
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Purchase Admiral Ackbar - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "episode_6_into_the_death_star_purchase_admiral_ackbar"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Purchase Infinite Torpedos (6-6) - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "episode_6_into_the_death_star_purchase_infinite_torpedos_(6-6)"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "6-6 True Jedi - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "episode_6_into_the_death_star_6-6_true_jedi"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "6-6 Completion - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "episode_6_into_the_death_star_6-6_completion"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Purchase Score x10 - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "episode_6_into_the_death_star_purchase_score_x10"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Episode 6",
+                        "x": "2472",
+                        "y": "1228",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Speeder Showdown - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "children": [
+                    {
+                        "name": "Minikits - hint",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            "{}"
+                        ],
+                        "sections": [
+                            {
+                                "name": "6-3 Minikit 1 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_6_speeder_showdown_minikits_6-3_minikit_1"
+                                ],
+                                "item_count": 2
+                            },
+                            {
+                                "name": "6-3 Minikit 2 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_6_speeder_showdown_minikits_6-3_minikit_2"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-3 Minikit 3 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_6_speeder_showdown_minikits_6-3_minikit_3"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-3 Minikit 4 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_6_speeder_showdown_minikits_6-3_minikit_4"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-3 Minikit 5 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_6_speeder_showdown_minikits_6-3_minikit_5"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-3 Minikit 6 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_6_speeder_showdown_minikits_6-3_minikit_6"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-3 Minikit 7 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_6_speeder_showdown_minikits_6-3_minikit_7"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-3 Minikit 8 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_6_speeder_showdown_minikits_6-3_minikit_8"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-3 Minikit 9 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_6_speeder_showdown_minikits_6-3_minikit_9"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-3 Minikit 10 - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "episode_6_speeder_showdown_minikits_6-3_minikit_10"
+                                ],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Episode 6",
+                                "x": "1980",
+                                "y": "2079",
+                                "size": 12
+                            }
+                        ]
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "6-3 True Jedi - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "episode_6_speeder_showdown_6-3_true_jedi"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "6-3 Completion - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "episode_6_speeder_showdown_6-3_completion"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Purchase Score x8 - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "episode_6_speeder_showdown_purchase_score_x8"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Episode 6",
+                        "x": "1304",
+                        "y": "1391",
+                        "size": 12
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Episode 6",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Jabba's Palace",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "children": [
+                    {
+                        "name": "Minikits",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "6-1 Minikit 1",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-1 Minikit 2",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-1 Minikit 3",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-1 Minikit 4",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-1 Minikit 5",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-1 Minikit 6",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-1 Minikit 7",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-1 Minikit 8",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-1 Minikit 9",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-1 Minikit 10",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Episode 6",
+                                "x": "1232",
+                                "y": "1479",
+                                "size": 6
+                            }
+                        ]
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Purchase Gamorrean Guard",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Purchase Bib Fortuna",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Purchase Palace Guard",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Purchase Bossk",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Purchase Super Zapper (6-1)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "6-1 True Jedi",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "6-1 Completion",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Episode 6",
+                        "x": "2055",
+                        "y": "1495",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Pit of Carkoon",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "children": [
+                    {
+                        "name": "Minikits",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "6-2 Minikit 1",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-2 Minikit 2",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-2 Minikit 3",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-2 Minikit 4",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-2 Minikit 5",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-2 Minikit 6",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-2 Minikit 7",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-2 Minikit 8",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-2 Minikit 9",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-2 Minikit 10",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Episode 6",
+                                "x": "2478",
+                                "y": "1606",
+                                "size": 6
+                            }
+                        ]
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Purchase Skiff Guard",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Purchase Boba Fett",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Purchase Bounty Hunter Rockets (6-2)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "6-2 True Jedi",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "6-2 Completion",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Episode 6",
+                        "x": "1535",
+                        "y": "1032",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Battle of Endor",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "children": [
+                    {
+                        "name": "Minikits",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "6-4 Minikit 1",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-4 Minikit 2",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-4 Minikit 3",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-4 Minikit 4",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-4 Minikit 5",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-4 Minikit 6",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-4 Minikit 7",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-4 Minikit 8",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-4 Minikit 9",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-4 Minikit 10",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Episode 6",
+                                "x": "1525",
+                                "y": "2139",
+                                "size": 6
+                            }
+                        ]
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Purchase Ewok",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Purchase Super Ewok Catapult (6-4)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "6-4 True Jedi",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "6-4 Completion",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Episode 6",
+                        "x": "2431",
+                        "y": "2020",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Jedi Destiny",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "children": [
+                    {
+                        "name": "Minikits",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "6-5 Minikit 1",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-5 Minikit 2",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-5 Minikit 3",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-5 Minikit 4",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-5 Minikit 5",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-5 Minikit 6",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-5 Minikit 7",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-5 Minikit 8",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-5 Minikit 9",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-5 Minikit 10",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Episode 6",
+                                "x": "430",
+                                "y": "1829",
+                                "size": 6
+                            }
+                        ]
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Purchase Imperial Guard",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Purchase The Emperor",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "6-5 True Jedi",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "6-5 Completion",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Episode 6",
+                        "x": "1353",
+                        "y": "1985",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Into the Death Star",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "children": [
+                    {
+                        "name": "Minikits",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "6-6 Minikit 1",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-6 Minikit 2",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-6 Minikit 3",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-6 Minikit 4",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-6 Minikit 5",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-6 Minikit 6",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-6 Minikit 7",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-6 Minikit 8",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-6 Minikit 9",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-6 Minikit 10",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Episode 6",
+                                "x": "1514",
+                                "y": "1431",
+                                "size": 6
+                            }
+                        ]
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Purchase Admiral Ackbar",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Purchase Infinite Torpedos (6-6)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "6-6 True Jedi",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "6-6 Completion",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Purchase Score x10",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Episode 6",
+                        "x": "2472",
+                        "y": "1228",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Speeder Showdown",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "children": [
+                    {
+                        "name": "Minikits",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "6-3 Minikit 1",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-3 Minikit 2",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-3 Minikit 3",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-3 Minikit 4",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-3 Minikit 5",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-3 Minikit 6",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-3 Minikit 7",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-3 Minikit 8",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-3 Minikit 9",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "6-3 Minikit 10",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Episode 6",
+                                "x": "1980",
+                                "y": "2079",
+                                "size": 6
+                            }
+                        ]
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "6-3 True Jedi",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "6-3 Completion",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Purchase Score x8",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Episode 6",
+                        "x": "1304",
+                        "y": "1391",
+                        "size": 6
+                    }
+                ]
+            }
+        ]
+    }
+]
