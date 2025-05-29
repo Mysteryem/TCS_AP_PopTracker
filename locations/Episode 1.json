@@ -775,10 +775,10 @@
                 ],
                 "sections": [
                     {
-                        "name": "Purchase Padm\u00e9 - hint",
+                        "name": "Purchase Padmé - hint",
                         "access_rules": [],
                         "visibility_rules": [
-                            "episode_1_escape_from_naboo_purchase_padm\u00e9"
+                            "episode_1_escape_from_naboo_purchase_padme"
                         ],
                         "item_count": 1
                     },
@@ -1594,7 +1594,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Purchase Padm\u00e9",
+                        "name": "Purchase Padmé",
                         "access_rules": [],
                         "visibility_rules": [],
                         "item_count": 1

@@ -730,14 +730,14 @@
         "codes": "episode_1_retake_theed_palace_minikits_1-5_minikit_2"
     },
     {
-        "name": "episode_1_escape_from_naboo_purchase_padm\u00e9",
+        "name": "episode_1_escape_from_naboo_purchase_padme",
         "type": "toggle",
-        "img": "images/items/episode_1_escape_from_naboo_purchase_padm\u00e9.png",
+        "img": "images/items/episode_1_escape_from_naboo_purchase_padme.png",
         "img_mods": "",
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "episode_1_escape_from_naboo_purchase_padm\u00e9"
+        "codes": "episode_1_escape_from_naboo_purchase_padme"
     },
     {
         "name": "episode_2_count_dooku_purchase_force_pull_(2-6)",
