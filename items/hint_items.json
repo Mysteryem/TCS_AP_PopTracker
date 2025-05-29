@@ -2030,14 +2030,14 @@
         "codes": "episode_6_pit_of_carkoon_minikits_6-2_minikit_8"
     },
     {
-        "name": "cantina_bonus_levels_indiana_jones:_trailer",
+        "name": "cantina_bonus_levels_indiana_jones_trailer",
         "type": "toggle",
-        "img": "images/items/cantina_bonus_levels_indiana_jones:_trailer.png",
+        "img": "images/items/cantina_bonus_levels_indiana_jones_trailer.png",
         "img_mods": "",
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "cantina_bonus_levels_indiana_jones:_trailer"
+        "codes": "cantina_bonus_levels_indiana_jones_trailer"
     },
     {
         "name": "episode_4_through_the_jundland_wastes_minikits_4-2_minikit_8",

@@ -551,5 +551,5 @@ HINTS_MAPPING = {
 	[550] = {{"cantina_bonus_levels_a_new_hope_(bonus_level)", "toggle"}},
 	[551] = {{"cantina_bonus_levels_lego_city", "toggle"}},
 	[552] = {{"cantina_bonus_levels_new_town", "toggle"}},
-	[553] = {{"cantina_bonus_levels_indiana_jones:_trailer", "toggle"}},
+	[553] = {{"cantina_bonus_levels_indiana_jones_trailer", "toggle"}},
 }
