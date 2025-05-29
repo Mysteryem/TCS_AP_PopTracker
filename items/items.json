@@ -367,12 +367,12 @@
     {
         "name": "Clone (Episode 3, Swamp)",
         "type": "toggle",
-        "img": "images/items/clone(episode3,swamp).png",
+        "img": "images/items/clone(episode3-swamp).png",
         "img_mods": "",
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "clone(episode3,swamp)"
+        "codes": "clone(episode3-swamp)"
     },
     {
         "name": "Anakin Skywalker (Jedi)",
@@ -1182,12 +1182,12 @@
     {
         "name": "Clone (Episode 3, Walker)",
         "type": "toggle",
-        "img": "images/items/clone(episode3,walker).png",
+        "img": "images/items/clone(episode3-walker).png",
         "img_mods": "",
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "clone(episode3,walker)"
+        "codes": "clone(episode3-walker)"
     },
     {
         "name": "Ewok",
@@ -1222,12 +1222,12 @@
     {
         "name": "Clone (Episode 3, Pilot)",
         "type": "toggle",
-        "img": "images/items/clone(episode3,pilot).png",
+        "img": "images/items/clone(episode3-pilot).png",
         "img_mods": "",
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "clone(episode3,pilot)"
+        "codes": "clone(episode3-pilot)"
     },
     {
         "name": "Skiff Guard",
