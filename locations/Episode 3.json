@@ -327,7 +327,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Purchase Super Thermal Detector (3-4) - hint",
+                        "name": "Purchase Super Thermal Detonator (3-4) - hint",
                         "access_rules": [],
                         "visibility_rules": [
                             "episode_3_defense_of_kashyyyk_purchase_super_thermal_detector_(3-4)"
@@ -1220,7 +1220,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Purchase Super Thermal Detector (3-4)",
+                        "name": "Purchase Super Thermal Detonator (3-4)",
                         "access_rules": [],
                         "visibility_rules": [],
                         "item_count": 1

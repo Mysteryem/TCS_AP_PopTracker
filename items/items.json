@@ -760,14 +760,14 @@
         "codes": "walkietalkiedisable"
     },
     {
-        "name": "Super Thermal Detector",
+        "name": "Super Thermal Detonator",
         "type": "toggle",
-        "img": "images/items/superthermaldetector.png",
+        "img": "images/items/superthermaldetonator.png",
         "img_mods": "",
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "superthermaldetector"
+        "codes": "superthermaldetonator"
     },
     {
         "name": "Captain Tarpals",
