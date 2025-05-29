@@ -1001,13 +1001,32 @@
     },
     {
         "name": "Progressive Score Multiplier",
-        "type": "toggle",
-        "img": "images/items/progressivescoremultiplier.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
+        "type": "progressive",
         "overlay_align": "right",
-        "codes": "progressivescoremultiplier"
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/items/progressivescoremultiplier2.png",
+                "img_mods": "@disabled"
+            },
+            {
+                "img": "images/items/progressivescoremultiplier2.png",
+                "codes": "progressivescoremultiplier"
+            },
+            {
+                "img": "images/items/progressivescoremultiplier4.png"
+            },
+            {
+                "img": "images/items/progressivescoremultiplier6.png"
+            },
+            {
+                "img": "images/items/progressivescoremultiplier8.png"
+            },
+            {
+                "img": "images/items/progressivescoremultiplier10.png"
+            }
+        ]
     },
     {
         "name": "Lobot",
