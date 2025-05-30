@@ -3,6 +3,10 @@ require("scripts/autotracking/item_mapping")
 require("scripts/autotracking/location_mapping")
 require("scripts/autotracking/hints_mapping")
 
+-- The first integer is the team (mostly unused by Archipelago currently). The second integer is the slot number.
+local GOAL_STATUS_FORMAT = "_read_client_status_%i_%i"
+goal_status_key = nil
+
 CUR_INDEX = -1
 --SLOT_DATA = nil
 
@@ -39,6 +43,12 @@ end
 function onClear(slot_data)
     --SLOT_DATA = slot_data
     COLLECTED_LOCATION_IDS = {}
+
+    -- Get and subscribe to changes in the player's status to track goal completion
+    goal_status_key = string.format(GOAL_STATUS_FORMAT, Archipelago.TeamNumber, Archipelago.PlayerNumber)
+    Archipelago:Get({goal_status_key})
+    Archipelago:SetNotify({goal_status_key})
+
     CUR_INDEX = -1
     -- reset locations
     for _, location_array in pairs(LOCATION_MAPPING) do
@@ -200,18 +210,36 @@ end
 --     end
 -- end
 
+local function checkGoalStatus(value)
+    -- CLIENT_UNKNOWN = 0
+    -- CLIENT_CONNECTED = 5
+    -- CLIENT_READY = 10
+    -- CLIENT_PLAYING = 20
+    -- CLIENT_GOAL = 30
+    if value == 30 then
+        local goal_location = Tracker:FindObjectForCode("@Cantina/Goal/Slave I")
+        goal_location.AvailableChestCount = goal_location.AvailableChestCount - 1
+    else
+        print(string.format("Current goal status is %s", value))
+    end
+end
+
 function onNotify(key, value, old_value)
     print("onNotify", key, value, old_value)
-    if value ~= old_value and key == HINTS_ID then
-        for _, hint in ipairs(value) do
-            if hint.finding_player == Archipelago.PlayerNumber then
-                if hint.found then
-                    updateHints(hint.location, true)
-                else
-                    updateHints(hint.location, false)
+    if key == HINTS_ID then
+        if value ~= old_value then
+            for _, hint in ipairs(value) do
+                if hint.finding_player == Archipelago.PlayerNumber then
+                    if hint.found then
+                        updateHints(hint.location, true)
+                    else
+                        updateHints(hint.location, false)
+                    end
                 end
             end
         end
+    elseif key == goal_status_key then
+        checkGoalStatus(value)
     end
 end
 
@@ -229,6 +257,8 @@ function onNotifyLaunch(key, value)
                 end
             end
         end
+    elseif key == goal_status_key then
+        checkGoalStatus(value)
     end
 end
 
