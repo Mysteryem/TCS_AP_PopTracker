@@ -8,13 +8,15 @@
         "Map Tracker": {
             "display_name": "Map Tracker",
             "flags": [
-                "ap"
+                "ap",
+                "apmanual"
             ]
         },
         "Items Only": {
             "display_name": "Items Only",
             "flags": [
-                "ap"
+                "ap",
+                "apmanual"
             ]
         }
     },

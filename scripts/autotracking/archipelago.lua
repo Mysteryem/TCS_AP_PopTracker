@@ -7,6 +7,7 @@ CUR_INDEX = -1
 --SLOT_DATA = nil
 
 SLOT_DATA = {}
+COLLECTED_LOCATION_IDS = {}
 
 function has_value (t, val)
     for i, v in ipairs(t) do
@@ -37,6 +38,7 @@ end
 
 function onClear(slot_data)
     --SLOT_DATA = slot_data
+    COLLECTED_LOCATION_IDS = {}
     CUR_INDEX = -1
     -- reset locations
     for _, location_array in pairs(LOCATION_MAPPING) do
@@ -132,6 +134,7 @@ end
 
 --called when a location gets cleared
 function onLocation(location_id, location_name)
+    COLLECTED_LOCATION_IDS[location_id] = true
     local location_array = LOCATION_MAPPING[location_id]
     if not location_array or not location_array[1] then
         print(string.format("onLocation: could not find location mapping for id %s", location_id))
@@ -245,6 +248,48 @@ function updateHints(locationID, clear)
         end
     end
 end
+
+-- Taken from the Pokemon Platinum tracker and modified.
+ScriptHost:AddOnLocationSectionChangedHandler("manual", function(section)
+    if section.AvailableChestCount ~= 0 then -- this only works for 1 chest per section
+        return
+    end
+
+    local sectionID = "@" .. section.FullID
+    local apID = sectionIDToAPID[sectionID]
+
+    -- The victory location is also a real AP location in manuals. While it should always contain our own Victory item,
+    -- it is technically possible for the location to be sent manually through a server cheat command, so the goal check
+    -- needs to run before deciding to early return if the location has already been collected.
+    if sectionID == "@Cantina/Goal/Slave I" then
+        if Tracker:ProviderCountForCode("5minikits") >= 54 then
+            local res = Archipelago:StatusUpdate(Archipelago.ClientStatus.GOAL)
+            if res then
+                print("Sent Victory")
+            else
+                print("Error sending Victory")
+            end
+        end
+    end
+
+    if COLLECTED_LOCATION_IDS[apID] ~= nil then
+        -- Location has been collected already (either by us or by !collect), don't sent it again.
+        return
+    end
+
+    -- AP location cleared
+    if apID ~= nil then
+        local res = Archipelago:LocationChecks({apID})
+        if res then
+            print("Sent " .. tostring(apID) .. " for " .. tostring(sectionID))
+            COLLECTED_LOCATION_IDS[apID] = true
+        else
+            print("Error sending " .. tostring(apID) .. " for " .. tostring(sectionID))
+        end
+    else
+        print(tostring(sectionID) .. " is not an AP location")
+    end
+end)
 
 
 -- ScriptHost:AddWatchForCode("settings autofill handler", "autofill_settings", autoFill)

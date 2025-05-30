@@ -553,3 +553,9 @@ LOCATION_MAPPING = {
 	[552] = {"@Cantina/Bonus Levels/New Town"},
 	[553] = {"@Cantina/Bonus Levels/Indiana Jones: Trailer"},
 }
+
+sectionIDToAPID = {}
+
+for apId, fullSectionIdTable in pairs(LOCATION_MAPPING) do
+    sectionIDToAPID[fullSectionIdTable[1]] = apId
+end
