@@ -7,7 +7,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "tuskenraider"
+        "codes": "tuskenraider, blaster"
     },
     {
         "name": "Obi-Wan's Starfighter",
@@ -37,7 +37,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "captainantilles"
+        "codes": "captainantilles, blaster"
     },
     {
         "name": "4-LOM",
@@ -47,7 +47,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "4-lom"
+        "codes": "4-lom, bounty, astromech, blaster"
     },
     {
         "name": "Grievous' Bodyguard",
@@ -57,7 +57,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "grievousbodyguard"
+        "codes": "grievousbodyguard, highjump"
     },
     {
         "name": "Imperial Shuttle Pilot",
@@ -67,7 +67,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "imperialshuttlepilot"
+        "codes": "imperialshuttlepilot, imperial, blaster"
     },
     {
         "name": "Invincibility",
@@ -97,7 +97,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "clone(episode3)"
+        "codes": "clone(episode3), imperial, blaster"
     },
     {
         "name": "Imperial Guard",
@@ -107,7 +107,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "imperialguard"
+        "codes": "imperialguard, imperial, blaster"
     },
     {
         "name": "Palace Guard",
@@ -117,7 +117,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "palaceguard"
+        "codes": "palaceguard, blaster"
     },
     {
         "name": "R4-P17",
@@ -127,7 +127,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "r4-p17"
+        "codes": "r4-p17, astromech"
     },
     {
         "name": "Bounty Hunter Rockets",
@@ -157,7 +157,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "commandercody"
+        "codes": "commandercody, imperial, blaster"
     },
     {
         "name": "Super Astromech",
@@ -197,7 +197,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "chewbacca"
+        "codes": "chewbacca, blaster"
     },
     {
         "name": "Death Star Trooper",
@@ -207,7 +207,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "deathstartrooper"
+        "codes": "deathstartrooper, imperial, blaster"
     },
     {
         "name": "Princess Leia (Prisoner)",
@@ -217,7 +217,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "princessleia(prisoner)"
+        "codes": "princessleia(prisoner), blaster"
     },
     {
         "name": "Han Solo (Hood)",
@@ -227,7 +227,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "hansolo(hood)"
+        "codes": "hansolo(hood), blaster"
     },
     {
         "name": "Episode 2 Unlock",
@@ -247,7 +247,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "landocalrissian"
+        "codes": "landocalrissian, blaster"
     },
     {
         "name": "Pit Droid",
@@ -287,7 +287,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "disguisedclone"
+        "codes": "disguisedclone, imperial, blaster"
     },
     {
         "name": "Gamorrean Guard",
@@ -362,7 +362,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "padme(battle)"
+        "codes": "padme(battle), blaster"
     },
     {
         "name": "Clone (Episode 3, Swamp)",
@@ -372,7 +372,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "clone(episode3-swamp)"
+        "codes": "clone(episode3-swamp), imperial, blaster"
     },
     {
         "name": "Anakin Skywalker (Jedi)",
@@ -392,7 +392,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "battledroid(commander)"
+        "codes": "battledroid(commander), blaster"
     },
     {
         "name": "Geonosian",
@@ -402,7 +402,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "geonosian"
+        "codes": "geonosian, blaster"
     },
     {
         "name": "Jawa",
@@ -412,7 +412,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "jawa"
+        "codes": "jawa, shortie"
     },
     {
         "name": "Princess Leia (Boushh)",
@@ -422,7 +422,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "princessleia(boushh)"
+        "codes": "princessleia(boushh), blaster"
     },
     {
         "name": "5 Minikits",
@@ -457,7 +457,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "padme"
+        "codes": "padme, blaster"
     },
     {
         "name": "Battle Droid (Security)",
@@ -467,7 +467,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "battledroid(security)"
+        "codes": "battledroid(security), blaster"
     },
     {
         "name": "Snowtrooper",
@@ -477,7 +477,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "snowtrooper"
+        "codes": "snowtrooper, imperial, blaster"
     },
     {
         "name": "Ben Kenobi",
@@ -497,7 +497,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "princessleia(slave)"
+        "codes": "princessleia(slave), blaster"
     },
     {
         "name": "Battle Droid",
@@ -507,7 +507,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "battledroid"
+        "codes": "battledroid, blaster"
     },
     {
         "name": "Admiral Ackbar",
@@ -517,7 +517,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "admiralackbar"
+        "codes": "admiralackbar, blaster"
     },
     {
         "name": "Luke Skywalker (Hoth)",
@@ -537,7 +537,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "rebelfriend"
+        "codes": "rebelfriend, blaster"
     },
     {
         "name": "Wookiee",
@@ -547,7 +547,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "wookiee"
+        "codes": "wookiee, blaster"
     },
     {
         "name": "Boba Fett (Boy)",
@@ -557,7 +557,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "bobafett(boy)"
+        "codes": "bobafett(boy), shortie"
     },
     {
         "name": "Disarm Troopers",
@@ -587,7 +587,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "wicket"
+        "codes": "wicket, shortie"
     },
     {
         "name": "Restart Level Trap",
@@ -627,7 +627,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "dengar"
+        "codes": "dengar, bounty, blaster"
     },
     {
         "name": "Han Solo (Skiff)",
@@ -637,7 +637,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "hansolo(skiff)"
+        "codes": "hansolo(skiff), blaster"
     },
     {
         "name": "Speeder",
@@ -657,7 +657,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "bobafett"
+        "codes": "bobafett, bounty, blaster"
     },
     {
         "name": "Princess Leia",
@@ -667,7 +667,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "princessleia"
+        "codes": "princessleia, blaster"
     },
     {
         "name": "Anakin Skywalker (Padawan)",
@@ -697,7 +697,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "princessleia(hoth)"
+        "codes": "princessleia(hoth), blaster"
     },
     {
         "name": "Padmé (Geonosis)",
@@ -707,7 +707,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "padme(geonosis)"
+        "codes": "padme(geonosis), blaster"
     },
     {
         "name": "Princess Leia (Bespin)",
@@ -717,7 +717,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "princessleia(bespin)"
+        "codes": "princessleia(bespin), blaster"
     },
     {
         "name": "Padmé (Clawed)",
@@ -727,7 +727,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "padme(clawed)"
+        "codes": "padme(clawed), blaster"
     },
     {
         "name": "Regenerate Hearts",
@@ -777,7 +777,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "captaintarpals"
+        "codes": "captaintarpals, highjump"
     },
     {
         "name": "Beach Trooper",
@@ -787,7 +787,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "beachtrooper"
+        "codes": "beachtrooper, imperial, blaster"
     },
     {
         "name": "IG-88",
@@ -797,7 +797,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "ig-88"
+        "codes": "ig-88, bounty, astromech, blaster"
     },
     {
         "name": "Queen Amidala",
@@ -807,7 +807,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "queenamidala"
+        "codes": "queenamidala, blaster"
     },
     {
         "name": "Super Blasters",
@@ -827,7 +827,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "bespinguard"
+        "codes": "bespinguard, blaster"
     },
     {
         "name": "General Grievous",
@@ -837,7 +837,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "generalgrievous"
+        "codes": "generalgrievous, highjump"
     },
     {
         "name": "Darth Maul",
@@ -847,7 +847,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "darthmaul"
+        "codes": "darthmaul, sith"
     },
     {
         "name": "Luke Skywalker (Tatooine)",
@@ -857,7 +857,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "lukeskywalker(tatooine)"
+        "codes": "lukeskywalker(tatooine), blaster"
     },
     {
         "name": "Rebel Trooper (Hoth)",
@@ -867,7 +867,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "rebeltrooper(hoth)"
+        "codes": "rebeltrooper(hoth), blaster"
     },
     {
         "name": "Dark Side",
@@ -887,7 +887,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "rebelpilot"
+        "codes": "rebelpilot, blaster"
     },
     {
         "name": "Jar Jar Binks",
@@ -897,7 +897,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "jarjarbinks"
+        "codes": "jarjarbinks, highjump"
     },
     {
         "name": "Droideka",
@@ -907,7 +907,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "droideka"
+        "codes": "droideka, blaster"//Could be a logic bug in the world because Droideka can't grapple
     },
     {
         "name": "Ugnaught",
@@ -917,7 +917,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "ugnaught"
+        "codes": "ugnaught, shortie"
     },
     {
         "name": "Republic Gunship",
@@ -977,7 +977,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "jangofett"
+        "codes": "jangofett, bounty, blaster"
     },
     {
         "name": "Super Lightsabers",
@@ -1046,7 +1046,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "grandmofftarkin"
+        "codes": "grandmofftarkin, imperial, blaster"
     },
     {
         "name": "Super Jedi Slam",
@@ -1066,7 +1066,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "hansolo(hoth)"
+        "codes": "hansolo(hoth), blaster"
     },
     {
         "name": "R2-D2",
@@ -1076,7 +1076,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "r2-d2"
+        "codes": "r2-d2, astromech"
     },
     {
         "name": "The Emperor",
@@ -1086,7 +1086,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "theemperor"
+        "codes": "theemperor, sith, imperial"
     },
     {
         "name": "Perfect Deflect",
@@ -1126,7 +1126,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "captainpanaka"
+        "codes": "captainpanaka, blaster"
     },
     {
         "name": "Boss Nass",
@@ -1146,7 +1146,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "bossk"
+        "codes": "bossk, bounty, blaster"
     },
     {
         "name": "Gonk Droid",
@@ -1166,7 +1166,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "princessleia(endor)"
+        "codes": "princessleia(endor), blaster"
     },
     {
         "name": "Battle Droid (Geonosis)",
@@ -1176,7 +1176,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "battledroid(geonosis)"
+        "codes": "battledroid(geonosis), blaster"
     },
     {
         "name": "Stormtrooper",
@@ -1186,7 +1186,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "stormtrooper"
+        "codes": "stormtrooper, imperial, blaster"
     },
     {
         "name": "Luke Skywalker (Pilot)",
@@ -1196,7 +1196,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "lukeskywalker(pilot)"
+        "codes": "lukeskywalker(pilot)"//Probably a logic bug in the world that this is missing 'blaster'
     },
     {
         "name": "Clone (Episode 3, Walker)",
@@ -1206,7 +1206,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "clone(episode3-walker)"
+        "codes": "clone(episode3-walker), imperial, blaster"
     },
     {
         "name": "Ewok",
@@ -1216,7 +1216,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "ewok"
+        "codes": "ewok, shortie, blaster"// blaster is probably a logic bug in the world in some cases
     },
     {
         "name": "Force Pull",
@@ -1246,7 +1246,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "clone(episode3-pilot)"
+        "codes": "clone(episode3-pilot), imperial, blaster"
     },
     {
         "name": "Skiff Guard",
@@ -1256,7 +1256,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "skiffguard"
+        "codes": "skiffguard, blaster"
     },
     {
         "name": "Tractor Beam",
@@ -1276,7 +1276,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "hansolo"
+        "codes": "hansolo, blaster"
     },
     {
         "name": "Darth Vader",
@@ -1286,7 +1286,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "darthvader"
+        "codes": "darthvader, sith, imperial"
     },
     {
         "name": "Mace Windu (Episode 3)",
@@ -1326,7 +1326,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "tiefighterpilot"
+        "codes": "tiefighterpilot, imperial, blaster"
     },
     {
         "name": "Greedo",
@@ -1336,7 +1336,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "greedo"
+        "codes": "greedo, bounty, blaster"
     },
     {
         "name": "Deflect Bolts",
@@ -1356,7 +1356,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "royalguard"
+        "codes": "royalguard, blaster"
     },
     {
         "name": "Clone",
@@ -1366,7 +1366,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "clone"
+        "codes": "clone, imperial, blaster"
     },
     {
         "name": "Kit Fisto",
@@ -1406,7 +1406,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "sandtrooper"
+        "codes": "sandtrooper, imperial, blaster"
     },
     {
         "name": "Episode 4 Unlock",
@@ -1436,7 +1436,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "hansolo(endor)"
+        "codes": "hansolo(endor), blaster"
     },
     {
         "name": "Anakin Skywalker (Boy)",
@@ -1446,7 +1446,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "anakinskywalker(boy)"
+        "codes": "anakinskywalker(boy), shortie"
     },
     {
         "name": "Lama Su",
@@ -1476,7 +1476,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "hansolo(stormtrooper)"
+        "codes": "hansolo(stormtrooper), blaster"
     },
     {
         "name": "Red Brick Detector",
@@ -1506,7 +1506,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "r2-q5"
+        "codes": "r2-q5, astromech"
     },
     {
         "name": "Aayla Secura",
@@ -1556,7 +1556,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "lukeskywalker(stormtrooper)"
+        "codes": "lukeskywalker(stormtrooper), blaster"
     },
     {
         "name": "Anakin's Starfighter",
@@ -1576,7 +1576,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "imperialofficer"
+        "codes": "imperialofficer, imperial, blaster"
     },
     {
         "name": "Zam Wesell",
@@ -1586,7 +1586,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "zamwesell"
+        "codes": "zamwesell, bounty, blaster"
     },
     {
         "name": "Fast Force",
@@ -1616,7 +1616,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "superbattledroid"
+        "codes": "superbattledroid, blaster"
     },
     {
         "name": "Rebel Trooper",
@@ -1626,7 +1626,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "rebeltrooper"
+        "codes": "rebeltrooper, blaster"
     },
     {
         "name": "Fast Build",
@@ -1656,7 +1656,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "landocalrissian(palaceguard)"
+        "codes": "landocalrissian(palaceguard), blaster"
     },
     {
         "name": "TIE-Interceptor",
@@ -1676,7 +1676,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "imperialspy"
+        "codes": "imperialspy, imperial"
     },
     {
         "name": "Luke Skywalker (Dagobah)",
@@ -1706,7 +1706,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "countdooku"
+        "codes": "countdooku, sith"
     },
     {
         "name": "Super Slap",
@@ -1736,7 +1736,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "indianajones"
+        "codes": "indianajones, blaster"
     },
     {
         "name": "Super Ewok Catapult",
