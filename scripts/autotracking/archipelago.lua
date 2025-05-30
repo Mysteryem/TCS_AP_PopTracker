@@ -224,19 +224,25 @@ local function checkGoalStatus(value)
     end
 end
 
+local function updateAllHints(value)
+    for _, hint in ipairs(value) do
+        -- print("hint", hint, hint.found)
+        -- print(dump_table(hint))
+        if hint.finding_player == Archipelago.PlayerNumber then
+            if hint.found then
+                updateHints(hint.location, true)
+            else
+                updateHints(hint.location, false)
+            end
+        end
+    end
+end
+
 function onNotify(key, value, old_value)
     print("onNotify", key, value, old_value)
     if key == HINTS_ID then
         if value ~= old_value then
-            for _, hint in ipairs(value) do
-                if hint.finding_player == Archipelago.PlayerNumber then
-                    if hint.found then
-                        updateHints(hint.location, true)
-                    else
-                        updateHints(hint.location, false)
-                    end
-                end
-            end
+            updateAllHints(value)
         end
     elseif key == goal_status_key then
         checkGoalStatus(value)
@@ -246,17 +252,7 @@ end
 function onNotifyLaunch(key, value)
     print("onNotifyLaunch", key, value)
     if key == HINTS_ID then
-        for _, hint in ipairs(value) do
-            -- print("hint", hint, hint.found)
-            -- print(dump_table(hint))
-            if hint.finding_player == Archipelago.PlayerNumber then
-                if hint.found then
-                    updateHints(hint.location, true)
-                else
-                    updateHints(hint.location, false)
-                end
-            end
-        end
+        updateAllHints(value)
     elseif key == goal_status_key then
         checkGoalStatus(value)
     end
