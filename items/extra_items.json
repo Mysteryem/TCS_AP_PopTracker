@@ -12,7 +12,6 @@
     "type": "static",
     "img": "images/items/qui-gonjinn.png",
     "img_mods": "",
-    "initial_active_state": false,
     "overlay_align": "right",
     "codes": "qui-gonjinn"
   },
@@ -21,7 +20,6 @@
     "type": "static",
     "img": "images/items/tc-14.png",
     "img_mods": "",
-    "initial_active_state": false,
     "overlay_align": "right",
     "codes": "tc-14"
   },
