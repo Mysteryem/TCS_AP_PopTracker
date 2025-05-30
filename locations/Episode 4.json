@@ -984,7 +984,7 @@
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
-            " "
+            "episode4unlock"
         ],
         "children": [
             {
@@ -993,7 +993,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "princessleia, captainantilles, c-3po, r2-d2, rebelfriend"
                 ],
                 "children": [
                     {
@@ -1127,7 +1127,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "lukeskywalker(tatooine), c-3po, r2-d2, benkenobi"
                 ],
                 "children": [
                     {
@@ -1255,7 +1255,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "hansolo, benkenobi, lukeskywalker(tatooine), c-3po, r2-d2, chewbacca"
                 ],
                 "children": [
                     {
@@ -1389,7 +1389,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "lukeskywalker(stormtrooper), benkenobi, hansolo(stormtrooper), chewbacca, c-3po, r2-d2"
                 ],
                 "children": [
                     {
@@ -1535,7 +1535,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "lukeskywalker(tatooine), princessleia, hansolo, chewbacca, c-3po, r2-d2"
                 ],
                 "children": [
                     {
@@ -1651,7 +1651,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "x-wing, y-wing"
                 ],
                 "children": [
                     {
