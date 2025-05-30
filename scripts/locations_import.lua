@@ -1,3 +1,4 @@
+Tracker:AddLocations("locations/logic/macros.json")
 Tracker:AddLocations("locations/Cantina.json")
 Tracker:AddLocations("locations/Episode 1.json")
 Tracker:AddLocations("locations/Episode 2.json")

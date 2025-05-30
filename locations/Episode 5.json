@@ -962,7 +962,7 @@
                         "chest_opened_img": "/images/items/open.png",
                         "overlay_background": "#000000",
                         "access_rules": [
-                            " "
+                            "sith, @Macros/DroidOrFly, astromech, bounty"
                         ],
                         "sections": [
                             {
@@ -1050,7 +1050,9 @@
                     },
                     {
                         "name": "Purchase Fast Build (5-2)",
-                        "access_rules": [],
+                        "access_rules": [
+                            "sith"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -1090,7 +1092,7 @@
                         "chest_opened_img": "/images/items/open.png",
                         "overlay_background": "#000000",
                         "access_rules": [
-                            " "
+                            "tie-interceptor"
                         ],
                         "sections": [
                             {
@@ -1184,7 +1186,9 @@
                     },
                     {
                         "name": "Purchase Self Destruct (5-1)",
-                        "access_rules": [],
+                        "access_rules": [
+                            "tie-interceptor"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -1224,7 +1228,7 @@
                         "chest_opened_img": "/images/items/open.png",
                         "overlay_background": "#000000",
                         "access_rules": [
-                            " "
+                            "sith, bounty"
                         ],
                         "sections": [
                             {
@@ -1318,7 +1322,9 @@
                     },
                     {
                         "name": "Purchase Minikit Detector (5-6)",
-                        "access_rules": [],
+                        "access_rules": [
+                            "bounty"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -1358,7 +1364,7 @@
                         "chest_opened_img": "/images/items/open.png",
                         "overlay_background": "#000000",
                         "access_rules": [
-                            " "
+                            "sith, bounty"
                         ],
                         "sections": [
                             {
@@ -1434,7 +1440,9 @@
                 "sections": [
                     {
                         "name": "Purchase Regenerate Hearts (5-4)",
-                        "access_rules": [],
+                        "access_rules": [
+                            "sith"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -1474,7 +1482,8 @@
                         "chest_opened_img": "/images/items/open.png",
                         "overlay_background": "#000000",
                         "access_rules": [
-                            " "
+                            "snowspeeder, tie-interceptor",
+                            "republicgunship, tie-interceptor"
                         ],
                         "sections": [
                             {
@@ -1590,7 +1599,7 @@
                         "chest_opened_img": "/images/items/open.png",
                         "overlay_background": "#000000",
                         "access_rules": [
-                            " "
+                            "bounty, imperial, shortie"
                         ],
                         "sections": [
                             {
@@ -1678,7 +1687,9 @@
                     },
                     {
                         "name": "Purchase Score x6",
-                        "access_rules": [],
+                        "access_rules": [
+                            "bounty, @Macros/DroidOrFly"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }

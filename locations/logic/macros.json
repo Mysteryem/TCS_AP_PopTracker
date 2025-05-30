@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Macros",
+    "children": [
+      {
+        "name": "DroidOrFly",// Unsure what this is actually meant to be
+        "access_rules": [
+          "r2-q5",
+          "ig-88",
+          "4-lom",
+          "r4-p17",
+          "r2-d2",
+          "jangofett",
+          "bobafett"
+        ]
+      }
+    ]
+  }
+]

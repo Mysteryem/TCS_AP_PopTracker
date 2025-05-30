@@ -986,7 +986,7 @@
                         "chest_opened_img": "/images/items/open.png",
                         "overlay_background": "#000000",
                         "access_rules": [
-                            " "
+                            "highjump, astromech, @Macros/DroidOrFly, shortie"
                         ],
                         "sections": [
                             {
@@ -1086,7 +1086,9 @@
                     },
                     {
                         "name": "Purchase Super Gonk (1-1)",
-                        "access_rules": [],
+                        "access_rules": [
+                            "highjump"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -1126,7 +1128,7 @@
                         "chest_opened_img": "/images/items/open.png",
                         "overlay_background": "#000000",
                         "access_rules": [
-                            " "
+                            "shortie"
                         ],
                         "sections": [
                             {
@@ -1220,7 +1222,9 @@
                     },
                     {
                         "name": "Purchase Fertilizer (1-2)",
-                        "access_rules": [],
+                        "access_rules": [
+                            "bounty"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -1260,7 +1264,7 @@
                         "chest_opened_img": "/images/items/open.png",
                         "overlay_background": "#000000",
                         "access_rules": [
-                            " "
+                            "tie-interceptor"
                         ],
                         "sections": [
                             {
@@ -1379,7 +1383,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "sith, highjump, blaster, bounty, imperial"
                 ],
                 "children": [
                     {
@@ -1470,7 +1474,9 @@
                     },
                     {
                         "name": "Purchase Force Grapple Leap (1-6)",
-                        "access_rules": [],
+                        "access_rules": [
+                            "imperial"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -1510,7 +1516,7 @@
                         "chest_opened_img": "/images/items/open.png",
                         "overlay_background": "#000000",
                         "access_rules": [
-                            " "
+                            "sith, highjump, @Macros/DroidOrFly, bounty, shortie"
                         ],
                         "sections": [
                             {
@@ -1592,7 +1598,9 @@
                     },
                     {
                         "name": "Purchase Walkie Talkie Disable (1-3)",
-                        "access_rules": [],
+                        "access_rules": [
+                            "bounty, sith"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -1632,7 +1640,7 @@
                         "chest_opened_img": "/images/items/open.png",
                         "overlay_background": "#000000",
                         "access_rules": [
-                            " "
+                            "sith, highjump, bounty"
                         ],
                         "sections": [
                             {

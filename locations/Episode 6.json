@@ -978,7 +978,7 @@
                         "chest_opened_img": "/images/items/open.png",
                         "overlay_background": "#000000",
                         "access_rules": [
-                            " "
+                            "sith, bounty, imperial, shortie"
                         ],
                         "sections": [
                             {
@@ -1118,7 +1118,7 @@
                         "chest_opened_img": "/images/items/open.png",
                         "overlay_background": "#000000",
                         "access_rules": [
-                            " "
+                            "sith, @Macros/DroidOrFly, shortie"
                         ],
                         "sections": [
                             {
@@ -1246,7 +1246,7 @@
                         "chest_opened_img": "/images/items/open.png",
                         "overlay_background": "#000000",
                         "access_rules": [
-                            " "
+                            "bounty"
                         ],
                         "sections": [
                             {
@@ -1328,7 +1328,9 @@
                     },
                     {
                         "name": "Purchase Super Ewok Catapult (6-4)",
-                        "access_rules": [],
+                        "access_rules": [
+                            "shortie"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -1368,7 +1370,7 @@
                         "chest_opened_img": "/images/items/open.png",
                         "overlay_background": "#000000",
                         "access_rules": [
-                            " "
+                            "highjump, blaster, bounty, shortie"
                         ],
                         "sections": [
                             {
@@ -1490,7 +1492,7 @@
                         "chest_opened_img": "/images/items/open.png",
                         "overlay_background": "#000000",
                         "access_rules": [
-                            " "
+                            "tie-interceptor"
                         ],
                         "sections": [
                             {
@@ -1618,7 +1620,7 @@
                         "chest_opened_img": "/images/items/open.png",
                         "overlay_background": "#000000",
                         "access_rules": [
-                            " "
+                            "sith, highjump, bounty, imperial, shortie"
                         ],
                         "sections": [
                             {
@@ -1706,7 +1708,9 @@
                     },
                     {
                         "name": "Purchase Score x8",
-                        "access_rules": [],
+                        "access_rules": [
+                            "shortie"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }

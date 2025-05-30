@@ -1002,7 +1002,7 @@
                         "chest_opened_img": "/images/items/open.png",
                         "overlay_background": "#000000",
                         "access_rules": [
-                            " "
+                            "sith, bounty, imperial"
                         ],
                         "sections": [
                             {
@@ -1136,7 +1136,7 @@
                         "chest_opened_img": "/images/items/open.png",
                         "overlay_background": "#000000",
                         "access_rules": [
-                            " "
+                            "sith, shortie"
                         ],
                         "sections": [
                             {
@@ -1224,7 +1224,9 @@
                     },
                     {
                         "name": "Purchase Fast Force (4-2)",
-                        "access_rules": [],
+                        "access_rules": [
+                            "bounty"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -1264,7 +1266,7 @@
                         "chest_opened_img": "/images/items/open.png",
                         "overlay_background": "#000000",
                         "access_rules": [
-                            " "
+                            "sith, highjump, bounty, shortie"
                         ],
                         "sections": [
                             {
@@ -1398,7 +1400,7 @@
                         "chest_opened_img": "/images/items/open.png",
                         "overlay_background": "#000000",
                         "access_rules": [
-                            " "
+                            "sith, bounty, imperial"
                         ],
                         "sections": [
                             {
@@ -1544,7 +1546,7 @@
                         "chest_opened_img": "/images/items/open.png",
                         "overlay_background": "#000000",
                         "access_rules": [
-                            " "
+                            "sith, bounty, imperial, shortie"
                         ],
                         "sections": [
                             {
@@ -1660,7 +1662,8 @@
                         "chest_opened_img": "/images/items/open.png",
                         "overlay_background": "#000000",
                         "access_rules": [
-                            " "
+                            "snowspeeder, tie-interceptor",
+                            "republicgunship, tie-interceptor"
                         ],
                         "sections": [
                             {
