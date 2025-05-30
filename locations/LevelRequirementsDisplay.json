@@ -646,6 +646,36 @@
             ]
           }
         ]
+      },
+      {
+        "name": "Items for Bonus Levels",
+        "sections": [
+          {
+            "name": "Mos Espa Podrace (Original)",
+            "hosted_item": "anakinspodracer"
+          },
+          {
+            "name": "Anakin's Flight",
+            "hosted_item": "naboostarfighter"
+          },
+          {
+            "name": "Gunship Cavalry (Original)",
+            "hosted_item": "republicgunship"
+          },
+          {
+            "name": "A New Hope (Bonus Level)",
+            "hosted_item": "darthvader, c-3po, stormtrooper"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Cantina",
+            "x": 950,
+            "y": 168,
+            "shape": "diamond",
+            "size": 20
+          }
+        ]
       }
     ]
   }
