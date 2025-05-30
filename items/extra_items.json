@@ -24,5 +24,13 @@
     "initial_active_state": false,
     "overlay_align": "right",
     "codes": "tc-14"
+  },
+  {
+    "name": "Episode 1 Unlock",
+    "type": "static",
+    "img": "images/items/episode1unlock.png",
+    "img_mods": "",
+    "overlay_align": "right",
+    "codes": "episode1unlock"
   }
 ]
