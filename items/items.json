@@ -21,10 +21,14 @@
     },
     {
         "name": "Progressive Bonus Level",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/progressivebonuslevel.png",
         "img_mods": "",
-        "disabled_img": "",
+        "min_quantity": 0,
+        "max_quantity": 6,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "progressivebonuslevel"
