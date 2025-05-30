@@ -1781,15 +1781,5 @@
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "naboostarfighter"
-    },
-    {
-        "name": "update",
-        "type": "toggle",
-        "img": "images/items/update.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "update"
     }
 ]
