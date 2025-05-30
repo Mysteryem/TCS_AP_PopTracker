@@ -1,0 +1,652 @@
+[
+  {
+    "name": "Level Requirements Display",
+    "access_rules": [
+      "never"
+    ],
+    "children": [
+      {
+        "name": "Episode 1",
+        "children": [
+          {
+            "name": "Items for 1-1",
+            "sections": [
+              {
+                "hosted_item": "obi-wankenobi, qui-gonjinn, tc-14"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 1",
+                "x": 77,
+                "y": 183,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Items for 1-2",
+            "sections": [
+              {
+                "hosted_item": "obi-wankenobi, qui-gonjinn, jarjarbinks"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 1",
+                "x": 256,
+                "y": 183,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Items for 1-3",
+            "sections": [
+              {
+                "hosted_item": "obi-wankenobi, qui-gonjinn, captainpanaka, queenamidala"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 1",
+                "x": 399,
+                "y": 183,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Items for 1-4",
+            "sections": [
+              {
+                "hosted_item": "anakinspodracer"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 1",
+                "x": 559,
+                "y": 183,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Items for 1-5",
+            "sections": [
+              {
+                "hosted_item": "obi-wankenobi, qui-gonjinn, captainpanaka, queenamidala, r2-d2, anakinskywalker(boy)"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 1",
+                "x": 740,
+                "y": 183,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Items for 1-6",
+            "sections": [
+              {
+                "hosted_item": "obi-wankenobi, qui-gonjinn"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 1",
+                "x": 923,
+                "y": 183,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Episode 2",
+        "children": [
+          {
+            "name": "Items for 2-1",
+            "sections": [
+              {
+                "hosted_item": "speeder"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 2",
+                "x": 79,
+                "y": 183,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Items for 2-2",
+            "sections": [
+              {
+                "hosted_item": "r4-p17, obi-wankenobi(jedimaster)"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 2",
+                "x": 287,
+                "y": 175,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Items for 2-3",
+            "sections": [
+              {
+                "hosted_item": "anakinskywalker(padawan), padme(geonosis), r2-d2, c-3po"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 2",
+                "x": 466,
+                "y": 168,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Items for 2-4",
+            "sections": [
+              {
+                "hosted_item": "macewindu, padme(clawed), anakinskywalker(padawan), obi-wankenobi(jedimaster)"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 2",
+                "x": 610,
+                "y": 161,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Items for 2-5",
+            "sections": [
+              {
+                "hosted_item": "republicgunship"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 2",
+                "x": 775,
+                "y": 165,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Items for 2-6",
+            "sections": [
+              {
+                "hosted_item": "anakinskywalker(padawan), obi-wankenobi(jedimaster), yoda"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 2",
+                "x": 922,
+                "y": 175,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Episode 3",
+        "children": [
+          {
+            "name": "Items for 3-1",
+            "sections": [
+              {
+                "hosted_item": "obi-wansstarfighter, anakinsstarfighter"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 3",
+                "x": 107,
+                "y": 293,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Items for 3-2",
+            "sections": [
+              {
+                "hosted_item": "anakinskywalker(jedi), chancellorpalpatine, obi-wankenobi(episode3), r2-d2"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 3",
+                "x": 378,
+                "y": 252,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Items for 3-3",
+            "sections": [
+              {
+                "hosted_item": "obi-wankenobi(episode3), commandercody"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 3",
+                "x": 540,
+                "y": 248,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Items for 3-4",
+            "sections": [
+              {
+                "hosted_item": "chewbacca, yoda"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 3",
+                "x": 662,
+                "y": 215,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Items for 3-5",
+            "sections": [
+              {
+                "hosted_item": "obi-wankenobi(episode3), yoda"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 3",
+                "x": 774,
+                "y": 207,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Items for 3-6",
+            "sections": [
+              {
+                "hosted_item": "anakinskywalker(jedi), obi-wankenobi(episode3)"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 3",
+                "x": 917,
+                "y": 208,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Episode 4",
+        "children": [
+          {
+            "name": "Items for 4-1",
+            "sections": [
+              {
+                "hosted_item": "princessleia, captainantilles, c-3po, r2-d2, rebelfriend"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 4",
+                "x": 79,
+                "y": 166,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Items for 4-2",
+            "sections": [
+              {
+                "hosted_item": "lukeskywalker(tatooine), c-3po, r2-d2, benkenobi"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 4",
+                "x": 252,
+                "y": 166,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Items for 4-3",
+            "sections": [
+              {
+                "hosted_item": "hansolo, benkenobi, lukeskywalker(tatooine), c-3po, r2-d2, chewbacca"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 4",
+                "x": 422,
+                "y": 166,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Items for 4-4",
+            "sections": [
+              {
+                "hosted_item": "lukeskywalker(stormtrooper), benkenobi, hansolo(stormtrooper), chewbacca, c-3po, r2-d2"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 4",
+                "x": 606,
+                "y": 166,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Items for 4-5",
+            "sections": [
+              {
+                "hosted_item": "lukeskywalker(tatooine), princessleia, hansolo, chewbacca, c-3po, r2-d2"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 4",
+                "x": 779,
+                "y": 166,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Items for 4-6",
+            "sections": [
+              {
+                "hosted_item": "x-wing, y-wing"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 4",
+                "x": 940,
+                "y": 166,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Episode 5",
+        "children": [
+          {
+            "name": "Items for 5-1",
+            "sections": [
+              {
+                "hosted_item": "snowspeeder"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 5",
+                "x": 52,
+                "y": 182,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Items for 5-2",
+            "sections": [
+              {
+                "hosted_item": "hansolo(hoth), princessleia(hoth), c-3po, chewbacca"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 5",
+                "x": 274,
+                "y": 168,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Items for 5-3",
+            "sections": [
+              {
+                "hosted_item": "milleniumfalcon, x-wing"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 5",
+                "x": 474,
+                "y": 164,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Items for 5-4",
+            "sections": [
+              {
+                "hosted_item": "lukeskywalker(pilot), lukeskywalker(dagobah), r2-d2, yoda"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 5",
+                "x": 625,
+                "y": 159,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Items for 5-5",
+            "sections": [
+              {
+                "hosted_item": "lukeskywalker(bespin), r2-d2"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 5",
+                "x": 828,
+                "y": 166,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Items for 5-6",
+            "sections": [
+              {
+                "hosted_item": "princessleia(bespin), landocalrissian, c-3po, r2-d2"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 5",
+                "x": 986,
+                "y": 178,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Episode 6",
+        "children": [
+          {
+            "name": "Items for 6-1",
+            "sections": [
+              {
+                "hosted_item": "princessleia(boushh), chewbacca, lukeskywalker(jedi), r2-d2, c-3po, hansolo(skiff)"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 6",
+                "x": 82,
+                "y": 204,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Items for 6-2",
+            "sections": [
+              {
+                "hosted_item": "lukeskywalker(jedi), landocalrissian(palaceguard), hansolo(skiff), chewbacca, r2-d2, c-3po, princessleia(slave)"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 6",
+                "x": 251,
+                "y": 188,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Items for 6-3",
+            "sections": [
+              {
+                "hosted_item": "lukeskywalker(endor), princessleia(endor)"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 6",
+                "x": 412,
+                "y": 178,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Items for 6-4",
+            "sections": [
+              {
+                "hosted_item": "hansolo(endor), princessleia(endor), chewbacca, r2-d2, c-3po, wicket"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 6",
+                "x": 573,
+                "y": 176,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Items for 6-5",
+            "sections": [
+              {
+                "hosted_item": "darthvader, lukeskywalker(jedi)"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 6",
+                "x": 743,
+                "y": 184,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Items for 6-6",
+            "sections": [
+              {
+                "hosted_item": "milleniumfalcon, x-wing"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 6",
+                "x": 924,
+                "y": 196,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
