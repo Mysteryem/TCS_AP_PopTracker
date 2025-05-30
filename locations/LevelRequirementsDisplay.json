@@ -9,7 +9,7 @@
         "name": "Episode 1",
         "children": [
           {
-            "name": "Items for 1-1",
+            "name": "Characters for 1-1",
             "sections": [
               {
                 "hosted_item": "obi-wankenobi, qui-gonjinn, tc-14"
@@ -26,7 +26,7 @@
             ]
           },
           {
-            "name": "Items for 1-2",
+            "name": "Characters for 1-2",
             "sections": [
               {
                 "hosted_item": "obi-wankenobi, qui-gonjinn, jarjarbinks"
@@ -43,7 +43,7 @@
             ]
           },
           {
-            "name": "Items for 1-3",
+            "name": "Characters for 1-3",
             "sections": [
               {
                 "hosted_item": "obi-wankenobi, qui-gonjinn, captainpanaka, queenamidala"
@@ -60,7 +60,7 @@
             ]
           },
           {
-            "name": "Items for 1-4",
+            "name": "Characters for 1-4",
             "sections": [
               {
                 "hosted_item": "anakinspodracer"
@@ -77,7 +77,7 @@
             ]
           },
           {
-            "name": "Items for 1-5",
+            "name": "Characters for 1-5",
             "sections": [
               {
                 "hosted_item": "obi-wankenobi, qui-gonjinn, captainpanaka, queenamidala, r2-d2, anakinskywalker(boy)"
@@ -94,7 +94,7 @@
             ]
           },
           {
-            "name": "Items for 1-6",
+            "name": "Characters for 1-6",
             "sections": [
               {
                 "hosted_item": "obi-wankenobi, qui-gonjinn"
@@ -116,7 +116,7 @@
         "name": "Episode 2",
         "children": [
           {
-            "name": "Items for 2-1",
+            "name": "Characters for 2-1",
             "sections": [
               {
                 "hosted_item": "speeder"
@@ -133,7 +133,7 @@
             ]
           },
           {
-            "name": "Items for 2-2",
+            "name": "Characters for 2-2",
             "sections": [
               {
                 "hosted_item": "r4-p17, obi-wankenobi(jedimaster)"
@@ -150,7 +150,7 @@
             ]
           },
           {
-            "name": "Items for 2-3",
+            "name": "Characters for 2-3",
             "sections": [
               {
                 "hosted_item": "anakinskywalker(padawan), padme(geonosis), r2-d2, c-3po"
@@ -167,7 +167,7 @@
             ]
           },
           {
-            "name": "Items for 2-4",
+            "name": "Characters for 2-4",
             "sections": [
               {
                 "hosted_item": "macewindu, padme(clawed), anakinskywalker(padawan), obi-wankenobi(jedimaster)"
@@ -184,7 +184,7 @@
             ]
           },
           {
-            "name": "Items for 2-5",
+            "name": "Characters for 2-5",
             "sections": [
               {
                 "hosted_item": "republicgunship"
@@ -201,7 +201,7 @@
             ]
           },
           {
-            "name": "Items for 2-6",
+            "name": "Characters for 2-6",
             "sections": [
               {
                 "hosted_item": "anakinskywalker(padawan), obi-wankenobi(jedimaster), yoda"
@@ -223,7 +223,7 @@
         "name": "Episode 3",
         "children": [
           {
-            "name": "Items for 3-1",
+            "name": "Characters for 3-1",
             "sections": [
               {
                 "hosted_item": "obi-wansstarfighter, anakinsstarfighter"
@@ -240,7 +240,7 @@
             ]
           },
           {
-            "name": "Items for 3-2",
+            "name": "Characters for 3-2",
             "sections": [
               {
                 "hosted_item": "anakinskywalker(jedi), chancellorpalpatine, obi-wankenobi(episode3), r2-d2"
@@ -257,7 +257,7 @@
             ]
           },
           {
-            "name": "Items for 3-3",
+            "name": "Characters for 3-3",
             "sections": [
               {
                 "hosted_item": "obi-wankenobi(episode3), commandercody"
@@ -274,7 +274,7 @@
             ]
           },
           {
-            "name": "Items for 3-4",
+            "name": "Characters for 3-4",
             "sections": [
               {
                 "hosted_item": "chewbacca, yoda"
@@ -291,7 +291,7 @@
             ]
           },
           {
-            "name": "Items for 3-5",
+            "name": "Characters for 3-5",
             "sections": [
               {
                 "hosted_item": "obi-wankenobi(episode3), yoda"
@@ -308,7 +308,7 @@
             ]
           },
           {
-            "name": "Items for 3-6",
+            "name": "Characters for 3-6",
             "sections": [
               {
                 "hosted_item": "anakinskywalker(jedi), obi-wankenobi(episode3)"
@@ -330,7 +330,7 @@
         "name": "Episode 4",
         "children": [
           {
-            "name": "Items for 4-1",
+            "name": "Characters for 4-1",
             "sections": [
               {
                 "hosted_item": "princessleia, captainantilles, c-3po, r2-d2, rebelfriend"
@@ -347,7 +347,7 @@
             ]
           },
           {
-            "name": "Items for 4-2",
+            "name": "Characters for 4-2",
             "sections": [
               {
                 "hosted_item": "lukeskywalker(tatooine), c-3po, r2-d2, benkenobi"
@@ -364,7 +364,7 @@
             ]
           },
           {
-            "name": "Items for 4-3",
+            "name": "Characters for 4-3",
             "sections": [
               {
                 "hosted_item": "hansolo, benkenobi, lukeskywalker(tatooine), c-3po, r2-d2, chewbacca"
@@ -381,7 +381,7 @@
             ]
           },
           {
-            "name": "Items for 4-4",
+            "name": "Characters for 4-4",
             "sections": [
               {
                 "hosted_item": "lukeskywalker(stormtrooper), benkenobi, hansolo(stormtrooper), chewbacca, c-3po, r2-d2"
@@ -398,7 +398,7 @@
             ]
           },
           {
-            "name": "Items for 4-5",
+            "name": "Characters for 4-5",
             "sections": [
               {
                 "hosted_item": "lukeskywalker(tatooine), princessleia, hansolo, chewbacca, c-3po, r2-d2"
@@ -415,7 +415,7 @@
             ]
           },
           {
-            "name": "Items for 4-6",
+            "name": "Characters for 4-6",
             "sections": [
               {
                 "hosted_item": "x-wing, y-wing"
@@ -437,7 +437,7 @@
         "name": "Episode 5",
         "children": [
           {
-            "name": "Items for 5-1",
+            "name": "Characters for 5-1",
             "sections": [
               {
                 "hosted_item": "snowspeeder"
@@ -454,7 +454,7 @@
             ]
           },
           {
-            "name": "Items for 5-2",
+            "name": "Characters for 5-2",
             "sections": [
               {
                 "hosted_item": "hansolo(hoth), princessleia(hoth), c-3po, chewbacca"
@@ -471,7 +471,7 @@
             ]
           },
           {
-            "name": "Items for 5-3",
+            "name": "Characters for 5-3",
             "sections": [
               {
                 "hosted_item": "milleniumfalcon, x-wing"
@@ -488,7 +488,7 @@
             ]
           },
           {
-            "name": "Items for 5-4",
+            "name": "Characters for 5-4",
             "sections": [
               {
                 "hosted_item": "lukeskywalker(pilot), lukeskywalker(dagobah), r2-d2, yoda"
@@ -505,7 +505,7 @@
             ]
           },
           {
-            "name": "Items for 5-5",
+            "name": "Characters for 5-5",
             "sections": [
               {
                 "hosted_item": "lukeskywalker(bespin), r2-d2"
@@ -522,7 +522,7 @@
             ]
           },
           {
-            "name": "Items for 5-6",
+            "name": "Characters for 5-6",
             "sections": [
               {
                 "hosted_item": "princessleia(bespin), landocalrissian, c-3po, r2-d2"
@@ -544,7 +544,7 @@
         "name": "Episode 6",
         "children": [
           {
-            "name": "Items for 6-1",
+            "name": "Characters for 6-1",
             "sections": [
               {
                 "hosted_item": "princessleia(boushh), chewbacca, lukeskywalker(jedi), r2-d2, c-3po, hansolo(skiff)"
@@ -561,7 +561,7 @@
             ]
           },
           {
-            "name": "Items for 6-2",
+            "name": "Characters for 6-2",
             "sections": [
               {
                 "hosted_item": "lukeskywalker(jedi), landocalrissian(palaceguard), hansolo(skiff), chewbacca, r2-d2, c-3po, princessleia(slave)"
@@ -578,7 +578,7 @@
             ]
           },
           {
-            "name": "Items for 6-3",
+            "name": "Characters for 6-3",
             "sections": [
               {
                 "hosted_item": "lukeskywalker(endor), princessleia(endor)"
@@ -595,7 +595,7 @@
             ]
           },
           {
-            "name": "Items for 6-4",
+            "name": "Characters for 6-4",
             "sections": [
               {
                 "hosted_item": "hansolo(endor), princessleia(endor), chewbacca, r2-d2, c-3po, wicket"
@@ -612,7 +612,7 @@
             ]
           },
           {
-            "name": "Items for 6-5",
+            "name": "Characters for 6-5",
             "sections": [
               {
                 "hosted_item": "darthvader, lukeskywalker(jedi)"
@@ -629,7 +629,7 @@
             ]
           },
           {
-            "name": "Items for 6-6",
+            "name": "Characters for 6-6",
             "sections": [
               {
                 "hosted_item": "milleniumfalcon, x-wing"
@@ -648,7 +648,7 @@
         ]
       },
       {
-        "name": "Items for Bonus Levels",
+        "name": "Characters for Bonus Levels",
         "sections": [
           {
             "name": "Mos Espa Podrace (Original)",
