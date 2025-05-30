@@ -2,7 +2,7 @@
   {
     "name": "Level Requirements Display",
     "access_rules": [
-      "never"
+      "{}"
     ],
     "children": [
       {
