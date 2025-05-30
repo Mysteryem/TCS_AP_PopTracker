@@ -56,8 +56,10 @@ function onClear(slot_data)
         end
     end
     -- reset items
-    for _, item_pair in pairs(ITEM_MAPPING) do
-        for item_type, item_code in pairs(item_pair) do
+    for _ap_id, item_pairs in pairs(ITEM_MAPPING) do
+        for _, item_pair in ipairs(item_pairs) do
+            local item_code = item_pair[1]
+            -- local item_type = item_pair[2]
             local item_obj = Tracker:FindObjectForCode(item_code)
             if item_obj then
                 if item_obj.Type == "toggle" then
