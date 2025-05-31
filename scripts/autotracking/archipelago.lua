@@ -150,6 +150,7 @@ end
 
 --called when a location gets cleared
 function onLocation(location_id, location_name)
+    -- Tell the LocationSectionChangedHandler to not send a LocationChecks for this location any more.
     COLLECTED_LOCATION_IDS[location_id] = true
     local location_array = LOCATION_MAPPING[location_id]
     if not location_array or not location_array[1] then
