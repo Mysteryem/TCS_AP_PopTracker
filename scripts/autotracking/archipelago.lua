@@ -290,9 +290,8 @@ ScriptHost:AddOnLocationSectionChangedHandler("manual", function(section)
     local sectionID = "@" .. section.FullID
     local apID = sectionIDToAPID[sectionID]
 
-    -- The victory location is also a real AP location in manuals. While it should always contain our own Victory item,
-    -- it is technically possible for the location to be sent manually through a server cheat command, so the goal check
-    -- needs to run before deciding to early return if the location has already been collected.
+    -- The victory location is also a real AP location in manuals, but it is only present in the datapackage and is
+    -- never actually used in a generated world.
     if sectionID == "@Cantina/Goal/Slave I" then
         if Tracker:ProviderCountForCode("5minikits") >= 54 then
             local res = Archipelago:StatusUpdate(Archipelago.ClientStatus.GOAL)
@@ -302,6 +301,7 @@ ScriptHost:AddOnLocationSectionChangedHandler("manual", function(section)
                 print("Error sending Victory")
             end
         end
+        return
     end
 
     if COLLECTED_LOCATION_IDS[apID] ~= nil then
