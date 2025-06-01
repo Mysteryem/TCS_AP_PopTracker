@@ -25,4 +25,4 @@ Tracker:AddLocations("locations/Overworld.json")
 Tracker:AddLocations("locations/LevelRequirementsDisplay.json")
 
 -- AutoTracking for Poptracker
-require("scripts/autotracking")
+require("scripts/autotracking/archipelago")
