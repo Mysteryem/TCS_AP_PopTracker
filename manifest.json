@@ -11,13 +11,6 @@
                 "ap",
                 "apmanual"
             ]
-        },
-        "Items Only": {
-            "display_name": "Items Only",
-            "flags": [
-                "ap",
-                "apmanual"
-            ]
         }
     },
     "min_poptracker_version": "0.31.0",
