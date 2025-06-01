@@ -431,7 +431,7 @@
     {
         "name": "5 Minikits",
         "type": "consumable",
-        "img": "images/items/5minikits.png",
+        "img": "images/items/minikit.png",
         "img_mods": "",
         "min_quantity": 0,
         "max_quantity": 72,
