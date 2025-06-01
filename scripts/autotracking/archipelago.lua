@@ -1,7 +1,15 @@
 
 require("scripts/autotracking/item_mapping")
 require("scripts/autotracking/location_mapping")
-require("scripts/autotracking/hints_mapping")
+
+-- Disabled until PopTracker 0.32.0 is released, which adds section highlighting.
+-- local HIGHLIGHT_LEVEL = {
+--     [0] = Highlight.Unspecified,
+--     [10] = Highlight.NoPriority,
+--     [20] = Highlight.Avoid,
+--     [30] = Highlight.Priority,
+--     [40] = Highlight.None,
+-- }
 
 -- The first integer is the team (mostly unused by Archipelago currently). The second integer is the slot number.
 local GOAL_STATUS_FORMAT = "_read_client_status_%i_%i"
@@ -97,12 +105,14 @@ function onClear(slot_data)
     --     autoFill(slot_data)
     -- end
     -- print(PLAYER_ID, TEAM_NUMBER)
-    if Archipelago.PlayerNumber > -1 then
 
-        HINTS_ID = "_read_hints_"..TEAM_NUMBER.."_"..PLAYER_ID
-        Archipelago:SetNotify({HINTS_ID})
-        Archipelago:Get({HINTS_ID})
-    end
+    -- Hint tracking disabled until PopTracker 0.32.0 is released, which adds section highlighting.
+--     if Archipelago.PlayerNumber > -1 then
+--
+--         HINTS_ID = "_read_hints_"..TEAM_NUMBER.."_"..PLAYER_ID
+--         Archipelago:SetNotify({HINTS_ID})
+--         Archipelago:Get({HINTS_ID})
+--     end
 end
 
 function onItem(index, item_id, item_name, player_number)
@@ -234,11 +244,7 @@ local function updateAllHints(value)
         -- print("hint", hint, hint.found)
         -- print(dump_table(hint))
         if hint.finding_player == Archipelago.PlayerNumber then
-            if hint.found then
-                updateHints(hint.location, true)
-            else
-                updateHints(hint.location, false)
-            end
+            updateHints(hint.location, hint.status)
         end
     end
 end
@@ -263,21 +269,19 @@ function onNotifyLaunch(key, value)
     end
 end
 
-function updateHints(locationID, clear)
-    local item_codes = HINTS_MAPPING[locationID]
-
-    for _, item_table in ipairs(item_codes, clear) do
-        for _, item_code in ipairs(item_table) do
-            local obj = Tracker:FindObjectForCode(item_code)
-            if obj then
-                if not clear then
-                    obj.Active = true
-                else
-                    obj.Active = false
-                end
+function updateHints(locationID, status)
+    local sections = LOCATION_MAPPING[locationID]
+    for _, section_id in ipairs(sections) do
+        local section = Tracker:FindObjectForCode(section_id)
+        if section then
+            highlight_level = HIGHLIGHT_LEVEL[status]
+            if highlight_level ~= nil then
+                section.Highlight = highlight_level
             else
-                print(string.format("No object found for code: %s", item_code))
+                print(string.format("No highlight level found for status: %s", status))
             end
+        else
+            print(string.format("No object found for code: %s", location))
         end
     end
 end
