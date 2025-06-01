@@ -1,3 +1,4 @@
+require("scripts/settings")
 
 -- Configuration --------------------------------------
 AUTOTRACKER_ENABLE_DEBUG_LOGGING = true and ENABLE_DEBUG_LOG
@@ -17,7 +18,6 @@ end
 print("---------------------------------------------------------------------")
 print("")
 
-require("scripts/settings")
 -- loads the AP autotracking code
 require("scripts/autotracking/archipelago")
 
