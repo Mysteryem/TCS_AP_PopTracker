@@ -1,90 +1,45 @@
 [
     {
         "name": "Episode 1",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-            " "
-        ],
         "children": [
             {
                 "name": "Negotiations",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
                 "children": [
                     {
                         "name": "Minikits",
-                        "chest_unopened_img": "/images/items/close.png",
-                        "chest_opened_img": "/images/items/open.png",
-                        "overlay_background": "#000000",
                         "access_rules": [
                             "highjump, astromech, @Macros/DroidOrFly, shortie"
                         ],
                         "sections": [
                             {
-                                "name": "1-1 Minikit 1",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
+                                "name": "1-1 Minikit 1"
                             },
                             {
-                                "name": "1-1 Minikit 2",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
+                                "name": "1-1 Minikit 2"
                             },
                             {
-                                "name": "1-1 Minikit 3",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
+                                "name": "1-1 Minikit 3"
                             },
                             {
-                                "name": "1-1 Minikit 4",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
+                                "name": "1-1 Minikit 4"
                             },
                             {
-                                "name": "1-1 Minikit 5",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
+                                "name": "1-1 Minikit 5"
                             },
                             {
-                                "name": "1-1 Minikit 6",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
+                                "name": "1-1 Minikit 6"
                             },
                             {
-                                "name": "1-1 Minikit 7",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
+                                "name": "1-1 Minikit 7"
                             },
                             {
-                                "name": "1-1 Minikit 8",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
+                                "name": "1-1 Minikit 8"
                             },
                             {
-                                "name": "1-1 Minikit 9",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
+                                "name": "1-1 Minikit 9"
                             },
                             {
-                                "name": "1-1 Minikit 10",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
+                                "name": "1-1 Minikit 10"
                             }
                         ],
                         "map_locations": [
@@ -98,48 +53,28 @@
                 ],
                 "sections": [
                     {
-                        "name": "Purchase Battle Droid",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
+                        "name": "Purchase Battle Droid"
                     },
                     {
-                        "name": "Purchase Battle Droid (Security)",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
+                        "name": "Purchase Battle Droid (Security)"
                     },
                     {
-                        "name": "Purchase Battle Droid (Commander)",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
+                        "name": "Purchase Battle Droid (Commander)"
                     },
                     {
-                        "name": "Purchase Droideka",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
+                        "name": "Purchase Droideka"
                     },
                     {
                         "name": "Purchase Super Gonk (1-1)",
                         "access_rules": [
                             "highjump"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
+                        ]
                     },
                     {
-                        "name": "1-1 True Jedi",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
+                        "name": "1-1 True Jedi"
                     },
                     {
-                        "name": "1-1 Completion",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
+                        "name": "1-1 Completion"
                     }
                 ],
                 "map_locations": [
@@ -152,81 +87,45 @@
             },
             {
                 "name": "Invasion of Naboo",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
                 "access_rules": [
                     "jarjarbinks"
                 ],
                 "children": [
                     {
                         "name": "Minikits",
-                        "chest_unopened_img": "/images/items/close.png",
-                        "chest_opened_img": "/images/items/open.png",
-                        "overlay_background": "#000000",
                         "access_rules": [
                             "shortie"
                         ],
                         "sections": [
                             {
-                                "name": "1-2 Minikit 1",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
+                                "name": "1-2 Minikit 1"
                             },
                             {
-                                "name": "1-2 Minikit 2",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
+                                "name": "1-2 Minikit 2"
                             },
                             {
-                                "name": "1-2 Minikit 3",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
+                                "name": "1-2 Minikit 3"
                             },
                             {
-                                "name": "1-2 Minikit 4",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
+                                "name": "1-2 Minikit 4"
                             },
                             {
-                                "name": "1-2 Minikit 5",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
+                                "name": "1-2 Minikit 5"
                             },
                             {
-                                "name": "1-2 Minikit 6",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
+                                "name": "1-2 Minikit 6"
                             },
                             {
-                                "name": "1-2 Minikit 7",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
+                                "name": "1-2 Minikit 7"
                             },
                             {
-                                "name": "1-2 Minikit 8",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
+                                "name": "1-2 Minikit 8"
                             },
                             {
-                                "name": "1-2 Minikit 9",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
+                                "name": "1-2 Minikit 9"
                             },
                             {
-                                "name": "1-2 Minikit 10",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
+                                "name": "1-2 Minikit 10"
                             }
                         ],
                         "map_locations": [
@@ -240,42 +139,25 @@
                 ],
                 "sections": [
                     {
-                        "name": "Purchase Captain Tarpals",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
+                        "name": "Purchase Captain Tarpals"
                     },
                     {
-                        "name": "Purchase Boss Nass",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
+                        "name": "Purchase Boss Nass"
                     },
                     {
-                        "name": "Purchase Royal Guard",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
+                        "name": "Purchase Royal Guard"
                     },
                     {
                         "name": "Purchase Fertilizer (1-2)",
                         "access_rules": [
                             "bounty"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
+                        ]
                     },
                     {
-                        "name": "1-2 True Jedi",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
+                        "name": "1-2 True Jedi"
                     },
                     {
-                        "name": "1-2 Completion",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
+                        "name": "1-2 Completion"
                     }
                 ],
                 "map_locations": [
@@ -288,81 +170,45 @@
             },
             {
                 "name": "Mos Espa Podrace",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
                 "access_rules": [
                     "anakinspodracer"
                 ],
                 "children": [
                     {
                         "name": "Minikits",
-                        "chest_unopened_img": "/images/items/close.png",
-                        "chest_opened_img": "/images/items/open.png",
-                        "overlay_background": "#000000",
                         "access_rules": [
                             "tie-interceptor"
                         ],
                         "sections": [
                             {
-                                "name": "1-4 Minikit 1",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
+                                "name": "1-4 Minikit 1"
                             },
                             {
-                                "name": "1-4 Minikit 2",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
+                                "name": "1-4 Minikit 2"
                             },
                             {
-                                "name": "1-4 Minikit 3",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
+                                "name": "1-4 Minikit 3"
                             },
                             {
-                                "name": "1-4 Minikit 4",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
+                                "name": "1-4 Minikit 4"
                             },
                             {
-                                "name": "1-4 Minikit 5",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
+                                "name": "1-4 Minikit 5"
                             },
                             {
-                                "name": "1-4 Minikit 6",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
+                                "name": "1-4 Minikit 6"
                             },
                             {
-                                "name": "1-4 Minikit 7",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
+                                "name": "1-4 Minikit 7"
                             },
                             {
-                                "name": "1-4 Minikit 8",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
+                                "name": "1-4 Minikit 8"
                             },
                             {
-                                "name": "1-4 Minikit 9",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
+                                "name": "1-4 Minikit 9"
                             },
                             {
-                                "name": "1-4 Minikit 10",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
+                                "name": "1-4 Minikit 10"
                             }
                         ],
                         "map_locations": [
@@ -376,34 +222,19 @@
                 ],
                 "sections": [
                     {
-                        "name": "Purchase Watto",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
+                        "name": "Purchase Watto"
                     },
                     {
-                        "name": "Purchase Pit Droid",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
+                        "name": "Purchase Pit Droid"
                     },
                     {
-                        "name": "Purchase Red Brick Detector (1-4)",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
+                        "name": "Purchase Red Brick Detector (1-4)"
                     },
                     {
-                        "name": "1-4 True Jedi",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
+                        "name": "1-4 True Jedi"
                     },
                     {
-                        "name": "1-4 Completion",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
+                        "name": "1-4 Completion"
                     }
                 ],
                 "map_locations": [
@@ -416,81 +247,42 @@
             },
             {
                 "name": "Darth Maul",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
                 "children": [
                     {
                         "name": "Minikits",
-                        "chest_unopened_img": "/images/items/close.png",
-                        "chest_opened_img": "/images/items/open.png",
-                        "overlay_background": "#000000",
                         "access_rules": [
                             "sith, highjump, blaster, bounty, imperial"
                         ],
                         "sections": [
                             {
-                                "name": "1-6 Minikit 1",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
+                                "name": "1-6 Minikit 1"
                             },
                             {
-                                "name": "1-6 Minikit 2",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
+                                "name": "1-6 Minikit 2"
                             },
                             {
-                                "name": "1-6 Minikit 3",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
+                                "name": "1-6 Minikit 3"
                             },
                             {
-                                "name": "1-6 Minikit 4",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
+                                "name": "1-6 Minikit 4"
                             },
                             {
-                                "name": "1-6 Minikit 5",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
+                                "name": "1-6 Minikit 5"
                             },
                             {
-                                "name": "1-6 Minikit 6",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
+                                "name": "1-6 Minikit 6"
                             },
                             {
-                                "name": "1-6 Minikit 7",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
+                                "name": "1-6 Minikit 7"
                             },
                             {
-                                "name": "1-6 Minikit 8",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
+                                "name": "1-6 Minikit 8"
                             },
                             {
-                                "name": "1-6 Minikit 9",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
+                                "name": "1-6 Minikit 9"
                             },
                             {
-                                "name": "1-6 Minikit 10",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
+                                "name": "1-6 Minikit 10"
                             }
                         ],
                         "map_locations": [
@@ -504,30 +296,19 @@
                 ],
                 "sections": [
                     {
-                        "name": "Purchase Darth Maul",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
+                        "name": "Purchase Darth Maul"
                     },
                     {
                         "name": "Purchase Force Grapple Leap (1-6)",
                         "access_rules": [
                             "imperial"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
+                        ]
                     },
                     {
-                        "name": "1-6 True Jedi",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
+                        "name": "1-6 True Jedi"
                     },
                     {
-                        "name": "1-6 Completion",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
+                        "name": "1-6 Completion"
                     }
                 ],
                 "map_locations": [
@@ -540,81 +321,45 @@
             },
             {
                 "name": "Escape From Naboo",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
                 "access_rules": [
                     "captainpanaka, queenamidala"
                 ],
                 "children": [
                     {
                         "name": "Minikits",
-                        "chest_unopened_img": "/images/items/close.png",
-                        "chest_opened_img": "/images/items/open.png",
-                        "overlay_background": "#000000",
                         "access_rules": [
                             "sith, highjump, @Macros/DroidOrFly, bounty, shortie"
                         ],
                         "sections": [
                             {
-                                "name": "1-3 Minikit 1",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
+                                "name": "1-3 Minikit 1"
                             },
                             {
-                                "name": "1-3 Minikit 2",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
+                                "name": "1-3 Minikit 2"
                             },
                             {
-                                "name": "1-3 Minikit 3",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
+                                "name": "1-3 Minikit 3"
                             },
                             {
-                                "name": "1-3 Minikit 4",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
+                                "name": "1-3 Minikit 4"
                             },
                             {
-                                "name": "1-3 Minikit 5",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
+                                "name": "1-3 Minikit 5"
                             },
                             {
-                                "name": "1-3 Minikit 6",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
+                                "name": "1-3 Minikit 6"
                             },
                             {
-                                "name": "1-3 Minikit 7",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
+                                "name": "1-3 Minikit 7"
                             },
                             {
-                                "name": "1-3 Minikit 8",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
+                                "name": "1-3 Minikit 8"
                             },
                             {
-                                "name": "1-3 Minikit 9",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
+                                "name": "1-3 Minikit 9"
                             },
                             {
-                                "name": "1-3 Minikit 10",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
+                                "name": "1-3 Minikit 10"
                             }
                         ],
                         "map_locations": [
@@ -628,30 +373,19 @@
                 ],
                 "sections": [
                     {
-                        "name": "Purchase Padmé",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
+                        "name": "Purchase Padmé"
                     },
                     {
                         "name": "Purchase Walkie Talkie Disable (1-3)",
                         "access_rules": [
                             "bounty, sith"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
+                        ]
                     },
                     {
-                        "name": "1-3 True Jedi",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
+                        "name": "1-3 True Jedi"
                     },
                     {
-                        "name": "1-3 Completion",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
+                        "name": "1-3 Completion"
                     }
                 ],
                 "map_locations": [
@@ -664,81 +398,45 @@
             },
             {
                 "name": "Retake Theed Palace",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
                 "access_rules": [
                     "captainpanaka, queenamidala, r2-d2, anakinskywalker(boy)"
                 ],
                 "children": [
                     {
                         "name": "Minikits",
-                        "chest_unopened_img": "/images/items/close.png",
-                        "chest_opened_img": "/images/items/open.png",
-                        "overlay_background": "#000000",
                         "access_rules": [
                             "sith, highjump, bounty"
                         ],
                         "sections": [
                             {
-                                "name": "1-5 Minikit 1",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
+                                "name": "1-5 Minikit 1"
                             },
                             {
-                                "name": "1-5 Minikit 2",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
+                                "name": "1-5 Minikit 2"
                             },
                             {
-                                "name": "1-5 Minikit 3",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
+                                "name": "1-5 Minikit 3"
                             },
                             {
-                                "name": "1-5 Minikit 4",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
+                                "name": "1-5 Minikit 4"
                             },
                             {
-                                "name": "1-5 Minikit 5",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
+                                "name": "1-5 Minikit 5"
                             },
                             {
-                                "name": "1-5 Minikit 6",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
+                                "name": "1-5 Minikit 6"
                             },
                             {
-                                "name": "1-5 Minikit 7",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
+                                "name": "1-5 Minikit 7"
                             },
                             {
-                                "name": "1-5 Minikit 8",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
+                                "name": "1-5 Minikit 8"
                             },
                             {
-                                "name": "1-5 Minikit 9",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
+                                "name": "1-5 Minikit 9"
                             },
                             {
-                                "name": "1-5 Minikit 10",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
+                                "name": "1-5 Minikit 10"
                             }
                         ],
                         "map_locations": [
@@ -752,22 +450,13 @@
                 ],
                 "sections": [
                     {
-                        "name": "Purchase Super Slap (1-5)",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
+                        "name": "Purchase Super Slap (1-5)"
                     },
                     {
-                        "name": "1-5 True Jedi",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
+                        "name": "1-5 True Jedi"
                     },
                     {
-                        "name": "1-5 Completion",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
+                        "name": "1-5 Completion"
                     }
                 ],
                 "map_locations": [

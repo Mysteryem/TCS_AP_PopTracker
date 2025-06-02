@@ -1,21 +1,9 @@
 [
     {
         "name": "Overworld",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-            " "
-        ],
         "children": [
             {
                 "name": "Cantina",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
                 "sections": [
                     {
                         "name": "All Episodes - Purchase IG-88",
@@ -97,12 +85,6 @@
             },
             {
                 "name": "Episode 1",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
                 "sections": [
                     {
                         "name": "Minikits - 1-1 Minikit 1",
@@ -471,12 +453,6 @@
             },
             {
                 "name": "Episode 2",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
                 "sections": [
                     {
                         "name": "Minikits - 2-1 Minikit 1",
@@ -865,12 +841,6 @@
             },
             {
                 "name": "Episode 3",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
                 "sections": [
                     {
                         "name": "Minikits - 3-2 Minikit 1",
@@ -1235,12 +1205,6 @@
             },
             {
                 "name": "Episode 4",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
                 "sections": [
                     {
                         "name": "Minikits - 4-1 Minikit 1",
@@ -1617,12 +1581,6 @@
             },
             {
                 "name": "Episode 5",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
                 "sections": [
                     {
                         "name": "Minikits - 5-2 Minikit 1",
@@ -1979,12 +1937,6 @@
             },
             {
                 "name": "Episode 6",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
                 "sections": [
                     {
                         "name": "Minikits - 6-1 Minikit 1",

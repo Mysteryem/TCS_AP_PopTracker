@@ -1,63 +1,33 @@
 [
     {
         "name": "Cantina",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-            " "
-        ],
         "children": [
             {
                 "name": "All Episodes",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
                 "access_rules": [
                     "episode2unlock, episode3unlock, episode4unlock, episode5unlock, episode6unlock"
                 ],
                 "sections": [
                     {
-                        "name": "Purchase IG-88",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
+                        "name": "Purchase IG-88"
                     },
                     {
-                        "name": "Purchase Dengar",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
+                        "name": "Purchase Dengar"
                     },
                     {
-                        "name": "Purchase 4-LOM",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
+                        "name": "Purchase 4-LOM"
                     },
                     {
-                        "name": "Purchase Ben Kenobi (Ghost)",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
+                        "name": "Purchase Ben Kenobi (Ghost)"
                     },
                     {
-                        "name": "Purchase Anakin Skywalker (Ghost)",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
+                        "name": "Purchase Anakin Skywalker (Ghost)"
                     },
                     {
-                        "name": "Purchase Yoda (Ghost)",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
+                        "name": "Purchase Yoda (Ghost)"
                     },
                     {
-                        "name": "Purchase R2-Q5",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
+                        "name": "Purchase R2-Q5"
                     }
                 ],
                 "map_locations": [
@@ -70,18 +40,12 @@
             },
             {
                 "name": "Goal",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
                 "access_rules": [
                     "5minikits:54"
                 ],
                 "sections": [
                     {
-                        "name": "Slave I",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
+                        "name": "Slave I"
                     }
                 ],
                 "map_locations": [
@@ -94,68 +58,48 @@
             },
             {
                 "name": "Bonus Levels",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
                 "sections": [
                     {
                         "name": "Mos Espa Podrace (Original)",
                         "access_rules": [
                             "progressivebonuslevel, anakinspodracer"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
+                        ]
                     },
                     {
                         "name": "Anakin's Flight",
                         "access_rules": [
                             "progressivebonuslevel:2, naboostarfighter"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
+                        ]
                     },
                     {
                         "name": "Gunship Cavalry (Original)",
                         "access_rules": [
                             "progressivebonuslevel:3, republicgunship"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
+                        ]
                     },
                     {
                         "name": "A New Hope (Bonus Level)",
                         "access_rules": [
                             "progressivebonuslevel:4, darthvader, c-3po, stormtrooper"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
+                        ]
                     },
                     {
                         "name": "LEGO City",
                         "access_rules": [
                             "progressivebonuslevel:5, sith, highjump, blaster, bounty"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
+                        ]
                     },
                     {
                         "name": "New Town",
                         "access_rules": [
                             "progressivebonuslevel:6, sith, highjump, blaster, bounty"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
+                        ]
                     },
                     {
                         "name": "Indiana Jones: Trailer",
                         "access_rules": [
                             "progressivebonuslevel"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -169,16 +113,10 @@
         ],
         "sections": [
             {
-                "name": "Purchase Gonk Droid",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
+                "name": "Purchase Gonk Droid"
             },
             {
-                "name": "Purchase PK Droid",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
+                "name": "Purchase PK Droid"
             }
         ],
         "map_locations": [
