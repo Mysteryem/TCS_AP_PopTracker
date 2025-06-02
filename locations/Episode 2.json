@@ -1,6 +1,8 @@
 [
     {
         "name": "Episode 2",
+        "chest_unopened_img": "images/items/gold_brick.png",
+        "chest_opened_img": "images/items/gold_brick_disabled.png",
         "access_rules": [
             "episode2unlock"
         ],
@@ -13,6 +15,8 @@
                 "children": [
                     {
                         "name": "Minikits",
+                        "chest_unopened_img": "images/items/minikit.png",
+                        "chest_opened_img": "images/items/minikit_disabled.png",
                         "access_rules": [
                             "tie-interceptor"
                         ],
@@ -90,6 +94,8 @@
                 "children": [
                     {
                         "name": "Minikits",
+                        "chest_unopened_img": "images/items/minikit.png",
+                        "chest_opened_img": "images/items/minikit_disabled.png",
                         "access_rules": [
                             "sith, highjump, blaster, bounty, shortie"
                         ],
@@ -173,6 +179,8 @@
                 "children": [
                     {
                         "name": "Minikits",
+                        "chest_unopened_img": "images/items/minikit.png",
+                        "chest_opened_img": "images/items/minikit_disabled.png",
                         "access_rules": [
                             "highjump, imperial, shortie"
                         ],
@@ -250,6 +258,8 @@
                 "children": [
                     {
                         "name": "Minikits",
+                        "chest_unopened_img": "images/items/minikit.png",
+                        "chest_opened_img": "images/items/minikit_disabled.png",
                         "access_rules": [
                             "highjump"
                         ],
@@ -351,6 +361,8 @@
                 "children": [
                     {
                         "name": "Minikits",
+                        "chest_unopened_img": "images/items/minikit.png",
+                        "chest_opened_img": "images/items/minikit_disabled.png",
                         "access_rules": [
                             "tie-interceptor"
                         ],
@@ -422,6 +434,8 @@
                 "children": [
                     {
                         "name": "Minikits",
+                        "chest_unopened_img": "images/items/minikit.png",
+                        "chest_opened_img": "images/items/minikit_disabled.png",
                         "access_rules": [
                             "highjump, blaster, astromech"
                         ],

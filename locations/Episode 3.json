@@ -1,6 +1,8 @@
 [
     {
         "name": "Episode 3",
+        "chest_unopened_img": "images/items/gold_brick.png",
+        "chest_opened_img": "images/items/gold_brick_disabled.png",
         "access_rules": [
             "episode3unlock"
         ],
@@ -13,6 +15,8 @@
                 "children": [
                     {
                         "name": "Minikits",
+                        "chest_unopened_img": "images/items/minikit.png",
+                        "chest_opened_img": "images/items/minikit_disabled.png",
                         "access_rules": [
                             "highjump, blaster, shortie"
                         ],
@@ -96,6 +100,8 @@
                 "children": [
                     {
                         "name": "Minikits",
+                        "chest_unopened_img": "images/items/minikit.png",
+                        "chest_opened_img": "images/items/minikit_disabled.png",
                         "access_rules": [
                             "sith, highjump"
                         ],
@@ -185,6 +191,8 @@
                 "children": [
                     {
                         "name": "Minikits",
+                        "chest_unopened_img": "images/items/minikit.png",
+                        "chest_opened_img": "images/items/minikit_disabled.png",
                         "access_rules": [
                             "sith, highjump, blaster, @Macros/DroidOrFly, bounty, imperial"
                         ],
@@ -265,6 +273,8 @@
                 "children": [
                     {
                         "name": "Minikits",
+                        "chest_unopened_img": "images/items/minikit.png",
+                        "chest_opened_img": "images/items/minikit_disabled.png",
                         "access_rules": [
                             " "
                         ],
@@ -336,6 +346,8 @@
                 "children": [
                     {
                         "name": "Minikits",
+                        "chest_unopened_img": "images/items/minikit.png",
+                        "chest_opened_img": "images/items/minikit_disabled.png",
                         "access_rules": [
                             "@Macros/DroidOrFly, bounty"
                         ],
@@ -407,6 +419,8 @@
                 "children": [
                     {
                         "name": "Minikits",
+                        "chest_unopened_img": "images/items/minikit.png",
+                        "chest_opened_img": "images/items/minikit_disabled.png",
                         "access_rules": [
                             "@Macros/DroidOrFly"
                         ],

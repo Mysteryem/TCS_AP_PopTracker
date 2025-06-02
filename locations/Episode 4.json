@@ -1,6 +1,8 @@
 [
     {
         "name": "Episode 4",
+        "chest_unopened_img": "images/items/gold_brick.png",
+        "chest_opened_img": "images/items/gold_brick_disabled.png",
         "access_rules": [
             "episode4unlock"
         ],
@@ -13,6 +15,8 @@
                 "children": [
                     {
                         "name": "Minikits",
+                        "chest_unopened_img": "images/items/minikit.png",
+                        "chest_opened_img": "images/items/minikit_disabled.png",
                         "access_rules": [
                             "sith, bounty, imperial"
                         ],
@@ -93,6 +97,8 @@
                 "children": [
                     {
                         "name": "Minikits",
+                        "chest_unopened_img": "images/items/minikit.png",
+                        "chest_opened_img": "images/items/minikit_disabled.png",
                         "access_rules": [
                             "sith, shortie"
                         ],
@@ -173,6 +179,8 @@
                 "children": [
                     {
                         "name": "Minikits",
+                        "chest_unopened_img": "images/items/minikit.png",
+                        "chest_opened_img": "images/items/minikit_disabled.png",
                         "access_rules": [
                             "sith, highjump, bounty, shortie"
                         ],
@@ -253,6 +261,8 @@
                 "children": [
                     {
                         "name": "Minikits",
+                        "chest_unopened_img": "images/items/minikit.png",
+                        "chest_opened_img": "images/items/minikit_disabled.png",
                         "access_rules": [
                             "sith, bounty, imperial"
                         ],
@@ -339,6 +349,8 @@
                 "children": [
                     {
                         "name": "Minikits",
+                        "chest_unopened_img": "images/items/minikit.png",
+                        "chest_opened_img": "images/items/minikit_disabled.png",
                         "access_rules": [
                             "sith, bounty, imperial, shortie"
                         ],
@@ -410,6 +422,8 @@
                 "children": [
                     {
                         "name": "Minikits",
+                        "chest_unopened_img": "images/items/minikit.png",
+                        "chest_opened_img": "images/items/minikit_disabled.png",
                         "access_rules": [
                             "snowspeeder, tie-interceptor",
                             "republicgunship, tie-interceptor"
