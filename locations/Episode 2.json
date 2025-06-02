@@ -63,13 +63,19 @@
                 ],
                 "sections": [
                     {
-                        "name": "Purchase Zam Wesell"
+                        "name": "Purchase Zam Wesell",
+                        "chest_unopened_img": "images/items/zamwesell.png",
+                        "chest_opened_img": "images/items/zamwesell_disabled.png"
                     },
                     {
-                        "name": "Purchase Dexter Jettster"
+                        "name": "Purchase Dexter Jettster",
+                        "chest_unopened_img": "images/items/dexterjettster.png",
+                        "chest_opened_img": "images/items/dexterjettster_disabled.png"
                     },
                     {
-                        "name": "Purchase Stud Magnet (2-1)"
+                        "name": "Purchase Stud Magnet (2-1)",
+                        "chest_unopened_img": "images/items/studmagnet.png",
+                        "chest_opened_img": "images/items/studmagnet_disabled.png"
                     },
                     {
                         "name": "2-1 True Jedi"
@@ -142,16 +148,24 @@
                 ],
                 "sections": [
                     {
-                        "name": "Purchase Clone"
+                        "name": "Purchase Clone",
+                        "chest_unopened_img": "images/items/clone.png",
+                        "chest_opened_img": "images/items/clone_disabled.png"
                     },
                     {
-                        "name": "Purchase Lama Su"
+                        "name": "Purchase Lama Su",
+                        "chest_unopened_img": "images/items/lamasu.png",
+                        "chest_opened_img": "images/items/lamasu_disabled.png"
                     },
                     {
-                        "name": "Purchase Taun We"
+                        "name": "Purchase Taun We",
+                        "chest_unopened_img": "images/items/taunwe.png",
+                        "chest_opened_img": "images/items/taunwe_disabled.png"
                     },
                     {
                         "name": "Purchase Disarm Troopers (2-2)",
+                        "chest_unopened_img": "images/items/disarmtroopers.png",
+                        "chest_opened_img": "images/items/disarmtroopers_disabled.png",
                         "access_rules": [
                             "imperial"
                         ]
@@ -227,13 +241,19 @@
                 ],
                 "sections": [
                     {
-                        "name": "Purchase Geonosian"
+                        "name": "Purchase Geonosian",
+                        "chest_unopened_img": "images/items/geonosian.png",
+                        "chest_opened_img": "images/items/geonosian_disabled.png"
                     },
                     {
-                        "name": "Purchase Battle Droid (Geonosis)"
+                        "name": "Purchase Battle Droid (Geonosis)",
+                        "chest_unopened_img": "images/items/battledroid(geonosis).png",
+                        "chest_opened_img": "images/items/battledroid(geonosis)_disabled.png"
                     },
                     {
-                        "name": "Purchase Character Studs (2-3)"
+                        "name": "Purchase Character Studs (2-3)",
+                        "chest_unopened_img": "images/items/characterstuds.png",
+                        "chest_opened_img": "images/items/characterstuds_disabled.png"
                     },
                     {
                         "name": "2-3 True Jedi"
@@ -306,34 +326,54 @@
                 ],
                 "sections": [
                     {
-                        "name": "Purchase Super Battle Droid"
+                        "name": "Purchase Super Battle Droid",
+                        "chest_unopened_img": "images/items/superbattledroid.png",
+                        "chest_opened_img": "images/items/superbattledroid_disabled.png"
                     },
                     {
-                        "name": "Purchase Jango Fett"
+                        "name": "Purchase Jango Fett",
+                        "chest_unopened_img": "images/items/jangofett.png",
+                        "chest_opened_img": "images/items/jangofett_disabled.png"
                     },
                     {
-                        "name": "Purchase Boba Fett (Boy)"
+                        "name": "Purchase Boba Fett (Boy)",
+                        "chest_unopened_img": "images/items/bobafett(boy).png",
+                        "chest_opened_img": "images/items/bobafett(boy)_disabled.png"
                     },
                     {
-                        "name": "Purchase Luminara"
+                        "name": "Purchase Luminara",
+                        "chest_unopened_img": "images/items/luminara.png",
+                        "chest_opened_img": "images/items/luminara_disabled.png"
                     },
                     {
-                        "name": "Purchase Ki-Adi Mundi"
+                        "name": "Purchase Ki-Adi Mundi",
+                        "chest_unopened_img": "images/items/ki-adimundi.png",
+                        "chest_opened_img": "images/items/ki-adimundi_disabled.png"
                     },
                     {
-                        "name": "Purchase Kit Fisto"
+                        "name": "Purchase Kit Fisto",
+                        "chest_unopened_img": "images/items/kitfisto.png",
+                        "chest_opened_img": "images/items/kitfisto_disabled.png"
                     },
                     {
-                        "name": "Purchase Shaak Ti"
+                        "name": "Purchase Shaak Ti",
+                        "chest_unopened_img": "images/items/shaakti.png",
+                        "chest_opened_img": "images/items/shaakti_disabled.png"
                     },
                     {
-                        "name": "Purchase Aayla Secura"
+                        "name": "Purchase Aayla Secura",
+                        "chest_unopened_img": "images/items/aaylasecura.png",
+                        "chest_opened_img": "images/items/aaylasecura_disabled.png"
                     },
                     {
-                        "name": "Purchase Plo Kloon"
+                        "name": "Purchase Plo Kloon",
+                        "chest_unopened_img": "images/items/plokloon.png",
+                        "chest_opened_img": "images/items/plokloon_disabled.png"
                     },
                     {
                         "name": "Purchase Perfect Deflect (2-4)",
+                        "chest_unopened_img": "images/items/perfectdeflect.png",
+                        "chest_opened_img": "images/items/perfectdeflect_disabled.png",
                         "access_rules": [
                             "bounty"
                         ]
@@ -409,7 +449,9 @@
                 ],
                 "sections": [
                     {
-                        "name": "Purchase Exploding Blaster Bolts (2-5)"
+                        "name": "Purchase Exploding Blaster Bolts (2-5)",
+                        "chest_unopened_img": "images/items/explodingblasterbolts.png",
+                        "chest_opened_img": "images/items/explodingblasterbolts_disabled.png"
                     },
                     {
                         "name": "2-5 True Jedi"
@@ -483,6 +525,8 @@
                 "sections": [
                     {
                         "name": "Purchase Force Pull (2-6)",
+                        "chest_unopened_img": "images/items/forcepull.png",
+                        "chest_opened_img": "images/items/forcepull_disabled.png",
                         "access_rules": [
                             "bounty, shortie"
                         ]

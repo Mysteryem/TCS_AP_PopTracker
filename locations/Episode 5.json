@@ -63,13 +63,19 @@
                 ],
                 "sections": [
                     {
-                        "name": "Purchase Han Solo (Hood)"
+                        "name": "Purchase Han Solo (Hood)",
+                        "chest_unopened_img": "images/items/hansolo(hood).png",
+                        "chest_opened_img": "images/items/hansolo(hood)_disabled.png"
                     },
                     {
-                        "name": "Purchase Luke Skywalker (Hoth)"
+                        "name": "Purchase Luke Skywalker (Hoth)",
+                        "chest_unopened_img": "images/items/lukeskywalker(hoth).png",
+                        "chest_opened_img": "images/items/lukeskywalker(hoth)_disabled.png"
                     },
                     {
                         "name": "Purchase Fast Build (5-2)",
+                        "chest_unopened_img": "images/items/fastbuild.png",
+                        "chest_opened_img": "images/items/fastbuild_disabled.png",
                         "access_rules": [
                             "sith"
                         ]
@@ -145,16 +151,24 @@
                 ],
                 "sections": [
                     {
-                        "name": "Purchase Rebel Trooper (Hoth)"
+                        "name": "Purchase Rebel Trooper (Hoth)",
+                        "chest_unopened_img": "images/items/rebeltrooper(hoth).png",
+                        "chest_opened_img": "images/items/rebeltrooper(hoth)_disabled.png"
                     },
                     {
-                        "name": "Purchase Rebel Pilot"
+                        "name": "Purchase Rebel Pilot",
+                        "chest_unopened_img": "images/items/rebelpilot.png",
+                        "chest_opened_img": "images/items/rebelpilot_disabled.png"
                     },
                     {
-                        "name": "Purchase Snowtrooper"
+                        "name": "Purchase Snowtrooper",
+                        "chest_unopened_img": "images/items/snowtrooper.png",
+                        "chest_opened_img": "images/items/snowtrooper_disabled.png"
                     },
                     {
                         "name": "Purchase Self Destruct (5-1)",
+                        "chest_unopened_img": "images/items/selfdestruct.png",
+                        "chest_opened_img": "images/items/selfdestruct_disabled.png",
                         "access_rules": [
                             "tie-interceptor"
                         ]
@@ -230,16 +244,24 @@
                 ],
                 "sections": [
                     {
-                        "name": "Purchase Lobot"
+                        "name": "Purchase Lobot",
+                        "chest_unopened_img": "images/items/lobot.png",
+                        "chest_opened_img": "images/items/lobot_disabled.png"
                     },
                     {
-                        "name": "Purchase Ugnaught"
+                        "name": "Purchase Ugnaught",
+                        "chest_unopened_img": "images/items/ugnaught.png",
+                        "chest_opened_img": "images/items/ugnaught_disabled.png"
                     },
                     {
-                        "name": "Purchase Bespin Guard"
+                        "name": "Purchase Bespin Guard",
+                        "chest_unopened_img": "images/items/bespinguard.png",
+                        "chest_opened_img": "images/items/bespinguard_disabled.png"
                     },
                     {
                         "name": "Purchase Minikit Detector (5-6)",
+                        "chest_unopened_img": "images/items/minikitdetector.png",
+                        "chest_opened_img": "images/items/minikitdetector_disabled.png",
                         "access_rules": [
                             "bounty"
                         ]
@@ -316,6 +338,8 @@
                 "sections": [
                     {
                         "name": "Purchase Regenerate Hearts (5-4)",
+                        "chest_unopened_img": "images/items/regeneratehearts.png",
+                        "chest_opened_img": "images/items/regeneratehearts_disabled.png",
                         "access_rules": [
                             "sith"
                         ]
@@ -398,7 +422,9 @@
                         "name": "5-3 Completion"
                     },
                     {
-                        "name": "Purchase Score x4"
+                        "name": "Purchase Score x4",
+                        "chest_unopened_img": "images/items/progressivescoremultiplier4.png",
+                        "chest_opened_img": "images/items/progressivescoremultiplier4_disabled.png"
                     }
                 ],
                 "map_locations": [
@@ -472,6 +498,8 @@
                     },
                     {
                         "name": "Purchase Score x6",
+                        "chest_unopened_img": "images/items/progressivescoremultiplier6.png",
+                        "chest_opened_img": "images/items/progressivescoremultiplier6_disabled.png",
                         "access_rules": [
                             "bounty, @Macros/DroidOrFly"
                         ]

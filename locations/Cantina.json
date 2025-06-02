@@ -54,6 +54,8 @@
             },
             {
                 "name": "Goal",
+                "chest_unopened_img": "images/items/slave1.png",
+                "chest_opened_img": "images/items/slave1_disabled.png",
                 "access_rules": [
                     "5minikits:54"
                 ],
