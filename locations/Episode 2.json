@@ -366,9 +366,9 @@
                         "chest_opened_img": "images/items/aaylasecura_disabled.png"
                     },
                     {
-                        "name": "Purchase Plo Kloon",
-                        "chest_unopened_img": "images/items/plokloon.png",
-                        "chest_opened_img": "images/items/plokloon_disabled.png"
+                        "name": "Purchase Plo Koon",
+                        "chest_unopened_img": "images/items/plokoon.png",
+                        "chest_opened_img": "images/items/plokoon_disabled.png"
                     },
                     {
                         "name": "Purchase Perfect Deflect (2-4)",

@@ -1493,14 +1493,14 @@
         "codes": "redbrickdetector"
     },
     {
-        "name": "Plo Kloon",
+        "name": "Plo Koon",
         "type": "toggle",
-        "img": "images/items/plokloon.png",
+        "img": "images/items/plokoon.png",
         "img_mods": "",
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "plokloon"
+        "codes": "plokoon"
     },
     {
         "name": "R2-Q5",
