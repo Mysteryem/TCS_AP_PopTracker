@@ -81,7 +81,7 @@
                         "chest_unopened_img": "images/items/supergonk.png",
                         "chest_opened_img": "images/items/supergonk_disabled.png",
                         "access_rules": [
-                            "highjump"
+                            "astromech"
                         ]
                     },
                     {
