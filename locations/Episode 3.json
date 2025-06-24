@@ -73,11 +73,6 @@
                         "chest_opened_img": "images/items/grievousbodyguard_disabled.png"
                     },
                     {
-                        "name": "Purchase General Grievous",
-                        "chest_unopened_img": "images/items/generalgrievous.png",
-                        "chest_opened_img": "images/items/generalgrievous_disabled.png"
-                    },
-                    {
                         "name": "Purchase Super Astromech (3-2)",
                         "chest_unopened_img": "images/items/superastromech.png",
                         "chest_opened_img": "images/items/superastromech_disabled.png",
@@ -436,6 +431,11 @@
                     }
                 ],
                 "sections": [
+                    {
+                        "name": "Purchase General Grievous",
+                        "chest_unopened_img": "images/items/generalgrievous.png",
+                        "chest_opened_img": "images/items/generalgrievous_disabled.png"
+                    },
                     {
                         "name": "Purchase Super Jedi Slam (3-3)",
                         "chest_unopened_img": "images/items/superjedislam.png",

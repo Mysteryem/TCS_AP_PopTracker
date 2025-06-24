@@ -903,10 +903,6 @@
                         "ref": "Episode 3/Chancellor in Peril/Purchase Grievous' Bodyguard"
                     },
                     {
-                        "name": "Chancellor in Peril - Purchase General Grievous",
-                        "ref": "Episode 3/Chancellor in Peril/Purchase General Grievous"
-                    },
-                    {
                         "name": "Chancellor in Peril - Purchase Super Astromech (3-2)",
                         "ref": "Episode 3/Chancellor in Peril/Purchase Super Astromech (3-2)"
                     },
@@ -1153,6 +1149,10 @@
                     {
                         "name": "Minikits - 3-3 Minikit 10",
                         "ref": "Episode 3/General Grievous/Minikits/3-3 Minikit 10"
+                    },
+                    {
+                        "name": "General Grievous - Purchase General Grievous",
+                        "ref": "Episode 3/General Grievous/Purchase General Grievous"
                     },
                     {
                         "name": "General Grievous - Purchase Super Jedi Slam (3-3)",
