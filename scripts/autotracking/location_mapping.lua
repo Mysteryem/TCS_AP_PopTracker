@@ -552,6 +552,7 @@ LOCATION_MAPPING = {
 	[551] = {"@Cantina/Bonus Levels/LEGO City"},
 	[552] = {"@Cantina/Bonus Levels/New Town"},
 	[553] = {"@Cantina/Bonus Levels/Indiana Jones: Trailer"},
+	[554] = {"@Cantina/Bonus Levels/Purchase Indiana Jones"},
 }
 
 sectionIDToAPID = {}

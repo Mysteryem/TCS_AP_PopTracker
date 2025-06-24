@@ -66,6 +66,10 @@
                         "ref": "Cantina/Bonus Levels/Indiana Jones: Trailer"
                     },
                     {
+                        "name": "Bonus Levels - Purchase Indiana Jones",
+                        "ref": "Cantina/Bonus Levels/Purchase Indiana Jones"
+                    },
+                    {
                         "name": "Cantina - Purchase Gonk Droid",
                         "ref": "Cantina/Purchase Gonk Droid"
                     },

@@ -118,6 +118,14 @@
                         "access_rules": [
                             "progressivebonuslevel"
                         ]
+                    },
+                    {
+                        "name": "Purchase Indiana Jones",
+                        "chest_unopened_img": "images/items/indianajones.png",
+                        "chest_opened_img": "images/items/indianajones_disabled.png",
+                        "access_rules": [
+                            "progressivebonuslevel"
+                        ]
                     }
                 ],
                 "map_locations": [
