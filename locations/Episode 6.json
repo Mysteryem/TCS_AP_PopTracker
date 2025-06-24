@@ -491,18 +491,18 @@
                 ],
                 "sections": [
                     {
-                        "name": "6-3 True Jedi"
-                    },
-                    {
-                        "name": "6-3 Completion"
-                    },
-                    {
                         "name": "Purchase Score x8",
                         "chest_unopened_img": "images/items/progressivescoremultiplier8.png",
                         "chest_opened_img": "images/items/progressivescoremultiplier8_disabled.png",
                         "access_rules": [
                             "shortie"
                         ]
+                    },
+                    {
+                        "name": "6-3 True Jedi"
+                    },
+                    {
+                        "name": "6-3 Completion"
                     }
                 ],
                 "map_locations": [

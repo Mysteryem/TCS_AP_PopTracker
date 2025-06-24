@@ -430,15 +430,15 @@
                         "chest_opened_img": "images/items/imperialshuttle_disabled.png"
                     },
                     {
+                        "name": "Purchase Score x4",
+                        "chest_unopened_img": "images/items/progressivescoremultiplier4.png",
+                        "chest_opened_img": "images/items/progressivescoremultiplier4_disabled.png"
+                    },
+                    {
                         "name": "5-3 True Jedi"
                     },
                     {
                         "name": "5-3 Completion"
-                    },
-                    {
-                        "name": "Purchase Score x4",
-                        "chest_unopened_img": "images/items/progressivescoremultiplier4.png",
-                        "chest_opened_img": "images/items/progressivescoremultiplier4_disabled.png"
                     }
                 ],
                 "map_locations": [
@@ -505,18 +505,18 @@
                 ],
                 "sections": [
                     {
-                        "name": "5-5 True Jedi"
-                    },
-                    {
-                        "name": "5-5 Completion"
-                    },
-                    {
                         "name": "Purchase Score x6",
                         "chest_unopened_img": "images/items/progressivescoremultiplier6.png",
                         "chest_opened_img": "images/items/progressivescoremultiplier6_disabled.png",
                         "access_rules": [
                             "bounty, @Macros/DroidOrFly"
                         ]
+                    },
+                    {
+                        "name": "5-5 True Jedi"
+                    },
+                    {
+                        "name": "5-5 Completion"
                     }
                 ],
                 "map_locations": [
