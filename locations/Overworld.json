@@ -267,6 +267,10 @@
                         "ref": "Episode 1/Mos Espa Podrace/Purchase Pit Droid"
                     },
                     {
+                        "name": "Mos Espa Podrace - Purchase Sebulba's Pod",
+                        "ref": "Episode 1/Mos Espa Podrace/Purchase Sebulba's Pod"
+                    },
+                    {
                         "name": "Mos Espa Podrace - Purchase Red Brick Detector (1-4)",
                         "ref": "Episode 1/Mos Espa Podrace/Purchase Red Brick Detector (1-4)"
                     },
@@ -505,6 +509,10 @@
                     {
                         "name": "Bounty Hunter Pursuit - Purchase Dexter Jettster",
                         "ref": "Episode 2/Bounty Hunter Pursuit/Purchase Dexter Jettster"
+                    },
+                    {
+                        "name": "Bounty Hunter Pursuit - Purchase Zam's Airspeeder",
+                        "ref": "Episode 2/Bounty Hunter Pursuit/Purchase Zam's Airspeeder"
                     },
                     {
                         "name": "Bounty Hunter Pursuit - Purchase Stud Magnet (2-1)",
@@ -1083,6 +1091,18 @@
                         "ref": "Episode 3/Battle Over Coruscant/Minikits/3-1 Minikit 10"
                     },
                     {
+                        "name": "Battle Over Coruscant - Purchase Droid Trifighter",
+                        "ref": "Episode 3/Battle Over Coruscant/Purchase Droid Trifighter"
+                    },
+                    {
+                        "name": "Battle Over Coruscant - Purchase Vulture Droid",
+                        "ref": "Episode 3/Battle Over Coruscant/Purchase Vulture Droid"
+                    },
+                    {
+                        "name": "Battle Over Coruscant - Purchase Clone Arcfighter",
+                        "ref": "Episode 3/Battle Over Coruscant/Purchase Clone Arcfighter"
+                    },
+                    {
                         "name": "Battle Over Coruscant - Purchase Vehicle Smart Bomb (3-1)",
                         "ref": "Episode 3/Battle Over Coruscant/Purchase Vehicle Smart Bomb (3-1)"
                     },
@@ -1563,6 +1583,18 @@
                         "ref": "Episode 4/Rebel Attack/Minikits/4-6 Minikit 10"
                     },
                     {
+                        "name": "Rebel Attack - Purchase TIE Fighter",
+                        "ref": "Episode 4/Rebel Attack/Purchase TIE Fighter"
+                    },
+                    {
+                        "name": "Rebel Attack - Purchase TIE Interceptor",
+                        "ref": "Episode 4/Rebel Attack/Purchase TIE Interceptor"
+                    },
+                    {
+                        "name": "Rebel Attack - Purchase TIE Fighter (Darth Vader)",
+                        "ref": "Episode 4/Rebel Attack/Purchase TIE Fighter (Darth Vader)"
+                    },
+                    {
                         "name": "Rebel Attack - Purchase Score x2 (4-6)",
                         "ref": "Episode 4/Rebel Attack/Purchase Score x2 (4-6)"
                     },
@@ -1869,6 +1901,14 @@
                     {
                         "name": "Minikits - 5-3 Minikit 10",
                         "ref": "Episode 5/Falcon Flight/Minikits/5-3 Minikit 10"
+                    },
+                    {
+                        "name": "Falcon Flight - Purchase TIE Bomber",
+                        "ref": "Episode 5/Falcon Flight/Purchase TIE Bomber"
+                    },
+                    {
+                        "name": "Falcon Flight - Purchase Imperial Shuttle",
+                        "ref": "Episode 5/Falcon Flight/Purchase Imperial Shuttle"
                     },
                     {
                         "name": "Falcon Flight - 5-3 True Jedi",

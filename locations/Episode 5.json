@@ -420,6 +420,16 @@
                 ],
                 "sections": [
                     {
+                        "name": "Purchase TIE Bomber",
+                        "chest_unopened_img": "images/items/tiebomber.png",
+                        "chest_opened_img": "images/items/tiebomber_disabled.png"
+                    },
+                    {
+                        "name": "Purchase Imperial Shuttle",
+                        "chest_unopened_img": "images/items/imperialshuttle.png",
+                        "chest_opened_img": "images/items/imperialshuttle_disabled.png"
+                    },
+                    {
                         "name": "5-3 True Jedi"
                     },
                     {

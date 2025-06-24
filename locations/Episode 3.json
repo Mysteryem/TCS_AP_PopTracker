@@ -347,6 +347,21 @@
                 ],
                 "sections": [
                     {
+                        "name": "Purchase Droid Trifighter",
+                        "chest_unopened_img": "images/items/droidtrifighter.png",
+                        "chest_opened_img": "images/items/droidtrifighter_disabled.png"
+                    },
+                    {
+                        "name": "Purchase Vulture Droid",
+                        "chest_unopened_img": "images/items/vulturedroid.png",
+                        "chest_opened_img": "images/items/vulturedroid_disabled.png"
+                    },
+                    {
+                        "name": "Purchase Clone Arcfighter",
+                        "chest_unopened_img": "images/items/clonearcfighter.png",
+                        "chest_opened_img": "images/items/clonearcfighter_disabled.png"
+                    },
+                    {
                         "name": "Purchase Vehicle Smart Bomb (3-1)",
                         "chest_unopened_img": "images/items/vehiclesmartbomb.png",
                         "chest_opened_img": "images/items/vehiclesmartbomb_disabled.png"

@@ -73,6 +73,11 @@
                         "chest_opened_img": "images/items/dexterjettster_disabled.png"
                     },
                     {
+                        "name": "Purchase Zam's Airspeeder",
+                        "chest_unopened_img": "images/items/zamsairspeeder.png",
+                        "chest_opened_img": "images/items/zamsairspeeder_disabled.png"
+                    },
+                    {
                         "name": "Purchase Stud Magnet (2-1)",
                         "chest_unopened_img": "images/items/studmagnet.png",
                         "chest_opened_img": "images/items/studmagnet_disabled.png"

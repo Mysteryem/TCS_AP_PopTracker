@@ -554,6 +554,16 @@ LOCATION_MAPPING = {
 	[553] = {"@Cantina/Bonus Levels/Indiana Jones: Trailer"},
 	[554] = {"@Cantina/Bonus Levels/Purchase Indiana Jones"},
 	[555] = {"@Episode 5/Betrayal Over Bespin/Purchase Princess Leia (Prisoner)"},
+	[556] = {"@Episode 1/Mos Espa Podrace/Purchase Sebulba's Pod"},
+	[556] = {"@Episode 2/Bounty Hunter Pursuit/Purchase Zam's Airspeeder"},
+	[556] = {"@Episode 3/Battle Over Coruscant/Purchase Droid Trifighter"},
+	[556] = {"@Episode 3/Battle Over Coruscant/Purchase Vulture Droid"},
+	[556] = {"@Episode 3/Battle Over Coruscant/Purchase Clone Arcfighter"},
+	[556] = {"@Episode 4/Rebel Attack/Purchase TIE Fighter"},
+	[556] = {"@Episode 4/Rebel Attack/Purchase TIE Interceptor"},
+	[556] = {"@Episode 4/Rebel Attack/Purchase TIE Fighter (Darth Vader)"},
+	[556] = {"@Episode 5/Falcon Flight/Purchase TIE Bomber"},
+	[556] = {"@Episode 5/Falcon Flight/Purchase Imperial Shuttle"},
 }
 
 sectionIDToAPID = {}

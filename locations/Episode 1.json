@@ -253,6 +253,11 @@
                         "chest_opened_img": "images/items/pitdroid_disabled.png"
                     },
                     {
+                        "name": "Purchase Sebulba's Pod",
+                        "chest_unopened_img": "images/items/sebulbaspodracer.png",
+                        "chest_opened_img": "images/items/sebulbaspodracer_disabled.png"
+                    },
+                    {
                         "name": "Purchase Red Brick Detector (1-4)",
                         "chest_unopened_img": "images/items/redbrickdetector.png",
                         "chest_opened_img": "images/items/redbrickdetector_disabled.png"

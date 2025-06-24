@@ -506,6 +506,21 @@
                 ],
                 "sections": [
                     {
+                        "name": "Purchase TIE Fighter",
+                        "chest_unopened_img": "images/items/tiefighter.png",
+                        "chest_opened_img": "images/items/tiefighter_disabled.png"
+                    },
+                    {
+                        "name": "Purchase TIE Interceptor",
+                        "chest_unopened_img": "images/items/tie-interceptor.png",
+                        "chest_opened_img": "images/items/tie-interceptor_disabled.png"
+                    },
+                    {
+                        "name": "Purchase TIE Fighter (Darth Vader)",
+                        "chest_unopened_img": "images/items/tiefighter(darthvader).png",
+                        "chest_opened_img": "images/items/tiefighter(darthvader)_disabled.png"
+                    },
+                    {
                         "name": "Purchase Score x2 (4-6)",
                         "chest_unopened_img": "images/items/progressivescoremultiplier2.png",
                         "chest_opened_img": "images/items/progressivescoremultiplier2_disabled.png"
