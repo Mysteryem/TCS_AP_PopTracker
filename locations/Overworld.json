@@ -1631,6 +1631,18 @@
                         "ref": "Episode 5/Escape From Echo Base/Purchase Luke Skywalker (Hoth)"
                     },
                     {
+                        "name": "Escape From Echo Base - Purchase Rebel Trooper (Hoth)",
+                        "ref": "Episode 5/Escape From Echo Base/Purchase Rebel Trooper (Hoth)"
+                    },
+                    {
+                        "name": "Escape From Echo Base - Purchase Rebel Pilot",
+                        "ref": "Episode 5/Escape From Echo Base/Purchase Rebel Pilot"
+                    },
+                    {
+                        "name": "Escape From Echo Base - Purchase Snowtrooper",
+                        "ref": "Episode 5/Escape From Echo Base/Purchase Snowtrooper"
+                    },
+                    {
                         "name": "Escape From Echo Base - Purchase Fast Build (5-2)",
                         "ref": "Episode 5/Escape From Echo Base/Purchase Fast Build (5-2)"
                     },
@@ -1681,18 +1693,6 @@
                     {
                         "name": "Minikits - 5-1 Minikit 10",
                         "ref": "Episode 5/Hoth Battle/Minikits/5-1 Minikit 10"
-                    },
-                    {
-                        "name": "Hoth Battle - Purchase Rebel Trooper (Hoth)",
-                        "ref": "Episode 5/Hoth Battle/Purchase Rebel Trooper (Hoth)"
-                    },
-                    {
-                        "name": "Hoth Battle - Purchase Rebel Pilot",
-                        "ref": "Episode 5/Hoth Battle/Purchase Rebel Pilot"
-                    },
-                    {
-                        "name": "Hoth Battle - Purchase Snowtrooper",
-                        "ref": "Episode 5/Hoth Battle/Purchase Snowtrooper"
                     },
                     {
                         "name": "Hoth Battle - Purchase Self Destruct (5-1)",

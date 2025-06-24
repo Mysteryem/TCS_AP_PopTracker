@@ -73,6 +73,21 @@
                         "chest_opened_img": "images/items/lukeskywalker(hoth)_disabled.png"
                     },
                     {
+                        "name": "Purchase Rebel Trooper (Hoth)",
+                        "chest_unopened_img": "images/items/rebeltrooper(hoth).png",
+                        "chest_opened_img": "images/items/rebeltrooper(hoth)_disabled.png"
+                    },
+                    {
+                        "name": "Purchase Rebel Pilot",
+                        "chest_unopened_img": "images/items/rebelpilot.png",
+                        "chest_opened_img": "images/items/rebelpilot_disabled.png"
+                    },
+                    {
+                        "name": "Purchase Snowtrooper",
+                        "chest_unopened_img": "images/items/snowtrooper.png",
+                        "chest_opened_img": "images/items/snowtrooper_disabled.png"
+                    },
+                    {
                         "name": "Purchase Fast Build (5-2)",
                         "chest_unopened_img": "images/items/fastbuild.png",
                         "chest_opened_img": "images/items/fastbuild_disabled.png",
@@ -150,21 +165,6 @@
                     }
                 ],
                 "sections": [
-                    {
-                        "name": "Purchase Rebel Trooper (Hoth)",
-                        "chest_unopened_img": "images/items/rebeltrooper(hoth).png",
-                        "chest_opened_img": "images/items/rebeltrooper(hoth)_disabled.png"
-                    },
-                    {
-                        "name": "Purchase Rebel Pilot",
-                        "chest_unopened_img": "images/items/rebelpilot.png",
-                        "chest_opened_img": "images/items/rebelpilot_disabled.png"
-                    },
-                    {
-                        "name": "Purchase Snowtrooper",
-                        "chest_unopened_img": "images/items/snowtrooper.png",
-                        "chest_opened_img": "images/items/snowtrooper_disabled.png"
-                    },
                     {
                         "name": "Purchase Self Destruct (5-1)",
                         "chest_unopened_img": "images/items/selfdestruct.png",
