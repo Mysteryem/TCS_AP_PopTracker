@@ -273,7 +273,7 @@
             {
                 "name": "Jedi Battle",
                 "access_rules": [
-                    "macewindu, padme(clawed), anakinskywalker(padawan), obi-wankenobi(jedimaster)"
+                    "macewindu, padme(clawed), anakinskywalker(padawan), obi-wankenobi(jedimaster), r2-d2"
                 ],
                 "children": [
                     {
