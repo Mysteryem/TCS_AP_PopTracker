@@ -165,11 +165,6 @@
                         "chest_opened_img": "images/items/bossnass_disabled.png"
                     },
                     {
-                        "name": "Purchase Royal Guard",
-                        "chest_unopened_img": "images/items/royalguard.png",
-                        "chest_opened_img": "images/items/royalguard_disabled.png"
-                    },
-                    {
                         "name": "Purchase Fertilizer (1-2)",
                         "chest_unopened_img": "images/items/fertilizer.png",
                         "chest_opened_img": "images/items/fertilizer_disabled.png",
@@ -412,6 +407,11 @@
                     }
                 ],
                 "sections": [
+                    {
+                        "name": "Purchase Royal Guard",
+                        "chest_unopened_img": "images/items/royalguard.png",
+                        "chest_opened_img": "images/items/royalguard_disabled.png"
+                    },
                     {
                         "name": "Purchase Padmé",
                         "chest_unopened_img": "images/items/padme.png",

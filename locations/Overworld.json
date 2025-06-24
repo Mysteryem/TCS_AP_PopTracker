@@ -203,10 +203,6 @@
                         "ref": "Episode 1/Invasion of Naboo/Purchase Boss Nass"
                     },
                     {
-                        "name": "Invasion of Naboo - Purchase Royal Guard",
-                        "ref": "Episode 1/Invasion of Naboo/Purchase Royal Guard"
-                    },
-                    {
                         "name": "Invasion of Naboo - Purchase Fertilizer (1-2)",
                         "ref": "Episode 1/Invasion of Naboo/Purchase Fertilizer (1-2)"
                     },
@@ -373,6 +369,10 @@
                     {
                         "name": "Minikits - 1-3 Minikit 10",
                         "ref": "Episode 1/Escape From Naboo/Minikits/1-3 Minikit 10"
+                    },
+                    {
+                        "name": "Invasion of Naboo - Purchase Royal Guard",
+                        "ref": "Episode 1/Invasion of Naboo/Purchase Royal Guard"
                     },
                     {
                         "name": "Escape From Naboo - Purchase Padmé",
