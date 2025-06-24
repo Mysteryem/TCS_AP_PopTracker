@@ -91,7 +91,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "snowspeeder"
+        "codes": "snowspeeder, towvehicle"
     },
     {
         "name": "Clone (Episode 3)",
@@ -931,7 +931,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "republicgunship"
+        "codes": "republicgunship, towvehicle"
     },
     {
         "name": "Super Gonk",
@@ -1670,7 +1670,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "tie-interceptor"
+        "codes": "tie-interceptor, tievehicle"
     },
     {
         "name": "Imperial Spy",
@@ -1780,7 +1780,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "naboostarfighter"
+        "codes": "naboostarfighter, towvehicle"
     },
     {
         "name": "Clone Arcfighter",
