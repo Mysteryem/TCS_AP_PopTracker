@@ -165,18 +165,26 @@
               [
                 "anakinspodracer",
                 "naboostarfighter",
+                "speeder",
                 "republicgunship",
                 "anakinsstarfighter",
                 "obi-wansstarfighter",
                 "x-wing",
                 "y-wing",
-                "milleniumfalcon",
-                "tie-interceptor",
                 "snowspeeder",
-                "speeder",
+                "milleniumfalcon",
+                "sebulbaspodracer",
+                "zamsairspeeder",
+                "droidtrifighter",
+                "vulturedroid",
+                "clonearcfighter",
+                "tiefighter",
+                "tie-interceptor",
+                "tiefighter(darthvader)",
+                "tiebomber",
+                "imperialshuttle",
                 "progressivebonuslevel",
-                "5minikits",
-                "purplestud"
+                "5minikits"
               ],
               [
                 "supergonk",
@@ -213,6 +221,7 @@
                 "bountyhunterrockets",
                 "superewokcatapult",
                 "infinitetorpedos",
+                "purplestud"
               ]
             ]
           }

@@ -1781,5 +1781,95 @@
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "naboostarfighter"
+    },
+    {
+        "name": "Clone Arcfighter",
+        "type": "toggle",
+        "img": "images/items/clonearcfighter.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "clonearcfighter"
+    },
+    {
+        "name": "Droid Trifighter",
+        "type": "toggle",
+        "img": "images/items/droidtrifighter.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "droidtrifighter"
+    },
+    {
+        "name": "Imperial Shuttle",
+        "type": "toggle",
+        "img": "images/items/imperialshuttle.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "imperialshuttle"
+    },
+    {
+        "name": "Sebulbas's Podracer",
+        "type": "toggle",
+        "img": "images/items/sebulbaspodracer.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "sebulbaspodracer"
+    },
+    {
+        "name": "TIE Bomber",
+        "type": "toggle",
+        "img": "images/items/tiebomber.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "tiebomber, tievehicle"
+    },
+    {
+        "name": "TIE Fighter (Darth Vader)",
+        "type": "toggle",
+        "img": "images/items/tiefighter(darthvader).png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "tiefighter(darthvader), tievehicle"
+    },
+    {
+        "name": "TIE Fighter",
+        "type": "toggle",
+        "img": "images/items/tiefighter.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "tiefighter, tievehicle"
+    },
+    {
+        "name": "Vulture Droid",
+        "type": "toggle",
+        "img": "images/items/vulturedroid.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "vulturedroid"
+    },
+    {
+        "name": "Zam's Airspeeder",
+        "type": "toggle",
+        "img": "images/items/zamsairspeeder.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "zamsairspeeder"
     }
 ]

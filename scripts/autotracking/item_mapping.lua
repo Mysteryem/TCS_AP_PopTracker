@@ -174,4 +174,13 @@ ITEM_MAPPING = {
 	[173] = {{"snowspeeder", "toggle"}},
 	[174] = {{"speeder", "toggle"}},
 	[175] = {{"purplestud", "consumable"}},
+	[190] = {{"sebulbaspodracer", "toggle"}},
+	[191] = {{"zamsairspeeder", "toggle"}},
+	[192] = {{"droidtrifighter", "toggle"}},
+	[193] = {{"vulturedroid", "toggle"}},
+	[194] = {{"clonearcfighter", "toggle"}},
+	[195] = {{"tiefighter", "toggle"}},
+	[196] = {{"tiefighter(darthvader)", "toggle"}},
+	[197] = {{"tiebomber", "toggle"}},
+	[198] = {{"imperialshuttle", "toggle"}},
 }
