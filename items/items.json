@@ -1663,7 +1663,7 @@
         "codes": "landocalrissian(palaceguard), blaster"
     },
     {
-        "name": "TIE-Interceptor",
+        "name": "TIE Interceptor",
         "type": "toggle",
         "img": "images/items/tie-interceptor.png",
         "img_mods": "",
