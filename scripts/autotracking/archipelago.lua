@@ -286,48 +286,6 @@ function updateHints(locationID, status)
     end
 end
 
--- Taken from the Pokemon Platinum tracker and modified.
-ScriptHost:AddOnLocationSectionChangedHandler("manual", function(section)
-    if section.AvailableChestCount ~= 0 then -- this only works for 1 chest per section
-        return
-    end
-
-    local sectionID = "@" .. section.FullID
-    local apID = sectionIDToAPID[sectionID]
-
-    -- The victory location is also a real AP location in manuals, but it is only present in the datapackage and is
-    -- never actually used in a generated world.
-    if sectionID == "@Cantina/Goal/Slave I" then
-        if Tracker:ProviderCountForCode("5minikits") >= 54 then
-            local res = Archipelago:StatusUpdate(Archipelago.ClientStatus.GOAL)
-            if res then
-                print("Sent Victory")
-            else
-                print("Error sending Victory")
-            end
-        end
-        return
-    end
-
-    if COLLECTED_LOCATION_IDS[apID] ~= nil then
-        -- Location has been collected already (either by us or by !collect), don't sent it again.
-        return
-    end
-
-    -- AP location cleared
-    if apID ~= nil then
-        local res = Archipelago:LocationChecks({apID})
-        if res then
-            print("Sent " .. tostring(apID) .. " for " .. tostring(sectionID))
-            COLLECTED_LOCATION_IDS[apID] = true
-        else
-            print("Error sending " .. tostring(apID) .. " for " .. tostring(sectionID))
-        end
-    else
-        print(tostring(sectionID) .. " is not an AP location")
-    end
-end)
-
 
 -- ScriptHost:AddWatchForCode("settings autofill handler", "autofill_settings", autoFill)
 Archipelago:AddClearHandler("clear handler", onClear)
