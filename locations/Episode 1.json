@@ -443,7 +443,7 @@
             {
                 "name": "Retake Theed Palace",
                 "access_rules": [
-                    "captainpanaka, queenamidala, r2-d2, anakinskywalker(boy)"
+                    "captainpanaka, padme(battle), r2-d2, anakinskywalker(boy)"
                 ],
                 "children": [
                     {
