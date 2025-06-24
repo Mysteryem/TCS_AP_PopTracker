@@ -553,6 +553,7 @@ LOCATION_MAPPING = {
 	[552] = {"@Cantina/Bonus Levels/New Town"},
 	[553] = {"@Cantina/Bonus Levels/Indiana Jones: Trailer"},
 	[554] = {"@Cantina/Bonus Levels/Purchase Indiana Jones"},
+	[555] = {"@Episode 5/Betrayal Over Bespin/Purchase Princess Leia (Prisoner)"},
 }
 
 sectionIDToAPID = {}

@@ -259,6 +259,11 @@
                         "chest_opened_img": "images/items/bespinguard_disabled.png"
                     },
                     {
+                        "name": "Purchase Princess Leia (Prisoner)",
+                        "chest_unopened_img": "images/items/princessleia(prisoner).png",
+                        "chest_opened_img": "images/items/princessleia(prisoner)_disabled.png"
+                    },
+                    {
                         "name": "Purchase Minikit Detector (5-6)",
                         "chest_unopened_img": "images/items/minikitdetector.png",
                         "chest_opened_img": "images/items/minikitdetector_disabled.png",
