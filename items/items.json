@@ -174,7 +174,7 @@
         "codes": "superastromech"
     },
     {
-        "name": "Anakin's Podracer",
+        "name": "Anakin's Pod",
         "type": "toggle",
         "img": "images/items/anakinspodracer.png",
         "img_mods": "",
@@ -1813,7 +1813,7 @@
         "codes": "imperialshuttle"
     },
     {
-        "name": "Sebulbas's Podracer",
+        "name": "Sebulbas's Pod",
         "type": "toggle",
         "img": "images/items/sebulbaspodracer.png",
         "img_mods": "",
