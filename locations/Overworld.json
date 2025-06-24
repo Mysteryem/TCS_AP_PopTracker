@@ -2219,6 +2219,10 @@
                         "ref": "Episode 6/Jedi Destiny/Purchase The Emperor"
                     },
                     {
+                        "name": "Jedi Destiny - Purchase Score x10",
+                        "ref": "Episode 6/Jedi Destiny/Purchase Score x10"
+                    },
+                    {
                         "name": "Jedi Destiny - 6-5 True Jedi",
                         "ref": "Episode 6/Jedi Destiny/6-5 True Jedi"
                     },
@@ -2281,10 +2285,6 @@
                     {
                         "name": "Into the Death Star - 6-6 Completion",
                         "ref": "Episode 6/Into the Death Star/6-6 Completion"
-                    },
-                    {
-                        "name": "Into the Death Star - Purchase Score x10",
-                        "ref": "Episode 6/Into the Death Star/Purchase Score x10"
                     },
                     {
                         "name": "Minikits - 6-3 Minikit 1",

@@ -336,6 +336,11 @@
                         "chest_opened_img": "images/items/theemperor_disabled.png"
                     },
                     {
+                        "name": "Purchase Score x10",
+                        "chest_unopened_img": "images/items/progressivescoremultiplier10.png",
+                        "chest_opened_img": "images/items/progressivescoremultiplier10_disabled.png"
+                    },
+                    {
                         "name": "6-5 True Jedi"
                     },
                     {
@@ -420,11 +425,6 @@
                     },
                     {
                         "name": "6-6 Completion"
-                    },
-                    {
-                        "name": "Purchase Score x10",
-                        "chest_unopened_img": "images/items/progressivescoremultiplier10.png",
-                        "chest_opened_img": "images/items/progressivescoremultiplier10_disabled.png"
                     }
                 ],
                 "map_locations": [
