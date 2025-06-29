@@ -1,5 +1,12 @@
 ITEM_MAPPING = {
-	[1] = {{"5minikits", "consumable"}},
+	-- 5 Minikits
+	[1] = {
+			{"minikits", "consumable"},
+			{"minikits", "consumable"},
+			{"minikits", "consumable"},
+			{"minikits", "consumable"},
+			{"minikits", "consumable"},
+			},
 	[2] = {{"jarjarbinks", "toggle"}},
 	[3] = {{"queenamidala", "toggle"}},
 	[4] = {{"captainpanaka", "toggle"}},
@@ -183,4 +190,23 @@ ITEM_MAPPING = {
 	[196] = {{"tiefighter(darthvader)", "toggle"}},
 	[197] = {{"tiebomber", "toggle"}},
 	[198] = {{"imperialshuttle", "toggle"}},
+	[199] = {{"minikits", "consumable"}},
+	-- 2 Minikits
+	[200] = {
+			{"minikits", "consumable"},
+			{"minikits", "consumable"},
+			},
+	-- 10 Minikits
+	[201] = {
+			{"minikits", "consumable"},
+			{"minikits", "consumable"},
+			{"minikits", "consumable"},
+			{"minikits", "consumable"},
+			{"minikits", "consumable"},
+			{"minikits", "consumable"},
+			{"minikits", "consumable"},
+			{"minikits", "consumable"},
+			{"minikits", "consumable"},
+			{"minikits", "consumable"},
+			},
 }

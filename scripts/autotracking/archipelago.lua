@@ -74,27 +74,31 @@ function onClear(slot_data)
         end
     end
     -- reset items
+    local already_reset = {}
     for _ap_id, item_pairs in pairs(ITEM_MAPPING) do
         for _, item_pair in ipairs(item_pairs) do
             local item_code = item_pair[1]
             -- local item_type = item_pair[2]
-            local item_obj = Tracker:FindObjectForCode(item_code)
-            if item_obj then
-                if item_obj.Type == "toggle" then
-                    item_obj.Active = false
-                elseif item_obj.Type == "progressive" then
-                    item_obj.CurrentStage = 0
-                    item_obj.Active = false
-                elseif item_obj.Type == "consumable" then
-                    if item_obj.MinCount then
-                        item_obj.AcquiredCount = item_obj.MinCount
-                    else
-                        item_obj.AcquiredCount = 0
+            if already_reset[item_code] == nil then
+                local item_obj = Tracker:FindObjectForCode(item_code)
+                if item_obj then
+                    if item_obj.Type == "toggle" then
+                        item_obj.Active = false
+                    elseif item_obj.Type == "progressive" then
+                        item_obj.CurrentStage = 0
+                        item_obj.Active = false
+                    elseif item_obj.Type == "consumable" then
+                        if item_obj.MinCount then
+                            item_obj.AcquiredCount = item_obj.MinCount
+                        else
+                            item_obj.AcquiredCount = 0
+                        end
+                    elseif item_obj.Type == "progressive_toggle" then
+                        item_obj.CurrentStage = 0
+                        item_obj.Active = false
                     end
-                elseif item_obj.Type == "progressive_toggle" then
-                    item_obj.CurrentStage = 0
-                    item_obj.Active = false
                 end
+                already_reset[item_code] = true
             end
         end
     end
