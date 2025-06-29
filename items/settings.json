@@ -1,0 +1,11 @@
+[
+  {
+    "name": "Minikits for Goal",
+    "type": "consumable",
+    "img": "images/items/minikit.png",
+    "min_quantity": 0,
+    "max_quantity": 360,
+    "initial_quantity": 270,
+    "codes": "minikits_for_goal"
+  }
+]

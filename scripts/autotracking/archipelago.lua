@@ -105,6 +105,19 @@ function onClear(slot_data)
     PLAYER_ID = Archipelago.PlayerNumber or -1
     TEAM_NUMBER = Archipelago.TeamNumber or 0
     SLOT_DATA = slot_data
+
+    local version = slot_data["apworld_version"] or {0, 1, 0}
+    local major = version[1]
+    local minor = version[2]
+    local patch = version[3]
+    -- Version (0,2,0) added the ability to change the goal amount
+    local goal_amount
+    if major > 0 or (major == 0 and minor >= 2) then
+        goal_amount = slot_data["minikit_goal_amount"]
+    else
+        goal_amount = 270
+    end
+    Tracker:FindObjectForCode("minikits_for_goal").AcquiredCount = goal_amount
     -- if Tracker:FindObjectForCode("autofill_settings").Active == true then
     --     autoFill(slot_data)
     -- end

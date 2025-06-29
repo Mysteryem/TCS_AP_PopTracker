@@ -1,6 +1,7 @@
 -- Items
 Tracker:AddItems("items/extra_items.json")
 Tracker:AddItems("items/items.json")
+Tracker:AddItems("items/settings.json")
 
 -- Maps
 Tracker:AddMaps("maps/maps.json")
@@ -26,3 +27,4 @@ Tracker:AddLocations("locations/LevelRequirementsDisplay.json")
 
 -- AutoTracking for Poptracker
 require("scripts/autotracking/archipelago")
+require("scripts/logic")
