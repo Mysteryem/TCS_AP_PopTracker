@@ -10,7 +10,10 @@
             {
                 "name": "Jabba's Palace",
                 "access_rules": [
-                    "princessleia(boushh), chewbacca, lukeskywalker(jedi), r2-d2, c-3po, hansolo(skiff)"
+                    "6_1_enabled, princessleia(boushh), chewbacca, lukeskywalker(jedi), r2-d2, c-3po, hansolo(skiff)"
+                ],
+                "visibility_rules": [
+                    "6_1_enabled"
                 ],
                 "children": [
                     {
@@ -105,7 +108,10 @@
             {
                 "name": "Pit of Carkoon",
                 "access_rules": [
-                    "lukeskywalker(jedi), landocalrissian(palaceguard), hansolo(skiff), chewbacca, r2-d2, c-3po, princessleia(slave)"
+                    "6_2_enabled, lukeskywalker(jedi), landocalrissian(palaceguard), hansolo(skiff), chewbacca, r2-d2, c-3po, princessleia(slave)"
+                ],
+                "visibility_rules": [
+                    "6_2_enabled"
                 ],
                 "children": [
                     {
@@ -190,7 +196,10 @@
             {
                 "name": "Battle of Endor",
                 "access_rules": [
-                    "hansolo(endor), princessleia(endor), chewbacca, r2-d2, c-3po, wicket"
+                    "6_4_enabled, hansolo(endor), princessleia(endor), chewbacca, r2-d2, c-3po, wicket"
+                ],
+                "visibility_rules": [
+                    "6_4_enabled"
                 ],
                 "children": [
                     {
@@ -273,7 +282,10 @@
             {
                 "name": "Jedi Destiny",
                 "access_rules": [
-                    "darthvader, lukeskywalker(jedi)"
+                    "6_5_enabled, darthvader, lukeskywalker(jedi)"
+                ],
+                "visibility_rules": [
+                    "6_5_enabled"
                 ],
                 "children": [
                     {
@@ -358,7 +370,10 @@
             {
                 "name": "Into the Death Star",
                 "access_rules": [
-                    "milleniumfalcon, x-wing"
+                    "6_6_enabled, milleniumfalcon, x-wing"
+                ],
+                "visibility_rules": [
+                    "6_6_enabled"
                 ],
                 "children": [
                     {
@@ -438,7 +453,10 @@
             {
                 "name": "Speeder Showdown",
                 "access_rules": [
-                    "lukeskywalker(endor), princessleia(endor)"
+                    "6_3_enabled, lukeskywalker(endor), princessleia(endor)"
+                ],
+                "visibility_rules": [
+                    "6_3_enabled"
                 ],
                 "children": [
                     {

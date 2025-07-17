@@ -10,7 +10,10 @@
             {
                 "name": "Chancellor in Peril",
                 "access_rules": [
-                    "anakinskywalker(jedi), chancellorpalpatine, obi-wankenobi(episode3), r2-d2"
+                    "3_2_enabled, anakinskywalker(jedi), chancellorpalpatine, obi-wankenobi(episode3), r2-d2"
+                ],
+                "visibility_rules": [
+                    "3_2_enabled"
                 ],
                 "children": [
                     {
@@ -98,7 +101,10 @@
             {
                 "name": "Defense of Kashyyyk",
                 "access_rules": [
-                    "chewbacca, yoda"
+                    "3_4_enabled, chewbacca, yoda"
+                ],
+                "visibility_rules": [
+                    "3_4_enabled"
                 ],
                 "children": [
                     {
@@ -201,7 +207,10 @@
             {
                 "name": "Ruin of the Jedi",
                 "access_rules": [
-                    "obi-wankenobi(episode3), yoda"
+                    "3_5_enabled, obi-wankenobi(episode3), yoda"
+                ],
+                "visibility_rules": [
+                    "3_5_enabled"
                 ],
                 "children": [
                     {
@@ -289,7 +298,10 @@
             {
                 "name": "Battle Over Coruscant",
                 "access_rules": [
-                    "obi-wansstarfighter, anakinsstarfighter"
+                    "3_1_enabled, obi-wansstarfighter, anakinsstarfighter"
+                ],
+                "visibility_rules": [
+                    "3_1_enabled"
                 ],
                 "children": [
                     {
@@ -379,7 +391,10 @@
             {
                 "name": "General Grievous",
                 "access_rules": [
-                    "obi-wankenobi(episode3), commandercody"
+                    "3_3_enabled, obi-wankenobi(episode3), commandercody"
+                ],
+                "visibility_rules": [
+                    "3_3_enabled"
                 ],
                 "children": [
                     {
@@ -459,7 +474,10 @@
             {
                 "name": "Darth Vader",
                 "access_rules": [
-                    "anakinskywalker(jedi), obi-wankenobi(episode3)"
+                    "3_6_enabled, anakinskywalker(jedi), obi-wankenobi(episode3)"
+                ],
+                "visibility_rules": [
+                    "3_6_enabled"
                 ],
                 "children": [
                     {

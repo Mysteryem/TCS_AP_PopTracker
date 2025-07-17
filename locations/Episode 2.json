@@ -10,7 +10,10 @@
             {
                 "name": "Bounty Hunter Pursuit",
                 "access_rules": [
-                    "speeder"
+                    "2_1_enabled, speeder"
+                ],
+                "visibility_rules": [
+                    "2_1_enabled"
                 ],
                 "children": [
                     {
@@ -100,7 +103,10 @@
             {
                 "name": "Discovery on Kamino",
                 "access_rules": [
-                    "r4-p17, obi-wankenobi(jedimaster)"
+                    "2_2_enabled, r4-p17, obi-wankenobi(jedimaster)"
+                ],
+                "visibility_rules": [
+                    "2_2_enabled"
                 ],
                 "children": [
                     {
@@ -193,7 +199,10 @@
             {
                 "name": "Droid Factory",
                 "access_rules": [
-                    "anakinskywalker(padawan), padme(geonosis), r2-d2, c-3po"
+                    "2_3_enabled, anakinskywalker(padawan), padme(geonosis), r2-d2, c-3po"
+                ],
+                "visibility_rules": [
+                    "2_3_enabled"
                 ],
                 "children": [
                     {
@@ -278,7 +287,10 @@
             {
                 "name": "Jedi Battle",
                 "access_rules": [
-                    "macewindu, padme(clawed), anakinskywalker(padawan), obi-wankenobi(jedimaster), r2-d2"
+                    "2_4_enabled, macewindu, padme(clawed), anakinskywalker(padawan), obi-wankenobi(jedimaster), r2-d2"
+                ],
+                "visibility_rules": [
+                    "2_4_enabled"
                 ],
                 "children": [
                     {
@@ -401,7 +413,10 @@
             {
                 "name": "Gunship Cavalry",
                 "access_rules": [
-                    "republicgunship"
+                    "2_5_enabled, republicgunship"
+                ],
+                "visibility_rules": [
+                    "2_5_enabled"
                 ],
                 "children": [
                     {
@@ -476,7 +491,10 @@
             {
                 "name": "Count Dooku",
                 "access_rules": [
-                    "anakinskywalker(padawan), obi-wankenobi(jedimaster), yoda"
+                    "2_6_enabled, anakinskywalker(padawan), obi-wankenobi(jedimaster), yoda"
+                ],
+                "visibility_rules": [
+                    "2_6_enabled"
                 ],
                 "children": [
                     {

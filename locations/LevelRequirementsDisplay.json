@@ -10,6 +10,9 @@
         "children": [
           {
             "name": "Characters for 1-1",
+            "visibility_rules": [
+              "1_1_enabled"
+            ],
             "sections": [
               {
                 "hosted_item": "obi-wankenobi, qui-gonjinn, tc-14"
@@ -27,6 +30,9 @@
           },
           {
             "name": "Characters for 1-2",
+            "visibility_rules": [
+              "1_2_enabled"
+            ],
             "sections": [
               {
                 "hosted_item": "obi-wankenobi, qui-gonjinn, jarjarbinks"
@@ -44,6 +50,9 @@
           },
           {
             "name": "Characters for 1-3",
+            "visibility_rules": [
+              "1_3_enabled"
+            ],
             "sections": [
               {
                 "hosted_item": "obi-wankenobi, qui-gonjinn, captainpanaka, queenamidala"
@@ -61,6 +70,9 @@
           },
           {
             "name": "Characters for 1-4",
+            "visibility_rules": [
+              "1_4_enabled"
+            ],
             "sections": [
               {
                 "hosted_item": "anakinspodracer"
@@ -78,6 +90,9 @@
           },
           {
             "name": "Characters for 1-5",
+            "visibility_rules": [
+              "1_5_enabled"
+            ],
             "sections": [
               {
                 "hosted_item": "obi-wankenobi, qui-gonjinn, captainpanaka, padme(battle), r2-d2, anakinskywalker(boy)"
@@ -95,6 +110,9 @@
           },
           {
             "name": "Characters for 1-6",
+            "visibility_rules": [
+              "1_6_enabled"
+            ],
             "sections": [
               {
                 "hosted_item": "obi-wankenobi, qui-gonjinn"
@@ -117,6 +135,9 @@
         "children": [
           {
             "name": "Characters for 2-1",
+            "visibility_rules": [
+              "2_1_enabled"
+            ],
             "sections": [
               {
                 "hosted_item": "speeder"
@@ -134,6 +155,9 @@
           },
           {
             "name": "Characters for 2-2",
+            "visibility_rules": [
+              "2_2_enabled"
+            ],
             "sections": [
               {
                 "hosted_item": "r4-p17, obi-wankenobi(jedimaster)"
@@ -151,6 +175,9 @@
           },
           {
             "name": "Characters for 2-3",
+            "visibility_rules": [
+              "2_3_enabled"
+            ],
             "sections": [
               {
                 "hosted_item": "anakinskywalker(padawan), padme(geonosis), r2-d2, c-3po"
@@ -168,6 +195,9 @@
           },
           {
             "name": "Characters for 2-4",
+            "visibility_rules": [
+              "2_4_enabled"
+            ],
             "sections": [
               {
                 "hosted_item": "macewindu, padme(clawed), anakinskywalker(padawan), obi-wankenobi(jedimaster), r2-d2"
@@ -185,6 +215,9 @@
           },
           {
             "name": "Characters for 2-5",
+            "visibility_rules": [
+              "2_5_enabled"
+            ],
             "sections": [
               {
                 "hosted_item": "republicgunship"
@@ -202,6 +235,9 @@
           },
           {
             "name": "Characters for 2-6",
+            "visibility_rules": [
+              "2_6_enabled"
+            ],
             "sections": [
               {
                 "hosted_item": "anakinskywalker(padawan), obi-wankenobi(jedimaster), yoda"
@@ -224,6 +260,9 @@
         "children": [
           {
             "name": "Characters for 3-1",
+            "visibility_rules": [
+              "3_1_enabled"
+            ],
             "sections": [
               {
                 "hosted_item": "obi-wansstarfighter, anakinsstarfighter"
@@ -241,6 +280,9 @@
           },
           {
             "name": "Characters for 3-2",
+            "visibility_rules": [
+              "3_2_enabled"
+            ],
             "sections": [
               {
                 "hosted_item": "anakinskywalker(jedi), chancellorpalpatine, obi-wankenobi(episode3), r2-d2"
@@ -258,6 +300,9 @@
           },
           {
             "name": "Characters for 3-3",
+            "visibility_rules": [
+              "3_3_enabled"
+            ],
             "sections": [
               {
                 "hosted_item": "obi-wankenobi(episode3), commandercody"
@@ -275,6 +320,9 @@
           },
           {
             "name": "Characters for 3-4",
+            "visibility_rules": [
+              "3_4_enabled"
+            ],
             "sections": [
               {
                 "hosted_item": "chewbacca, yoda"
@@ -292,6 +340,9 @@
           },
           {
             "name": "Characters for 3-5",
+            "visibility_rules": [
+              "3_5_enabled"
+            ],
             "sections": [
               {
                 "hosted_item": "obi-wankenobi(episode3), yoda"
@@ -309,6 +360,9 @@
           },
           {
             "name": "Characters for 3-6",
+            "visibility_rules": [
+              "3_6_enabled"
+            ],
             "sections": [
               {
                 "hosted_item": "anakinskywalker(jedi), obi-wankenobi(episode3)"
@@ -331,6 +385,9 @@
         "children": [
           {
             "name": "Characters for 4-1",
+            "visibility_rules": [
+              "4_1_enabled"
+            ],
             "sections": [
               {
                 "hosted_item": "princessleia, captainantilles, c-3po, r2-d2, rebelfriend"
@@ -348,6 +405,9 @@
           },
           {
             "name": "Characters for 4-2",
+            "visibility_rules": [
+              "4_2_enabled"
+            ],
             "sections": [
               {
                 "hosted_item": "lukeskywalker(tatooine), c-3po, r2-d2, benkenobi"
@@ -365,6 +425,9 @@
           },
           {
             "name": "Characters for 4-3",
+            "visibility_rules": [
+              "4_3_enabled"
+            ],
             "sections": [
               {
                 "hosted_item": "hansolo, benkenobi, lukeskywalker(tatooine), c-3po, r2-d2, chewbacca"
@@ -382,6 +445,9 @@
           },
           {
             "name": "Characters for 4-4",
+            "visibility_rules": [
+              "4_4_enabled"
+            ],
             "sections": [
               {
                 "hosted_item": "lukeskywalker(stormtrooper), benkenobi, hansolo(stormtrooper), chewbacca, c-3po, r2-d2"
@@ -399,6 +465,9 @@
           },
           {
             "name": "Characters for 4-5",
+            "visibility_rules": [
+              "4_5_enabled"
+            ],
             "sections": [
               {
                 "hosted_item": "lukeskywalker(tatooine), princessleia, hansolo, chewbacca, c-3po, r2-d2"
@@ -416,6 +485,9 @@
           },
           {
             "name": "Characters for 4-6",
+            "visibility_rules": [
+              "4_6_enabled"
+            ],
             "sections": [
               {
                 "hosted_item": "x-wing, y-wing"
@@ -438,6 +510,9 @@
         "children": [
           {
             "name": "Characters for 5-1",
+            "visibility_rules": [
+              "5_1_enabled"
+            ],
             "sections": [
               {
                 "hosted_item": "snowspeeder"
@@ -455,6 +530,9 @@
           },
           {
             "name": "Characters for 5-2",
+            "visibility_rules": [
+              "5_2_enabled"
+            ],
             "sections": [
               {
                 "hosted_item": "hansolo(hoth), princessleia(hoth), c-3po, chewbacca"
@@ -472,6 +550,9 @@
           },
           {
             "name": "Characters for 5-3",
+            "visibility_rules": [
+              "5_3_enabled"
+            ],
             "sections": [
               {
                 "hosted_item": "milleniumfalcon, x-wing"
@@ -489,6 +570,9 @@
           },
           {
             "name": "Characters for 5-4",
+            "visibility_rules": [
+              "5_4_enabled"
+            ],
             "sections": [
               {
                 "hosted_item": "lukeskywalker(pilot), lukeskywalker(dagobah), r2-d2, yoda"
@@ -506,6 +590,9 @@
           },
           {
             "name": "Characters for 5-5",
+            "visibility_rules": [
+              "5_5_enabled"
+            ],
             "sections": [
               {
                 "hosted_item": "lukeskywalker(bespin), r2-d2"
@@ -523,6 +610,9 @@
           },
           {
             "name": "Characters for 5-6",
+            "visibility_rules": [
+              "5_6_enabled"
+            ],
             "sections": [
               {
                 "hosted_item": "princessleia(bespin), landocalrissian, c-3po, r2-d2, chewbacca"
@@ -545,6 +635,9 @@
         "children": [
           {
             "name": "Characters for 6-1",
+            "visibility_rules": [
+              "6_1_enabled"
+            ],
             "sections": [
               {
                 "hosted_item": "princessleia(boushh), chewbacca, lukeskywalker(jedi), r2-d2, c-3po, hansolo(skiff)"
@@ -562,6 +655,9 @@
           },
           {
             "name": "Characters for 6-2",
+            "visibility_rules": [
+              "6_2_enabled"
+            ],
             "sections": [
               {
                 "hosted_item": "lukeskywalker(jedi), landocalrissian(palaceguard), hansolo(skiff), chewbacca, r2-d2, c-3po, princessleia(slave)"
@@ -579,6 +675,9 @@
           },
           {
             "name": "Characters for 6-3",
+            "visibility_rules": [
+              "6_3_enabled"
+            ],
             "sections": [
               {
                 "hosted_item": "lukeskywalker(endor), princessleia(endor)"
@@ -596,6 +695,9 @@
           },
           {
             "name": "Characters for 6-4",
+            "visibility_rules": [
+              "6_4_enabled"
+            ],
             "sections": [
               {
                 "hosted_item": "hansolo(endor), princessleia(endor), chewbacca, r2-d2, c-3po, wicket"
@@ -613,6 +715,9 @@
           },
           {
             "name": "Characters for 6-5",
+            "visibility_rules": [
+              "6_5_enabled"
+            ],
             "sections": [
               {
                 "hosted_item": "darthvader, lukeskywalker(jedi)"
@@ -630,6 +735,9 @@
           },
           {
             "name": "Characters for 6-6",
+            "visibility_rules": [
+              "6_6_enabled"
+            ],
             "sections": [
               {
                 "hosted_item": "milleniumfalcon, x-wing"
@@ -644,36 +752,6 @@
                 "size": 20
               }
             ]
-          }
-        ]
-      },
-      {
-        "name": "Characters for Bonus Levels",
-        "sections": [
-          {
-            "name": "Mos Espa Podrace (Original)",
-            "hosted_item": "anakinspodracer"
-          },
-          {
-            "name": "Anakin's Flight",
-            "hosted_item": "naboostarfighter"
-          },
-          {
-            "name": "Gunship Cavalry (Original)",
-            "hosted_item": "republicgunship"
-          },
-          {
-            "name": "A New Hope (Bonus Level)",
-            "hosted_item": "darthvader, c-3po, stormtrooper"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Cantina",
-            "x": 950,
-            "y": 168,
-            "shape": "diamond",
-            "size": 20
           }
         ]
       }

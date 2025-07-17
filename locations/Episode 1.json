@@ -3,9 +3,18 @@
         "name": "Episode 1",
         "chest_unopened_img": "images/items/gold_brick.png",
         "chest_opened_img": "images/items/gold_brick_disabled.png",
+        "access_rules": [
+            "episode2unlock"
+        ],
         "children": [
             {
                 "name": "Negotiations",
+                "access_rules": [
+                    "1_1_enabled, obi-wankenobi, qui-gonjinn, tc-14"
+                ],
+                "visibility_rules": [
+                    "1_1_enabled"
+                ],
                 "children": [
                     {
                         "name": "Minikits",
@@ -102,7 +111,10 @@
             {
                 "name": "Invasion of Naboo",
                 "access_rules": [
-                    "jarjarbinks"
+                    "1_2_enabled, obi-wankenobi, qui-gonjinn, jarjarbinks"
+                ],
+                "visibility_rules": [
+                    "1_2_enabled"
                 ],
                 "children": [
                     {
@@ -190,7 +202,10 @@
             {
                 "name": "Mos Espa Podrace",
                 "access_rules": [
-                    "anakinspodracer"
+                    "1_4_enabled, anakinspodracer"
+                ],
+                "visibility_rules": [
+                    "1_4_enabled"
                 ],
                 "children": [
                     {
@@ -279,6 +294,12 @@
             },
             {
                 "name": "Darth Maul",
+                "access_rules": [
+                    "1_6_enabled, obi-wankenobi, qui-gonjinn"
+                ],
+                "visibility_rules": [
+                    "1_6_enabled"
+                ],
                 "children": [
                     {
                         "name": "Minikits",
@@ -360,7 +381,10 @@
             {
                 "name": "Escape From Naboo",
                 "access_rules": [
-                    "captainpanaka, queenamidala"
+                    "1_3_enabled, obi-wankenobi, qui-gonjinn, captainpanaka, queenamidala"
+                ],
+                "visibility_rules": [
+                    "1_3_enabled"
                 ],
                 "children": [
                     {
@@ -448,7 +472,10 @@
             {
                 "name": "Retake Theed Palace",
                 "access_rules": [
-                    "captainpanaka, padme(battle), r2-d2, anakinskywalker(boy)"
+                    "1_5_enabled, obi-wankenobi, qui-gonjinn, captainpanaka, padme(battle), r2-d2, anakinskywalker(boy)"
+                ],
+                "visibility_rules": [
+                    "1_5_enabled"
                 ],
                 "children": [
                     {

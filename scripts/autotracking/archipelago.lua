@@ -118,10 +118,27 @@ function onClear(slot_data)
         goal_amount = 270
     end
     Tracker:FindObjectForCode("minikits_for_goal").AcquiredCount = goal_amount
-    -- if Tracker:FindObjectForCode("autofill_settings").Active == true then
-    --     autoFill(slot_data)
-    -- end
-    -- print(PLAYER_ID, TEAM_NUMBER)
+
+    -- Set enabled chapters.
+    -- Read from slot data.
+    local enabled_chapters = slot_data["enabled_chapters"]
+    -- Create a dictionary used as a set and add all enabled chapters to it.
+    local enabled_chapters_set = {}
+    for _i, chapter_string in ipairs(enabled_chapters) do
+        enabled_chapters_set[chapter_string] = true
+    end
+    -- Iterate through every chapter and set enabled chapters as active and disabled chapters as inactive.
+    for episode=1,6 do
+        for chapter=1,6 do
+            local chapter_item = Tracker:FindObjectForCode(string.format("%s_%s_enabled", episode, chapter))
+            local chapter_string = string.format("%s-%s", episode, chapter)
+            if enabled_chapters_set[chapter_string] then
+                chapter_item.Active = true
+            else
+                chapter_item.Active = false
+            end
+        end
+    end
 
     -- Hint tracking disabled until PopTracker 0.32.0 is released, which adds section highlighting.
 --     if Archipelago.PlayerNumber > -1 then

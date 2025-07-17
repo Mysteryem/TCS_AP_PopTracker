@@ -10,7 +10,10 @@
             {
                 "name": "Escape From Echo Base",
                 "access_rules": [
-                    "hansolo(hoth), princessleia(hoth), c-3po, chewbacca"
+                    "5_2_enabled, hansolo(hoth), princessleia(hoth), c-3po, chewbacca"
+                ],
+                "visibility_rules": [
+                    "5_2_enabled"
                 ],
                 "children": [
                     {
@@ -113,7 +116,10 @@
             {
                 "name": "Hoth Battle",
                 "access_rules": [
-                    "snowspeeder"
+                    "5_1_enabled, snowspeeder"
+                ],
+                "visibility_rules": [
+                    "5_1_enabled"
                 ],
                 "children": [
                     {
@@ -191,7 +197,10 @@
             {
                 "name": "Betrayal Over Bespin",
                 "access_rules": [
-                    "princessleia(bespin), landocalrissian, c-3po, r2-d2, chewbacca"
+                    "5_6_enabled, princessleia(bespin), landocalrissian, c-3po, r2-d2, chewbacca"
+                ],
+                "visibility_rules": [
+                    "5_6_enabled"
                 ],
                 "children": [
                     {
@@ -289,7 +298,10 @@
             {
                 "name": "Dagobah",
                 "access_rules": [
-                    "lukeskywalker(pilot), lukeskywalker(dagobah), r2-d2, yoda"
+                    "5_4_enabled, lukeskywalker(pilot), lukeskywalker(dagobah), r2-d2, yoda"
+                ],
+                "visibility_rules": [
+                    "5_4_enabled"
                 ],
                 "children": [
                     {
@@ -367,7 +379,10 @@
             {
                 "name": "Falcon Flight",
                 "access_rules": [
-                    "milleniumfalcon, x-wing"
+                    "5_3_enabled, milleniumfalcon, x-wing"
+                ],
+                "visibility_rules": [
+                    "5_3_enabled"
                 ],
                 "children": [
                     {
@@ -452,7 +467,10 @@
             {
                 "name": "Cloud City Trap",
                 "access_rules": [
-                    "lukeskywalker(bespin), r2-d2"
+                    "5_5_enabled, lukeskywalker(bespin), r2-d2"
+                ],
+                "visibility_rules": [
+                    "5_5_enabled"
                 ],
                 "children": [
                     {

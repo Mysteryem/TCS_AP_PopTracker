@@ -10,7 +10,10 @@
             {
                 "name": "Secret Plans",
                 "access_rules": [
-                    "princessleia, captainantilles, c-3po, r2-d2, rebelfriend"
+                    "4_1_enabled, princessleia, captainantilles, c-3po, r2-d2, rebelfriend"
+                ],
+                "visibility_rules": [
+                    "4_1_enabled"
                 ],
                 "children": [
                     {
@@ -100,7 +103,10 @@
             {
                 "name": "Through the Jundland Wastes",
                 "access_rules": [
-                    "lukeskywalker(tatooine), c-3po, r2-d2, benkenobi"
+                    "4_2_enabled, lukeskywalker(tatooine), c-3po, r2-d2, benkenobi"
+                ],
+                "visibility_rules": [
+                    "4_2_enabled"
                 ],
                 "children": [
                     {
@@ -188,7 +194,10 @@
             {
                 "name": "Mos Eisley Spaceport",
                 "access_rules": [
-                    "hansolo, benkenobi, lukeskywalker(tatooine), c-3po, r2-d2, chewbacca"
+                    "4_3_enabled, hansolo, benkenobi, lukeskywalker(tatooine), c-3po, r2-d2, chewbacca"
+                ],
+                "visibility_rules": [
+                    "4_3_enabled"
                 ],
                 "children": [
                     {
@@ -278,7 +287,10 @@
             {
                 "name": "Rescue the Princess",
                 "access_rules": [
-                    "lukeskywalker(stormtrooper), benkenobi, hansolo(stormtrooper), chewbacca, c-3po, r2-d2"
+                    "4_4_enabled, lukeskywalker(stormtrooper), benkenobi, hansolo(stormtrooper), chewbacca, c-3po, r2-d2"
+                ],
+                "visibility_rules": [
+                    "4_4_enabled"
                 ],
                 "children": [
                     {
@@ -378,7 +390,10 @@
             {
                 "name": "Death Star Escape",
                 "access_rules": [
-                    "lukeskywalker(tatooine), princessleia, hansolo, chewbacca, c-3po, r2-d2"
+                    "4_5_enabled, lukeskywalker(tatooine), princessleia, hansolo, chewbacca, c-3po, r2-d2"
+                ],
+                "visibility_rules": [
+                    "4_5_enabled"
                 ],
                 "children": [
                     {
@@ -453,7 +468,10 @@
             {
                 "name": "Rebel Attack",
                 "access_rules": [
-                    "x-wing, y-wing"
+                    "4_6_enabled, x-wing, y-wing"
+                ],
+                "visibility_rules": [
+                    "4_6_enabled"
                 ],
                 "children": [
                     {
