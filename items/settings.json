@@ -296,5 +296,61 @@
     "initial_active_state": true,
     "img": "images/settings/enabled_chapters/chapter_enabled_base.png",
     "img_mods": "overlay|images/settings/enabled_chapters/episode6.png,overlay|images/settings/enabled_chapters/chapter6.png"
+  },
+  {
+    "name": "Bonuses Enabled",
+    "type": "toggle",
+    "initial_active_state": true,
+    "img": "images/settings/bonuses_enabled.png",
+    "codes": "bonuses_enabled"
+  },
+  {
+    "name": "Podrace Bonus Enabled",
+    "type": "toggle",
+    "initial_active_state": true,
+    "img": "images/settings/bonuses_enabled_podrace.png",
+    "codes": "bonuses_enabled_podrace"
+  },
+  {
+    "name": "Anakin's Flight Bonus Enabled",
+    "type": "toggle",
+    "initial_active_state": true,
+    "img": "images/settings/bonuses_enabled_anakin_flight.png",
+    "codes": "bonuses_enabled_anakin_flight"
+  },
+  {
+    "name": "Gunship Bonus Enabled",
+    "type": "toggle",
+    "initial_active_state": true,
+    "img": "images/settings/bonuses_enabled_gunsip.png",
+    "codes": "bonuses_enabled_gunship"
+  },
+  {
+    "name": "A New Hope Bonus Enabled",
+    "type": "toggle",
+    "initial_active_state": true,
+    "img": "images/settings/bonuses_enabled_a_new_hope.png",
+    "codes": "bonuses_enabled_a_new_hope"
+  },
+  {
+    "name": "LEGO City Bonus Enabled",
+    "type": "toggle",
+    "initial_active_state": true,
+    "img": "images/settings/bonuses_enabled_lego_city.png",
+    "codes": "bonuses_enabled_lego_city"
+  },
+  {
+    "name": "New Town Bonus Enabled",
+    "type": "toggle",
+    "initial_active_state": true,
+    "img": "images/settings/bonuses_enabled_new_town.png",
+    "codes": "bonuses_enabled_new_town"
+  },
+  {
+    "name": "Indiana Jones: Trailer",
+    "type": "toggle",
+    "initial_active_state": true,
+    "img": "images/settings/bonuses_enabled_indy.png",
+    "codes": "bonuses_enabled_indy"
   }
 ]

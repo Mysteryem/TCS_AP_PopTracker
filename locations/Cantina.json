@@ -76,47 +76,74 @@
                 "name": "Bonus Levels",
                 "chest_unopened_img": "images/items/gold_brick.png",
                 "chest_opened_img": "images/items/gold_brick_disabled.png",
+                "access_rules": [
+                    "bonuses_enabled"
+                ],
+                "visibility_rules": [
+                    "bonuses_enabled"
+                ],
                 "sections": [
                     {
                         "name": "Mos Espa Podrace (Original)",
                         "access_rules": [
-                            "progressivebonuslevel, anakinspodracer"
+                            "bonuses_enabled_podrace"
+                        ],
+                        "visibility_rules": [
+                            "bonuses_enabled_podrace"
                         ]
                     },
                     {
                         "name": "Anakin's Flight",
                         "access_rules": [
-                            "progressivebonuslevel:2, naboostarfighter"
+                            "bonuses_enabled_anakin_flight"
+                        ],
+                        "visibility_rules": [
+                            "bonuses_enabled_anakin_flight"
                         ]
                     },
                     {
                         "name": "Gunship Cavalry (Original)",
                         "access_rules": [
-                            "progressivebonuslevel:3, republicgunship"
+                            "bonuses_enabled_gunship"
+                        ],
+                        "visibility_rules": [
+                            "bonuses_enabled_gunship"
                         ]
                     },
                     {
                         "name": "A New Hope (Bonus Level)",
                         "access_rules": [
-                            "progressivebonuslevel:4, darthvader, c-3po, stormtrooper"
+                            "bonuses_enabled_a_new_hope"
+                        ],
+                        "visibility_rules": [
+                            "bonuses_enabled_a_new_hope"
                         ]
                     },
                     {
                         "name": "LEGO City",
                         "access_rules": [
-                            "progressivebonuslevel:5, sith, highjump, blaster, bounty"
+                            "bonuses_enabled_lego_city, sith, highjump, blaster, bounty"
+                        ],
+                        "visibility_rules": [
+                            "bonuses_enabled_lego_city"
                         ]
                     },
                     {
                         "name": "New Town",
                         "access_rules": [
-                            "progressivebonuslevel:6, sith, highjump, blaster, bounty"
+                            "bonuses_enabled_new_town, sith, highjump, blaster, bounty"
+                        ],
+                        "visibility_rules": [
+                            "bonuses_enabled_new_town"
                         ]
                     },
                     {
                         "name": "Indiana Jones: Trailer",
                         "access_rules": [
-                            "progressivebonuslevel"
+                            "bonuses_enabled_indy"
+                        ],
+                        "visibility_rules": [
+                            "bonuses_enabled_indy"
                         ]
                     },
                     {
@@ -124,7 +151,10 @@
                         "chest_unopened_img": "images/items/indianajones.png",
                         "chest_opened_img": "images/items/indianajones_disabled.png",
                         "access_rules": [
-                            "progressivebonuslevel"
+                            "bonuses_enabled_indy"
+                        ],
+                        "visibility_rules": [
+                            "bonuses_enabled_indy"
                         ]
                     }
                 ],

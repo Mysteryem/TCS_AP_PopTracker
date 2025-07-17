@@ -148,6 +148,28 @@ function onClear(slot_data)
         end
     end
 
+    local bonuses_enabled = slot_data["enable_bonus_locations"] == 1
+    Tracker:FindObjectForCode("bonuses_enabled").Active = bonuses_enabled
+
+    -- Disable all bonuses to start with.
+    local bonuses_mapping = {
+        ["Mos Espa Pod Race (Original)"] = "bonuses_enabled_podrace",
+        ["Anakin's Flight"] = "bonuses_enabled_anakin_flight",
+        ["Gunship Cavalry (Original)"] = "bonuses_enabled_gunship",
+        ["A New Hope (Bonus Level)"] = "bonuses_enabled_a_new_hope",
+        ["LEGO City"] = "bonuses_enabled_lego_city",
+        ["New Town"] = "bonuses_enabled_new_town",
+        ["Indiana Jones: Trailer"] = "bonuses_enabled_indy"
+    }
+    for _, code in pairs(bonuses_mapping) do
+        Tracker:FindObjectForCode(code).Active = false
+    end
+    -- Then enable all enabled bonuses.
+    local enabled_bonuses = slot_data["enabled_bonuses"]
+    for _, key in ipairs(enabled_bonuses) do
+        Tracker:FindObjectForCode(bonuses_mapping[key]).Active = true
+    end
+
     -- Hint tracking disabled until PopTracker 0.32.0 is released, which adds section highlighting.
 --     if Archipelago.PlayerNumber > -1 then
 --
