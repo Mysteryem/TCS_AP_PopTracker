@@ -140,6 +140,14 @@ function onClear(slot_data)
         end
     end
 
+    -- Enable Episode unlocks when unlocking episodes has no requirements.
+    if slot_data["episode_unlock_requirement"] == 0 then
+        for episode=1,6 do
+            local item_name = string.format("episode%iunlock", episode)
+            Tracker:FindObjectForCode(item_name).Active = true
+        end
+    end
+
     -- Hint tracking disabled until PopTracker 0.32.0 is released, which adds section highlighting.
 --     if Archipelago.PlayerNumber > -1 then
 --
