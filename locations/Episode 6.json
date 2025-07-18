@@ -1,578 +1,578 @@
 [
-    {
-        "name": "Episode 6",
-        "chest_unopened_img": "images/items/gold_brick.png",
-        "chest_opened_img": "images/items/gold_brick_disabled.png",
+  {
+    "name": "Episode 6",
+    "chest_unopened_img": "images/items/gold_brick.png",
+    "chest_opened_img": "images/items/gold_brick_disabled.png",
+    "access_rules": [
+      "episode6unlock"
+    ],
+    "children": [
+      {
+        "name": "Jabba's Palace",
         "access_rules": [
-            "episode6unlock"
+          "6_1_enabled, princessleia(boushh), chewbacca, lukeskywalker(jedi), r2-d2, c-3po, hansolo(skiff)"
+        ],
+        "visibility_rules": [
+          "6_1_enabled"
         ],
         "children": [
-            {
-                "name": "Jabba's Palace",
-                "access_rules": [
-                    "6_1_enabled, princessleia(boushh), chewbacca, lukeskywalker(jedi), r2-d2, c-3po, hansolo(skiff)"
-                ],
-                "visibility_rules": [
-                    "6_1_enabled"
-                ],
-                "children": [
-                    {
-                        "name": "Minikits",
-                        "chest_unopened_img": "images/items/minikit.png",
-                        "chest_opened_img": "images/items/minikit_disabled.png",
-                        "access_rules": [
-                            "sith, bounty, imperial, shortie"
-                        ],
-                        "sections": [
-                            {
-                                "name": "6-1 Minikit 1"
-                            },
-                            {
-                                "name": "6-1 Minikit 2"
-                            },
-                            {
-                                "name": "6-1 Minikit 3"
-                            },
-                            {
-                                "name": "6-1 Minikit 4"
-                            },
-                            {
-                                "name": "6-1 Minikit 5"
-                            },
-                            {
-                                "name": "6-1 Minikit 6"
-                            },
-                            {
-                                "name": "6-1 Minikit 7"
-                            },
-                            {
-                                "name": "6-1 Minikit 8"
-                            },
-                            {
-                                "name": "6-1 Minikit 9"
-                            },
-                            {
-                                "name": "6-1 Minikit 10"
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "Episode 6",
-                                "x": 80,
-                                "y": 105
-                            }
-                        ]
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Purchase Gamorrean Guard",
-                        "chest_unopened_img": "images/items/gamorreanguard.png",
-                        "chest_opened_img": "images/items/gamorreanguard_disabled.png",
-                        "access_rules": [
-                            "[$can_purchase|40000]"
-                        ]
-                    },
-                    {
-                        "name": "Purchase Bib Fortuna",
-                        "chest_unopened_img": "images/items/bibfortuna.png",
-                        "chest_opened_img": "images/items/bibfortuna_disabled.png",
-                        "access_rules": [
-                            "[$can_purchase|16000]"
-                        ]
-                    },
-                    {
-                        "name": "Purchase Palace Guard",
-                        "chest_unopened_img": "images/items/palaceguard.png",
-                        "chest_opened_img": "images/items/palaceguard_disabled.png",
-                        "access_rules": [
-                            "[$can_purchase|14000]"
-                        ]
-                    },
-                    {
-                        "name": "Purchase Bossk",
-                        "chest_unopened_img": "images/items/bossk.png",
-                        "chest_opened_img": "images/items/bossk_disabled.png",
-                        "access_rules": [
-                            "[$can_purchase|75000]"
-                        ]
-                    },
-                    {
-                        "name": "Purchase Super Zapper (6-1)",
-                        "chest_unopened_img": "images/items/superzapper.png",
-                        "chest_opened_img": "images/items/superzapper_disabled.png",
-                        "access_rules": [
-                            "[$can_purchase|14000]"
-                        ]
-                    },
-                    {
-                        "name": "6-1 True Jedi"
-                    },
-                    {
-                        "name": "6-1 Completion"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Episode 6",
-                        "x": 82,
-                        "y": 174
-                    }
-                ]
-            },
-            {
-                "name": "Pit of Carkoon",
-                "access_rules": [
-                    "6_2_enabled, lukeskywalker(jedi), landocalrissian(palaceguard), hansolo(skiff), chewbacca, r2-d2, c-3po, princessleia(slave)"
-                ],
-                "visibility_rules": [
-                    "6_2_enabled"
-                ],
-                "children": [
-                    {
-                        "name": "Minikits",
-                        "chest_unopened_img": "images/items/minikit.png",
-                        "chest_opened_img": "images/items/minikit_disabled.png",
-                        "access_rules": [
-                            "sith, hover, shortie"
-                        ],
-                        "sections": [
-                            {
-                                "name": "6-2 Minikit 1"
-                            },
-                            {
-                                "name": "6-2 Minikit 2"
-                            },
-                            {
-                                "name": "6-2 Minikit 3"
-                            },
-                            {
-                                "name": "6-2 Minikit 4"
-                            },
-                            {
-                                "name": "6-2 Minikit 5"
-                            },
-                            {
-                                "name": "6-2 Minikit 6"
-                            },
-                            {
-                                "name": "6-2 Minikit 7"
-                            },
-                            {
-                                "name": "6-2 Minikit 8"
-                            },
-                            {
-                                "name": "6-2 Minikit 9"
-                            },
-                            {
-                                "name": "6-2 Minikit 10"
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "Episode 6",
-                                "x": 250,
-                                "y": 97
-                            }
-                        ]
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Purchase Skiff Guard",
-                        "chest_unopened_img": "images/items/skiffguard.png",
-                        "chest_opened_img": "images/items/skiffguard_disabled.png",
-                        "access_rules": [
-                            "[$can_purchase|12000]"
-                        ]
-                    },
-                    {
-                        "name": "Purchase Boba Fett",
-                        "chest_unopened_img": "images/items/bobafett.png",
-                        "chest_opened_img": "images/items/bobafett_disabled.png",
-                        "access_rules": [
-                            "[$can_purchase|100000]"
-                        ]
-                    },
-                    {
-                        "name": "Purchase Bounty Hunter Rockets (6-2)",
-                        "chest_unopened_img": "images/items/bountyhunterrockets.png",
-                        "chest_opened_img": "images/items/bountyhunterrockets_disabled.png",
-                        "access_rules": [
-                            "[$can_purchase|20000]"
-                        ]
-                    },
-                    {
-                        "name": "6-2 True Jedi"
-                    },
-                    {
-                        "name": "6-2 Completion"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Episode 6",
-                        "x": 251,
-                        "y": 158
-                    }
-                ]
-            },
-            {
-                "name": "Battle of Endor",
-                "access_rules": [
-                    "6_4_enabled, hansolo(endor), princessleia(endor), chewbacca, r2-d2, c-3po, wicket"
-                ],
-                "visibility_rules": [
-                    "6_4_enabled"
-                ],
-                "children": [
-                    {
-                        "name": "Minikits",
-                        "chest_unopened_img": "images/items/minikit.png",
-                        "chest_opened_img": "images/items/minikit_disabled.png",
-                        "access_rules": [
-                            "bounty"
-                        ],
-                        "sections": [
-                            {
-                                "name": "6-4 Minikit 1"
-                            },
-                            {
-                                "name": "6-4 Minikit 2"
-                            },
-                            {
-                                "name": "6-4 Minikit 3"
-                            },
-                            {
-                                "name": "6-4 Minikit 4"
-                            },
-                            {
-                                "name": "6-4 Minikit 5"
-                            },
-                            {
-                                "name": "6-4 Minikit 6"
-                            },
-                            {
-                                "name": "6-4 Minikit 7"
-                            },
-                            {
-                                "name": "6-4 Minikit 8"
-                            },
-                            {
-                                "name": "6-4 Minikit 9"
-                            },
-                            {
-                                "name": "6-4 Minikit 10"
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "Episode 6",
-                                "x": 574,
-                                "y": 96
-                            }
-                        ]
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Purchase Ewok",
-                        "chest_unopened_img": "images/items/ewok.png",
-                        "chest_opened_img": "images/items/ewok_disabled.png",
-                        "access_rules": [
-                            "[$can_purchase|34000]"
-                        ]
-                    },
-                    {
-                        "name": "Purchase Super Ewok Catapult (6-4)",
-                        "chest_unopened_img": "images/items/superewokcatapult.png",
-                        "chest_opened_img": "images/items/superewokcatapult_disabled.png",
-                        "access_rules": [
-                            "shortie, [$can_purchase|25000]"
-                        ]
-                    },
-                    {
-                        "name": "6-4 True Jedi"
-                    },
-                    {
-                        "name": "6-4 Completion"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Episode 6",
-                        "x": 573,
-                        "y": 146
-                    }
-                ]
-            },
-            {
-                "name": "Jedi Destiny",
-                "access_rules": [
-                    "6_5_enabled, darthvader, lukeskywalker(jedi)"
-                ],
-                "visibility_rules": [
-                    "6_5_enabled"
-                ],
-                "children": [
-                    {
-                        "name": "Minikits",
-                        "chest_unopened_img": "images/items/minikit.png",
-                        "chest_opened_img": "images/items/minikit_disabled.png",
-                        "access_rules": [
-                            "highjump, blaster, bounty, shortie"
-                        ],
-                        "sections": [
-                            {
-                                "name": "6-5 Minikit 1"
-                            },
-                            {
-                                "name": "6-5 Minikit 2"
-                            },
-                            {
-                                "name": "6-5 Minikit 3"
-                            },
-                            {
-                                "name": "6-5 Minikit 4"
-                            },
-                            {
-                                "name": "6-5 Minikit 5"
-                            },
-                            {
-                                "name": "6-5 Minikit 6"
-                            },
-                            {
-                                "name": "6-5 Minikit 7"
-                            },
-                            {
-                                "name": "6-5 Minikit 8"
-                            },
-                            {
-                                "name": "6-5 Minikit 9"
-                            },
-                            {
-                                "name": "6-5 Minikit 10"
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "Episode 6",
-                                "x": 744,
-                                "y": 96
-                            }
-                        ]
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Purchase Imperial Guard",
-                        "chest_unopened_img": "images/items/imperialguard.png",
-                        "chest_opened_img": "images/items/imperialguard_disabled.png",
-                        "access_rules": [
-                            "[$can_purchase|45000]"
-                        ]
-                    },
-                    {
-                        "name": "Purchase The Emperor",
-                        "chest_unopened_img": "images/items/theemperor.png",
-                        "chest_opened_img": "images/items/theemperor_disabled.png",
-                        "access_rules": [
-                            "[$can_purchase|275000]"
-                        ]
-                    },
-                    {
-                        "name": "Purchase Score x10",
-                        "chest_unopened_img": "images/items/progressivescoremultiplier10.png",
-                        "chest_opened_img": "images/items/progressivescoremultiplier10_disabled.png",
-                        "access_rules": [
-                            "[$can_purchase|20000000]"
-                        ]
-                    },
-                    {
-                        "name": "6-5 True Jedi"
-                    },
-                    {
-                        "name": "6-5 Completion"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Episode 6",
-                        "x": 743,
-                        "y": 154
-                    }
-                ]
-            },
-            {
-                "name": "Into the Death Star",
-                "access_rules": [
-                    "6_6_enabled, milleniumfalcon, x-wing"
-                ],
-                "visibility_rules": [
-                    "6_6_enabled"
-                ],
-                "children": [
-                    {
-                        "name": "Minikits",
-                        "chest_unopened_img": "images/items/minikit.png",
-                        "chest_opened_img": "images/items/minikit_disabled.png",
-                        "access_rules": [
-                            "tievehicle"
-                        ],
-                        "sections": [
-                            {
-                                "name": "6-6 Minikit 1"
-                            },
-                            {
-                                "name": "6-6 Minikit 2"
-                            },
-                            {
-                                "name": "6-6 Minikit 3"
-                            },
-                            {
-                                "name": "6-6 Minikit 4"
-                            },
-                            {
-                                "name": "6-6 Minikit 5"
-                            },
-                            {
-                                "name": "6-6 Minikit 6"
-                            },
-                            {
-                                "name": "6-6 Minikit 7"
-                            },
-                            {
-                                "name": "6-6 Minikit 8"
-                            },
-                            {
-                                "name": "6-6 Minikit 9"
-                            },
-                            {
-                                "name": "6-6 Minikit 10"
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "Episode 6",
-                                "x": 929,
-                                "y": 102
-                            }
-                        ]
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Purchase Admiral Ackbar",
-                        "chest_unopened_img": "images/items/admiralackbar.png",
-                        "chest_opened_img": "images/items/admiralackbar_disabled.png",
-                        "access_rules": [
-                            "[$can_purchase|33000]"
-                        ]
-                    },
-                    {
-                        "name": "Purchase Infinite Torpedos (6-6)",
-                        "chest_unopened_img": "images/items/infinitetorpedos.png",
-                        "chest_opened_img": "images/items/infinitetorpedos_disabled.png",
-                        "access_rules": [
-                            "[$can_purchase|25000]"
-                        ]
-                    },
-                    {
-                        "name": "6-6 True Jedi"
-                    },
-                    {
-                        "name": "6-6 Completion"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Episode 6",
-                        "x": 924,
-                        "y": 166
-                    }
-                ]
-            },
-            {
-                "name": "Speeder Showdown",
-                "access_rules": [
-                    "6_3_enabled, lukeskywalker(endor), princessleia(endor)"
-                ],
-                "visibility_rules": [
-                    "6_3_enabled"
-                ],
-                "children": [
-                    {
-                        "name": "Minikits",
-                        "chest_unopened_img": "images/items/minikit.png",
-                        "chest_opened_img": "images/items/minikit_disabled.png",
-                        "access_rules": [
-                            "sith, highjump, bounty, imperial, shortie"
-                        ],
-                        "sections": [
-                            {
-                                "name": "6-3 Minikit 1"
-                            },
-                            {
-                                "name": "6-3 Minikit 2"
-                            },
-                            {
-                                "name": "6-3 Minikit 3"
-                            },
-                            {
-                                "name": "6-3 Minikit 4"
-                            },
-                            {
-                                "name": "6-3 Minikit 5"
-                            },
-                            {
-                                "name": "6-3 Minikit 6"
-                            },
-                            {
-                                "name": "6-3 Minikit 7"
-                            },
-                            {
-                                "name": "6-3 Minikit 8"
-                            },
-                            {
-                                "name": "6-3 Minikit 9"
-                            },
-                            {
-                                "name": "6-3 Minikit 10"
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "Episode 6",
-                                "x": 412,
-                                "y": 93
-                            }
-                        ]
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Purchase Score x8",
-                        "chest_unopened_img": "images/items/progressivescoremultiplier8.png",
-                        "chest_opened_img": "images/items/progressivescoremultiplier8_disabled.png",
-                        "access_rules": [
-                            "shortie, [$can_purchase|10000000]"
-                        ]
-                    },
-                    {
-                        "name": "6-3 True Jedi"
-                    },
-                    {
-                        "name": "6-3 Completion"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Episode 6",
-                        "x": 412,
-                        "y": 148
-                    }
-                ]
-            }
+          {
+            "name": "Minikits",
+            "chest_unopened_img": "images/items/minikit.png",
+            "chest_opened_img": "images/items/minikit_disabled.png",
+            "access_rules": [
+              "sith, bounty, imperial, shortie"
+            ],
+            "sections": [
+              {
+                "name": "6-1 Minikit 1"
+              },
+              {
+                "name": "6-1 Minikit 2"
+              },
+              {
+                "name": "6-1 Minikit 3"
+              },
+              {
+                "name": "6-1 Minikit 4"
+              },
+              {
+                "name": "6-1 Minikit 5"
+              },
+              {
+                "name": "6-1 Minikit 6"
+              },
+              {
+                "name": "6-1 Minikit 7"
+              },
+              {
+                "name": "6-1 Minikit 8"
+              },
+              {
+                "name": "6-1 Minikit 9"
+              },
+              {
+                "name": "6-1 Minikit 10"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 6",
+                "x": 80,
+                "y": 105
+              }
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Purchase Gamorrean Guard",
+            "chest_unopened_img": "images/items/gamorreanguard.png",
+            "chest_opened_img": "images/items/gamorreanguard_disabled.png",
+            "access_rules": [
+              "[$can_purchase|40000]"
+            ]
+          },
+          {
+            "name": "Purchase Bib Fortuna",
+            "chest_unopened_img": "images/items/bibfortuna.png",
+            "chest_opened_img": "images/items/bibfortuna_disabled.png",
+            "access_rules": [
+              "[$can_purchase|16000]"
+            ]
+          },
+          {
+            "name": "Purchase Palace Guard",
+            "chest_unopened_img": "images/items/palaceguard.png",
+            "chest_opened_img": "images/items/palaceguard_disabled.png",
+            "access_rules": [
+              "[$can_purchase|14000]"
+            ]
+          },
+          {
+            "name": "Purchase Bossk",
+            "chest_unopened_img": "images/items/bossk.png",
+            "chest_opened_img": "images/items/bossk_disabled.png",
+            "access_rules": [
+              "[$can_purchase|75000]"
+            ]
+          },
+          {
+            "name": "Purchase Super Zapper (6-1)",
+            "chest_unopened_img": "images/items/superzapper.png",
+            "chest_opened_img": "images/items/superzapper_disabled.png",
+            "access_rules": [
+              "[$can_purchase|14000]"
+            ]
+          },
+          {
+            "name": "6-1 True Jedi"
+          },
+          {
+            "name": "6-1 Completion"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Episode 6",
+            "x": 82,
+            "y": 174
+          }
         ]
-    }
+      },
+      {
+        "name": "Pit of Carkoon",
+        "access_rules": [
+          "6_2_enabled, lukeskywalker(jedi), landocalrissian(palaceguard), hansolo(skiff), chewbacca, r2-d2, c-3po, princessleia(slave)"
+        ],
+        "visibility_rules": [
+          "6_2_enabled"
+        ],
+        "children": [
+          {
+            "name": "Minikits",
+            "chest_unopened_img": "images/items/minikit.png",
+            "chest_opened_img": "images/items/minikit_disabled.png",
+            "access_rules": [
+              "sith, hover, shortie"
+            ],
+            "sections": [
+              {
+                "name": "6-2 Minikit 1"
+              },
+              {
+                "name": "6-2 Minikit 2"
+              },
+              {
+                "name": "6-2 Minikit 3"
+              },
+              {
+                "name": "6-2 Minikit 4"
+              },
+              {
+                "name": "6-2 Minikit 5"
+              },
+              {
+                "name": "6-2 Minikit 6"
+              },
+              {
+                "name": "6-2 Minikit 7"
+              },
+              {
+                "name": "6-2 Minikit 8"
+              },
+              {
+                "name": "6-2 Minikit 9"
+              },
+              {
+                "name": "6-2 Minikit 10"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 6",
+                "x": 250,
+                "y": 97
+              }
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Purchase Skiff Guard",
+            "chest_unopened_img": "images/items/skiffguard.png",
+            "chest_opened_img": "images/items/skiffguard_disabled.png",
+            "access_rules": [
+              "[$can_purchase|12000]"
+            ]
+          },
+          {
+            "name": "Purchase Boba Fett",
+            "chest_unopened_img": "images/items/bobafett.png",
+            "chest_opened_img": "images/items/bobafett_disabled.png",
+            "access_rules": [
+              "[$can_purchase|100000]"
+            ]
+          },
+          {
+            "name": "Purchase Bounty Hunter Rockets (6-2)",
+            "chest_unopened_img": "images/items/bountyhunterrockets.png",
+            "chest_opened_img": "images/items/bountyhunterrockets_disabled.png",
+            "access_rules": [
+              "[$can_purchase|20000]"
+            ]
+          },
+          {
+            "name": "6-2 True Jedi"
+          },
+          {
+            "name": "6-2 Completion"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Episode 6",
+            "x": 251,
+            "y": 158
+          }
+        ]
+      },
+      {
+        "name": "Battle of Endor",
+        "access_rules": [
+          "6_4_enabled, hansolo(endor), princessleia(endor), chewbacca, r2-d2, c-3po, wicket"
+        ],
+        "visibility_rules": [
+          "6_4_enabled"
+        ],
+        "children": [
+          {
+            "name": "Minikits",
+            "chest_unopened_img": "images/items/minikit.png",
+            "chest_opened_img": "images/items/minikit_disabled.png",
+            "access_rules": [
+              "bounty"
+            ],
+            "sections": [
+              {
+                "name": "6-4 Minikit 1"
+              },
+              {
+                "name": "6-4 Minikit 2"
+              },
+              {
+                "name": "6-4 Minikit 3"
+              },
+              {
+                "name": "6-4 Minikit 4"
+              },
+              {
+                "name": "6-4 Minikit 5"
+              },
+              {
+                "name": "6-4 Minikit 6"
+              },
+              {
+                "name": "6-4 Minikit 7"
+              },
+              {
+                "name": "6-4 Minikit 8"
+              },
+              {
+                "name": "6-4 Minikit 9"
+              },
+              {
+                "name": "6-4 Minikit 10"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 6",
+                "x": 574,
+                "y": 96
+              }
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Purchase Ewok",
+            "chest_unopened_img": "images/items/ewok.png",
+            "chest_opened_img": "images/items/ewok_disabled.png",
+            "access_rules": [
+              "[$can_purchase|34000]"
+            ]
+          },
+          {
+            "name": "Purchase Super Ewok Catapult (6-4)",
+            "chest_unopened_img": "images/items/superewokcatapult.png",
+            "chest_opened_img": "images/items/superewokcatapult_disabled.png",
+            "access_rules": [
+              "shortie, [$can_purchase|25000]"
+            ]
+          },
+          {
+            "name": "6-4 True Jedi"
+          },
+          {
+            "name": "6-4 Completion"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Episode 6",
+            "x": 573,
+            "y": 146
+          }
+        ]
+      },
+      {
+        "name": "Jedi Destiny",
+        "access_rules": [
+          "6_5_enabled, darthvader, lukeskywalker(jedi)"
+        ],
+        "visibility_rules": [
+          "6_5_enabled"
+        ],
+        "children": [
+          {
+            "name": "Minikits",
+            "chest_unopened_img": "images/items/minikit.png",
+            "chest_opened_img": "images/items/minikit_disabled.png",
+            "access_rules": [
+              "highjump, blaster, bounty, shortie"
+            ],
+            "sections": [
+              {
+                "name": "6-5 Minikit 1"
+              },
+              {
+                "name": "6-5 Minikit 2"
+              },
+              {
+                "name": "6-5 Minikit 3"
+              },
+              {
+                "name": "6-5 Minikit 4"
+              },
+              {
+                "name": "6-5 Minikit 5"
+              },
+              {
+                "name": "6-5 Minikit 6"
+              },
+              {
+                "name": "6-5 Minikit 7"
+              },
+              {
+                "name": "6-5 Minikit 8"
+              },
+              {
+                "name": "6-5 Minikit 9"
+              },
+              {
+                "name": "6-5 Minikit 10"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 6",
+                "x": 744,
+                "y": 96
+              }
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Purchase Imperial Guard",
+            "chest_unopened_img": "images/items/imperialguard.png",
+            "chest_opened_img": "images/items/imperialguard_disabled.png",
+            "access_rules": [
+              "[$can_purchase|45000]"
+            ]
+          },
+          {
+            "name": "Purchase The Emperor",
+            "chest_unopened_img": "images/items/theemperor.png",
+            "chest_opened_img": "images/items/theemperor_disabled.png",
+            "access_rules": [
+              "[$can_purchase|275000]"
+            ]
+          },
+          {
+            "name": "Purchase Score x10",
+            "chest_unopened_img": "images/items/progressivescoremultiplier10.png",
+            "chest_opened_img": "images/items/progressivescoremultiplier10_disabled.png",
+            "access_rules": [
+              "[$can_purchase|20000000]"
+            ]
+          },
+          {
+            "name": "6-5 True Jedi"
+          },
+          {
+            "name": "6-5 Completion"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Episode 6",
+            "x": 743,
+            "y": 154
+          }
+        ]
+      },
+      {
+        "name": "Into the Death Star",
+        "access_rules": [
+          "6_6_enabled, milleniumfalcon, x-wing"
+        ],
+        "visibility_rules": [
+          "6_6_enabled"
+        ],
+        "children": [
+          {
+            "name": "Minikits",
+            "chest_unopened_img": "images/items/minikit.png",
+            "chest_opened_img": "images/items/minikit_disabled.png",
+            "access_rules": [
+              "tievehicle"
+            ],
+            "sections": [
+              {
+                "name": "6-6 Minikit 1"
+              },
+              {
+                "name": "6-6 Minikit 2"
+              },
+              {
+                "name": "6-6 Minikit 3"
+              },
+              {
+                "name": "6-6 Minikit 4"
+              },
+              {
+                "name": "6-6 Minikit 5"
+              },
+              {
+                "name": "6-6 Minikit 6"
+              },
+              {
+                "name": "6-6 Minikit 7"
+              },
+              {
+                "name": "6-6 Minikit 8"
+              },
+              {
+                "name": "6-6 Minikit 9"
+              },
+              {
+                "name": "6-6 Minikit 10"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 6",
+                "x": 929,
+                "y": 102
+              }
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Purchase Admiral Ackbar",
+            "chest_unopened_img": "images/items/admiralackbar.png",
+            "chest_opened_img": "images/items/admiralackbar_disabled.png",
+            "access_rules": [
+              "[$can_purchase|33000]"
+            ]
+          },
+          {
+            "name": "Purchase Infinite Torpedos (6-6)",
+            "chest_unopened_img": "images/items/infinitetorpedos.png",
+            "chest_opened_img": "images/items/infinitetorpedos_disabled.png",
+            "access_rules": [
+              "[$can_purchase|25000]"
+            ]
+          },
+          {
+            "name": "6-6 True Jedi"
+          },
+          {
+            "name": "6-6 Completion"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Episode 6",
+            "x": 924,
+            "y": 166
+          }
+        ]
+      },
+      {
+        "name": "Speeder Showdown",
+        "access_rules": [
+          "6_3_enabled, lukeskywalker(endor), princessleia(endor)"
+        ],
+        "visibility_rules": [
+          "6_3_enabled"
+        ],
+        "children": [
+          {
+            "name": "Minikits",
+            "chest_unopened_img": "images/items/minikit.png",
+            "chest_opened_img": "images/items/minikit_disabled.png",
+            "access_rules": [
+              "sith, highjump, bounty, imperial, shortie"
+            ],
+            "sections": [
+              {
+                "name": "6-3 Minikit 1"
+              },
+              {
+                "name": "6-3 Minikit 2"
+              },
+              {
+                "name": "6-3 Minikit 3"
+              },
+              {
+                "name": "6-3 Minikit 4"
+              },
+              {
+                "name": "6-3 Minikit 5"
+              },
+              {
+                "name": "6-3 Minikit 6"
+              },
+              {
+                "name": "6-3 Minikit 7"
+              },
+              {
+                "name": "6-3 Minikit 8"
+              },
+              {
+                "name": "6-3 Minikit 9"
+              },
+              {
+                "name": "6-3 Minikit 10"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 6",
+                "x": 412,
+                "y": 93
+              }
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Purchase Score x8",
+            "chest_unopened_img": "images/items/progressivescoremultiplier8.png",
+            "chest_opened_img": "images/items/progressivescoremultiplier8_disabled.png",
+            "access_rules": [
+              "shortie, [$can_purchase|10000000]"
+            ]
+          },
+          {
+            "name": "6-3 True Jedi"
+          },
+          {
+            "name": "6-3 Completion"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Episode 6",
+            "x": 412,
+            "y": 148
+          }
+        ]
+      }
+    ]
+  }
 ]

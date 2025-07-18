@@ -1,634 +1,634 @@
 [
-    {
-        "name": "Episode 2",
-        "chest_unopened_img": "images/items/gold_brick.png",
-        "chest_opened_img": "images/items/gold_brick_disabled.png",
+  {
+    "name": "Episode 2",
+    "chest_unopened_img": "images/items/gold_brick.png",
+    "chest_opened_img": "images/items/gold_brick_disabled.png",
+    "access_rules": [
+      "episode2unlock"
+    ],
+    "children": [
+      {
+        "name": "Bounty Hunter Pursuit",
         "access_rules": [
-            "episode2unlock"
+          "2_1_enabled, speeder"
+        ],
+        "visibility_rules": [
+          "2_1_enabled"
         ],
         "children": [
-            {
-                "name": "Bounty Hunter Pursuit",
-                "access_rules": [
-                    "2_1_enabled, speeder"
-                ],
-                "visibility_rules": [
-                    "2_1_enabled"
-                ],
-                "children": [
-                    {
-                        "name": "Minikits",
-                        "chest_unopened_img": "images/items/minikit.png",
-                        "chest_opened_img": "images/items/minikit_disabled.png",
-                        "access_rules": [
-                            "tievehicle"
-                        ],
-                        "sections": [
-                            {
-                                "name": "2-1 Minikit 1"
-                            },
-                            {
-                                "name": "2-1 Minikit 2"
-                            },
-                            {
-                                "name": "2-1 Minikit 3"
-                            },
-                            {
-                                "name": "2-1 Minikit 4"
-                            },
-                            {
-                                "name": "2-1 Minikit 5"
-                            },
-                            {
-                                "name": "2-1 Minikit 6"
-                            },
-                            {
-                                "name": "2-1 Minikit 7"
-                            },
-                            {
-                                "name": "2-1 Minikit 8"
-                            },
-                            {
-                                "name": "2-1 Minikit 9"
-                            },
-                            {
-                                "name": "2-1 Minikit 10"
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "Episode 2",
-                                "x": 77,
-                                "y": 88
-                            }
-                        ]
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Purchase Zam Wesell",
-                        "chest_unopened_img": "images/items/zamwesell.png",
-                        "chest_opened_img": "images/items/zamwesell_disabled.png",
-                        "access_rules": [
-                            "[$can_purchase|27500]"
-                        ]
-                    },
-                    {
-                        "name": "Purchase Dexter Jettster",
-                        "chest_unopened_img": "images/items/dexterjettster.png",
-                        "chest_opened_img": "images/items/dexterjettster_disabled.png",
-                        "access_rules": [
-                            "[$can_purchase|10000]"
-                        ]
-                    },
-                    {
-                        "name": "Purchase Zam's Airspeeder",
-                        "chest_unopened_img": "images/items/zamsairspeeder.png",
-                        "chest_opened_img": "images/items/zamsairspeeder_disabled.png",
-                        "access_rules": [
-                            "[$can_purchase|24000]"
-                        ]
-                    },
-                    {
-                        "name": "Purchase Stud Magnet (2-1)",
-                        "chest_unopened_img": "images/items/studmagnet.png",
-                        "chest_opened_img": "images/items/studmagnet_disabled.png",
-                        "access_rules": [
-                            "[$can_purchase|100000]"
-                        ]
-                    },
-                    {
-                        "name": "2-1 True Jedi"
-                    },
-                    {
-                        "name": "2-1 Completion"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Episode 2",
-                        "x": 79,
-                        "y": 153
-                    }
-                ]
-            },
-            {
-                "name": "Discovery on Kamino",
-                "access_rules": [
-                    "2_2_enabled, r4-p17, obi-wankenobi(jedimaster)"
-                ],
-                "visibility_rules": [
-                    "2_2_enabled"
-                ],
-                "children": [
-                    {
-                        "name": "Minikits",
-                        "chest_unopened_img": "images/items/minikit.png",
-                        "chest_opened_img": "images/items/minikit_disabled.png",
-                        "access_rules": [
-                            "sith, highjump, blaster, bounty, shortie"
-                        ],
-                        "sections": [
-                            {
-                                "name": "2-2 Minikit 1"
-                            },
-                            {
-                                "name": "2-2 Minikit 2"
-                            },
-                            {
-                                "name": "2-2 Minikit 3"
-                            },
-                            {
-                                "name": "2-2 Minikit 4"
-                            },
-                            {
-                                "name": "2-2 Minikit 5"
-                            },
-                            {
-                                "name": "2-2 Minikit 6"
-                            },
-                            {
-                                "name": "2-2 Minikit 7"
-                            },
-                            {
-                                "name": "2-2 Minikit 8"
-                            },
-                            {
-                                "name": "2-2 Minikit 9"
-                            },
-                            {
-                                "name": "2-2 Minikit 10"
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "Episode 2",
-                                "x": 285,
-                                "y": 88
-                            }
-                        ]
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Purchase Clone",
-                        "chest_unopened_img": "images/items/clone.png",
-                        "chest_opened_img": "images/items/clone_disabled.png",
-                        "access_rules": [
-                            "[$can_purchase|13000]"
-                        ]
-                    },
-                    {
-                        "name": "Purchase Lama Su",
-                        "chest_unopened_img": "images/items/lamasu.png",
-                        "chest_opened_img": "images/items/lamasu_disabled.png",
-                        "access_rules": [
-                            "[$can_purchase|9000]"
-                        ]
-                    },
-                    {
-                        "name": "Purchase Taun We",
-                        "chest_unopened_img": "images/items/taunwe.png",
-                        "chest_opened_img": "images/items/taunwe_disabled.png",
-                        "access_rules": [
-                            "[$can_purchase|9000]"
-                        ]
-                    },
-                    {
-                        "name": "Purchase Disarm Troopers (2-2)",
-                        "chest_unopened_img": "images/items/disarmtroopers.png",
-                        "chest_opened_img": "images/items/disarmtroopers_disabled.png",
-                        "access_rules": [
-                            "imperial, [$can_purchase|100000]"
-                        ]
-                    },
-                    {
-                        "name": "2-2 True Jedi"
-                    },
-                    {
-                        "name": "2-2 Completion"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Episode 2",
-                        "x": 287,
-                        "y": 145
-                    }
-                ]
-            },
-            {
-                "name": "Droid Factory",
-                "access_rules": [
-                    "2_3_enabled, anakinskywalker(padawan), padme(geonosis), r2-d2, c-3po"
-                ],
-                "visibility_rules": [
-                    "2_3_enabled"
-                ],
-                "children": [
-                    {
-                        "name": "Minikits",
-                        "chest_unopened_img": "images/items/minikit.png",
-                        "chest_opened_img": "images/items/minikit_disabled.png",
-                        "access_rules": [
-                            "highjump, imperial, shortie"
-                        ],
-                        "sections": [
-                            {
-                                "name": "2-3 Minikit 1"
-                            },
-                            {
-                                "name": "2-3 Minikit 2"
-                            },
-                            {
-                                "name": "2-3 Minikit 3"
-                            },
-                            {
-                                "name": "2-3 Minikit 4"
-                            },
-                            {
-                                "name": "2-3 Minikit 5"
-                            },
-                            {
-                                "name": "2-3 Minikit 6"
-                            },
-                            {
-                                "name": "2-3 Minikit 7"
-                            },
-                            {
-                                "name": "2-3 Minikit 8"
-                            },
-                            {
-                                "name": "2-3 Minikit 9"
-                            },
-                            {
-                                "name": "2-3 Minikit 10"
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "Episode 2",
-                                "x": 467,
-                                "y": 80
-                            }
-                        ]
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Purchase Geonosian",
-                        "chest_unopened_img": "images/items/geonosian.png",
-                        "chest_opened_img": "images/items/geonosian_disabled.png",
-                        "access_rules": [
-                            "[$can_purchase|20000]"
-                        ]
-                    },
-                    {
-                        "name": "Purchase Battle Droid (Geonosis)",
-                        "chest_unopened_img": "images/items/battledroid(geonosis).png",
-                        "chest_opened_img": "images/items/battledroid(geonosis)_disabled.png",
-                        "access_rules": [
-                            "[$can_purchase|8500]"
-                        ]
-                    },
-                    {
-                        "name": "Purchase Character Studs (2-3)",
-                        "chest_unopened_img": "images/items/characterstuds.png",
-                        "chest_opened_img": "images/items/characterstuds_disabled.png",
-                        "access_rules": [
-                            "[$can_purchase|100000]"
-                        ]
-                    },
-                    {
-                        "name": "2-3 True Jedi"
-                    },
-                    {
-                        "name": "2-3 Completion"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Episode 2",
-                        "x": 466,
-                        "y": 138
-                    }
-                ]
-            },
-            {
-                "name": "Jedi Battle",
-                "access_rules": [
-                    "2_4_enabled, macewindu, padme(clawed), anakinskywalker(padawan), obi-wankenobi(jedimaster), r2-d2"
-                ],
-                "visibility_rules": [
-                    "2_4_enabled"
-                ],
-                "children": [
-                    {
-                        "name": "Minikits",
-                        "chest_unopened_img": "images/items/minikit.png",
-                        "chest_opened_img": "images/items/minikit_disabled.png",
-                        "access_rules": [
-                            "highjump"
-                        ],
-                        "sections": [
-                            {
-                                "name": "2-4 Minikit 1"
-                            },
-                            {
-                                "name": "2-4 Minikit 2"
-                            },
-                            {
-                                "name": "2-4 Minikit 3"
-                            },
-                            {
-                                "name": "2-4 Minikit 4"
-                            },
-                            {
-                                "name": "2-4 Minikit 5"
-                            },
-                            {
-                                "name": "2-4 Minikit 6"
-                            },
-                            {
-                                "name": "2-4 Minikit 7"
-                            },
-                            {
-                                "name": "2-4 Minikit 8"
-                            },
-                            {
-                                "name": "2-4 Minikit 9"
-                            },
-                            {
-                                "name": "2-4 Minikit 10"
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "Episode 2",
-                                "x": 610,
-                                "y": 82
-                            }
-                        ]
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Purchase Super Battle Droid",
-                        "chest_unopened_img": "images/items/superbattledroid.png",
-                        "chest_opened_img": "images/items/superbattledroid_disabled.png",
-                        "access_rules": [
-                            "[$can_purchase|25000]"
-                        ]
-                    },
-                    {
-                        "name": "Purchase Jango Fett",
-                        "chest_unopened_img": "images/items/jangofett.png",
-                        "chest_opened_img": "images/items/jangofett_disabled.png",
-                        "access_rules": [
-                            "[$can_purchase|70000]"
-                        ]
-                    },
-                    {
-                        "name": "Purchase Boba Fett (Boy)",
-                        "chest_unopened_img": "images/items/bobafett(boy).png",
-                        "chest_opened_img": "images/items/bobafett(boy)_disabled.png",
-                        "access_rules": [
-                            "[$can_purchase|5500]"
-                        ]
-                    },
-                    {
-                        "name": "Purchase Luminara",
-                        "chest_unopened_img": "images/items/luminara.png",
-                        "chest_opened_img": "images/items/luminara_disabled.png",
-                        "access_rules": [
-                            "[$can_purchase|28000]"
-                        ]
-                    },
-                    {
-                        "name": "Purchase Ki-Adi Mundi",
-                        "chest_unopened_img": "images/items/ki-adimundi.png",
-                        "chest_opened_img": "images/items/ki-adimundi_disabled.png",
-                        "access_rules": [
-                            "[$can_purchase|30000]"
-                        ]
-                    },
-                    {
-                        "name": "Purchase Kit Fisto",
-                        "chest_unopened_img": "images/items/kitfisto.png",
-                        "chest_opened_img": "images/items/kitfisto_disabled.png",
-                        "access_rules": [
-                            "[$can_purchase|35000]"
-                        ]
-                    },
-                    {
-                        "name": "Purchase Shaak Ti",
-                        "chest_unopened_img": "images/items/shaakti.png",
-                        "chest_opened_img": "images/items/shaakti_disabled.png",
-                        "access_rules": [
-                            "[$can_purchase|36000]"
-                        ]
-                    },
-                    {
-                        "name": "Purchase Aayla Secura",
-                        "chest_unopened_img": "images/items/aaylasecura.png",
-                        "chest_opened_img": "images/items/aaylasecura_disabled.png",
-                        "access_rules": [
-                            "[$can_purchase|37000]"
-                        ]
-                    },
-                    {
-                        "name": "Purchase Plo Koon",
-                        "chest_unopened_img": "images/items/plokoon.png",
-                        "chest_opened_img": "images/items/plokoon_disabled.png",
-                        "access_rules": [
-                            "[$can_purchase|39000]"
-                        ]
-                    },
-                    {
-                        "name": "Purchase Perfect Deflect (2-4)",
-                        "chest_unopened_img": "images/items/perfectdeflect.png",
-                        "chest_opened_img": "images/items/perfectdeflect_disabled.png",
-                        "access_rules": [
-                            "bounty, [$can_purchase|20000]"
-                        ]
-                    },
-                    {
-                        "name": "2-4 True Jedi"
-                    },
-                    {
-                        "name": "2-4 Completion"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Episode 2",
-                        "x": 610,
-                        "y": 131
-                    }
-                ]
-            },
-            {
-                "name": "Gunship Cavalry",
-                "access_rules": [
-                    "2_5_enabled, republicgunship"
-                ],
-                "visibility_rules": [
-                    "2_5_enabled"
-                ],
-                "children": [
-                    {
-                        "name": "Minikits",
-                        "chest_unopened_img": "images/items/minikit.png",
-                        "chest_opened_img": "images/items/minikit_disabled.png",
-                        "access_rules": [
-                            "tievehicle"
-                        ],
-                        "sections": [
-                            {
-                                "name": "2-5 Minikit 1"
-                            },
-                            {
-                                "name": "2-5 Minikit 2"
-                            },
-                            {
-                                "name": "2-5 Minikit 3"
-                            },
-                            {
-                                "name": "2-5 Minikit 4"
-                            },
-                            {
-                                "name": "2-5 Minikit 5"
-                            },
-                            {
-                                "name": "2-5 Minikit 6"
-                            },
-                            {
-                                "name": "2-5 Minikit 7"
-                            },
-                            {
-                                "name": "2-5 Minikit 8"
-                            },
-                            {
-                                "name": "2-5 Minikit 9"
-                            },
-                            {
-                                "name": "2-5 Minikit 10"
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "Episode 2",
-                                "x": 775,
-                                "y": 80
-                            }
-                        ]
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Purchase Exploding Blaster Bolts (2-5)",
-                        "chest_unopened_img": "images/items/explodingblasterbolts.png",
-                        "chest_opened_img": "images/items/explodingblasterbolts_disabled.png",
-                        "access_rules": [
-                            "[$can_purchase|20000]"
-                        ]
-                    },
-                    {
-                        "name": "2-5 True Jedi"
-                    },
-                    {
-                        "name": "2-5 Completion"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Episode 2",
-                        "x": 775,
-                        "y": 135
-                    }
-                ]
-            },
-            {
-                "name": "Count Dooku",
-                "access_rules": [
-                    "2_6_enabled, anakinskywalker(padawan), obi-wankenobi(jedimaster), yoda"
-                ],
-                "visibility_rules": [
-                    "2_6_enabled"
-                ],
-                "children": [
-                    {
-                        "name": "Minikits",
-                        "chest_unopened_img": "images/items/minikit.png",
-                        "chest_opened_img": "images/items/minikit_disabled.png",
-                        "access_rules": [
-                            "highjump, blaster, astromech"
-                        ],
-                        "sections": [
-                            {
-                                "name": "2-6 Minikit 1"
-                            },
-                            {
-                                "name": "2-6 Minikit 2"
-                            },
-                            {
-                                "name": "2-6 Minikit 3"
-                            },
-                            {
-                                "name": "2-6 Minikit 4"
-                            },
-                            {
-                                "name": "2-6 Minikit 5"
-                            },
-                            {
-                                "name": "2-6 Minikit 6"
-                            },
-                            {
-                                "name": "2-6 Minikit 7"
-                            },
-                            {
-                                "name": "2-6 Minikit 8"
-                            },
-                            {
-                                "name": "2-6 Minikit 9"
-                            },
-                            {
-                                "name": "2-6 Minikit 10"
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "Episode 2",
-                                "x": 925,
-                                "y": 87
-                            }
-                        ]
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Purchase Force Pull (2-6)",
-                        "chest_unopened_img": "images/items/forcepull.png",
-                        "chest_opened_img": "images/items/forcepull_disabled.png",
-                        "access_rules": [
-                            "bounty, shortie, [$can_purchase|12000]"
-                        ]
-                    },
-                    {
-                        "name": "2-6 True Jedi"
-                    },
-                    {
-                        "name": "2-6 Completion"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Episode 2",
-                        "x": 922,
-                        "y": 145
-                    }
-                ]
-            }
+          {
+            "name": "Minikits",
+            "chest_unopened_img": "images/items/minikit.png",
+            "chest_opened_img": "images/items/minikit_disabled.png",
+            "access_rules": [
+              "tievehicle"
+            ],
+            "sections": [
+              {
+                "name": "2-1 Minikit 1"
+              },
+              {
+                "name": "2-1 Minikit 2"
+              },
+              {
+                "name": "2-1 Minikit 3"
+              },
+              {
+                "name": "2-1 Minikit 4"
+              },
+              {
+                "name": "2-1 Minikit 5"
+              },
+              {
+                "name": "2-1 Minikit 6"
+              },
+              {
+                "name": "2-1 Minikit 7"
+              },
+              {
+                "name": "2-1 Minikit 8"
+              },
+              {
+                "name": "2-1 Minikit 9"
+              },
+              {
+                "name": "2-1 Minikit 10"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 2",
+                "x": 77,
+                "y": 88
+              }
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Purchase Zam Wesell",
+            "chest_unopened_img": "images/items/zamwesell.png",
+            "chest_opened_img": "images/items/zamwesell_disabled.png",
+            "access_rules": [
+              "[$can_purchase|27500]"
+            ]
+          },
+          {
+            "name": "Purchase Dexter Jettster",
+            "chest_unopened_img": "images/items/dexterjettster.png",
+            "chest_opened_img": "images/items/dexterjettster_disabled.png",
+            "access_rules": [
+              "[$can_purchase|10000]"
+            ]
+          },
+          {
+            "name": "Purchase Zam's Airspeeder",
+            "chest_unopened_img": "images/items/zamsairspeeder.png",
+            "chest_opened_img": "images/items/zamsairspeeder_disabled.png",
+            "access_rules": [
+              "[$can_purchase|24000]"
+            ]
+          },
+          {
+            "name": "Purchase Stud Magnet (2-1)",
+            "chest_unopened_img": "images/items/studmagnet.png",
+            "chest_opened_img": "images/items/studmagnet_disabled.png",
+            "access_rules": [
+              "[$can_purchase|100000]"
+            ]
+          },
+          {
+            "name": "2-1 True Jedi"
+          },
+          {
+            "name": "2-1 Completion"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Episode 2",
+            "x": 79,
+            "y": 153
+          }
         ]
-    }
+      },
+      {
+        "name": "Discovery on Kamino",
+        "access_rules": [
+          "2_2_enabled, r4-p17, obi-wankenobi(jedimaster)"
+        ],
+        "visibility_rules": [
+          "2_2_enabled"
+        ],
+        "children": [
+          {
+            "name": "Minikits",
+            "chest_unopened_img": "images/items/minikit.png",
+            "chest_opened_img": "images/items/minikit_disabled.png",
+            "access_rules": [
+              "sith, highjump, blaster, bounty, shortie"
+            ],
+            "sections": [
+              {
+                "name": "2-2 Minikit 1"
+              },
+              {
+                "name": "2-2 Minikit 2"
+              },
+              {
+                "name": "2-2 Minikit 3"
+              },
+              {
+                "name": "2-2 Minikit 4"
+              },
+              {
+                "name": "2-2 Minikit 5"
+              },
+              {
+                "name": "2-2 Minikit 6"
+              },
+              {
+                "name": "2-2 Minikit 7"
+              },
+              {
+                "name": "2-2 Minikit 8"
+              },
+              {
+                "name": "2-2 Minikit 9"
+              },
+              {
+                "name": "2-2 Minikit 10"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 2",
+                "x": 285,
+                "y": 88
+              }
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Purchase Clone",
+            "chest_unopened_img": "images/items/clone.png",
+            "chest_opened_img": "images/items/clone_disabled.png",
+            "access_rules": [
+              "[$can_purchase|13000]"
+            ]
+          },
+          {
+            "name": "Purchase Lama Su",
+            "chest_unopened_img": "images/items/lamasu.png",
+            "chest_opened_img": "images/items/lamasu_disabled.png",
+            "access_rules": [
+              "[$can_purchase|9000]"
+            ]
+          },
+          {
+            "name": "Purchase Taun We",
+            "chest_unopened_img": "images/items/taunwe.png",
+            "chest_opened_img": "images/items/taunwe_disabled.png",
+            "access_rules": [
+              "[$can_purchase|9000]"
+            ]
+          },
+          {
+            "name": "Purchase Disarm Troopers (2-2)",
+            "chest_unopened_img": "images/items/disarmtroopers.png",
+            "chest_opened_img": "images/items/disarmtroopers_disabled.png",
+            "access_rules": [
+              "imperial, [$can_purchase|100000]"
+            ]
+          },
+          {
+            "name": "2-2 True Jedi"
+          },
+          {
+            "name": "2-2 Completion"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Episode 2",
+            "x": 287,
+            "y": 145
+          }
+        ]
+      },
+      {
+        "name": "Droid Factory",
+        "access_rules": [
+          "2_3_enabled, anakinskywalker(padawan), padme(geonosis), r2-d2, c-3po"
+        ],
+        "visibility_rules": [
+          "2_3_enabled"
+        ],
+        "children": [
+          {
+            "name": "Minikits",
+            "chest_unopened_img": "images/items/minikit.png",
+            "chest_opened_img": "images/items/minikit_disabled.png",
+            "access_rules": [
+              "highjump, imperial, shortie"
+            ],
+            "sections": [
+              {
+                "name": "2-3 Minikit 1"
+              },
+              {
+                "name": "2-3 Minikit 2"
+              },
+              {
+                "name": "2-3 Minikit 3"
+              },
+              {
+                "name": "2-3 Minikit 4"
+              },
+              {
+                "name": "2-3 Minikit 5"
+              },
+              {
+                "name": "2-3 Minikit 6"
+              },
+              {
+                "name": "2-3 Minikit 7"
+              },
+              {
+                "name": "2-3 Minikit 8"
+              },
+              {
+                "name": "2-3 Minikit 9"
+              },
+              {
+                "name": "2-3 Minikit 10"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 2",
+                "x": 467,
+                "y": 80
+              }
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Purchase Geonosian",
+            "chest_unopened_img": "images/items/geonosian.png",
+            "chest_opened_img": "images/items/geonosian_disabled.png",
+            "access_rules": [
+              "[$can_purchase|20000]"
+            ]
+          },
+          {
+            "name": "Purchase Battle Droid (Geonosis)",
+            "chest_unopened_img": "images/items/battledroid(geonosis).png",
+            "chest_opened_img": "images/items/battledroid(geonosis)_disabled.png",
+            "access_rules": [
+              "[$can_purchase|8500]"
+            ]
+          },
+          {
+            "name": "Purchase Character Studs (2-3)",
+            "chest_unopened_img": "images/items/characterstuds.png",
+            "chest_opened_img": "images/items/characterstuds_disabled.png",
+            "access_rules": [
+              "[$can_purchase|100000]"
+            ]
+          },
+          {
+            "name": "2-3 True Jedi"
+          },
+          {
+            "name": "2-3 Completion"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Episode 2",
+            "x": 466,
+            "y": 138
+          }
+        ]
+      },
+      {
+        "name": "Jedi Battle",
+        "access_rules": [
+          "2_4_enabled, macewindu, padme(clawed), anakinskywalker(padawan), obi-wankenobi(jedimaster), r2-d2"
+        ],
+        "visibility_rules": [
+          "2_4_enabled"
+        ],
+        "children": [
+          {
+            "name": "Minikits",
+            "chest_unopened_img": "images/items/minikit.png",
+            "chest_opened_img": "images/items/minikit_disabled.png",
+            "access_rules": [
+              "highjump"
+            ],
+            "sections": [
+              {
+                "name": "2-4 Minikit 1"
+              },
+              {
+                "name": "2-4 Minikit 2"
+              },
+              {
+                "name": "2-4 Minikit 3"
+              },
+              {
+                "name": "2-4 Minikit 4"
+              },
+              {
+                "name": "2-4 Minikit 5"
+              },
+              {
+                "name": "2-4 Minikit 6"
+              },
+              {
+                "name": "2-4 Minikit 7"
+              },
+              {
+                "name": "2-4 Minikit 8"
+              },
+              {
+                "name": "2-4 Minikit 9"
+              },
+              {
+                "name": "2-4 Minikit 10"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 2",
+                "x": 610,
+                "y": 82
+              }
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Purchase Super Battle Droid",
+            "chest_unopened_img": "images/items/superbattledroid.png",
+            "chest_opened_img": "images/items/superbattledroid_disabled.png",
+            "access_rules": [
+              "[$can_purchase|25000]"
+            ]
+          },
+          {
+            "name": "Purchase Jango Fett",
+            "chest_unopened_img": "images/items/jangofett.png",
+            "chest_opened_img": "images/items/jangofett_disabled.png",
+            "access_rules": [
+              "[$can_purchase|70000]"
+            ]
+          },
+          {
+            "name": "Purchase Boba Fett (Boy)",
+            "chest_unopened_img": "images/items/bobafett(boy).png",
+            "chest_opened_img": "images/items/bobafett(boy)_disabled.png",
+            "access_rules": [
+              "[$can_purchase|5500]"
+            ]
+          },
+          {
+            "name": "Purchase Luminara",
+            "chest_unopened_img": "images/items/luminara.png",
+            "chest_opened_img": "images/items/luminara_disabled.png",
+            "access_rules": [
+              "[$can_purchase|28000]"
+            ]
+          },
+          {
+            "name": "Purchase Ki-Adi Mundi",
+            "chest_unopened_img": "images/items/ki-adimundi.png",
+            "chest_opened_img": "images/items/ki-adimundi_disabled.png",
+            "access_rules": [
+              "[$can_purchase|30000]"
+            ]
+          },
+          {
+            "name": "Purchase Kit Fisto",
+            "chest_unopened_img": "images/items/kitfisto.png",
+            "chest_opened_img": "images/items/kitfisto_disabled.png",
+            "access_rules": [
+              "[$can_purchase|35000]"
+            ]
+          },
+          {
+            "name": "Purchase Shaak Ti",
+            "chest_unopened_img": "images/items/shaakti.png",
+            "chest_opened_img": "images/items/shaakti_disabled.png",
+            "access_rules": [
+              "[$can_purchase|36000]"
+            ]
+          },
+          {
+            "name": "Purchase Aayla Secura",
+            "chest_unopened_img": "images/items/aaylasecura.png",
+            "chest_opened_img": "images/items/aaylasecura_disabled.png",
+            "access_rules": [
+              "[$can_purchase|37000]"
+            ]
+          },
+          {
+            "name": "Purchase Plo Koon",
+            "chest_unopened_img": "images/items/plokoon.png",
+            "chest_opened_img": "images/items/plokoon_disabled.png",
+            "access_rules": [
+              "[$can_purchase|39000]"
+            ]
+          },
+          {
+            "name": "Purchase Perfect Deflect (2-4)",
+            "chest_unopened_img": "images/items/perfectdeflect.png",
+            "chest_opened_img": "images/items/perfectdeflect_disabled.png",
+            "access_rules": [
+              "bounty, [$can_purchase|20000]"
+            ]
+          },
+          {
+            "name": "2-4 True Jedi"
+          },
+          {
+            "name": "2-4 Completion"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Episode 2",
+            "x": 610,
+            "y": 131
+          }
+        ]
+      },
+      {
+        "name": "Gunship Cavalry",
+        "access_rules": [
+          "2_5_enabled, republicgunship"
+        ],
+        "visibility_rules": [
+          "2_5_enabled"
+        ],
+        "children": [
+          {
+            "name": "Minikits",
+            "chest_unopened_img": "images/items/minikit.png",
+            "chest_opened_img": "images/items/minikit_disabled.png",
+            "access_rules": [
+              "tievehicle"
+            ],
+            "sections": [
+              {
+                "name": "2-5 Minikit 1"
+              },
+              {
+                "name": "2-5 Minikit 2"
+              },
+              {
+                "name": "2-5 Minikit 3"
+              },
+              {
+                "name": "2-5 Minikit 4"
+              },
+              {
+                "name": "2-5 Minikit 5"
+              },
+              {
+                "name": "2-5 Minikit 6"
+              },
+              {
+                "name": "2-5 Minikit 7"
+              },
+              {
+                "name": "2-5 Minikit 8"
+              },
+              {
+                "name": "2-5 Minikit 9"
+              },
+              {
+                "name": "2-5 Minikit 10"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 2",
+                "x": 775,
+                "y": 80
+              }
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Purchase Exploding Blaster Bolts (2-5)",
+            "chest_unopened_img": "images/items/explodingblasterbolts.png",
+            "chest_opened_img": "images/items/explodingblasterbolts_disabled.png",
+            "access_rules": [
+              "[$can_purchase|20000]"
+            ]
+          },
+          {
+            "name": "2-5 True Jedi"
+          },
+          {
+            "name": "2-5 Completion"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Episode 2",
+            "x": 775,
+            "y": 135
+          }
+        ]
+      },
+      {
+        "name": "Count Dooku",
+        "access_rules": [
+          "2_6_enabled, anakinskywalker(padawan), obi-wankenobi(jedimaster), yoda"
+        ],
+        "visibility_rules": [
+          "2_6_enabled"
+        ],
+        "children": [
+          {
+            "name": "Minikits",
+            "chest_unopened_img": "images/items/minikit.png",
+            "chest_opened_img": "images/items/minikit_disabled.png",
+            "access_rules": [
+              "highjump, blaster, astromech"
+            ],
+            "sections": [
+              {
+                "name": "2-6 Minikit 1"
+              },
+              {
+                "name": "2-6 Minikit 2"
+              },
+              {
+                "name": "2-6 Minikit 3"
+              },
+              {
+                "name": "2-6 Minikit 4"
+              },
+              {
+                "name": "2-6 Minikit 5"
+              },
+              {
+                "name": "2-6 Minikit 6"
+              },
+              {
+                "name": "2-6 Minikit 7"
+              },
+              {
+                "name": "2-6 Minikit 8"
+              },
+              {
+                "name": "2-6 Minikit 9"
+              },
+              {
+                "name": "2-6 Minikit 10"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 2",
+                "x": 925,
+                "y": 87
+              }
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Purchase Force Pull (2-6)",
+            "chest_unopened_img": "images/items/forcepull.png",
+            "chest_opened_img": "images/items/forcepull_disabled.png",
+            "access_rules": [
+              "bounty, shortie, [$can_purchase|12000]"
+            ]
+          },
+          {
+            "name": "2-6 True Jedi"
+          },
+          {
+            "name": "2-6 Completion"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Episode 2",
+            "x": 922,
+            "y": 145
+          }
+        ]
+      }
+    ]
+  }
 ]

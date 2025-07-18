@@ -1,586 +1,586 @@
 [
-    {
-        "name": "Episode 5",
-        "chest_unopened_img": "images/items/gold_brick.png",
-        "chest_opened_img": "images/items/gold_brick_disabled.png",
+  {
+    "name": "Episode 5",
+    "chest_unopened_img": "images/items/gold_brick.png",
+    "chest_opened_img": "images/items/gold_brick_disabled.png",
+    "access_rules": [
+      "episode5unlock"
+    ],
+    "children": [
+      {
+        "name": "Escape From Echo Base",
         "access_rules": [
-            "episode5unlock"
+          "5_2_enabled, hansolo(hoth), princessleia(hoth), c-3po, chewbacca"
+        ],
+        "visibility_rules": [
+          "5_2_enabled"
         ],
         "children": [
-            {
-                "name": "Escape From Echo Base",
-                "access_rules": [
-                    "5_2_enabled, hansolo(hoth), princessleia(hoth), c-3po, chewbacca"
-                ],
-                "visibility_rules": [
-                    "5_2_enabled"
-                ],
-                "children": [
-                    {
-                        "name": "Minikits",
-                        "chest_unopened_img": "images/items/minikit.png",
-                        "chest_opened_img": "images/items/minikit_disabled.png",
-                        "access_rules": [
-                            "sith, hover, astromech, bounty"
-                        ],
-                        "sections": [
-                            {
-                                "name": "5-2 Minikit 1"
-                            },
-                            {
-                                "name": "5-2 Minikit 2"
-                            },
-                            {
-                                "name": "5-2 Minikit 3"
-                            },
-                            {
-                                "name": "5-2 Minikit 4"
-                            },
-                            {
-                                "name": "5-2 Minikit 5"
-                            },
-                            {
-                                "name": "5-2 Minikit 6"
-                            },
-                            {
-                                "name": "5-2 Minikit 7"
-                            },
-                            {
-                                "name": "5-2 Minikit 8"
-                            },
-                            {
-                                "name": "5-2 Minikit 9"
-                            },
-                            {
-                                "name": "5-2 Minikit 10"
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "Episode 5",
-                                "x": 272,
-                                "y": 89
-                            }
-                        ]
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Purchase Han Solo (Hood)",
-                        "chest_unopened_img": "images/items/hansolo(hood).png",
-                        "chest_opened_img": "images/items/hansolo(hood)_disabled.png",
-                        "access_rules": [
-                            "[$can_purchase|20000]"
-                        ]
-                    },
-                    {
-                        "name": "Purchase Luke Skywalker (Hoth)",
-                        "chest_unopened_img": "images/items/lukeskywalker(hoth).png",
-                        "chest_opened_img": "images/items/lukeskywalker(hoth)_disabled.png",
-                        "access_rules": [
-                            "[$can_purchase|14000]"
-                        ]
-                    },
-                    {
-                        "name": "Purchase Rebel Trooper (Hoth)",
-                        "chest_unopened_img": "images/items/rebeltrooper(hoth).png",
-                        "chest_opened_img": "images/items/rebeltrooper(hoth)_disabled.png",
-                        "access_rules": [
-                            "[$can_purchase|16000]"
-                        ]
-                    },
-                    {
-                        "name": "Purchase Rebel Pilot",
-                        "chest_unopened_img": "images/items/rebelpilot.png",
-                        "chest_opened_img": "images/items/rebelpilot_disabled.png",
-                        "access_rules": [
-                            "[$can_purchase|15000]"
-                        ]
-                    },
-                    {
-                        "name": "Purchase Snowtrooper",
-                        "chest_unopened_img": "images/items/snowtrooper.png",
-                        "chest_opened_img": "images/items/snowtrooper_disabled.png",
-                        "access_rules": [
-                            "[$can_purchase|16000]"
-                        ]
-                    },
-                    {
-                        "name": "Purchase Fast Build (5-2)",
-                        "chest_unopened_img": "images/items/fastbuild.png",
-                        "chest_opened_img": "images/items/fastbuild_disabled.png",
-                        "access_rules": [
-                            "sith, [$can_purchase|30000]"
-                        ]
-                    },
-                    {
-                        "name": "5-2 True Jedi"
-                    },
-                    {
-                        "name": "5-2 Completion"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Episode 5",
-                        "x": 274,
-                        "y": 138
-                    }
-                ]
-            },
-            {
-                "name": "Hoth Battle",
-                "access_rules": [
-                    "5_1_enabled, snowspeeder"
-                ],
-                "visibility_rules": [
-                    "5_1_enabled"
-                ],
-                "children": [
-                    {
-                        "name": "Minikits",
-                        "chest_unopened_img": "images/items/minikit.png",
-                        "chest_opened_img": "images/items/minikit_disabled.png",
-                        "access_rules": [
-                            "tievehicle"
-                        ],
-                        "sections": [
-                            {
-                                "name": "5-1 Minikit 1"
-                            },
-                            {
-                                "name": "5-1 Minikit 2"
-                            },
-                            {
-                                "name": "5-1 Minikit 3"
-                            },
-                            {
-                                "name": "5-1 Minikit 4"
-                            },
-                            {
-                                "name": "5-1 Minikit 5"
-                            },
-                            {
-                                "name": "5-1 Minikit 6"
-                            },
-                            {
-                                "name": "5-1 Minikit 7"
-                            },
-                            {
-                                "name": "5-1 Minikit 8"
-                            },
-                            {
-                                "name": "5-1 Minikit 9"
-                            },
-                            {
-                                "name": "5-1 Minikit 10"
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "Episode 5",
-                                "x": 50,
-                                "y": 96
-                            }
-                        ]
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Purchase Self Destruct (5-1)",
-                        "chest_unopened_img": "images/items/selfdestruct.png",
-                        "chest_opened_img": "images/items/selfdestruct_disabled.png",
-                        "access_rules": [
-                            "tievehicle, [$can_purchase|25000]"
-                        ]
-                    },
-                    {
-                        "name": "5-1 True Jedi"
-                    },
-                    {
-                        "name": "5-1 Completion"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Episode 5",
-                        "x": 52,
-                        "y": 152
-                    }
-                ]
-            },
-            {
-                "name": "Betrayal Over Bespin",
-                "access_rules": [
-                    "5_6_enabled, princessleia(bespin), landocalrissian, c-3po, r2-d2, chewbacca"
-                ],
-                "visibility_rules": [
-                    "5_6_enabled"
-                ],
-                "children": [
-                    {
-                        "name": "Minikits",
-                        "chest_unopened_img": "images/items/minikit.png",
-                        "chest_opened_img": "images/items/minikit_disabled.png",
-                        "access_rules": [
-                            "sith, bounty"
-                        ],
-                        "sections": [
-                            {
-                                "name": "5-6 Minikit 1"
-                            },
-                            {
-                                "name": "5-6 Minikit 2"
-                            },
-                            {
-                                "name": "5-6 Minikit 3"
-                            },
-                            {
-                                "name": "5-6 Minikit 4"
-                            },
-                            {
-                                "name": "5-6 Minikit 5"
-                            },
-                            {
-                                "name": "5-6 Minikit 6"
-                            },
-                            {
-                                "name": "5-6 Minikit 7"
-                            },
-                            {
-                                "name": "5-6 Minikit 8"
-                            },
-                            {
-                                "name": "5-6 Minikit 9"
-                            },
-                            {
-                                "name": "5-6 Minikit 10"
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "Episode 5",
-                                "x": 987,
-                                "y": 93
-                            }
-                        ]
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Purchase Lobot",
-                        "chest_unopened_img": "images/items/lobot.png",
-                        "chest_opened_img": "images/items/lobot_disabled.png",
-                        "access_rules": [
-                            "[$can_purchase|11000]"
-                        ]
-                    },
-                    {
-                        "name": "Purchase Ugnaught",
-                        "chest_unopened_img": "images/items/ugnaught.png",
-                        "chest_opened_img": "images/items/ugnaught_disabled.png",
-                        "access_rules": [
-                            "[$can_purchase|36000]"
-                        ]
-                    },
-                    {
-                        "name": "Purchase Bespin Guard",
-                        "chest_unopened_img": "images/items/bespinguard.png",
-                        "chest_opened_img": "images/items/bespinguard_disabled.png",
-                        "access_rules": [
-                            "[$can_purchase|15000]"
-                        ]
-                    },
-                    {
-                        "name": "Purchase Princess Leia (Prisoner)",
-                        "chest_unopened_img": "images/items/princessleia(prisoner).png",
-                        "chest_opened_img": "images/items/princessleia(prisoner)_disabled.png",
-                        "access_rules": [
-                            "[$can_purchase|22000]"
-                        ]
-                    },
-                    {
-                        "name": "Purchase Minikit Detector (5-6)",
-                        "chest_unopened_img": "images/items/minikitdetector.png",
-                        "chest_opened_img": "images/items/minikitdetector_disabled.png",
-                        "access_rules": [
-                            "bounty, [$can_purchase|250000]"
-                        ]
-                    },
-                    {
-                        "name": "5-6 True Jedi"
-                    },
-                    {
-                        "name": "5-6 Completion"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Episode 5",
-                        "x": 986,
-                        "y": 148
-                    }
-                ]
-            },
-            {
-                "name": "Dagobah",
-                "access_rules": [
-                    "5_4_enabled, lukeskywalker(pilot), lukeskywalker(dagobah), r2-d2, yoda"
-                ],
-                "visibility_rules": [
-                    "5_4_enabled"
-                ],
-                "children": [
-                    {
-                        "name": "Minikits",
-                        "chest_unopened_img": "images/items/minikit.png",
-                        "chest_opened_img": "images/items/minikit_disabled.png",
-                        "access_rules": [
-                            "sith, bounty"
-                        ],
-                        "sections": [
-                            {
-                                "name": "5-4 Minikit 1"
-                            },
-                            {
-                                "name": "5-4 Minikit 2"
-                            },
-                            {
-                                "name": "5-4 Minikit 3"
-                            },
-                            {
-                                "name": "5-4 Minikit 4"
-                            },
-                            {
-                                "name": "5-4 Minikit 5"
-                            },
-                            {
-                                "name": "5-4 Minikit 6"
-                            },
-                            {
-                                "name": "5-4 Minikit 7"
-                            },
-                            {
-                                "name": "5-4 Minikit 8"
-                            },
-                            {
-                                "name": "5-4 Minikit 9"
-                            },
-                            {
-                                "name": "5-4 Minikit 10"
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "Episode 5",
-                                "x": 624,
-                                "y": 84
-                            }
-                        ]
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Purchase Regenerate Hearts (5-4)",
-                        "chest_unopened_img": "images/items/regeneratehearts.png",
-                        "chest_opened_img": "images/items/regeneratehearts_disabled.png",
-                        "access_rules": [
-                            "sith, [$can_purchase|150000]"
-                        ]
-                    },
-                    {
-                        "name": "5-4 True Jedi"
-                    },
-                    {
-                        "name": "5-4 Completion"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Episode 5",
-                        "x": 625,
-                        "y": 129
-                    }
-                ]
-            },
-            {
-                "name": "Falcon Flight",
-                "access_rules": [
-                    "5_3_enabled, milleniumfalcon, x-wing"
-                ],
-                "visibility_rules": [
-                    "5_3_enabled"
-                ],
-                "children": [
-                    {
-                        "name": "Minikits",
-                        "chest_unopened_img": "images/items/minikit.png",
-                        "chest_opened_img": "images/items/minikit_disabled.png",
-                        "access_rules": [
-                            "towvehicle, tievehicle"
-                        ],
-                        "sections": [
-                            {
-                                "name": "5-3 Minikit 1"
-                            },
-                            {
-                                "name": "5-3 Minikit 2"
-                            },
-                            {
-                                "name": "5-3 Minikit 3"
-                            },
-                            {
-                                "name": "5-3 Minikit 4"
-                            },
-                            {
-                                "name": "5-3 Minikit 5"
-                            },
-                            {
-                                "name": "5-3 Minikit 6"
-                            },
-                            {
-                                "name": "5-3 Minikit 7"
-                            },
-                            {
-                                "name": "5-3 Minikit 8"
-                            },
-                            {
-                                "name": "5-3 Minikit 9"
-                            },
-                            {
-                                "name": "5-3 Minikit 10"
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "Episode 5",
-                                "x": 472,
-                                "y": 81
-                            }
-                        ]
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Purchase TIE Bomber",
-                        "chest_unopened_img": "images/items/tiebomber.png",
-                        "chest_opened_img": "images/items/tiebomber_disabled.png",
-                        "access_rules": [
-                            "[$can_purchase|60000]"
-                        ]
-                    },
-                    {
-                        "name": "Purchase Imperial Shuttle",
-                        "chest_unopened_img": "images/items/imperialshuttle.png",
-                        "chest_opened_img": "images/items/imperialshuttle_disabled.png",
-                        "access_rules": [
-                            "[$can_purchase|25000]"
-                        ]
-                    },
-                    {
-                        "name": "Purchase Score x4",
-                        "chest_unopened_img": "images/items/progressivescoremultiplier4.png",
-                        "chest_opened_img": "images/items/progressivescoremultiplier4_disabled.png",
-                        "access_rules": [
-                            "[$can_purchase|2500000]"
-                        ]
-                    },
-                    {
-                        "name": "5-3 True Jedi"
-                    },
-                    {
-                        "name": "5-3 Completion"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Episode 5",
-                        "x": 474,
-                        "y": 134
-                    }
-                ]
-            },
-            {
-                "name": "Cloud City Trap",
-                "access_rules": [
-                    "5_5_enabled, lukeskywalker(bespin), r2-d2"
-                ],
-                "visibility_rules": [
-                    "5_5_enabled"
-                ],
-                "children": [
-                    {
-                        "name": "Minikits",
-                        "chest_unopened_img": "images/items/minikit.png",
-                        "chest_opened_img": "images/items/minikit_disabled.png",
-                        "access_rules": [
-                            "bounty, imperial, shortie, sith"
-                        ],
-                        "sections": [
-                            {
-                                "name": "5-5 Minikit 1"
-                            },
-                            {
-                                "name": "5-5 Minikit 2"
-                            },
-                            {
-                                "name": "5-5 Minikit 3"
-                            },
-                            {
-                                "name": "5-5 Minikit 4"
-                            },
-                            {
-                                "name": "5-5 Minikit 5"
-                            },
-                            {
-                                "name": "5-5 Minikit 6"
-                            },
-                            {
-                                "name": "5-5 Minikit 7"
-                            },
-                            {
-                                "name": "5-5 Minikit 8"
-                            },
-                            {
-                                "name": "5-5 Minikit 9"
-                            },
-                            {
-                                "name": "5-5 Minikit 10"
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "Episode 5",
-                                "x": 829,
-                                "y": 83
-                            }
-                        ]
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Purchase Score x6",
-                        "chest_unopened_img": "images/items/progressivescoremultiplier6.png",
-                        "chest_opened_img": "images/items/progressivescoremultiplier6_disabled.png",
-                        "access_rules": [
-                            "bounty, hover, [$can_purchase|5000000]"
-                        ]
-                    },
-                    {
-                        "name": "5-5 True Jedi"
-                    },
-                    {
-                        "name": "5-5 Completion"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Episode 5",
-                        "x": 828,
-                        "y": 136
-                    }
-                ]
-            }
+          {
+            "name": "Minikits",
+            "chest_unopened_img": "images/items/minikit.png",
+            "chest_opened_img": "images/items/minikit_disabled.png",
+            "access_rules": [
+              "sith, hover, astromech, bounty"
+            ],
+            "sections": [
+              {
+                "name": "5-2 Minikit 1"
+              },
+              {
+                "name": "5-2 Minikit 2"
+              },
+              {
+                "name": "5-2 Minikit 3"
+              },
+              {
+                "name": "5-2 Minikit 4"
+              },
+              {
+                "name": "5-2 Minikit 5"
+              },
+              {
+                "name": "5-2 Minikit 6"
+              },
+              {
+                "name": "5-2 Minikit 7"
+              },
+              {
+                "name": "5-2 Minikit 8"
+              },
+              {
+                "name": "5-2 Minikit 9"
+              },
+              {
+                "name": "5-2 Minikit 10"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 5",
+                "x": 272,
+                "y": 89
+              }
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Purchase Han Solo (Hood)",
+            "chest_unopened_img": "images/items/hansolo(hood).png",
+            "chest_opened_img": "images/items/hansolo(hood)_disabled.png",
+            "access_rules": [
+              "[$can_purchase|20000]"
+            ]
+          },
+          {
+            "name": "Purchase Luke Skywalker (Hoth)",
+            "chest_unopened_img": "images/items/lukeskywalker(hoth).png",
+            "chest_opened_img": "images/items/lukeskywalker(hoth)_disabled.png",
+            "access_rules": [
+              "[$can_purchase|14000]"
+            ]
+          },
+          {
+            "name": "Purchase Rebel Trooper (Hoth)",
+            "chest_unopened_img": "images/items/rebeltrooper(hoth).png",
+            "chest_opened_img": "images/items/rebeltrooper(hoth)_disabled.png",
+            "access_rules": [
+              "[$can_purchase|16000]"
+            ]
+          },
+          {
+            "name": "Purchase Rebel Pilot",
+            "chest_unopened_img": "images/items/rebelpilot.png",
+            "chest_opened_img": "images/items/rebelpilot_disabled.png",
+            "access_rules": [
+              "[$can_purchase|15000]"
+            ]
+          },
+          {
+            "name": "Purchase Snowtrooper",
+            "chest_unopened_img": "images/items/snowtrooper.png",
+            "chest_opened_img": "images/items/snowtrooper_disabled.png",
+            "access_rules": [
+              "[$can_purchase|16000]"
+            ]
+          },
+          {
+            "name": "Purchase Fast Build (5-2)",
+            "chest_unopened_img": "images/items/fastbuild.png",
+            "chest_opened_img": "images/items/fastbuild_disabled.png",
+            "access_rules": [
+              "sith, [$can_purchase|30000]"
+            ]
+          },
+          {
+            "name": "5-2 True Jedi"
+          },
+          {
+            "name": "5-2 Completion"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Episode 5",
+            "x": 274,
+            "y": 138
+          }
         ]
-    }
+      },
+      {
+        "name": "Hoth Battle",
+        "access_rules": [
+          "5_1_enabled, snowspeeder"
+        ],
+        "visibility_rules": [
+          "5_1_enabled"
+        ],
+        "children": [
+          {
+            "name": "Minikits",
+            "chest_unopened_img": "images/items/minikit.png",
+            "chest_opened_img": "images/items/minikit_disabled.png",
+            "access_rules": [
+              "tievehicle"
+            ],
+            "sections": [
+              {
+                "name": "5-1 Minikit 1"
+              },
+              {
+                "name": "5-1 Minikit 2"
+              },
+              {
+                "name": "5-1 Minikit 3"
+              },
+              {
+                "name": "5-1 Minikit 4"
+              },
+              {
+                "name": "5-1 Minikit 5"
+              },
+              {
+                "name": "5-1 Minikit 6"
+              },
+              {
+                "name": "5-1 Minikit 7"
+              },
+              {
+                "name": "5-1 Minikit 8"
+              },
+              {
+                "name": "5-1 Minikit 9"
+              },
+              {
+                "name": "5-1 Minikit 10"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 5",
+                "x": 50,
+                "y": 96
+              }
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Purchase Self Destruct (5-1)",
+            "chest_unopened_img": "images/items/selfdestruct.png",
+            "chest_opened_img": "images/items/selfdestruct_disabled.png",
+            "access_rules": [
+              "tievehicle, [$can_purchase|25000]"
+            ]
+          },
+          {
+            "name": "5-1 True Jedi"
+          },
+          {
+            "name": "5-1 Completion"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Episode 5",
+            "x": 52,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Betrayal Over Bespin",
+        "access_rules": [
+          "5_6_enabled, princessleia(bespin), landocalrissian, c-3po, r2-d2, chewbacca"
+        ],
+        "visibility_rules": [
+          "5_6_enabled"
+        ],
+        "children": [
+          {
+            "name": "Minikits",
+            "chest_unopened_img": "images/items/minikit.png",
+            "chest_opened_img": "images/items/minikit_disabled.png",
+            "access_rules": [
+              "sith, bounty"
+            ],
+            "sections": [
+              {
+                "name": "5-6 Minikit 1"
+              },
+              {
+                "name": "5-6 Minikit 2"
+              },
+              {
+                "name": "5-6 Minikit 3"
+              },
+              {
+                "name": "5-6 Minikit 4"
+              },
+              {
+                "name": "5-6 Minikit 5"
+              },
+              {
+                "name": "5-6 Minikit 6"
+              },
+              {
+                "name": "5-6 Minikit 7"
+              },
+              {
+                "name": "5-6 Minikit 8"
+              },
+              {
+                "name": "5-6 Minikit 9"
+              },
+              {
+                "name": "5-6 Minikit 10"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 5",
+                "x": 987,
+                "y": 93
+              }
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Purchase Lobot",
+            "chest_unopened_img": "images/items/lobot.png",
+            "chest_opened_img": "images/items/lobot_disabled.png",
+            "access_rules": [
+              "[$can_purchase|11000]"
+            ]
+          },
+          {
+            "name": "Purchase Ugnaught",
+            "chest_unopened_img": "images/items/ugnaught.png",
+            "chest_opened_img": "images/items/ugnaught_disabled.png",
+            "access_rules": [
+              "[$can_purchase|36000]"
+            ]
+          },
+          {
+            "name": "Purchase Bespin Guard",
+            "chest_unopened_img": "images/items/bespinguard.png",
+            "chest_opened_img": "images/items/bespinguard_disabled.png",
+            "access_rules": [
+              "[$can_purchase|15000]"
+            ]
+          },
+          {
+            "name": "Purchase Princess Leia (Prisoner)",
+            "chest_unopened_img": "images/items/princessleia(prisoner).png",
+            "chest_opened_img": "images/items/princessleia(prisoner)_disabled.png",
+            "access_rules": [
+              "[$can_purchase|22000]"
+            ]
+          },
+          {
+            "name": "Purchase Minikit Detector (5-6)",
+            "chest_unopened_img": "images/items/minikitdetector.png",
+            "chest_opened_img": "images/items/minikitdetector_disabled.png",
+            "access_rules": [
+              "bounty, [$can_purchase|250000]"
+            ]
+          },
+          {
+            "name": "5-6 True Jedi"
+          },
+          {
+            "name": "5-6 Completion"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Episode 5",
+            "x": 986,
+            "y": 148
+          }
+        ]
+      },
+      {
+        "name": "Dagobah",
+        "access_rules": [
+          "5_4_enabled, lukeskywalker(pilot), lukeskywalker(dagobah), r2-d2, yoda"
+        ],
+        "visibility_rules": [
+          "5_4_enabled"
+        ],
+        "children": [
+          {
+            "name": "Minikits",
+            "chest_unopened_img": "images/items/minikit.png",
+            "chest_opened_img": "images/items/minikit_disabled.png",
+            "access_rules": [
+              "sith, bounty"
+            ],
+            "sections": [
+              {
+                "name": "5-4 Minikit 1"
+              },
+              {
+                "name": "5-4 Minikit 2"
+              },
+              {
+                "name": "5-4 Minikit 3"
+              },
+              {
+                "name": "5-4 Minikit 4"
+              },
+              {
+                "name": "5-4 Minikit 5"
+              },
+              {
+                "name": "5-4 Minikit 6"
+              },
+              {
+                "name": "5-4 Minikit 7"
+              },
+              {
+                "name": "5-4 Minikit 8"
+              },
+              {
+                "name": "5-4 Minikit 9"
+              },
+              {
+                "name": "5-4 Minikit 10"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 5",
+                "x": 624,
+                "y": 84
+              }
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Purchase Regenerate Hearts (5-4)",
+            "chest_unopened_img": "images/items/regeneratehearts.png",
+            "chest_opened_img": "images/items/regeneratehearts_disabled.png",
+            "access_rules": [
+              "sith, [$can_purchase|150000]"
+            ]
+          },
+          {
+            "name": "5-4 True Jedi"
+          },
+          {
+            "name": "5-4 Completion"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Episode 5",
+            "x": 625,
+            "y": 129
+          }
+        ]
+      },
+      {
+        "name": "Falcon Flight",
+        "access_rules": [
+          "5_3_enabled, milleniumfalcon, x-wing"
+        ],
+        "visibility_rules": [
+          "5_3_enabled"
+        ],
+        "children": [
+          {
+            "name": "Minikits",
+            "chest_unopened_img": "images/items/minikit.png",
+            "chest_opened_img": "images/items/minikit_disabled.png",
+            "access_rules": [
+              "towvehicle, tievehicle"
+            ],
+            "sections": [
+              {
+                "name": "5-3 Minikit 1"
+              },
+              {
+                "name": "5-3 Minikit 2"
+              },
+              {
+                "name": "5-3 Minikit 3"
+              },
+              {
+                "name": "5-3 Minikit 4"
+              },
+              {
+                "name": "5-3 Minikit 5"
+              },
+              {
+                "name": "5-3 Minikit 6"
+              },
+              {
+                "name": "5-3 Minikit 7"
+              },
+              {
+                "name": "5-3 Minikit 8"
+              },
+              {
+                "name": "5-3 Minikit 9"
+              },
+              {
+                "name": "5-3 Minikit 10"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 5",
+                "x": 472,
+                "y": 81
+              }
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Purchase TIE Bomber",
+            "chest_unopened_img": "images/items/tiebomber.png",
+            "chest_opened_img": "images/items/tiebomber_disabled.png",
+            "access_rules": [
+              "[$can_purchase|60000]"
+            ]
+          },
+          {
+            "name": "Purchase Imperial Shuttle",
+            "chest_unopened_img": "images/items/imperialshuttle.png",
+            "chest_opened_img": "images/items/imperialshuttle_disabled.png",
+            "access_rules": [
+              "[$can_purchase|25000]"
+            ]
+          },
+          {
+            "name": "Purchase Score x4",
+            "chest_unopened_img": "images/items/progressivescoremultiplier4.png",
+            "chest_opened_img": "images/items/progressivescoremultiplier4_disabled.png",
+            "access_rules": [
+              "[$can_purchase|2500000]"
+            ]
+          },
+          {
+            "name": "5-3 True Jedi"
+          },
+          {
+            "name": "5-3 Completion"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Episode 5",
+            "x": 474,
+            "y": 134
+          }
+        ]
+      },
+      {
+        "name": "Cloud City Trap",
+        "access_rules": [
+          "5_5_enabled, lukeskywalker(bespin), r2-d2"
+        ],
+        "visibility_rules": [
+          "5_5_enabled"
+        ],
+        "children": [
+          {
+            "name": "Minikits",
+            "chest_unopened_img": "images/items/minikit.png",
+            "chest_opened_img": "images/items/minikit_disabled.png",
+            "access_rules": [
+              "bounty, imperial, shortie, sith"
+            ],
+            "sections": [
+              {
+                "name": "5-5 Minikit 1"
+              },
+              {
+                "name": "5-5 Minikit 2"
+              },
+              {
+                "name": "5-5 Minikit 3"
+              },
+              {
+                "name": "5-5 Minikit 4"
+              },
+              {
+                "name": "5-5 Minikit 5"
+              },
+              {
+                "name": "5-5 Minikit 6"
+              },
+              {
+                "name": "5-5 Minikit 7"
+              },
+              {
+                "name": "5-5 Minikit 8"
+              },
+              {
+                "name": "5-5 Minikit 9"
+              },
+              {
+                "name": "5-5 Minikit 10"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 5",
+                "x": 829,
+                "y": 83
+              }
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Purchase Score x6",
+            "chest_unopened_img": "images/items/progressivescoremultiplier6.png",
+            "chest_opened_img": "images/items/progressivescoremultiplier6_disabled.png",
+            "access_rules": [
+              "bounty, hover, [$can_purchase|5000000]"
+            ]
+          },
+          {
+            "name": "5-5 True Jedi"
+          },
+          {
+            "name": "5-5 Completion"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Episode 5",
+            "x": 828,
+            "y": 136
+          }
+        ]
+      }
+    ]
+  }
 ]
