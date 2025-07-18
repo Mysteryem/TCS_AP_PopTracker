@@ -11,37 +11,58 @@
                     {
                         "name": "Purchase IG-88",
                         "chest_unopened_img": "images/items/ig-88.png",
-                        "chest_opened_img": "images/items/ig-88_disabled.png"
+                        "chest_opened_img": "images/items/ig-88_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|100000]"
+                        ]
                     },
                     {
                         "name": "Purchase Dengar",
                         "chest_unopened_img": "images/items/dengar.png",
-                        "chest_opened_img": "images/items/dengar_disabled.png"
+                        "chest_opened_img": "images/items/dengar_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|70000]"
+                        ]
                     },
                     {
                         "name": "Purchase 4-LOM",
                         "chest_unopened_img": "images/items/4-lom.png",
-                        "chest_opened_img": "images/items/4-lom_disabled.png"
+                        "chest_opened_img": "images/items/4-lom_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|45000]"
+                        ]
                     },
                     {
                         "name": "Purchase Ben Kenobi (Ghost)",
                         "chest_unopened_img": "images/items/benkenobi(ghost).png",
-                        "chest_opened_img": "images/items/benkenobi(ghost)_disabled.png"
+                        "chest_opened_img": "images/items/benkenobi(ghost)_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|1100000]"
+                        ]
                     },
                     {
                         "name": "Purchase Anakin Skywalker (Ghost)",
                         "chest_unopened_img": "images/items/anakinskywalker(ghost).png",
-                        "chest_opened_img": "images/items/anakinskywalker(ghost)_disabled.png"
+                        "chest_opened_img": "images/items/anakinskywalker(ghost)_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|1000000]"
+                        ]
                     },
                     {
                         "name": "Purchase Yoda (Ghost)",
                         "chest_unopened_img": "images/items/yoda(ghost).png",
-                        "chest_opened_img": "images/items/yoda(ghost)_disabled.png"
+                        "chest_opened_img": "images/items/yoda(ghost)_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|1200000]"
+                        ]
                     },
                     {
                         "name": "Purchase R2-Q5",
                         "chest_unopened_img": "images/items/r2-q5.png",
-                        "chest_opened_img": "images/items/r2-q5_disabled.png"
+                        "chest_opened_img": "images/items/r2-q5_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|100000]"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -151,7 +172,7 @@
                         "chest_unopened_img": "images/items/indianajones.png",
                         "chest_opened_img": "images/items/indianajones_disabled.png",
                         "access_rules": [
-                            "bonuses_enabled_indy"
+                            "bonuses_enabled_indy, [$can_purchase|50000]"
                         ],
                         "visibility_rules": [
                             "bonuses_enabled_indy"
