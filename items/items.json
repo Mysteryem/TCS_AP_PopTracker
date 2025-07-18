@@ -531,7 +531,7 @@
     "disabled_img": "",
     "initial_active_state": false,
     "overlay_align": "right",
-    "codes": "lukeskywalker(hoth)"
+    "codes": "lukeskywalker(hoth), blaster"
   },
   {
     "name": "Rebel Friend",
@@ -1204,8 +1204,7 @@
     "disabled_img": "",
     "initial_active_state": false,
     "overlay_align": "right",
-    "codes": "lukeskywalker(pilot)"
-    //Probably a logic bug in the world that this is missing 'blaster'
+    "codes": "lukeskywalker(pilot), blaster"
   },
   {
     "name": "Clone (Episode 3, Walker)",
