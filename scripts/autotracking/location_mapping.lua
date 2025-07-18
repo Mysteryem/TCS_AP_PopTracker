@@ -564,6 +564,167 @@ LOCATION_MAPPING = {
     [563] = {"@Episode 4/Rebel Attack/Purchase TIE Fighter (Darth Vader)"},
     [564] = {"@Episode 5/Falcon Flight/Purchase TIE Bomber"},
     [565] = {"@Episode 5/Falcon Flight/Purchase Imperial Shuttle"},
+    [566] = {
+        "@Episode 1/Negotiations/Chapter Completion - Unlock Obi-Wan Kenobi",
+        "@Episode 1/Invasion of Naboo/Chapter Completion - Unlock Obi-Wan Kenobi",
+        "@Episode 1/Escape From Naboo/Chapter Completion - Unlock Obi-Wan Kenobi",
+        "@Episode 1/Retake Theed Palace/Chapter Completion - Unlock Obi-Wan Kenobi",
+        "@Episode 1/Darth Maul/Chapter Completion - Unlock Obi-Wan Kenobi"
+    },
+    [567] = {
+        "@Episode 1/Negotiations/Chapter Completion - Unlock Qui-Gon Jinn",
+        "@Episode 1/Invasion of Naboo/Chapter Completion - Unlock Qui-Gon Jinn",
+        "@Episode 1/Escape From Naboo/Chapter Completion - Unlock Qui-Gon Jinn",
+        "@Episode 1/Retake Theed Palace/Chapter Completion - Unlock Qui-Gon Jinn",
+        "@Episode 1/Darth Maul/Chapter Completion - Unlock Qui-Gon Jinn"
+    },
+    [568] = {"@Episode 1/Negotiations/Chapter Completion - Unlock TC-14"},
+    [569] = {"@Episode 1/Invasion of Naboo/Chapter Completion - Unlock Jar Jar Binks"},
+    [570] = {
+        "@Episode 1/Escape From Naboo/Chapter Completion - Unlock Captain Panaka",
+        "@Episode 1/Retake Theed Palace/Chapter Completion - Unlock Captain Panaka"
+    },
+    [571] = {"@Episode 1/Escape From Naboo/Chapter Completion - Unlock Queen Amidala"},
+    [572] = {"@Episode 1/Mos Espa Podrace/Chapter Completion - Unlock Anakin's Pod"},
+    [573] = {"@Episode 1/Retake Theed Palace/Chapter Completion - Unlock Anakin Skywalker (Boy)"},
+    [574] = {"@Episode 1/Retake Theed Palace/Chapter Completion - Unlock Padmé (Battle)"},
+    [575] = {
+        "@Episode 1/Retake Theed Palace/Chapter Completion - Unlock R2-D2",
+        "@Episode 2/Droid Factory/Chapter Completion - Unlock R2-D2",
+        "@Episode 2/Jedi Battle/Chapter Completion - Unlock R2-D2",
+        "@Episode 3/Chancellor in Peril/Chapter Completion - Unlock R2-D2",
+        "@Episode 4/Secret Plans/Chapter Completion - Unlock R2-D2",
+        "@Episode 4/Through the Jundland Wastes/Chapter Completion - Unlock R2-D2",
+        "@Episode 4/Mos Eisley Spaceport/Chapter Completion - Unlock R2-D2",
+        "@Episode 4/Rescue the Princess/Chapter Completion - Unlock R2-D2",
+        "@Episode 4/Death Star Escape/Chapter Completion - Unlock R2-D2",
+        "@Episode 5/Dagobah/Chapter Completion - Unlock R2-D2",
+        "@Episode 5/Cloud City Trap/Chapter Completion - Unlock R2-D2",
+        "@Episode 5/Betrayal Over Bespin/Chapter Completion - Unlock R2-D2",
+        "@Episode 6/Jabba's Palace/Chapter Completion - Unlock R2-D2",
+        "@Episode 6/Pit of Carkoon/Chapter Completion - Unlock R2-D2",
+        "@Episode 6/Battle of Endor/Chapter Completion - Unlock R2-D2"
+    },
+    [576] = {"@Episode 2/Bounty Hunter Pursuit/Chapter Completion - Unlock Anakin's Speeder"},
+    [577] = {
+        "@Episode 2/Discovery on Kamino/Chapter Completion - Unlock Obi-Wan Kenobi (Jedi Master)",
+        "@Episode 2/Jedi Battle/Chapter Completion - Unlock Obi-Wan Kenobi (Jedi Master)",
+        "@Episode 2/Count Dooku/Chapter Completion - Unlock Obi-Wan Kenobi (Jedi Master)"
+    },
+    [578] = {"@Episode 2/Discovery on Kamino/Chapter Completion - Unlock R4-P17"},
+    [579] = {
+        "@Episode 2/Droid Factory/Chapter Completion - Unlock Anakin Skywalker (Padawan)",
+        "@Episode 2/Jedi Battle/Chapter Completion - Unlock Anakin Skywalker (Padawan)",
+        "@Episode 2/Count Dooku/Chapter Completion - Unlock Anakin Skywalker (Padawan)"
+    },
+    [580] = {
+        "@Episode 2/Droid Factory/Chapter Completion - Unlock C-3PO",
+        "@Episode 4/Secret Plans/Chapter Completion - Unlock C-3PO",
+        "@Episode 4/Through the Jundland Wastes/Chapter Completion - Unlock C-3PO",
+        "@Episode 4/Mos Eisley Spaceport/Chapter Completion - Unlock C-3PO",
+        "@Episode 4/Rescue the Princess/Chapter Completion - Unlock C-3PO",
+        "@Episode 4/Death Star Escape/Chapter Completion - Unlock C-3PO",
+        "@Episode 5/Escape From Echo Base/Chapter Completion - Unlock C-3PO",
+        "@Episode 5/Betrayal Over Bespin/Chapter Completion - Unlock C-3PO",
+        "@Episode 6/Jabba's Palace/Chapter Completion - Unlock C-3PO",
+        "@Episode 6/Pit of Carkoon/Chapter Completion - Unlock C-3PO",
+        "@Episode 6/Battle of Endor/Chapter Completion - Unlock C-3PO"
+    },
+    [581] = {"@Episode 2/Droid Factory/Chapter Completion - Unlock Padmé (Geonosis)"},
+    [582] = {"@Episode 2/Jedi Battle/Chapter Completion - Unlock Mace Windu"},
+    [583] = {"@Episode 2/Jedi Battle/Chapter Completion - Unlock Padmé (Clawed)"},
+    [584] = {"@Episode 2/Gunship Cavalry/Chapter Completion - Unlock Republic Gunship"},
+    [585] = {
+        "@Episode 2/Count Dooku/Chapter Completion - Unlock Yoda",
+        "@Episode 3/Defense of Kashyyyk/Chapter Completion - Unlock Yoda",
+        "@Episode 3/Ruin of the Jedi/Chapter Completion - Unlock Yoda",
+        "@Episode 5/Dagobah/Chapter Completion - Unlock Yoda"
+    },
+    [586] = {"@Episode 3/Battle Over Coruscant/Chapter Completion - Unlock Anakin's Starfighter"},
+    [587] = {"@Episode 3/Battle Over Coruscant/Chapter Completion - Unlock Obi-Wan's Starfighter"},
+    [588] = {
+        "@Episode 3/Chancellor in Peril/Chapter Completion - Unlock Anakin Skywalker (Jedi)",
+        "@Episode 3/Darth Vader/Chapter Completion - Unlock Anakin Skywalker (Jedi)"
+    },
+    [589] = {"@Episode 3/Chancellor in Peril/Chapter Completion - Unlock Chancellor Palpatine"},
+    [590] = {
+        "@Episode 3/Chancellor in Peril/Chapter Completion - Unlock Obi-Wan Kenobi (Episode 3)",
+        "@Episode 3/General Grievous/Chapter Completion - Unlock Obi-Wan Kenobi (Episode 3)",
+        "@Episode 3/Ruin of the Jedi/Chapter Completion - Unlock Obi-Wan Kenobi (Episode 3)",
+        "@Episode 3/Darth Vader/Chapter Completion - Unlock Obi-Wan Kenobi (Episode 3)"
+    },
+    [591] = {"@Episode 3/General Grievous/Chapter Completion - Unlock Commander Cody"},
+    [592] = {
+        "@Episode 3/Defense of Kashyyyk/Chapter Completion - Unlock Chewbacca",
+        "@Episode 4/Mos Eisley Spaceport/Chapter Completion - Unlock Chewbacca",
+        "@Episode 4/Rescue the Princess/Chapter Completion - Unlock Chewbacca",
+        "@Episode 4/Death Star Escape/Chapter Completion - Unlock Chewbacca",
+        "@Episode 5/Escape From Echo Base/Chapter Completion - Unlock Chewbacca",
+        "@Episode 5/Betrayal Over Bespin/Chapter Completion - Unlock Chewbacca",
+        "@Episode 6/Jabba's Palace/Chapter Completion - Unlock Chewbacca",
+        "@Episode 6/Pit of Carkoon/Chapter Completion - Unlock Chewbacca",
+        "@Episode 6/Battle of Endor/Chapter Completion - Unlock Chewbacca"
+    },
+    [593] = {"@Episode 4/Secret Plans/Chapter Completion - Unlock Captain Antilles"},
+    [594] = {
+        "@Episode 4/Secret Plans/Chapter Completion - Unlock Princess Leia",
+        "@Episode 4/Death Star Escape/Chapter Completion - Unlock Princess Leia"
+    },
+    [595] = {"@Episode 4/Secret Plans/Chapter Completion - Unlock Rebel Friend"},
+    [596] = {
+        "@Episode 4/Through the Jundland Wastes/Chapter Completion - Unlock Ben Kenobi",
+        "@Episode 4/Mos Eisley Spaceport/Chapter Completion - Unlock Ben Kenobi",
+        "@Episode 4/Rescue the Princess/Chapter Completion - Unlock Ben Kenobi"
+    },
+    [597] = {
+        "@Episode 4/Through the Jundland Wastes/Chapter Completion - Unlock Luke Skywalker (Tatooine)",
+        "@Episode 4/Mos Eisley Spaceport/Chapter Completion - Unlock Luke Skywalker (Tatooine)",
+        "@Episode 4/Death Star Escape/Chapter Completion - Unlock Luke Skywalker (Tatooine)"
+    },
+    [598] = {
+        "@Episode 4/Mos Eisley Spaceport/Chapter Completion - Unlock Han Solo",
+        "@Episode 4/Death Star Escape/Chapter Completion - Unlock Han Solo"
+    },
+    [599] = {"@Episode 4/Rescue the Princess/Chapter Completion - Unlock Han Solo (Stormtrooper)"},
+    [600] = {"@Episode 4/Rescue the Princess/Chapter Completion - Unlock Luke Skywalker (Stormtrooper)"},
+    [601] = {
+        "@Episode 4/Rebel Attack/Chapter Completion - Unlock X-Wing",
+        "@Episode 5/Falcon Flight/Chapter Completion - Unlock X-Wing",
+        "@Episode 6/Into the Death Star/Chapter Completion - Unlock X-Wing"
+    },
+    [602] = {"@Episode 4/Rebel Attack/Chapter Completion - Unlock Y-Wing"},
+    [603] = {"@Episode 5/Hoth Battle/Chapter Completion - Unlock Snowspeeder"},
+    [604] = {"@Episode 5/Escape From Echo Base/Chapter Completion - Unlock Han Solo (Hoth)"},
+    [605] = {"@Episode 5/Escape From Echo Base/Chapter Completion - Unlock Princess Leia (Hoth)"},
+    [606] = {
+        "@Episode 5/Falcon Flight/Chapter Completion - Unlock Millennium Falcon",
+        "@Episode 6/Into the Death Star/Chapter Completion - Unlock Millennium Falcon"
+    },
+    [607] = {"@Episode 5/Dagobah/Chapter Completion - Unlock Luke Skywalker (Dagobah)"},
+    [608] = {"@Episode 5/Dagobah/Chapter Completion - Unlock Luke Skywalker (Pilot)"},
+    [609] = {"@Episode 5/Cloud City Trap/Chapter Completion - Unlock Luke Skywalker (Bespin)"},
+    [610] = {"@Episode 5/Betrayal Over Bespin/Chapter Completion - Unlock Lando Calrissian"},
+    [611] = {"@Episode 5/Betrayal Over Bespin/Chapter Completion - Unlock Princess Leia (Bespin)"},
+    [612] = {
+        "@Episode 6/Jabba's Palace/Chapter Completion - Unlock Han Solo (Skiff)",
+        "@Episode 6/Pit of Carkoon/Chapter Completion - Unlock Han Solo (Skiff)"
+    },
+    [613] = {"@Episode 6/Jabba's Palace/Chapter Completion - Unlock Princess Leia (Boushh)"},
+    [614] = {
+        "@Episode 6/Jabba's Palace/Chapter Completion - Unlock Luke Skywalker (Jedi)",
+        "@Episode 6/Pit of Carkoon/Chapter Completion - Unlock Luke Skywalker (Jedi)",
+        "@Episode 6/Jedi Destiny/Chapter Completion - Unlock Luke Skywalker (Jedi)"
+    },
+    [615] = {"@Episode 6/Pit of Carkoon/Chapter Completion - Unlock Princess Leia (Slave)"},
+    [616] = {"@Episode 6/Pit of Carkoon/Chapter Completion - Unlock Lando Calrissian (Palace Guard)"},
+    [617] = {"@Episode 6/Speeder Showdown/Chapter Completion - Unlock Luke Skywalker (Endor)"},
+    [618] = {
+        "@Episode 6/Speeder Showdown/Chapter Completion - Unlock Princess Leia (Endor)",
+        "@Episode 6/Battle of Endor/Chapter Completion - Unlock Princess Leia (Endor)"
+    },
+    [619] = {"@Episode 6/Battle of Endor/Chapter Completion - Unlock Han Solo (Endor)"},
+    [620] = {"@Episode 6/Battle of Endor/Chapter Completion - Unlock Wicket"},
+    [621] = {"@Episode 6/Jedi Destiny/Chapter Completion - Unlock Darth Vader"},
 }
 
 sectionIDToAPID = {}

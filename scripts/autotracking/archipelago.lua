@@ -168,6 +168,9 @@ function onClear(slot_data)
     local most_expensive_purchase = slot_data["most_expensive_purchase_with_no_multiplier"] * 1000
     Tracker:FindObjectForCode("max_purchase_with_no_multipliers").AcquiredCount = most_expensive_purchase
 
+    local story_character_locations_enabled = slot_data["enable_story_character_unlock_locations"] == 1
+    Tracker:FindObjectForCode("story_character_locations").Active = story_character_locations_enabled
+
     -- Hint tracking disabled until PopTracker 0.32.0 is released, which adds section highlighting.
 --     if Archipelago.PlayerNumber > -1 then
 --

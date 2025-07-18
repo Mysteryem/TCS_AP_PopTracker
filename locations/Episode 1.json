@@ -110,6 +110,30 @@
           },
           {
             "name": "1-1 Completion"
+          },
+          {
+            "name": "Chapter Completion - Unlock Obi-Wan Kenobi",
+            "chest_unopened_img": "images/items/obi-wankenobi.png",
+            "chest_opened_img": "images/items/obi-wankenobi_disabled.png",
+            "visibility_rules": [
+              "story_character_locations"
+            ]
+          },
+          {
+            "name": "Chapter Completion - Unlock Qui-Gon Jinn",
+            "chest_unopened_img": "images/items/qui-gonjinn.png",
+            "chest_opened_img": "images/items/qui-gonjinn_disabled.png",
+            "visibility_rules": [
+              "story_character_locations"
+            ]
+          },
+          {
+            "name": "Chapter Completion - Unlock TC-14",
+            "chest_unopened_img": "images/items/tc-14.png",
+            "chest_opened_img": "images/items/tc-14_disabled.png",
+            "visibility_rules": [
+              "story_character_locations"
+            ]
           }
         ],
         "map_locations": [
@@ -207,6 +231,30 @@
           },
           {
             "name": "1-2 Completion"
+          },
+          {
+            "name": "Chapter Completion - Unlock Obi-Wan Kenobi",
+            "chest_unopened_img": "images/items/obi-wankenobi.png",
+            "chest_opened_img": "images/items/obi-wankenobi_disabled.png",
+            "visibility_rules": [
+              "story_character_locations"
+            ]
+          },
+          {
+            "name": "Chapter Completion - Unlock Qui-Gon Jinn",
+            "chest_unopened_img": "images/items/qui-gonjinn.png",
+            "chest_opened_img": "images/items/qui-gonjinn_disabled.png",
+            "visibility_rules": [
+              "story_character_locations"
+            ]
+          },
+          {
+            "name": "Chapter Completion - Unlock Jar Jar Binks",
+            "chest_unopened_img": "images/items/jarjarbinks.png",
+            "chest_opened_img": "images/items/jarjarbinks_disabled.png",
+            "visibility_rules": [
+              "story_character_locations"
+            ]
           }
         ],
         "map_locations": [
@@ -312,6 +360,14 @@
           },
           {
             "name": "1-4 Completion"
+          },
+          {
+            "name": "Chapter Completion - Unlock Anakin's Pod",
+            "chest_unopened_img": "images/items/anakinspodracer.png",
+            "chest_opened_img": "images/items/anakinspodracer_disabled.png",
+            "visibility_rules": [
+              "story_character_locations"
+            ]
           }
         ],
         "map_locations": [
@@ -401,6 +457,22 @@
           },
           {
             "name": "1-6 Completion"
+          },
+          {
+            "name": "Chapter Completion - Unlock Obi-Wan Kenobi",
+            "chest_unopened_img": "images/items/obi-wankenobi.png",
+            "chest_opened_img": "images/items/obi-wankenobi_disabled.png",
+            "visibility_rules": [
+              "story_character_locations"
+            ]
+          },
+          {
+            "name": "Chapter Completion - Unlock Qui-Gon Jinn",
+            "chest_unopened_img": "images/items/qui-gonjinn.png",
+            "chest_opened_img": "images/items/qui-gonjinn_disabled.png",
+            "visibility_rules": [
+              "story_character_locations"
+            ]
           }
         ],
         "map_locations": [
@@ -498,6 +570,38 @@
           },
           {
             "name": "1-3 Completion"
+          },
+          {
+            "name": "Chapter Completion - Unlock Obi-Wan Kenobi",
+            "chest_unopened_img": "images/items/obi-wankenobi.png",
+            "chest_opened_img": "images/items/obi-wankenobi_disabled.png",
+            "visibility_rules": [
+              "story_character_locations"
+            ]
+          },
+          {
+            "name": "Chapter Completion - Unlock Qui-Gon Jinn",
+            "chest_unopened_img": "images/items/qui-gonjinn.png",
+            "chest_opened_img": "images/items/qui-gonjinn_disabled.png",
+            "visibility_rules": [
+              "story_character_locations"
+            ]
+          },
+          {
+            "name": "Chapter Completion - Unlock Captain Panaka",
+            "chest_unopened_img": "images/items/captainpanaka.png",
+            "chest_opened_img": "images/items/captainpanaka_disabled.png",
+            "visibility_rules": [
+              "story_character_locations"
+            ]
+          },
+          {
+            "name": "Chapter Completion - Unlock Queen Amidala",
+            "chest_unopened_img": "images/items/queenamidala.png",
+            "chest_opened_img": "images/items/queenamidala_disabled.png",
+            "visibility_rules": [
+              "story_character_locations"
+            ]
           }
         ],
         "map_locations": [
@@ -579,6 +683,54 @@
           },
           {
             "name": "1-5 Completion"
+          },
+          {
+            "name": "Chapter Completion - Unlock Obi-Wan Kenobi",
+            "chest_unopened_img": "images/items/obi-wankenobi.png",
+            "chest_opened_img": "images/items/obi-wankenobi_disabled.png",
+            "visibility_rules": [
+              "story_character_locations"
+            ]
+          },
+          {
+            "name": "Chapter Completion - Unlock Qui-Gon Jinn",
+            "chest_unopened_img": "images/items/qui-gonjinn.png",
+            "chest_opened_img": "images/items/qui-gonjinn_disabled.png",
+            "visibility_rules": [
+              "story_character_locations"
+            ]
+          },
+          {
+            "name": "Chapter Completion - Unlock Captain Panaka",
+            "chest_unopened_img": "images/items/captainpanaka.png",
+            "chest_opened_img": "images/items/captainpanaka_disabled.png",
+            "visibility_rules": [
+              "story_character_locations"
+            ]
+          },
+          {
+            "name": "Chapter Completion - Unlock Anakin Skywalker (Boy)",
+            "chest_unopened_img": "images/items/anakinskywalker(boy).png",
+            "chest_opened_img": "images/items/anakinskywalker(boy)_disabled.png",
+            "visibility_rules": [
+              "story_character_locations"
+            ]
+          },
+          {
+            "name": "Chapter Completion - Unlock Padmé (Battle)",
+            "chest_unopened_img": "images/items/padme(battle).png",
+            "chest_opened_img": "images/items/padme(battle)_disabled.png",
+            "visibility_rules": [
+              "story_character_locations"
+            ]
+          },
+          {
+            "name": "Chapter Completion - Unlock R2-D2",
+            "chest_unopened_img": "images/items/r2-d2.png",
+            "chest_opened_img": "images/items/r2-d2_disabled.png",
+            "visibility_rules": [
+              "story_character_locations"
+            ]
           }
         ],
         "map_locations": [

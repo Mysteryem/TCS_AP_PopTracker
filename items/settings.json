@@ -358,5 +358,11 @@
     "type": "consumable",
     "img": "images/settings/maximum_purchase_without_score_multipliers.png",
     "codes": "max_purchase_with_no_multipliers"
+  },
+  {
+    "name": "Story Character Unlock Locations Enabled",
+    "type": "toggle",
+    "img": "images/settings/story_character_locations.png",
+    "codes": "story_character_locations"
   }
 ]

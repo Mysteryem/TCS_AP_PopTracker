@@ -110,6 +110,54 @@
           },
           {
             "name": "6-1 Completion"
+          },
+          {
+            "name": "Chapter Completion - Unlock R2-D2",
+            "chest_unopened_img": "images/items/r2-d2.png",
+            "chest_opened_img": "images/items/r2-d2_disabled.png",
+            "visibility_rules": [
+              "story_character_locations"
+            ]
+          },
+          {
+            "name": "Chapter Completion - Unlock C-3PO",
+            "chest_unopened_img": "images/items/c-3po.png",
+            "chest_opened_img": "images/items/c-3po_disabled.png",
+            "visibility_rules": [
+              "story_character_locations"
+            ]
+          },
+          {
+            "name": "Chapter Completion - Unlock Chewbacca",
+            "chest_unopened_img": "images/items/chewbacca.png",
+            "chest_opened_img": "images/items/chewbacca_disabled.png",
+            "visibility_rules": [
+              "story_character_locations"
+            ]
+          },
+          {
+            "name": "Chapter Completion - Unlock Han Solo (Skiff)",
+            "chest_unopened_img": "images/items/hansolo(skiff).png",
+            "chest_opened_img": "images/items/hansolo(skiff)_disabled.png",
+            "visibility_rules": [
+              "story_character_locations"
+            ]
+          },
+          {
+            "name": "Chapter Completion - Unlock Princess Leia (Boushh)",
+            "chest_unopened_img": "images/items/princessleia(boushh).png",
+            "chest_opened_img": "images/items/princessleia(boushh)_disabled.png",
+            "visibility_rules": [
+              "story_character_locations"
+            ]
+          },
+          {
+            "name": "Chapter Completion - Unlock Luke Skywalker (Jedi)",
+            "chest_unopened_img": "images/items/lukeskywalker(jedi).png",
+            "chest_opened_img": "images/items/lukeskywalker(jedi)_disabled.png",
+            "visibility_rules": [
+              "story_character_locations"
+            ]
           }
         ],
         "map_locations": [
@@ -207,6 +255,62 @@
           },
           {
             "name": "6-2 Completion"
+          },
+          {
+            "name": "Chapter Completion - Unlock R2-D2",
+            "chest_unopened_img": "images/items/r2-d2.png",
+            "chest_opened_img": "images/items/r2-d2_disabled.png",
+            "visibility_rules": [
+              "story_character_locations"
+            ]
+          },
+          {
+            "name": "Chapter Completion - Unlock C-3PO",
+            "chest_unopened_img": "images/items/c-3po.png",
+            "chest_opened_img": "images/items/c-3po_disabled.png",
+            "visibility_rules": [
+              "story_character_locations"
+            ]
+          },
+          {
+            "name": "Chapter Completion - Unlock Chewbacca",
+            "chest_unopened_img": "images/items/chewbacca.png",
+            "chest_opened_img": "images/items/chewbacca_disabled.png",
+            "visibility_rules": [
+              "story_character_locations"
+            ]
+          },
+          {
+            "name": "Chapter Completion - Unlock Han Solo (Skiff)",
+            "chest_unopened_img": "images/items/hansolo(skiff).png",
+            "chest_opened_img": "images/items/hansolo(skiff)_disabled.png",
+            "visibility_rules": [
+              "story_character_locations"
+            ]
+          },
+          {
+            "name": "Chapter Completion - Unlock Luke Skywalker (Jedi)",
+            "chest_unopened_img": "images/items/lukeskywalker(jedi).png",
+            "chest_opened_img": "images/items/lukeskywalker(jedi)_disabled.png",
+            "visibility_rules": [
+              "story_character_locations"
+            ]
+          },
+          {
+            "name": "Chapter Completion - Unlock Princess Leia (Slave)",
+            "chest_unopened_img": "images/items/princessleia(slave).png",
+            "chest_opened_img": "images/items/princessleia(slave)_disabled.png",
+            "visibility_rules": [
+              "story_character_locations"
+            ]
+          },
+          {
+            "name": "Chapter Completion - Unlock Lando Calrissian (Palace Guard)",
+            "chest_unopened_img": "images/items/landocalrissian(palaceguard).png",
+            "chest_opened_img": "images/items/landocalrissian(palaceguard)_disabled.png",
+            "visibility_rules": [
+              "story_character_locations"
+            ]
           }
         ],
         "map_locations": [
@@ -296,6 +400,54 @@
           },
           {
             "name": "6-4 Completion"
+          },
+          {
+            "name": "Chapter Completion - Unlock R2-D2",
+            "chest_unopened_img": "images/items/r2-d2.png",
+            "chest_opened_img": "images/items/r2-d2_disabled.png",
+            "visibility_rules": [
+              "story_character_locations"
+            ]
+          },
+          {
+            "name": "Chapter Completion - Unlock C-3PO",
+            "chest_unopened_img": "images/items/c-3po.png",
+            "chest_opened_img": "images/items/c-3po_disabled.png",
+            "visibility_rules": [
+              "story_character_locations"
+            ]
+          },
+          {
+            "name": "Chapter Completion - Unlock Chewbacca",
+            "chest_unopened_img": "images/items/chewbacca.png",
+            "chest_opened_img": "images/items/chewbacca_disabled.png",
+            "visibility_rules": [
+              "story_character_locations"
+            ]
+          },
+          {
+            "name": "Chapter Completion - Unlock Princess Leia (Endor)",
+            "chest_unopened_img": "images/items/princessleia(endor).png",
+            "chest_opened_img": "images/items/princessleia(endor)_disabled.png",
+            "visibility_rules": [
+              "story_character_locations"
+            ]
+          },
+          {
+            "name": "Chapter Completion - Unlock Han Solo (Endor)",
+            "chest_unopened_img": "images/items/hansolo(endor).png",
+            "chest_opened_img": "images/items/hansolo(endor)_disabled.png",
+            "visibility_rules": [
+              "story_character_locations"
+            ]
+          },
+          {
+            "name": "Chapter Completion - Unlock Wicket",
+            "chest_unopened_img": "images/items/wicket.png",
+            "chest_opened_img": "images/items/wicket_disabled.png",
+            "visibility_rules": [
+              "story_character_locations"
+            ]
           }
         ],
         "map_locations": [
@@ -393,6 +545,22 @@
           },
           {
             "name": "6-5 Completion"
+          },
+          {
+            "name": "Chapter Completion - Unlock Luke Skywalker (Jedi)",
+            "chest_unopened_img": "images/items/lukeskywalker(jedi).png",
+            "chest_opened_img": "images/items/lukeskywalker(jedi)_disabled.png",
+            "visibility_rules": [
+              "story_character_locations"
+            ]
+          },
+          {
+            "name": "Chapter Completion - Unlock Darth Vader",
+            "chest_unopened_img": "images/items/darthvader.png",
+            "chest_opened_img": "images/items/darthvader_disabled.png",
+            "visibility_rules": [
+              "story_character_locations"
+            ]
           }
         ],
         "map_locations": [
@@ -482,6 +650,22 @@
           },
           {
             "name": "6-6 Completion"
+          },
+          {
+            "name": "Chapter Completion - Unlock X-Wing",
+            "chest_unopened_img": "images/items/x-wing.png",
+            "chest_opened_img": "images/items/x-wing_disabled.png",
+            "visibility_rules": [
+              "story_character_locations"
+            ]
+          },
+          {
+            "name": "Chapter Completion - Unlock Millennium Falcon",
+            "chest_unopened_img": "images/items/millenniumfalcon.png",
+            "chest_opened_img": "images/items/millenniumfalcon_disabled.png",
+            "visibility_rules": [
+              "story_character_locations"
+            ]
           }
         ],
         "map_locations": [
@@ -563,6 +747,22 @@
           },
           {
             "name": "6-3 Completion"
+          },
+          {
+            "name": "Chapter Completion - Unlock Luke Skywalker (Endor)",
+            "chest_unopened_img": "images/items/lukeskywalker(endor).png",
+            "chest_opened_img": "images/items/lukeskywalker(endor)_disabled.png",
+            "visibility_rules": [
+              "story_character_locations"
+            ]
+          },
+          {
+            "name": "Chapter Completion - Unlock Princess Leia (Endor)",
+            "chest_unopened_img": "images/items/princessleia(endor).png",
+            "chest_opened_img": "images/items/princessleia(endor)_disabled.png",
+            "visibility_rules": [
+              "story_character_locations"
+            ]
           }
         ],
         "map_locations": [
