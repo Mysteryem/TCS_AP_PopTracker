@@ -274,14 +274,14 @@
     "codes": "vehiclesmartbomb"
   },
   {
-    "name": "Fertilizer",
+    "name": "Poo Money",
     "type": "toggle",
-    "img": "images/items/fertilizer.png",
+    "img": "images/items/poomoney.png",
     "img_mods": "",
     "disabled_img": "",
     "initial_active_state": false,
     "overlay_align": "right",
-    "codes": "fertilizer"
+    "codes": "poomoney"
   },
   {
     "name": "Disguised Clone",

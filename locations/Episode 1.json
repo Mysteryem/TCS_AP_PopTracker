@@ -177,9 +177,9 @@
                         "chest_opened_img": "images/items/bossnass_disabled.png"
                     },
                     {
-                        "name": "Purchase Fertilizer (1-2)",
-                        "chest_unopened_img": "images/items/fertilizer.png",
-                        "chest_opened_img": "images/items/fertilizer_disabled.png",
+                        "name": "Purchase Poo Money (1-2)",
+                        "chest_unopened_img": "images/items/poomoney.png",
+                        "chest_opened_img": "images/items/poomoney_disabled.png",
                         "access_rules": [
                             "bounty"
                         ]

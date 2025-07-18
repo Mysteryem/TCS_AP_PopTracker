@@ -188,7 +188,7 @@
               ],
               [
                 "supergonk",
-                "fertilizer", // This should be Poo Money, not Fertilizer, this is a world bug from having the wrong name.
+                "poomoney",
                 "walkietalkiedisable",
                 "redbrickdetector",
                 "superslap",
