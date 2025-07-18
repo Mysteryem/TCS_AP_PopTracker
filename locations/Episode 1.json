@@ -266,7 +266,7 @@
         ]
       },
       {
-        "name": "Mos Espa Podrace",
+        "name": "Mos Espa Pod Race",
         "access_rules": [
           "1_4_enabled, anakinspodracer"
         ],

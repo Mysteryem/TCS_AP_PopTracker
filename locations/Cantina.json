@@ -117,7 +117,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Mos Espa Podrace (Original)",
+                        "name": "Mos Espa Pod Race (Original)",
                         "access_rules": [
                             "bonuses_enabled_podrace, @Macros/Has10GoldBricks"
                         ],

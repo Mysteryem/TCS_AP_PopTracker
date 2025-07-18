@@ -305,7 +305,7 @@
     "codes": "bonuses_enabled"
   },
   {
-    "name": "Podrace Bonus Enabled",
+    "name": "Pod Race Bonus Enabled",
     "type": "toggle",
     "initial_active_state": true,
     "img": "images/settings/bonuses_enabled_podrace.png",
