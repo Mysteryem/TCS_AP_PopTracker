@@ -5,7 +5,19 @@
             {
                 "name": "All Episodes",
                 "access_rules": [
-                    "episode2unlock, episode3unlock, episode4unlock, episode5unlock, episode6unlock"
+                    [
+                        "all_episodes_purchases_unlock_episodes",
+                        "@Macros/Episode 1 Unlocked Or Disabled",
+                        "@Macros/Episode 2 Unlocked Or Disabled",
+                        "@Macros/Episode 3 Unlocked Or Disabled",
+                        "@Macros/Episode 4 Unlocked Or Disabled",
+                        "@Macros/Episode 5 Unlocked Or Disabled",
+                        "@Macros/Episode 6 Unlocked Or Disabled"
+                    ],
+                    [
+                        "all_episodes_purchases_unlock_tokens",
+                        "$all_episodes_tokens"
+                    ]
                 ],
                 "sections": [
                     {

@@ -1918,5 +1918,11 @@
     "initial_active_state": false,
     "overlay_align": "right",
     "codes": "episode1unlock"
+  },
+  {
+    "name": "All Episodes Token",
+    "type": "consumable",
+    "img": "images/items/allepisodestoken.png",
+    "codes": "allepisodestoken"
   }
 ]

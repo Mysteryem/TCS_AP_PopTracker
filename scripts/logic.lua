@@ -154,3 +154,7 @@ function can_purchase(studs_count_str)
         return Tracker:ProviderCountForCode(required_item) > 0
     end
 end
+
+function all_episodes_tokens()
+    return Tracker:ProviderCountForCode("allepisodestoken") >= Tracker:ProviderCountForCode("enabled_episodes_count")
+end

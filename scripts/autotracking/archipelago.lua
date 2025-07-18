@@ -143,6 +143,26 @@ function onClear(slot_data)
         end
     end
 
+    -- Set active state for items used to signify whether episodes are enabled.
+    -- Set consumable item that stores the number of enabled episodes.
+    local enabled_episodes_set = {}
+    for episode_number in slot_data["enabled_episodes"] do
+        enabled_episodes_set[episode_number] = true
+    end
+    local enabled_episodes_count = 0
+    for episode=1,6 do
+        local item_name = string.format("episode_%i_enabled", episode)
+        local item = Tracker:FindObjectForCode(item_name)
+        if enabled_episodes_set[episode] ~= nil then
+            item.CurrentStage = 1
+            enabled_episodes_count = enabled_episodes_count + 1
+        else
+            item.CurrentStage = 0
+        end
+    end
+    Tracker:FindObjectForCode("enabled_episodes_count").AcquiredCount = enabled_episodes_count
+    Tracker.FindObjectForCode("allepisodestoken").MaxCount = enabled_episodes_count
+
     local bonuses_enabled = slot_data["enable_bonus_locations"] == 1
     Tracker:FindObjectForCode("bonuses_enabled").Active = bonuses_enabled
 

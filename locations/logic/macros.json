@@ -25,6 +25,48 @@
         "access_rules": [
           "^$has_accessible_gold_bricks(50)"
         ]
+      },
+      {
+        "name": "Episode 1 Unlocked Or Disabled",
+        "access_rules": [
+          "episode_2_disabled",
+          "episode_2_enabled, episode1unlock"
+        ]
+      },
+      {
+        "name": "Episode 2 Unlocked Or Disabled",
+        "access_rules": [
+          "episode_2_disabled",
+          "episode_2_enabled, episode2unlock"
+        ]
+      },
+      {
+        "name": "Episode 3 Unlocked Or Disabled",
+        "access_rules": [
+          "episode_3_disabled",
+          "episode_3_enabled, episode3unlock"
+        ]
+      },
+      {
+        "name": "Episode 4 Unlocked Or Disabled",
+        "access_rules": [
+          "episode_4_disabled",
+          "episode_4_enabled, episode4unlock"
+        ]
+      },
+      {
+        "name": "Episode 5 Unlocked Or Disabled",
+        "access_rules": [
+          "episode_5_disabled",
+          "episode_5_enabled, episode5unlock"
+        ]
+      },
+      {
+        "name": "Episode 6 Unlocked Or Disabled",
+        "access_rules": [
+          "episode_6_disabled",
+          "episode_6_enabled, episode6unlock"
+        ]
       }
     ]
   }
