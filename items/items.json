@@ -111,7 +111,7 @@
     "disabled_img": "",
     "initial_active_state": false,
     "overlay_align": "right",
-    "codes": "imperialguard, imperial, blaster"
+    "codes": "imperialguard, imperial"
   },
   {
     "name": "Palace Guard",
@@ -396,7 +396,7 @@
     "disabled_img": "",
     "initial_active_state": false,
     "overlay_align": "right",
-    "codes": "battledroid(commander), blaster"
+    "codes": "battledroid(commander)"
   },
   {
     "name": "Geonosian",
@@ -406,7 +406,7 @@
     "disabled_img": "",
     "initial_active_state": false,
     "overlay_align": "right",
-    "codes": "geonosian, blaster"
+    "codes": "geonosian"
   },
   {
     "name": "Jawa",
@@ -471,7 +471,7 @@
     "disabled_img": "",
     "initial_active_state": false,
     "overlay_align": "right",
-    "codes": "battledroid(security), blaster"
+    "codes": "battledroid(security)"
   },
   {
     "name": "Snowtrooper",
@@ -511,7 +511,7 @@
     "disabled_img": "",
     "initial_active_state": false,
     "overlay_align": "right",
-    "codes": "battledroid, blaster"
+    "codes": "battledroid"
   },
   {
     "name": "Admiral Ackbar",
@@ -911,8 +911,7 @@
     "disabled_img": "",
     "initial_active_state": false,
     "overlay_align": "right",
-    "codes": "droideka, blaster"
-    //Could be a logic bug in the world because Droideka can't grapple
+    "codes": "droideka"
   },
   {
     "name": "Ugnaught",
@@ -1185,7 +1184,7 @@
     "disabled_img": "",
     "initial_active_state": false,
     "overlay_align": "right",
-    "codes": "battledroid(geonosis), blaster"
+    "codes": "battledroid(geonosis)"
   },
   {
     "name": "Stormtrooper",
@@ -1226,8 +1225,7 @@
     "disabled_img": "",
     "initial_active_state": false,
     "overlay_align": "right",
-    "codes": "ewok, shortie, blaster"
-    // blaster is probably a logic bug in the world in some cases
+    "codes": "ewok, shortie"
   },
   {
     "name": "Force Pull",
@@ -1627,7 +1625,7 @@
     "disabled_img": "",
     "initial_active_state": false,
     "overlay_align": "right",
-    "codes": "superbattledroid, blaster"
+    "codes": "superbattledroid"
   },
   {
     "name": "Rebel Trooper",
