@@ -68,34 +68,49 @@
                     {
                         "name": "Purchase Han Solo (Hood)",
                         "chest_unopened_img": "images/items/hansolo(hood).png",
-                        "chest_opened_img": "images/items/hansolo(hood)_disabled.png"
+                        "chest_opened_img": "images/items/hansolo(hood)_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|20000]"
+                        ]
                     },
                     {
                         "name": "Purchase Luke Skywalker (Hoth)",
                         "chest_unopened_img": "images/items/lukeskywalker(hoth).png",
-                        "chest_opened_img": "images/items/lukeskywalker(hoth)_disabled.png"
+                        "chest_opened_img": "images/items/lukeskywalker(hoth)_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|14000]"
+                        ]
                     },
                     {
                         "name": "Purchase Rebel Trooper (Hoth)",
                         "chest_unopened_img": "images/items/rebeltrooper(hoth).png",
-                        "chest_opened_img": "images/items/rebeltrooper(hoth)_disabled.png"
+                        "chest_opened_img": "images/items/rebeltrooper(hoth)_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|16000]"
+                        ]
                     },
                     {
                         "name": "Purchase Rebel Pilot",
                         "chest_unopened_img": "images/items/rebelpilot.png",
-                        "chest_opened_img": "images/items/rebelpilot_disabled.png"
+                        "chest_opened_img": "images/items/rebelpilot_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|15000]"
+                        ]
                     },
                     {
                         "name": "Purchase Snowtrooper",
                         "chest_unopened_img": "images/items/snowtrooper.png",
-                        "chest_opened_img": "images/items/snowtrooper_disabled.png"
+                        "chest_opened_img": "images/items/snowtrooper_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|16000]"
+                        ]
                     },
                     {
                         "name": "Purchase Fast Build (5-2)",
                         "chest_unopened_img": "images/items/fastbuild.png",
                         "chest_opened_img": "images/items/fastbuild_disabled.png",
                         "access_rules": [
-                            "sith"
+                            "sith, [$can_purchase|30000]"
                         ]
                     },
                     {
@@ -176,7 +191,7 @@
                         "chest_unopened_img": "images/items/selfdestruct.png",
                         "chest_opened_img": "images/items/selfdestruct_disabled.png",
                         "access_rules": [
-                            "tievehicle"
+                            "tievehicle, [$can_purchase|25000]"
                         ]
                     },
                     {
@@ -255,29 +270,41 @@
                     {
                         "name": "Purchase Lobot",
                         "chest_unopened_img": "images/items/lobot.png",
-                        "chest_opened_img": "images/items/lobot_disabled.png"
+                        "chest_opened_img": "images/items/lobot_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|11000]"
+                        ]
                     },
                     {
                         "name": "Purchase Ugnaught",
                         "chest_unopened_img": "images/items/ugnaught.png",
-                        "chest_opened_img": "images/items/ugnaught_disabled.png"
+                        "chest_opened_img": "images/items/ugnaught_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|36000]"
+                        ]
                     },
                     {
                         "name": "Purchase Bespin Guard",
                         "chest_unopened_img": "images/items/bespinguard.png",
-                        "chest_opened_img": "images/items/bespinguard_disabled.png"
+                        "chest_opened_img": "images/items/bespinguard_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|15000]"
+                        ]
                     },
                     {
                         "name": "Purchase Princess Leia (Prisoner)",
                         "chest_unopened_img": "images/items/princessleia(prisoner).png",
-                        "chest_opened_img": "images/items/princessleia(prisoner)_disabled.png"
+                        "chest_opened_img": "images/items/princessleia(prisoner)_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|22000]"
+                        ]
                     },
                     {
                         "name": "Purchase Minikit Detector (5-6)",
                         "chest_unopened_img": "images/items/minikitdetector.png",
                         "chest_opened_img": "images/items/minikitdetector_disabled.png",
                         "access_rules": [
-                            "bounty"
+                            "bounty, [$can_purchase|250000]"
                         ]
                     },
                     {
@@ -358,7 +385,7 @@
                         "chest_unopened_img": "images/items/regeneratehearts.png",
                         "chest_opened_img": "images/items/regeneratehearts_disabled.png",
                         "access_rules": [
-                            "sith"
+                            "sith, [$can_purchase|150000]"
                         ]
                     },
                     {
@@ -437,17 +464,26 @@
                     {
                         "name": "Purchase TIE Bomber",
                         "chest_unopened_img": "images/items/tiebomber.png",
-                        "chest_opened_img": "images/items/tiebomber_disabled.png"
+                        "chest_opened_img": "images/items/tiebomber_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|60000]"
+                        ]
                     },
                     {
                         "name": "Purchase Imperial Shuttle",
                         "chest_unopened_img": "images/items/imperialshuttle.png",
-                        "chest_opened_img": "images/items/imperialshuttle_disabled.png"
+                        "chest_opened_img": "images/items/imperialshuttle_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|25000]"
+                        ]
                     },
                     {
                         "name": "Purchase Score x4",
                         "chest_unopened_img": "images/items/progressivescoremultiplier4.png",
-                        "chest_opened_img": "images/items/progressivescoremultiplier4_disabled.png"
+                        "chest_opened_img": "images/items/progressivescoremultiplier4_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|2500000]"
+                        ]
                     },
                     {
                         "name": "5-3 True Jedi"
@@ -527,7 +563,7 @@
                         "chest_unopened_img": "images/items/progressivescoremultiplier6.png",
                         "chest_opened_img": "images/items/progressivescoremultiplier6_disabled.png",
                         "access_rules": [
-                            "bounty, hover"
+                            "bounty, hover, [$can_purchase|5000000]"
                         ]
                     },
                     {

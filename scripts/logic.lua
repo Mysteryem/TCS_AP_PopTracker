@@ -113,3 +113,44 @@ function has_accessible_gold_bricks(count_str)
     local count = tonumber(count_str)
     return has_count_accessible_locations_pairs(GOLD_BRICK_LOCATIONS, count)
 end
+
+local progressive_score_multiplier_requirement_cache = {}
+local function reset_score_multiplier_requirement_cache()
+    progressive_score_multiplier_requirement_cache = {}
+end
+Tracker:AddWatchForCode("reset_price_cache",
+                        "max_purchase_with_no_multipliers",
+                        reset_score_multiplier_requirement_cache)
+
+function can_purchase(studs_count_str)
+    local required_item
+    local cached = progressive_score_multiplier_requirement_cache[studs_count_str]
+    if cached ~= nil:
+        required_item = cached
+    else
+        local max_purchase_with_no_multipliers_item = Tracker:FindObjectForCode("max_purchase_with_no_multipliers")
+        local max_purchase_with_no_multipliers = max_purchase_with_no_multipliers_item.AcquiredCount
+        local studs_count = tonumber(studs_count_str)
+        local required_count
+        if studs_count <= max_purchase_with_no_multipliers then
+            required_count = 0
+        elseif studs_count <= max_purchase_with_no_multipliers * 2 then
+            required_count = 1 -- 2x
+        elseif studs_count <= max_purchase_with_no_multipliers * 8 then
+            required_count = 2 -- 2x * 4x = 8x
+        elseif studs_count <= max_purchase_with_no_multipliers * 48 then
+            required_count = 3 -- 2x * 4x * 6x = 48x
+        elseif studs_count <= max_purchase_with_no_multipliers * 384 then
+            required_count = 4 -- 2x * 4x * 6x * 8x = 384x
+        else
+            required_count = 5 -- 2x * 4x * 6x * 8x * 10x = 3840x
+        end
+        required_item = "progressivescoremultiplier"..tostring(required_count)
+        progressive_score_multiplier_requirement_cache[studs_count_str] = required_item
+    end
+    if required_count == "progressivescoremultiplier0" then
+        return true
+    else
+        return Tracker:ProviderCountForCode(required_item) > 0
+    end
+end

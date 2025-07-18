@@ -68,22 +68,34 @@
                     {
                         "name": "Purchase Zam Wesell",
                         "chest_unopened_img": "images/items/zamwesell.png",
-                        "chest_opened_img": "images/items/zamwesell_disabled.png"
+                        "chest_opened_img": "images/items/zamwesell_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|27500]"
+                        ]
                     },
                     {
                         "name": "Purchase Dexter Jettster",
                         "chest_unopened_img": "images/items/dexterjettster.png",
-                        "chest_opened_img": "images/items/dexterjettster_disabled.png"
+                        "chest_opened_img": "images/items/dexterjettster_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|10000]"
+                        ]
                     },
                     {
                         "name": "Purchase Zam's Airspeeder",
                         "chest_unopened_img": "images/items/zamsairspeeder.png",
-                        "chest_opened_img": "images/items/zamsairspeeder_disabled.png"
+                        "chest_opened_img": "images/items/zamsairspeeder_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|24000]"
+                        ]
                     },
                     {
                         "name": "Purchase Stud Magnet (2-1)",
                         "chest_unopened_img": "images/items/studmagnet.png",
-                        "chest_opened_img": "images/items/studmagnet_disabled.png"
+                        "chest_opened_img": "images/items/studmagnet_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|100000]"
+                        ]
                     },
                     {
                         "name": "2-1 True Jedi"
@@ -161,24 +173,33 @@
                     {
                         "name": "Purchase Clone",
                         "chest_unopened_img": "images/items/clone.png",
-                        "chest_opened_img": "images/items/clone_disabled.png"
+                        "chest_opened_img": "images/items/clone_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|13000]"
+                        ]
                     },
                     {
                         "name": "Purchase Lama Su",
                         "chest_unopened_img": "images/items/lamasu.png",
-                        "chest_opened_img": "images/items/lamasu_disabled.png"
+                        "chest_opened_img": "images/items/lamasu_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|9000]"
+                        ]
                     },
                     {
                         "name": "Purchase Taun We",
                         "chest_unopened_img": "images/items/taunwe.png",
-                        "chest_opened_img": "images/items/taunwe_disabled.png"
+                        "chest_opened_img": "images/items/taunwe_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|9000]"
+                        ]
                     },
                     {
                         "name": "Purchase Disarm Troopers (2-2)",
                         "chest_unopened_img": "images/items/disarmtroopers.png",
                         "chest_opened_img": "images/items/disarmtroopers_disabled.png",
                         "access_rules": [
-                            "imperial"
+                            "imperial, [$can_purchase|100000]"
                         ]
                     },
                     {
@@ -257,17 +278,26 @@
                     {
                         "name": "Purchase Geonosian",
                         "chest_unopened_img": "images/items/geonosian.png",
-                        "chest_opened_img": "images/items/geonosian_disabled.png"
+                        "chest_opened_img": "images/items/geonosian_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|20000]"
+                        ]
                     },
                     {
                         "name": "Purchase Battle Droid (Geonosis)",
                         "chest_unopened_img": "images/items/battledroid(geonosis).png",
-                        "chest_opened_img": "images/items/battledroid(geonosis)_disabled.png"
+                        "chest_opened_img": "images/items/battledroid(geonosis)_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|8500]"
+                        ]
                     },
                     {
                         "name": "Purchase Character Studs (2-3)",
                         "chest_unopened_img": "images/items/characterstuds.png",
-                        "chest_opened_img": "images/items/characterstuds_disabled.png"
+                        "chest_opened_img": "images/items/characterstuds_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|100000]"
+                        ]
                     },
                     {
                         "name": "2-3 True Jedi"
@@ -345,54 +375,81 @@
                     {
                         "name": "Purchase Super Battle Droid",
                         "chest_unopened_img": "images/items/superbattledroid.png",
-                        "chest_opened_img": "images/items/superbattledroid_disabled.png"
+                        "chest_opened_img": "images/items/superbattledroid_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|25000]"
+                        ]
                     },
                     {
                         "name": "Purchase Jango Fett",
                         "chest_unopened_img": "images/items/jangofett.png",
-                        "chest_opened_img": "images/items/jangofett_disabled.png"
+                        "chest_opened_img": "images/items/jangofett_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|70000]"
+                        ]
                     },
                     {
                         "name": "Purchase Boba Fett (Boy)",
                         "chest_unopened_img": "images/items/bobafett(boy).png",
-                        "chest_opened_img": "images/items/bobafett(boy)_disabled.png"
+                        "chest_opened_img": "images/items/bobafett(boy)_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|5500]"
+                        ]
                     },
                     {
                         "name": "Purchase Luminara",
                         "chest_unopened_img": "images/items/luminara.png",
-                        "chest_opened_img": "images/items/luminara_disabled.png"
+                        "chest_opened_img": "images/items/luminara_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|28000]"
+                        ]
                     },
                     {
                         "name": "Purchase Ki-Adi Mundi",
                         "chest_unopened_img": "images/items/ki-adimundi.png",
-                        "chest_opened_img": "images/items/ki-adimundi_disabled.png"
+                        "chest_opened_img": "images/items/ki-adimundi_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|30000]"
+                        ]
                     },
                     {
                         "name": "Purchase Kit Fisto",
                         "chest_unopened_img": "images/items/kitfisto.png",
-                        "chest_opened_img": "images/items/kitfisto_disabled.png"
+                        "chest_opened_img": "images/items/kitfisto_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|35000]"
+                        ]
                     },
                     {
                         "name": "Purchase Shaak Ti",
                         "chest_unopened_img": "images/items/shaakti.png",
-                        "chest_opened_img": "images/items/shaakti_disabled.png"
+                        "chest_opened_img": "images/items/shaakti_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|36000]"
+                        ]
                     },
                     {
                         "name": "Purchase Aayla Secura",
                         "chest_unopened_img": "images/items/aaylasecura.png",
-                        "chest_opened_img": "images/items/aaylasecura_disabled.png"
+                        "chest_opened_img": "images/items/aaylasecura_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|37000]"
+                        ]
                     },
                     {
                         "name": "Purchase Plo Koon",
                         "chest_unopened_img": "images/items/plokoon.png",
-                        "chest_opened_img": "images/items/plokoon_disabled.png"
+                        "chest_opened_img": "images/items/plokoon_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|39000]"
+                        ]
                     },
                     {
                         "name": "Purchase Perfect Deflect (2-4)",
                         "chest_unopened_img": "images/items/perfectdeflect.png",
                         "chest_opened_img": "images/items/perfectdeflect_disabled.png",
                         "access_rules": [
-                            "bounty"
+                            "bounty, [$can_purchase|20000]"
                         ]
                     },
                     {
@@ -471,7 +528,10 @@
                     {
                         "name": "Purchase Exploding Blaster Bolts (2-5)",
                         "chest_unopened_img": "images/items/explodingblasterbolts.png",
-                        "chest_opened_img": "images/items/explodingblasterbolts_disabled.png"
+                        "chest_opened_img": "images/items/explodingblasterbolts_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|20000]"
+                        ]
                     },
                     {
                         "name": "2-5 True Jedi"
@@ -551,7 +611,7 @@
                         "chest_unopened_img": "images/items/forcepull.png",
                         "chest_opened_img": "images/items/forcepull_disabled.png",
                         "access_rules": [
-                            "bounty, shortie"
+                            "bounty, shortie, [$can_purchase|12000]"
                         ]
                     },
                     {

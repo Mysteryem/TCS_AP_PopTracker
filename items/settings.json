@@ -352,5 +352,11 @@
     "initial_active_state": true,
     "img": "images/settings/bonuses_enabled_indy.png",
     "codes": "bonuses_enabled_indy"
+  },
+  {
+    "name": "Most Expensive Purchase Without Score Multipliers",
+    "type": "consumable",
+    "img": "images/settings/maximum_purchase_without_score_multipliers.png",
+    "codes": "max_purchase_with_no_multipliers"
   }
 ]

@@ -68,29 +68,41 @@
                     {
                         "name": "Purchase Battle Droid",
                         "chest_unopened_img": "images/items/battledroid.png",
-                        "chest_opened_img": "images/items/battledroid_disabled.png"
+                        "chest_opened_img": "images/items/battledroid_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|6500]"
+                        ]
                     },
                     {
                         "name": "Purchase Battle Droid (Security)",
                         "chest_unopened_img": "images/items/battledroid(security).png",
-                        "chest_opened_img": "images/items/battledroid(security)_disabled.png"
+                        "chest_opened_img": "images/items/battledroid(security)_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|8500]"
+                        ]
                     },
                     {
                         "name": "Purchase Battle Droid (Commander)",
                         "chest_unopened_img": "images/items/battledroid(commander).png",
-                        "chest_opened_img": "images/items/battledroid(commander)_disabled.png"
+                        "chest_opened_img": "images/items/battledroid(commander)_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|10000]"
+                        ]
                     },
                     {
                         "name": "Purchase Droideka",
                         "chest_unopened_img": "images/items/droideka.png",
-                        "chest_opened_img": "images/items/droideka_disabled.png"
+                        "chest_opened_img": "images/items/droideka_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|40000]"
+                        ]
                     },
                     {
                         "name": "Purchase Super Gonk (1-1)",
                         "chest_unopened_img": "images/items/supergonk.png",
                         "chest_opened_img": "images/items/supergonk_disabled.png",
                         "access_rules": [
-                            "astromech"
+                            "astromech, [$can_purchase|100000]"
                         ]
                     },
                     {
@@ -169,19 +181,25 @@
                     {
                         "name": "Purchase Captain Tarpals",
                         "chest_unopened_img": "images/items/captaintarpals.png",
-                        "chest_opened_img": "images/items/captaintarpals_disabled.png"
+                        "chest_opened_img": "images/items/captaintarpals_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|17500]"
+                        ]
                     },
                     {
                         "name": "Purchase Boss Nass",
                         "chest_unopened_img": "images/items/bossnass.png",
-                        "chest_opened_img": "images/items/bossnass_disabled.png"
+                        "chest_opened_img": "images/items/bossnass_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|15000]"
+                        ]
                     },
                     {
                         "name": "Purchase Poo Money (1-2)",
                         "chest_unopened_img": "images/items/poomoney.png",
                         "chest_opened_img": "images/items/poomoney_disabled.png",
                         "access_rules": [
-                            "bounty"
+                            "bounty, [$can_purchase|100000]"
                         ]
                     },
                     {
@@ -260,22 +278,34 @@
                     {
                         "name": "Purchase Watto",
                         "chest_unopened_img": "images/items/watto.png",
-                        "chest_opened_img": "images/items/watto_disabled.png"
+                        "chest_opened_img": "images/items/watto_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|16000]"
+                        ]
                     },
                     {
                         "name": "Purchase Pit Droid",
                         "chest_unopened_img": "images/items/pitdroid.png",
-                        "chest_opened_img": "images/items/pitdroid_disabled.png"
+                        "chest_opened_img": "images/items/pitdroid_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|4000]"
+                        ]
                     },
                     {
                         "name": "Purchase Sebulba's Pod",
                         "chest_unopened_img": "images/items/sebulbaspodracer.png",
-                        "chest_opened_img": "images/items/sebulbaspodracer_disabled.png"
+                        "chest_opened_img": "images/items/sebulbaspodracer_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|20000]"
+                        ]
                     },
                     {
                         "name": "Purchase Power Brick Detector (1-4)",
                         "chest_unopened_img": "images/items/redbrickdetector.png",
-                        "chest_opened_img": "images/items/redbrickdetector_disabled.png"
+                        "chest_opened_img": "images/items/redbrickdetector_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|125000]"
+                        ]
                     },
                     {
                         "name": "1-4 True Jedi"
@@ -353,14 +383,17 @@
                     {
                         "name": "Purchase Darth Maul",
                         "chest_unopened_img": "images/items/darthmaul.png",
-                        "chest_opened_img": "images/items/darthmaul_disabled.png"
+                        "chest_opened_img": "images/items/darthmaul_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|60000]"
+                        ]
                     },
                     {
                         "name": "Purchase Force Grapple Leap (1-6)",
                         "chest_unopened_img": "images/items/forcegrappleleap.png",
                         "chest_opened_img": "images/items/forcegrappleleap_disabled.png",
                         "access_rules": [
-                            "imperial"
+                            "imperial, [$can_purchase|15000]"
                         ]
                     },
                     {
@@ -439,19 +472,25 @@
                     {
                         "name": "Purchase Royal Guard",
                         "chest_unopened_img": "images/items/royalguard.png",
-                        "chest_opened_img": "images/items/royalguard_disabled.png"
+                        "chest_opened_img": "images/items/royalguard_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|10000]"
+                        ]
                     },
                     {
                         "name": "Purchase Padmé",
                         "chest_unopened_img": "images/items/padme.png",
-                        "chest_opened_img": "images/items/padme_disabled.png"
+                        "chest_opened_img": "images/items/padme_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|20000]"
+                        ]
                     },
                     {
                         "name": "Purchase Walkie Talkie Disable (1-3)",
                         "chest_unopened_img": "images/items/walkietalkiedisable.png",
                         "chest_opened_img": "images/items/walkietalkiedisable_disabled.png",
                         "access_rules": [
-                            "bounty, sith"
+                            "bounty, sith, [$can_purchase|5000]"
                         ]
                     },
                     {
@@ -530,7 +569,10 @@
                     {
                         "name": "Purchase Super Slap (1-5)",
                         "chest_unopened_img": "images/items/superslap.png",
-                        "chest_opened_img": "images/items/superslap_disabled.png"
+                        "chest_opened_img": "images/items/superslap_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|5000]"
+                        ]
                     },
                     {
                         "name": "1-5 True Jedi"

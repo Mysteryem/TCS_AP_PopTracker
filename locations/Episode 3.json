@@ -68,19 +68,25 @@
                     {
                         "name": "Purchase Count Dooku",
                         "chest_unopened_img": "images/items/countdooku.png",
-                        "chest_opened_img": "images/items/countdooku_disabled.png"
+                        "chest_opened_img": "images/items/countdooku_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|100000]"
+                        ]
                     },
                     {
                         "name": "Purchase Grievous' Bodyguard",
                         "chest_unopened_img": "images/items/grievousbodyguard.png",
-                        "chest_opened_img": "images/items/grievousbodyguard_disabled.png"
+                        "chest_opened_img": "images/items/grievousbodyguard_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|42000]"
+                        ]
                     },
                     {
                         "name": "Purchase Super Astromech (3-2)",
                         "chest_unopened_img": "images/items/superastromech.png",
                         "chest_opened_img": "images/items/superastromech_disabled.png",
                         "access_rules": [
-                            "bounty"
+                            "bounty, [$can_purchase|10000]"
                         ]
                     },
                     {
@@ -159,34 +165,49 @@
                     {
                         "name": "Purchase Wookiee",
                         "chest_unopened_img": "images/items/wookiee.png",
-                        "chest_opened_img": "images/items/wookiee_disabled.png"
+                        "chest_opened_img": "images/items/wookiee_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|16000]"
+                        ]
                     },
                     {
                         "name": "Purchase Clone (Episode 3)",
                         "chest_unopened_img": "images/items/clone(episode3).png",
-                        "chest_opened_img": "images/items/clone(episode3)_disabled.png"
+                        "chest_opened_img": "images/items/clone(episode3)_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|10000]"
+                        ]
                     },
                     {
                         "name": "Purchase Clone (Episode 3, Pilot)",
                         "chest_unopened_img": "images/items/clone(episode3-pilot).png",
-                        "chest_opened_img": "images/items/clone(episode3-pilot)_disabled.png"
+                        "chest_opened_img": "images/items/clone(episode3-pilot)_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|11000]"
+                        ]
                     },
                     {
                         "name": "Purchase Clone (Episode 3, Swamp)",
                         "chest_unopened_img": "images/items/clone(episode3-swamp).png",
-                        "chest_opened_img": "images/items/clone(episode3-swamp)_disabled.png"
+                        "chest_opened_img": "images/items/clone(episode3-swamp)_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|12000]"
+                        ]
                     },
                     {
                         "name": "Purchase Clone (Episode 3, Walker)",
                         "chest_unopened_img": "images/items/clone(episode3-walker).png",
-                        "chest_opened_img": "images/items/clone(episode3-walker)_disabled.png"
+                        "chest_opened_img": "images/items/clone(episode3-walker)_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|12000]"
+                        ]
                     },
                     {
                         "name": "Purchase Super Thermal Detonator (3-4)",
                         "chest_unopened_img": "images/items/superthermaldetonator.png",
                         "chest_opened_img": "images/items/superthermaldetonator_disabled.png",
                         "access_rules": [
-                            "sith, bounty"
+                            "sith, bounty, [$can_purchase|25000]"
                         ]
                     },
                     {
@@ -265,19 +286,25 @@
                     {
                         "name": "Purchase Mace Windu (Episode 3)",
                         "chest_unopened_img": "images/items/macewindu(episode3).png",
-                        "chest_opened_img": "images/items/macewindu(episode3)_disabled.png"
+                        "chest_opened_img": "images/items/macewindu(episode3)_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|38000]"
+                        ]
                     },
                     {
                         "name": "Purchase Disguised Clone",
                         "chest_unopened_img": "images/items/disguisedclone.png",
-                        "chest_opened_img": "images/items/disguisedclone_disabled.png"
+                        "chest_opened_img": "images/items/disguisedclone_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|12000]"
+                        ]
                     },
                     {
                         "name": "Purchase Deflect Bolts (3-5)",
                         "chest_unopened_img": "images/items/deflectbolts.png",
                         "chest_opened_img": "images/items/deflectbolts_disabled.png",
                         "access_rules": [
-                            "sith, highjump"
+                            "sith, highjump, [$can_purchase|150000]"
                         ]
                     },
                     {
@@ -356,22 +383,34 @@
                     {
                         "name": "Purchase Droid Trifighter",
                         "chest_unopened_img": "images/items/droidtrifighter.png",
-                        "chest_opened_img": "images/items/droidtrifighter_disabled.png"
+                        "chest_opened_img": "images/items/droidtrifighter_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|28000]"
+                        ]
                     },
                     {
                         "name": "Purchase Vulture Droid",
                         "chest_unopened_img": "images/items/vulturedroid.png",
-                        "chest_opened_img": "images/items/vulturedroid_disabled.png"
+                        "chest_opened_img": "images/items/vulturedroid_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|30000]"
+                        ]
                     },
                     {
                         "name": "Purchase Clone Arcfighter",
                         "chest_unopened_img": "images/items/clonearcfighter.png",
-                        "chest_opened_img": "images/items/clonearcfighter_disabled.png"
+                        "chest_opened_img": "images/items/clonearcfighter_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|33000]"
+                        ]
                     },
                     {
                         "name": "Purchase Vehicle Smart Bomb (3-1)",
                         "chest_unopened_img": "images/items/vehiclesmartbomb.png",
-                        "chest_opened_img": "images/items/vehiclesmartbomb_disabled.png"
+                        "chest_opened_img": "images/items/vehiclesmartbomb_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|15000]"
+                        ]
                     },
                     {
                         "name": "3-1 True Jedi"
@@ -449,12 +488,18 @@
                     {
                         "name": "Purchase General Grievous",
                         "chest_unopened_img": "images/items/generalgrievous.png",
-                        "chest_opened_img": "images/items/generalgrievous_disabled.png"
+                        "chest_opened_img": "images/items/generalgrievous_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|70000]"
+                        ]
                     },
                     {
                         "name": "Purchase Super Jedi Slam (3-3)",
                         "chest_unopened_img": "images/items/superjedislam.png",
-                        "chest_opened_img": "images/items/superjedislam_disabled.png"
+                        "chest_opened_img": "images/items/superjedislam_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|11000]"
+                        ]
                     },
                     {
                         "name": "3-3 True Jedi"
@@ -534,7 +579,7 @@
                         "chest_unopened_img": "images/items/darkside.png",
                         "chest_opened_img": "images/items/darkside_disabled.png",
                         "access_rules": [
-                            "astromech"
+                            "astromech, [$can_purchase|25000]"
                         ]
                     },
                     {

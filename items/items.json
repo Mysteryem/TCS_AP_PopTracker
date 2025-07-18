@@ -1017,19 +1017,23 @@
       },
       {
         "img": "images/items/progressivescoremultiplier2.png",
-        "codes": "progressivescoremultiplier"
+        "codes": "progressivescoremultiplier, progressivescoremultiplier1"
       },
       {
-        "img": "images/items/progressivescoremultiplier4.png"
+        "img": "images/items/progressivescoremultiplier4.png",
+        "codes": "progressivescoremultiplier2"
       },
       {
-        "img": "images/items/progressivescoremultiplier6.png"
+        "img": "images/items/progressivescoremultiplier6.png",
+        "codes": "progressivescoremultiplier3"
       },
       {
-        "img": "images/items/progressivescoremultiplier8.png"
+        "img": "images/items/progressivescoremultiplier8.png",
+        "codes": "progressivescoremultiplier4"
       },
       {
-        "img": "images/items/progressivescoremultiplier10.png"
+        "img": "images/items/progressivescoremultiplier10.png",
+        "codes": "progressivescoremultiplier5"
       }
     ]
   },

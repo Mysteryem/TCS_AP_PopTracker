@@ -68,27 +68,42 @@
                     {
                         "name": "Purchase Gamorrean Guard",
                         "chest_unopened_img": "images/items/gamorreanguard.png",
-                        "chest_opened_img": "images/items/gamorreanguard_disabled.png"
+                        "chest_opened_img": "images/items/gamorreanguard_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|40000]"
+                        ]
                     },
                     {
                         "name": "Purchase Bib Fortuna",
                         "chest_unopened_img": "images/items/bibfortuna.png",
-                        "chest_opened_img": "images/items/bibfortuna_disabled.png"
+                        "chest_opened_img": "images/items/bibfortuna_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|16000]"
+                        ]
                     },
                     {
                         "name": "Purchase Palace Guard",
                         "chest_unopened_img": "images/items/palaceguard.png",
-                        "chest_opened_img": "images/items/palaceguard_disabled.png"
+                        "chest_opened_img": "images/items/palaceguard_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|14000]"
+                        ]
                     },
                     {
                         "name": "Purchase Bossk",
                         "chest_unopened_img": "images/items/bossk.png",
-                        "chest_opened_img": "images/items/bossk_disabled.png"
+                        "chest_opened_img": "images/items/bossk_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|75000]"
+                        ]
                     },
                     {
                         "name": "Purchase Super Zapper (6-1)",
                         "chest_unopened_img": "images/items/superzapper.png",
-                        "chest_opened_img": "images/items/superzapper_disabled.png"
+                        "chest_opened_img": "images/items/superzapper_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|14000]"
+                        ]
                     },
                     {
                         "name": "6-1 True Jedi"
@@ -166,17 +181,26 @@
                     {
                         "name": "Purchase Skiff Guard",
                         "chest_unopened_img": "images/items/skiffguard.png",
-                        "chest_opened_img": "images/items/skiffguard_disabled.png"
+                        "chest_opened_img": "images/items/skiffguard_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|12000]"
+                        ]
                     },
                     {
                         "name": "Purchase Boba Fett",
                         "chest_unopened_img": "images/items/bobafett.png",
-                        "chest_opened_img": "images/items/bobafett_disabled.png"
+                        "chest_opened_img": "images/items/bobafett_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|100000]"
+                        ]
                     },
                     {
                         "name": "Purchase Bounty Hunter Rockets (6-2)",
                         "chest_unopened_img": "images/items/bountyhunterrockets.png",
-                        "chest_opened_img": "images/items/bountyhunterrockets_disabled.png"
+                        "chest_opened_img": "images/items/bountyhunterrockets_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|20000]"
+                        ]
                     },
                     {
                         "name": "6-2 True Jedi"
@@ -254,14 +278,17 @@
                     {
                         "name": "Purchase Ewok",
                         "chest_unopened_img": "images/items/ewok.png",
-                        "chest_opened_img": "images/items/ewok_disabled.png"
+                        "chest_opened_img": "images/items/ewok_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|34000]"
+                        ]
                     },
                     {
                         "name": "Purchase Super Ewok Catapult (6-4)",
                         "chest_unopened_img": "images/items/superewokcatapult.png",
                         "chest_opened_img": "images/items/superewokcatapult_disabled.png",
                         "access_rules": [
-                            "shortie"
+                            "shortie, [$can_purchase|25000]"
                         ]
                     },
                     {
@@ -340,17 +367,26 @@
                     {
                         "name": "Purchase Imperial Guard",
                         "chest_unopened_img": "images/items/imperialguard.png",
-                        "chest_opened_img": "images/items/imperialguard_disabled.png"
+                        "chest_opened_img": "images/items/imperialguard_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|45000]"
+                        ]
                     },
                     {
                         "name": "Purchase The Emperor",
                         "chest_unopened_img": "images/items/theemperor.png",
-                        "chest_opened_img": "images/items/theemperor_disabled.png"
+                        "chest_opened_img": "images/items/theemperor_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|275000]"
+                        ]
                     },
                     {
                         "name": "Purchase Score x10",
                         "chest_unopened_img": "images/items/progressivescoremultiplier10.png",
-                        "chest_opened_img": "images/items/progressivescoremultiplier10_disabled.png"
+                        "chest_opened_img": "images/items/progressivescoremultiplier10_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|20000000]"
+                        ]
                     },
                     {
                         "name": "6-5 True Jedi"
@@ -428,12 +464,18 @@
                     {
                         "name": "Purchase Admiral Ackbar",
                         "chest_unopened_img": "images/items/admiralackbar.png",
-                        "chest_opened_img": "images/items/admiralackbar_disabled.png"
+                        "chest_opened_img": "images/items/admiralackbar_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|33000]"
+                        ]
                     },
                     {
                         "name": "Purchase Infinite Torpedos (6-6)",
                         "chest_unopened_img": "images/items/infinitetorpedos.png",
-                        "chest_opened_img": "images/items/infinitetorpedos_disabled.png"
+                        "chest_opened_img": "images/items/infinitetorpedos_disabled.png",
+                        "access_rules": [
+                            "[$can_purchase|25000]"
+                        ]
                     },
                     {
                         "name": "6-6 True Jedi"
@@ -513,7 +555,7 @@
                         "chest_unopened_img": "images/items/progressivescoremultiplier8.png",
                         "chest_opened_img": "images/items/progressivescoremultiplier8_disabled.png",
                         "access_rules": [
-                            "shortie"
+                            "shortie, [$can_purchase|10000000]"
                         ]
                     },
                     {
