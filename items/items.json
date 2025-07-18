@@ -131,7 +131,7 @@
     "disabled_img": "",
     "initial_active_state": false,
     "overlay_align": "right",
-    "codes": "r4-p17, astromech"
+    "codes": "r4-p17, astromech, hover"
   },
   {
     "name": "Bounty Hunter Rockets",
@@ -661,7 +661,7 @@
     "disabled_img": "",
     "initial_active_state": false,
     "overlay_align": "right",
-    "codes": "bobafett, bounty, blaster"
+    "codes": "bobafett, bounty, blaster, hover"
   },
   {
     "name": "Princess Leia",
@@ -982,7 +982,7 @@
     "disabled_img": "",
     "initial_active_state": false,
     "overlay_align": "right",
-    "codes": "jangofett, bounty, blaster"
+    "codes": "jangofett, bounty, blaster, hover"
   },
   {
     "name": "Super Lightsabers",
@@ -1081,7 +1081,7 @@
     "disabled_img": "",
     "initial_active_state": false,
     "overlay_align": "right",
-    "codes": "r2-d2, astromech"
+    "codes": "r2-d2, astromech, hover"
   },
   {
     "name": "The Emperor",
@@ -1513,7 +1513,7 @@
     "disabled_img": "",
     "initial_active_state": false,
     "overlay_align": "right",
-    "codes": "r2-q5, astromech"
+    "codes": "r2-q5, astromech, hover"
   },
   {
     "name": "Aayla Secura",

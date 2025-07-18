@@ -218,7 +218,7 @@
                         "chest_unopened_img": "images/items/minikit.png",
                         "chest_opened_img": "images/items/minikit_disabled.png",
                         "access_rules": [
-                            "sith, highjump, blaster, @Macros/DroidOrFly, bounty, imperial"
+                            "sith, highjump, blaster, hover, bounty, imperial"
                         ],
                         "sections": [
                             {
@@ -402,7 +402,7 @@
                         "chest_unopened_img": "images/items/minikit.png",
                         "chest_opened_img": "images/items/minikit_disabled.png",
                         "access_rules": [
-                            "@Macros/DroidOrFly, bounty"
+                            "hover, bounty"
                         ],
                         "sections": [
                             {
@@ -485,7 +485,7 @@
                         "chest_unopened_img": "images/items/minikit.png",
                         "chest_opened_img": "images/items/minikit_disabled.png",
                         "access_rules": [
-                            "@Macros/DroidOrFly"
+                            "hover"
                         ],
                         "sections": [
                             {

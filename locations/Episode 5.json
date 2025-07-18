@@ -21,7 +21,7 @@
                         "chest_unopened_img": "images/items/minikit.png",
                         "chest_opened_img": "images/items/minikit_disabled.png",
                         "access_rules": [
-                            "sith, @Macros/DroidOrFly, astromech, bounty"
+                            "sith, hover, astromech, bounty"
                         ],
                         "sections": [
                             {
@@ -527,7 +527,7 @@
                         "chest_unopened_img": "images/items/progressivescoremultiplier6.png",
                         "chest_opened_img": "images/items/progressivescoremultiplier6_disabled.png",
                         "access_rules": [
-                            "bounty, @Macros/DroidOrFly"
+                            "bounty, hover"
                         ]
                     },
                     {

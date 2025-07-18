@@ -21,7 +21,7 @@
                         "chest_unopened_img": "images/items/minikit.png",
                         "chest_opened_img": "images/items/minikit_disabled.png",
                         "access_rules": [
-                            "highjump, astromech, @Macros/DroidOrFly, shortie"
+                            "highjump, astromech, hover, shortie"
                         ],
                         "sections": [
                             {
@@ -392,7 +392,7 @@
                         "chest_unopened_img": "images/items/minikit.png",
                         "chest_opened_img": "images/items/minikit_disabled.png",
                         "access_rules": [
-                            "sith, highjump, @Macros/DroidOrFly, bounty, shortie"
+                            "sith, highjump, hover, bounty, shortie"
                         ],
                         "sections": [
                             {
