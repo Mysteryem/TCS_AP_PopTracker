@@ -86,7 +86,7 @@
                     {
                         "name": "Mos Espa Podrace (Original)",
                         "access_rules": [
-                            "bonuses_enabled_podrace"
+                            "bonuses_enabled_podrace, @Macros/Has10GoldBricks"
                         ],
                         "visibility_rules": [
                             "bonuses_enabled_podrace"
@@ -95,7 +95,7 @@
                     {
                         "name": "Anakin's Flight",
                         "access_rules": [
-                            "bonuses_enabled_anakin_flight"
+                            "bonuses_enabled_anakin_flight, @Macros/Has30GoldBricks"
                         ],
                         "visibility_rules": [
                             "bonuses_enabled_anakin_flight"
@@ -104,7 +104,7 @@
                     {
                         "name": "Gunship Cavalry (Original)",
                         "access_rules": [
-                            "bonuses_enabled_gunship"
+                            "bonuses_enabled_gunship, @Macros/Has10GoldBricks"
                         ],
                         "visibility_rules": [
                             "bonuses_enabled_gunship"
@@ -113,7 +113,7 @@
                     {
                         "name": "A New Hope (Bonus Level)",
                         "access_rules": [
-                            "bonuses_enabled_a_new_hope"
+                            "bonuses_enabled_a_new_hope, @Macros/Has20GoldBricks"
                         ],
                         "visibility_rules": [
                             "bonuses_enabled_a_new_hope"
@@ -122,7 +122,7 @@
                     {
                         "name": "LEGO City",
                         "access_rules": [
-                            "bonuses_enabled_lego_city, sith, highjump, blaster, bounty"
+                            "bonuses_enabled_lego_city, sith, highjump, blaster, bounty, @Macros/Has10GoldBricks"
                         ],
                         "visibility_rules": [
                             "bonuses_enabled_lego_city"
@@ -131,7 +131,7 @@
                     {
                         "name": "New Town",
                         "access_rules": [
-                            "bonuses_enabled_new_town, sith, highjump, blaster, bounty"
+                            "bonuses_enabled_new_town, sith, highjump, blaster, bounty, @Macros/Has50GoldBricks"
                         ],
                         "visibility_rules": [
                             "bonuses_enabled_new_town"
