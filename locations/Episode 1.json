@@ -273,7 +273,7 @@
                         "chest_opened_img": "images/items/sebulbaspodracer_disabled.png"
                     },
                     {
-                        "name": "Purchase Red Brick Detector (1-4)",
+                        "name": "Purchase Power Brick Detector (1-4)",
                         "chest_unopened_img": "images/items/redbrickdetector.png",
                         "chest_opened_img": "images/items/redbrickdetector_disabled.png"
                     },

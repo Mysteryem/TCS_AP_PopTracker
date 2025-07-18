@@ -1486,7 +1486,7 @@
     "codes": "hansolo(stormtrooper), blaster"
   },
   {
-    "name": "Red Brick Detector",
+    "name": "Power Brick Detector",
     "type": "toggle",
     "img": "images/items/redbrickdetector.png",
     "img_mods": "",
