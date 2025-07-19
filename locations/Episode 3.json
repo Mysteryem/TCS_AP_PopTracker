@@ -521,7 +521,7 @@
             "chest_unopened_img": "images/items/minikit.png",
             "chest_opened_img": "images/items/minikit_disabled.png",
             "access_rules": [
-              "hover, bounty"
+              "hover, bounty, highjump"
             ],
             "sections": [
               {
