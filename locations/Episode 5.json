@@ -518,7 +518,7 @@
       {
         "name": "Falcon Flight",
         "access_rules": [
-          "5_3_enabled, milleniumfalcon, x-wing"
+          "5_3_enabled, millenniumfalcon, x-wing"
         ],
         "visibility_rules": [
           "5_3_enabled"

@@ -574,7 +574,7 @@
       {
         "name": "Into the Death Star",
         "access_rules": [
-          "6_6_enabled, milleniumfalcon, x-wing"
+          "6_6_enabled, millenniumfalcon, x-wing"
         ],
         "visibility_rules": [
           "6_6_enabled"

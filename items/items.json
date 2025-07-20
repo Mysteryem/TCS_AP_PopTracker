@@ -1547,14 +1547,14 @@
     "codes": "y-wing"
   },
   {
-    "name": "Millenium Falcon",
+    "name": "Millennium Falcon",
     "type": "toggle",
-    "img": "images/items/milleniumfalcon.png",
+    "img": "images/items/millenniumfalcon.png",
     "img_mods": "",
     "disabled_img": "",
     "initial_active_state": false,
     "overlay_align": "right",
-    "codes": "milleniumfalcon"
+    "codes": "millenniumfalcon"
   },
   {
     "name": "Luke Skywalker (Stormtrooper)",
