@@ -1,5 +1,4 @@
 -- Items
-Tracker:AddItems("items/extra_items.json")
 Tracker:AddItems("items/items.json")
 Tracker:AddItems("items/settings.json")
 

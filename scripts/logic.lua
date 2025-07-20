@@ -118,14 +118,14 @@ local progressive_score_multiplier_requirement_cache = {}
 local function reset_score_multiplier_requirement_cache()
     progressive_score_multiplier_requirement_cache = {}
 end
-Tracker:AddWatchForCode("reset_price_cache",
-                        "max_purchase_with_no_multipliers",
-                        reset_score_multiplier_requirement_cache)
+ScriptHost:AddWatchForCode("reset_price_cache",
+                           "max_purchase_with_no_multipliers",
+                           reset_score_multiplier_requirement_cache)
 
 function can_purchase(studs_count_str)
     local required_item
     local cached = progressive_score_multiplier_requirement_cache[studs_count_str]
-    if cached ~= nil:
+    if cached ~= nil then
         required_item = cached
     else
         local max_purchase_with_no_multipliers_item = Tracker:FindObjectForCode("max_purchase_with_no_multipliers")

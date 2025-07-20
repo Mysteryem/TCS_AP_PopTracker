@@ -1,6 +1,7 @@
 
 require("scripts/autotracking/item_mapping")
 require("scripts/autotracking/location_mapping")
+require("scripts/autotracking/cantina_room_mapping")
 
 -- Disabled until PopTracker 0.32.0 is released, which adds section highlighting.
 -- local HIGHLIGHT_LEVEL = {
@@ -14,6 +15,9 @@ require("scripts/autotracking/location_mapping")
 -- The first integer is the team (mostly unused by Archipelago currently). The second integer is the slot number.
 local GOAL_STATUS_FORMAT = "_read_client_status_%i_%i"
 goal_status_key = nil
+
+local CANTINA_ROOM_KEY_FORMAT = "tcs_cantina_room_%i_%i"
+local cantina_room_key
 
 CUR_INDEX = -1
 --SLOT_DATA = nil
@@ -54,8 +58,10 @@ function onClear(slot_data)
 
     -- Get and subscribe to changes in the player's status to track goal completion
     goal_status_key = string.format(GOAL_STATUS_FORMAT, Archipelago.TeamNumber, Archipelago.PlayerNumber)
-    Archipelago:Get({goal_status_key})
-    Archipelago:SetNotify({goal_status_key})
+    -- Get and subscribe to changes in the player's current room in the Cantina
+    cantina_room_key = string.format(CANTINA_ROOM_KEY_FORMAT, Archipelago.TeamNumber, Archipelago.PlayerNumber)
+    Archipelago:Get({goal_status_key, cantina_room_key})
+    Archipelago:SetNotify({goal_status_key, cantina_room_key})
 
     CUR_INDEX = -1
     -- reset locations
@@ -146,7 +152,7 @@ function onClear(slot_data)
     -- Set active state for items used to signify whether episodes are enabled.
     -- Set consumable item that stores the number of enabled episodes.
     local enabled_episodes_set = {}
-    for episode_number in slot_data["enabled_episodes"] do
+    for episode_number in ipairs(slot_data["enabled_episodes"]) do
         enabled_episodes_set[episode_number] = true
     end
     local enabled_episodes_count = 0
@@ -161,7 +167,7 @@ function onClear(slot_data)
         end
     end
     Tracker:FindObjectForCode("enabled_episodes_count").AcquiredCount = enabled_episodes_count
-    Tracker.FindObjectForCode("allepisodestoken").MaxCount = enabled_episodes_count
+    Tracker:FindObjectForCode("allepisodestoken").MaxCount = enabled_episodes_count
 
     local bonuses_enabled = slot_data["enable_bonus_locations"] == 1
     Tracker:FindObjectForCode("bonuses_enabled").Active = bonuses_enabled
@@ -334,6 +340,15 @@ local function updateAllHints(value)
     end
 end
 
+local function update_cantina_room(room_value)
+    if room_value then
+        tab = CANTINA_ROOM_MAPPING[room_value]
+        if tab then
+            Tracker:UiHint("ActivateTab", tab)
+        end
+    end
+end
+
 function onNotify(key, value, old_value)
     print("onNotify", key, value, old_value)
     if key == HINTS_ID then
@@ -342,6 +357,8 @@ function onNotify(key, value, old_value)
         end
     elseif key == goal_status_key then
         checkGoalStatus(value)
+    elseif key == cantina_room_key then
+        update_cantina_room(value)
     end
 end
 
@@ -351,6 +368,8 @@ function onNotifyLaunch(key, value)
         updateAllHints(value)
     elseif key == goal_status_key then
         checkGoalStatus(value)
+    elseif key == cantina_room_key then
+        update_cantina_room(value)
     end
 end
 
