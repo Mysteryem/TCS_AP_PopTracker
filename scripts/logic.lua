@@ -148,7 +148,7 @@ function can_purchase(studs_count_str)
         required_item = "progressivescoremultiplier"..tostring(required_count)
         progressive_score_multiplier_requirement_cache[studs_count_str] = required_item
     end
-    if required_count == "progressivescoremultiplier0" then
+    if required_item == "progressivescoremultiplier0" then
         return true
     else
         return Tracker:ProviderCountForCode(required_item) > 0
