@@ -578,7 +578,8 @@
             "chest_unopened_img": "images/items/superjedislam.png",
             "chest_opened_img": "images/items/superjedislam_disabled.png",
             "access_rules": [
-              "[$can_purchase|11000]"
+              "highjump, [$can_purchase|11000]",
+              "hover, [$can_purchase|11000]"
             ]
           },
           {
