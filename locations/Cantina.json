@@ -6,6 +6,7 @@
                 "name": "All Episodes",
                 "access_rules": [
                     [
+                        "all_episodes_purchase_locations",
                         "all_episodes_purchases_unlock_episodes",
                         "@Macros/Episode 1 Unlocked Or Disabled",
                         "@Macros/Episode 2 Unlocked Or Disabled",
@@ -15,9 +16,13 @@
                         "@Macros/Episode 6 Unlocked Or Disabled"
                     ],
                     [
+                        "all_episodes_purchase_locations",
                         "all_episodes_purchases_unlock_tokens",
                         "$all_episodes_tokens"
                     ]
+                ],
+                "visibility_rules": [
+                    "all_episodes_purchase_locations"
                 ],
                 "sections": [
                     {

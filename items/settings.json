@@ -502,5 +502,11 @@
         "inherit_codes": false
       }
     ]
+  },
+  {
+    "name": "'All Episodes' Character Purchase Locations Enabled",
+    "type": "toggle",
+    "img": "images/settings/all_episodes_purchase_locations.png",
+    "codes": "all_episodes_purchase_locations"
   }
 ]
