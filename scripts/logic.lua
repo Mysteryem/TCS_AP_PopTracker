@@ -86,7 +86,7 @@ local function has_count_accessible_locations_pairs(location_increment_pairs, re
             local location_accessibility = location.AccessibilityLevel
             if location_accessibility == AccessibilityLevel.Normal then
                 accessible_count = accessible_count + increment
-                if accessible_count == required_count then
+                if accessible_count >= required_count then
                     -- Return early.
                     return AccessibilityLevel.Normal
                 end
