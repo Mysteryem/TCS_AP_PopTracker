@@ -14,355 +14,322 @@
     "type": "toggle",
     "codes": "1_1_enabled",
     "initial_active_state": true,
-    "img": "images/settings/enabled_chapters/chapter_enabled_base.png",
-    "img_mods": "overlay|images/settings/enabled_chapters/episode1.png,overlay|images/settings/enabled_chapters/chapter1.png"
+    "img": "images/settings/chapter1.png"
   },
   {
     "name": "Chapter 1-2 Enabled",
     "type": "toggle",
     "codes": "1_2_enabled",
     "initial_active_state": true,
-    "img": "images/settings/enabled_chapters/chapter_enabled_base.png",
-    "img_mods": "overlay|images/settings/enabled_chapters/episode1.png,overlay|images/settings/enabled_chapters/chapter2.png"
+    "img": "images/settings/chapter2.png"
   },
   {
     "name": "Chapter 1-3 Enabled",
     "type": "toggle",
     "codes": "1_3_enabled",
     "initial_active_state": true,
-    "img": "images/settings/enabled_chapters/chapter_enabled_base.png",
-    "img_mods": "overlay|images/settings/enabled_chapters/episode1.png,overlay|images/settings/enabled_chapters/chapter3.png"
+    "img": "images/settings/chapter3.png"
   },
   {
     "name": "Chapter 1-4 Enabled",
     "type": "toggle",
     "codes": "1_4_enabled",
     "initial_active_state": true,
-    "img": "images/settings/enabled_chapters/chapter_enabled_base.png",
-    "img_mods": "overlay|images/settings/enabled_chapters/episode1.png,overlay|images/settings/enabled_chapters/chapter4.png"
+    "img": "images/settings/chapter4.png"
   },
   {
     "name": "Chapter 1-5 Enabled",
     "type": "toggle",
     "codes": "1_5_enabled",
     "initial_active_state": true,
-    "img": "images/settings/enabled_chapters/chapter_enabled_base.png",
-    "img_mods": "overlay|images/settings/enabled_chapters/episode1.png,overlay|images/settings/enabled_chapters/chapter5.png"
+    "img": "images/settings/chapter5.png"
   },
   {
     "name": "Chapter 1-6 Enabled",
     "type": "toggle",
     "codes": "1_6_enabled",
     "initial_active_state": true,
-    "img": "images/settings/enabled_chapters/chapter_enabled_base.png",
-    "img_mods": "overlay|images/settings/enabled_chapters/episode1.png,overlay|images/settings/enabled_chapters/chapter6.png"
+    "img": "images/settings/chapter6.png"
   },
   {
     "name": "Chapter 2-1 Enabled",
     "type": "toggle",
     "codes": "2_1_enabled",
     "initial_active_state": true,
-    "img": "images/settings/enabled_chapters/chapter_enabled_base.png",
-    "img_mods": "overlay|images/settings/enabled_chapters/episode2.png,overlay|images/settings/enabled_chapters/chapter1.png"
+    "img": "images/settings/chapter1.png"
   },
   {
     "name": "Chapter 2-2 Enabled",
     "type": "toggle",
     "codes": "2_2_enabled",
     "initial_active_state": true,
-    "img": "images/settings/enabled_chapters/chapter_enabled_base.png",
-    "img_mods": "overlay|images/settings/enabled_chapters/episode2.png,overlay|images/settings/enabled_chapters/chapter2.png"
+    "img": "images/settings/chapter2.png"
   },
   {
     "name": "Chapter 2-3 Enabled",
     "type": "toggle",
     "codes": "2_3_enabled",
     "initial_active_state": true,
-    "img": "images/settings/enabled_chapters/chapter_enabled_base.png",
-    "img_mods": "overlay|images/settings/enabled_chapters/episode2.png,overlay|images/settings/enabled_chapters/chapter3.png"
+    "img": "images/settings/chapter3.png"
   },
   {
     "name": "Chapter 2-4 Enabled",
     "type": "toggle",
     "codes": "2_4_enabled",
     "initial_active_state": true,
-    "img": "images/settings/enabled_chapters/chapter_enabled_base.png",
-    "img_mods": "overlay|images/settings/enabled_chapters/episode2.png,overlay|images/settings/enabled_chapters/chapter4.png"
+    "img": "images/settings/chapter4.png"
   },
   {
     "name": "Chapter 2-5 Enabled",
     "type": "toggle",
     "codes": "2_5_enabled",
     "initial_active_state": true,
-    "img": "images/settings/enabled_chapters/chapter_enabled_base.png",
-    "img_mods": "overlay|images/settings/enabled_chapters/episode2.png,overlay|images/settings/enabled_chapters/chapter5.png"
+    "img": "images/settings/chapter5.png"
   },
   {
     "name": "Chapter 2-6 Enabled",
     "type": "toggle",
     "codes": "2_6_enabled",
     "initial_active_state": true,
-    "img": "images/settings/enabled_chapters/chapter_enabled_base.png",
-    "img_mods": "overlay|images/settings/enabled_chapters/episode2.png,overlay|images/settings/enabled_chapters/chapter6.png"
+    "img": "images/settings/chapter6.png"
   },
   {
     "name": "Chapter 3-1 Enabled",
     "type": "toggle",
     "codes": "3_1_enabled",
     "initial_active_state": true,
-    "img": "images/settings/enabled_chapters/chapter_enabled_base.png",
-    "img_mods": "overlay|images/settings/enabled_chapters/episode3.png,overlay|images/settings/enabled_chapters/chapter1.png"
+    "img": "images/settings/chapter1.png"
   },
   {
     "name": "Chapter 3-2 Enabled",
     "type": "toggle",
     "codes": "3_2_enabled",
     "initial_active_state": true,
-    "img": "images/settings/enabled_chapters/chapter_enabled_base.png",
-    "img_mods": "overlay|images/settings/enabled_chapters/episode3.png,overlay|images/settings/enabled_chapters/chapter2.png"
+    "img": "images/settings/chapter2.png"
   },
   {
     "name": "Chapter 3-3 Enabled",
     "type": "toggle",
     "codes": "3_3_enabled",
     "initial_active_state": true,
-    "img": "images/settings/enabled_chapters/chapter_enabled_base.png",
-    "img_mods": "overlay|images/settings/enabled_chapters/episode3.png,overlay|images/settings/enabled_chapters/chapter3.png"
+    "img": "images/settings/chapter3.png"
   },
   {
     "name": "Chapter 3-4 Enabled",
     "type": "toggle",
     "codes": "3_4_enabled",
     "initial_active_state": true,
-    "img": "images/settings/enabled_chapters/chapter_enabled_base.png",
-    "img_mods": "overlay|images/settings/enabled_chapters/episode3.png,overlay|images/settings/enabled_chapters/chapter4.png"
+    "img": "images/settings/chapter4.png"
   },
   {
     "name": "Chapter 3-5 Enabled",
     "type": "toggle",
     "codes": "3_5_enabled",
     "initial_active_state": true,
-    "img": "images/settings/enabled_chapters/chapter_enabled_base.png",
-    "img_mods": "overlay|images/settings/enabled_chapters/episode3.png,overlay|images/settings/enabled_chapters/chapter5.png"
+    "img": "images/settings/chapter5.png"
   },
   {
     "name": "Chapter 3-6 Enabled",
     "type": "toggle",
     "codes": "3_6_enabled",
     "initial_active_state": true,
-    "img": "images/settings/enabled_chapters/chapter_enabled_base.png",
-    "img_mods": "overlay|images/settings/enabled_chapters/episode3.png,overlay|images/settings/enabled_chapters/chapter6.png"
+    "img": "images/settings/chapter6.png"
   },
   {
     "name": "Chapter 4-1 Enabled",
     "type": "toggle",
     "codes": "4_1_enabled",
     "initial_active_state": true,
-    "img": "images/settings/enabled_chapters/chapter_enabled_base.png",
-    "img_mods": "overlay|images/settings/enabled_chapters/episode4.png,overlay|images/settings/enabled_chapters/chapter1.png"
+    "img": "images/settings/chapter1.png"
   },
   {
     "name": "Chapter 4-2 Enabled",
     "type": "toggle",
     "codes": "4_2_enabled",
     "initial_active_state": true,
-    "img": "images/settings/enabled_chapters/chapter_enabled_base.png",
-    "img_mods": "overlay|images/settings/enabled_chapters/episode4.png,overlay|images/settings/enabled_chapters/chapter2.png"
+    "img": "images/settings/chapter2.png"
   },
   {
     "name": "Chapter 4-3 Enabled",
     "type": "toggle",
     "codes": "4_3_enabled",
     "initial_active_state": true,
-    "img": "images/settings/enabled_chapters/chapter_enabled_base.png",
-    "img_mods": "overlay|images/settings/enabled_chapters/episode4.png,overlay|images/settings/enabled_chapters/chapter3.png"
+    "img": "images/settings/chapter3.png"
   },
   {
     "name": "Chapter 4-4 Enabled",
     "type": "toggle",
     "codes": "4_4_enabled",
     "initial_active_state": true,
-    "img": "images/settings/enabled_chapters/chapter_enabled_base.png",
-    "img_mods": "overlay|images/settings/enabled_chapters/episode4.png,overlay|images/settings/enabled_chapters/chapter4.png"
+    "img": "images/settings/chapter4.png"
   },
   {
     "name": "Chapter 4-5 Enabled",
     "type": "toggle",
     "codes": "4_5_enabled",
     "initial_active_state": true,
-    "img": "images/settings/enabled_chapters/chapter_enabled_base.png",
-    "img_mods": "overlay|images/settings/enabled_chapters/episode4.png,overlay|images/settings/enabled_chapters/chapter5.png"
+    "img": "images/settings/chapter5.png"
   },
   {
     "name": "Chapter 4-6 Enabled",
     "type": "toggle",
     "codes": "4_6_enabled",
     "initial_active_state": true,
-    "img": "images/settings/enabled_chapters/chapter_enabled_base.png",
-    "img_mods": "overlay|images/settings/enabled_chapters/episode4.png,overlay|images/settings/enabled_chapters/chapter6.png"
+    "img": "images/settings/chapter6.png"
   },
   {
     "name": "Chapter 5-1 Enabled",
     "type": "toggle",
     "codes": "5_1_enabled",
     "initial_active_state": true,
-    "img": "images/settings/enabled_chapters/chapter_enabled_base.png",
-    "img_mods": "overlay|images/settings/enabled_chapters/episode5.png,overlay|images/settings/enabled_chapters/chapter1.png"
+    "img": "images/settings/chapter1.png"
   },
   {
     "name": "Chapter 5-2 Enabled",
     "type": "toggle",
     "codes": "5_2_enabled",
     "initial_active_state": true,
-    "img": "images/settings/enabled_chapters/chapter_enabled_base.png",
-    "img_mods": "overlay|images/settings/enabled_chapters/episode5.png,overlay|images/settings/enabled_chapters/chapter2.png"
+    "img": "images/settings/chapter2.png"
   },
   {
     "name": "Chapter 5-3 Enabled",
     "type": "toggle",
     "codes": "5_3_enabled",
     "initial_active_state": true,
-    "img": "images/settings/enabled_chapters/chapter_enabled_base.png",
-    "img_mods": "overlay|images/settings/enabled_chapters/episode5.png,overlay|images/settings/enabled_chapters/chapter3.png"
+    "img": "images/settings/chapter3.png"
   },
   {
     "name": "Chapter 5-4 Enabled",
     "type": "toggle",
     "codes": "5_4_enabled",
     "initial_active_state": true,
-    "img": "images/settings/enabled_chapters/chapter_enabled_base.png",
-    "img_mods": "overlay|images/settings/enabled_chapters/episode5.png,overlay|images/settings/enabled_chapters/chapter4.png"
+    "img": "images/settings/chapter4.png"
   },
   {
     "name": "Chapter 5-5 Enabled",
     "type": "toggle",
     "codes": "5_5_enabled",
     "initial_active_state": true,
-    "img": "images/settings/enabled_chapters/chapter_enabled_base.png",
-    "img_mods": "overlay|images/settings/enabled_chapters/episode5.png,overlay|images/settings/enabled_chapters/chapter5.png"
+    "img": "images/settings/chapter5.png"
   },
   {
     "name": "Chapter 5-6 Enabled",
     "type": "toggle",
     "codes": "5_6_enabled",
     "initial_active_state": true,
-    "img": "images/settings/enabled_chapters/chapter_enabled_base.png",
-    "img_mods": "overlay|images/settings/enabled_chapters/episode5.png,overlay|images/settings/enabled_chapters/chapter6.png"
+    "img": "images/settings/chapter6.png"
   },
   {
     "name": "Chapter 6-1 Enabled",
     "type": "toggle",
     "codes": "6_1_enabled",
     "initial_active_state": true,
-    "img": "images/settings/enabled_chapters/chapter_enabled_base.png",
-    "img_mods": "overlay|images/settings/enabled_chapters/episode6.png,overlay|images/settings/enabled_chapters/chapter1.png"
+    "img": "images/settings/chapter1.png"
   },
   {
     "name": "Chapter 6-2 Enabled",
     "type": "toggle",
     "codes": "6_2_enabled",
     "initial_active_state": true,
-    "img": "images/settings/enabled_chapters/chapter_enabled_base.png",
-    "img_mods": "overlay|images/settings/enabled_chapters/episode6.png,overlay|images/settings/enabled_chapters/chapter2.png"
+    "img": "images/settings/chapter2.png"
   },
   {
     "name": "Chapter 6-3 Enabled",
     "type": "toggle",
     "codes": "6_3_enabled",
     "initial_active_state": true,
-    "img": "images/settings/enabled_chapters/chapter_enabled_base.png",
-    "img_mods": "overlay|images/settings/enabled_chapters/episode6.png,overlay|images/settings/enabled_chapters/chapter3.png"
+    "img": "images/settings/chapter3.png"
   },
   {
     "name": "Chapter 6-4 Enabled",
     "type": "toggle",
     "codes": "6_4_enabled",
     "initial_active_state": true,
-    "img": "images/settings/enabled_chapters/chapter_enabled_base.png",
-    "img_mods": "overlay|images/settings/enabled_chapters/episode6.png,overlay|images/settings/enabled_chapters/chapter4.png"
+    "img": "images/settings/chapter4.png"
   },
   {
     "name": "Chapter 6-5 Enabled",
     "type": "toggle",
     "codes": "6_5_enabled",
     "initial_active_state": true,
-    "img": "images/settings/enabled_chapters/chapter_enabled_base.png",
-    "img_mods": "overlay|images/settings/enabled_chapters/episode6.png,overlay|images/settings/enabled_chapters/chapter5.png"
+    "img": "images/settings/chapter5.png"
   },
   {
     "name": "Chapter 6-6 Enabled",
     "type": "toggle",
     "codes": "6_6_enabled",
     "initial_active_state": true,
-    "img": "images/settings/enabled_chapters/chapter_enabled_base.png",
-    "img_mods": "overlay|images/settings/enabled_chapters/episode6.png,overlay|images/settings/enabled_chapters/chapter6.png"
+    "img": "images/settings/chapter6.png"
   },
   {
     "name": "Bonuses Enabled",
     "type": "toggle",
-    "initial_active_state": true,
-    "img": "images/settings/bonuses_enabled.png",
+    "img": "images/items/progressivebonuslevel.png",
     "codes": "bonuses_enabled"
   },
   {
     "name": "Pod Race Bonus Enabled",
     "type": "toggle",
     "initial_active_state": true,
-    "img": "images/settings/bonuses_enabled_podrace.png",
+    "img": "images/settings/chapter1.png",
     "codes": "bonuses_enabled_podrace"
   },
   {
     "name": "Anakin's Flight Bonus Enabled",
     "type": "toggle",
     "initial_active_state": true,
-    "img": "images/settings/bonuses_enabled_anakin_flight.png",
+    "img": "images/settings/chapter2.png",
     "codes": "bonuses_enabled_anakin_flight"
   },
   {
     "name": "Gunship Bonus Enabled",
     "type": "toggle",
     "initial_active_state": true,
-    "img": "images/settings/bonuses_enabled_gunsip.png",
+    "img": "images/settings/chapter3.png",
     "codes": "bonuses_enabled_gunship"
   },
   {
     "name": "A New Hope Bonus Enabled",
     "type": "toggle",
     "initial_active_state": true,
-    "img": "images/settings/bonuses_enabled_a_new_hope.png",
+    "img": "images/settings/chapter4.png",
     "codes": "bonuses_enabled_a_new_hope"
   },
   {
     "name": "LEGO City Bonus Enabled",
     "type": "toggle",
     "initial_active_state": true,
-    "img": "images/settings/bonuses_enabled_lego_city.png",
+    "img": "images/settings/chapter5.png",
     "codes": "bonuses_enabled_lego_city"
   },
   {
     "name": "New Town Bonus Enabled",
     "type": "toggle",
     "initial_active_state": true,
-    "img": "images/settings/bonuses_enabled_new_town.png",
+    "img": "images/settings/chapter6.png",
     "codes": "bonuses_enabled_new_town"
   },
   {
     "name": "Indiana Jones: Trailer",
     "type": "toggle",
     "initial_active_state": true,
-    "img": "images/settings/bonuses_enabled_indy.png",
+    "img": "images/items/indianajones.png",
     "codes": "bonuses_enabled_indy"
   },
   {
     "name": "Most Expensive Purchase Without Score Multipliers",
     "type": "consumable",
-    "img": "images/settings/maximum_purchase_without_score_multipliers.png",
+    "img": "images/settings/wuher.png",
+    "initial_quantity": 100000,
+    "increment": 1000,
+    "decrement": 1000,
     "codes": "max_purchase_with_no_multipliers"
   },
   {
     "name": "Story Character Unlock Locations Enabled",
     "type": "toggle",
-    "img": "images/settings/story_character_locations.png",
+    "img": "images/items/c-3po.png",
+    "initial_active_state": true,
     "codes": "story_character_locations"
   },
   {
@@ -370,6 +337,7 @@
     "type": "progressive",
     "loop": false,
     "allow_disabled": false,
+    "initial_stage_idx": 1,
     "stages": [
       {
         "name": "Episode 1 Disabled",
@@ -389,6 +357,7 @@
     "type": "progressive",
     "loop": false,
     "allow_disabled": false,
+    "initial_stage_idx": 1,
     "stages": [
       {
         "name": "Episode 2 Disabled",
@@ -408,6 +377,7 @@
     "type": "progressive",
     "loop": false,
     "allow_disabled": false,
+    "initial_stage_idx": 1,
     "stages": [
       {
         "name": "Episode 3 Disabled",
@@ -427,6 +397,7 @@
     "type": "progressive",
     "loop": false,
     "allow_disabled": false,
+    "initial_stage_idx": 1,
     "stages": [
       {
         "name": "Episode 4 Disabled",
@@ -446,6 +417,7 @@
     "type": "progressive",
     "loop": false,
     "allow_disabled": false,
+    "initial_stage_idx": 1,
     "stages": [
       {
         "name": "Episode 5 Disabled",
@@ -465,6 +437,7 @@
     "type": "progressive",
     "loop": false,
     "allow_disabled": false,
+    "initial_stage_idx": 1,
     "stages": [
       {
         "name": "Episode 6 Disabled",
@@ -492,12 +465,12 @@
     "stages": [
       {
         "name": "'All Episodes' Character Purchases - Unlock with all enabled Episodes unlocked",
-        "img": "images/settings/all_episodes_unlock_episodes.png",
-        "codes": "all_episodes_purchases_unlock_episodes"
+        "img": "images/items/episode6unlock.png",
+        "codes": "all_episodes_purchases_unlock, all_episodes_purchases_unlock_episodes"
       },
       {
         "name": "'All Episodes' Character Purchases - Unlock with all All Episodes Tokens received",
-        "img": "images/settings/all_episodes_unlock_tokens.png",
+        "img": "images/items/allepisodestoken.png",
         "codes": "all_episodes_purchases_unlock_tokens",
         "inherit_codes": false
       }
@@ -506,7 +479,7 @@
   {
     "name": "'All Episodes' Character Purchase Locations Enabled",
     "type": "toggle",
-    "img": "images/settings/all_episodes_purchase_locations.png",
+    "img": "images/items/allepisodestoken.png",
     "codes": "all_episodes_purchase_locations"
   }
 ]

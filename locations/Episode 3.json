@@ -4,7 +4,10 @@
     "chest_unopened_img": "images/items/gold_brick.png",
     "chest_opened_img": "images/items/gold_brick_disabled.png",
     "access_rules": [
-      "episode3unlock"
+      "episode_3_enabled, episode3unlock"
+    ],
+    "visibility_rules": [
+      "episode_3_enabled"
     ],
     "children": [
       {

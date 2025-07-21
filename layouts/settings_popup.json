@@ -1,20 +1,90 @@
 {
-    "settings_popup": {
-        "type": "dock",
-        "content": [
-            {
-                "type": "group",
-                "header": "Settings",
-                "dock": "top",
-                "content": {
-                    "type": "itemgrid",
-                    "rows": [
-                        [
-                            "minikits_for_goal"
-                        ]
-                    ]
-                }
-            }
-        ]
-    }
+  "settings_popup": {
+    "type": "dock",
+    "content": [
+      {
+        "type": "group",
+        "header": "Settings",
+        "dock": "top",
+        "content": {
+          "type": "itemgrid",
+          "rows": [
+            [
+              "minikits_for_goal",
+              "all_episodes_purchases_unlock",
+              "max_purchase_with_no_multipliers"
+            ],
+            [
+              "story_character_locations",
+              "all_episodes_purchase_locations"
+            ],
+            [
+              "episode_1_enabled",
+              "1_1_enabled",
+              "1_2_enabled",
+              "1_3_enabled",
+              "1_4_enabled",
+              "1_5_enabled",
+              "1_6_enabled"
+            ],
+            [
+              "episode_2_enabled",
+              "2_1_enabled",
+              "2_2_enabled",
+              "2_3_enabled",
+              "2_4_enabled",
+              "2_5_enabled",
+              "2_6_enabled"
+            ],
+            [
+              "episode_3_enabled",
+              "3_1_enabled",
+              "3_2_enabled",
+              "3_3_enabled",
+              "3_4_enabled",
+              "3_5_enabled",
+              "3_6_enabled"
+            ],
+            [
+              "episode_4_enabled",
+              "4_1_enabled",
+              "4_2_enabled",
+              "4_3_enabled",
+              "4_4_enabled",
+              "4_5_enabled",
+              "4_6_enabled"
+            ],
+            [
+              "episode_5_enabled",
+              "5_1_enabled",
+              "5_2_enabled",
+              "5_3_enabled",
+              "5_4_enabled",
+              "5_5_enabled",
+              "5_6_enabled"
+            ],
+            [
+              "episode_6_enabled",
+              "6_1_enabled",
+              "6_2_enabled",
+              "6_3_enabled",
+              "6_4_enabled",
+              "6_5_enabled",
+              "6_6_enabled"
+            ],
+            [
+              "bonuses_enabled",
+              "bonuses_enabled_indy",
+              "bonuses_enabled_podrace",
+              "bonuses_enabled_anakin_flight",
+              "bonuses_enabled_gunship",
+              "bonuses_enabled_a_new_hope",
+              "bonuses_enabled_lego_city",
+              "bonuses_enabled_new_town"
+            ]
+          ]
+        }
+      }
+    ]
+  }
 }
