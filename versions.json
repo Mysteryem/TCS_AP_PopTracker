@@ -1,0 +1,14 @@
+{
+    "versions": [
+        {
+            "package_version": "1.0.1",
+            "download_url": "https://github.com/Mysteryem/TCS_AP_PopTracker/archive/refs/tags/v1.0.1.zip",
+            "sha256": "0f456f4c43bef6728630aa4d543d0ac75dace7f0159f3af2924d8cc652d57772",
+            "changelog": [
+                "Adds support for the new features in apworld version 1.0.0 and updates logic to match the v1.0.1 apworld",
+                "Automatic tab switching for the current room in the cantina",
+                "Some pack settings are displayed in the pack settings popup"
+            ]
+        }
+    ]
+}
