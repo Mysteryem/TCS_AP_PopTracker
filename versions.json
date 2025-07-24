@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "1.0.2",
+            "download_url": "https://github.com/Mysteryem/TCS_AP_PopTracker/archive/refs/tags/v1.0.2.zip",
+            "sha256": "39c61519b8bce99a901ae9b34c66359bb58978e27eecf90d277f39842d145017",
+            "changelog": [
+                "Fix loading the enabled episodes from slot data"
+            ]
+        },
+        {
             "package_version": "1.0.1",
             "download_url": "https://github.com/Mysteryem/TCS_AP_PopTracker/archive/refs/tags/v1.0.1.zip",
             "sha256": "0f456f4c43bef6728630aa4d543d0ac75dace7f0159f3af2924d8cc652d57772",
