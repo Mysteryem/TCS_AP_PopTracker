@@ -152,7 +152,7 @@ function onClear(slot_data)
     -- Set active state for items used to signify whether episodes are enabled.
     -- Set consumable item that stores the number of enabled episodes.
     local enabled_episodes_set = {}
-    for episode_number in ipairs(slot_data["enabled_episodes"]) do
+    for _, episode_number in ipairs(slot_data["enabled_episodes"]) do
         enabled_episodes_set[episode_number] = true
     end
     local enabled_episodes_count = 0
