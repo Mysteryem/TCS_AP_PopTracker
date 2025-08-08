@@ -419,7 +419,7 @@
             "chest_unopened_img": "images/items/minikit.png",
             "chest_opened_img": "images/items/minikit_disabled.png",
             "access_rules": [
-              "sith, bounty"
+              "sith, bounty, shortie"
             ],
             "sections": [
               {
