@@ -200,6 +200,9 @@ function onClear(slot_data)
     local all_episodes_purchases_enabled = slot_data["enable_all_episodes_purchases"] == 1
     Tracker:FindObjectForCode("all_episodes_purchase_locations").Active = all_episodes_purchases_enabled
 
+    local all_episodes_purchases_unlock = slot_data["all_episodes_character_purchase_requirements"]
+    Tracker:FindObjectForCode("all_episodes_purchases_unlock").CurrentStage = all_episodes_purchases_unlock
+
     -- Hint tracking disabled until PopTracker 0.32.0 is released, which adds section highlighting.
 --     if Archipelago.PlayerNumber > -1 then
 --
