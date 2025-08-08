@@ -347,7 +347,7 @@
       },
       {
         "img": "images/items/episode1unlock.png",
-        "codes": "episode_1_enabled",
+        "codes": "episode_1_enabled, enabled_episodes_count",
         "inherit_codes": false
       }
     ]
@@ -367,7 +367,7 @@
       },
       {
         "img": "images/items/episode2unlock.png",
-        "codes": "episode_2_enabled",
+        "codes": "episode_2_enabled, enabled_episodes_count",
         "inherit_codes": false
       }
     ]
@@ -387,7 +387,7 @@
       },
       {
         "img": "images/items/episode3unlock.png",
-        "codes": "episode_3_enabled",
+        "codes": "episode_3_enabled, enabled_episodes_count",
         "inherit_codes": false
       }
     ]
@@ -407,7 +407,7 @@
       },
       {
         "img": "images/items/episode4unlock.png",
-        "codes": "episode_4_enabled",
+        "codes": "episode_4_enabled, enabled_episodes_count",
         "inherit_codes": false
       }
     ]
@@ -427,7 +427,7 @@
       },
       {
         "img": "images/items/episode5unlock.png",
-        "codes": "episode_5_enabled",
+        "codes": "episode_5_enabled, enabled_episodes_count",
         "inherit_codes": false
       }
     ]
@@ -447,15 +447,10 @@
       },
       {
         "img": "images/items/episode6unlock.png",
-        "codes": "episode_6_enabled",
+        "codes": "episode_6_enabled, enabled_episodes_count",
         "inherit_codes": false
       }
     ]
-  },
-  {
-    "name": "Enabled Episodes Count",
-    "type": "consumable",
-    "codes": "enabled_episodes_count"
   },
   {
     "name": "'All Episodes' Character Purchase Unlock Requirement",
