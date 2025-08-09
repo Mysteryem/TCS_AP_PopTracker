@@ -155,12 +155,8 @@
                 "yoda(ghost)",
                 "r2-q5",
                 "indianajones",
-                "episode1unlock",
-                "episode2unlock",
-                "episode3unlock",
-                "episode4unlock",
-                "episode5unlock",
-                "episode6unlock"
+                "custom_character_1",
+                "custom_character_2"
               ],
               [
                 "anakinspodracer",
@@ -182,9 +178,7 @@
                 "tie-interceptor",
                 "tiefighter(darthvader)",
                 "tiebomber",
-                "imperialshuttle",
-                "allepisodestoken",
-                "minikits"
+                "imperialshuttle"
               ],
               [
                 "supergonk",
@@ -221,7 +215,15 @@
                 "bountyhunterrockets",
                 "superewokcatapult",
                 "infinitetorpedos",
-                "purplestud"
+                "purplestud",
+                "episode1unlock",
+                "episode2unlock",
+                "episode3unlock",
+                "episode4unlock",
+                "episode5unlock",
+                "episode6unlock",
+                "allepisodestoken",
+                "minikits"
               ]
             ]
           }

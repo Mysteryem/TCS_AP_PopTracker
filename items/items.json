@@ -1921,5 +1921,17 @@
     "type": "consumable",
     "img": "images/items/allepisodestoken.png",
     "codes": "allepisodestoken"
+  },
+  {
+    "name": "STRANGER 1",
+    "type": "toggle",
+    "img": "images/items/custom_character_1.png",
+    "codes": "custom_character_1, blaster"
+  },
+  {
+    "name": "STRANGER 2",
+    "type": "toggle",
+    "img": "images/items/custom_character_2.png",
+    "codes": "custom_character_2, blaster"
   }
 ]
