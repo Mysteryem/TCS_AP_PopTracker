@@ -158,3 +158,14 @@ end
 function all_episodes_tokens()
     return Tracker:ProviderCountForCode("allepisodestoken") >= Tracker:ProviderCountForCode("enabled_episodes_count")
 end
+
+function defeat_bosses_goal()
+    local goal_amount = Tracker:ProviderCountForCode("setting_defeat_bosses_goal_amount")
+    if Tracker:ProviderCountForCode("setting_defeat_bosses_normal") > 0 then
+        return Tracker:ProviderCountForCode("boss_defeated") >= goal_amount
+    elseif Tracker:ProviderCountForCode("setting_defeat_bosses_unique") > 0 then
+        return Tracker:ProviderCountForCode("unique_boss_defeated") >= goal_amount
+    else
+        return False
+    end
+end

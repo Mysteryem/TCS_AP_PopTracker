@@ -92,21 +92,41 @@
             },
             {
                 "name": "Goal",
-                "chest_unopened_img": "images/items/slave1.png",
-                "chest_opened_img": "images/items/slave1_disabled.png",
-                "access_rules": [
-                    "$minikits_goal"
-                ],
                 "sections": [
                     {
-                        "name": "Slave I"
+                        "name": "Minikits Goal",
+                        "access_rules": [
+                            "$minikits_goal"
+                        ],
+                        "visibility_rules": [
+                            "minikits_for_goal"
+                        ]
+                    },
+                    {
+                        "name": "Defeat Bosses Goal",
+                        "access_rules": [
+                            "$defeat_bosses_goal"
+                        ],
+                        "visibility_rules": [
+                            "setting_defeat_bosses_goal_amount"
+                        ]
+                    },
+                    {
+                        "name": "Combined Goal",
+                        "access_rules": [
+                            "@Cantina/Goal/Minikits Goal, @Cantina/Goal/Defeat Bosses Goal"
+                        ],
+                        "visibility_rules": [
+                            "@Cantina/Goal/Minikits Goal, @Cantina/Goal/Defeat Bosses Goal"
+                        ]
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Cantina",
                         "x": 768,
-                        "y": 142
+                        "y": 142,
+                        "shape": "diamond"
                     }
                 ]
             },

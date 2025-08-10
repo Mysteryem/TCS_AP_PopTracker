@@ -325,7 +325,24 @@ local function checkGoalStatus(value)
     -- CLIENT_PLAYING = 20
     -- CLIENT_GOAL = 30
     if value == 30 then
-        local goal_location = Tracker:FindObjectForCode("@Cantina/Goal/Slave I")
+        local bosses_goal = Tracker:ProviderCountForCode("setting_defeat_bosses_goal_amount") > 0
+        local minikits_goal = Tracker:ProviderCountForCode("minikits_for_goal") > 0
+
+        local goal_path
+        if minikits_goal then
+            if bosses_goal then
+                goal_path = "@Cantina/Goal/Combined Goal"
+            else
+                goal_path = "@Cantina/Goal/Minikits Goal"
+            end
+        elseif bosses_goal then
+            goal_path = "@Cantina/Goal/Defeat Bosses Goal"
+        else
+            print("Error: The goal has been completed, but no goal location could not be determined.")
+            return
+        end
+
+        local goal_location = Tracker:FindObjectForCode(goal_path)
         goal_location.AvailableChestCount = goal_location.AvailableChestCount - 1
     else
         print(string.format("Current goal status is %s", value))
