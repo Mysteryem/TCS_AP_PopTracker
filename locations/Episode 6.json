@@ -325,6 +325,103 @@
         ]
       },
       {
+        "name": "Speeder Showdown",
+        "access_rules": [
+          "6_3_enabled, lukeskywalker(endor), princessleia(endor)"
+        ],
+        "visibility_rules": [
+          "6_3_enabled"
+        ],
+        "children": [
+          {
+            "name": "Minikits",
+            "chest_unopened_img": "images/items/minikit.png",
+            "chest_opened_img": "images/items/minikit_disabled.png",
+            "access_rules": [
+              "sith, highjump, bounty, imperial, shortie"
+            ],
+            "sections": [
+              {
+                "name": "6-3 Minikit 1"
+              },
+              {
+                "name": "6-3 Minikit 2"
+              },
+              {
+                "name": "6-3 Minikit 3"
+              },
+              {
+                "name": "6-3 Minikit 4"
+              },
+              {
+                "name": "6-3 Minikit 5"
+              },
+              {
+                "name": "6-3 Minikit 6"
+              },
+              {
+                "name": "6-3 Minikit 7"
+              },
+              {
+                "name": "6-3 Minikit 8"
+              },
+              {
+                "name": "6-3 Minikit 9"
+              },
+              {
+                "name": "6-3 Minikit 10"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 6",
+                "x": 412,
+                "y": 93
+              }
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Purchase Score x8",
+            "chest_unopened_img": "images/items/progressivescoremultiplier8.png",
+            "chest_opened_img": "images/items/progressivescoremultiplier8_disabled.png",
+            "access_rules": [
+              "shortie, [$can_purchase|10000000]"
+            ]
+          },
+          {
+            "name": "6-3 True Jedi"
+          },
+          {
+            "name": "6-3 Completion"
+          },
+          {
+            "name": "Chapter Completion - Unlock Luke Skywalker (Endor)",
+            "chest_unopened_img": "images/items/lukeskywalker(endor).png",
+            "chest_opened_img": "images/items/lukeskywalker(endor)_disabled.png",
+            "visibility_rules": [
+              "story_character_locations"
+            ]
+          },
+          {
+            "name": "Chapter Completion - Unlock Princess Leia (Endor)",
+            "chest_unopened_img": "images/items/princessleia(endor).png",
+            "chest_opened_img": "images/items/princessleia(endor)_disabled.png",
+            "visibility_rules": [
+              "story_character_locations"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Episode 6",
+            "x": 412,
+            "y": 148
+          }
+        ]
+      },
+      {
         "name": "Battle of Endor",
         "access_rules": [
           "6_4_enabled, hansolo(endor), princessleia(endor), chewbacca, r2-d2, c-3po, wicket"
@@ -676,103 +773,6 @@
             "map": "Episode 6",
             "x": 924,
             "y": 166
-          }
-        ]
-      },
-      {
-        "name": "Speeder Showdown",
-        "access_rules": [
-          "6_3_enabled, lukeskywalker(endor), princessleia(endor)"
-        ],
-        "visibility_rules": [
-          "6_3_enabled"
-        ],
-        "children": [
-          {
-            "name": "Minikits",
-            "chest_unopened_img": "images/items/minikit.png",
-            "chest_opened_img": "images/items/minikit_disabled.png",
-            "access_rules": [
-              "sith, highjump, bounty, imperial, shortie"
-            ],
-            "sections": [
-              {
-                "name": "6-3 Minikit 1"
-              },
-              {
-                "name": "6-3 Minikit 2"
-              },
-              {
-                "name": "6-3 Minikit 3"
-              },
-              {
-                "name": "6-3 Minikit 4"
-              },
-              {
-                "name": "6-3 Minikit 5"
-              },
-              {
-                "name": "6-3 Minikit 6"
-              },
-              {
-                "name": "6-3 Minikit 7"
-              },
-              {
-                "name": "6-3 Minikit 8"
-              },
-              {
-                "name": "6-3 Minikit 9"
-              },
-              {
-                "name": "6-3 Minikit 10"
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "Episode 6",
-                "x": 412,
-                "y": 93
-              }
-            ]
-          }
-        ],
-        "sections": [
-          {
-            "name": "Purchase Score x8",
-            "chest_unopened_img": "images/items/progressivescoremultiplier8.png",
-            "chest_opened_img": "images/items/progressivescoremultiplier8_disabled.png",
-            "access_rules": [
-              "shortie, [$can_purchase|10000000]"
-            ]
-          },
-          {
-            "name": "6-3 True Jedi"
-          },
-          {
-            "name": "6-3 Completion"
-          },
-          {
-            "name": "Chapter Completion - Unlock Luke Skywalker (Endor)",
-            "chest_unopened_img": "images/items/lukeskywalker(endor).png",
-            "chest_opened_img": "images/items/lukeskywalker(endor)_disabled.png",
-            "visibility_rules": [
-              "story_character_locations"
-            ]
-          },
-          {
-            "name": "Chapter Completion - Unlock Princess Leia (Endor)",
-            "chest_unopened_img": "images/items/princessleia(endor).png",
-            "chest_opened_img": "images/items/princessleia(endor)_disabled.png",
-            "visibility_rules": [
-              "story_character_locations"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Episode 6",
-            "x": 412,
-            "y": 148
           }
         ]
       }

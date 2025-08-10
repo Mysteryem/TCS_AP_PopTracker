@@ -269,224 +269,6 @@
         ]
       },
       {
-        "name": "Mos Espa Pod Race",
-        "access_rules": [
-          "1_4_enabled, anakinspodracer"
-        ],
-        "visibility_rules": [
-          "1_4_enabled"
-        ],
-        "children": [
-          {
-            "name": "Minikits",
-            "chest_unopened_img": "images/items/minikit.png",
-            "chest_opened_img": "images/items/minikit_disabled.png",
-            "access_rules": [
-              "tievehicle"
-            ],
-            "sections": [
-              {
-                "name": "1-4 Minikit 1"
-              },
-              {
-                "name": "1-4 Minikit 2"
-              },
-              {
-                "name": "1-4 Minikit 3"
-              },
-              {
-                "name": "1-4 Minikit 4"
-              },
-              {
-                "name": "1-4 Minikit 5"
-              },
-              {
-                "name": "1-4 Minikit 6"
-              },
-              {
-                "name": "1-4 Minikit 7"
-              },
-              {
-                "name": "1-4 Minikit 8"
-              },
-              {
-                "name": "1-4 Minikit 9"
-              },
-              {
-                "name": "1-4 Minikit 10"
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "Episode 1",
-                "x": 559,
-                "y": 106
-              }
-            ]
-          }
-        ],
-        "sections": [
-          {
-            "name": "Purchase Watto",
-            "chest_unopened_img": "images/items/watto.png",
-            "chest_opened_img": "images/items/watto_disabled.png",
-            "access_rules": [
-              "[$can_purchase|16000]"
-            ]
-          },
-          {
-            "name": "Purchase Pit Droid",
-            "chest_unopened_img": "images/items/pitdroid.png",
-            "chest_opened_img": "images/items/pitdroid_disabled.png",
-            "access_rules": [
-              "[$can_purchase|4000]"
-            ]
-          },
-          {
-            "name": "Purchase Sebulba's Pod",
-            "chest_unopened_img": "images/items/sebulbaspodracer.png",
-            "chest_opened_img": "images/items/sebulbaspodracer_disabled.png",
-            "access_rules": [
-              "[$can_purchase|20000]"
-            ]
-          },
-          {
-            "name": "Purchase Power Brick Detector (1-4)",
-            "chest_unopened_img": "images/items/redbrickdetector.png",
-            "chest_opened_img": "images/items/redbrickdetector_disabled.png",
-            "access_rules": [
-              "[$can_purchase|125000]"
-            ]
-          },
-          {
-            "name": "1-4 True Jedi"
-          },
-          {
-            "name": "1-4 Completion"
-          },
-          {
-            "name": "Chapter Completion - Unlock Anakin's Pod",
-            "chest_unopened_img": "images/items/anakinspodracer.png",
-            "chest_opened_img": "images/items/anakinspodracer_disabled.png",
-            "visibility_rules": [
-              "story_character_locations"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Episode 1",
-            "x": 559,
-            "y": 153
-          }
-        ]
-      },
-      {
-        "name": "Darth Maul",
-        "access_rules": [
-          "1_6_enabled, obi-wankenobi, qui-gonjinn"
-        ],
-        "visibility_rules": [
-          "1_6_enabled"
-        ],
-        "children": [
-          {
-            "name": "Minikits",
-            "chest_unopened_img": "images/items/minikit.png",
-            "chest_opened_img": "images/items/minikit_disabled.png",
-            "access_rules": [
-              "sith, highjump, blaster, bounty, imperial"
-            ],
-            "sections": [
-              {
-                "name": "1-6 Minikit 1"
-              },
-              {
-                "name": "1-6 Minikit 2"
-              },
-              {
-                "name": "1-6 Minikit 3"
-              },
-              {
-                "name": "1-6 Minikit 4"
-              },
-              {
-                "name": "1-6 Minikit 5"
-              },
-              {
-                "name": "1-6 Minikit 6"
-              },
-              {
-                "name": "1-6 Minikit 7"
-              },
-              {
-                "name": "1-6 Minikit 8"
-              },
-              {
-                "name": "1-6 Minikit 9"
-              },
-              {
-                "name": "1-6 Minikit 10"
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "Episode 1",
-                "x": 923,
-                "y": 106
-              }
-            ]
-          }
-        ],
-        "sections": [
-          {
-            "name": "Purchase Darth Maul",
-            "chest_unopened_img": "images/items/darthmaul.png",
-            "chest_opened_img": "images/items/darthmaul_disabled.png",
-            "access_rules": [
-              "[$can_purchase|60000]"
-            ]
-          },
-          {
-            "name": "Purchase Force Grapple Leap (1-6)",
-            "chest_unopened_img": "images/items/forcegrappleleap.png",
-            "chest_opened_img": "images/items/forcegrappleleap_disabled.png",
-            "access_rules": [
-              "imperial, [$can_purchase|15000]"
-            ]
-          },
-          {
-            "name": "1-6 True Jedi"
-          },
-          {
-            "name": "1-6 Completion"
-          },
-          {
-            "name": "Chapter Completion - Unlock Obi-Wan Kenobi",
-            "chest_unopened_img": "images/items/obi-wankenobi.png",
-            "chest_opened_img": "images/items/obi-wankenobi_disabled.png",
-            "visibility_rules": [
-              "story_character_locations"
-            ]
-          },
-          {
-            "name": "Chapter Completion - Unlock Qui-Gon Jinn",
-            "chest_unopened_img": "images/items/qui-gonjinn.png",
-            "chest_opened_img": "images/items/qui-gonjinn_disabled.png",
-            "visibility_rules": [
-              "story_character_locations"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Episode 1",
-            "x": 923,
-            "y": 153
-          }
-        ]
-      },
-      {
         "name": "Escape From Naboo",
         "access_rules": [
           "1_3_enabled, obi-wankenobi, qui-gonjinn, captainpanaka, queenamidala"
@@ -616,6 +398,119 @@
         ]
       },
       {
+        "name": "Mos Espa Pod Race",
+        "access_rules": [
+          "1_4_enabled, anakinspodracer"
+        ],
+        "visibility_rules": [
+          "1_4_enabled"
+        ],
+        "children": [
+          {
+            "name": "Minikits",
+            "chest_unopened_img": "images/items/minikit.png",
+            "chest_opened_img": "images/items/minikit_disabled.png",
+            "access_rules": [
+              "tievehicle"
+            ],
+            "sections": [
+              {
+                "name": "1-4 Minikit 1"
+              },
+              {
+                "name": "1-4 Minikit 2"
+              },
+              {
+                "name": "1-4 Minikit 3"
+              },
+              {
+                "name": "1-4 Minikit 4"
+              },
+              {
+                "name": "1-4 Minikit 5"
+              },
+              {
+                "name": "1-4 Minikit 6"
+              },
+              {
+                "name": "1-4 Minikit 7"
+              },
+              {
+                "name": "1-4 Minikit 8"
+              },
+              {
+                "name": "1-4 Minikit 9"
+              },
+              {
+                "name": "1-4 Minikit 10"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 1",
+                "x": 559,
+                "y": 106
+              }
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Purchase Watto",
+            "chest_unopened_img": "images/items/watto.png",
+            "chest_opened_img": "images/items/watto_disabled.png",
+            "access_rules": [
+              "[$can_purchase|16000]"
+            ]
+          },
+          {
+            "name": "Purchase Pit Droid",
+            "chest_unopened_img": "images/items/pitdroid.png",
+            "chest_opened_img": "images/items/pitdroid_disabled.png",
+            "access_rules": [
+              "[$can_purchase|4000]"
+            ]
+          },
+          {
+            "name": "Purchase Sebulba's Pod",
+            "chest_unopened_img": "images/items/sebulbaspodracer.png",
+            "chest_opened_img": "images/items/sebulbaspodracer_disabled.png",
+            "access_rules": [
+              "[$can_purchase|20000]"
+            ]
+          },
+          {
+            "name": "Purchase Power Brick Detector (1-4)",
+            "chest_unopened_img": "images/items/redbrickdetector.png",
+            "chest_opened_img": "images/items/redbrickdetector_disabled.png",
+            "access_rules": [
+              "[$can_purchase|125000]"
+            ]
+          },
+          {
+            "name": "1-4 True Jedi"
+          },
+          {
+            "name": "1-4 Completion"
+          },
+          {
+            "name": "Chapter Completion - Unlock Anakin's Pod",
+            "chest_unopened_img": "images/items/anakinspodracer.png",
+            "chest_opened_img": "images/items/anakinspodracer_disabled.png",
+            "visibility_rules": [
+              "story_character_locations"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Episode 1",
+            "x": 559,
+            "y": 153
+          }
+        ]
+      },
+      {
         "name": "Retake Theed Palace",
         "access_rules": [
           "1_5_enabled, obi-wankenobi, qui-gonjinn, captainpanaka, padme(battle), r2-d2, anakinskywalker(boy)"
@@ -740,6 +635,111 @@
           {
             "map": "Episode 1",
             "x": 740,
+            "y": 153
+          }
+        ]
+      },
+      {
+        "name": "Darth Maul",
+        "access_rules": [
+          "1_6_enabled, obi-wankenobi, qui-gonjinn"
+        ],
+        "visibility_rules": [
+          "1_6_enabled"
+        ],
+        "children": [
+          {
+            "name": "Minikits",
+            "chest_unopened_img": "images/items/minikit.png",
+            "chest_opened_img": "images/items/minikit_disabled.png",
+            "access_rules": [
+              "sith, highjump, blaster, bounty, imperial"
+            ],
+            "sections": [
+              {
+                "name": "1-6 Minikit 1"
+              },
+              {
+                "name": "1-6 Minikit 2"
+              },
+              {
+                "name": "1-6 Minikit 3"
+              },
+              {
+                "name": "1-6 Minikit 4"
+              },
+              {
+                "name": "1-6 Minikit 5"
+              },
+              {
+                "name": "1-6 Minikit 6"
+              },
+              {
+                "name": "1-6 Minikit 7"
+              },
+              {
+                "name": "1-6 Minikit 8"
+              },
+              {
+                "name": "1-6 Minikit 9"
+              },
+              {
+                "name": "1-6 Minikit 10"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 1",
+                "x": 923,
+                "y": 106
+              }
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Purchase Darth Maul",
+            "chest_unopened_img": "images/items/darthmaul.png",
+            "chest_opened_img": "images/items/darthmaul_disabled.png",
+            "access_rules": [
+              "[$can_purchase|60000]"
+            ]
+          },
+          {
+            "name": "Purchase Force Grapple Leap (1-6)",
+            "chest_unopened_img": "images/items/forcegrappleleap.png",
+            "chest_opened_img": "images/items/forcegrappleleap_disabled.png",
+            "access_rules": [
+              "imperial, [$can_purchase|15000]"
+            ]
+          },
+          {
+            "name": "1-6 True Jedi"
+          },
+          {
+            "name": "1-6 Completion"
+          },
+          {
+            "name": "Chapter Completion - Unlock Obi-Wan Kenobi",
+            "chest_unopened_img": "images/items/obi-wankenobi.png",
+            "chest_opened_img": "images/items/obi-wankenobi_disabled.png",
+            "visibility_rules": [
+              "story_character_locations"
+            ]
+          },
+          {
+            "name": "Chapter Completion - Unlock Qui-Gon Jinn",
+            "chest_unopened_img": "images/items/qui-gonjinn.png",
+            "chest_opened_img": "images/items/qui-gonjinn_disabled.png",
+            "visibility_rules": [
+              "story_character_locations"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Episode 1",
+            "x": 923,
             "y": 153
           }
         ]

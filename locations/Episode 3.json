@@ -11,6 +11,127 @@
     ],
     "children": [
       {
+        "name": "Battle Over Coruscant",
+        "access_rules": [
+          "3_1_enabled, obi-wansstarfighter, anakinsstarfighter"
+        ],
+        "visibility_rules": [
+          "3_1_enabled"
+        ],
+        "children": [
+          {
+            "name": "Minikits",
+            "chest_unopened_img": "images/items/minikit.png",
+            "chest_opened_img": "images/items/minikit_disabled.png",
+            "access_rules": [
+              " "
+            ],
+            "sections": [
+              {
+                "name": "3-1 Minikit 1"
+              },
+              {
+                "name": "3-1 Minikit 2"
+              },
+              {
+                "name": "3-1 Minikit 3"
+              },
+              {
+                "name": "3-1 Minikit 4"
+              },
+              {
+                "name": "3-1 Minikit 5"
+              },
+              {
+                "name": "3-1 Minikit 6"
+              },
+              {
+                "name": "3-1 Minikit 7"
+              },
+              {
+                "name": "3-1 Minikit 8"
+              },
+              {
+                "name": "3-1 Minikit 9"
+              },
+              {
+                "name": "3-1 Minikit 10"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 3",
+                "x": 103,
+                "y": 166
+              }
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Purchase Droid Trifighter",
+            "chest_unopened_img": "images/items/droidtrifighter.png",
+            "chest_opened_img": "images/items/droidtrifighter_disabled.png",
+            "access_rules": [
+              "[$can_purchase|28000]"
+            ]
+          },
+          {
+            "name": "Purchase Vulture Droid",
+            "chest_unopened_img": "images/items/vulturedroid.png",
+            "chest_opened_img": "images/items/vulturedroid_disabled.png",
+            "access_rules": [
+              "[$can_purchase|30000]"
+            ]
+          },
+          {
+            "name": "Purchase Clone Arcfighter",
+            "chest_unopened_img": "images/items/clonearcfighter.png",
+            "chest_opened_img": "images/items/clonearcfighter_disabled.png",
+            "access_rules": [
+              "[$can_purchase|33000]"
+            ]
+          },
+          {
+            "name": "Purchase Vehicle Smart Bomb (3-1)",
+            "chest_unopened_img": "images/items/vehiclesmartbomb.png",
+            "chest_opened_img": "images/items/vehiclesmartbomb_disabled.png",
+            "access_rules": [
+              "[$can_purchase|15000]"
+            ]
+          },
+          {
+            "name": "3-1 True Jedi"
+          },
+          {
+            "name": "3-1 Completion"
+          },
+          {
+            "name": "Chapter Completion - Unlock Anakin's Starfighter",
+            "chest_unopened_img": "images/items/anakinsstarfighter.png",
+            "chest_opened_img": "images/items/anakinsstarfighter_disabled.png",
+            "visibility_rules": [
+              "story_character_locations"
+            ]
+          },
+          {
+            "name": "Chapter Completion - Unlock Obi-Wan's Starfighter",
+            "chest_unopened_img": "images/items/obi-wansstarfighter.png",
+            "chest_opened_img": "images/items/obi-wansstarfighter_disabled.png",
+            "visibility_rules": [
+              "story_character_locations"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Episode 3",
+            "x": 107,
+            "y": 263
+          }
+        ]
+      },
+      {
         "name": "Chancellor in Peril",
         "access_rules": [
           "3_2_enabled, anakinskywalker(jedi), chancellorpalpatine, obi-wankenobi(episode3), r2-d2"
@@ -136,6 +257,112 @@
             "map": "Episode 3",
             "x": 378,
             "y": 222
+          }
+        ]
+      },
+      {
+        "name": "General Grievous",
+        "access_rules": [
+          "3_3_enabled, obi-wankenobi(episode3), commandercody"
+        ],
+        "visibility_rules": [
+          "3_3_enabled"
+        ],
+        "children": [
+          {
+            "name": "Minikits",
+            "chest_unopened_img": "images/items/minikit.png",
+            "chest_opened_img": "images/items/minikit_disabled.png",
+            "access_rules": [
+              "hover, bounty, highjump"
+            ],
+            "sections": [
+              {
+                "name": "3-3 Minikit 1"
+              },
+              {
+                "name": "3-3 Minikit 2"
+              },
+              {
+                "name": "3-3 Minikit 3"
+              },
+              {
+                "name": "3-3 Minikit 4"
+              },
+              {
+                "name": "3-3 Minikit 5"
+              },
+              {
+                "name": "3-3 Minikit 6"
+              },
+              {
+                "name": "3-3 Minikit 7"
+              },
+              {
+                "name": "3-3 Minikit 8"
+              },
+              {
+                "name": "3-3 Minikit 9"
+              },
+              {
+                "name": "3-3 Minikit 10"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 3",
+                "x": 539,
+                "y": 131
+              }
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Purchase General Grievous",
+            "chest_unopened_img": "images/items/generalgrievous.png",
+            "chest_opened_img": "images/items/generalgrievous_disabled.png",
+            "access_rules": [
+              "[$can_purchase|70000]"
+            ]
+          },
+          {
+            "name": "Purchase Super Jedi Slam (3-3)",
+            "chest_unopened_img": "images/items/superjedislam.png",
+            "chest_opened_img": "images/items/superjedislam_disabled.png",
+            "access_rules": [
+              "highjump, [$can_purchase|11000]",
+              "hover, [$can_purchase|11000]"
+            ]
+          },
+          {
+            "name": "3-3 True Jedi"
+          },
+          {
+            "name": "3-3 Completion"
+          },
+          {
+            "name": "Chapter Completion - Unlock Obi-Wan Kenobi (Episode 3)",
+            "chest_unopened_img": "images/items/obi-wankenobi(episode3).png",
+            "chest_opened_img": "images/items/obi-wankenobi(episode3)_disabled.png",
+            "visibility_rules": [
+              "story_character_locations"
+            ]
+          },
+          {
+            "name": "Chapter Completion - Unlock Commander Cody",
+            "chest_unopened_img": "images/items/commandercody.png",
+            "chest_opened_img": "images/items/commandercody_disabled.png",
+            "visibility_rules": [
+              "story_character_locations"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Episode 3",
+            "x": 540,
+            "y": 218
           }
         ]
       },
@@ -386,233 +613,6 @@
             "map": "Episode 3",
             "x": 774,
             "y": 177
-          }
-        ]
-      },
-      {
-        "name": "Battle Over Coruscant",
-        "access_rules": [
-          "3_1_enabled, obi-wansstarfighter, anakinsstarfighter"
-        ],
-        "visibility_rules": [
-          "3_1_enabled"
-        ],
-        "children": [
-          {
-            "name": "Minikits",
-            "chest_unopened_img": "images/items/minikit.png",
-            "chest_opened_img": "images/items/minikit_disabled.png",
-            "access_rules": [
-              " "
-            ],
-            "sections": [
-              {
-                "name": "3-1 Minikit 1"
-              },
-              {
-                "name": "3-1 Minikit 2"
-              },
-              {
-                "name": "3-1 Minikit 3"
-              },
-              {
-                "name": "3-1 Minikit 4"
-              },
-              {
-                "name": "3-1 Minikit 5"
-              },
-              {
-                "name": "3-1 Minikit 6"
-              },
-              {
-                "name": "3-1 Minikit 7"
-              },
-              {
-                "name": "3-1 Minikit 8"
-              },
-              {
-                "name": "3-1 Minikit 9"
-              },
-              {
-                "name": "3-1 Minikit 10"
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "Episode 3",
-                "x": 103,
-                "y": 166
-              }
-            ]
-          }
-        ],
-        "sections": [
-          {
-            "name": "Purchase Droid Trifighter",
-            "chest_unopened_img": "images/items/droidtrifighter.png",
-            "chest_opened_img": "images/items/droidtrifighter_disabled.png",
-            "access_rules": [
-              "[$can_purchase|28000]"
-            ]
-          },
-          {
-            "name": "Purchase Vulture Droid",
-            "chest_unopened_img": "images/items/vulturedroid.png",
-            "chest_opened_img": "images/items/vulturedroid_disabled.png",
-            "access_rules": [
-              "[$can_purchase|30000]"
-            ]
-          },
-          {
-            "name": "Purchase Clone Arcfighter",
-            "chest_unopened_img": "images/items/clonearcfighter.png",
-            "chest_opened_img": "images/items/clonearcfighter_disabled.png",
-            "access_rules": [
-              "[$can_purchase|33000]"
-            ]
-          },
-          {
-            "name": "Purchase Vehicle Smart Bomb (3-1)",
-            "chest_unopened_img": "images/items/vehiclesmartbomb.png",
-            "chest_opened_img": "images/items/vehiclesmartbomb_disabled.png",
-            "access_rules": [
-              "[$can_purchase|15000]"
-            ]
-          },
-          {
-            "name": "3-1 True Jedi"
-          },
-          {
-            "name": "3-1 Completion"
-          },
-          {
-            "name": "Chapter Completion - Unlock Anakin's Starfighter",
-            "chest_unopened_img": "images/items/anakinsstarfighter.png",
-            "chest_opened_img": "images/items/anakinsstarfighter_disabled.png",
-            "visibility_rules": [
-              "story_character_locations"
-            ]
-          },
-          {
-            "name": "Chapter Completion - Unlock Obi-Wan's Starfighter",
-            "chest_unopened_img": "images/items/obi-wansstarfighter.png",
-            "chest_opened_img": "images/items/obi-wansstarfighter_disabled.png",
-            "visibility_rules": [
-              "story_character_locations"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Episode 3",
-            "x": 107,
-            "y": 263
-          }
-        ]
-      },
-      {
-        "name": "General Grievous",
-        "access_rules": [
-          "3_3_enabled, obi-wankenobi(episode3), commandercody"
-        ],
-        "visibility_rules": [
-          "3_3_enabled"
-        ],
-        "children": [
-          {
-            "name": "Minikits",
-            "chest_unopened_img": "images/items/minikit.png",
-            "chest_opened_img": "images/items/minikit_disabled.png",
-            "access_rules": [
-              "hover, bounty, highjump"
-            ],
-            "sections": [
-              {
-                "name": "3-3 Minikit 1"
-              },
-              {
-                "name": "3-3 Minikit 2"
-              },
-              {
-                "name": "3-3 Minikit 3"
-              },
-              {
-                "name": "3-3 Minikit 4"
-              },
-              {
-                "name": "3-3 Minikit 5"
-              },
-              {
-                "name": "3-3 Minikit 6"
-              },
-              {
-                "name": "3-3 Minikit 7"
-              },
-              {
-                "name": "3-3 Minikit 8"
-              },
-              {
-                "name": "3-3 Minikit 9"
-              },
-              {
-                "name": "3-3 Minikit 10"
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "Episode 3",
-                "x": 539,
-                "y": 131
-              }
-            ]
-          }
-        ],
-        "sections": [
-          {
-            "name": "Purchase General Grievous",
-            "chest_unopened_img": "images/items/generalgrievous.png",
-            "chest_opened_img": "images/items/generalgrievous_disabled.png",
-            "access_rules": [
-              "[$can_purchase|70000]"
-            ]
-          },
-          {
-            "name": "Purchase Super Jedi Slam (3-3)",
-            "chest_unopened_img": "images/items/superjedislam.png",
-            "chest_opened_img": "images/items/superjedislam_disabled.png",
-            "access_rules": [
-              "highjump, [$can_purchase|11000]",
-              "hover, [$can_purchase|11000]"
-            ]
-          },
-          {
-            "name": "3-3 True Jedi"
-          },
-          {
-            "name": "3-3 Completion"
-          },
-          {
-            "name": "Chapter Completion - Unlock Obi-Wan Kenobi (Episode 3)",
-            "chest_unopened_img": "images/items/obi-wankenobi(episode3).png",
-            "chest_opened_img": "images/items/obi-wankenobi(episode3)_disabled.png",
-            "visibility_rules": [
-              "story_character_locations"
-            ]
-          },
-          {
-            "name": "Chapter Completion - Unlock Commander Cody",
-            "chest_unopened_img": "images/items/commandercody.png",
-            "chest_opened_img": "images/items/commandercody_disabled.png",
-            "visibility_rules": [
-              "story_character_locations"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Episode 3",
-            "x": 540,
-            "y": 218
           }
         ]
       },
