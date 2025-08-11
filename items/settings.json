@@ -265,6 +265,7 @@
     "name": "Bonuses Enabled",
     "type": "toggle",
     "img": "images/items/progressivebonuslevel.png",
+    "initial_active_state": true,
     "codes": "bonuses_enabled"
   },
   {
@@ -474,6 +475,7 @@
   {
     "name": "'All Episodes' Character Purchase Locations Enabled",
     "type": "toggle",
+    "initial_active_state": true,
     "img": "images/items/allepisodestoken.png",
     "codes": "all_episodes_purchase_locations"
   }
