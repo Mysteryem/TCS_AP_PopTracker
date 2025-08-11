@@ -264,10 +264,29 @@ function onClear(slot_data)
     end
     Tracker:FindObjectForCode("setting_minikit_locations_enabled").Active = enable_minikit_locations
 
-    -- Set enabled bosses
-    set_bosses_from_slot_data_chapters(slot_data)
-    local defeat_bosses_goal_amount = slot_data["defeat_bosses_goal_amount"] or 0
+    local defeat_bosses_goal_amount
+    if apworld_version < Version.new({1,1,0}) then
+        -- The goal did not exist in earlier versions.
+        defeat_bosses_goal_amount = 0
+    else
+        defeat_bosses_goal_amount = slot_data["defeat_bosses_goal_amount"] or 0
+    end
     Tracker:FindObjectForCode("setting_defeat_bosses_goal_amount").AcquiredCount = defeat_bosses_goal_amount
+
+    -- Set bosses mode
+    local setting_defeat_bosses_mode
+    if defeat_bosses_goal_amount == 0 then
+        -- Without bosses enabled, don't show bosses in the tracker.
+        setting_defeat_bosses_mode = 0
+    else
+        -- The only_unique_bosses_count option covers stages 1, 2 and 3 of the setting_defeat_bosses_mode item, so needs
+        -- to be increased by 1 to get the correct stage number.
+        setting_defeat_bosses_mode = slot_data["only_unique_bosses_count"] + 1
+    end
+    Tracker:FindObjectForCode("setting_defeat_bosses_mode").CurrentStage = setting_defeat_bosses_mode
+
+    -- Set enabled bosses
+    set_bosses_from_slot_data_chapters(slot_data, setting_defeat_bosses_mode)
 
     -- Hint tracking disabled until PopTracker 0.32.0 is released, which adds section highlighting.
 --     if Archipelago.PlayerNumber > -1 then

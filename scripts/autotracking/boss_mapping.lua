@@ -1,7 +1,7 @@
 local BOSS_MAPPING_UNIQUE = {
     ["1-6"] = "boss_darth_maul",
     ["2-1"] = "boss_zam_wesell",
-    ["2-1"] = "boss_jango_fett",
+    ["2-2"] = "boss_jango_fett",
     ["2-4"] = "boss_jango_fett",
     ["2-6"] = "boss_count_dooku",
     ["3-2"] = "boss_count_dooku",
@@ -29,13 +29,13 @@ for k, v in pairs(BOSS_MAPPING_UNIQUE) do
 end
 
 local MAPPING_LOOKUP = {
-    {},
-    BOSS_MAPPING_NORMAL,
-    BOSS_MAPPING_UNIQUE,
-    BOSS_MAPPING_UNIQUE_ANAKIN_AS_VADER,
+    [0] = {},
+    [1] = BOSS_MAPPING_NORMAL,
+    [2] = BOSS_MAPPING_UNIQUE,
+    [3] = BOSS_MAPPING_UNIQUE_ANAKIN_AS_VADER,
 }
 
-function set_bosses_from_slot_data_chapters(slot_data)
+function set_bosses_from_slot_data_chapters(slot_data, setting_defeat_bosses_mode)
     -- todo: Get the defeat bosses mode from slot data and set the setting_defeat_bosses_mode item to its value
     local enabled_boss_chapters = slot_data["enabled_bosses"] or {}
 
@@ -48,9 +48,7 @@ function set_bosses_from_slot_data_chapters(slot_data)
         disabled[v] = true
     end
 
-    local setting_value = Tracker:FindObjectForCode("setting_defeat_bosses_mode").CurrentStage
-
-    local mapping = MAPPING_LOOKUP[setting_value]
+    local mapping = MAPPING_LOOKUP[setting_defeat_bosses_mode]
 
     local enabled = {}
     for _, v in ipairs(enabled_boss_chapters) do
