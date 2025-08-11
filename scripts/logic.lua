@@ -166,11 +166,14 @@ end
 function defeat_bosses_goal()
     local goal_amount = Tracker:ProviderCountForCode("setting_defeat_bosses_goal_amount")
     if Tracker:ProviderCountForCode("setting_defeat_bosses_normal") > 0 then
+        -- Each boss in a chapter counts separately.
         return Tracker:ProviderCountForCode("boss_defeated") >= goal_amount
     elseif Tracker:ProviderCountForCode("setting_defeat_bosses_unique") > 0 then
+        -- Each boss character counts separately.
         return Tracker:ProviderCountForCode("unique_boss_defeated") >= goal_amount
     else
-        return False
+        -- The Defeat Bosses Goal is not enabled.
+        return true
     end
 end
 
