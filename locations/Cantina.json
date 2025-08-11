@@ -114,10 +114,10 @@
                     {
                         "name": "Combined Goal",
                         "access_rules": [
-                            "@Cantina/Goal/Minikits Goal, @Cantina/Goal/Defeat Bosses Goal"
+                            "@Cantina/Goal Events/Minikits Goal, @Cantina/Goal Events/Defeat Bosses Goal"
                         ],
                         "visibility_rules": [
-                            "@Cantina/Goal/Minikits Goal, @Cantina/Goal/Defeat Bosses Goal"
+                            "@Cantina/Goal Events/Minikits Goal, @Cantina/Goal Events/Defeat Bosses Goal"
                         ]
                     }
                 ],
