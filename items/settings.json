@@ -5,7 +5,6 @@
     "img": "images/items/minikit.png",
     "min_quantity": 0,
     "max_quantity": 360,
-    "initial_quantity": 270,
     "codes": "minikits_for_goal"
   },
   // print(json.dumps([{"name": f"Chapter {episode}-{chapter} Enabled", "type": "toggle", "codes": f"{episode}_{chapter}_enabled", "initial_active_state": True, "img": "images/settings/enabled_chapters/chapter_enabled_base.png", "img_mods": f"overlay|images/settings/enabled_chapters/episode{episode}.png,overlay|images/settings/enabled_chapters/chapter{chapter}.png"} for episode, chapter in itertools.product(range(1, 7), range(1, 7))], indent=2))
