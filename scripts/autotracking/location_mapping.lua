@@ -726,10 +726,8 @@ LOCATION_MAPPING = {
     [620] = {"@Episode 6/Battle of Endor/Battle of Endor/Chapter Completion - Unlock Wicket"},
     [621] = {"@Episode 6/Jedi Destiny/Jedi Destiny/Chapter Completion - Unlock Darth Vader"},
 
-    -- Included here with location IDs that will never match, purely so that they get auto-reset when connecting to AP.
-    minikits_goal_event = {"@Cantina/Goal Events/Minikits Goal"},
-    defeat_bosses_goal_event = {"@Cantina/Goal Events/Defeat Bosses Goal"},
-    combined_goal_event = {"@Cantina/Goal Events/Combined Goal"},
+    -- Included here with a location IDs that will never match, purely so that it gets auto-reset when connecting to AP.
+    goal_event = {"@Cantina/Goal Event/Goal"},
 }
 
 sectionIDToAPID = {}

@@ -91,33 +91,12 @@
                 ]
             },
             {
-                "name": "Goal Events",
+                "name": "Goal Event",
                 "sections": [
                     {
-                        "name": "Minikits Goal",
+                        "name": "Goal",
                         "access_rules": [
-                            "$minikits_goal"
-                        ],
-                        "visibility_rules": [
-                            "minikits_for_goal"
-                        ]
-                    },
-                    {
-                        "name": "Defeat Bosses Goal",
-                        "access_rules": [
-                            "$defeat_bosses_goal"
-                        ],
-                        "visibility_rules": [
-                            "setting_defeat_bosses_goal_amount"
-                        ]
-                    },
-                    {
-                        "name": "Combined Goal",
-                        "access_rules": [
-                            "@Cantina/Goal Events/Minikits Goal, @Cantina/Goal Events/Defeat Bosses Goal"
-                        ],
-                        "visibility_rules": [
-                            "@Cantina/Goal Events/Minikits Goal, @Cantina/Goal Events/Defeat Bosses Goal"
+                            "$minikits_goal, $defeat_bosses_goal"
                         ]
                     }
                 ],
