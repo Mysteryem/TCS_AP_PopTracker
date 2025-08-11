@@ -22,7 +22,8 @@ goal_status_key = nil
 local CANTINA_ROOM_KEY_FORMAT = "tcs_cantina_room_%i_%i"
 local cantina_room_key
 
--- Gold Brick events. These are written to datastorage as lists of area IDs, and updated as if the lists were sets.
+-- Gold/Power Brick events. These are written to datastorage as lists of area IDs, and updated as if the lists were
+-- sets.
 local COMPLETED_FREE_PLAY_KEY_FORMAT = "tcs_completed_free_play_%i_%i"
 local completed_free_play_key
 local COMPLETED_TRUE_JEDI_KEY_FORMAT = "tcs_completed_true_jedi_%i_%i"
@@ -31,6 +32,9 @@ local COMPLETED_10_MINIKITS_KEY_FORMAT = "tcs_completed_10_minikits_%i_%i"
 local completed_10_minikits_key
 local COMPLETED_BONUSES_KEY_FORMAT = "tcs_completed_bonuses_%i_%i"
 local completed_bonuses_key
+
+local COLLECTED_POWER_BRICKS_KEY_FORMAT = "tcs_collected_power_bricks_%i_%i"
+local collected_power_bricks_key
 
 CUR_INDEX = -1
 --SLOT_DATA = nil
@@ -81,6 +85,8 @@ function onClear(slot_data)
     completed_true_jedi_key = string.format(COMPLETED_TRUE_JEDI_KEY_FORMAT, Archipelago.TeamNumber, Archipelago.PlayerNumber)
     -- Get and subscribe to changes in the player's completed 10/10 Minikits
     completed_10_minikits_key = string.format(COMPLETED_10_MINIKITS_KEY_FORMAT, Archipelago.TeamNumber, Archipelago.PlayerNumber)
+    -- Get and subscribe to changes in the player's collected Power Bricks
+    collected_power_bricks_key = string.format(COLLECTED_POWER_BRICKS_KEY_FORMAT, Archipelago.TeamNumber, Archipelago.PlayerNumber)
     local datastorage_keys = {
         goal_status_key,
         cantina_room_key,
@@ -88,6 +94,7 @@ function onClear(slot_data)
         completed_bonuses_key,
         completed_true_jedi_key,
         completed_10_minikits_key,
+        collected_power_bricks_key,
     }
     Archipelago:Get(datastorage_keys)
     Archipelago:SetNotify(datastorage_keys)
@@ -140,10 +147,12 @@ function onClear(slot_data)
     -- Reset Gold Bricks
     for _k, shortname in pairs(AREA_ID_TO_SHORTNAME) do
         Tracker:FindObjectForCode(shortname.."_completion_gold_brick").Active = false
-        -- Bonus levels only have completion, so only reset True Jedi and 10 Minikits Gold Bricks for Chapter levels.
+        -- Bonus levels only have completion, so only reset True Jedi and 10 Minikits Gold Bricks, and Power Bricks, for
+        -- Chapter levels.
         if string.len(shortname) == 3 then
             Tracker:FindObjectForCode(shortname.."_true_jedi_gold_brick").Active = false
             Tracker:FindObjectForCode(shortname.."_minikits_gold_brick").Active = false
+            Tracker:FindObjectForCode(shortname.."_power_brick").Active = false
         end
     end
 
@@ -429,7 +438,7 @@ local function update_cantina_room(room_value)
     end
 end
 
-local function update_gold_bricks(format, completed_chapters)
+local function update_gold_or_power_bricks(format, completed_chapters)
     completed_chapters = completed_chapters or {}
     for _, area_id in ipairs(completed_chapters) do
         local shortname = AREA_ID_TO_SHORTNAME[area_id]
@@ -456,8 +465,8 @@ local function new_area_ids(value, old_value)
     return new_values
 end
 
-local function update_new_gold_bricks(format, value, old_value)
-    update_gold_bricks(format, new_area_ids(value, old_value))
+local function update_new_gold_or_power_bricks(format, value, old_value)
+    update_gold_or_power_bricks(format, new_area_ids(value, old_value))
 end
 
 function onNotify(key, value, old_value)
@@ -471,11 +480,13 @@ function onNotify(key, value, old_value)
     elseif key == cantina_room_key then
         update_cantina_room(value)
     elseif key == completed_free_play_key or key == completed_bonuses_key then
-        update_new_gold_bricks("%s_completion_gold_brick", value, old_value)
+        update_new_gold_or_power_bricks("%s_completion_gold_brick", value, old_value)
     elseif key == completed_true_jedi_key then
-        update_new_gold_bricks("%s_true_jedi_gold_brick", value, old_value)
+        update_new_gold_or_power_bricks("%s_true_jedi_gold_brick", value, old_value)
     elseif key == completed_10_minikits_key then
-        update_new_gold_bricks("%s_minikits_gold_brick", value, old_value)
+        update_new_gold_or_power_bricks("%s_minikits_gold_brick", value, old_value)
+    elseif key == collected_power_bricks_key then
+        update_new_gold_or_power_bricks("%s_power_brick", value, old_value)
     end
 end
 
@@ -488,11 +499,13 @@ function onNotifyLaunch(key, value)
     elseif key == cantina_room_key then
         update_cantina_room(value)
     elseif key == completed_free_play_key or key == completed_bonuses_key then
-        update_gold_bricks("%s_completion_gold_brick", value)
+        update_gold_or_power_bricks("%s_completion_gold_brick", value)
     elseif key == completed_true_jedi_key then
-        update_gold_bricks("%s_true_jedi_gold_brick", value)
+        update_gold_or_power_bricks("%s_true_jedi_gold_brick", value)
     elseif key == completed_10_minikits_key then
-        update_gold_bricks("%s_minikits_gold_brick", value)
+        update_gold_or_power_bricks("%s_minikits_gold_brick", value)
+    elseif key == collected_power_bricks_key then
+        update_gold_or_power_bricks("%s_power_brick", value)
     end
 end
 

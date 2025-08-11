@@ -147,6 +147,10 @@
             "name": "Battle Over Coruscant - Events",
             "sections": [
               {
+                "name": "3-1 - Power Brick",
+                "hosted_item": "3-1_power_brick"
+              },
+              {
                 "name": "3-1 Completion - Gold Brick",
                 "hosted_item": "3-1_completion_gold_brick"
               },
@@ -327,6 +331,10 @@
             "name": "Chancellor in Peril - Events",
             "sections": [
               {
+                "name": "3-2 - Power Brick",
+                "hosted_item": "3-2_power_brick"
+              },
+              {
                 "name": "3-2 Completion - Gold Brick",
                 "hosted_item": "3-2_completion_gold_brick"
               },
@@ -497,6 +505,10 @@
           {
             "name": "General Grievous - Events",
             "sections": [
+              {
+                "name": "3-3 - Power Brick",
+                "hosted_item": "3-3_power_brick"
+              },
               {
                 "name": "3-3 Completion - Gold Brick",
                 "hosted_item": "3-3_completion_gold_brick"
@@ -700,6 +712,10 @@
             "name": "Defense of Kashyyyk - Events",
             "sections": [
               {
+                "name": "3-4 - Power Brick",
+                "hosted_item": "3-4_power_brick"
+              },
+              {
                 "name": "3-4 Completion - Gold Brick",
                 "hosted_item": "3-4_completion_gold_brick"
               },
@@ -864,6 +880,10 @@
             "name": "Ruin of the Jedi - Events",
             "sections": [
               {
+                "name": "3-5 - Power Brick",
+                "hosted_item": "3-5_power_brick"
+              },
+              {
                 "name": "3-5 Completion - Gold Brick",
                 "hosted_item": "3-5_completion_gold_brick"
               },
@@ -1011,6 +1031,10 @@
           {
             "name": "Darth Vader - Events",
             "sections": [
+              {
+                "name": "3-6 - Power Brick",
+                "hosted_item": "3-6_power_brick"
+              },
               {
                 "name": "3-6 Completion - Gold Brick",
                 "hosted_item": "3-6_completion_gold_brick"

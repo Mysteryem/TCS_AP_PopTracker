@@ -187,6 +187,10 @@
             "name": "Jabba's Palace - Events",
             "sections": [
               {
+                "name": "6-1 - Power Brick",
+                "hosted_item": "6-1_power_brick"
+              },
+              {
                 "name": "6-1 Completion - Gold Brick",
                 "hosted_item": "6-1_completion_gold_brick"
               },
@@ -405,6 +409,10 @@
             "name": "Pit of Carkoon - Events",
             "sections": [
               {
+                "name": "6-2 - Power Brick",
+                "hosted_item": "6-2_power_brick"
+              },
+              {
                 "name": "6-2 Completion - Gold Brick",
                 "hosted_item": "6-2_completion_gold_brick"
               },
@@ -566,6 +574,10 @@
           {
             "name": "Speeder Showdown - Events",
             "sections": [
+              {
+                "name": "6-3 - Power Brick",
+                "hosted_item": "6-3_power_brick"
+              },
               {
                 "name": "6-3 Completion - Gold Brick",
                 "hosted_item": "6-3_completion_gold_brick"
@@ -755,6 +767,10 @@
             "name": "Battle of Endor - Events",
             "sections": [
               {
+                "name": "6-4 - Power Brick",
+                "hosted_item": "6-4_power_brick"
+              },
+              {
                 "name": "6-4 Completion - Gold Brick",
                 "hosted_item": "6-4_completion_gold_brick"
               },
@@ -918,6 +934,10 @@
           {
             "name": "Jedi Destiny - Events",
             "sections": [
+              {
+                "name": "6-5 - Power Brick",
+                "hosted_item": "6-5_power_brick"
+              },
               {
                 "name": "6-5 Completion - Gold Brick",
                 "hosted_item": "6-5_completion_gold_brick"
@@ -1088,6 +1108,10 @@
           {
             "name": "Into the Death Star - Events",
             "sections": [
+              {
+                "name": "6-6 - Power Brick",
+                "hosted_item": "6-6_power_brick"
+              },
               {
                 "name": "6-6 Completion - Gold Brick",
                 "hosted_item": "6-6_completion_gold_brick"

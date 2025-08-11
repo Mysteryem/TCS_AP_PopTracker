@@ -171,6 +171,10 @@
             "name": "Secret Plans - Events",
             "sections": [
               {
+                "name": "4-1 - Power Brick",
+                "hosted_item": "4-1_power_brick"
+              },
+              {
                 "name": "4-1 Completion - Gold Brick",
                 "hosted_item": "4-1_completion_gold_brick"
               },
@@ -350,6 +354,10 @@
           {
             "name": "Through the Jundland Wastes - Events",
             "sections": [
+              {
+                "name": "4-2 - Power Brick",
+                "hosted_item": "4-2_power_brick"
+              },
               {
                 "name": "4-2 Completion - Gold Brick",
                 "hosted_item": "4-2_completion_gold_brick"
@@ -554,6 +562,10 @@
           {
             "name": "Mos Eisley Spaceport - Events",
             "sections": [
+              {
+                "name": "4-3 - Power Brick",
+                "hosted_item": "4-3_power_brick"
+              },
               {
                 "name": "4-3 Completion - Gold Brick",
                 "hosted_item": "4-3_completion_gold_brick"
@@ -775,6 +787,10 @@
             "name": "Rescue the Princess - Events",
             "sections": [
               {
+                "name": "4-4 - Power Brick",
+                "hosted_item": "4-4_power_brick"
+              },
+              {
                 "name": "4-4 Completion - Gold Brick",
                 "hosted_item": "4-4_completion_gold_brick"
               },
@@ -955,6 +971,10 @@
             "name": "Death Star Escape - Events",
             "sections": [
               {
+                "name": "4-5 - Power Brick",
+                "hosted_item": "4-5_power_brick"
+              },
+              {
                 "name": "4-5 Completion - Gold Brick",
                 "hosted_item": "4-5_completion_gold_brick"
               },
@@ -1126,6 +1146,10 @@
           {
             "name": "Rebel Attack - Events",
             "sections": [
+              {
+                "name": "4-6 - Power Brick",
+                "hosted_item": "4-6_power_brick"
+              },
               {
                 "name": "4-6 Completion - Gold Brick",
                 "hosted_item": "4-6_completion_gold_brick"

@@ -139,6 +139,10 @@
             "name": "Bounty Hunter Pursuit - Events",
             "sections": [
               {
+                "name": "2-1 - Power Brick",
+                "hosted_item": "2-1_power_brick"
+              },
+              {
                 "name": "2-1 Completion - Gold Brick",
                 "hosted_item": "2-1_completion_gold_brick"
               },
@@ -324,6 +328,10 @@
           {
             "name": "Discovery on Kamino - Events",
             "sections": [
+              {
+                "name": "2-2 - Power Brick",
+                "hosted_item": "2-2_power_brick"
+              },
               {
                 "name": "2-2 Completion - Gold Brick",
                 "hosted_item": "2-2_completion_gold_brick"
@@ -518,6 +526,10 @@
           {
             "name": "Droid Factory - Events",
             "sections": [
+              {
+                "name": "2-3 - Power Brick",
+                "hosted_item": "2-3_power_brick"
+              },
               {
                 "name": "2-3 Completion - Gold Brick",
                 "hosted_item": "2-3_completion_gold_brick"
@@ -763,6 +775,10 @@
             "name": "Jedi Battle - Events",
             "sections": [
               {
+                "name": "2-4 - Power Brick",
+                "hosted_item": "2-4_power_brick"
+              },
+              {
                 "name": "2-4 Completion - Gold Brick",
                 "hosted_item": "2-4_completion_gold_brick"
               },
@@ -916,6 +932,10 @@
           {
             "name": "Gunship Cavalry - Events",
             "sections": [
+              {
+                "name": "2-5 - Power Brick",
+                "hosted_item": "2-5_power_brick"
+              },
               {
                 "name": "2-5 Completion - Gold Brick",
                 "hosted_item": "2-5_completion_gold_brick"
@@ -1072,6 +1092,10 @@
           {
             "name": "Count Dooku - Events",
             "sections": [
+              {
+                "name": "2-6 - Power Brick",
+                "hosted_item": "2-6_power_brick"
+              },
               {
                 "name": "2-6 Completion - Gold Brick",
                 "hosted_item": "2-6_completion_gold_brick"

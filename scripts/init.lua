@@ -4,6 +4,7 @@ Tracker:AddItems("items/settings.json")
 Tracker:AddItems("items/bosses.json")
 Tracker:AddItems("items/unique_bosses.json")
 Tracker:AddItems("items/gold_brick_events.json")
+Tracker:AddItems("items/power_brick_events.json")
 
 -- Maps
 Tracker:AddMaps("maps/maps.json")

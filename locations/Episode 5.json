@@ -115,6 +115,10 @@
             "name": "Hoth Battle - Events",
             "sections": [
               {
+                "name": "5-1 - Power Brick",
+                "hosted_item": "5-1_power_brick"
+              },
+              {
                 "name": "5-1 Completion - Gold Brick",
                 "hosted_item": "5-1_completion_gold_brick"
               },
@@ -319,6 +323,10 @@
             "name": "Escape From Echo Base - Events",
             "sections": [
               {
+                "name": "5-2 - Power Brick",
+                "hosted_item": "5-2_power_brick"
+              },
+              {
                 "name": "5-2 Completion - Gold Brick",
                 "hosted_item": "5-2_completion_gold_brick"
               },
@@ -482,6 +490,10 @@
           {
             "name": "Falcon Flight - Events",
             "sections": [
+              {
+                "name": "5-3 - Power Brick",
+                "hosted_item": "5-3_power_brick"
+              },
               {
                 "name": "5-3 Completion - Gold Brick",
                 "hosted_item": "5-3_completion_gold_brick"
@@ -647,6 +659,10 @@
             "name": "Dagobah - Events",
             "sections": [
               {
+                "name": "5-4 - Power Brick",
+                "hosted_item": "5-4_power_brick"
+              },
+              {
                 "name": "5-4 Completion - Gold Brick",
                 "hosted_item": "5-4_completion_gold_brick"
               },
@@ -808,6 +824,10 @@
           {
             "name": "Cloud City Trap - Events",
             "sections": [
+              {
+                "name": "5-5 - Power Brick",
+                "hosted_item": "5-5_power_brick"
+              },
               {
                 "name": "5-5 Completion - Gold Brick",
                 "hosted_item": "5-5_completion_gold_brick"
@@ -1026,6 +1046,10 @@
           {
             "name": "Betrayal Over Bespin - Events",
             "sections": [
+              {
+                "name": "5-6 - Power Brick",
+                "hosted_item": "5-6_power_brick"
+              },
               {
                 "name": "5-6 Completion - Gold Brick",
                 "hosted_item": "5-6_completion_gold_brick"
