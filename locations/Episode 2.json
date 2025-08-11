@@ -24,7 +24,7 @@
             "chest_unopened_img": "images/items/minikit.png",
             "chest_opened_img": "images/items/minikit_disabled.png",
             "access_rules": [
-              "tievehicle"
+              "tievehicle, setting_minikit_locations_enabled"
             ],
             "sections": [
               {
@@ -64,62 +64,127 @@
                 "x": 77,
                 "y": 88
               }
-            ]
-          }
-        ],
-        "sections": [
-          {
-            "name": "Purchase Zam Wesell",
-            "chest_unopened_img": "images/items/zamwesell.png",
-            "chest_opened_img": "images/items/zamwesell_disabled.png",
-            "access_rules": [
-              "[$can_purchase|27500]"
-            ]
-          },
-          {
-            "name": "Purchase Dexter Jettster",
-            "chest_unopened_img": "images/items/dexterjettster.png",
-            "chest_opened_img": "images/items/dexterjettster_disabled.png",
-            "access_rules": [
-              "[$can_purchase|10000]"
-            ]
-          },
-          {
-            "name": "Purchase Zam's Airspeeder",
-            "chest_unopened_img": "images/items/zamsairspeeder.png",
-            "chest_opened_img": "images/items/zamsairspeeder_disabled.png",
-            "access_rules": [
-              "[$can_purchase|24000]"
-            ]
-          },
-          {
-            "name": "Purchase Stud Magnet (2-1)",
-            "chest_unopened_img": "images/items/studmagnet.png",
-            "chest_opened_img": "images/items/studmagnet_disabled.png",
-            "access_rules": [
-              "[$can_purchase|100000]"
-            ]
-          },
-          {
-            "name": "2-1 True Jedi"
-          },
-          {
-            "name": "2-1 Completion"
-          },
-          {
-            "name": "Chapter Completion - Unlock Anakin's Speeder",
-            "chest_unopened_img": "images/items/speeder.png",
-            "chest_opened_img": "images/items/speeder_disabled.png",
+            ],
             "visibility_rules": [
-              "story_character_locations"
+              "setting_minikit_locations_enabled"
             ]
-          }
-        ],
-        "map_locations": [
+          },
           {
-            "map": "Episode 2",
-            "x": 79,
-            "y": 153
+            "name": "Bounty Hunter Pursuit",
+            "sections": [
+              {
+                "name": "Purchase Zam Wesell",
+                "chest_unopened_img": "images/items/zamwesell.png",
+                "chest_opened_img": "images/items/zamwesell_disabled.png",
+                "access_rules": [
+                  "[$can_purchase|27500]"
+                ]
+              },
+              {
+                "name": "Purchase Dexter Jettster",
+                "chest_unopened_img": "images/items/dexterjettster.png",
+                "chest_opened_img": "images/items/dexterjettster_disabled.png",
+                "access_rules": [
+                  "[$can_purchase|10000]"
+                ]
+              },
+              {
+                "name": "Purchase Zam's Airspeeder",
+                "chest_unopened_img": "images/items/zamsairspeeder.png",
+                "chest_opened_img": "images/items/zamsairspeeder_disabled.png",
+                "access_rules": [
+                  "[$can_purchase|24000]"
+                ]
+              },
+              {
+                "name": "Purchase Stud Magnet (2-1)",
+                "chest_unopened_img": "images/items/studmagnet.png",
+                "chest_opened_img": "images/items/studmagnet_disabled.png",
+                "access_rules": [
+                  "[$can_purchase|100000]"
+                ]
+              },
+              {
+                "name": "2-1 True Jedi",
+                "access_rules": [
+                  "setting_true_jedi_locations_enabled"
+                ],
+                "visibility_rules": [
+                  "setting_true_jedi_locations_enabled"
+                ],
+                "chest_unopened_img": "images/settings/true_jedi.png",
+                "chest_opened_img": "images/settings/true_jedi_chest_opened.png"
+              },
+              {
+                "name": "2-1 Completion"
+              },
+              {
+                "name": "Chapter Completion - Unlock Anakin's Speeder",
+                "chest_unopened_img": "images/items/speeder.png",
+                "chest_opened_img": "images/items/speeder_disabled.png",
+                "visibility_rules": [
+                  "story_character_locations"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 2",
+                "x": 78,
+                "y": 120
+              }
+            ]
+          },
+          {
+            "name": "Bounty Hunter Pursuit - Events",
+            "sections": [
+              {
+                "name": "2-1 Completion - Gold Brick",
+                "hosted_item": "2-1_completion_gold_brick"
+              },
+              {
+                "name": "2-1 True Jedi - Gold Brick",
+                "hosted_item": "2-1_true_jedi_gold_brick",
+                "access_rules": [
+                  "setting_true_jedi_locations_enabled"
+                ],
+                "visibility_rules": [
+                  "setting_true_jedi_locations_enabled"
+                ]
+              },
+              {
+                "name": "2-1 10/10 Minikits - Gold Brick",
+                "hosted_item": "2-1_minikits_gold_brick",
+                "access_rules": [
+                  "@Episode 2/Bounty Hunter Pursuit/Minikits"
+                ],
+                "visibility_rules": [
+                  "@Episode 2/Bounty Hunter Pursuit/Minikits"
+                ]
+              },
+              {
+                "name": "Defeated Zam Wesell (2-1)",
+                "hosted_item": "boss_zam_wesell_2-1",
+                "visibility_rules": [
+                  "setting_defeat_bosses_normal, $boss_enabled|boss_zam_wesell_2-1"
+                ]
+              },
+              {
+                "name": "Defeated Zam Wesell",
+                "hosted_item": "boss_zam_wesell",
+                "visibility_rules": [
+                  "setting_defeat_bosses_unique, $boss_enabled|boss_zam_wesell"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 2",
+                "x": 79,
+                "y": 153,
+                "shape": "diamond"
+              }
+            ]
           }
         ]
       },
@@ -137,7 +202,7 @@
             "chest_unopened_img": "images/items/minikit.png",
             "chest_opened_img": "images/items/minikit_disabled.png",
             "access_rules": [
-              "sith, highjump, blaster, bounty, shortie"
+              "sith, highjump, blaster, bounty, shortie, setting_minikit_locations_enabled"
             ],
             "sections": [
               {
@@ -175,72 +240,137 @@
               {
                 "map": "Episode 2",
                 "x": 285,
-                "y": 88
+                "y": 83
+              }
+            ],
+            "visibility_rules": [
+              "setting_minikit_locations_enabled"
+            ]
+          },
+          {
+            "name": "Discovery on Kamino",
+            "sections": [
+              {
+                "name": "Purchase Clone",
+                "chest_unopened_img": "images/items/clone.png",
+                "chest_opened_img": "images/items/clone_disabled.png",
+                "access_rules": [
+                  "[$can_purchase|13000]"
+                ]
+              },
+              {
+                "name": "Purchase Lama Su",
+                "chest_unopened_img": "images/items/lamasu.png",
+                "chest_opened_img": "images/items/lamasu_disabled.png",
+                "access_rules": [
+                  "[$can_purchase|9000]"
+                ]
+              },
+              {
+                "name": "Purchase Taun We",
+                "chest_unopened_img": "images/items/taunwe.png",
+                "chest_opened_img": "images/items/taunwe_disabled.png",
+                "access_rules": [
+                  "[$can_purchase|9000]"
+                ]
+              },
+              {
+                "name": "Purchase Disarm Troopers (2-2)",
+                "chest_unopened_img": "images/items/disarmtroopers.png",
+                "chest_opened_img": "images/items/disarmtroopers_disabled.png",
+                "access_rules": [
+                  "imperial, [$can_purchase|100000]"
+                ]
+              },
+              {
+                "name": "2-2 True Jedi",
+                "access_rules": [
+                  "setting_true_jedi_locations_enabled"
+                ],
+                "visibility_rules": [
+                  "setting_true_jedi_locations_enabled"
+                ],
+                "chest_unopened_img": "images/settings/true_jedi.png",
+                "chest_opened_img": "images/settings/true_jedi_chest_opened.png"
+              },
+              {
+                "name": "2-2 Completion"
+              },
+              {
+                "name": "Chapter Completion - Unlock Obi-Wan Kenobi (Jedi Master)",
+                "chest_unopened_img": "images/items/obi-wankenobi(jedimaster).png",
+                "chest_opened_img": "images/items/obi-wankenobi(jedimaster)_disabled.png",
+                "visibility_rules": [
+                  "story_character_locations"
+                ]
+              },
+              {
+                "name": "Chapter Completion - Unlock R4-P17",
+                "chest_unopened_img": "images/items/r4-p17.png",
+                "chest_opened_img": "images/items/r4-p17_disabled.png",
+                "visibility_rules": [
+                  "story_character_locations"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 2",
+                "x": 286,
+                "y": 114
               }
             ]
-          }
-        ],
-        "sections": [
+          },
           {
-            "name": "Purchase Clone",
-            "chest_unopened_img": "images/items/clone.png",
-            "chest_opened_img": "images/items/clone_disabled.png",
-            "access_rules": [
-              "[$can_purchase|13000]"
+            "name": "Discovery on Kamino - Events",
+            "sections": [
+              {
+                "name": "2-2 Completion - Gold Brick",
+                "hosted_item": "2-2_completion_gold_brick"
+              },
+              {
+                "name": "2-2 True Jedi - Gold Brick",
+                "hosted_item": "2-2_true_jedi_gold_brick",
+                "access_rules": [
+                  "setting_true_jedi_locations_enabled"
+                ],
+                "visibility_rules": [
+                  "setting_true_jedi_locations_enabled"
+                ]
+              },
+              {
+                "name": "2-2 10/10 Minikits - Gold Brick",
+                "hosted_item": "2-2_minikits_gold_brick",
+                "access_rules": [
+                  "@Episode 2/Discovery on Kamino/Minikits"
+                ],
+                "visibility_rules": [
+                  "@Episode 2/Discovery on Kamino/Minikits"
+                ]
+              },
+              {
+                "name": "Defeated Jango Fett (2-2)",
+                "hosted_item": "boss_jango_fett_2-2",
+                "visibility_rules": [
+                  "setting_defeat_bosses_normal, $boss_enabled|boss_jango_fett_2-2"
+                ]
+              },
+              {
+                "name": "Defeated Jango Fett",
+                "hosted_item": "boss_jango_fett",
+                "visibility_rules": [
+                  "setting_defeat_bosses_unique, $boss_enabled|boss_jango_fett"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 2",
+                "x": 287,
+                "y": 145,
+                "shape": "diamond"
+              }
             ]
-          },
-          {
-            "name": "Purchase Lama Su",
-            "chest_unopened_img": "images/items/lamasu.png",
-            "chest_opened_img": "images/items/lamasu_disabled.png",
-            "access_rules": [
-              "[$can_purchase|9000]"
-            ]
-          },
-          {
-            "name": "Purchase Taun We",
-            "chest_unopened_img": "images/items/taunwe.png",
-            "chest_opened_img": "images/items/taunwe_disabled.png",
-            "access_rules": [
-              "[$can_purchase|9000]"
-            ]
-          },
-          {
-            "name": "Purchase Disarm Troopers (2-2)",
-            "chest_unopened_img": "images/items/disarmtroopers.png",
-            "chest_opened_img": "images/items/disarmtroopers_disabled.png",
-            "access_rules": [
-              "imperial, [$can_purchase|100000]"
-            ]
-          },
-          {
-            "name": "2-2 True Jedi"
-          },
-          {
-            "name": "2-2 Completion"
-          },
-          {
-            "name": "Chapter Completion - Unlock Obi-Wan Kenobi (Jedi Master)",
-            "chest_unopened_img": "images/items/obi-wankenobi(jedimaster).png",
-            "chest_opened_img": "images/items/obi-wankenobi(jedimaster)_disabled.png",
-            "visibility_rules": [
-              "story_character_locations"
-            ]
-          },
-          {
-            "name": "Chapter Completion - Unlock R4-P17",
-            "chest_unopened_img": "images/items/r4-p17.png",
-            "chest_opened_img": "images/items/r4-p17_disabled.png",
-            "visibility_rules": [
-              "story_character_locations"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Episode 2",
-            "x": 287,
-            "y": 145
           }
         ]
       },
@@ -258,7 +388,7 @@
             "chest_unopened_img": "images/items/minikit.png",
             "chest_opened_img": "images/items/minikit_disabled.png",
             "access_rules": [
-              "highjump, imperial, shortie"
+              "highjump, imperial, shortie, setting_minikit_locations_enabled"
             ],
             "sections": [
               {
@@ -295,81 +425,132 @@
             "map_locations": [
               {
                 "map": "Episode 2",
+                "x": 468,
+                "y": 76
+              }
+            ],
+            "visibility_rules": [
+              "setting_minikit_locations_enabled"
+            ]
+          },
+          {
+            "name": "Droid Factory",
+            "sections": [
+              {
+                "name": "Purchase Geonosian",
+                "chest_unopened_img": "images/items/geonosian.png",
+                "chest_opened_img": "images/items/geonosian_disabled.png",
+                "access_rules": [
+                  "[$can_purchase|20000]"
+                ]
+              },
+              {
+                "name": "Purchase Battle Droid (Geonosis)",
+                "chest_unopened_img": "images/items/battledroid(geonosis).png",
+                "chest_opened_img": "images/items/battledroid(geonosis)_disabled.png",
+                "access_rules": [
+                  "[$can_purchase|8500]"
+                ]
+              },
+              {
+                "name": "Purchase Character Studs (2-3)",
+                "chest_unopened_img": "images/items/characterstuds.png",
+                "chest_opened_img": "images/items/characterstuds_disabled.png",
+                "access_rules": [
+                  "[$can_purchase|100000]"
+                ]
+              },
+              {
+                "name": "2-3 True Jedi",
+                "access_rules": [
+                  "setting_true_jedi_locations_enabled"
+                ],
+                "visibility_rules": [
+                  "setting_true_jedi_locations_enabled"
+                ],
+                "chest_unopened_img": "images/settings/true_jedi.png",
+                "chest_opened_img": "images/settings/true_jedi_chest_opened.png"
+              },
+              {
+                "name": "2-3 Completion"
+              },
+              {
+                "name": "Chapter Completion - Unlock R2-D2",
+                "chest_unopened_img": "images/items/r2-d2.png",
+                "chest_opened_img": "images/items/r2-d2_disabled.png",
+                "visibility_rules": [
+                  "story_character_locations"
+                ]
+              },
+              {
+                "name": "Chapter Completion - Unlock Anakin Skywalker (Padawan)",
+                "chest_unopened_img": "images/items/anakinskywalker(padawan).png",
+                "chest_opened_img": "images/items/anakinskywalker(padawan)_disabled.png",
+                "visibility_rules": [
+                  "story_character_locations"
+                ]
+              },
+              {
+                "name": "Chapter Completion - Unlock C-3PO",
+                "chest_unopened_img": "images/items/c-3po.png",
+                "chest_opened_img": "images/items/c-3po_disabled.png",
+                "visibility_rules": [
+                  "story_character_locations"
+                ]
+              },
+              {
+                "name": "Chapter Completion - Unlock Padmé (Geonosis)",
+                "chest_unopened_img": "images/items/padme(geonosis).png",
+                "chest_opened_img": "images/items/padme(geonosis)_disabled.png",
+                "visibility_rules": [
+                  "story_character_locations"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 2",
                 "x": 467,
-                "y": 80
+                "y": 107
               }
             ]
-          }
-        ],
-        "sections": [
+          },
           {
-            "name": "Purchase Geonosian",
-            "chest_unopened_img": "images/items/geonosian.png",
-            "chest_opened_img": "images/items/geonosian_disabled.png",
-            "access_rules": [
-              "[$can_purchase|20000]"
+            "name": "Droid Factory - Events",
+            "sections": [
+              {
+                "name": "2-3 Completion - Gold Brick",
+                "hosted_item": "2-3_completion_gold_brick"
+              },
+              {
+                "name": "2-3 True Jedi - Gold Brick",
+                "hosted_item": "2-3_true_jedi_gold_brick",
+                "access_rules": [
+                  "setting_true_jedi_locations_enabled"
+                ],
+                "visibility_rules": [
+                  "setting_true_jedi_locations_enabled"
+                ]
+              },
+              {
+                "name": "2-3 10/10 Minikits - Gold Brick",
+                "hosted_item": "2-3_minikits_gold_brick",
+                "access_rules": [
+                  "@Episode 2/Droid Factory/Minikits"
+                ],
+                "visibility_rules": [
+                  "@Episode 2/Droid Factory/Minikits"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 2",
+                "x": 466,
+                "y": 138,
+                "shape": "diamond"
+              }
             ]
-          },
-          {
-            "name": "Purchase Battle Droid (Geonosis)",
-            "chest_unopened_img": "images/items/battledroid(geonosis).png",
-            "chest_opened_img": "images/items/battledroid(geonosis)_disabled.png",
-            "access_rules": [
-              "[$can_purchase|8500]"
-            ]
-          },
-          {
-            "name": "Purchase Character Studs (2-3)",
-            "chest_unopened_img": "images/items/characterstuds.png",
-            "chest_opened_img": "images/items/characterstuds_disabled.png",
-            "access_rules": [
-              "[$can_purchase|100000]"
-            ]
-          },
-          {
-            "name": "2-3 True Jedi"
-          },
-          {
-            "name": "2-3 Completion"
-          },
-          {
-            "name": "Chapter Completion - Unlock R2-D2",
-            "chest_unopened_img": "images/items/r2-d2.png",
-            "chest_opened_img": "images/items/r2-d2_disabled.png",
-            "visibility_rules": [
-              "story_character_locations"
-            ]
-          },
-          {
-            "name": "Chapter Completion - Unlock Anakin Skywalker (Padawan)",
-            "chest_unopened_img": "images/items/anakinskywalker(padawan).png",
-            "chest_opened_img": "images/items/anakinskywalker(padawan)_disabled.png",
-            "visibility_rules": [
-              "story_character_locations"
-            ]
-          },
-          {
-            "name": "Chapter Completion - Unlock C-3PO",
-            "chest_unopened_img": "images/items/c-3po.png",
-            "chest_opened_img": "images/items/c-3po_disabled.png",
-            "visibility_rules": [
-              "story_character_locations"
-            ]
-          },
-          {
-            "name": "Chapter Completion - Unlock Padmé (Geonosis)",
-            "chest_unopened_img": "images/items/padme(geonosis).png",
-            "chest_opened_img": "images/items/padme(geonosis)_disabled.png",
-            "visibility_rules": [
-              "story_character_locations"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Episode 2",
-            "x": 466,
-            "y": 138
           }
         ]
       },
@@ -387,7 +568,7 @@
             "chest_unopened_img": "images/items/minikit.png",
             "chest_opened_img": "images/items/minikit_disabled.png",
             "access_rules": [
-              "highjump, shortie"
+              "highjump, shortie, setting_minikit_locations_enabled"
             ],
             "sections": [
               {
@@ -425,144 +606,209 @@
               {
                 "map": "Episode 2",
                 "x": 610,
-                "y": 82
+                "y": 69
+              }
+            ],
+            "visibility_rules": [
+              "setting_minikit_locations_enabled"
+            ]
+          },
+          {
+            "name": "Jedi Battle",
+            "sections": [
+              {
+                "name": "Purchase Super Battle Droid",
+                "chest_unopened_img": "images/items/superbattledroid.png",
+                "chest_opened_img": "images/items/superbattledroid_disabled.png",
+                "access_rules": [
+                  "[$can_purchase|25000]"
+                ]
+              },
+              {
+                "name": "Purchase Jango Fett",
+                "chest_unopened_img": "images/items/jangofett.png",
+                "chest_opened_img": "images/items/jangofett_disabled.png",
+                "access_rules": [
+                  "[$can_purchase|70000]"
+                ]
+              },
+              {
+                "name": "Purchase Boba Fett (Boy)",
+                "chest_unopened_img": "images/items/bobafett(boy).png",
+                "chest_opened_img": "images/items/bobafett(boy)_disabled.png",
+                "access_rules": [
+                  "[$can_purchase|5500]"
+                ]
+              },
+              {
+                "name": "Purchase Luminara",
+                "chest_unopened_img": "images/items/luminara.png",
+                "chest_opened_img": "images/items/luminara_disabled.png",
+                "access_rules": [
+                  "[$can_purchase|28000]"
+                ]
+              },
+              {
+                "name": "Purchase Ki-Adi Mundi",
+                "chest_unopened_img": "images/items/ki-adimundi.png",
+                "chest_opened_img": "images/items/ki-adimundi_disabled.png",
+                "access_rules": [
+                  "[$can_purchase|30000]"
+                ]
+              },
+              {
+                "name": "Purchase Kit Fisto",
+                "chest_unopened_img": "images/items/kitfisto.png",
+                "chest_opened_img": "images/items/kitfisto_disabled.png",
+                "access_rules": [
+                  "[$can_purchase|35000]"
+                ]
+              },
+              {
+                "name": "Purchase Shaak Ti",
+                "chest_unopened_img": "images/items/shaakti.png",
+                "chest_opened_img": "images/items/shaakti_disabled.png",
+                "access_rules": [
+                  "[$can_purchase|36000]"
+                ]
+              },
+              {
+                "name": "Purchase Aayla Secura",
+                "chest_unopened_img": "images/items/aaylasecura.png",
+                "chest_opened_img": "images/items/aaylasecura_disabled.png",
+                "access_rules": [
+                  "[$can_purchase|37000]"
+                ]
+              },
+              {
+                "name": "Purchase Plo Koon",
+                "chest_unopened_img": "images/items/plokoon.png",
+                "chest_opened_img": "images/items/plokoon_disabled.png",
+                "access_rules": [
+                  "[$can_purchase|39000]"
+                ]
+              },
+              {
+                "name": "Purchase Perfect Deflect (2-4)",
+                "chest_unopened_img": "images/items/perfectdeflect.png",
+                "chest_opened_img": "images/items/perfectdeflect_disabled.png",
+                "access_rules": [
+                  "bounty, [$can_purchase|20000]"
+                ]
+              },
+              {
+                "name": "2-4 True Jedi",
+                "access_rules": [
+                  "setting_true_jedi_locations_enabled"
+                ],
+                "visibility_rules": [
+                  "setting_true_jedi_locations_enabled"
+                ],
+                "chest_unopened_img": "images/settings/true_jedi.png",
+                "chest_opened_img": "images/settings/true_jedi_chest_opened.png"
+              },
+              {
+                "name": "2-4 Completion"
+              },
+              {
+                "name": "Chapter Completion - Unlock R2-D2",
+                "chest_unopened_img": "images/items/r2-d2.png",
+                "chest_opened_img": "images/items/r2-d2_disabled.png",
+                "visibility_rules": [
+                  "story_character_locations"
+                ]
+              },
+              {
+                "name": "Chapter Completion - Unlock Obi-Wan Kenobi (Jedi Master)",
+                "chest_unopened_img": "images/items/obi-wankenobi(jedimaster).png",
+                "chest_opened_img": "images/items/obi-wankenobi(jedimaster)_disabled.png",
+                "visibility_rules": [
+                  "story_character_locations"
+                ]
+              },
+              {
+                "name": "Chapter Completion - Unlock Anakin Skywalker (Padawan)",
+                "chest_unopened_img": "images/items/anakinskywalker(padawan).png",
+                "chest_opened_img": "images/items/anakinskywalker(padawan)_disabled.png",
+                "visibility_rules": [
+                  "story_character_locations"
+                ]
+              },
+              {
+                "name": "Chapter Completion - Unlock Mace Windu",
+                "chest_unopened_img": "images/items/macewindu.png",
+                "chest_opened_img": "images/items/macewindu_disabled.png",
+                "visibility_rules": [
+                  "story_character_locations"
+                ]
+              },
+              {
+                "name": "Chapter Completion - Unlock Padmé (Clawed)",
+                "chest_unopened_img": "images/items/padme(clawed).png",
+                "chest_opened_img": "images/items/padme(clawed)_disabled.png",
+                "visibility_rules": [
+                  "story_character_locations"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 2",
+                "x": 610,
+                "y": 100
               }
             ]
-          }
-        ],
-        "sections": [
+          },
           {
-            "name": "Purchase Super Battle Droid",
-            "chest_unopened_img": "images/items/superbattledroid.png",
-            "chest_opened_img": "images/items/superbattledroid_disabled.png",
-            "access_rules": [
-              "[$can_purchase|25000]"
+            "name": "Jedi Battle - Events",
+            "sections": [
+              {
+                "name": "2-4 Completion - Gold Brick",
+                "hosted_item": "2-4_completion_gold_brick"
+              },
+              {
+                "name": "2-4 True Jedi - Gold Brick",
+                "hosted_item": "2-4_true_jedi_gold_brick",
+                "access_rules": [
+                  "setting_true_jedi_locations_enabled"
+                ],
+                "visibility_rules": [
+                  "setting_true_jedi_locations_enabled"
+                ]
+              },
+              {
+                "name": "2-4 10/10 Minikits - Gold Brick",
+                "hosted_item": "2-4_minikits_gold_brick",
+                "access_rules": [
+                  "@Episode 2/Jedi Battle/Minikits"
+                ],
+                "visibility_rules": [
+                  "@Episode 2/Jedi Battle/Minikits"
+                ]
+              },
+              {
+                "name": "Defeated Jango Fett (2-4)",
+                "hosted_item": "boss_jango_fett_2-4",
+                "visibility_rules": [
+                  "setting_defeat_bosses_normal, $boss_enabled|boss_jango_fett_2-4"
+                ]
+              },
+              {
+                "name": "Defeated Jango Fett",
+                "hosted_item": "boss_jango_fett",
+                "visibility_rules": [
+                  "setting_defeat_bosses_unique, $boss_enabled|boss_jango_fett"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 2",
+                "x": 610,
+                "y": 131,
+                "shape": "diamond"
+              }
             ]
-          },
-          {
-            "name": "Purchase Jango Fett",
-            "chest_unopened_img": "images/items/jangofett.png",
-            "chest_opened_img": "images/items/jangofett_disabled.png",
-            "access_rules": [
-              "[$can_purchase|70000]"
-            ]
-          },
-          {
-            "name": "Purchase Boba Fett (Boy)",
-            "chest_unopened_img": "images/items/bobafett(boy).png",
-            "chest_opened_img": "images/items/bobafett(boy)_disabled.png",
-            "access_rules": [
-              "[$can_purchase|5500]"
-            ]
-          },
-          {
-            "name": "Purchase Luminara",
-            "chest_unopened_img": "images/items/luminara.png",
-            "chest_opened_img": "images/items/luminara_disabled.png",
-            "access_rules": [
-              "[$can_purchase|28000]"
-            ]
-          },
-          {
-            "name": "Purchase Ki-Adi Mundi",
-            "chest_unopened_img": "images/items/ki-adimundi.png",
-            "chest_opened_img": "images/items/ki-adimundi_disabled.png",
-            "access_rules": [
-              "[$can_purchase|30000]"
-            ]
-          },
-          {
-            "name": "Purchase Kit Fisto",
-            "chest_unopened_img": "images/items/kitfisto.png",
-            "chest_opened_img": "images/items/kitfisto_disabled.png",
-            "access_rules": [
-              "[$can_purchase|35000]"
-            ]
-          },
-          {
-            "name": "Purchase Shaak Ti",
-            "chest_unopened_img": "images/items/shaakti.png",
-            "chest_opened_img": "images/items/shaakti_disabled.png",
-            "access_rules": [
-              "[$can_purchase|36000]"
-            ]
-          },
-          {
-            "name": "Purchase Aayla Secura",
-            "chest_unopened_img": "images/items/aaylasecura.png",
-            "chest_opened_img": "images/items/aaylasecura_disabled.png",
-            "access_rules": [
-              "[$can_purchase|37000]"
-            ]
-          },
-          {
-            "name": "Purchase Plo Koon",
-            "chest_unopened_img": "images/items/plokoon.png",
-            "chest_opened_img": "images/items/plokoon_disabled.png",
-            "access_rules": [
-              "[$can_purchase|39000]"
-            ]
-          },
-          {
-            "name": "Purchase Perfect Deflect (2-4)",
-            "chest_unopened_img": "images/items/perfectdeflect.png",
-            "chest_opened_img": "images/items/perfectdeflect_disabled.png",
-            "access_rules": [
-              "bounty, [$can_purchase|20000]"
-            ]
-          },
-          {
-            "name": "2-4 True Jedi"
-          },
-          {
-            "name": "2-4 Completion"
-          },
-          {
-            "name": "Chapter Completion - Unlock R2-D2",
-            "chest_unopened_img": "images/items/r2-d2.png",
-            "chest_opened_img": "images/items/r2-d2_disabled.png",
-            "visibility_rules": [
-              "story_character_locations"
-            ]
-          },
-          {
-            "name": "Chapter Completion - Unlock Obi-Wan Kenobi (Jedi Master)",
-            "chest_unopened_img": "images/items/obi-wankenobi(jedimaster).png",
-            "chest_opened_img": "images/items/obi-wankenobi(jedimaster)_disabled.png",
-            "visibility_rules": [
-              "story_character_locations"
-            ]
-          },
-          {
-            "name": "Chapter Completion - Unlock Anakin Skywalker (Padawan)",
-            "chest_unopened_img": "images/items/anakinskywalker(padawan).png",
-            "chest_opened_img": "images/items/anakinskywalker(padawan)_disabled.png",
-            "visibility_rules": [
-              "story_character_locations"
-            ]
-          },
-          {
-            "name": "Chapter Completion - Unlock Mace Windu",
-            "chest_unopened_img": "images/items/macewindu.png",
-            "chest_opened_img": "images/items/macewindu_disabled.png",
-            "visibility_rules": [
-              "story_character_locations"
-            ]
-          },
-          {
-            "name": "Chapter Completion - Unlock Padmé (Clawed)",
-            "chest_unopened_img": "images/items/padme(clawed).png",
-            "chest_opened_img": "images/items/padme(clawed)_disabled.png",
-            "visibility_rules": [
-              "story_character_locations"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Episode 2",
-            "x": 610,
-            "y": 131
           }
         ]
       },
@@ -580,7 +826,7 @@
             "chest_unopened_img": "images/items/minikit.png",
             "chest_opened_img": "images/items/minikit_disabled.png",
             "access_rules": [
-              "tievehicle"
+              "tievehicle, setting_minikit_locations_enabled"
             ],
             "sections": [
               {
@@ -618,40 +864,91 @@
               {
                 "map": "Episode 2",
                 "x": 775,
-                "y": 80
+                "y": 73
+              }
+            ],
+            "visibility_rules": [
+              "setting_minikit_locations_enabled"
+            ]
+          },
+          {
+            "name": "Gunship Cavalry",
+            "sections": [
+              {
+                "name": "Purchase Exploding Blaster Bolts (2-5)",
+                "chest_unopened_img": "images/items/explodingblasterbolts.png",
+                "chest_opened_img": "images/items/explodingblasterbolts_disabled.png",
+                "access_rules": [
+                  "[$can_purchase|20000]"
+                ]
+              },
+              {
+                "name": "2-5 True Jedi",
+                "access_rules": [
+                  "setting_true_jedi_locations_enabled"
+                ],
+                "visibility_rules": [
+                  "setting_true_jedi_locations_enabled"
+                ],
+                "chest_unopened_img": "images/settings/true_jedi.png",
+                "chest_opened_img": "images/settings/true_jedi_chest_opened.png"
+              },
+              {
+                "name": "2-5 Completion"
+              },
+              {
+                "name": "Chapter Completion - Unlock Republic Gunship",
+                "chest_unopened_img": "images/items/republicgunship.png",
+                "chest_opened_img": "images/items/republicgunship_disabled.png",
+                "visibility_rules": [
+                  "story_character_locations"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 2",
+                "x": 775,
+                "y": 104
               }
             ]
-          }
-        ],
-        "sections": [
+          },
           {
-            "name": "Purchase Exploding Blaster Bolts (2-5)",
-            "chest_unopened_img": "images/items/explodingblasterbolts.png",
-            "chest_opened_img": "images/items/explodingblasterbolts_disabled.png",
-            "access_rules": [
-              "[$can_purchase|20000]"
+            "name": "Gunship Cavalry - Events",
+            "sections": [
+              {
+                "name": "2-5 Completion - Gold Brick",
+                "hosted_item": "2-5_completion_gold_brick"
+              },
+              {
+                "name": "2-5 True Jedi - Gold Brick",
+                "hosted_item": "2-5_true_jedi_gold_brick",
+                "access_rules": [
+                  "setting_true_jedi_locations_enabled"
+                ],
+                "visibility_rules": [
+                  "setting_true_jedi_locations_enabled"
+                ]
+              },
+              {
+                "name": "2-5 10/10 Minikits - Gold Brick",
+                "hosted_item": "2-5_minikits_gold_brick",
+                "access_rules": [
+                  "@Episode 2/Gunship Cavalry/Minikits"
+                ],
+                "visibility_rules": [
+                  "@Episode 2/Gunship Cavalry/Minikits"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 2",
+                "x": 775,
+                "y": 135,
+                "shape": "diamond"
+              }
             ]
-          },
-          {
-            "name": "2-5 True Jedi"
-          },
-          {
-            "name": "2-5 Completion"
-          },
-          {
-            "name": "Chapter Completion - Unlock Republic Gunship",
-            "chest_unopened_img": "images/items/republicgunship.png",
-            "chest_opened_img": "images/items/republicgunship_disabled.png",
-            "visibility_rules": [
-              "story_character_locations"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Episode 2",
-            "x": 775,
-            "y": 135
           }
         ]
       },
@@ -669,7 +966,7 @@
             "chest_unopened_img": "images/items/minikit.png",
             "chest_opened_img": "images/items/minikit_disabled.png",
             "access_rules": [
-              "highjump, blaster, astromech"
+              "highjump, blaster, astromech, setting_minikit_locations_enabled"
             ],
             "sections": [
               {
@@ -706,57 +1003,122 @@
             "map_locations": [
               {
                 "map": "Episode 2",
-                "x": 925,
-                "y": 87
+                "x": 926,
+                "y": 83
+              }
+            ],
+            "visibility_rules": [
+              "setting_minikit_locations_enabled"
+            ]
+          },
+          {
+            "name": "Count Dooku",
+            "sections": [
+              {
+                "name": "Purchase Force Pull (2-6)",
+                "chest_unopened_img": "images/items/forcepull.png",
+                "chest_opened_img": "images/items/forcepull_disabled.png",
+                "access_rules": [
+                  "bounty, shortie, [$can_purchase|12000]"
+                ]
+              },
+              {
+                "name": "2-6 True Jedi",
+                "access_rules": [
+                  "setting_true_jedi_locations_enabled"
+                ],
+                "visibility_rules": [
+                  "setting_true_jedi_locations_enabled"
+                ],
+                "chest_unopened_img": "images/settings/true_jedi.png",
+                "chest_opened_img": "images/settings/true_jedi_chest_opened.png"
+              },
+              {
+                "name": "2-6 Completion"
+              },
+              {
+                "name": "Chapter Completion - Unlock Obi-Wan Kenobi (Jedi Master)",
+                "chest_unopened_img": "images/items/obi-wankenobi(jedimaster).png",
+                "chest_opened_img": "images/items/obi-wankenobi(jedimaster)_disabled.png",
+                "visibility_rules": [
+                  "story_character_locations"
+                ]
+              },
+              {
+                "name": "Chapter Completion - Unlock Anakin Skywalker (Padawan)",
+                "chest_unopened_img": "images/items/anakinskywalker(padawan).png",
+                "chest_opened_img": "images/items/anakinskywalker(padawan)_disabled.png",
+                "visibility_rules": [
+                  "story_character_locations"
+                ]
+              },
+              {
+                "name": "Chapter Completion - Unlock Yoda",
+                "chest_unopened_img": "images/items/yoda.png",
+                "chest_opened_img": "images/items/yoda_disabled.png",
+                "visibility_rules": [
+                  "story_character_locations"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 2",
+                "x": 924,
+                "y": 114
               }
             ]
-          }
-        ],
-        "sections": [
+          },
           {
-            "name": "Purchase Force Pull (2-6)",
-            "chest_unopened_img": "images/items/forcepull.png",
-            "chest_opened_img": "images/items/forcepull_disabled.png",
-            "access_rules": [
-              "bounty, shortie, [$can_purchase|12000]"
+            "name": "Count Dooku - Events",
+            "sections": [
+              {
+                "name": "2-6 Completion - Gold Brick",
+                "hosted_item": "2-6_completion_gold_brick"
+              },
+              {
+                "name": "2-6 True Jedi - Gold Brick",
+                "hosted_item": "2-6_true_jedi_gold_brick",
+                "access_rules": [
+                  "setting_true_jedi_locations_enabled"
+                ],
+                "visibility_rules": [
+                  "setting_true_jedi_locations_enabled"
+                ]
+              },
+              {
+                "name": "2-6 10/10 Minikits - Gold Brick",
+                "hosted_item": "2-6_minikits_gold_brick",
+                "access_rules": [
+                  "@Episode 2/Count Dooku/Minikits"
+                ],
+                "visibility_rules": [
+                  "@Episode 2/Count Dooku/Minikits"
+                ]
+              },
+              {
+                "name": "Defeated Count Dooku (2-6)",
+                "hosted_item": "boss_count_dooku_2-6",
+                "visibility_rules": [
+                  "setting_defeat_bosses_normal, $boss_enabled|boss_count_dooku_2-6"
+                ]
+              },
+              {
+                "name": "Defeated Count Dooku",
+                "hosted_item": "boss_count_dooku",
+                "visibility_rules": [
+                  "setting_defeat_bosses_unique, $boss_enabled|boss_count_dooku"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 2",
+                "x": 922,
+                "y": 145,
+                "shape": "diamond"
+              }
             ]
-          },
-          {
-            "name": "2-6 True Jedi"
-          },
-          {
-            "name": "2-6 Completion"
-          },
-          {
-            "name": "Chapter Completion - Unlock Obi-Wan Kenobi (Jedi Master)",
-            "chest_unopened_img": "images/items/obi-wankenobi(jedimaster).png",
-            "chest_opened_img": "images/items/obi-wankenobi(jedimaster)_disabled.png",
-            "visibility_rules": [
-              "story_character_locations"
-            ]
-          },
-          {
-            "name": "Chapter Completion - Unlock Anakin Skywalker (Padawan)",
-            "chest_unopened_img": "images/items/anakinskywalker(padawan).png",
-            "chest_opened_img": "images/items/anakinskywalker(padawan)_disabled.png",
-            "visibility_rules": [
-              "story_character_locations"
-            ]
-          },
-          {
-            "name": "Chapter Completion - Unlock Yoda",
-            "chest_unopened_img": "images/items/yoda.png",
-            "chest_opened_img": "images/items/yoda_disabled.png",
-            "visibility_rules": [
-              "story_character_locations"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Episode 2",
-            "x": 922,
-            "y": 145
           }
         ]
       }

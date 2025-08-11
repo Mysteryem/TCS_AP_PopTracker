@@ -24,7 +24,7 @@
             "chest_unopened_img": "images/items/minikit.png",
             "chest_opened_img": "images/items/minikit_disabled.png",
             "access_rules": [
-              "tievehicle"
+              "tievehicle, setting_minikit_locations_enabled"
             ],
             "sections": [
               {
@@ -62,40 +62,91 @@
               {
                 "map": "Episode 5",
                 "x": 50,
-                "y": 96
+                "y": 90
+              }
+            ],
+            "visibility_rules": [
+              "setting_minikit_locations_enabled"
+            ]
+          },
+          {
+            "name": "Hoth Battle",
+            "sections": [
+              {
+                "name": "Purchase Self Destruct (5-1)",
+                "chest_unopened_img": "images/items/selfdestruct.png",
+                "chest_opened_img": "images/items/selfdestruct_disabled.png",
+                "access_rules": [
+                  "tievehicle, [$can_purchase|25000]"
+                ]
+              },
+              {
+                "name": "5-1 True Jedi",
+                "access_rules": [
+                  "setting_true_jedi_locations_enabled"
+                ],
+                "visibility_rules": [
+                  "setting_true_jedi_locations_enabled"
+                ],
+                "chest_unopened_img": "images/settings/true_jedi.png",
+                "chest_opened_img": "images/settings/true_jedi_chest_opened.png"
+              },
+              {
+                "name": "5-1 Completion"
+              },
+              {
+                "name": "Chapter Completion - Unlock Snowspeeder",
+                "chest_unopened_img": "images/items/snowspeeder.png",
+                "chest_opened_img": "images/items/snowspeeder_disabled.png",
+                "visibility_rules": [
+                  "story_character_locations"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 5",
+                "x": 51,
+                "y": 121
               }
             ]
-          }
-        ],
-        "sections": [
+          },
           {
-            "name": "Purchase Self Destruct (5-1)",
-            "chest_unopened_img": "images/items/selfdestruct.png",
-            "chest_opened_img": "images/items/selfdestruct_disabled.png",
-            "access_rules": [
-              "tievehicle, [$can_purchase|25000]"
+            "name": "Hoth Battle - Events",
+            "sections": [
+              {
+                "name": "5-1 Completion - Gold Brick",
+                "hosted_item": "5-1_completion_gold_brick"
+              },
+              {
+                "name": "5-1 True Jedi - Gold Brick",
+                "hosted_item": "5-1_true_jedi_gold_brick",
+                "access_rules": [
+                  "setting_true_jedi_locations_enabled"
+                ],
+                "visibility_rules": [
+                  "setting_true_jedi_locations_enabled"
+                ]
+              },
+              {
+                "name": "5-1 10/10 Minikits - Gold Brick",
+                "hosted_item": "5-1_minikits_gold_brick",
+                "access_rules": [
+                  "@Episode 5/Hoth Battle/Minikits"
+                ],
+                "visibility_rules": [
+                  "@Episode 5/Hoth Battle/Minikits"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 5",
+                "x": 52,
+                "y": 152,
+                "shape": "diamond"
+              }
             ]
-          },
-          {
-            "name": "5-1 True Jedi"
-          },
-          {
-            "name": "5-1 Completion"
-          },
-          {
-            "name": "Chapter Completion - Unlock Snowspeeder",
-            "chest_unopened_img": "images/items/snowspeeder.png",
-            "chest_opened_img": "images/items/snowspeeder_disabled.png",
-            "visibility_rules": [
-              "story_character_locations"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Episode 5",
-            "x": 52,
-            "y": 152
           }
         ]
       },
@@ -113,7 +164,7 @@
             "chest_unopened_img": "images/items/minikit.png",
             "chest_opened_img": "images/items/minikit_disabled.png",
             "access_rules": [
-              "sith, hover, astromech, bounty"
+              "sith, hover, astromech, bounty, setting_minikit_locations_enabled"
             ],
             "sections": [
               {
@@ -151,104 +202,155 @@
               {
                 "map": "Episode 5",
                 "x": 272,
-                "y": 89
+                "y": 76
+              }
+            ],
+            "visibility_rules": [
+              "setting_minikit_locations_enabled"
+            ]
+          },
+          {
+            "name": "Escape From Echo Base",
+            "sections": [
+              {
+                "name": "Purchase Han Solo (Hood)",
+                "chest_unopened_img": "images/items/hansolo(hood).png",
+                "chest_opened_img": "images/items/hansolo(hood)_disabled.png",
+                "access_rules": [
+                  "[$can_purchase|20000]"
+                ]
+              },
+              {
+                "name": "Purchase Luke Skywalker (Hoth)",
+                "chest_unopened_img": "images/items/lukeskywalker(hoth).png",
+                "chest_opened_img": "images/items/lukeskywalker(hoth)_disabled.png",
+                "access_rules": [
+                  "[$can_purchase|14000]"
+                ]
+              },
+              {
+                "name": "Purchase Rebel Trooper (Hoth)",
+                "chest_unopened_img": "images/items/rebeltrooper(hoth).png",
+                "chest_opened_img": "images/items/rebeltrooper(hoth)_disabled.png",
+                "access_rules": [
+                  "[$can_purchase|16000]"
+                ]
+              },
+              {
+                "name": "Purchase Rebel Pilot",
+                "chest_unopened_img": "images/items/rebelpilot.png",
+                "chest_opened_img": "images/items/rebelpilot_disabled.png",
+                "access_rules": [
+                  "[$can_purchase|15000]"
+                ]
+              },
+              {
+                "name": "Purchase Snowtrooper",
+                "chest_unopened_img": "images/items/snowtrooper.png",
+                "chest_opened_img": "images/items/snowtrooper_disabled.png",
+                "access_rules": [
+                  "[$can_purchase|16000]"
+                ]
+              },
+              {
+                "name": "Purchase Fast Build (5-2)",
+                "chest_unopened_img": "images/items/fastbuild.png",
+                "chest_opened_img": "images/items/fastbuild_disabled.png",
+                "access_rules": [
+                  "sith, [$can_purchase|30000]"
+                ]
+              },
+              {
+                "name": "5-2 True Jedi",
+                "access_rules": [
+                  "setting_true_jedi_locations_enabled"
+                ],
+                "visibility_rules": [
+                  "setting_true_jedi_locations_enabled"
+                ],
+                "chest_unopened_img": "images/settings/true_jedi.png",
+                "chest_opened_img": "images/settings/true_jedi_chest_opened.png"
+              },
+              {
+                "name": "5-2 Completion"
+              },
+              {
+                "name": "Chapter Completion - Unlock C-3PO",
+                "chest_unopened_img": "images/items/c-3po.png",
+                "chest_opened_img": "images/items/c-3po_disabled.png",
+                "visibility_rules": [
+                  "story_character_locations"
+                ]
+              },
+              {
+                "name": "Chapter Completion - Unlock Chewbacca",
+                "chest_unopened_img": "images/items/chewbacca.png",
+                "chest_opened_img": "images/items/chewbacca_disabled.png",
+                "visibility_rules": [
+                  "story_character_locations"
+                ]
+              },
+              {
+                "name": "Chapter Completion - Unlock Han Solo (Hoth)",
+                "chest_unopened_img": "images/items/hansolo(hoth).png",
+                "chest_opened_img": "images/items/hansolo(hoth)_disabled.png",
+                "visibility_rules": [
+                  "story_character_locations"
+                ]
+              },
+              {
+                "name": "Chapter Completion - Unlock Princess Leia (Hoth)",
+                "chest_unopened_img": "images/items/princessleia(hoth).png",
+                "chest_opened_img": "images/items/princessleia(hoth)_disabled.png",
+                "visibility_rules": [
+                  "story_character_locations"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 5",
+                "x": 273,
+                "y": 107
               }
             ]
-          }
-        ],
-        "sections": [
+          },
           {
-            "name": "Purchase Han Solo (Hood)",
-            "chest_unopened_img": "images/items/hansolo(hood).png",
-            "chest_opened_img": "images/items/hansolo(hood)_disabled.png",
-            "access_rules": [
-              "[$can_purchase|20000]"
+            "name": "Escape From Echo Base - Events",
+            "sections": [
+              {
+                "name": "5-2 Completion - Gold Brick",
+                "hosted_item": "5-2_completion_gold_brick"
+              },
+              {
+                "name": "5-2 True Jedi - Gold Brick",
+                "hosted_item": "5-2_true_jedi_gold_brick",
+                "access_rules": [
+                  "setting_true_jedi_locations_enabled"
+                ],
+                "visibility_rules": [
+                  "setting_true_jedi_locations_enabled"
+                ]
+              },
+              {
+                "name": "5-2 10/10 Minikits - Gold Brick",
+                "hosted_item": "5-2_minikits_gold_brick",
+                "access_rules": [
+                  "@Episode 5/Escape From Echo Base/Minikits"
+                ],
+                "visibility_rules": [
+                  "@Episode 5/Escape From Echo Base/Minikits"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 5",
+                "x": 274,
+                "y": 138,
+                "shape": "diamond"
+              }
             ]
-          },
-          {
-            "name": "Purchase Luke Skywalker (Hoth)",
-            "chest_unopened_img": "images/items/lukeskywalker(hoth).png",
-            "chest_opened_img": "images/items/lukeskywalker(hoth)_disabled.png",
-            "access_rules": [
-              "[$can_purchase|14000]"
-            ]
-          },
-          {
-            "name": "Purchase Rebel Trooper (Hoth)",
-            "chest_unopened_img": "images/items/rebeltrooper(hoth).png",
-            "chest_opened_img": "images/items/rebeltrooper(hoth)_disabled.png",
-            "access_rules": [
-              "[$can_purchase|16000]"
-            ]
-          },
-          {
-            "name": "Purchase Rebel Pilot",
-            "chest_unopened_img": "images/items/rebelpilot.png",
-            "chest_opened_img": "images/items/rebelpilot_disabled.png",
-            "access_rules": [
-              "[$can_purchase|15000]"
-            ]
-          },
-          {
-            "name": "Purchase Snowtrooper",
-            "chest_unopened_img": "images/items/snowtrooper.png",
-            "chest_opened_img": "images/items/snowtrooper_disabled.png",
-            "access_rules": [
-              "[$can_purchase|16000]"
-            ]
-          },
-          {
-            "name": "Purchase Fast Build (5-2)",
-            "chest_unopened_img": "images/items/fastbuild.png",
-            "chest_opened_img": "images/items/fastbuild_disabled.png",
-            "access_rules": [
-              "sith, [$can_purchase|30000]"
-            ]
-          },
-          {
-            "name": "5-2 True Jedi"
-          },
-          {
-            "name": "5-2 Completion"
-          },
-          {
-            "name": "Chapter Completion - Unlock C-3PO",
-            "chest_unopened_img": "images/items/c-3po.png",
-            "chest_opened_img": "images/items/c-3po_disabled.png",
-            "visibility_rules": [
-              "story_character_locations"
-            ]
-          },
-          {
-            "name": "Chapter Completion - Unlock Chewbacca",
-            "chest_unopened_img": "images/items/chewbacca.png",
-            "chest_opened_img": "images/items/chewbacca_disabled.png",
-            "visibility_rules": [
-              "story_character_locations"
-            ]
-          },
-          {
-            "name": "Chapter Completion - Unlock Han Solo (Hoth)",
-            "chest_unopened_img": "images/items/hansolo(hoth).png",
-            "chest_opened_img": "images/items/hansolo(hoth)_disabled.png",
-            "visibility_rules": [
-              "story_character_locations"
-            ]
-          },
-          {
-            "name": "Chapter Completion - Unlock Princess Leia (Hoth)",
-            "chest_unopened_img": "images/items/princessleia(hoth).png",
-            "chest_opened_img": "images/items/princessleia(hoth)_disabled.png",
-            "visibility_rules": [
-              "story_character_locations"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Episode 5",
-            "x": 274,
-            "y": 138
           }
         ]
       },
@@ -266,7 +368,7 @@
             "chest_unopened_img": "images/items/minikit.png",
             "chest_opened_img": "images/items/minikit_disabled.png",
             "access_rules": [
-              "towvehicle, tievehicle"
+              "towvehicle, tievehicle, setting_minikit_locations_enabled"
             ],
             "sections": [
               {
@@ -304,64 +406,115 @@
               {
                 "map": "Episode 5",
                 "x": 472,
-                "y": 81
+                "y": 72
+              }
+            ],
+            "visibility_rules": [
+              "setting_minikit_locations_enabled"
+            ]
+          },
+          {
+            "name": "Falcon Flight",
+            "sections": [
+              {
+                "name": "Purchase TIE Bomber",
+                "chest_unopened_img": "images/items/tiebomber.png",
+                "chest_opened_img": "images/items/tiebomber_disabled.png",
+                "access_rules": [
+                  "[$can_purchase|60000]"
+                ]
+              },
+              {
+                "name": "Purchase Imperial Shuttle",
+                "chest_unopened_img": "images/items/imperialshuttle.png",
+                "chest_opened_img": "images/items/imperialshuttle_disabled.png",
+                "access_rules": [
+                  "[$can_purchase|25000]"
+                ]
+              },
+              {
+                "name": "Purchase Score x4",
+                "chest_unopened_img": "images/items/progressivescoremultiplier4.png",
+                "chest_opened_img": "images/items/progressivescoremultiplier4_disabled.png",
+                "access_rules": [
+                  "[$can_purchase|2500000]"
+                ]
+              },
+              {
+                "name": "5-3 True Jedi",
+                "access_rules": [
+                  "setting_true_jedi_locations_enabled"
+                ],
+                "visibility_rules": [
+                  "setting_true_jedi_locations_enabled"
+                ],
+                "chest_unopened_img": "images/settings/true_jedi.png",
+                "chest_opened_img": "images/settings/true_jedi_chest_opened.png"
+              },
+              {
+                "name": "5-3 Completion"
+              },
+              {
+                "name": "Chapter Completion - Unlock X-Wing",
+                "chest_unopened_img": "images/items/x-wing.png",
+                "chest_opened_img": "images/items/x-wing_disabled.png",
+                "visibility_rules": [
+                  "story_character_locations"
+                ]
+              },
+              {
+                "name": "Chapter Completion - Unlock Millennium Falcon",
+                "chest_unopened_img": "images/items/millenniumfalcon.png",
+                "chest_opened_img": "images/items/millenniumfalcon_disabled.png",
+                "visibility_rules": [
+                  "story_character_locations"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 5",
+                "x": 473,
+                "y": 103
               }
             ]
-          }
-        ],
-        "sections": [
+          },
           {
-            "name": "Purchase TIE Bomber",
-            "chest_unopened_img": "images/items/tiebomber.png",
-            "chest_opened_img": "images/items/tiebomber_disabled.png",
-            "access_rules": [
-              "[$can_purchase|60000]"
+            "name": "Falcon Flight - Events",
+            "sections": [
+              {
+                "name": "5-3 Completion - Gold Brick",
+                "hosted_item": "5-3_completion_gold_brick"
+              },
+              {
+                "name": "5-3 True Jedi - Gold Brick",
+                "hosted_item": "5-3_true_jedi_gold_brick",
+                "access_rules": [
+                  "setting_true_jedi_locations_enabled"
+                ],
+                "visibility_rules": [
+                  "setting_true_jedi_locations_enabled"
+                ]
+              },
+              {
+                "name": "5-3 10/10 Minikits - Gold Brick",
+                "hosted_item": "5-3_minikits_gold_brick",
+                "access_rules": [
+                  "@Episode 5/Falcon Flight/Minikits"
+                ],
+                "visibility_rules": [
+                  "@Episode 5/Falcon Flight/Minikits"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 5",
+                "x": 474,
+                "y": 134,
+                "shape": "diamond"
+              }
             ]
-          },
-          {
-            "name": "Purchase Imperial Shuttle",
-            "chest_unopened_img": "images/items/imperialshuttle.png",
-            "chest_opened_img": "images/items/imperialshuttle_disabled.png",
-            "access_rules": [
-              "[$can_purchase|25000]"
-            ]
-          },
-          {
-            "name": "Purchase Score x4",
-            "chest_unopened_img": "images/items/progressivescoremultiplier4.png",
-            "chest_opened_img": "images/items/progressivescoremultiplier4_disabled.png",
-            "access_rules": [
-              "[$can_purchase|2500000]"
-            ]
-          },
-          {
-            "name": "5-3 True Jedi"
-          },
-          {
-            "name": "5-3 Completion"
-          },
-          {
-            "name": "Chapter Completion - Unlock X-Wing",
-            "chest_unopened_img": "images/items/x-wing.png",
-            "chest_opened_img": "images/items/x-wing_disabled.png",
-            "visibility_rules": [
-              "story_character_locations"
-            ]
-          },
-          {
-            "name": "Chapter Completion - Unlock Millennium Falcon",
-            "chest_unopened_img": "images/items/millenniumfalcon.png",
-            "chest_opened_img": "images/items/millenniumfalcon_disabled.png",
-            "visibility_rules": [
-              "story_character_locations"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Episode 5",
-            "x": 474,
-            "y": 134
           }
         ]
       },
@@ -379,7 +532,7 @@
             "chest_unopened_img": "images/items/minikit.png",
             "chest_opened_img": "images/items/minikit_disabled.png",
             "access_rules": [
-              "sith, bounty, shortie"
+              "sith, bounty, shortie, setting_minikit_locations_enabled"
             ],
             "sections": [
               {
@@ -416,65 +569,130 @@
             "map_locations": [
               {
                 "map": "Episode 5",
+                "x": 623,
+                "y": 67
+              }
+            ],
+            "visibility_rules": [
+              "setting_minikit_locations_enabled"
+            ]
+          },
+          {
+            "name": "Dagobah",
+            "sections": [
+              {
+                "name": "Purchase Regenerate Hearts (5-4)",
+                "chest_unopened_img": "images/items/regeneratehearts.png",
+                "chest_opened_img": "images/items/regeneratehearts_disabled.png",
+                "access_rules": [
+                  "sith, [$can_purchase|150000]"
+                ]
+              },
+              {
+                "name": "5-4 True Jedi",
+                "access_rules": [
+                  "setting_true_jedi_locations_enabled"
+                ],
+                "visibility_rules": [
+                  "setting_true_jedi_locations_enabled"
+                ],
+                "chest_unopened_img": "images/settings/true_jedi.png",
+                "chest_opened_img": "images/settings/true_jedi_chest_opened.png"
+              },
+              {
+                "name": "5-4 Completion"
+              },
+              {
+                "name": "Chapter Completion - Unlock R2-D2",
+                "chest_unopened_img": "images/items/r2-d2.png",
+                "chest_opened_img": "images/items/r2-d2_disabled.png",
+                "visibility_rules": [
+                  "story_character_locations"
+                ]
+              },
+              {
+                "name": "Chapter Completion - Unlock Yoda",
+                "chest_unopened_img": "images/items/yoda.png",
+                "chest_opened_img": "images/items/yoda_disabled.png",
+                "visibility_rules": [
+                  "story_character_locations"
+                ]
+              },
+              {
+                "name": "Chapter Completion - Unlock Luke Skywalker (Dagobah)",
+                "chest_unopened_img": "images/items/lukeskywalker(dagobah).png",
+                "chest_opened_img": "images/items/lukeskywalker(dagobah)_disabled.png",
+                "visibility_rules": [
+                  "story_character_locations"
+                ]
+              },
+              {
+                "name": "Chapter Completion - Unlock Luke Skywalker (Pilot)",
+                "chest_unopened_img": "images/items/lukeskywalker(pilot).png",
+                "chest_opened_img": "images/items/lukeskywalker(pilot)_disabled.png",
+                "visibility_rules": [
+                  "story_character_locations"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 5",
                 "x": 624,
-                "y": 84
+                "y": 98
               }
             ]
-          }
-        ],
-        "sections": [
+          },
           {
-            "name": "Purchase Regenerate Hearts (5-4)",
-            "chest_unopened_img": "images/items/regeneratehearts.png",
-            "chest_opened_img": "images/items/regeneratehearts_disabled.png",
-            "access_rules": [
-              "sith, [$can_purchase|150000]"
+            "name": "Dagobah - Events",
+            "sections": [
+              {
+                "name": "5-4 Completion - Gold Brick",
+                "hosted_item": "5-4_completion_gold_brick"
+              },
+              {
+                "name": "5-4 True Jedi - Gold Brick",
+                "hosted_item": "5-4_true_jedi_gold_brick",
+                "access_rules": [
+                  "setting_true_jedi_locations_enabled"
+                ],
+                "visibility_rules": [
+                  "setting_true_jedi_locations_enabled"
+                ]
+              },
+              {
+                "name": "5-4 10/10 Minikits - Gold Brick",
+                "hosted_item": "5-4_minikits_gold_brick",
+                "access_rules": [
+                  "@Episode 5/Dagobah/Minikits"
+                ],
+                "visibility_rules": [
+                  "@Episode 5/Dagobah/Minikits"
+                ]
+              },
+              {
+                "name": "Defeated Darth Vader (5-4)",
+                "hosted_item": "boss_darth_vader_5-4",
+                "visibility_rules": [
+                  "setting_defeat_bosses_normal, $boss_enabled|boss_darth_vader_5-4"
+                ]
+              },
+              {
+                "name": "Defeated Darth Vader",
+                "hosted_item": "boss_darth_vader",
+                "visibility_rules": [
+                  "setting_defeat_bosses_unique, $boss_enabled|boss_darth_vader"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 5",
+                "x": 625,
+                "y": 129,
+                "shape": "diamond"
+              }
             ]
-          },
-          {
-            "name": "5-4 True Jedi"
-          },
-          {
-            "name": "5-4 Completion"
-          },
-          {
-            "name": "Chapter Completion - Unlock R2-D2",
-            "chest_unopened_img": "images/items/r2-d2.png",
-            "chest_opened_img": "images/items/r2-d2_disabled.png",
-            "visibility_rules": [
-              "story_character_locations"
-            ]
-          },
-          {
-            "name": "Chapter Completion - Unlock Yoda",
-            "chest_unopened_img": "images/items/yoda.png",
-            "chest_opened_img": "images/items/yoda_disabled.png",
-            "visibility_rules": [
-              "story_character_locations"
-            ]
-          },
-          {
-            "name": "Chapter Completion - Unlock Luke Skywalker (Dagobah)",
-            "chest_unopened_img": "images/items/lukeskywalker(dagobah).png",
-            "chest_opened_img": "images/items/lukeskywalker(dagobah)_disabled.png",
-            "visibility_rules": [
-              "story_character_locations"
-            ]
-          },
-          {
-            "name": "Chapter Completion - Unlock Luke Skywalker (Pilot)",
-            "chest_unopened_img": "images/items/lukeskywalker(pilot).png",
-            "chest_opened_img": "images/items/lukeskywalker(pilot)_disabled.png",
-            "visibility_rules": [
-              "story_character_locations"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Episode 5",
-            "x": 625,
-            "y": 129
           }
         ]
       },
@@ -492,7 +710,7 @@
             "chest_unopened_img": "images/items/minikit.png",
             "chest_opened_img": "images/items/minikit_disabled.png",
             "access_rules": [
-              "bounty, imperial, shortie, sith"
+              "bounty, imperial, shortie, sith, setting_minikit_locations_enabled"
             ],
             "sections": [
               {
@@ -529,49 +747,114 @@
             "map_locations": [
               {
                 "map": "Episode 5",
+                "x": 830,
+                "y": 74
+              }
+            ],
+            "visibility_rules": [
+              "setting_minikit_locations_enabled"
+            ]
+          },
+          {
+            "name": "Cloud City Trap",
+            "sections": [
+              {
+                "name": "Purchase Score x6",
+                "chest_unopened_img": "images/items/progressivescoremultiplier6.png",
+                "chest_opened_img": "images/items/progressivescoremultiplier6_disabled.png",
+                "access_rules": [
+                  "bounty, hover, [$can_purchase|5000000]"
+                ]
+              },
+              {
+                "name": "5-5 True Jedi",
+                "access_rules": [
+                  "setting_true_jedi_locations_enabled"
+                ],
+                "visibility_rules": [
+                  "setting_true_jedi_locations_enabled"
+                ],
+                "chest_unopened_img": "images/settings/true_jedi.png",
+                "chest_opened_img": "images/settings/true_jedi_chest_opened.png"
+              },
+              {
+                "name": "5-5 Completion"
+              },
+              {
+                "name": "Chapter Completion - Unlock R2-D2",
+                "chest_unopened_img": "images/items/r2-d2.png",
+                "chest_opened_img": "images/items/r2-d2_disabled.png",
+                "visibility_rules": [
+                  "story_character_locations"
+                ]
+              },
+              {
+                "name": "Chapter Completion - Unlock Luke Skywalker (Bespin)",
+                "chest_unopened_img": "images/items/lukeskywalker(bespin).png",
+                "chest_opened_img": "images/items/lukeskywalker(bespin)_disabled.png",
+                "visibility_rules": [
+                  "story_character_locations"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 5",
                 "x": 829,
-                "y": 83
+                "y": 105
               }
             ]
-          }
-        ],
-        "sections": [
+          },
           {
-            "name": "Purchase Score x6",
-            "chest_unopened_img": "images/items/progressivescoremultiplier6.png",
-            "chest_opened_img": "images/items/progressivescoremultiplier6_disabled.png",
-            "access_rules": [
-              "bounty, hover, [$can_purchase|5000000]"
+            "name": "Cloud City Trap - Events",
+            "sections": [
+              {
+                "name": "5-5 Completion - Gold Brick",
+                "hosted_item": "5-5_completion_gold_brick"
+              },
+              {
+                "name": "5-5 True Jedi - Gold Brick",
+                "hosted_item": "5-5_true_jedi_gold_brick",
+                "access_rules": [
+                  "setting_true_jedi_locations_enabled"
+                ],
+                "visibility_rules": [
+                  "setting_true_jedi_locations_enabled"
+                ]
+              },
+              {
+                "name": "5-5 10/10 Minikits - Gold Brick",
+                "hosted_item": "5-5_minikits_gold_brick",
+                "access_rules": [
+                  "@Episode 5/Cloud City Trap/Minikits"
+                ],
+                "visibility_rules": [
+                  "@Episode 5/Cloud City Trap/Minikits"
+                ]
+              },
+              {
+                "name": "Defeated Darth Vader (5-5)",
+                "hosted_item": "boss_darth_vader_5-5",
+                "visibility_rules": [
+                  "setting_defeat_bosses_normal, $boss_enabled|boss_darth_vader_5-5"
+                ]
+              },
+              {
+                "name": "Defeated Darth Vader",
+                "hosted_item": "boss_darth_vader",
+                "visibility_rules": [
+                  "setting_defeat_bosses_unique, $boss_enabled|boss_darth_vader"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 5",
+                "x": 828,
+                "y": 136,
+                "shape": "diamond"
+              }
             ]
-          },
-          {
-            "name": "5-5 True Jedi"
-          },
-          {
-            "name": "5-5 Completion"
-          },
-          {
-            "name": "Chapter Completion - Unlock R2-D2",
-            "chest_unopened_img": "images/items/r2-d2.png",
-            "chest_opened_img": "images/items/r2-d2_disabled.png",
-            "visibility_rules": [
-              "story_character_locations"
-            ]
-          },
-          {
-            "name": "Chapter Completion - Unlock Luke Skywalker (Bespin)",
-            "chest_unopened_img": "images/items/lukeskywalker(bespin).png",
-            "chest_opened_img": "images/items/lukeskywalker(bespin)_disabled.png",
-            "visibility_rules": [
-              "story_character_locations"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Episode 5",
-            "x": 828,
-            "y": 136
           }
         ]
       },
@@ -589,7 +872,7 @@
             "chest_unopened_img": "images/items/minikit.png",
             "chest_opened_img": "images/items/minikit_disabled.png",
             "access_rules": [
-              "sith, bounty"
+              "sith, bounty, setting_minikit_locations_enabled"
             ],
             "sections": [
               {
@@ -626,105 +909,170 @@
             "map_locations": [
               {
                 "map": "Episode 5",
+                "x": 988,
+                "y": 86
+              }
+            ],
+            "visibility_rules": [
+              "setting_minikit_locations_enabled"
+            ]
+          },
+          {
+            "name": "Betrayal Over Bespin",
+            "sections": [
+              {
+                "name": "Purchase Lobot",
+                "chest_unopened_img": "images/items/lobot.png",
+                "chest_opened_img": "images/items/lobot_disabled.png",
+                "access_rules": [
+                  "[$can_purchase|11000]"
+                ]
+              },
+              {
+                "name": "Purchase Ugnaught",
+                "chest_unopened_img": "images/items/ugnaught.png",
+                "chest_opened_img": "images/items/ugnaught_disabled.png",
+                "access_rules": [
+                  "[$can_purchase|36000]"
+                ]
+              },
+              {
+                "name": "Purchase Bespin Guard",
+                "chest_unopened_img": "images/items/bespinguard.png",
+                "chest_opened_img": "images/items/bespinguard_disabled.png",
+                "access_rules": [
+                  "[$can_purchase|15000]"
+                ]
+              },
+              {
+                "name": "Purchase Princess Leia (Prisoner)",
+                "chest_unopened_img": "images/items/princessleia(prisoner).png",
+                "chest_opened_img": "images/items/princessleia(prisoner)_disabled.png",
+                "access_rules": [
+                  "[$can_purchase|22000]"
+                ]
+              },
+              {
+                "name": "Purchase Minikit Detector (5-6)",
+                "chest_unopened_img": "images/items/minikitdetector.png",
+                "chest_opened_img": "images/items/minikitdetector_disabled.png",
+                "access_rules": [
+                  "bounty, [$can_purchase|250000]"
+                ]
+              },
+              {
+                "name": "5-6 True Jedi",
+                "access_rules": [
+                  "setting_true_jedi_locations_enabled"
+                ],
+                "visibility_rules": [
+                  "setting_true_jedi_locations_enabled"
+                ],
+                "chest_unopened_img": "images/settings/true_jedi.png",
+                "chest_opened_img": "images/settings/true_jedi_chest_opened.png"
+              },
+              {
+                "name": "5-6 Completion"
+              },
+              {
+                "name": "Chapter Completion - Unlock R2-D2",
+                "chest_unopened_img": "images/items/r2-d2.png",
+                "chest_opened_img": "images/items/r2-d2_disabled.png",
+                "visibility_rules": [
+                  "story_character_locations"
+                ]
+              },
+              {
+                "name": "Chapter Completion - Unlock C-3PO",
+                "chest_unopened_img": "images/items/c-3po.png",
+                "chest_opened_img": "images/items/c-3po_disabled.png",
+                "visibility_rules": [
+                  "story_character_locations"
+                ]
+              },
+              {
+                "name": "Chapter Completion - Unlock Chewbacca",
+                "chest_unopened_img": "images/items/chewbacca.png",
+                "chest_opened_img": "images/items/chewbacca_disabled.png",
+                "visibility_rules": [
+                  "story_character_locations"
+                ]
+              },
+              {
+                "name": "Chapter Completion - Unlock Lando Calrissian",
+                "chest_unopened_img": "images/items/landocalrissian.png",
+                "chest_opened_img": "images/items/landocalrissian_disabled.png",
+                "visibility_rules": [
+                  "story_character_locations"
+                ]
+              },
+              {
+                "name": "Chapter Completion - Unlock Princess Leia (Bespin)",
+                "chest_unopened_img": "images/items/princessleia(bespin).png",
+                "chest_opened_img": "images/items/princessleia(bespin)_disabled.png",
+                "visibility_rules": [
+                  "story_character_locations"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 5",
                 "x": 987,
-                "y": 93
+                "y": 117
               }
             ]
-          }
-        ],
-        "sections": [
+          },
           {
-            "name": "Purchase Lobot",
-            "chest_unopened_img": "images/items/lobot.png",
-            "chest_opened_img": "images/items/lobot_disabled.png",
-            "access_rules": [
-              "[$can_purchase|11000]"
+            "name": "Betrayal Over Bespin - Events",
+            "sections": [
+              {
+                "name": "5-6 Completion - Gold Brick",
+                "hosted_item": "5-6_completion_gold_brick"
+              },
+              {
+                "name": "5-6 True Jedi - Gold Brick",
+                "hosted_item": "5-6_true_jedi_gold_brick",
+                "access_rules": [
+                  "setting_true_jedi_locations_enabled"
+                ],
+                "visibility_rules": [
+                  "setting_true_jedi_locations_enabled"
+                ]
+              },
+              {
+                "name": "5-6 10/10 Minikits - Gold Brick",
+                "hosted_item": "5-6_minikits_gold_brick",
+                "access_rules": [
+                  "@Episode 5/Betrayal Over Bespin/Minikits"
+                ],
+                "visibility_rules": [
+                  "@Episode 5/Betrayal Over Bespin/Minikits"
+                ]
+              },
+              {
+                "name": "Defeated Boba Fett (5-6)",
+                "hosted_item": "boss_boba_fett_5-6",
+                "visibility_rules": [
+                  "setting_defeat_bosses_normal, $boss_enabled|boss_boba_fett_5-6"
+                ]
+              },
+              {
+                "name": "Defeated Boba Fett",
+                "hosted_item": "boss_boba_fett",
+                "visibility_rules": [
+                  "setting_defeat_bosses_unique, $boss_enabled|boss_boba_fett"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 5",
+                "x": 986,
+                "y": 148,
+                "shape": "diamond"
+              }
             ]
-          },
-          {
-            "name": "Purchase Ugnaught",
-            "chest_unopened_img": "images/items/ugnaught.png",
-            "chest_opened_img": "images/items/ugnaught_disabled.png",
-            "access_rules": [
-              "[$can_purchase|36000]"
-            ]
-          },
-          {
-            "name": "Purchase Bespin Guard",
-            "chest_unopened_img": "images/items/bespinguard.png",
-            "chest_opened_img": "images/items/bespinguard_disabled.png",
-            "access_rules": [
-              "[$can_purchase|15000]"
-            ]
-          },
-          {
-            "name": "Purchase Princess Leia (Prisoner)",
-            "chest_unopened_img": "images/items/princessleia(prisoner).png",
-            "chest_opened_img": "images/items/princessleia(prisoner)_disabled.png",
-            "access_rules": [
-              "[$can_purchase|22000]"
-            ]
-          },
-          {
-            "name": "Purchase Minikit Detector (5-6)",
-            "chest_unopened_img": "images/items/minikitdetector.png",
-            "chest_opened_img": "images/items/minikitdetector_disabled.png",
-            "access_rules": [
-              "bounty, [$can_purchase|250000]"
-            ]
-          },
-          {
-            "name": "5-6 True Jedi"
-          },
-          {
-            "name": "5-6 Completion"
-          },
-          {
-            "name": "Chapter Completion - Unlock R2-D2",
-            "chest_unopened_img": "images/items/r2-d2.png",
-            "chest_opened_img": "images/items/r2-d2_disabled.png",
-            "visibility_rules": [
-              "story_character_locations"
-            ]
-          },
-          {
-            "name": "Chapter Completion - Unlock C-3PO",
-            "chest_unopened_img": "images/items/c-3po.png",
-            "chest_opened_img": "images/items/c-3po_disabled.png",
-            "visibility_rules": [
-              "story_character_locations"
-            ]
-          },
-          {
-            "name": "Chapter Completion - Unlock Chewbacca",
-            "chest_unopened_img": "images/items/chewbacca.png",
-            "chest_opened_img": "images/items/chewbacca_disabled.png",
-            "visibility_rules": [
-              "story_character_locations"
-            ]
-          },
-          {
-            "name": "Chapter Completion - Unlock Lando Calrissian",
-            "chest_unopened_img": "images/items/landocalrissian.png",
-            "chest_opened_img": "images/items/landocalrissian_disabled.png",
-            "visibility_rules": [
-              "story_character_locations"
-            ]
-          },
-          {
-            "name": "Chapter Completion - Unlock Princess Leia (Bespin)",
-            "chest_unopened_img": "images/items/princessleia(bespin).png",
-            "chest_opened_img": "images/items/princessleia(bespin)_disabled.png",
-            "visibility_rules": [
-              "story_character_locations"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Episode 5",
-            "x": 986,
-            "y": 148
           }
         ]
       }

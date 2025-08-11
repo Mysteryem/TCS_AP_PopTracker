@@ -1,0 +1,290 @@
+[
+  {
+    "name": "Darth Maul",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "name": "Boss Not Enabled (Darth Maul)",
+        "img": "images/bosses/no_boss.png",
+        "img_mods": "@disabled,@disabled"
+      },
+      {
+        "name": "Defeat Darth Maul",
+        "img": "images/bosses/darth_maul.png",
+        "img_mods": "@disabled"
+      },
+      {
+        "name": "Darth Maul Defeated",
+        "img": "images/bosses/darth_maul.png",
+        "codes": "boss_darth_maul, unique_boss_defeated",
+        "img_mods": "overlay|images/bosses/boss_defeated.png"
+      }
+    ]
+  },
+  {
+    "name": "Zam Wesell",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "name": "Boss Not Enabled (Zam Wesell)",
+        "img": "images/bosses/no_boss.png",
+        "img_mods": "@disabled,@disabled"
+      },
+      {
+        "name": "Defeat Zam Wesell",
+        "img": "images/bosses/zam_wesell.png",
+        "img_mods": "@disabled"
+      },
+      {
+        "name": "Zam Wesell Defeated",
+        "img": "images/bosses/zam_wesell.png",
+        "codes": "boss_zam_wesell, unique_boss_defeated",
+        "img_mods": "overlay|images/bosses/boss_defeated.png"
+      }
+    ]
+  },
+  {
+    "name": "Jango Fett",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "name": "Boss Not Enabled (Jango Fett)",
+        "img": "images/bosses/no_boss.png",
+        "img_mods": "@disabled,@disabled"
+      },
+      {
+        "name": "Defeat Jango Fett",
+        "img": "images/bosses/jango_fett.png",
+        "img_mods": "@disabled"
+      },
+      {
+        "name": "Jango Fett Defeated",
+        "img": "images/bosses/jango_fett.png",
+        "codes": "boss_jango_fett, unique_boss_defeated",
+        "img_mods": "overlay|images/bosses/boss_defeated.png"
+      }
+    ]
+  },
+  {
+    "name": "Count Dooku",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "name": "Boss Not Enabled (Count Dooku)",
+        "img": "images/bosses/no_boss.png",
+        "img_mods": "@disabled,@disabled"
+      },
+      {
+        "name": "Defeat Count Dooku",
+        "img": "images/bosses/count_dooku.png",
+        "img_mods": "@disabled"
+      },
+      {
+        "name": "Count Dooku Defeated",
+        "img": "images/bosses/count_dooku.png",
+        "codes": "boss_count_dooku, unique_boss_defeated",
+        "img_mods": "overlay|images/bosses/boss_defeated.png"
+      }
+    ]
+  },
+  {
+    "name": "General Grievous",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "name": "Boss Not Enabled (General Grievous)",
+        "img": "images/bosses/no_boss.png",
+        "img_mods": "@disabled,@disabled"
+      },
+      {
+        "name": "Defeat General Grievous",
+        "img": "images/bosses/general_grievous.png",
+        "img_mods": "@disabled"
+      },
+      {
+        "name": "General Grievous Defeated",
+        "img": "images/bosses/general_grievous.png",
+        "codes": "boss_general_grievous, unique_boss_defeated",
+        "img_mods": "overlay|images/bosses/boss_defeated.png"
+      }
+    ]
+  },
+  {
+    "name": "Anakin Skywalker",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "name": "Boss Not Enabled (Anakin Skywalker)",
+        "img": "images/bosses/no_boss.png",
+        "img_mods": "@disabled,@disabled"
+      },
+      {
+        "name": "Defeat Anakin Skywalker",
+        "img": "images/bosses/anakin_skywalker.png",
+        "img_mods": "@disabled"
+      },
+      {
+        "name": "Anakin Skywalker Defeated",
+        "img": "images/bosses/anakin_skywalker.png",
+        "codes": "boss_anakin_skywalker, unique_boss_defeated",
+        "img_mods": "overlay|images/bosses/boss_defeated.png"
+      }
+    ]
+  },
+  {
+    "name": "Death Star",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "name": "Boss Not Enabled (Death Star)",
+        "img": "images/bosses/no_boss.png",
+        "img_mods": "@disabled,@disabled"
+      },
+      {
+        "name": "Defeat Death Star",
+        "img": "images/bosses/death_star.png",
+        "img_mods": "@disabled"
+      },
+      {
+        "name": "Death Star Defeated",
+        "img": "images/bosses/death_star.png",
+        "codes": "boss_death_star, unique_boss_defeated",
+        "img_mods": "overlay|images/bosses/boss_defeated.png"
+      }
+    ]
+  },
+  {
+    "name": "Darth Vader",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "name": "Boss Not Enabled (Darth Vader)",
+        "img": "images/bosses/no_boss.png",
+        "img_mods": "@disabled,@disabled"
+      },
+      {
+        "name": "Defeat Darth Vader",
+        "img": "images/bosses/darth_vader.png",
+        "img_mods": "@disabled"
+      },
+      {
+        "name": "Darth Vader Defeated",
+        "img": "images/bosses/darth_vader.png",
+        "codes": "boss_darth_vader, unique_boss_defeated",
+        "img_mods": "overlay|images/bosses/boss_defeated.png"
+      }
+    ]
+  },
+  {
+    "name": "Boba Fett",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "name": "Boss Not Enabled (Boba Fett)",
+        "img": "images/bosses/no_boss.png",
+        "img_mods": "@disabled,@disabled"
+      },
+      {
+        "name": "Defeat Boba Fett",
+        "img": "images/bosses/boba_fett.png",
+        "img_mods": "@disabled"
+      },
+      {
+        "name": "Boba Fett Defeated",
+        "img": "images/bosses/boba_fett.png",
+        "codes": "boss_boba_fett, unique_boss_defeated",
+        "img_mods": "overlay|images/bosses/boss_defeated.png"
+      }
+    ]
+  },
+  {
+    "name": "Rancor",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "name": "Boss Not Enabled (Rancor)",
+        "img": "images/bosses/no_boss.png",
+        "img_mods": "@disabled,@disabled"
+      },
+      {
+        "name": "Defeat Rancor",
+        "img": "images/bosses/rancor.png",
+        "img_mods": "@disabled"
+      },
+      {
+        "name": "Rancor Defeated",
+        "img": "images/bosses/rancor.png",
+        "codes": "boss_rancor, unique_boss_defeated",
+        "img_mods": "overlay|images/bosses/boss_defeated.png"
+      }
+    ]
+  },
+  {
+    "name": "The Emperor",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "name": "Boss Not Enabled (The Emperor)",
+        "img": "images/bosses/no_boss.png",
+        "img_mods": "@disabled,@disabled"
+      },
+      {
+        "name": "Defeat The Emperor",
+        "img": "images/bosses/the_emperor.png",
+        "img_mods": "@disabled"
+      },
+      {
+        "name": "The Emperor Defeated",
+        "img": "images/bosses/the_emperor.png",
+        "codes": "boss_the_emperor, unique_boss_defeated",
+        "img_mods": "overlay|images/bosses/boss_defeated.png"
+      }
+    ]
+  },
+  {
+    "name": "Death Star II",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "name": "Boss Not Enabled (Death Star II)",
+        "img": "images/bosses/no_boss.png",
+        "img_mods": "@disabled,@disabled"
+      },
+      {
+        "name": "Defeat Death Star II",
+        "img": "images/bosses/death_star_ii.png",
+        "img_mods": "@disabled"
+      },
+      {
+        "name": "Death Star II Defeated",
+        "img": "images/bosses/death_star_ii.png",
+        "codes": "boss_death_star_ii, unique_boss_defeated",
+        "img_mods": "overlay|images/bosses/boss_defeated.png"
+      }
+    ]
+  }
+]

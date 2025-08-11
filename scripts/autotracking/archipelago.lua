@@ -2,6 +2,9 @@
 require("scripts/autotracking/item_mapping")
 require("scripts/autotracking/location_mapping")
 require("scripts/autotracking/cantina_room_mapping")
+require("scripts/autotracking/boss_mapping")
+require("scripts/autotracking/area_id_mapping")
+Version = require("scripts/version")
 
 -- Disabled until PopTracker 0.32.0 is released, which adds section highlighting.
 -- local HIGHLIGHT_LEVEL = {
@@ -18,6 +21,16 @@ goal_status_key = nil
 
 local CANTINA_ROOM_KEY_FORMAT = "tcs_cantina_room_%i_%i"
 local cantina_room_key
+
+-- Gold Brick events. These are written to datastorage as lists of area IDs, and updated as if the lists were sets.
+local COMPLETED_FREE_PLAY_KEY_FORMAT = "tcs_completed_free_play_%i_%i"
+local completed_free_play_key
+local COMPLETED_TRUE_JEDI_KEY_FORMAT = "tcs_completed_true_jedi_%i_%i"
+local completed_true_jedi_key
+local COMPLETED_10_MINIKITS_KEY_FORMAT = "tcs_completed_10_minikits_%i_%i"
+local completed_10_minikits_key
+local COMPLETED_BONUSES_KEY_FORMAT = "tcs_completed_bonuses_%i_%i"
+local completed_bonuses_key
 
 CUR_INDEX = -1
 --SLOT_DATA = nil
@@ -60,8 +73,24 @@ function onClear(slot_data)
     goal_status_key = string.format(GOAL_STATUS_FORMAT, Archipelago.TeamNumber, Archipelago.PlayerNumber)
     -- Get and subscribe to changes in the player's current room in the Cantina
     cantina_room_key = string.format(CANTINA_ROOM_KEY_FORMAT, Archipelago.TeamNumber, Archipelago.PlayerNumber)
-    Archipelago:Get({goal_status_key, cantina_room_key})
-    Archipelago:SetNotify({goal_status_key, cantina_room_key})
+    -- Get and subscribe to changes in the player's completed chapters
+    completed_free_play_key = string.format(COMPLETED_FREE_PLAY_KEY_FORMAT, Archipelago.TeamNumber, Archipelago.PlayerNumber)
+    -- Get and subscribe to changes in the player's completed Bonus levels
+    completed_bonuses_key = string.format(COMPLETED_BONUSES_KEY_FORMAT, Archipelago.TeamNumber, Archipelago.PlayerNumber)
+    -- Get and subscribe to changes in the player's completed True Jedi
+    completed_true_jedi_key = string.format(COMPLETED_TRUE_JEDI_KEY_FORMAT, Archipelago.TeamNumber, Archipelago.PlayerNumber)
+    -- Get and subscribe to changes in the player's completed 10/10 Minikits
+    completed_10_minikits_key = string.format(COMPLETED_10_MINIKITS_KEY_FORMAT, Archipelago.TeamNumber, Archipelago.PlayerNumber)
+    local datastorage_keys = {
+        goal_status_key,
+        cantina_room_key,
+        completed_free_play_key,
+        completed_bonuses_key,
+        completed_true_jedi_key,
+        completed_10_minikits_key,
+    }
+    Archipelago:Get(datastorage_keys)
+    Archipelago:SetNotify(datastorage_keys)
 
     CUR_INDEX = -1
     -- reset locations
@@ -108,14 +137,21 @@ function onClear(slot_data)
             end
         end
     end
+    -- Reset Gold Bricks
+    for _k, shortname in pairs(AREA_ID_TO_SHORTNAME) do
+        Tracker:FindObjectForCode(shortname.."_completion_gold_brick").Active = false
+        -- Bonus levels only have completion, so only reset True Jedi and 10 Minikits Gold Bricks for Chapter levels.
+        if string.len(shortname) == 3 then
+            Tracker:FindObjectForCode(shortname.."_true_jedi_gold_brick").Active = false
+            Tracker:FindObjectForCode(shortname.."_minikits_gold_brick").Active = false
+        end
+    end
+
     PLAYER_ID = Archipelago.PlayerNumber or -1
     TEAM_NUMBER = Archipelago.TeamNumber or 0
     SLOT_DATA = slot_data
 
-    local version = slot_data["apworld_version"]
-    local major = version[1]
-    local minor = version[2]
-    local patch = version[3]
+    local apworld_version = Version.new(slot_data["apworld_version"])
     local goal_amount = slot_data["minikit_goal_amount"]
 
     Tracker:FindObjectForCode("minikits_for_goal").AcquiredCount = goal_amount
@@ -187,17 +223,42 @@ function onClear(slot_data)
         Tracker:FindObjectForCode(bonuses_mapping[key]).Active = true
     end
 
+    -- Set logic settings
     local most_expensive_purchase = slot_data["most_expensive_purchase_with_no_multiplier"] * 1000
     Tracker:FindObjectForCode("max_purchase_with_no_multipliers").AcquiredCount = most_expensive_purchase
 
+    local all_episodes_purchases_unlock = slot_data["all_episodes_character_purchase_requirements"]
+    Tracker:FindObjectForCode("all_episodes_purchases_unlock").CurrentStage = all_episodes_purchases_unlock
+
+    -- Set enabled location types
     local story_character_locations_enabled = slot_data["enable_story_character_unlock_locations"] == 1
     Tracker:FindObjectForCode("story_character_locations").Active = story_character_locations_enabled
 
     local all_episodes_purchases_enabled = slot_data["enable_all_episodes_purchases"] == 1
     Tracker:FindObjectForCode("all_episodes_purchase_locations").Active = all_episodes_purchases_enabled
 
-    local all_episodes_purchases_unlock = slot_data["all_episodes_character_purchase_requirements"]
-    Tracker:FindObjectForCode("all_episodes_purchases_unlock").CurrentStage = all_episodes_purchases_unlock
+    local enable_true_jedi_locations
+    if apworld_version < Version.new({1,1,0}) then
+        -- Always enabled in earlier versions.
+        enable_true_jedi_locations = true
+    else
+        enable_true_jedi_locations = slot_data["enable_true_jedi_locations"] == 1
+    end
+    Tracker:FindObjectForCode("setting_true_jedi_locations_enabled").Active = enable_true_jedi_locations
+
+    local enable_minikit_locations
+    if apworld_version < Version.new({1,1,0}) then
+        -- Always enabled in earlier versions.
+        enable_minikit_locations = true
+    else
+        enable_minikit_locations = slot_data["enable_minikit_locations"] == 1
+    end
+    Tracker:FindObjectForCode("setting_minikit_locations_enabled").Active = enable_minikit_locations
+
+    -- Set enabled bosses
+    set_bosses_from_slot_data_chapters(slot_data)
+    local defeat_bosses_goal_amount = slot_data["defeat_bosses_goal_amount"] or 0
+    Tracker:FindObjectForCode("setting_defeat_bosses_goal_amount").AcquiredCount = defeat_bosses_goal_amount
 
     -- Hint tracking disabled until PopTracker 0.32.0 is released, which adds section highlighting.
 --     if Archipelago.PlayerNumber > -1 then
@@ -331,12 +392,12 @@ local function checkGoalStatus(value)
         local goal_path
         if minikits_goal then
             if bosses_goal then
-                goal_path = "@Cantina/Goal/Combined Goal"
+                goal_path = "@Cantina/Goal Events/Combined Goal"
             else
-                goal_path = "@Cantina/Goal/Minikits Goal"
+                goal_path = "@Cantina/Goal Events/Minikits Goal"
             end
         elseif bosses_goal then
-            goal_path = "@Cantina/Goal/Defeat Bosses Goal"
+            goal_path = "@Cantina/Goal Events/Defeat Bosses Goal"
         else
             print("Error: The goal has been completed, but no goal location could not be determined.")
             return
@@ -368,6 +429,37 @@ local function update_cantina_room(room_value)
     end
 end
 
+local function update_gold_bricks(format, completed_chapters)
+    completed_chapters = completed_chapters or {}
+    for _, area_id in ipairs(completed_chapters) do
+        local shortname = AREA_ID_TO_SHORTNAME[area_id]
+        if shortname ~= nil then
+            local s = string.format(shortname)
+            Tracker:FindObjectForCode(s).Active = true
+        end
+    end
+end
+
+local function new_area_ids(value, old_value)
+    value = value or {}
+    old_value = old_value or {}
+    local old_set = {}
+    for _, v in old_value do
+        old_set[v] = true
+    end
+    local new_values = {}
+    for _, v in value do
+        if old_set[v] == nil then
+            table.insert(new_values, v)
+        end
+    end
+    return new_values
+end
+
+local function update_new_gold_bricks(format, value, old_value)
+    update_gold_bricks(format, new_area_ids(value, old_value))
+end
+
 function onNotify(key, value, old_value)
     print("onNotify", key, value, old_value)
     if key == HINTS_ID then
@@ -378,6 +470,12 @@ function onNotify(key, value, old_value)
         checkGoalStatus(value)
     elseif key == cantina_room_key then
         update_cantina_room(value)
+    elseif key == completed_free_play_key or key == completed_bonuses_key then
+        update_new_gold_bricks("%s_completion_gold_brick", value, old_value)
+    elseif key == completed_true_jedi_key then
+        update_new_gold_bricks("%s_true_jedi_gold_brick", value, old_value)
+    elseif key == completed_10_minikits_key then
+        update_new_gold_bricks("%s_minikits_gold_brick", value, old_value)
     end
 end
 
@@ -389,6 +487,12 @@ function onNotifyLaunch(key, value)
         checkGoalStatus(value)
     elseif key == cantina_room_key then
         update_cantina_room(value)
+    elseif key == completed_free_play_key or key == completed_bonuses_key then
+        update_gold_bricks("%s_completion_gold_brick", value)
+    elseif key == completed_true_jedi_key then
+        update_gold_bricks("%s_true_jedi_gold_brick", value)
+    elseif key == completed_10_minikits_key then
+        update_gold_bricks("%s_minikits_gold_brick", value)
     end
 end
 

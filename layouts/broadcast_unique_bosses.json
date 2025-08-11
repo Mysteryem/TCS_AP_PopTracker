@@ -12,6 +12,10 @@
                     {
                         "type": "layout",
                         "key": "shared_item_grid_horizontal"
+                    },
+                    {
+                        "type": "layout",
+                        "key": "unique_bosses_grid"
                     }
                 ]
             }

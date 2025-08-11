@@ -215,7 +215,8 @@
                 "bountyhunterrockets",
                 "superewokcatapult",
                 "infinitetorpedos",
-                "purplestud",
+                "",
+                "",
                 "episode1unlock",
                 "episode2unlock",
                 "episode3unlock",
@@ -223,12 +224,92 @@
                 "episode5unlock",
                 "episode6unlock",
                 "allepisodestoken",
-                "minikits"
+                "minikits",
+                "total_gold_bricks",
+                "purplestud"
               ]
             ]
           }
         ]
       }
+    ]
+  },
+  "bosses_grid": {
+    "type": "itemgrid",
+    "item_margin": "0, 0",
+    "margin": "0, 0",
+    "h_alignment": "center",
+    "v_alignment": "center",
+    "item_h_alignment": "center",
+    "item_v_alignment": "center",
+    "item_height": 48,
+    "item_width": 48,
+    "rows": [
+      [
+        "boss_darth_maul_1-6"
+      ],
+      [
+        "boss_zam_wesell_2-1",
+        "boss_jango_fett_2-2",
+        "boss_jango_fett_2-4",
+        "boss_count_dooku_2-6"
+      ],
+      [
+        "boss_count_dooku_3-2",
+        "boss_general_grievous_3-3",
+        "boss_anakin_skywalker_3-6"
+      ],
+      [
+        "boss_death_star_4-6"
+      ],
+      [
+        "boss_darth_vader_5-4",
+        "boss_darth_vader_5-5",
+        "boss_boba_fett_5-6"
+      ],
+      [
+        "boss_rancor_6-1",
+        "boss_boba_fett_6-2",
+        "boss_the_emperor_6-5",
+        "boss_death_star_ii_6-6"
+      ]
+    ]
+  },
+  "unique_bosses_grid": {
+    "type": "itemgrid",
+    "item_margin": "0, 0",
+    "margin": "0, 0",
+    "h_alignment": "center",
+    "v_alignment": "center",
+    "item_h_alignment": "center",
+    "item_v_alignment": "center",
+    "item_height": 48,
+    "item_width": 48,
+    "rows": [
+      [
+        "boss_darth_maul",
+        "boss_zam_wesell"
+      ],
+      [
+        "boss_jango_fett",
+        "boss_count_dooku"
+      ],
+      [
+        "boss_general_grievous",
+        "boss_anakin_skywalker"
+      ],
+      [
+        "boss_death_star",
+        "boss_darth_vader"
+      ],
+      [
+        "boss_boba_fett",
+        "boss_rancor"
+      ],
+      [
+        "boss_the_emperor",
+        "boss_death_star_ii"
+      ]
     ]
   }
 }

@@ -3,30 +3,6 @@
     "name": "Macros",
     "children": [
       {
-        "name": "Has10GoldBricks",
-        "access_rules": [
-          "^$has_accessible_gold_bricks|10"
-        ]
-      },
-      {
-        "name": "Has20GoldBricks",
-        "access_rules": [
-          "^$has_accessible_gold_bricks|20"
-        ]
-      },
-      {
-        "name": "Has30GoldBricks",
-        "access_rules": [
-          "^$has_accessible_gold_bricks|30"
-        ]
-      },
-      {
-        "name": "Has50GoldBricks",
-        "access_rules": [
-          "^$has_accessible_gold_bricks|50"
-        ]
-      },
-      {
         "name": "Episode 1 Unlocked Or Disabled",
         "access_rules": [
           "episode_2_disabled",

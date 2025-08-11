@@ -159,6 +159,10 @@ function all_episodes_tokens()
     return Tracker:ProviderCountForCode("allepisodestoken") >= Tracker:ProviderCountForCode("enabled_episodes_count")
 end
 
+function boss_enabled(boss_code)
+    return Tracker:FindObjectForCode(boss_code).CurrentStage > 0
+end
+
 function defeat_bosses_goal()
     local goal_amount = Tracker:ProviderCountForCode("setting_defeat_bosses_goal_amount")
     if Tracker:ProviderCountForCode("setting_defeat_bosses_normal") > 0 then
@@ -169,3 +173,10 @@ function defeat_bosses_goal()
         return False
     end
 end
+
+
+local function update_gold_brick_total(code)
+    Tracker:FindObjectForCode("total_gold_bricks").AcquiredCount = Tracker:ProviderCountForCode(code)
+end
+
+ScriptHost:AddWatchForCode("update_gold_brick_total", "gold_brick", update_gold_brick_total)

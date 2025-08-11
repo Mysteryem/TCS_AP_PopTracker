@@ -4,17 +4,14 @@
     "content": [
       {
         "type": "group",
-        "header": "Settings",
-        "dock": "top",
+        "header": "Enabled Locations",
+        "dock": "left",
         "content": {
           "type": "itemgrid",
           "rows": [
             [
-              "minikits_for_goal",
-              "all_episodes_purchases_unlock",
-              "max_purchase_with_no_multipliers"
-            ],
-            [
+              "setting_minikit_locations_enabled",
+              "setting_true_jedi_locations_enabled",
               "story_character_locations",
               "all_episodes_purchase_locations"
             ],
@@ -84,6 +81,51 @@
             ]
           ]
         }
+      },
+      {
+        "type": "group",
+        "header": "Logic",
+        "dock": "left",
+        "content": [
+          {
+            "type": "itemgrid",
+            "rows": [
+              [
+                "all_episodes_purchases_unlock"
+              ],
+              [
+                "max_purchase_with_no_multipliers"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "header": "Goal",
+        "dock": "left",
+        "content": [
+          {
+            "type": "itemgrid",
+            "rows": [
+              [
+                "minikits_for_goal",
+                "setting_defeat_bosses_goal_amount"
+              ]
+            ]
+          },
+          {
+            "type": "itemgrid",
+            "item_size": 48,
+            "h_alignment": "center",
+            "item_h_alignment": "center",
+            "rows": [
+              [
+                "setting_defeat_bosses_mode"
+              ]
+            ]
+          }
+        ]
       }
     ]
   }

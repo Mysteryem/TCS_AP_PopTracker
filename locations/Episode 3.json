@@ -24,7 +24,7 @@
             "chest_unopened_img": "images/items/minikit.png",
             "chest_opened_img": "images/items/minikit_disabled.png",
             "access_rules": [
-              " "
+              " , setting_minikit_locations_enabled"
             ],
             "sections": [
               {
@@ -64,70 +64,121 @@
                 "x": 103,
                 "y": 166
               }
-            ]
-          }
-        ],
-        "sections": [
-          {
-            "name": "Purchase Droid Trifighter",
-            "chest_unopened_img": "images/items/droidtrifighter.png",
-            "chest_opened_img": "images/items/droidtrifighter_disabled.png",
-            "access_rules": [
-              "[$can_purchase|28000]"
-            ]
-          },
-          {
-            "name": "Purchase Vulture Droid",
-            "chest_unopened_img": "images/items/vulturedroid.png",
-            "chest_opened_img": "images/items/vulturedroid_disabled.png",
-            "access_rules": [
-              "[$can_purchase|30000]"
-            ]
-          },
-          {
-            "name": "Purchase Clone Arcfighter",
-            "chest_unopened_img": "images/items/clonearcfighter.png",
-            "chest_opened_img": "images/items/clonearcfighter_disabled.png",
-            "access_rules": [
-              "[$can_purchase|33000]"
-            ]
-          },
-          {
-            "name": "Purchase Vehicle Smart Bomb (3-1)",
-            "chest_unopened_img": "images/items/vehiclesmartbomb.png",
-            "chest_opened_img": "images/items/vehiclesmartbomb_disabled.png",
-            "access_rules": [
-              "[$can_purchase|15000]"
-            ]
-          },
-          {
-            "name": "3-1 True Jedi"
-          },
-          {
-            "name": "3-1 Completion"
-          },
-          {
-            "name": "Chapter Completion - Unlock Anakin's Starfighter",
-            "chest_unopened_img": "images/items/anakinsstarfighter.png",
-            "chest_opened_img": "images/items/anakinsstarfighter_disabled.png",
+            ],
             "visibility_rules": [
-              "story_character_locations"
+              "setting_minikit_locations_enabled"
             ]
           },
           {
-            "name": "Chapter Completion - Unlock Obi-Wan's Starfighter",
-            "chest_unopened_img": "images/items/obi-wansstarfighter.png",
-            "chest_opened_img": "images/items/obi-wansstarfighter_disabled.png",
-            "visibility_rules": [
-              "story_character_locations"
+            "name": "Battle Over Coruscant",
+            "sections": [
+              {
+                "name": "Purchase Droid Trifighter",
+                "chest_unopened_img": "images/items/droidtrifighter.png",
+                "chest_opened_img": "images/items/droidtrifighter_disabled.png",
+                "access_rules": [
+                  "[$can_purchase|28000]"
+                ]
+              },
+              {
+                "name": "Purchase Vulture Droid",
+                "chest_unopened_img": "images/items/vulturedroid.png",
+                "chest_opened_img": "images/items/vulturedroid_disabled.png",
+                "access_rules": [
+                  "[$can_purchase|30000]"
+                ]
+              },
+              {
+                "name": "Purchase Clone Arcfighter",
+                "chest_unopened_img": "images/items/clonearcfighter.png",
+                "chest_opened_img": "images/items/clonearcfighter_disabled.png",
+                "access_rules": [
+                  "[$can_purchase|33000]"
+                ]
+              },
+              {
+                "name": "Purchase Vehicle Smart Bomb (3-1)",
+                "chest_unopened_img": "images/items/vehiclesmartbomb.png",
+                "chest_opened_img": "images/items/vehiclesmartbomb_disabled.png",
+                "access_rules": [
+                  "[$can_purchase|15000]"
+                ]
+              },
+              {
+                "name": "3-1 True Jedi",
+                "access_rules": [
+                  "setting_true_jedi_locations_enabled"
+                ],
+                "visibility_rules": [
+                  "setting_true_jedi_locations_enabled"
+                ],
+                "chest_unopened_img": "images/settings/true_jedi.png",
+                "chest_opened_img": "images/settings/true_jedi_chest_opened.png"
+              },
+              {
+                "name": "3-1 Completion"
+              },
+              {
+                "name": "Chapter Completion - Unlock Anakin's Starfighter",
+                "chest_unopened_img": "images/items/anakinsstarfighter.png",
+                "chest_opened_img": "images/items/anakinsstarfighter_disabled.png",
+                "visibility_rules": [
+                  "story_character_locations"
+                ]
+              },
+              {
+                "name": "Chapter Completion - Unlock Obi-Wan's Starfighter",
+                "chest_unopened_img": "images/items/obi-wansstarfighter.png",
+                "chest_opened_img": "images/items/obi-wansstarfighter_disabled.png",
+                "visibility_rules": [
+                  "story_character_locations"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 3",
+                "x": 105,
+                "y": 214
+              }
             ]
-          }
-        ],
-        "map_locations": [
+          },
           {
-            "map": "Episode 3",
-            "x": 107,
-            "y": 263
+            "name": "Battle Over Coruscant - Events",
+            "sections": [
+              {
+                "name": "3-1 Completion - Gold Brick",
+                "hosted_item": "3-1_completion_gold_brick"
+              },
+              {
+                "name": "3-1 True Jedi - Gold Brick",
+                "hosted_item": "3-1_true_jedi_gold_brick",
+                "access_rules": [
+                  "setting_true_jedi_locations_enabled"
+                ],
+                "visibility_rules": [
+                  "setting_true_jedi_locations_enabled"
+                ]
+              },
+              {
+                "name": "3-1 10/10 Minikits - Gold Brick",
+                "hosted_item": "3-1_minikits_gold_brick",
+                "access_rules": [
+                  "@Episode 3/Battle Over Coruscant/Minikits"
+                ],
+                "visibility_rules": [
+                  "@Episode 3/Battle Over Coruscant/Minikits"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 3",
+                "x": 107,
+                "y": 263,
+                "shape": "diamond"
+              }
+            ]
           }
         ]
       },
@@ -145,7 +196,7 @@
             "chest_unopened_img": "images/items/minikit.png",
             "chest_opened_img": "images/items/minikit_disabled.png",
             "access_rules": [
-              "highjump, blaster, shortie"
+              "highjump, blaster, shortie, setting_minikit_locations_enabled"
             ],
             "sections": [
               {
@@ -185,78 +236,143 @@
                 "x": 376,
                 "y": 148
               }
-            ]
-          }
-        ],
-        "sections": [
-          {
-            "name": "Purchase Count Dooku",
-            "chest_unopened_img": "images/items/countdooku.png",
-            "chest_opened_img": "images/items/countdooku_disabled.png",
-            "access_rules": [
-              "[$can_purchase|100000]"
-            ]
-          },
-          {
-            "name": "Purchase Grievous' Bodyguard",
-            "chest_unopened_img": "images/items/grievousbodyguard.png",
-            "chest_opened_img": "images/items/grievousbodyguard_disabled.png",
-            "access_rules": [
-              "[$can_purchase|42000]"
-            ]
-          },
-          {
-            "name": "Purchase Super Astromech (3-2)",
-            "chest_unopened_img": "images/items/superastromech.png",
-            "chest_opened_img": "images/items/superastromech_disabled.png",
-            "access_rules": [
-              "bounty, [$can_purchase|10000]"
-            ]
-          },
-          {
-            "name": "3-2 True Jedi"
-          },
-          {
-            "name": "3-2 Completion"
-          },
-          {
-            "name": "Chapter Completion - Unlock R2-D2",
-            "chest_unopened_img": "images/items/r2-d2.png",
-            "chest_opened_img": "images/items/r2-d2_disabled.png",
+            ],
             "visibility_rules": [
-              "story_character_locations"
+              "setting_minikit_locations_enabled"
             ]
           },
           {
-            "name": "Chapter Completion - Unlock Anakin Skywalker (Jedi)",
-            "chest_unopened_img": "images/items/anakinskywalker(jedi).png",
-            "chest_opened_img": "images/items/anakinskywalker(jedi)_disabled.png",
-            "visibility_rules": [
-              "story_character_locations"
+            "name": "Chancellor in Peril",
+            "sections": [
+              {
+                "name": "Purchase Count Dooku",
+                "chest_unopened_img": "images/items/countdooku.png",
+                "chest_opened_img": "images/items/countdooku_disabled.png",
+                "access_rules": [
+                  "[$can_purchase|100000]"
+                ]
+              },
+              {
+                "name": "Purchase Grievous' Bodyguard",
+                "chest_unopened_img": "images/items/grievousbodyguard.png",
+                "chest_opened_img": "images/items/grievousbodyguard_disabled.png",
+                "access_rules": [
+                  "[$can_purchase|42000]"
+                ]
+              },
+              {
+                "name": "Purchase Super Astromech (3-2)",
+                "chest_unopened_img": "images/items/superastromech.png",
+                "chest_opened_img": "images/items/superastromech_disabled.png",
+                "access_rules": [
+                  "bounty, [$can_purchase|10000]"
+                ]
+              },
+              {
+                "name": "3-2 True Jedi",
+                "access_rules": [
+                  "setting_true_jedi_locations_enabled"
+                ],
+                "visibility_rules": [
+                  "setting_true_jedi_locations_enabled"
+                ],
+                "chest_unopened_img": "images/settings/true_jedi.png",
+                "chest_opened_img": "images/settings/true_jedi_chest_opened.png"
+              },
+              {
+                "name": "3-2 Completion"
+              },
+              {
+                "name": "Chapter Completion - Unlock R2-D2",
+                "chest_unopened_img": "images/items/r2-d2.png",
+                "chest_opened_img": "images/items/r2-d2_disabled.png",
+                "visibility_rules": [
+                  "story_character_locations"
+                ]
+              },
+              {
+                "name": "Chapter Completion - Unlock Anakin Skywalker (Jedi)",
+                "chest_unopened_img": "images/items/anakinskywalker(jedi).png",
+                "chest_opened_img": "images/items/anakinskywalker(jedi)_disabled.png",
+                "visibility_rules": [
+                  "story_character_locations"
+                ]
+              },
+              {
+                "name": "Chapter Completion - Unlock Chancellor Palpatine",
+                "chest_unopened_img": "images/items/chancellorpalpatine.png",
+                "chest_opened_img": "images/items/chancellorpalpatine_disabled.png",
+                "visibility_rules": [
+                  "story_character_locations"
+                ]
+              },
+              {
+                "name": "Chapter Completion - Unlock Obi-Wan Kenobi (Episode 3)",
+                "chest_unopened_img": "images/items/obi-wankenobi(episode3).png",
+                "chest_opened_img": "images/items/obi-wankenobi(episode3)_disabled.png",
+                "visibility_rules": [
+                  "story_character_locations"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 3",
+                "x": 377,
+                "y": 185
+              }
             ]
           },
           {
-            "name": "Chapter Completion - Unlock Chancellor Palpatine",
-            "chest_unopened_img": "images/items/chancellorpalpatine.png",
-            "chest_opened_img": "images/items/chancellorpalpatine_disabled.png",
-            "visibility_rules": [
-              "story_character_locations"
+            "name": "Chancellor in Peril - Events",
+            "sections": [
+              {
+                "name": "3-2 Completion - Gold Brick",
+                "hosted_item": "3-2_completion_gold_brick"
+              },
+              {
+                "name": "3-2 True Jedi - Gold Brick",
+                "hosted_item": "3-2_true_jedi_gold_brick",
+                "access_rules": [
+                  "setting_true_jedi_locations_enabled"
+                ],
+                "visibility_rules": [
+                  "setting_true_jedi_locations_enabled"
+                ]
+              },
+              {
+                "name": "3-2 10/10 Minikits - Gold Brick",
+                "hosted_item": "3-2_minikits_gold_brick",
+                "access_rules": [
+                  "@Episode 3/Chancellor in Peril/Minikits"
+                ],
+                "visibility_rules": [
+                  "@Episode 3/Chancellor in Peril/Minikits"
+                ]
+              },
+              {
+                "name": "Defeated Count Dooku (3-2)",
+                "hosted_item": "boss_count_dooku_3-2",
+                "visibility_rules": [
+                  "setting_defeat_bosses_normal, $boss_enabled|boss_count_dooku_3-2"
+                ]
+              },
+              {
+                "name": "Defeated Count Dooku",
+                "hosted_item": "boss_count_dooku",
+                "visibility_rules": [
+                  "setting_defeat_bosses_unique, $boss_enabled|boss_count_dooku"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 3",
+                "x": 378,
+                "y": 222,
+                "shape": "diamond"
+              }
             ]
-          },
-          {
-            "name": "Chapter Completion - Unlock Obi-Wan Kenobi (Episode 3)",
-            "chest_unopened_img": "images/items/obi-wankenobi(episode3).png",
-            "chest_opened_img": "images/items/obi-wankenobi(episode3)_disabled.png",
-            "visibility_rules": [
-              "story_character_locations"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Episode 3",
-            "x": 378,
-            "y": 222
           }
         ]
       },
@@ -274,7 +390,7 @@
             "chest_unopened_img": "images/items/minikit.png",
             "chest_opened_img": "images/items/minikit_disabled.png",
             "access_rules": [
-              "hover, bounty, highjump"
+              "hover, bounty, highjump, setting_minikit_locations_enabled"
             ],
             "sections": [
               {
@@ -314,55 +430,120 @@
                 "x": 539,
                 "y": 131
               }
-            ]
-          }
-        ],
-        "sections": [
-          {
-            "name": "Purchase General Grievous",
-            "chest_unopened_img": "images/items/generalgrievous.png",
-            "chest_opened_img": "images/items/generalgrievous_disabled.png",
-            "access_rules": [
-              "[$can_purchase|70000]"
-            ]
-          },
-          {
-            "name": "Purchase Super Jedi Slam (3-3)",
-            "chest_unopened_img": "images/items/superjedislam.png",
-            "chest_opened_img": "images/items/superjedislam_disabled.png",
-            "access_rules": [
-              "highjump, [$can_purchase|11000]",
-              "hover, [$can_purchase|11000]"
-            ]
-          },
-          {
-            "name": "3-3 True Jedi"
-          },
-          {
-            "name": "3-3 Completion"
-          },
-          {
-            "name": "Chapter Completion - Unlock Obi-Wan Kenobi (Episode 3)",
-            "chest_unopened_img": "images/items/obi-wankenobi(episode3).png",
-            "chest_opened_img": "images/items/obi-wankenobi(episode3)_disabled.png",
+            ],
             "visibility_rules": [
-              "story_character_locations"
+              "setting_minikit_locations_enabled"
             ]
           },
           {
-            "name": "Chapter Completion - Unlock Commander Cody",
-            "chest_unopened_img": "images/items/commandercody.png",
-            "chest_opened_img": "images/items/commandercody_disabled.png",
-            "visibility_rules": [
-              "story_character_locations"
+            "name": "General Grievous",
+            "sections": [
+              {
+                "name": "Purchase General Grievous",
+                "chest_unopened_img": "images/items/generalgrievous.png",
+                "chest_opened_img": "images/items/generalgrievous_disabled.png",
+                "access_rules": [
+                  "[$can_purchase|70000]"
+                ]
+              },
+              {
+                "name": "Purchase Super Jedi Slam (3-3)",
+                "chest_unopened_img": "images/items/superjedislam.png",
+                "chest_opened_img": "images/items/superjedislam_disabled.png",
+                "access_rules": [
+                  "highjump, [$can_purchase|11000]",
+                  "hover, [$can_purchase|11000]"
+                ]
+              },
+              {
+                "name": "3-3 True Jedi",
+                "access_rules": [
+                  "setting_true_jedi_locations_enabled"
+                ],
+                "visibility_rules": [
+                  "setting_true_jedi_locations_enabled"
+                ],
+                "chest_unopened_img": "images/settings/true_jedi.png",
+                "chest_opened_img": "images/settings/true_jedi_chest_opened.png"
+              },
+              {
+                "name": "3-3 Completion"
+              },
+              {
+                "name": "Chapter Completion - Unlock Obi-Wan Kenobi (Episode 3)",
+                "chest_unopened_img": "images/items/obi-wankenobi(episode3).png",
+                "chest_opened_img": "images/items/obi-wankenobi(episode3)_disabled.png",
+                "visibility_rules": [
+                  "story_character_locations"
+                ]
+              },
+              {
+                "name": "Chapter Completion - Unlock Commander Cody",
+                "chest_unopened_img": "images/items/commandercody.png",
+                "chest_opened_img": "images/items/commandercody_disabled.png",
+                "visibility_rules": [
+                  "story_character_locations"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 3",
+                "x": 539,
+                "y": 174
+              }
             ]
-          }
-        ],
-        "map_locations": [
+          },
           {
-            "map": "Episode 3",
-            "x": 540,
-            "y": 218
+            "name": "General Grievous - Events",
+            "sections": [
+              {
+                "name": "3-3 Completion - Gold Brick",
+                "hosted_item": "3-3_completion_gold_brick"
+              },
+              {
+                "name": "3-3 True Jedi - Gold Brick",
+                "hosted_item": "3-3_true_jedi_gold_brick",
+                "access_rules": [
+                  "setting_true_jedi_locations_enabled"
+                ],
+                "visibility_rules": [
+                  "setting_true_jedi_locations_enabled"
+                ]
+              },
+              {
+                "name": "3-3 10/10 Minikits - Gold Brick",
+                "hosted_item": "3-3_minikits_gold_brick",
+                "access_rules": [
+                  "@Episode 3/General Grievous/Minikits"
+                ],
+                "visibility_rules": [
+                  "@Episode 3/General Grievous/Minikits"
+                ]
+              },
+              {
+                "name": "Defeated General Grievous (3-3)",
+                "hosted_item": "boss_general_grievous_3-3",
+                "visibility_rules": [
+                  "setting_defeat_bosses_normal, $boss_enabled|boss_general_grievous_3-3"
+                ]
+              },
+              {
+                "name": "Defeated General Grievous",
+                "hosted_item": "boss_general_grievous",
+                "visibility_rules": [
+                  "setting_defeat_bosses_unique, $boss_enabled|boss_general_grievous"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 3",
+                "x": 540,
+                "y": 218,
+                "shape": "diamond"
+              }
+            ]
           }
         ]
       },
@@ -380,7 +561,7 @@
             "chest_unopened_img": "images/items/minikit.png",
             "chest_opened_img": "images/items/minikit_disabled.png",
             "access_rules": [
-              "sith, highjump, hover"
+              "sith, highjump, hover, setting_minikit_locations_enabled"
             ],
             "sections": [
               {
@@ -420,86 +601,137 @@
                 "x": 662,
                 "y": 114
               }
-            ]
-          }
-        ],
-        "sections": [
-          {
-            "name": "Purchase Wookiee",
-            "chest_unopened_img": "images/items/wookiee.png",
-            "chest_opened_img": "images/items/wookiee_disabled.png",
-            "access_rules": [
-              "[$can_purchase|16000]"
-            ]
-          },
-          {
-            "name": "Purchase Clone (Episode 3)",
-            "chest_unopened_img": "images/items/clone(episode3).png",
-            "chest_opened_img": "images/items/clone(episode3)_disabled.png",
-            "access_rules": [
-              "[$can_purchase|10000]"
-            ]
-          },
-          {
-            "name": "Purchase Clone (Episode 3, Pilot)",
-            "chest_unopened_img": "images/items/clone(episode3-pilot).png",
-            "chest_opened_img": "images/items/clone(episode3-pilot)_disabled.png",
-            "access_rules": [
-              "[$can_purchase|11000]"
-            ]
-          },
-          {
-            "name": "Purchase Clone (Episode 3, Swamp)",
-            "chest_unopened_img": "images/items/clone(episode3-swamp).png",
-            "chest_opened_img": "images/items/clone(episode3-swamp)_disabled.png",
-            "access_rules": [
-              "[$can_purchase|12000]"
-            ]
-          },
-          {
-            "name": "Purchase Clone (Episode 3, Walker)",
-            "chest_unopened_img": "images/items/clone(episode3-walker).png",
-            "chest_opened_img": "images/items/clone(episode3-walker)_disabled.png",
-            "access_rules": [
-              "[$can_purchase|12000]"
-            ]
-          },
-          {
-            "name": "Purchase Super Thermal Detonator (3-4)",
-            "chest_unopened_img": "images/items/superthermaldetonator.png",
-            "chest_opened_img": "images/items/superthermaldetonator_disabled.png",
-            "access_rules": [
-              "sith, bounty, [$can_purchase|25000]"
-            ]
-          },
-          {
-            "name": "3-4 True Jedi"
-          },
-          {
-            "name": "3-4 Completion"
-          },
-          {
-            "name": "Chapter Completion - Unlock Yoda",
-            "chest_unopened_img": "images/items/yoda.png",
-            "chest_opened_img": "images/items/yoda_disabled.png",
+            ],
             "visibility_rules": [
-              "story_character_locations"
+              "setting_minikit_locations_enabled"
             ]
           },
           {
-            "name": "Chapter Completion - Unlock Chewbacca",
-            "chest_unopened_img": "images/items/chewbacca.png",
-            "chest_opened_img": "images/items/chewbacca_disabled.png",
-            "visibility_rules": [
-              "story_character_locations"
+            "name": "Defense of Kashyyyk",
+            "sections": [
+              {
+                "name": "Purchase Wookiee",
+                "chest_unopened_img": "images/items/wookiee.png",
+                "chest_opened_img": "images/items/wookiee_disabled.png",
+                "access_rules": [
+                  "[$can_purchase|16000]"
+                ]
+              },
+              {
+                "name": "Purchase Clone (Episode 3)",
+                "chest_unopened_img": "images/items/clone(episode3).png",
+                "chest_opened_img": "images/items/clone(episode3)_disabled.png",
+                "access_rules": [
+                  "[$can_purchase|10000]"
+                ]
+              },
+              {
+                "name": "Purchase Clone (Episode 3, Pilot)",
+                "chest_unopened_img": "images/items/clone(episode3-pilot).png",
+                "chest_opened_img": "images/items/clone(episode3-pilot)_disabled.png",
+                "access_rules": [
+                  "[$can_purchase|11000]"
+                ]
+              },
+              {
+                "name": "Purchase Clone (Episode 3, Swamp)",
+                "chest_unopened_img": "images/items/clone(episode3-swamp).png",
+                "chest_opened_img": "images/items/clone(episode3-swamp)_disabled.png",
+                "access_rules": [
+                  "[$can_purchase|12000]"
+                ]
+              },
+              {
+                "name": "Purchase Clone (Episode 3, Walker)",
+                "chest_unopened_img": "images/items/clone(episode3-walker).png",
+                "chest_opened_img": "images/items/clone(episode3-walker)_disabled.png",
+                "access_rules": [
+                  "[$can_purchase|12000]"
+                ]
+              },
+              {
+                "name": "Purchase Super Thermal Detonator (3-4)",
+                "chest_unopened_img": "images/items/superthermaldetonator.png",
+                "chest_opened_img": "images/items/superthermaldetonator_disabled.png",
+                "access_rules": [
+                  "sith, bounty, [$can_purchase|25000]"
+                ]
+              },
+              {
+                "name": "3-4 True Jedi",
+                "access_rules": [
+                  "setting_true_jedi_locations_enabled"
+                ],
+                "visibility_rules": [
+                  "setting_true_jedi_locations_enabled"
+                ],
+                "chest_unopened_img": "images/settings/true_jedi.png",
+                "chest_opened_img": "images/settings/true_jedi_chest_opened.png"
+              },
+              {
+                "name": "3-4 Completion"
+              },
+              {
+                "name": "Chapter Completion - Unlock Yoda",
+                "chest_unopened_img": "images/items/yoda.png",
+                "chest_opened_img": "images/items/yoda_disabled.png",
+                "visibility_rules": [
+                  "story_character_locations"
+                ]
+              },
+              {
+                "name": "Chapter Completion - Unlock Chewbacca",
+                "chest_unopened_img": "images/items/chewbacca.png",
+                "chest_opened_img": "images/items/chewbacca_disabled.png",
+                "visibility_rules": [
+                  "story_character_locations"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 3",
+                "x": 662,
+                "y": 149
+              }
             ]
-          }
-        ],
-        "map_locations": [
+          },
           {
-            "map": "Episode 3",
-            "x": 662,
-            "y": 185
+            "name": "Defense of Kashyyyk - Events",
+            "sections": [
+              {
+                "name": "3-4 Completion - Gold Brick",
+                "hosted_item": "3-4_completion_gold_brick"
+              },
+              {
+                "name": "3-4 True Jedi - Gold Brick",
+                "hosted_item": "3-4_true_jedi_gold_brick",
+                "access_rules": [
+                  "setting_true_jedi_locations_enabled"
+                ],
+                "visibility_rules": [
+                  "setting_true_jedi_locations_enabled"
+                ]
+              },
+              {
+                "name": "3-4 10/10 Minikits - Gold Brick",
+                "hosted_item": "3-4_minikits_gold_brick",
+                "access_rules": [
+                  "@Episode 3/Defense of Kashyyyk/Minikits"
+                ],
+                "visibility_rules": [
+                  "@Episode 3/Defense of Kashyyyk/Minikits"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 3",
+                "x": 662,
+                "y": 185,
+                "shape": "diamond"
+              }
+            ]
           }
         ]
       },
@@ -517,7 +749,7 @@
             "chest_unopened_img": "images/items/minikit.png",
             "chest_opened_img": "images/items/minikit_disabled.png",
             "access_rules": [
-              "sith, highjump, blaster, hover, bounty, imperial"
+              "sith, highjump, blaster, hover, bounty, imperial, setting_minikit_locations_enabled"
             ],
             "sections": [
               {
@@ -555,64 +787,115 @@
               {
                 "map": "Episode 3",
                 "x": 774,
-                "y": 118
+                "y": 115
+              }
+            ],
+            "visibility_rules": [
+              "setting_minikit_locations_enabled"
+            ]
+          },
+          {
+            "name": "Ruin of the Jedi",
+            "sections": [
+              {
+                "name": "Purchase Mace Windu (Episode 3)",
+                "chest_unopened_img": "images/items/macewindu(episode3).png",
+                "chest_opened_img": "images/items/macewindu(episode3)_disabled.png",
+                "access_rules": [
+                  "[$can_purchase|38000]"
+                ]
+              },
+              {
+                "name": "Purchase Disguised Clone",
+                "chest_unopened_img": "images/items/disguisedclone.png",
+                "chest_opened_img": "images/items/disguisedclone_disabled.png",
+                "access_rules": [
+                  "[$can_purchase|12000]"
+                ]
+              },
+              {
+                "name": "Purchase Deflect Bolts (3-5)",
+                "chest_unopened_img": "images/items/deflectbolts.png",
+                "chest_opened_img": "images/items/deflectbolts_disabled.png",
+                "access_rules": [
+                  "sith, highjump, [$can_purchase|150000]"
+                ]
+              },
+              {
+                "name": "3-5 True Jedi",
+                "access_rules": [
+                  "setting_true_jedi_locations_enabled"
+                ],
+                "visibility_rules": [
+                  "setting_true_jedi_locations_enabled"
+                ],
+                "chest_unopened_img": "images/settings/true_jedi.png",
+                "chest_opened_img": "images/settings/true_jedi_chest_opened.png"
+              },
+              {
+                "name": "3-5 Completion"
+              },
+              {
+                "name": "Chapter Completion - Unlock Yoda",
+                "chest_unopened_img": "images/items/yoda.png",
+                "chest_opened_img": "images/items/yoda_disabled.png",
+                "visibility_rules": [
+                  "story_character_locations"
+                ]
+              },
+              {
+                "name": "Chapter Completion - Unlock Obi-Wan Kenobi (Episode 3)",
+                "chest_unopened_img": "images/items/obi-wankenobi(episode3).png",
+                "chest_opened_img": "images/items/obi-wankenobi(episode3)_disabled.png",
+                "visibility_rules": [
+                  "story_character_locations"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 3",
+                "x": 774,
+                "y": 146
               }
             ]
-          }
-        ],
-        "sections": [
+          },
           {
-            "name": "Purchase Mace Windu (Episode 3)",
-            "chest_unopened_img": "images/items/macewindu(episode3).png",
-            "chest_opened_img": "images/items/macewindu(episode3)_disabled.png",
-            "access_rules": [
-              "[$can_purchase|38000]"
+            "name": "Ruin of the Jedi - Events",
+            "sections": [
+              {
+                "name": "3-5 Completion - Gold Brick",
+                "hosted_item": "3-5_completion_gold_brick"
+              },
+              {
+                "name": "3-5 True Jedi - Gold Brick",
+                "hosted_item": "3-5_true_jedi_gold_brick",
+                "access_rules": [
+                  "setting_true_jedi_locations_enabled"
+                ],
+                "visibility_rules": [
+                  "setting_true_jedi_locations_enabled"
+                ]
+              },
+              {
+                "name": "3-5 10/10 Minikits - Gold Brick",
+                "hosted_item": "3-5_minikits_gold_brick",
+                "access_rules": [
+                  "@Episode 3/Ruin of the Jedi/Minikits"
+                ],
+                "visibility_rules": [
+                  "@Episode 3/Ruin of the Jedi/Minikits"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 3",
+                "x": 774,
+                "y": 177,
+                "shape": "diamond"
+              }
             ]
-          },
-          {
-            "name": "Purchase Disguised Clone",
-            "chest_unopened_img": "images/items/disguisedclone.png",
-            "chest_opened_img": "images/items/disguisedclone_disabled.png",
-            "access_rules": [
-              "[$can_purchase|12000]"
-            ]
-          },
-          {
-            "name": "Purchase Deflect Bolts (3-5)",
-            "chest_unopened_img": "images/items/deflectbolts.png",
-            "chest_opened_img": "images/items/deflectbolts_disabled.png",
-            "access_rules": [
-              "sith, highjump, [$can_purchase|150000]"
-            ]
-          },
-          {
-            "name": "3-5 True Jedi"
-          },
-          {
-            "name": "3-5 Completion"
-          },
-          {
-            "name": "Chapter Completion - Unlock Yoda",
-            "chest_unopened_img": "images/items/yoda.png",
-            "chest_opened_img": "images/items/yoda_disabled.png",
-            "visibility_rules": [
-              "story_character_locations"
-            ]
-          },
-          {
-            "name": "Chapter Completion - Unlock Obi-Wan Kenobi (Episode 3)",
-            "chest_unopened_img": "images/items/obi-wankenobi(episode3).png",
-            "chest_opened_img": "images/items/obi-wankenobi(episode3)_disabled.png",
-            "visibility_rules": [
-              "story_character_locations"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Episode 3",
-            "x": 774,
-            "y": 177
           }
         ]
       },
@@ -630,7 +913,7 @@
             "chest_unopened_img": "images/items/minikit.png",
             "chest_opened_img": "images/items/minikit_disabled.png",
             "access_rules": [
-              "hover"
+              "hover, setting_minikit_locations_enabled"
             ],
             "sections": [
               {
@@ -667,49 +950,121 @@
             "map_locations": [
               {
                 "map": "Episode 3",
-                "x": 920,
-                "y": 118
+                "x": 921,
+                "y": 116
+              }
+            ],
+            "visibility_rules": [
+              "setting_minikit_locations_enabled"
+            ]
+          },
+          {
+            "name": "Darth Vader",
+            "sections": [
+              {
+                "name": "Purchase Dark Side (3-6)",
+                "chest_unopened_img": "images/items/darkside.png",
+                "chest_opened_img": "images/items/darkside_disabled.png",
+                "access_rules": [
+                  "astromech, [$can_purchase|25000]"
+                ]
+              },
+              {
+                "name": "3-6 True Jedi",
+                "access_rules": [
+                  "setting_true_jedi_locations_enabled"
+                ],
+                "visibility_rules": [
+                  "setting_true_jedi_locations_enabled"
+                ],
+                "chest_unopened_img": "images/settings/true_jedi.png",
+                "chest_opened_img": "images/settings/true_jedi_chest_opened.png"
+              },
+              {
+                "name": "3-6 Completion"
+              },
+              {
+                "name": "Chapter Completion - Unlock Anakin Skywalker (Jedi)",
+                "chest_unopened_img": "images/items/anakinskywalker(jedi).png",
+                "chest_opened_img": "images/items/anakinskywalker(jedi)_disabled.png",
+                "visibility_rules": [
+                  "story_character_locations"
+                ]
+              },
+              {
+                "name": "Chapter Completion - Unlock Obi-Wan Kenobi (Episode 3)",
+                "chest_unopened_img": "images/items/obi-wankenobi(episode3).png",
+                "chest_opened_img": "images/items/obi-wankenobi(episode3)_disabled.png",
+                "visibility_rules": [
+                  "story_character_locations"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 3",
+                "x": 919,
+                "y": 147
               }
             ]
-          }
-        ],
-        "sections": [
+          },
           {
-            "name": "Purchase Dark Side (3-6)",
-            "chest_unopened_img": "images/items/darkside.png",
-            "chest_opened_img": "images/items/darkside_disabled.png",
-            "access_rules": [
-              "astromech, [$can_purchase|25000]"
+            "name": "Darth Vader - Events",
+            "sections": [
+              {
+                "name": "3-6 Completion - Gold Brick",
+                "hosted_item": "3-6_completion_gold_brick"
+              },
+              {
+                "name": "3-6 True Jedi - Gold Brick",
+                "hosted_item": "3-6_true_jedi_gold_brick",
+                "access_rules": [
+                  "setting_true_jedi_locations_enabled"
+                ],
+                "visibility_rules": [
+                  "setting_true_jedi_locations_enabled"
+                ]
+              },
+              {
+                "name": "3-6 10/10 Minikits - Gold Brick",
+                "hosted_item": "3-6_minikits_gold_brick",
+                "access_rules": [
+                  "@Episode 3/Darth Vader/Minikits"
+                ],
+                "visibility_rules": [
+                  "@Episode 3/Darth Vader/Minikits"
+                ]
+              },
+              {
+                "name": "Defeated Anakin Skywalker (3-6)",
+                "hosted_item": "boss_anakin_skywalker_3-6",
+                "visibility_rules": [
+                  "setting_defeat_bosses_normal, $boss_enabled|boss_anakin_skywalker_3-6"
+                ]
+              },
+              {
+                "name": "Defeated Anakin Skywalker",
+                "hosted_item": "boss_anakin_skywalker",
+                "visibility_rules": [
+                  "setting_defeat_bosses_unique, $boss_enabled|boss_anakin_skywalker"
+                ]
+              },
+              {
+                "name": "Defeated Darth Vader",
+                "hosted_item": "boss_darth_vader",
+                "visibility_rules": [
+                  "setting_defeat_bosses_unique_anakin_as_vader, $boss_enabled|boss_darth_vader"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 3",
+                "x": 917,
+                "y": 178,
+                "shape": "diamond"
+              }
             ]
-          },
-          {
-            "name": "3-6 True Jedi"
-          },
-          {
-            "name": "3-6 Completion"
-          },
-          {
-            "name": "Chapter Completion - Unlock Anakin Skywalker (Jedi)",
-            "chest_unopened_img": "images/items/anakinskywalker(jedi).png",
-            "chest_opened_img": "images/items/anakinskywalker(jedi)_disabled.png",
-            "visibility_rules": [
-              "story_character_locations"
-            ]
-          },
-          {
-            "name": "Chapter Completion - Unlock Obi-Wan Kenobi (Episode 3)",
-            "chest_unopened_img": "images/items/obi-wankenobi(episode3).png",
-            "chest_opened_img": "images/items/obi-wankenobi(episode3)_disabled.png",
-            "visibility_rules": [
-              "story_character_locations"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Episode 3",
-            "x": 917,
-            "y": 178
           }
         ]
       }

@@ -1,6 +1,9 @@
 -- Items
 Tracker:AddItems("items/items.json")
 Tracker:AddItems("items/settings.json")
+Tracker:AddItems("items/bosses.json")
+Tracker:AddItems("items/unique_bosses.json")
+Tracker:AddItems("items/gold_brick_events.json")
 
 -- Maps
 Tracker:AddMaps("maps/maps.json")
@@ -8,6 +11,7 @@ Tracker:AddMaps("maps/maps.json")
 -- Layout
 Tracker:AddLayouts("layouts/broadcast.json")
 Tracker:AddLayouts("layouts/items.json")
+Tracker:AddLayouts("layouts/no_bosses_main_display.json")
 Tracker:AddLayouts("layouts/settings_popup.json")
 Tracker:AddLayouts("layouts/tabs.json")
 Tracker:AddLayouts("layouts/tracker.json")
@@ -27,3 +31,6 @@ Tracker:AddLocations("locations/LevelRequirementsDisplay.json")
 -- AutoTracking for Poptracker
 require("scripts/autotracking/archipelago")
 require("scripts/logic")
+
+-- Runtime layout adjustments
+require("scripts/layout_adjuster")

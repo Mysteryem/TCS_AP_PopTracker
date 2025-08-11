@@ -324,6 +324,7 @@
     "initial_quantity": 100000,
     "increment": 1000,
     "decrement": 1000,
+    "overlay_align": "center",
     "codes": "max_purchase_with_no_multipliers"
   },
   {
@@ -478,5 +479,61 @@
     "initial_active_state": true,
     "img": "images/items/allepisodestoken.png",
     "codes": "all_episodes_purchase_locations"
+  },
+  {
+    "name": "True Jedi Locations Enabled",
+    "type": "toggle",
+    "initial_active_state": true,
+    "img": "images/settings/true_jedi.png",
+    "codes": "setting_true_jedi_locations_enabled"
+  },
+  {
+    "name": "Minikit Locations Enabled",
+    "type": "toggle",
+    "initial_active_state": true,
+    "img": "images/items/minikit.png",
+    "codes": "setting_minikit_locations_enabled"
+  },
+  {
+    "name": "Defeat Bosses Goal Amount",
+    "type": "consumable",
+    "img": "images/bosses/boba_fett.png",
+    "img_mods": "overlay|images/bosses/boss_defeated.png",
+    "codes": "setting_defeat_bosses_goal_amount"
+  },
+  {
+    "name": "Defeat Bosses Mode",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "name": "Defeat Bosses Goal Is Not Enabled",
+        "img": "images/bosses/defeat_bosses_goal_mode.png",
+        "img_mods": "@disabled",
+        "codes": "setting_defeat_bosses_mode, setting_defeat_bosses_disabled"
+      },
+      {
+        "name": "Defeat Bosses To Goal",
+        "img": "images/bosses/defeat_bosses_goal_mode.png",
+        "img_mods": "overlay|images/bosses/defeat_bosses_goal_mode_overlay_normal.png",
+        "inherit_codes": false,
+        "codes": "setting_defeat_bosses_normal"
+      },
+      {
+        "name": "Defeat Unique Bosses To Goal",
+        "img": "images/bosses/defeat_bosses_goal_mode.png",
+        "img_mods": "overlay|images/bosses/defeat_bosses_goal_mode_overlay_unique.png",
+        "inherit_codes": false,
+        "codes": "setting_defeat_bosses_unique"
+      },
+      {
+        "name": "Defeat Unique Bosses To Goal (defeating Anakin Skywalker counts as defeating Darth Vader)",
+        "img": "images/bosses/defeat_bosses_goal_mode_unique_anakin_as_vader.png",
+        "img_mods": "overlay|images/bosses/defeat_bosses_goal_mode_overlay_unique_anakin_as_vader.png",
+        "inherit_codes": false,
+        "codes": "setting_defeat_bosses_unique, setting_defeat_bosses_unique_anakin_as_vader"
+      }
+    ]
   }
 ]

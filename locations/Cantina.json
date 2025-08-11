@@ -91,7 +91,7 @@
                 ]
             },
             {
-                "name": "Goal",
+                "name": "Goal Events",
                 "sections": [
                     {
                         "name": "Minikits Goal",
@@ -144,7 +144,7 @@
                     {
                         "name": "Mos Espa Pod Race (Original)",
                         "access_rules": [
-                            "bonuses_enabled_podrace, @Macros/Has10GoldBricks"
+                            "bonuses_enabled_podrace, total_gold_bricks:10"
                         ],
                         "visibility_rules": [
                             "bonuses_enabled_podrace"
@@ -153,7 +153,7 @@
                     {
                         "name": "Anakin's Flight",
                         "access_rules": [
-                            "bonuses_enabled_anakin_flight, @Macros/Has30GoldBricks"
+                            "bonuses_enabled_anakin_flight, total_gold_bricks:30"
                         ],
                         "visibility_rules": [
                             "bonuses_enabled_anakin_flight"
@@ -162,7 +162,7 @@
                     {
                         "name": "Gunship Cavalry (Original)",
                         "access_rules": [
-                            "bonuses_enabled_gunship, @Macros/Has10GoldBricks"
+                            "bonuses_enabled_gunship, total_gold_bricks:10"
                         ],
                         "visibility_rules": [
                             "bonuses_enabled_gunship"
@@ -171,7 +171,7 @@
                     {
                         "name": "A New Hope (Bonus Level)",
                         "access_rules": [
-                            "bonuses_enabled_a_new_hope, @Macros/Has20GoldBricks"
+                            "bonuses_enabled_a_new_hope, total_gold_bricks:20"
                         ],
                         "visibility_rules": [
                             "bonuses_enabled_a_new_hope"
@@ -180,7 +180,7 @@
                     {
                         "name": "LEGO City",
                         "access_rules": [
-                            "bonuses_enabled_lego_city, sith, highjump, blaster, bounty, @Macros/Has10GoldBricks"
+                            "bonuses_enabled_lego_city, sith, highjump, blaster, bounty, @total_gold_bricks:10"
                         ],
                         "visibility_rules": [
                             "bonuses_enabled_lego_city"
@@ -189,7 +189,7 @@
                     {
                         "name": "New Town",
                         "access_rules": [
-                            "bonuses_enabled_new_town, sith, highjump, blaster, bounty, @Macros/Has50GoldBricks"
+                            "bonuses_enabled_new_town, sith, highjump, blaster, bounty, total_gold_bricks:50"
                         ],
                         "visibility_rules": [
                             "bonuses_enabled_new_town"
@@ -220,7 +220,88 @@
                     {
                         "map": "Cantina",
                         "x": 950,
-                        "y": 138
+                        "y": 121
+                    }
+                ]
+            },
+            {
+                "name": "Bonus Levels - Events",
+                "chest_unopened_img": "images/items/gold_brick.png",
+                "chest_opened_img": "images/items/gold_brick_disabled.png",
+                "access_rules": [
+                    "@Cantina/Bonus Levels"
+                ],
+                "visibility_rules": [
+                    "@Cantina/Bonus Levels"
+                ],
+                "sections": [
+                    {
+                        "name": "Mos Espa Pod Race (Original) Completion - Gold Brick",
+                        "hosted_item": "bonus_pod_race_completion_gold_brick",
+                        "access_rules": [
+                            "@Cantina/Bonus Levels/Mos Espa Pod Race (Original)"
+                        ],
+                        "visibility_rules": [
+                            "@Cantina/Bonus Levels/Mos Espa Pod Race (Original)"
+                        ]
+                    },
+                    {
+                        "name": "Anakin's Flight Completion - Gold Brick",
+                        "hosted_item": "bonus_anakins_flight_completion_gold_brick",
+                        "access_rules": [
+                            "@Cantina/Bonus Levels/Anakin's Flight"
+                        ],
+                        "visibility_rules": [
+                            "@Cantina/Bonus Levels/Anakin's Flight"
+                        ]
+                    },
+                    {
+                        "name": "Gunship Cavalry (Original) Completion - Gold Brick",
+                        "hosted_item": "bonus_gunship_cavalry_completion_gold_brick",
+                        "access_rules": [
+                            "@Cantina/Bonus Levels/Gunship Cavalry (Original)"
+                        ],
+                        "visibility_rules": [
+                            "@Cantina/Bonus Levels/Gunship Cavalry (Original)"
+                        ]
+                    },
+                    {
+                        "name": "A New Hope (Bonus Level) Completion - Gold Brick",
+                        "hosted_item": "bonus_a_new_hope_completion_gold_brick",
+                        "access_rules": [
+                            "@Cantina/Bonus Levels/A New Hope (Bonus Level)"
+                        ],
+                        "visibility_rules": [
+                            "@Cantina/Bonus Levels/A New Hope (Bonus Level)"
+                        ]
+                    },
+                    {
+                        "name": "LEGO City Completion - Gold Brick",
+                        "hosted_item": "bonus_lego_city_completion_gold_brick",
+                        "access_rules": [
+                            "@Cantina/Bonus Levels/LEGO City"
+                        ],
+                        "visibility_rules": [
+                            "@Cantina/Bonus Levels/LEGO City"
+                        ]
+                    },
+                    {
+                        "name": "New Town Completion - Gold Brick",
+                        "hosted_item": "bonus_new_town_completion_gold_brick",
+                        "access_rules": [
+                            "@Cantina/Bonus Levels/New Town"
+                        ],
+                        "visibility_rules": [
+                            "@Cantina/Bonus Levels/New Town"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Cantina",
+                        "x": 950,
+                        "y": 155,
+                        "shape": "diamond"
                     }
                 ]
             }
