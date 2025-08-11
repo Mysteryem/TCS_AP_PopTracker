@@ -455,11 +455,11 @@ local function new_area_ids(value, old_value)
     value = value or {}
     old_value = old_value or {}
     local old_set = {}
-    for _, v in old_value do
+    for _, v in ipairs(old_value) do
         old_set[v] = true
     end
     local new_values = {}
-    for _, v in value do
+    for _, v in ipairs(value) do
         if old_set[v] == nil then
             table.insert(new_values, v)
         end
