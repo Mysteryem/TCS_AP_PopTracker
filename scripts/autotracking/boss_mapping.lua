@@ -1,3 +1,5 @@
+require("scripts/autotracking/area_id_mapping")
+
 local BOSS_MAPPING_UNIQUE = {
     ["1-6"] = "boss_darth_maul",
     ["2-1"] = "boss_zam_wesell",
@@ -69,5 +71,29 @@ function set_bosses_from_slot_data_chapters(slot_data, setting_defeat_bosses_mod
     for k, _ in pairs(enabled) do
         local item = Tracker:FindObjectForCode(k)
         item.CurrentStage = 1
+    end
+end
+
+function update_defeated_bosses(completed_area_ids)
+    local setting_defeat_bosses_mode = Tracker:FindObjectForCode("setting_defeat_bosses_mode").CurrentStage
+    if setting_defeat_bosses_mode == 0 then
+        -- Bosses are disabled.
+        return
+    end
+    local mapping = MAPPING_LOOKUP[setting_defeat_bosses_mode]
+    for _, area_id in ipairs(completed_area_ids or {}) do
+        -- Get the chapter shortname from the area_id
+        local shortname = AREA_ID_TO_SHORTNAME[area_id]
+        if shortname ~= nil then
+            -- Get the item code for the chapter
+            local code = mapping[shortname]
+            if code ~= nil then
+                local item = Tracker:FindObjectForCode(code)
+                -- Check that the boss exists and is enabled, then mark the boss as defeated.
+                if item ~= nil and item.CurrentStage == 1 then
+                    item.CurrentStage = 2
+                end
+            end
+        end
     end
 end

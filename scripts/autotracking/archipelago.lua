@@ -483,6 +483,9 @@ function onNotify(key, value, old_value)
         update_cantina_room(value)
     elseif key == completed_free_play_key or key == completed_bonuses_key then
         update_new_gold_or_power_bricks("%s_completion_gold_brick", value, old_value)
+        if key == completed_free_play_key then
+            update_defeated_bosses(new_area_ids(value, old_value))
+        end
     elseif key == completed_true_jedi_key then
         update_new_gold_or_power_bricks("%s_true_jedi_gold_brick", value, old_value)
     elseif key == completed_10_minikits_key then
@@ -502,6 +505,9 @@ function onNotifyLaunch(key, value)
         update_cantina_room(value)
     elseif key == completed_free_play_key or key == completed_bonuses_key then
         update_gold_or_power_bricks("%s_completion_gold_brick", value)
+        if key == completed_free_play_key then
+            update_defeated_bosses(value)
+        end
     elseif key == completed_true_jedi_key then
         update_gold_or_power_bricks("%s_true_jedi_gold_brick", value)
     elseif key == completed_10_minikits_key then
