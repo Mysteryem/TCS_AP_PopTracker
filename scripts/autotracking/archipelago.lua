@@ -445,7 +445,7 @@ local function update_gold_or_power_bricks(format, completed_chapters)
     for _, area_id in ipairs(completed_chapters) do
         local shortname = AREA_ID_TO_SHORTNAME[area_id]
         if shortname ~= nil then
-            local s = string.format(shortname)
+            local s = string.format(format, shortname)
             Tracker:FindObjectForCode(s).Active = true
         end
     end
