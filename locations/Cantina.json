@@ -176,6 +176,8 @@
                     },
                     {
                         "name": "Indiana Jones: Trailer",
+                        "chest_unopened_img": "images/items/indy_hat.png",
+                        "chest_opened_img": "images/items/indy_hat_disabled.png",
                         "access_rules": [
                             "bonuses_enabled_indy"
                         ],
