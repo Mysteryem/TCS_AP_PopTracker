@@ -113,7 +113,8 @@
                 "chest_unopened_img": "images/items/superzapper.png",
                 "chest_opened_img": "images/items/superzapper_disabled.png",
                 "access_rules": [
-                  "6-1_power_brick, [$can_purchase|14000]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 6-1_power_brick, [$can_purchase|14000]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, @Episode 6/Jabba's Palace/Jabba's Palace - Events/6-1 - Power Brick, [$can_purchase|14000]"
                 ]
               },
               {
@@ -329,7 +330,8 @@
                 "chest_unopened_img": "images/items/bountyhunterrockets.png",
                 "chest_opened_img": "images/items/bountyhunterrockets_disabled.png",
                 "access_rules": [
-                  "6-2_power_brick, [$can_purchase|20000]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 6-2_power_brick, [$can_purchase|20000]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, @Episode 6/Pit of Carkoon/Pit of Carkoon - Events/6-2 - Power Brick, [$can_purchase|20000]"
                 ]
               },
               {
@@ -535,7 +537,8 @@
                 "chest_unopened_img": "images/items/progressivescoremultiplier8.png",
                 "chest_opened_img": "images/items/progressivescoremultiplier8_disabled.png",
                 "access_rules": [
-                  "6-3_power_brick, [$can_purchase|10000000]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 6-3_power_brick, [$can_purchase|10000000]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, @Episode 6/Speeder Showdown/Speeder Showdown - Events/6-3 - Power Brick, [$can_purchase|10000000]"
                 ]
               },
               {
@@ -699,7 +702,8 @@
                 "chest_unopened_img": "images/items/superewokcatapult.png",
                 "chest_opened_img": "images/items/superewokcatapult_disabled.png",
                 "access_rules": [
-                  "6-4_power_brick, [$can_purchase|25000]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 6-4_power_brick, [$can_purchase|25000]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, @Episode 6/Battle of Endor/Battle of Endor - Events/6-4 - Power Brick, [$can_purchase|25000]"
                 ]
               },
               {
@@ -904,7 +908,8 @@
                 "chest_unopened_img": "images/items/progressivescoremultiplier10.png",
                 "chest_opened_img": "images/items/progressivescoremultiplier10_disabled.png",
                 "access_rules": [
-                  "6-5_power_brick, [$can_purchase|20000000]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 6-5_power_brick, [$can_purchase|20000000]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, @Episode 6/Jedi Destiny/Jedi Destiny - Events/6-5 - Power Brick, [$can_purchase|20000000]"
                 ]
               },
               {
@@ -1079,7 +1084,8 @@
                 "chest_unopened_img": "images/items/infinitetorpedos.png",
                 "chest_opened_img": "images/items/infinitetorpedos_disabled.png",
                 "access_rules": [
-                  "6-6_power_brick, [$can_purchase|25000]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 6-6_power_brick, [$can_purchase|25000]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, @Episode 6/Into the Death Star/Into the Death Star - Events/6-6 - Power Brick, [$can_purchase|25000]"
                 ]
               },
               {

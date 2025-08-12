@@ -104,7 +104,8 @@
                 "chest_unopened_img": "images/items/superblasters.png",
                 "chest_opened_img": "images/items/superblasters_disabled.png",
                 "access_rules": [
-                  "4-1_power_brick, [$can_purchase|15000]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 4-1_power_brick, [$can_purchase|15000]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, @Episode 4/Secret Plans/Secret Plans - Events/4-1 - Power Brick, [$can_purchase|15000]"
                 ]
               },
               {
@@ -298,7 +299,8 @@
                 "chest_unopened_img": "images/items/fastforce.png",
                 "chest_opened_img": "images/items/fastforce_disabled.png",
                 "access_rules": [
-                  "4-2_power_brick, [$can_purchase|40000]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 4-2_power_brick, [$can_purchase|40000]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, @Episode 4/Through the Jundland Wastes/Through the Jundland Wastes - Events/4-2 - Power Brick, [$can_purchase|40000]"
                 ]
               },
               {
@@ -496,7 +498,8 @@
                 "chest_unopened_img": "images/items/superlightsabers.png",
                 "chest_opened_img": "images/items/superlightsabers_disabled.png",
                 "access_rules": [
-                  "4-3_power_brick, [$can_purchase|40000]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 4-3_power_brick, [$can_purchase|40000]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, @Episode 4/Mos Eisley Spaceport/Mos Eisley Spaceport - Events/4-3 - Power Brick, [$can_purchase|40000]"
                 ]
               },
               {
@@ -725,7 +728,8 @@
                 "chest_unopened_img": "images/items/tractorbeam.png",
                 "chest_opened_img": "images/items/tractorbeam_disabled.png",
                 "access_rules": [
-                  "4-4_power_brick, [$can_purchase|15000]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 4-4_power_brick, [$can_purchase|15000]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, @Episode 4/Rescue the Princess/Rescue the Princess - Events/4-4 - Power Brick, [$can_purchase|15000]"
                 ]
               },
               {
@@ -909,7 +913,8 @@
                 "chest_unopened_img": "images/items/invincibility.png",
                 "chest_opened_img": "images/items/invincibility_disabled.png",
                 "access_rules": [
-                  "4-5_power_brick, [$can_purchase|1000000]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 4-5_power_brick, [$can_purchase|1000000]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, @Episode 4/Death Star Escape/Death Star Escape - Events/4-5 - Power Brick, [$can_purchase|1000000]"
                 ]
               },
               {
@@ -1120,7 +1125,8 @@
                 "chest_unopened_img": "images/items/progressivescoremultiplier2.png",
                 "chest_opened_img": "images/items/progressivescoremultiplier2_disabled.png",
                 "access_rules": [
-                  "4-6_power_brick, [$can_purchase|1250000]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 4-6_power_brick, [$can_purchase|1250000]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, @Episode 4/Rebel Attack/Rebel Attack - Events/4-6 - Power Brick, [$can_purchase|1250000]"
                 ]
               },
               {

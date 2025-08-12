@@ -104,7 +104,8 @@
                 "chest_unopened_img": "images/items/studmagnet.png",
                 "chest_opened_img": "images/items/studmagnet_disabled.png",
                 "access_rules": [
-                  "2-1_power_brick, [$can_purchase|100000]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 2-1_power_brick, [$can_purchase|100000]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, @Episode 2/Bounty Hunter Pursuit/Bounty Hunter Pursuit - Events/2-1 - Power Brick, [$can_purchase|100000]"
                 ]
               },
               {
@@ -289,7 +290,8 @@
                 "chest_unopened_img": "images/items/disarmtroopers.png",
                 "chest_opened_img": "images/items/disarmtroopers_disabled.png",
                 "access_rules": [
-                  "2-2_power_brick, [$can_purchase|100000]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 2-2_power_brick, [$can_purchase|100000]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, @Episode 2/Discovery on Kamino/Discovery on Kamino - Events/2-2 - Power Brick, [$can_purchase|100000]"
                 ]
               },
               {
@@ -476,7 +478,8 @@
                 "chest_unopened_img": "images/items/characterstuds.png",
                 "chest_opened_img": "images/items/characterstuds_disabled.png",
                 "access_rules": [
-                  "2-3_power_brick, [$can_purchase|100000]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 2-3_power_brick, [$can_purchase|100000]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, @Episode 2/Droid Factory/Droid Factory - Events/2-3 - Power Brick, [$can_purchase|100000]"
                 ]
               },
               {
@@ -725,7 +728,8 @@
                 "chest_unopened_img": "images/items/perfectdeflect.png",
                 "chest_opened_img": "images/items/perfectdeflect_disabled.png",
                 "access_rules": [
-                  "2-4_power_brick, [$can_purchase|20000]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 2-4_power_brick, [$can_purchase|20000]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, @Episode 2/Jedi Battle/Jedi Battle - Events/2-4 - Power Brick, [$can_purchase|20000]"
                 ]
               },
               {
@@ -918,7 +922,8 @@
                 "chest_unopened_img": "images/items/explodingblasterbolts.png",
                 "chest_opened_img": "images/items/explodingblasterbolts_disabled.png",
                 "access_rules": [
-                  "2-5_power_brick, [$can_purchase|20000]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 2-5_power_brick, [$can_purchase|20000]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, @Episode 2/Gunship Cavalry/Gunship Cavalry - Events/2-5 - Power Brick, [$can_purchase|20000]"
                 ]
               },
               {
@@ -1062,7 +1067,8 @@
                 "chest_unopened_img": "images/items/forcepull.png",
                 "chest_opened_img": "images/items/forcepull_disabled.png",
                 "access_rules": [
-                  "2-6_power_brick, [$can_purchase|12000]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 2-6_power_brick, [$can_purchase|12000]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, @Episode 2/Count Dooku/Count Dooku - Events/2-6 - Power Brick, [$can_purchase|12000]"
                 ]
               },
               {

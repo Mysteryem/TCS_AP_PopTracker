@@ -104,7 +104,8 @@
                 "chest_unopened_img": "images/items/vehiclesmartbomb.png",
                 "chest_opened_img": "images/items/vehiclesmartbomb_disabled.png",
                 "access_rules": [
-                  "3-1_power_brick, [$can_purchase|15000]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 3-1_power_brick, [$can_purchase|15000]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, @Episode 3/Battle Over Coruscant/Battle Over Coruscant - Events/3-1 - Power Brick, [$can_purchase|15000]"
                 ]
               },
               {
@@ -274,7 +275,8 @@
                 "chest_unopened_img": "images/items/superastromech.png",
                 "chest_opened_img": "images/items/superastromech_disabled.png",
                 "access_rules": [
-                  "3-2_power_brick, [$can_purchase|10000]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 3-2_power_brick, [$can_purchase|10000]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, @Episode 3/Chancellor in Peril/Chancellor in Peril - Events/3-2 - Power Brick, [$can_purchase|10000]"
                 ]
               },
               {
@@ -468,7 +470,8 @@
                 "chest_unopened_img": "images/items/superjedislam.png",
                 "chest_opened_img": "images/items/superjedislam_disabled.png",
                 "access_rules": [
-                  "3-3_power_brick, [$can_purchase|11000]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 3-3_power_brick, [$can_purchase|11000]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, @Episode 3/General Grievous/General Grievous - Events/3-3 - Power Brick, [$can_purchase|11000]"
                 ]
               },
               {
@@ -683,7 +686,8 @@
                 "chest_unopened_img": "images/items/superthermaldetonator.png",
                 "chest_opened_img": "images/items/superthermaldetonator_disabled.png",
                 "access_rules": [
-                  "3-4_power_brick, [$can_purchase|25000]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 3-4_power_brick, [$can_purchase|25000]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, @Episode 3/Defense of Kashyyyk/Defense of Kashyyyk - Events/3-4 - Power Brick, [$can_purchase|25000]"
                 ]
               },
               {
@@ -856,7 +860,8 @@
                 "chest_unopened_img": "images/items/deflectbolts.png",
                 "chest_opened_img": "images/items/deflectbolts_disabled.png",
                 "access_rules": [
-                  "3-5_power_brick, [$can_purchase|150000]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 3-5_power_brick, [$can_purchase|150000]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, @Episode 3/Ruin of the Jedi/Ruin of the Jedi - Events/3-5 - Power Brick, [$can_purchase|150000]"
                 ]
               },
               {
@@ -1011,7 +1016,8 @@
                 "chest_unopened_img": "images/items/darkside.png",
                 "chest_opened_img": "images/items/darkside_disabled.png",
                 "access_rules": [
-                  "3-6_power_brick, [$can_purchase|25000]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 3-6_power_brick, [$can_purchase|25000]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, @Episode 3/Darth Vader/Darth Vader - Events/3-6 - Power Brick, [$can_purchase|25000]"
                 ]
               },
               {

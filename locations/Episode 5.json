@@ -77,7 +77,8 @@
                 "chest_unopened_img": "images/items/selfdestruct.png",
                 "chest_opened_img": "images/items/selfdestruct_disabled.png",
                 "access_rules": [
-                  "5-1_power_brick, [$can_purchase|25000]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 5-1_power_brick, [$can_purchase|25000]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, @Episode 5/Hoth Battle/Hoth Battle - Events/5-1 - Power Brick, [$can_purchase|25000]"
                 ]
               },
               {
@@ -269,7 +270,8 @@
                 "chest_unopened_img": "images/items/fastbuild.png",
                 "chest_opened_img": "images/items/fastbuild_disabled.png",
                 "access_rules": [
-                  "5-2_power_brick, [$can_purchase|30000]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 5-2_power_brick, [$can_purchase|30000]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, @Episode 5/Escape From Echo Base/Escape From Echo Base - Events/5-2 - Power Brick, [$can_purchase|30000]"
                 ]
               },
               {
@@ -458,7 +460,8 @@
                 "chest_unopened_img": "images/items/progressivescoremultiplier4.png",
                 "chest_opened_img": "images/items/progressivescoremultiplier4_disabled.png",
                 "access_rules": [
-                  "5-3_power_brick, [$can_purchase|2500000]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 5-3_power_brick, [$can_purchase|2500000]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, @Episode 5/Falcon Flight/Falcon Flight - Events/5-3 - Power Brick, [$can_purchase|2500000]"
                 ]
               },
               {
@@ -610,7 +613,8 @@
                 "chest_unopened_img": "images/items/regeneratehearts.png",
                 "chest_opened_img": "images/items/regeneratehearts_disabled.png",
                 "access_rules": [
-                  "5-4_power_brick, [$can_purchase|150000]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 5-4_power_brick, [$can_purchase|150000]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, @Episode 5/Dagobah/Dagobah - Events/5-4 - Power Brick, [$can_purchase|150000]"
                 ]
               },
               {
@@ -795,7 +799,8 @@
                 "chest_unopened_img": "images/items/progressivescoremultiplier6.png",
                 "chest_opened_img": "images/items/progressivescoremultiplier6_disabled.png",
                 "access_rules": [
-                  "5-5_power_brick, [$can_purchase|5000000]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 5-5_power_brick, [$can_purchase|5000000]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, @Episode 5/Cloud City Trap/Cloud City Trap - Events/5-5 - Power Brick, [$can_purchase|5000000]"
                 ]
               },
               {
@@ -1000,7 +1005,8 @@
                 "chest_unopened_img": "images/items/minikitdetector.png",
                 "chest_opened_img": "images/items/minikitdetector_disabled.png",
                 "access_rules": [
-                  "5-6_power_brick, [$can_purchase|250000]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 5-6_power_brick, [$can_purchase|250000]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, @Episode 5/Betrayal Over Bespin/Betrayal Over Bespin - Events/5-6 - Power Brick, [$can_purchase|250000]"
                 ]
               },
               {

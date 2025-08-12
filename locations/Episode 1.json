@@ -113,7 +113,8 @@
                 "chest_unopened_img": "images/items/supergonk.png",
                 "chest_opened_img": "images/items/supergonk_disabled.png",
                 "access_rules": [
-                  "1-1_power_brick, [$can_purchase|100000]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 1-1_power_brick, [$can_purchase|100000]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, @Episode 1/Negotiations/Negotiations - Events/1-1 - Power Brick, [$can_purchase|100000]"
                 ]
               },
               {
@@ -294,7 +295,8 @@
                 "chest_unopened_img": "images/items/poomoney.png",
                 "chest_opened_img": "images/items/poomoney_disabled.png",
                 "access_rules": [
-                  "1-2_power_brick, [$can_purchase|100000]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 1-2_power_brick, [$can_purchase|100000]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, @Episode 1/Invasion of Naboo/Invasion of Naboo - Events/1-2 - Power Brick, [$can_purchase|100000]"
                 ]
               },
               {
@@ -475,7 +477,8 @@
                 "chest_unopened_img": "images/items/walkietalkiedisable.png",
                 "chest_opened_img": "images/items/walkietalkiedisable_disabled.png",
                 "access_rules": [
-                  "1-3_power_brick, [$can_purchase|5000]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 1-3_power_brick, [$can_purchase|5000]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, @Episode 1/Escape From Naboo/Escape From Naboo - Events/1-3 - Power Brick, [$can_purchase|5000]"
                 ]
               },
               {
@@ -673,7 +676,8 @@
                 "chest_unopened_img": "images/items/redbrickdetector.png",
                 "chest_opened_img": "images/items/redbrickdetector_disabled.png",
                 "access_rules": [
-                  "1-4_power_brick, [$can_purchase|125000]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 1-4_power_brick, [$can_purchase|125000]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, @Episode 1/Mos Espa Pod Race/Mos Espa Pod Race - Events/1-4 - Power Brick, [$can_purchase|125000]"
                 ]
               },
               {
@@ -817,7 +821,8 @@
                 "chest_unopened_img": "images/items/superslap.png",
                 "chest_opened_img": "images/items/superslap_disabled.png",
                 "access_rules": [
-                  "1-5_power_brick, [$can_purchase|5000]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 1-5_power_brick, [$can_purchase|5000]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, @Episode 1/Retake Theed Palace/Retake Theed Palace - Events/1-5 - Power Brick, [$can_purchase|5000]"
                 ]
               },
               {
@@ -1010,7 +1015,8 @@
                 "chest_unopened_img": "images/items/forcegrappleleap.png",
                 "chest_opened_img": "images/items/forcegrappleleap_disabled.png",
                 "access_rules": [
-                  "1-6_power_brick, [$can_purchase|15000]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 1-6_power_brick, [$can_purchase|15000]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, @Episode 1/Darth Maul/Darth Maul - Events/1-6 - Power Brick, [$can_purchase|15000]"
                 ]
               },
               {
