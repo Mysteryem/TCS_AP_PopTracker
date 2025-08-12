@@ -77,7 +77,8 @@
                 "chest_unopened_img": "images/items/zamwesell.png",
                 "chest_opened_img": "images/items/zamwesell_disabled.png",
                 "access_rules": [
-                  "2-1_completion_gold_brick, [$can_purchase|27500]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 2-1_completion_gold_brick, [$can_purchase|27500]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, [$can_purchase|27500]"
                 ]
               },
               {
@@ -85,7 +86,8 @@
                 "chest_unopened_img": "images/items/dexterjettster.png",
                 "chest_opened_img": "images/items/dexterjettster_disabled.png",
                 "access_rules": [
-                  "2-1_completion_gold_brick, [$can_purchase|10000]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 2-1_completion_gold_brick, [$can_purchase|10000]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, [$can_purchase|10000]"
                 ]
               },
               {
@@ -93,7 +95,8 @@
                 "chest_unopened_img": "images/items/zamsairspeeder.png",
                 "chest_opened_img": "images/items/zamsairspeeder_disabled.png",
                 "access_rules": [
-                  "2-1_completion_gold_brick, [$can_purchase|24000]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 2-1_completion_gold_brick, [$can_purchase|24000]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, [$can_purchase|24000]"
                 ]
               },
               {
@@ -259,7 +262,8 @@
                 "chest_unopened_img": "images/items/clone.png",
                 "chest_opened_img": "images/items/clone_disabled.png",
                 "access_rules": [
-                  "2-2_completion_gold_brick, [$can_purchase|13000]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 2-2_completion_gold_brick, [$can_purchase|13000]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, [$can_purchase|13000]"
                 ]
               },
               {
@@ -267,7 +271,8 @@
                 "chest_unopened_img": "images/items/lamasu.png",
                 "chest_opened_img": "images/items/lamasu_disabled.png",
                 "access_rules": [
-                  "2-2_completion_gold_brick, [$can_purchase|9000]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 2-2_completion_gold_brick, [$can_purchase|9000]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, [$can_purchase|9000]"
                 ]
               },
               {
@@ -275,7 +280,8 @@
                 "chest_unopened_img": "images/items/taunwe.png",
                 "chest_opened_img": "images/items/taunwe_disabled.png",
                 "access_rules": [
-                  "2-2_completion_gold_brick, [$can_purchase|9000]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 2-2_completion_gold_brick, [$can_purchase|9000]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, [$can_purchase|9000]"
                 ]
               },
               {
@@ -452,7 +458,8 @@
                 "chest_unopened_img": "images/items/geonosian.png",
                 "chest_opened_img": "images/items/geonosian_disabled.png",
                 "access_rules": [
-                  "2-3_completion_gold_brick, [$can_purchase|20000]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 2-3_completion_gold_brick, [$can_purchase|20000]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, [$can_purchase|20000]"
                 ]
               },
               {
@@ -460,7 +467,8 @@
                 "chest_unopened_img": "images/items/battledroid(geonosis).png",
                 "chest_opened_img": "images/items/battledroid(geonosis)_disabled.png",
                 "access_rules": [
-                  "2-3_completion_gold_brick, [$can_purchase|8500]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 2-3_completion_gold_brick, [$can_purchase|8500]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, [$can_purchase|8500]"
                 ]
               },
               {
@@ -636,7 +644,8 @@
                 "chest_unopened_img": "images/items/superbattledroid.png",
                 "chest_opened_img": "images/items/superbattledroid_disabled.png",
                 "access_rules": [
-                  "2-4_completion_gold_brick, [$can_purchase|25000]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 2-4_completion_gold_brick, [$can_purchase|25000]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, [$can_purchase|25000]"
                 ]
               },
               {
@@ -644,7 +653,8 @@
                 "chest_unopened_img": "images/items/jangofett.png",
                 "chest_opened_img": "images/items/jangofett_disabled.png",
                 "access_rules": [
-                  "2-4_completion_gold_brick, [$can_purchase|70000]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 2-4_completion_gold_brick, [$can_purchase|70000]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, [$can_purchase|70000]"
                 ]
               },
               {
@@ -652,7 +662,8 @@
                 "chest_unopened_img": "images/items/bobafett(boy).png",
                 "chest_opened_img": "images/items/bobafett(boy)_disabled.png",
                 "access_rules": [
-                  "2-4_completion_gold_brick, [$can_purchase|5500]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 2-4_completion_gold_brick, [$can_purchase|5500]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, [$can_purchase|5500]"
                 ]
               },
               {
@@ -660,7 +671,8 @@
                 "chest_unopened_img": "images/items/luminara.png",
                 "chest_opened_img": "images/items/luminara_disabled.png",
                 "access_rules": [
-                  "2-4_completion_gold_brick, [$can_purchase|28000]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 2-4_completion_gold_brick, [$can_purchase|28000]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, [$can_purchase|28000]"
                 ]
               },
               {
@@ -668,7 +680,8 @@
                 "chest_unopened_img": "images/items/ki-adimundi.png",
                 "chest_opened_img": "images/items/ki-adimundi_disabled.png",
                 "access_rules": [
-                  "2-4_completion_gold_brick, [$can_purchase|30000]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 2-4_completion_gold_brick, [$can_purchase|30000]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, [$can_purchase|30000]"
                 ]
               },
               {
@@ -676,7 +689,8 @@
                 "chest_unopened_img": "images/items/kitfisto.png",
                 "chest_opened_img": "images/items/kitfisto_disabled.png",
                 "access_rules": [
-                  "2-4_completion_gold_brick, [$can_purchase|35000]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 2-4_completion_gold_brick, [$can_purchase|35000]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, [$can_purchase|35000]"
                 ]
               },
               {
@@ -684,7 +698,8 @@
                 "chest_unopened_img": "images/items/shaakti.png",
                 "chest_opened_img": "images/items/shaakti_disabled.png",
                 "access_rules": [
-                  "2-4_completion_gold_brick, [$can_purchase|36000]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 2-4_completion_gold_brick, [$can_purchase|36000]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, [$can_purchase|36000]"
                 ]
               },
               {
@@ -692,7 +707,8 @@
                 "chest_unopened_img": "images/items/aaylasecura.png",
                 "chest_opened_img": "images/items/aaylasecura_disabled.png",
                 "access_rules": [
-                  "2-4_completion_gold_brick, [$can_purchase|37000]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 2-4_completion_gold_brick, [$can_purchase|37000]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, [$can_purchase|37000]"
                 ]
               },
               {
@@ -700,7 +716,8 @@
                 "chest_unopened_img": "images/items/plokoon.png",
                 "chest_opened_img": "images/items/plokoon_disabled.png",
                 "access_rules": [
-                  "2-4_completion_gold_brick, [$can_purchase|39000]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 2-4_completion_gold_brick, [$can_purchase|39000]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, [$can_purchase|39000]"
                 ]
               },
               {

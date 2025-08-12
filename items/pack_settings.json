@@ -1,0 +1,21 @@
+[
+  {
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "name": "Separate Purchase logic from Power Brick and Gold Brick logic",
+        "img": "images/pack_settings/combine_power_brick_and_gold_brick_logic.png",
+        "img_mods": "@disabled",
+        "codes": "pack_setting_separate_purchase_logic_from_brick_logic"
+      },
+      {
+        "name": "Combine Purchase logic with Power Brick and Gold Brick logic",
+        "img": "images/pack_settings/combine_power_brick_and_gold_brick_logic.png",
+        "inherit_codes": false,
+        "codes": "pack_setting_combine_purchase_logic_with_brick_logic"
+      }
+    ]
+  }
+]

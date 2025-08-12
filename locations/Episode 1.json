@@ -77,7 +77,8 @@
                 "chest_unopened_img": "images/items/battledroid.png",
                 "chest_opened_img": "images/items/battledroid_disabled.png",
                 "access_rules": [
-                  "1-1_completion_gold_brick, [$can_purchase|6500]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 1-1_completion_gold_brick, [$can_purchase|6500]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, [$can_purchase|6500]"
                 ]
               },
               {
@@ -85,7 +86,8 @@
                 "chest_unopened_img": "images/items/battledroid(security).png",
                 "chest_opened_img": "images/items/battledroid(security)_disabled.png",
                 "access_rules": [
-                  "1-1_completion_gold_brick, [$can_purchase|8500]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 1-1_completion_gold_brick, [$can_purchase|8500]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, [$can_purchase|8500]"
                 ]
               },
               {
@@ -93,7 +95,8 @@
                 "chest_unopened_img": "images/items/battledroid(commander).png",
                 "chest_opened_img": "images/items/battledroid(commander)_disabled.png",
                 "access_rules": [
-                  "1-1_completion_gold_brick, [$can_purchase|10000]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 1-1_completion_gold_brick, [$can_purchase|10000]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, [$can_purchase|10000]"
                 ]
               },
               {
@@ -101,7 +104,8 @@
                 "chest_unopened_img": "images/items/droideka.png",
                 "chest_opened_img": "images/items/droideka_disabled.png",
                 "access_rules": [
-                  "1-1_completion_gold_brick, [$can_purchase|40000]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 1-1_completion_gold_brick, [$can_purchase|40000]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, [$can_purchase|40000]"
                 ]
               },
               {
@@ -272,7 +276,8 @@
                 "chest_unopened_img": "images/items/captaintarpals.png",
                 "chest_opened_img": "images/items/captaintarpals_disabled.png",
                 "access_rules": [
-                  "1-2_completion_gold_brick, [$can_purchase|17500]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 1-2_completion_gold_brick, [$can_purchase|17500]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, [$can_purchase|17500]"
                 ]
               },
               {
@@ -280,7 +285,8 @@
                 "chest_unopened_img": "images/items/bossnass.png",
                 "chest_opened_img": "images/items/bossnass_disabled.png",
                 "access_rules": [
-                  "1-2_completion_gold_brick, [$can_purchase|15000]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 1-2_completion_gold_brick, [$can_purchase|15000]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, [$can_purchase|15000]"
                 ]
               },
               {
@@ -451,7 +457,8 @@
                 "chest_unopened_img": "images/items/royalguard.png",
                 "chest_opened_img": "images/items/royalguard_disabled.png",
                 "access_rules": [
-                  "1-3_completion_gold_brick, [$can_purchase|10000]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 1-3_completion_gold_brick, [$can_purchase|10000]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, [$can_purchase|10000]"
                 ]
               },
               {
@@ -459,7 +466,8 @@
                 "chest_unopened_img": "images/items/padme.png",
                 "chest_opened_img": "images/items/padme_disabled.png",
                 "access_rules": [
-                  "1-3_completion_gold_brick, [$can_purchase|20000]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 1-3_completion_gold_brick, [$can_purchase|20000]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, [$can_purchase|20000]"
                 ]
               },
               {
@@ -638,7 +646,8 @@
                 "chest_unopened_img": "images/items/watto.png",
                 "chest_opened_img": "images/items/watto_disabled.png",
                 "access_rules": [
-                  "1-4_completion_gold_brick, [$can_purchase|16000]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 1-4_completion_gold_brick, [$can_purchase|16000]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, [$can_purchase|16000]"
                 ]
               },
               {
@@ -646,7 +655,8 @@
                 "chest_unopened_img": "images/items/pitdroid.png",
                 "chest_opened_img": "images/items/pitdroid_disabled.png",
                 "access_rules": [
-                  "1-4_completion_gold_brick, [$can_purchase|4000]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 1-4_completion_gold_brick, [$can_purchase|4000]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, [$can_purchase|4000]"
                 ]
               },
               {
@@ -654,7 +664,8 @@
                 "chest_unopened_img": "images/items/sebulbaspodracer.png",
                 "chest_opened_img": "images/items/sebulbaspodracer_disabled.png",
                 "access_rules": [
-                  "1-4_completion_gold_brick, [$can_purchase|20000]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 1-4_completion_gold_brick, [$can_purchase|20000]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, [$can_purchase|20000]"
                 ]
               },
               {
@@ -990,7 +1001,8 @@
                 "chest_unopened_img": "images/items/darthmaul.png",
                 "chest_opened_img": "images/items/darthmaul_disabled.png",
                 "access_rules": [
-                  "1-6_completion_gold_brick, [$can_purchase|60000]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 1-6_completion_gold_brick, [$can_purchase|60000]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, [$can_purchase|60000]"
                 ]
               },
               {

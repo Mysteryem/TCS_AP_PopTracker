@@ -77,7 +77,8 @@
                 "chest_unopened_img": "images/items/rebeltrooper.png",
                 "chest_opened_img": "images/items/rebeltrooper_disabled.png",
                 "access_rules": [
-                  "4-1_completion_gold_brick, [$can_purchase|10000]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 4-1_completion_gold_brick, [$can_purchase|10000]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, [$can_purchase|10000]"
                 ]
               },
               {
@@ -85,7 +86,8 @@
                 "chest_unopened_img": "images/items/stormtrooper.png",
                 "chest_opened_img": "images/items/stormtrooper_disabled.png",
                 "access_rules": [
-                  "4-1_completion_gold_brick, [$can_purchase|10000]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 4-1_completion_gold_brick, [$can_purchase|10000]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, [$can_purchase|10000]"
                 ]
               },
               {
@@ -93,7 +95,8 @@
                 "chest_unopened_img": "images/items/imperialshuttlepilot.png",
                 "chest_opened_img": "images/items/imperialshuttlepilot_disabled.png",
                 "access_rules": [
-                  "4-1_completion_gold_brick, [$can_purchase|25000]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 4-1_completion_gold_brick, [$can_purchase|25000]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, [$can_purchase|25000]"
                 ]
               },
               {
@@ -277,7 +280,8 @@
                 "chest_unopened_img": "images/items/tuskenraider.png",
                 "chest_opened_img": "images/items/tuskenraider_disabled.png",
                 "access_rules": [
-                  "4-2_completion_gold_brick, [$can_purchase|23000]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 4-2_completion_gold_brick, [$can_purchase|23000]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, [$can_purchase|23000]"
                 ]
               },
               {
@@ -285,7 +289,8 @@
                 "chest_unopened_img": "images/items/jawa.png",
                 "chest_opened_img": "images/items/jawa_disabled.png",
                 "access_rules": [
-                  "4-2_completion_gold_brick, [$can_purchase|24000]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 4-2_completion_gold_brick, [$can_purchase|24000]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, [$can_purchase|24000]"
                 ]
               },
               {
@@ -464,7 +469,8 @@
                 "chest_unopened_img": "images/items/sandtrooper.png",
                 "chest_opened_img": "images/items/sandtrooper_disabled.png",
                 "access_rules": [
-                  "4-3_completion_gold_brick, [$can_purchase|14000]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 4-3_completion_gold_brick, [$can_purchase|14000]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, [$can_purchase|14000]"
                 ]
               },
               {
@@ -472,7 +478,8 @@
                 "chest_unopened_img": "images/items/greedo.png",
                 "chest_opened_img": "images/items/greedo_disabled.png",
                 "access_rules": [
-                  "4-3_completion_gold_brick, [$can_purchase|60000]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 4-3_completion_gold_brick, [$can_purchase|60000]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, [$can_purchase|60000]"
                 ]
               },
               {
@@ -480,7 +487,8 @@
                 "chest_unopened_img": "images/items/imperialspy.png",
                 "chest_opened_img": "images/items/imperialspy_disabled.png",
                 "access_rules": [
-                  "4-3_completion_gold_brick, [$can_purchase|13500]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 4-3_completion_gold_brick, [$can_purchase|13500]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, [$can_purchase|13500]"
                 ]
               },
               {
@@ -672,7 +680,8 @@
                 "chest_unopened_img": "images/items/beachtrooper.png",
                 "chest_opened_img": "images/items/beachtrooper_disabled.png",
                 "access_rules": [
-                  "4-4_completion_gold_brick, [$can_purchase|20000]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 4-4_completion_gold_brick, [$can_purchase|20000]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, [$can_purchase|20000]"
                 ]
               },
               {
@@ -680,7 +689,8 @@
                 "chest_unopened_img": "images/items/deathstartrooper.png",
                 "chest_opened_img": "images/items/deathstartrooper_disabled.png",
                 "access_rules": [
-                  "4-4_completion_gold_brick, [$can_purchase|19000]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 4-4_completion_gold_brick, [$can_purchase|19000]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, [$can_purchase|19000]"
                 ]
               },
               {
@@ -688,7 +698,8 @@
                 "chest_unopened_img": "images/items/tiefighterpilot.png",
                 "chest_opened_img": "images/items/tiefighterpilot_disabled.png",
                 "access_rules": [
-                  "4-4_completion_gold_brick, [$can_purchase|21000]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 4-4_completion_gold_brick, [$can_purchase|21000]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, [$can_purchase|21000]"
                 ]
               },
               {
@@ -696,7 +707,8 @@
                 "chest_unopened_img": "images/items/imperialofficer.png",
                 "chest_opened_img": "images/items/imperialofficer_disabled.png",
                 "access_rules": [
-                  "4-4_completion_gold_brick, [$can_purchase|28000]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 4-4_completion_gold_brick, [$can_purchase|28000]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, [$can_purchase|28000]"
                 ]
               },
               {
@@ -704,7 +716,8 @@
                 "chest_unopened_img": "images/items/grandmofftarkin.png",
                 "chest_opened_img": "images/items/grandmofftarkin_disabled.png",
                 "access_rules": [
-                  "4-4_completion_gold_brick, [$can_purchase|38000]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 4-4_completion_gold_brick, [$can_purchase|38000]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, [$can_purchase|38000]"
                 ]
               },
               {
@@ -1080,7 +1093,8 @@
                 "chest_unopened_img": "images/items/tiefighter.png",
                 "chest_opened_img": "images/items/tiefighter_disabled.png",
                 "access_rules": [
-                  "4-6_completion_gold_brick, [$can_purchase|35000]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 4-6_completion_gold_brick, [$can_purchase|35000]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, [$can_purchase|35000]"
                 ]
               },
               {
@@ -1088,7 +1102,8 @@
                 "chest_unopened_img": "images/items/tie-interceptor.png",
                 "chest_opened_img": "images/items/tie-interceptor_disabled.png",
                 "access_rules": [
-                  "4-6_completion_gold_brick, [$can_purchase|40000]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 4-6_completion_gold_brick, [$can_purchase|40000]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, [$can_purchase|40000]"
                 ]
               },
               {
@@ -1096,7 +1111,8 @@
                 "chest_unopened_img": "images/items/tiefighter(darthvader).png",
                 "chest_opened_img": "images/items/tiefighter(darthvader)_disabled.png",
                 "access_rules": [
-                  "4-6_completion_gold_brick, [$can_purchase|50000]"
+                  "pack_setting_separate_purchase_logic_from_brick_logic, 4-6_completion_gold_brick, [$can_purchase|50000]",
+                  "pack_setting_combine_purchase_logic_with_brick_logic, [$can_purchase|50000]"
                 ]
               },
               {

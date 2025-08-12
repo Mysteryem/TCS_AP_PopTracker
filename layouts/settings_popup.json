@@ -126,6 +126,22 @@
             ]
           }
         ]
+      },
+      {
+        "type": "group",
+        "header": "Pack Settings",
+        "dock": "left",
+        "content": [
+          {
+            "type": "itemgrid",
+            "item_size": 48,
+            "rows": [
+              [
+                "pack_setting_combine_purchase_logic_with_brick_logic"
+              ]
+            ]
+          }
+        ]
       }
     ]
   }

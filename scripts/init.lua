@@ -1,6 +1,7 @@
 -- Items
 Tracker:AddItems("items/items.json")
 Tracker:AddItems("items/settings.json")
+Tracker:AddItems("items/pack_settings.json")
 Tracker:AddItems("items/bosses.json")
 Tracker:AddItems("items/unique_bosses.json")
 Tracker:AddItems("items/gold_brick_events.json")
