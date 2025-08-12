@@ -1,17 +1,17 @@
 [
   {
+    "name": "Purchases Event Logic Mode",
     "type": "progressive",
     "allow_disabled": false,
     "loop": true,
     "stages": [
       {
-        "name": "Separate Purchase logic from Power Brick and Gold Brick logic",
-        "img": "images/pack_settings/combine_power_brick_and_gold_brick_logic.png",
-        "img_mods": "@disabled",
+        "name": "Show Purchases as inaccessible until required events are completed",
+        "img": "images/pack_settings/separate_power_brick_and_gold_brick_logic.png",
         "codes": "pack_setting_separate_purchase_logic_from_brick_logic"
       },
       {
-        "name": "Combine Purchase logic with Power Brick and Gold Brick logic",
+        "name": "Show Purchases as in-logic as soon as required events are reachable",
         "img": "images/pack_settings/combine_power_brick_and_gold_brick_logic.png",
         "inherit_codes": false,
         "codes": "pack_setting_combine_purchase_logic_with_brick_logic"
