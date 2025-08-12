@@ -77,7 +77,7 @@
                 "chest_unopened_img": "images/items/gamorreanguard.png",
                 "chest_opened_img": "images/items/gamorreanguard_disabled.png",
                 "access_rules": [
-                  "[$can_purchase|40000]"
+                  "6-1_completion_gold_brick, [$can_purchase|40000]"
                 ]
               },
               {
@@ -85,7 +85,7 @@
                 "chest_unopened_img": "images/items/bibfortuna.png",
                 "chest_opened_img": "images/items/bibfortuna_disabled.png",
                 "access_rules": [
-                  "[$can_purchase|16000]"
+                  "6-1_completion_gold_brick, [$can_purchase|16000]"
                 ]
               },
               {
@@ -93,7 +93,7 @@
                 "chest_unopened_img": "images/items/palaceguard.png",
                 "chest_opened_img": "images/items/palaceguard_disabled.png",
                 "access_rules": [
-                  "[$can_purchase|14000]"
+                  "6-1_completion_gold_brick, [$can_purchase|14000]"
                 ]
               },
               {
@@ -101,7 +101,7 @@
                 "chest_unopened_img": "images/items/bossk.png",
                 "chest_opened_img": "images/items/bossk_disabled.png",
                 "access_rules": [
-                  "[$can_purchase|75000]"
+                  "6-1_completion_gold_brick, [$can_purchase|75000]"
                 ]
               },
               {
@@ -109,7 +109,7 @@
                 "chest_unopened_img": "images/items/superzapper.png",
                 "chest_opened_img": "images/items/superzapper_disabled.png",
                 "access_rules": [
-                  "[$can_purchase|14000]"
+                  "6-1_power_brick, [$can_purchase|14000]"
                 ]
               },
               {
@@ -307,7 +307,7 @@
                 "chest_unopened_img": "images/items/skiffguard.png",
                 "chest_opened_img": "images/items/skiffguard_disabled.png",
                 "access_rules": [
-                  "[$can_purchase|12000]"
+                  "6-2_completion_gold_brick, [$can_purchase|12000]"
                 ]
               },
               {
@@ -315,7 +315,7 @@
                 "chest_unopened_img": "images/items/bobafett.png",
                 "chest_opened_img": "images/items/bobafett_disabled.png",
                 "access_rules": [
-                  "[$can_purchase|100000]"
+                  "6-2_completion_gold_brick, [$can_purchase|100000]"
                 ]
               },
               {
@@ -323,7 +323,7 @@
                 "chest_unopened_img": "images/items/bountyhunterrockets.png",
                 "chest_opened_img": "images/items/bountyhunterrockets_disabled.png",
                 "access_rules": [
-                  "[$can_purchase|20000]"
+                  "6-2_power_brick, [$can_purchase|20000]"
                 ]
               },
               {
@@ -529,7 +529,7 @@
                 "chest_unopened_img": "images/items/progressivescoremultiplier8.png",
                 "chest_opened_img": "images/items/progressivescoremultiplier8_disabled.png",
                 "access_rules": [
-                  "shortie, [$can_purchase|10000000]"
+                  "6-3_power_brick, [$can_purchase|10000000]"
                 ]
               },
               {
@@ -576,7 +576,10 @@
             "sections": [
               {
                 "name": "6-3 - Power Brick",
-                "hosted_item": "6-3_power_brick"
+                "hosted_item": "6-3_power_brick",
+                "access_rules": [
+                  "shortie"
+                ]
               },
               {
                 "name": "6-3 Completion - Gold Brick",
@@ -681,7 +684,7 @@
                 "chest_unopened_img": "images/items/ewok.png",
                 "chest_opened_img": "images/items/ewok_disabled.png",
                 "access_rules": [
-                  "[$can_purchase|34000]"
+                  "6-4_completion_gold_brick, [$can_purchase|34000]"
                 ]
               },
               {
@@ -689,7 +692,7 @@
                 "chest_unopened_img": "images/items/superewokcatapult.png",
                 "chest_opened_img": "images/items/superewokcatapult_disabled.png",
                 "access_rules": [
-                  "shortie, [$can_purchase|25000]"
+                  "6-4_power_brick, [$can_purchase|25000]"
                 ]
               },
               {
@@ -768,7 +771,10 @@
             "sections": [
               {
                 "name": "6-4 - Power Brick",
-                "hosted_item": "6-4_power_brick"
+                "hosted_item": "6-4_power_brick",
+                "access_rules": [
+                  "shortie"
+                ]
               },
               {
                 "name": "6-4 Completion - Gold Brick",
@@ -873,7 +879,7 @@
                 "chest_unopened_img": "images/items/imperialguard.png",
                 "chest_opened_img": "images/items/imperialguard_disabled.png",
                 "access_rules": [
-                  "[$can_purchase|45000]"
+                  "6-5_completion_gold_brick, [$can_purchase|45000]"
                 ]
               },
               {
@@ -881,7 +887,7 @@
                 "chest_unopened_img": "images/items/theemperor.png",
                 "chest_opened_img": "images/items/theemperor_disabled.png",
                 "access_rules": [
-                  "[$can_purchase|275000]"
+                  "6-5_completion_gold_brick, [$can_purchase|275000]"
                 ]
               },
               {
@@ -889,7 +895,7 @@
                 "chest_unopened_img": "images/items/progressivescoremultiplier10.png",
                 "chest_opened_img": "images/items/progressivescoremultiplier10_disabled.png",
                 "access_rules": [
-                  "[$can_purchase|20000000]"
+                  "6-5_power_brick, [$can_purchase|20000000]"
                 ]
               },
               {
@@ -1055,7 +1061,7 @@
                 "chest_unopened_img": "images/items/admiralackbar.png",
                 "chest_opened_img": "images/items/admiralackbar_disabled.png",
                 "access_rules": [
-                  "[$can_purchase|33000]"
+                  "6-6_completion_gold_brick, [$can_purchase|33000]"
                 ]
               },
               {
@@ -1063,7 +1069,7 @@
                 "chest_unopened_img": "images/items/infinitetorpedos.png",
                 "chest_opened_img": "images/items/infinitetorpedos_disabled.png",
                 "access_rules": [
-                  "[$can_purchase|25000]"
+                  "6-6_power_brick, [$can_purchase|25000]"
                 ]
               },
               {

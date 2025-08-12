@@ -77,7 +77,7 @@
                 "chest_unopened_img": "images/items/droidtrifighter.png",
                 "chest_opened_img": "images/items/droidtrifighter_disabled.png",
                 "access_rules": [
-                  "[$can_purchase|28000]"
+                  "3-1_completion_gold_brick, [$can_purchase|28000]"
                 ]
               },
               {
@@ -85,7 +85,7 @@
                 "chest_unopened_img": "images/items/vulturedroid.png",
                 "chest_opened_img": "images/items/vulturedroid_disabled.png",
                 "access_rules": [
-                  "[$can_purchase|30000]"
+                  "3-1_completion_gold_brick, [$can_purchase|30000]"
                 ]
               },
               {
@@ -93,7 +93,7 @@
                 "chest_unopened_img": "images/items/clonearcfighter.png",
                 "chest_opened_img": "images/items/clonearcfighter_disabled.png",
                 "access_rules": [
-                  "[$can_purchase|33000]"
+                  "3-1_completion_gold_brick, [$can_purchase|33000]"
                 ]
               },
               {
@@ -101,7 +101,7 @@
                 "chest_unopened_img": "images/items/vehiclesmartbomb.png",
                 "chest_opened_img": "images/items/vehiclesmartbomb_disabled.png",
                 "access_rules": [
-                  "[$can_purchase|15000]"
+                  "3-1_power_brick, [$can_purchase|15000]"
                 ]
               },
               {
@@ -253,7 +253,7 @@
                 "chest_unopened_img": "images/items/countdooku.png",
                 "chest_opened_img": "images/items/countdooku_disabled.png",
                 "access_rules": [
-                  "[$can_purchase|100000]"
+                  "3-2_completion_gold_brick, [$can_purchase|100000]"
                 ]
               },
               {
@@ -261,7 +261,7 @@
                 "chest_unopened_img": "images/items/grievousbodyguard.png",
                 "chest_opened_img": "images/items/grievousbodyguard_disabled.png",
                 "access_rules": [
-                  "[$can_purchase|42000]"
+                  "3-2_completion_gold_brick, [$can_purchase|42000]"
                 ]
               },
               {
@@ -269,7 +269,7 @@
                 "chest_unopened_img": "images/items/superastromech.png",
                 "chest_opened_img": "images/items/superastromech_disabled.png",
                 "access_rules": [
-                  "bounty, [$can_purchase|10000]"
+                  "3-2_power_brick, [$can_purchase|10000]"
                 ]
               },
               {
@@ -332,7 +332,10 @@
             "sections": [
               {
                 "name": "3-2 - Power Brick",
-                "hosted_item": "3-2_power_brick"
+                "hosted_item": "3-2_power_brick",
+                "access_rules": [
+                  "bounty"
+                ]
               },
               {
                 "name": "3-2 Completion - Gold Brick",
@@ -451,7 +454,7 @@
                 "chest_unopened_img": "images/items/generalgrievous.png",
                 "chest_opened_img": "images/items/generalgrievous_disabled.png",
                 "access_rules": [
-                  "[$can_purchase|70000]"
+                  "3-3_completion_gold_brick, [$can_purchase|70000]"
                 ]
               },
               {
@@ -459,8 +462,7 @@
                 "chest_unopened_img": "images/items/superjedislam.png",
                 "chest_opened_img": "images/items/superjedislam_disabled.png",
                 "access_rules": [
-                  "highjump, [$can_purchase|11000]",
-                  "hover, [$can_purchase|11000]"
+                  "3-3_power_brick, [$can_purchase|11000]"
                 ]
               },
               {
@@ -507,7 +509,11 @@
             "sections": [
               {
                 "name": "3-3 - Power Brick",
-                "hosted_item": "3-3_power_brick"
+                "hosted_item": "3-3_power_brick",
+                "access_rules": [
+                  "highjump",
+                  "hover"
+                ]
               },
               {
                 "name": "3-3 Completion - Gold Brick",
@@ -626,7 +632,7 @@
                 "chest_unopened_img": "images/items/wookiee.png",
                 "chest_opened_img": "images/items/wookiee_disabled.png",
                 "access_rules": [
-                  "[$can_purchase|16000]"
+                  "3-4_completion_gold_brick, [$can_purchase|16000]"
                 ]
               },
               {
@@ -634,7 +640,7 @@
                 "chest_unopened_img": "images/items/clone(episode3).png",
                 "chest_opened_img": "images/items/clone(episode3)_disabled.png",
                 "access_rules": [
-                  "[$can_purchase|10000]"
+                  "3-4_completion_gold_brick, [$can_purchase|10000]"
                 ]
               },
               {
@@ -642,7 +648,7 @@
                 "chest_unopened_img": "images/items/clone(episode3-pilot).png",
                 "chest_opened_img": "images/items/clone(episode3-pilot)_disabled.png",
                 "access_rules": [
-                  "[$can_purchase|11000]"
+                  "3-4_completion_gold_brick, [$can_purchase|11000]"
                 ]
               },
               {
@@ -650,7 +656,7 @@
                 "chest_unopened_img": "images/items/clone(episode3-swamp).png",
                 "chest_opened_img": "images/items/clone(episode3-swamp)_disabled.png",
                 "access_rules": [
-                  "[$can_purchase|12000]"
+                  "3-4_completion_gold_brick, [$can_purchase|12000]"
                 ]
               },
               {
@@ -658,7 +664,7 @@
                 "chest_unopened_img": "images/items/clone(episode3-walker).png",
                 "chest_opened_img": "images/items/clone(episode3-walker)_disabled.png",
                 "access_rules": [
-                  "[$can_purchase|12000]"
+                  "3-4_completion_gold_brick, [$can_purchase|12000]"
                 ]
               },
               {
@@ -666,7 +672,7 @@
                 "chest_unopened_img": "images/items/superthermaldetonator.png",
                 "chest_opened_img": "images/items/superthermaldetonator_disabled.png",
                 "access_rules": [
-                  "sith, bounty, [$can_purchase|25000]"
+                  "3-4_power_brick, [$can_purchase|25000]"
                 ]
               },
               {
@@ -713,7 +719,10 @@
             "sections": [
               {
                 "name": "3-4 - Power Brick",
-                "hosted_item": "3-4_power_brick"
+                "hosted_item": "3-4_power_brick",
+                "access_rules": [
+                  "sith, bounty"
+                ]
               },
               {
                 "name": "3-4 Completion - Gold Brick",
@@ -818,7 +827,7 @@
                 "chest_unopened_img": "images/items/macewindu(episode3).png",
                 "chest_opened_img": "images/items/macewindu(episode3)_disabled.png",
                 "access_rules": [
-                  "[$can_purchase|38000]"
+                  "3-5_completion_gold_brick, [$can_purchase|38000]"
                 ]
               },
               {
@@ -826,7 +835,7 @@
                 "chest_unopened_img": "images/items/disguisedclone.png",
                 "chest_opened_img": "images/items/disguisedclone_disabled.png",
                 "access_rules": [
-                  "[$can_purchase|12000]"
+                  "3-5_completion_gold_brick, [$can_purchase|12000]"
                 ]
               },
               {
@@ -834,7 +843,7 @@
                 "chest_unopened_img": "images/items/deflectbolts.png",
                 "chest_opened_img": "images/items/deflectbolts_disabled.png",
                 "access_rules": [
-                  "sith, highjump, [$can_purchase|150000]"
+                  "3-5_power_brick, [$can_purchase|150000]"
                 ]
               },
               {
@@ -881,7 +890,10 @@
             "sections": [
               {
                 "name": "3-5 - Power Brick",
-                "hosted_item": "3-5_power_brick"
+                "hosted_item": "3-5_power_brick",
+                "access_rules": [
+                  "sith, highjump"
+                ]
               },
               {
                 "name": "3-5 Completion - Gold Brick",
@@ -986,7 +998,7 @@
                 "chest_unopened_img": "images/items/darkside.png",
                 "chest_opened_img": "images/items/darkside_disabled.png",
                 "access_rules": [
-                  "astromech, [$can_purchase|25000]"
+                  "3-6_power_brick, [$can_purchase|25000]"
                 ]
               },
               {
@@ -1033,7 +1045,10 @@
             "sections": [
               {
                 "name": "3-6 - Power Brick",
-                "hosted_item": "3-6_power_brick"
+                "hosted_item": "3-6_power_brick",
+                "access_rules": [
+                  "astromech"
+                ]
               },
               {
                 "name": "3-6 Completion - Gold Brick",
