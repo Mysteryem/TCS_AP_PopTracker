@@ -1,6 +1,17 @@
 {
     "versions": [
         {
+            "package_version": "1.1.1",
+            "download_url": "https://github.com/Mysteryem/TCS_AP_PopTracker/archive/refs/tags/v1.1.1.zip",
+            "sha256": "7f0ef2790d581c637808f1e0be8f17041151d647f0082d0ab5c93aa9731b122f",
+            "changelog": [
+                "Support for Defeat Bosses Goal",
+                "Gold Brick and Power Brick events",
+                "Update logic to apworld 1.1.2",
+                "Fix unlock requirement for 'all episodes' character purchases not being set from AP"
+            ]
+        },
+        {
             "package_version": "1.0.2",
             "download_url": "https://github.com/Mysteryem/TCS_AP_PopTracker/archive/refs/tags/v1.0.2.zip",
             "sha256": "39c61519b8bce99a901ae9b34c66359bb58978e27eecf90d277f39842d145017",
