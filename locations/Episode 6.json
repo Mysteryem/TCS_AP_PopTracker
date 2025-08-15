@@ -230,7 +230,7 @@
                 "name": "Defeated Rancor",
                 "hosted_item": "boss_rancor",
                 "visibility_rules": [
-                  "setting_defeat_bosses_unique, $boss_enabled|boss_rancor"
+                  "setting_defeat_bosses_unique, $boss_enabled|boss_rancor, $boss_enabled|boss_rancor_6-1"
                 ]
               }
             ],
@@ -455,7 +455,7 @@
                 "name": "Defeated Boba Fett",
                 "hosted_item": "boss_boba_fett",
                 "visibility_rules": [
-                  "setting_defeat_bosses_unique, $boss_enabled|boss_boba_fett"
+                  "setting_defeat_bosses_unique, $boss_enabled|boss_boba_fett, $boss_enabled|boss_boba_fett_6-2"
                 ]
               }
             ],
@@ -993,7 +993,7 @@
                 "name": "Defeated The Emperor",
                 "hosted_item": "boss_the_emperor",
                 "visibility_rules": [
-                  "setting_defeat_bosses_unique, $boss_enabled|boss_the_emperor"
+                  "setting_defeat_bosses_unique, $boss_enabled|boss_the_emperor, $boss_enabled|boss_the_emperor_6-5"
                 ]
               }
             ],
@@ -1169,7 +1169,7 @@
                 "name": "Defeated Death Star II",
                 "hosted_item": "boss_death_star_ii",
                 "visibility_rules": [
-                  "setting_defeat_bosses_unique, $boss_enabled|boss_death_star_ii"
+                  "setting_defeat_bosses_unique, $boss_enabled|boss_death_star_ii, $boss_enabled|boss_death_star_ii_6-6"
                 ]
               }
             ],

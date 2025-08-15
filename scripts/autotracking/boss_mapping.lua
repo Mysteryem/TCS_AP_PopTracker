@@ -60,6 +60,18 @@ function set_bosses_from_slot_data_chapters(slot_data, setting_defeat_bosses_mod
             disabled[item_name] = nil
         end
     end
+    -- If a duplicated unique boss is only an enabled boss in one of the chapters present in the multiworld, but there
+    -- are multiple chapters present that feature the boss, only the enabled boss chapter should show in the tracker.
+    -- To do this, the unique boss locations' visibility also require the non-unique boss items to be activated.
+    if setting_defeat_bosses_mode > 1 then
+        for _, v in ipairs(enabled_boss_chapters) do
+            local item_name = BOSS_MAPPING_NORMAL[v]
+            if item_name then
+                enabled[item_name] = true
+                disabled[item_name] = nil
+            end
+        end
+    end
 
     -- Disable all disabled bosses.
     for k, _ in pairs(disabled) do

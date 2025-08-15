@@ -1103,7 +1103,7 @@
                 "name": "Defeated Darth Maul",
                 "hosted_item": "boss_darth_maul",
                 "visibility_rules": [
-                  "setting_defeat_bosses_unique, $boss_enabled|boss_darth_maul"
+                  "setting_defeat_bosses_unique, $boss_enabled|boss_darth_maul, $boss_enabled|boss_darth_maul_1-6"
                 ]
               }
             ],

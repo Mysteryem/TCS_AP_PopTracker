@@ -181,7 +181,7 @@
                 "name": "Defeated Zam Wesell",
                 "hosted_item": "boss_zam_wesell",
                 "visibility_rules": [
-                  "setting_defeat_bosses_unique, $boss_enabled|boss_zam_wesell"
+                  "setting_defeat_bosses_unique, $boss_enabled|boss_zam_wesell, $boss_enabled|boss_zam_wesell_2-1"
                 ]
               }
             ],
@@ -378,7 +378,7 @@
                 "name": "Defeated Jango Fett",
                 "hosted_item": "boss_jango_fett",
                 "visibility_rules": [
-                  "setting_defeat_bosses_unique, $boss_enabled|boss_jango_fett"
+                  "setting_defeat_bosses_unique, $boss_enabled|boss_jango_fett, $boss_enabled|boss_jango_fett_2-2"
                 ]
               }
             ],
@@ -840,7 +840,7 @@
                 "name": "Defeated Jango Fett",
                 "hosted_item": "boss_jango_fett",
                 "visibility_rules": [
-                  "setting_defeat_bosses_unique, $boss_enabled|boss_jango_fett"
+                  "setting_defeat_bosses_unique, $boss_enabled|boss_jango_fett, $boss_enabled|boss_jango_fett_2-4"
                 ]
               }
             ],
@@ -1163,7 +1163,7 @@
                 "name": "Defeated Count Dooku",
                 "hosted_item": "boss_count_dooku",
                 "visibility_rules": [
-                  "setting_defeat_bosses_unique, $boss_enabled|boss_count_dooku"
+                  "setting_defeat_bosses_unique, $boss_enabled|boss_count_dooku, $boss_enabled|boss_count_dooku_2-6"
                 ]
               }
             ],

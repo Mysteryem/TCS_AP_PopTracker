@@ -379,7 +379,7 @@
                 "name": "Defeated Count Dooku",
                 "hosted_item": "boss_count_dooku",
                 "visibility_rules": [
-                  "setting_defeat_bosses_unique, $boss_enabled|boss_count_dooku"
+                  "setting_defeat_bosses_unique, $boss_enabled|boss_count_dooku, $boss_enabled|boss_count_dooku_3-2"
                 ]
               }
             ],
@@ -559,7 +559,7 @@
                 "name": "Defeated General Grievous",
                 "hosted_item": "boss_general_grievous",
                 "visibility_rules": [
-                  "setting_defeat_bosses_unique, $boss_enabled|boss_general_grievous"
+                  "setting_defeat_bosses_unique, $boss_enabled|boss_general_grievous, $boss_enabled|boss_general_grievous_3-3"
                 ]
               }
             ],
@@ -1104,14 +1104,14 @@
                 "name": "Defeated Anakin Skywalker",
                 "hosted_item": "boss_anakin_skywalker",
                 "visibility_rules": [
-                  "setting_defeat_bosses_unique, $boss_enabled|boss_anakin_skywalker"
+                  "setting_defeat_bosses_unique, $boss_enabled|boss_anakin_skywalker, $boss_enabled|boss_anakin_skywalker_3-6"
                 ]
               },
               {
                 "name": "Defeated Darth Vader",
                 "hosted_item": "boss_darth_vader",
                 "visibility_rules": [
-                  "setting_defeat_bosses_unique_anakin_as_vader, $boss_enabled|boss_darth_vader"
+                  "setting_defeat_bosses_unique_anakin_as_vader, $boss_enabled|boss_darth_vader, $boss_enabled|boss_anakin_skywalker_3-6"
                 ]
               }
             ],

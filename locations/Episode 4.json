@@ -1210,7 +1210,7 @@
                 "name": "Defeated Death Star",
                 "hosted_item": "boss_death_star",
                 "visibility_rules": [
-                  "setting_defeat_bosses_unique, $boss_enabled|boss_death_star"
+                  "setting_defeat_bosses_unique, $boss_enabled|boss_death_star, $boss_enabled|boss_death_star_4-6"
                 ]
               }
             ],
