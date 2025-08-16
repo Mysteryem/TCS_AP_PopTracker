@@ -38,7 +38,7 @@ AREA_ID_TO_SHORTNAME = {
   -- Bonus levels. Bonus levels only have completion Gold Bricks.
   [4] = "bonus_pod_race",
   [58] = "bonus_anakins_flight",
-  [13] = "bonus_gunship_cavalry",
+  [15] = "bonus_gunship_cavalry",
   [29] = "bonus_a_new_hope",
   [59] = "bonus_lego_city",
   [57] = "bonus_new_town",
