@@ -1,6 +1,15 @@
 {
     "versions": [
         {
+            "package_version": "1.1.2",
+            "download_url": "https://github.com/Mysteryem/TCS_AP_PopTracker/archive/refs/tags/v1.1.2.zip",
+            "sha256": "bc8ec2d6e65e3e050db7c2b43ae82629c1b46b1f70e306349d2dac86f5ba8cb1",
+            "changelog": [
+                "Fix unique boss character events showing on enabled chapters, but with that boss disabled",
+                "Fix event tracking for 2-4 (Jedi Battle) and Gunship Cavalry (Original)"
+            ]
+        },
+        {
             "package_version": "1.1.1",
             "download_url": "https://github.com/Mysteryem/TCS_AP_PopTracker/archive/refs/tags/v1.1.1.zip",
             "sha256": "7f0ef2790d581c637808f1e0be8f17041151d647f0082d0ab5c93aa9731b122f",
