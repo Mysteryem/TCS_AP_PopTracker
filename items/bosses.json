@@ -192,6 +192,30 @@
     ]
   },
   {
+    "name": "Imperial Spy (4-3)",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "name": "Boss Not Enabled (Imperial Spy (4-3))",
+        "img": "images/bosses/no_boss.png",
+        "img_mods": "@disabled,@disabled"
+      },
+      {
+        "name": "Defeat Imperial Spy (4-3)",
+        "img": "images/bosses/imperial_spy.png",
+        "img_mods": "@disabled"
+      },
+      {
+        "name": "Imperial Spy (4-3) Defeated",
+        "img": "images/bosses/imperial_spy.png",
+        "codes": "boss_imperial_spy_4-3, boss_defeated",
+        "img_mods": "overlay|images/bosses/boss_defeated.png"
+      }
+    ]
+  },
+  {
     "name": "Death Star (4-6)",
     "type": "progressive",
     "allow_disabled": false,

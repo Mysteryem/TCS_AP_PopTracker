@@ -603,6 +603,20 @@
                 "visibility_rules": [
                   "@Episode 4/Mos Eisley Spaceport/Minikits"
                 ]
+              },
+              {
+                "name": "Defeated Imperial Spy (4-3)",
+                "hosted_item": "boss_imperial_spy_4-3",
+                "visibility_rules": [
+                  "setting_defeat_bosses_normal, $boss_enabled|boss_imperial_spy_4-3"
+                ]
+              },
+              {
+                "name": "Defeated Imperial Spy",
+                "hosted_item": "boss_imperial_spy",
+                "visibility_rules": [
+                  "setting_defeat_bosses_unique, $boss_enabled|boss_imperial_spy, $boss_enabled|boss_imperial_spy_4-3"
+                ]
               }
             ],
             "map_locations": [

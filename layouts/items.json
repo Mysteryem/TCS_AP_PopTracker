@@ -260,6 +260,7 @@
         "boss_anakin_skywalker_3-6"
       ],
       [
+        "boss_imperial_spy_4-3",
         "boss_death_star_4-6"
       ],
       [
@@ -287,10 +288,10 @@
     "item_width": 48,
     "rows": [
       [
-        "boss_darth_maul",
-        "boss_zam_wesell"
+        "boss_darth_maul"
       ],
       [
+        "boss_zam_wesell",
         "boss_jango_fett",
         "boss_count_dooku"
       ],
@@ -299,14 +300,15 @@
         "boss_anakin_skywalker"
       ],
       [
-        "boss_death_star",
-        "boss_darth_vader"
+        "boss_imperial_spy",
+        "boss_death_star"
       ],
       [
-        "boss_boba_fett",
-        "boss_rancor"
+        "boss_darth_vader",
+        "boss_boba_fett"
       ],
       [
+        "boss_rancor",
         "boss_the_emperor",
         "boss_death_star_ii"
       ]

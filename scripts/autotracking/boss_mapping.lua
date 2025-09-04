@@ -9,6 +9,7 @@ local BOSS_MAPPING_UNIQUE = {
     ["3-2"] = "boss_count_dooku",
     ["3-3"] = "boss_general_grievous",
     ["3-6"] = "boss_anakin_skywalker",
+    ["4-3"] = "boss_imperial_spy",
     ["4-6"] = "boss_death_star",
     ["5-4"] = "boss_darth_vader",
     ["5-5"] = "boss_darth_vader",
