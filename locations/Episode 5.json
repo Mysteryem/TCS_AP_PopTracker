@@ -172,7 +172,7 @@
             "chest_unopened_img": "images/items/minikit.png",
             "chest_opened_img": "images/items/minikit_disabled.png",
             "access_rules": [
-              "sith, hover, astromech, bounty, setting_minikit_locations_enabled"
+              "sith, hover, astromech, bounty, shortie, setting_minikit_locations_enabled"
             ],
             "sections": [
               {
