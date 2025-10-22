@@ -288,6 +288,10 @@ function onClear(slot_data)
     -- Set enabled bosses
     set_bosses_from_slot_data_chapters(slot_data, setting_defeat_bosses_mode)
 
+    -- Set easier True Jedi
+    local easier_true_jedi = slot_data["easier_true_jedi"] or 0
+    Tracker:FindObjectForCode("easier_true_jedi").CurrentStage = easier_true_jedi
+
     -- Hint tracking disabled until PopTracker 0.32.0 is released, which adds section highlighting.
 --     if Archipelago.PlayerNumber > -1 then
 --

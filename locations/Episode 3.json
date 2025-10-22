@@ -477,7 +477,7 @@
               {
                 "name": "3-3 True Jedi",
                 "access_rules": [
-                  "setting_true_jedi_locations_enabled, [progressivescoremultiplier]"
+                  "setting_true_jedi_locations_enabled, @Macros/Can Complete Difficult True Jedi"
                 ],
                 "visibility_rules": [
                   "setting_true_jedi_locations_enabled"
@@ -867,7 +867,7 @@
               {
                 "name": "3-5 True Jedi",
                 "access_rules": [
-                  "setting_true_jedi_locations_enabled, [progressivescoremultiplier]"
+                  "setting_true_jedi_locations_enabled, @Macros/Can Complete Difficult True Jedi"
                 ],
                 "visibility_rules": [
                   "setting_true_jedi_locations_enabled"
@@ -1023,7 +1023,7 @@
               {
                 "name": "3-6 True Jedi",
                 "access_rules": [
-                  "setting_true_jedi_locations_enabled, [progressivescoremultiplier]"
+                  "setting_true_jedi_locations_enabled, @Macros/Can Complete Difficult True Jedi"
                 ],
                 "visibility_rules": [
                   "setting_true_jedi_locations_enabled"

@@ -534,5 +534,23 @@
         "codes": "setting_defeat_bosses_unique, setting_defeat_bosses_unique_anakin_as_vader"
       }
     ]
+  },
+  {
+    "name": "True Jedi Requirement",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "name": "Free Play True Jedi Requirements",
+        "img": "images/items/progressivescoremultiplier2.png",
+        "img_mods": "overlay|images/settings/true_jedi.png"
+      },
+      {
+        "name": "Story True Jedi Requirements (Easier True Jedi)",
+        "img": "images/settings/true_jedi.png",
+        "codes": "easier_true_jedi"
+      }
+    ]
   }
 ]

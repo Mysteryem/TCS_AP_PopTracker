@@ -1074,7 +1074,7 @@
               {
                 "name": "2-6 True Jedi",
                 "access_rules": [
-                  "setting_true_jedi_locations_enabled, [progressivescoremultiplier]"
+                  "setting_true_jedi_locations_enabled, @Macros/Can Complete Difficult True Jedi"
                 ],
                 "visibility_rules": [
                   "setting_true_jedi_locations_enabled"

@@ -43,6 +43,13 @@
           "episode_6_disabled",
           "episode_6_enabled, episode6unlock"
         ]
+      },
+      {
+        "name": "Can Complete Difficult True Jedi",
+        "access_rules": [
+          "easier_true_jedi",
+          "[progressivescoremultiplier1]"
+        ]
       }
     ]
   }
