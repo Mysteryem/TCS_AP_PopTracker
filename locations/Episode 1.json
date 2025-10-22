@@ -120,7 +120,7 @@
               {
                 "name": "1-1 True Jedi",
                 "access_rules": [
-                  "setting_true_jedi_locations_enabled, @Macros/Can Complete Difficult True Jedi"
+                  "setting_true_jedi_locations_enabled"
                 ],
                 "visibility_rules": [
                   "setting_true_jedi_locations_enabled"
@@ -1022,7 +1022,7 @@
               {
                 "name": "1-6 True Jedi",
                 "access_rules": [
-                  "setting_true_jedi_locations_enabled"
+                  "setting_true_jedi_locations_enabled, @Macros/Can Complete Difficult True Jedi"
                 ],
                 "visibility_rules": [
                   "setting_true_jedi_locations_enabled"
