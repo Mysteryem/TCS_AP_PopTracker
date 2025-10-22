@@ -203,10 +203,10 @@
                 "name": "6-1 True Jedi - Gold Brick",
                 "hosted_item": "6-1_true_jedi_gold_brick",
                 "access_rules": [
-                  "setting_true_jedi_locations_enabled"
+                  "@Episode 6/Jabba's Palace/Jabba's Palace/6-1 True Jedi"
                 ],
                 "visibility_rules": [
-                  "setting_true_jedi_locations_enabled"
+                  "@Episode 6/Jabba's Palace/Jabba's Palace/6-1 True Jedi"
                 ]
               },
               {
@@ -428,10 +428,10 @@
                 "name": "6-2 True Jedi - Gold Brick",
                 "hosted_item": "6-2_true_jedi_gold_brick",
                 "access_rules": [
-                  "setting_true_jedi_locations_enabled"
+                  "@Episode 6/Pit of Carkoon/Pit of Carkoon/6-2 True Jedi"
                 ],
                 "visibility_rules": [
-                  "setting_true_jedi_locations_enabled"
+                  "@Episode 6/Pit of Carkoon/Pit of Carkoon/6-2 True Jedi"
                 ]
               },
               {
@@ -598,10 +598,10 @@
                 "name": "6-3 True Jedi - Gold Brick",
                 "hosted_item": "6-3_true_jedi_gold_brick",
                 "access_rules": [
-                  "setting_true_jedi_locations_enabled"
+                  "@Episode 6/Speeder Showdown/Speeder Showdown/6-3 True Jedi"
                 ],
                 "visibility_rules": [
-                  "setting_true_jedi_locations_enabled"
+                  "@Episode 6/Speeder Showdown/Speeder Showdown/6-3 True Jedi"
                 ]
               },
               {
@@ -795,10 +795,10 @@
                 "name": "6-4 True Jedi - Gold Brick",
                 "hosted_item": "6-4_true_jedi_gold_brick",
                 "access_rules": [
-                  "setting_true_jedi_locations_enabled"
+                  "@Episode 6/Battle of Endor/Battle of Endor/6-4 True Jedi"
                 ],
                 "visibility_rules": [
-                  "setting_true_jedi_locations_enabled"
+                  "@Episode 6/Battle of Endor/Battle of Endor/6-4 True Jedi"
                 ]
               },
               {
@@ -966,10 +966,10 @@
                 "name": "6-5 True Jedi - Gold Brick",
                 "hosted_item": "6-5_true_jedi_gold_brick",
                 "access_rules": [
-                  "setting_true_jedi_locations_enabled"
+                  "@Episode 6/Jedi Destiny/Jedi Destiny/6-5 True Jedi"
                 ],
                 "visibility_rules": [
-                  "setting_true_jedi_locations_enabled"
+                  "@Episode 6/Jedi Destiny/Jedi Destiny/6-5 True Jedi"
                 ]
               },
               {
@@ -1142,10 +1142,10 @@
                 "name": "6-6 True Jedi - Gold Brick",
                 "hosted_item": "6-6_true_jedi_gold_brick",
                 "access_rules": [
-                  "setting_true_jedi_locations_enabled"
+                  "@Episode 6/Into the Death Star/Into the Death Star/6-6 True Jedi"
                 ],
                 "visibility_rules": [
-                  "setting_true_jedi_locations_enabled"
+                  "@Episode 6/Into the Death Star/Into the Death Star/6-6 True Jedi"
                 ]
               },
               {

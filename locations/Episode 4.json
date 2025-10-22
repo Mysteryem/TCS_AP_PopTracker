@@ -186,10 +186,10 @@
                 "name": "4-1 True Jedi - Gold Brick",
                 "hosted_item": "4-1_true_jedi_gold_brick",
                 "access_rules": [
-                  "setting_true_jedi_locations_enabled"
+                  "@Episode 4/Secret Plans/Secret Plans/4-1 True Jedi"
                 ],
                 "visibility_rules": [
-                  "setting_true_jedi_locations_enabled"
+                  "@Episode 4/Secret Plans/Secret Plans/4-1 True Jedi"
                 ]
               },
               {
@@ -376,10 +376,10 @@
                 "name": "4-2 True Jedi - Gold Brick",
                 "hosted_item": "4-2_true_jedi_gold_brick",
                 "access_rules": [
-                  "setting_true_jedi_locations_enabled"
+                  "@Episode 4/Through the Jundland Wastes/Through the Jundland Wastes/4-2 True Jedi"
                 ],
                 "visibility_rules": [
-                  "setting_true_jedi_locations_enabled"
+                  "@Episode 4/Through the Jundland Wastes/Through the Jundland Wastes/4-2 True Jedi"
                 ]
               },
               {
@@ -588,10 +588,10 @@
                 "name": "4-3 True Jedi - Gold Brick",
                 "hosted_item": "4-3_true_jedi_gold_brick",
                 "access_rules": [
-                  "setting_true_jedi_locations_enabled"
+                  "@Episode 4/Mos Eisley Spaceport/Mos Eisley Spaceport/4-3 True Jedi"
                 ],
                 "visibility_rules": [
-                  "setting_true_jedi_locations_enabled"
+                  "@Episode 4/Mos Eisley Spaceport/Mos Eisley Spaceport/4-3 True Jedi"
                 ]
               },
               {
@@ -832,10 +832,10 @@
                 "name": "4-4 True Jedi - Gold Brick",
                 "hosted_item": "4-4_true_jedi_gold_brick",
                 "access_rules": [
-                  "setting_true_jedi_locations_enabled"
+                  "@Episode 4/Rescue the Princess/Rescue the Princess/4-4 True Jedi"
                 ],
                 "visibility_rules": [
-                  "setting_true_jedi_locations_enabled"
+                  "@Episode 4/Rescue the Princess/Rescue the Princess/4-4 True Jedi"
                 ]
               },
               {
@@ -1017,10 +1017,10 @@
                 "name": "4-5 True Jedi - Gold Brick",
                 "hosted_item": "4-5_true_jedi_gold_brick",
                 "access_rules": [
-                  "setting_true_jedi_locations_enabled"
+                  "@Episode 4/Death Star Escape/Death Star Escape/4-5 True Jedi"
                 ],
                 "visibility_rules": [
-                  "setting_true_jedi_locations_enabled"
+                  "@Episode 4/Death Star Escape/Death Star Escape/4-5 True Jedi"
                 ]
               },
               {
@@ -1197,10 +1197,10 @@
                 "name": "4-6 True Jedi - Gold Brick",
                 "hosted_item": "4-6_true_jedi_gold_brick",
                 "access_rules": [
-                  "setting_true_jedi_locations_enabled"
+                  "@Episode 4/Rebel Attack/Rebel Attack/4-6 True Jedi"
                 ],
                 "visibility_rules": [
-                  "setting_true_jedi_locations_enabled"
+                  "@Episode 4/Rebel Attack/Rebel Attack/4-6 True Jedi"
                 ]
               },
               {

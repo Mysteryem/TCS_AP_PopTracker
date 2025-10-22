@@ -154,10 +154,10 @@
                 "name": "2-1 True Jedi - Gold Brick",
                 "hosted_item": "2-1_true_jedi_gold_brick",
                 "access_rules": [
-                  "setting_true_jedi_locations_enabled"
+                  "@Episode 2/Bounty Hunter Pursuit/Bounty Hunter Pursuit/2-1 True Jedi"
                 ],
                 "visibility_rules": [
-                  "setting_true_jedi_locations_enabled"
+                  "@Episode 2/Bounty Hunter Pursuit/Bounty Hunter Pursuit/2-1 True Jedi"
                 ]
               },
               {
@@ -351,10 +351,10 @@
                 "name": "2-2 True Jedi - Gold Brick",
                 "hosted_item": "2-2_true_jedi_gold_brick",
                 "access_rules": [
-                  "setting_true_jedi_locations_enabled"
+                  "@Episode 2/Discovery on Kamino/Discovery on Kamino/2-2 True Jedi"
                 ],
                 "visibility_rules": [
-                  "setting_true_jedi_locations_enabled"
+                  "@Episode 2/Discovery on Kamino/Discovery on Kamino/2-2 True Jedi"
                 ]
               },
               {
@@ -552,10 +552,10 @@
                 "name": "2-3 True Jedi - Gold Brick",
                 "hosted_item": "2-3_true_jedi_gold_brick",
                 "access_rules": [
-                  "setting_true_jedi_locations_enabled"
+                  "@Episode 2/Droid Factory/Droid Factory/2-3 True Jedi"
                 ],
                 "visibility_rules": [
-                  "setting_true_jedi_locations_enabled"
+                  "@Episode 2/Droid Factory/Droid Factory/2-3 True Jedi"
                 ]
               },
               {
@@ -813,10 +813,10 @@
                 "name": "2-4 True Jedi - Gold Brick",
                 "hosted_item": "2-4_true_jedi_gold_brick",
                 "access_rules": [
-                  "setting_true_jedi_locations_enabled"
+                  "@Episode 2/Jedi Battle/Jedi Battle/2-4 True Jedi"
                 ],
                 "visibility_rules": [
-                  "setting_true_jedi_locations_enabled"
+                  "@Episode 2/Jedi Battle/Jedi Battle/2-4 True Jedi"
                 ]
               },
               {
@@ -972,10 +972,10 @@
                 "name": "2-5 True Jedi - Gold Brick",
                 "hosted_item": "2-5_true_jedi_gold_brick",
                 "access_rules": [
-                  "setting_true_jedi_locations_enabled"
+                  "@Episode 2/Gunship Cavalry/Gunship Cavalry/2-5 True Jedi"
                 ],
                 "visibility_rules": [
-                  "setting_true_jedi_locations_enabled"
+                  "@Episode 2/Gunship Cavalry/Gunship Cavalry/2-5 True Jedi"
                 ]
               },
               {
@@ -1136,10 +1136,10 @@
                 "name": "2-6 True Jedi - Gold Brick",
                 "hosted_item": "2-6_true_jedi_gold_brick",
                 "access_rules": [
-                  "setting_true_jedi_locations_enabled"
+                  "@Episode 2/Count Dooku/Count Dooku/2-6 True Jedi"
                 ],
                 "visibility_rules": [
-                  "setting_true_jedi_locations_enabled"
+                  "@Episode 2/Count Dooku/Count Dooku/2-6 True Jedi"
                 ]
               },
               {

@@ -162,10 +162,10 @@
                 "name": "3-1 True Jedi - Gold Brick",
                 "hosted_item": "3-1_true_jedi_gold_brick",
                 "access_rules": [
-                  "setting_true_jedi_locations_enabled"
+                  "@Episode 3/Battle Over Coruscant/Battle Over Coruscant/3-1 True Jedi"
                 ],
                 "visibility_rules": [
-                  "setting_true_jedi_locations_enabled"
+                  "@Episode 3/Battle Over Coruscant/Battle Over Coruscant/3-1 True Jedi"
                 ]
               },
               {
@@ -352,10 +352,10 @@
                 "name": "3-2 True Jedi - Gold Brick",
                 "hosted_item": "3-2_true_jedi_gold_brick",
                 "access_rules": [
-                  "setting_true_jedi_locations_enabled"
+                  "@Episode 3/Chancellor in Peril/Chancellor in Peril/3-2 True Jedi"
                 ],
                 "visibility_rules": [
-                  "setting_true_jedi_locations_enabled"
+                  "@Episode 3/Chancellor in Peril/Chancellor in Peril/3-2 True Jedi"
                 ]
               },
               {
@@ -532,10 +532,10 @@
                 "name": "3-3 True Jedi - Gold Brick",
                 "hosted_item": "3-3_true_jedi_gold_brick",
                 "access_rules": [
-                  "setting_true_jedi_locations_enabled"
+                  "@Episode 3/General Grievous/General Grievous/3-3 True Jedi"
                 ],
                 "visibility_rules": [
-                  "setting_true_jedi_locations_enabled"
+                  "@Episode 3/General Grievous/General Grievous/3-3 True Jedi"
                 ]
               },
               {
@@ -747,10 +747,10 @@
                 "name": "3-4 True Jedi - Gold Brick",
                 "hosted_item": "3-4_true_jedi_gold_brick",
                 "access_rules": [
-                  "setting_true_jedi_locations_enabled"
+                  "@Episode 3/Defense of Kashyyyk/Defense of Kashyyyk/3-4 True Jedi"
                 ],
                 "visibility_rules": [
-                  "setting_true_jedi_locations_enabled"
+                  "@Episode 3/Defense of Kashyyyk/Defense of Kashyyyk/3-4 True Jedi"
                 ]
               },
               {
@@ -921,10 +921,10 @@
                 "name": "3-5 True Jedi - Gold Brick",
                 "hosted_item": "3-5_true_jedi_gold_brick",
                 "access_rules": [
-                  "setting_true_jedi_locations_enabled"
+                  "@Episode 3/Ruin of the Jedi/Ruin of the Jedi/3-5 True Jedi"
                 ],
                 "visibility_rules": [
-                  "setting_true_jedi_locations_enabled"
+                  "@Episode 3/Ruin of the Jedi/Ruin of the Jedi/3-5 True Jedi"
                 ]
               },
               {
@@ -1077,10 +1077,10 @@
                 "name": "3-6 True Jedi - Gold Brick",
                 "hosted_item": "3-6_true_jedi_gold_brick",
                 "access_rules": [
-                  "setting_true_jedi_locations_enabled"
+                  "@Episode 3/Darth Vader/Darth Vader/3-6 True Jedi"
                 ],
                 "visibility_rules": [
-                  "setting_true_jedi_locations_enabled"
+                  "@Episode 3/Darth Vader/Darth Vader/3-6 True Jedi"
                 ]
               },
               {
