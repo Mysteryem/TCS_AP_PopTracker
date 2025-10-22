@@ -93,18 +93,31 @@ function update_defeated_bosses(completed_area_ids)
         -- Bosses are disabled.
         return
     end
-    local mapping = MAPPING_LOOKUP[setting_defeat_bosses_mode]
     for _, area_id in ipairs(completed_area_ids or {}) do
         -- Get the chapter shortname from the area_id
         local shortname = AREA_ID_TO_SHORTNAME[area_id]
         if shortname ~= nil then
-            -- Get the item code for the chapter
-            local code = mapping[shortname]
-            if code ~= nil then
-                local item = Tracker:FindObjectForCode(code)
-                -- Check that the boss exists and is enabled, then mark the boss as defeated.
-                if item ~= nil and item.CurrentStage == 1 then
-                    item.CurrentStage = 2
+            -- Get the item code for whether the boss is enabled for this chapter.
+            local per_chapter_code = BOSS_MAPPING_NORMAL[shortname]
+            if per_chapter_code ~= nil then
+                local per_chapter_item = Tracker:FindObjectForCode(per_chapter_code)
+                if per_chapter_item.CurrentStage == 1 then
+                    -- This chapter has a boss enabled, and is yet to be defeated in the case that the 'normal' bosses
+                    -- mode is enabled.
+                    local mapping = MAPPING_LOOKUP[setting_defeat_bosses_mode]
+                    if mapping == BOSS_MAPPING_NORMAL then
+                        -- Normal bosses must be enabled, so `item` is also the item that needs to be updated.
+                        per_chapter_item.CurrentStage = 2
+                    else
+                        -- Unique bosses must be enabled, so get the item for the boss at this chapter.
+                        local boss_character_code = mapping[shortname]
+                        local boss_character_item = Tracker:FindObjectForCode(boss_character_code)
+                        if boss_character_item.CurrentStage == 1 then
+                            -- If the boss is not already marked as beaten, so mark them as beaten.
+                            -- This clears any other sections that host this boss_character_item.
+                            boss_character_item.CurrentStage = 2
+                        end
+                    end
                 end
             end
         end
