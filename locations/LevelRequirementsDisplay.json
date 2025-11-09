@@ -15,7 +15,8 @@
             ],
             "sections": [
               {
-                "hosted_item": "obi-wankenobi, qui-gonjinn, tc-14"
+                "hosted_item": "obi-wankenobi, qui-gonjinn, tc-14",
+                "clear_as_group": false
               }
             ],
             "map_locations": [
@@ -35,7 +36,8 @@
             ],
             "sections": [
               {
-                "hosted_item": "obi-wankenobi, qui-gonjinn, jarjarbinks"
+                "hosted_item": "obi-wankenobi, qui-gonjinn, jarjarbinks",
+                "clear_as_group": false
               }
             ],
             "map_locations": [
@@ -55,7 +57,8 @@
             ],
             "sections": [
               {
-                "hosted_item": "obi-wankenobi, qui-gonjinn, captainpanaka, queenamidala"
+                "hosted_item": "obi-wankenobi, qui-gonjinn, captainpanaka, queenamidala",
+                "clear_as_group": false
               }
             ],
             "map_locations": [
@@ -75,7 +78,8 @@
             ],
             "sections": [
               {
-                "hosted_item": "anakinspodracer"
+                "hosted_item": "anakinspodracer",
+                "clear_as_group": false
               }
             ],
             "map_locations": [
@@ -95,7 +99,8 @@
             ],
             "sections": [
               {
-                "hosted_item": "obi-wankenobi, qui-gonjinn, captainpanaka, padme(battle), r2-d2, anakinskywalker(boy)"
+                "hosted_item": "obi-wankenobi, qui-gonjinn, captainpanaka, padme(battle), r2-d2, anakinskywalker(boy)",
+                "clear_as_group": false
               }
             ],
             "map_locations": [
@@ -115,7 +120,8 @@
             ],
             "sections": [
               {
-                "hosted_item": "obi-wankenobi, qui-gonjinn"
+                "hosted_item": "obi-wankenobi, qui-gonjinn",
+                "clear_as_group": false
               }
             ],
             "map_locations": [
@@ -140,7 +146,8 @@
             ],
             "sections": [
               {
-                "hosted_item": "speeder"
+                "hosted_item": "speeder",
+                "clear_as_group": false
               }
             ],
             "map_locations": [
@@ -160,7 +167,8 @@
             ],
             "sections": [
               {
-                "hosted_item": "r4-p17, obi-wankenobi(jedimaster)"
+                "hosted_item": "r4-p17, obi-wankenobi(jedimaster)",
+                "clear_as_group": false
               }
             ],
             "map_locations": [
@@ -180,7 +188,8 @@
             ],
             "sections": [
               {
-                "hosted_item": "anakinskywalker(padawan), padme(geonosis), r2-d2, c-3po"
+                "hosted_item": "anakinskywalker(padawan), padme(geonosis), r2-d2, c-3po",
+                "clear_as_group": false
               }
             ],
             "map_locations": [
@@ -200,7 +209,8 @@
             ],
             "sections": [
               {
-                "hosted_item": "macewindu, padme(clawed), anakinskywalker(padawan), obi-wankenobi(jedimaster), r2-d2"
+                "hosted_item": "macewindu, padme(clawed), anakinskywalker(padawan), obi-wankenobi(jedimaster), r2-d2",
+                "clear_as_group": false
               }
             ],
             "map_locations": [
@@ -220,7 +230,8 @@
             ],
             "sections": [
               {
-                "hosted_item": "republicgunship"
+                "hosted_item": "republicgunship",
+                "clear_as_group": false
               }
             ],
             "map_locations": [
@@ -240,7 +251,8 @@
             ],
             "sections": [
               {
-                "hosted_item": "anakinskywalker(padawan), obi-wankenobi(jedimaster), yoda"
+                "hosted_item": "anakinskywalker(padawan), obi-wankenobi(jedimaster), yoda",
+                "clear_as_group": false
               }
             ],
             "map_locations": [
@@ -265,7 +277,8 @@
             ],
             "sections": [
               {
-                "hosted_item": "obi-wansstarfighter, anakinsstarfighter"
+                "hosted_item": "obi-wansstarfighter, anakinsstarfighter",
+                "clear_as_group": false
               }
             ],
             "map_locations": [
@@ -285,7 +298,8 @@
             ],
             "sections": [
               {
-                "hosted_item": "anakinskywalker(jedi), chancellorpalpatine, obi-wankenobi(episode3), r2-d2"
+                "hosted_item": "anakinskywalker(jedi), chancellorpalpatine, obi-wankenobi(episode3), r2-d2",
+                "clear_as_group": false
               }
             ],
             "map_locations": [
@@ -305,7 +319,8 @@
             ],
             "sections": [
               {
-                "hosted_item": "obi-wankenobi(episode3), commandercody"
+                "hosted_item": "obi-wankenobi(episode3), commandercody",
+                "clear_as_group": false
               }
             ],
             "map_locations": [
@@ -325,7 +340,8 @@
             ],
             "sections": [
               {
-                "hosted_item": "chewbacca, yoda"
+                "hosted_item": "chewbacca, yoda",
+                "clear_as_group": false
               }
             ],
             "map_locations": [
@@ -345,7 +361,8 @@
             ],
             "sections": [
               {
-                "hosted_item": "obi-wankenobi(episode3), yoda"
+                "hosted_item": "obi-wankenobi(episode3), yoda",
+                "clear_as_group": false
               }
             ],
             "map_locations": [
@@ -365,7 +382,8 @@
             ],
             "sections": [
               {
-                "hosted_item": "anakinskywalker(jedi), obi-wankenobi(episode3)"
+                "hosted_item": "anakinskywalker(jedi), obi-wankenobi(episode3)",
+                "clear_as_group": false
               }
             ],
             "map_locations": [
@@ -390,7 +408,8 @@
             ],
             "sections": [
               {
-                "hosted_item": "princessleia, captainantilles, c-3po, r2-d2, rebelfriend"
+                "hosted_item": "princessleia, captainantilles, c-3po, r2-d2, rebelfriend",
+                "clear_as_group": false
               }
             ],
             "map_locations": [
@@ -410,7 +429,8 @@
             ],
             "sections": [
               {
-                "hosted_item": "lukeskywalker(tatooine), c-3po, r2-d2, benkenobi"
+                "hosted_item": "lukeskywalker(tatooine), c-3po, r2-d2, benkenobi",
+                "clear_as_group": false
               }
             ],
             "map_locations": [
@@ -430,7 +450,8 @@
             ],
             "sections": [
               {
-                "hosted_item": "hansolo, benkenobi, lukeskywalker(tatooine), c-3po, r2-d2, chewbacca"
+                "hosted_item": "hansolo, benkenobi, lukeskywalker(tatooine), c-3po, r2-d2, chewbacca",
+                "clear_as_group": false
               }
             ],
             "map_locations": [
@@ -450,7 +471,8 @@
             ],
             "sections": [
               {
-                "hosted_item": "lukeskywalker(stormtrooper), benkenobi, hansolo(stormtrooper), chewbacca, c-3po, r2-d2"
+                "hosted_item": "lukeskywalker(stormtrooper), benkenobi, hansolo(stormtrooper), chewbacca, c-3po, r2-d2",
+                "clear_as_group": false
               }
             ],
             "map_locations": [
@@ -470,7 +492,8 @@
             ],
             "sections": [
               {
-                "hosted_item": "lukeskywalker(tatooine), princessleia, hansolo, chewbacca, c-3po, r2-d2"
+                "hosted_item": "lukeskywalker(tatooine), princessleia, hansolo, chewbacca, c-3po, r2-d2",
+                "clear_as_group": false
               }
             ],
             "map_locations": [
@@ -490,7 +513,8 @@
             ],
             "sections": [
               {
-                "hosted_item": "x-wing, y-wing"
+                "hosted_item": "x-wing, y-wing",
+                "clear_as_group": false
               }
             ],
             "map_locations": [
@@ -515,7 +539,8 @@
             ],
             "sections": [
               {
-                "hosted_item": "snowspeeder"
+                "hosted_item": "snowspeeder",
+                "clear_as_group": false
               }
             ],
             "map_locations": [
@@ -535,7 +560,8 @@
             ],
             "sections": [
               {
-                "hosted_item": "hansolo(hoth), princessleia(hoth), c-3po, chewbacca"
+                "hosted_item": "hansolo(hoth), princessleia(hoth), c-3po, chewbacca",
+                "clear_as_group": false
               }
             ],
             "map_locations": [
@@ -555,7 +581,8 @@
             ],
             "sections": [
               {
-                "hosted_item": "millenniumfalcon, x-wing"
+                "hosted_item": "millenniumfalcon, x-wing",
+                "clear_as_group": false
               }
             ],
             "map_locations": [
@@ -575,7 +602,8 @@
             ],
             "sections": [
               {
-                "hosted_item": "lukeskywalker(pilot), lukeskywalker(dagobah), r2-d2, yoda"
+                "hosted_item": "lukeskywalker(pilot), lukeskywalker(dagobah), r2-d2, yoda",
+                "clear_as_group": false
               }
             ],
             "map_locations": [
@@ -595,7 +623,8 @@
             ],
             "sections": [
               {
-                "hosted_item": "lukeskywalker(bespin), r2-d2"
+                "hosted_item": "lukeskywalker(bespin), r2-d2",
+                "clear_as_group": false
               }
             ],
             "map_locations": [
@@ -615,7 +644,8 @@
             ],
             "sections": [
               {
-                "hosted_item": "princessleia(bespin), landocalrissian, c-3po, r2-d2, chewbacca"
+                "hosted_item": "princessleia(bespin), landocalrissian, c-3po, r2-d2, chewbacca",
+                "clear_as_group": false
               }
             ],
             "map_locations": [
@@ -640,7 +670,8 @@
             ],
             "sections": [
               {
-                "hosted_item": "princessleia(boushh), chewbacca, lukeskywalker(jedi), r2-d2, c-3po, hansolo(skiff)"
+                "hosted_item": "princessleia(boushh), chewbacca, lukeskywalker(jedi), r2-d2, c-3po, hansolo(skiff)",
+                "clear_as_group": false
               }
             ],
             "map_locations": [
@@ -660,7 +691,8 @@
             ],
             "sections": [
               {
-                "hosted_item": "lukeskywalker(jedi), landocalrissian(palaceguard), hansolo(skiff), chewbacca, r2-d2, c-3po, princessleia(slave)"
+                "hosted_item": "lukeskywalker(jedi), landocalrissian(palaceguard), hansolo(skiff), chewbacca, r2-d2, c-3po, princessleia(slave)",
+                "clear_as_group": false
               }
             ],
             "map_locations": [
@@ -680,7 +712,8 @@
             ],
             "sections": [
               {
-                "hosted_item": "lukeskywalker(endor), princessleia(endor)"
+                "hosted_item": "lukeskywalker(endor), princessleia(endor)",
+                "clear_as_group": false
               }
             ],
             "map_locations": [
@@ -700,7 +733,8 @@
             ],
             "sections": [
               {
-                "hosted_item": "hansolo(endor), princessleia(endor), chewbacca, r2-d2, c-3po, wicket"
+                "hosted_item": "hansolo(endor), princessleia(endor), chewbacca, r2-d2, c-3po, wicket",
+                "clear_as_group": false
               }
             ],
             "map_locations": [
@@ -720,7 +754,8 @@
             ],
             "sections": [
               {
-                "hosted_item": "darthvader, lukeskywalker(jedi)"
+                "hosted_item": "darthvader, lukeskywalker(jedi)",
+                "clear_as_group": false
               }
             ],
             "map_locations": [
@@ -740,7 +775,8 @@
             ],
             "sections": [
               {
-                "hosted_item": "millenniumfalcon, x-wing"
+                "hosted_item": "millenniumfalcon, x-wing",
+                "clear_as_group": false
               }
             ],
             "map_locations": [
