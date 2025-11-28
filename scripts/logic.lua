@@ -160,6 +160,10 @@ function all_episodes_tokens()
 end
 
 function boss_enabled(boss_code)
+    -- The boss X enabled items do not provide any codes for their first stage (boss not enabled) or their second stage
+    -- (boss enabled, but not defeated) because the boss items are hosted on sections, and the sections should only
+    -- clear once the boss has been defeated. If a hosted item provides *any* codes, then the section is considered
+    -- cleared, so this requires lua logic.
     return Tracker:FindObjectForCode(boss_code).CurrentStage > 0
 end
 
