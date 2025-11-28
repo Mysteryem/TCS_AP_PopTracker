@@ -111,6 +111,9 @@
               [
                 "minikits_for_goal",
                 "setting_defeat_bosses_goal_amount"
+              ],
+              [
+                "setting_goal_requires_kyber_bricks"
               ]
             ]
           },

@@ -50,6 +50,13 @@
           "easier_true_jedi",
           "[progressivescoremultiplier1]"
         ]
+      },
+      {
+        "name": "Can Complete Kyber Bricks Goal",
+        "access_rules": [
+          "setting_goal_does_not_require_kyber_bricks",
+          "setting_goal_requires_kyber_bricks, kyber_brick:7"
+        ]
       }
     ]
   }

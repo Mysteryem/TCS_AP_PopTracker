@@ -288,6 +288,10 @@ function onClear(slot_data)
     -- Set enabled bosses
     set_bosses_from_slot_data_chapters(slot_data, setting_defeat_bosses_mode)
 
+    -- Set Kyber Brick goal requirement
+    local goal_requires_kyber_bricks = slot_data["goal_requires_kyber_bricks"] or 0
+    Tracker:FindObjectForCode("setting_goal_requires_kyber_bricks").CurrentStage = goal_requires_kyber_bricks
+
     -- Set easier True Jedi
     local easier_true_jedi = slot_data["easier_true_jedi"] or 0
     Tracker:FindObjectForCode("easier_true_jedi").CurrentStage = easier_true_jedi

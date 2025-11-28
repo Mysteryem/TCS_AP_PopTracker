@@ -96,7 +96,7 @@
                     {
                         "name": "Goal",
                         "access_rules": [
-                            "$minikits_goal, $defeat_bosses_goal"
+                            "@Macros/Can Complete Kyber Bricks Goal, $minikits_goal, $defeat_bosses_goal"
                         ]
                     }
                 ],

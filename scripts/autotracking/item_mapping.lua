@@ -214,4 +214,5 @@ ITEM_MAPPING = {
             {"minikits", "consumable"},
             {"minikits", "consumable"},
             },
+    [203] = {{"kyber_brick", "consumable"}},
 }

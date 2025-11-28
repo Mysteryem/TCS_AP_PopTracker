@@ -552,5 +552,25 @@
         "codes": "easier_true_jedi"
       }
     ]
+  },
+  {
+    "name": "7 Kyber Bricks required to goal",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": false,
+    "stages": [
+      {
+        "name": "Goal does not require Kyber Bricks",
+        "img": "images/items/kyber_brick.png",
+        "img_mods": "@disabled",
+        "codes": "setting_goal_does_not_require_kyber_bricks"
+      },
+      {
+        "name": "Goal does not require Kyber Bricks",
+        "img": "images/items/kyber_brick.png",
+        "codes": "setting_goal_requires_kyber_bricks",
+        "inherit_codes": false
+      }
+    ]
   }
 ]

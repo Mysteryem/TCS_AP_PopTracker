@@ -1933,5 +1933,12 @@
     "type": "toggle",
     "img": "images/items/custom_character_2.png",
     "codes": "custom_character_2, blaster"
+  },
+  {
+    "name": "Kyber Brick",
+    "type": "consumable",
+    "img": "images/items/kyber_brick.png",
+    "max_quantity": 7,
+    "codes": "kyber_brick"
   }
 ]
