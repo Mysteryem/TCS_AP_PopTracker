@@ -124,16 +124,14 @@
               },
               {
                 "name": "Chapter Completion - Unlock Anakin's Starfighter",
-                "chest_unopened_img": "images/items/anakinsstarfighter.png",
-                "chest_opened_img": "images/items/anakinsstarfighter_disabled.png",
+                "hosted_item": "chapter_completion_unlock_helper_anakinsstarfighter",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
                 "name": "Chapter Completion - Unlock Obi-Wan's Starfighter",
-                "chest_unopened_img": "images/items/obi-wansstarfighter.png",
-                "chest_opened_img": "images/items/obi-wansstarfighter_disabled.png",
+                "hosted_item": "chapter_completion_unlock_helper_obi-wansstarfighter",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
@@ -295,32 +293,28 @@
               },
               {
                 "name": "Chapter Completion - Unlock R2-D2",
-                "chest_unopened_img": "images/items/r2-d2.png",
-                "chest_opened_img": "images/items/r2-d2_disabled.png",
+                "hosted_item": "chapter_completion_unlock_helper_r2-d2",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
                 "name": "Chapter Completion - Unlock Anakin Skywalker (Jedi)",
-                "chest_unopened_img": "images/items/anakinskywalker(jedi).png",
-                "chest_opened_img": "images/items/anakinskywalker(jedi)_disabled.png",
+                "hosted_item": "chapter_completion_unlock_helper_anakinskywalker(jedi)",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
                 "name": "Chapter Completion - Unlock Chancellor Palpatine",
-                "chest_unopened_img": "images/items/chancellorpalpatine.png",
-                "chest_opened_img": "images/items/chancellorpalpatine_disabled.png",
+                "hosted_item": "chapter_completion_unlock_helper_chancellorpalpatine",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
                 "name": "Chapter Completion - Unlock Obi-Wan Kenobi (Episode 3)",
-                "chest_unopened_img": "images/items/obi-wankenobi(episode3).png",
-                "chest_opened_img": "images/items/obi-wankenobi(episode3)_disabled.png",
+                "hosted_item": "chapter_completion_unlock_helper_obi-wankenobi(episode3)",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
@@ -490,16 +484,14 @@
               },
               {
                 "name": "Chapter Completion - Unlock Obi-Wan Kenobi (Episode 3)",
-                "chest_unopened_img": "images/items/obi-wankenobi(episode3).png",
-                "chest_opened_img": "images/items/obi-wankenobi(episode3)_disabled.png",
+                "hosted_item": "chapter_completion_unlock_helper_obi-wankenobi(episode3)",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
                 "name": "Chapter Completion - Unlock Commander Cody",
-                "chest_unopened_img": "images/items/commandercody.png",
-                "chest_opened_img": "images/items/commandercody_disabled.png",
+                "hosted_item": "chapter_completion_unlock_helper_commandercody",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
@@ -706,16 +698,14 @@
               },
               {
                 "name": "Chapter Completion - Unlock Yoda",
-                "chest_unopened_img": "images/items/yoda.png",
-                "chest_opened_img": "images/items/yoda_disabled.png",
+                "hosted_item": "chapter_completion_unlock_helper_yoda",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
                 "name": "Chapter Completion - Unlock Chewbacca",
-                "chest_unopened_img": "images/items/chewbacca.png",
-                "chest_opened_img": "images/items/chewbacca_disabled.png",
+                "hosted_item": "chapter_completion_unlock_helper_chewbacca",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
@@ -880,16 +870,14 @@
               },
               {
                 "name": "Chapter Completion - Unlock Yoda",
-                "chest_unopened_img": "images/items/yoda.png",
-                "chest_opened_img": "images/items/yoda_disabled.png",
+                "hosted_item": "chapter_completion_unlock_helper_yoda",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
                 "name": "Chapter Completion - Unlock Obi-Wan Kenobi (Episode 3)",
-                "chest_unopened_img": "images/items/obi-wankenobi(episode3).png",
-                "chest_opened_img": "images/items/obi-wankenobi(episode3)_disabled.png",
+                "hosted_item": "chapter_completion_unlock_helper_obi-wankenobi(episode3)",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
@@ -1036,16 +1024,14 @@
               },
               {
                 "name": "Chapter Completion - Unlock Anakin Skywalker (Jedi)",
-                "chest_unopened_img": "images/items/anakinskywalker(jedi).png",
-                "chest_opened_img": "images/items/anakinskywalker(jedi)_disabled.png",
+                "hosted_item": "chapter_completion_unlock_helper_anakinskywalker(jedi)",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
                 "name": "Chapter Completion - Unlock Obi-Wan Kenobi (Episode 3)",
-                "chest_unopened_img": "images/items/obi-wankenobi(episode3).png",
-                "chest_opened_img": "images/items/obi-wankenobi(episode3)_disabled.png",
+                "hosted_item": "chapter_completion_unlock_helper_obi-wankenobi(episode3)",
                 "visibility_rules": [
                   "story_character_locations"
                 ]

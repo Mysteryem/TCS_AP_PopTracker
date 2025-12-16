@@ -1,0 +1,394 @@
+[
+  {
+    "type": "toggle",
+    "img": "images/items/obi-wankenobi.png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "chapter_completion_unlock_helper_obi-wankenobi"
+  },
+  {
+    "type": "toggle",
+    "img": "images/items/qui-gonjinn.png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "chapter_completion_unlock_helper_qui-gonjinn"
+  },
+  {
+    "type": "toggle",
+    "img": "images/items/tc-14.png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "chapter_completion_unlock_helper_tc-14"
+  },
+  {
+    "type": "toggle",
+    "img": "images/items/jarjarbinks.png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "chapter_completion_unlock_helper_jarjarbinks"
+  },
+  {
+    "type": "toggle",
+    "img": "images/items/captainpanaka.png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "chapter_completion_unlock_helper_captainpanaka"
+  },
+  {
+    "type": "toggle",
+    "img": "images/items/queenamidala.png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "chapter_completion_unlock_helper_queenamidala"
+  },
+  {
+    "type": "toggle",
+    "img": "images/items/anakinspodracer.png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "chapter_completion_unlock_helper_anakinspodracer"
+  },
+  {
+    "type": "toggle",
+    "img": "images/items/anakinskywalker(boy).png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "chapter_completion_unlock_helper_anakinskywalker(boy)"
+  },
+  {
+    "type": "toggle",
+    "img": "images/items/padme(battle).png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "chapter_completion_unlock_helper_padme(battle)"
+  },
+  {
+    "type": "toggle",
+    "img": "images/items/r2-d2.png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "chapter_completion_unlock_helper_r2-d2"
+  },
+  {
+    "type": "toggle",
+    "img": "images/items/speeder.png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "chapter_completion_unlock_helper_speeder"
+  },
+  {
+    "type": "toggle",
+    "img": "images/items/obi-wankenobi(jedimaster).png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "chapter_completion_unlock_helper_obi-wankenobi(jedimaster)"
+  },
+  {
+    "type": "toggle",
+    "img": "images/items/r4-p17.png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "chapter_completion_unlock_helper_r4-p17"
+  },
+  {
+    "type": "toggle",
+    "img": "images/items/anakinskywalker(padawan).png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "chapter_completion_unlock_helper_anakinskywalker(padawan)"
+  },
+  {
+    "type": "toggle",
+    "img": "images/items/c-3po.png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "chapter_completion_unlock_helper_c-3po"
+  },
+  {
+    "type": "toggle",
+    "img": "images/items/padme(geonosis).png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "chapter_completion_unlock_helper_padme(geonosis)"
+  },
+  {
+    "type": "toggle",
+    "img": "images/items/macewindu.png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "chapter_completion_unlock_helper_macewindu"
+  },
+  {
+    "type": "toggle",
+    "img": "images/items/padme(clawed).png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "chapter_completion_unlock_helper_padme(clawed)"
+  },
+  {
+    "type": "toggle",
+    "img": "images/items/republicgunship.png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "chapter_completion_unlock_helper_republicgunship"
+  },
+  {
+    "type": "toggle",
+    "img": "images/items/yoda.png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "chapter_completion_unlock_helper_yoda"
+  },
+  {
+    "type": "toggle",
+    "img": "images/items/anakinsstarfighter.png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "chapter_completion_unlock_helper_anakinsstarfighter"
+  },
+  {
+    "type": "toggle",
+    "img": "images/items/obi-wansstarfighter.png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "chapter_completion_unlock_helper_obi-wansstarfighter"
+  },
+  {
+    "type": "toggle",
+    "img": "images/items/anakinskywalker(jedi).png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "chapter_completion_unlock_helper_anakinskywalker(jedi)"
+  },
+  {
+    "type": "toggle",
+    "img": "images/items/chancellorpalpatine.png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "chapter_completion_unlock_helper_chancellorpalpatine"
+  },
+  {
+    "type": "toggle",
+    "img": "images/items/obi-wankenobi(episode3).png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "chapter_completion_unlock_helper_obi-wankenobi(episode3)"
+  },
+  {
+    "type": "toggle",
+    "img": "images/items/commandercody.png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "chapter_completion_unlock_helper_commandercody"
+  },
+  {
+    "type": "toggle",
+    "img": "images/items/chewbacca.png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "chapter_completion_unlock_helper_chewbacca"
+  },
+  {
+    "type": "toggle",
+    "img": "images/items/captainantilles.png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "chapter_completion_unlock_helper_captainantilles"
+  },
+  {
+    "type": "toggle",
+    "img": "images/items/princessleia.png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "chapter_completion_unlock_helper_princessleia"
+  },
+  {
+    "type": "toggle",
+    "img": "images/items/rebelfriend.png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "chapter_completion_unlock_helper_rebelfriend"
+  },
+  {
+    "type": "toggle",
+    "img": "images/items/benkenobi.png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "chapter_completion_unlock_helper_benkenobi"
+  },
+  {
+    "type": "toggle",
+    "img": "images/items/lukeskywalker(tatooine).png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "chapter_completion_unlock_helper_lukeskywalker(tatooine)"
+  },
+  {
+    "type": "toggle",
+    "img": "images/items/hansolo.png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "chapter_completion_unlock_helper_hansolo"
+  },
+  {
+    "type": "toggle",
+    "img": "images/items/hansolo(stormtrooper).png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "chapter_completion_unlock_helper_hansolo(stormtrooper)"
+  },
+  {
+    "type": "toggle",
+    "img": "images/items/lukeskywalker(stormtrooper).png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "chapter_completion_unlock_helper_lukeskywalker(stormtrooper)"
+  },
+  {
+    "type": "toggle",
+    "img": "images/items/x-wing.png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "chapter_completion_unlock_helper_x-wing"
+  },
+  {
+    "type": "toggle",
+    "img": "images/items/y-wing.png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "chapter_completion_unlock_helper_y-wing"
+  },
+  {
+    "type": "toggle",
+    "img": "images/items/snowspeeder.png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "chapter_completion_unlock_helper_snowspeeder"
+  },
+  {
+    "type": "toggle",
+    "img": "images/items/hansolo(hoth).png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "chapter_completion_unlock_helper_hansolo(hoth)"
+  },
+  {
+    "type": "toggle",
+    "img": "images/items/princessleia(hoth).png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "chapter_completion_unlock_helper_princessleia(hoth)"
+  },
+  {
+    "type": "toggle",
+    "img": "images/items/millenniumfalcon.png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "chapter_completion_unlock_helper_millenniumfalcon"
+  },
+  {
+    "type": "toggle",
+    "img": "images/items/lukeskywalker(dagobah).png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "chapter_completion_unlock_helper_lukeskywalker(dagobah)"
+  },
+  {
+    "type": "toggle",
+    "img": "images/items/lukeskywalker(pilot).png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "chapter_completion_unlock_helper_lukeskywalker(pilot)"
+  },
+  {
+    "type": "toggle",
+    "img": "images/items/lukeskywalker(bespin).png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "chapter_completion_unlock_helper_lukeskywalker(bespin)"
+  },
+  {
+    "type": "toggle",
+    "img": "images/items/landocalrissian.png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "chapter_completion_unlock_helper_landocalrissian"
+  },
+  {
+    "type": "toggle",
+    "img": "images/items/princessleia(bespin).png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "chapter_completion_unlock_helper_princessleia(bespin)"
+  },
+  {
+    "type": "toggle",
+    "img": "images/items/hansolo(skiff).png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "chapter_completion_unlock_helper_hansolo(skiff)"
+  },
+  {
+    "type": "toggle",
+    "img": "images/items/princessleia(boushh).png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "chapter_completion_unlock_helper_princessleia(boushh)"
+  },
+  {
+    "type": "toggle",
+    "img": "images/items/lukeskywalker(jedi).png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "chapter_completion_unlock_helper_lukeskywalker(jedi)"
+  },
+  {
+    "type": "toggle",
+    "img": "images/items/princessleia(slave).png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "chapter_completion_unlock_helper_princessleia(slave)"
+  },
+  {
+    "type": "toggle",
+    "img": "images/items/landocalrissian(palaceguard).png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "chapter_completion_unlock_helper_landocalrissian(palaceguard)"
+  },
+  {
+    "type": "toggle",
+    "img": "images/items/lukeskywalker(endor).png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "chapter_completion_unlock_helper_lukeskywalker(endor)"
+  },
+  {
+    "type": "toggle",
+    "img": "images/items/princessleia(endor).png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "chapter_completion_unlock_helper_princessleia(endor)"
+  },
+  {
+    "type": "toggle",
+    "img": "images/items/hansolo(endor).png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "chapter_completion_unlock_helper_hansolo(endor)"
+  },
+  {
+    "type": "toggle",
+    "img": "images/items/wicket.png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "chapter_completion_unlock_helper_wicket"
+  },
+  {
+    "type": "toggle",
+    "img": "images/items/darthvader.png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "chapter_completion_unlock_helper_darthvader"
+  }
+]

@@ -133,24 +133,21 @@
               },
               {
                 "name": "Chapter Completion - Unlock Obi-Wan Kenobi",
-                "chest_unopened_img": "images/items/obi-wankenobi.png",
-                "chest_opened_img": "images/items/obi-wankenobi_disabled.png",
+                "hosted_item": "chapter_completion_unlock_helper_obi-wankenobi",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
                 "name": "Chapter Completion - Unlock Qui-Gon Jinn",
-                "chest_unopened_img": "images/items/qui-gonjinn.png",
-                "chest_opened_img": "images/items/qui-gonjinn_disabled.png",
+                "hosted_item": "chapter_completion_unlock_helper_qui-gonjinn",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
                 "name": "Chapter Completion - Unlock TC-14",
-                "chest_unopened_img": "images/items/tc-14.png",
-                "chest_opened_img": "images/items/tc-14_disabled.png",
+                "hosted_item": "chapter_completion_unlock_helper_tc-14",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
@@ -315,24 +312,21 @@
               },
               {
                 "name": "Chapter Completion - Unlock Obi-Wan Kenobi",
-                "chest_unopened_img": "images/items/obi-wankenobi.png",
-                "chest_opened_img": "images/items/obi-wankenobi_disabled.png",
+                "hosted_item": "chapter_completion_unlock_helper_obi-wankenobi",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
                 "name": "Chapter Completion - Unlock Qui-Gon Jinn",
-                "chest_unopened_img": "images/items/qui-gonjinn.png",
-                "chest_opened_img": "images/items/qui-gonjinn_disabled.png",
+                "hosted_item": "chapter_completion_unlock_helper_qui-gonjinn",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
                 "name": "Chapter Completion - Unlock Jar Jar Binks",
-                "chest_unopened_img": "images/items/jarjarbinks.png",
-                "chest_opened_img": "images/items/jarjarbinks_disabled.png",
+                "hosted_item": "chapter_completion_unlock_helper_jarjarbinks",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
@@ -497,32 +491,28 @@
               },
               {
                 "name": "Chapter Completion - Unlock Obi-Wan Kenobi",
-                "chest_unopened_img": "images/items/obi-wankenobi.png",
-                "chest_opened_img": "images/items/obi-wankenobi_disabled.png",
+                "hosted_item": "chapter_completion_unlock_helper_obi-wankenobi",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
                 "name": "Chapter Completion - Unlock Qui-Gon Jinn",
-                "chest_unopened_img": "images/items/qui-gonjinn.png",
-                "chest_opened_img": "images/items/qui-gonjinn_disabled.png",
+                "hosted_item": "chapter_completion_unlock_helper_qui-gonjinn",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
                 "name": "Chapter Completion - Unlock Captain Panaka",
-                "chest_unopened_img": "images/items/captainpanaka.png",
-                "chest_opened_img": "images/items/captainpanaka_disabled.png",
+                "hosted_item": "chapter_completion_unlock_helper_captainpanaka",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
                 "name": "Chapter Completion - Unlock Queen Amidala",
-                "chest_unopened_img": "images/items/queenamidala.png",
-                "chest_opened_img": "images/items/queenamidala_disabled.png",
+                "hosted_item": "chapter_completion_unlock_helper_queenamidala",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
@@ -696,8 +686,7 @@
               },
               {
                 "name": "Chapter Completion - Unlock Anakin's Pod",
-                "chest_unopened_img": "images/items/anakinspodracer.png",
-                "chest_opened_img": "images/items/anakinspodracer_disabled.png",
+                "hosted_item": "chapter_completion_unlock_helper_anakinspodracer",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
@@ -841,48 +830,42 @@
               },
               {
                 "name": "Chapter Completion - Unlock Obi-Wan Kenobi",
-                "chest_unopened_img": "images/items/obi-wankenobi.png",
-                "chest_opened_img": "images/items/obi-wankenobi_disabled.png",
+                "hosted_item": "chapter_completion_unlock_helper_obi-wankenobi",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
                 "name": "Chapter Completion - Unlock Qui-Gon Jinn",
-                "chest_unopened_img": "images/items/qui-gonjinn.png",
-                "chest_opened_img": "images/items/qui-gonjinn_disabled.png",
+                "hosted_item": "chapter_completion_unlock_helper_qui-gonjinn",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
                 "name": "Chapter Completion - Unlock Captain Panaka",
-                "chest_unopened_img": "images/items/captainpanaka.png",
-                "chest_opened_img": "images/items/captainpanaka_disabled.png",
+                "hosted_item": "chapter_completion_unlock_helper_captainpanaka",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
                 "name": "Chapter Completion - Unlock Anakin Skywalker (Boy)",
-                "chest_unopened_img": "images/items/anakinskywalker(boy).png",
-                "chest_opened_img": "images/items/anakinskywalker(boy)_disabled.png",
+                "hosted_item": "chapter_completion_unlock_helper_anakinskywalker(boy)",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
                 "name": "Chapter Completion - Unlock Padmé (Battle)",
-                "chest_unopened_img": "images/items/padme(battle).png",
-                "chest_opened_img": "images/items/padme(battle)_disabled.png",
+                "hosted_item": "chapter_completion_unlock_helper_padme(battle)",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
                 "name": "Chapter Completion - Unlock R2-D2",
-                "chest_unopened_img": "images/items/r2-d2.png",
-                "chest_opened_img": "images/items/r2-d2_disabled.png",
+                "hosted_item": "chapter_completion_unlock_helper_r2-d2",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
@@ -1035,16 +1018,14 @@
               },
               {
                 "name": "Chapter Completion - Unlock Obi-Wan Kenobi",
-                "chest_unopened_img": "images/items/obi-wankenobi.png",
-                "chest_opened_img": "images/items/obi-wankenobi_disabled.png",
+                "hosted_item": "chapter_completion_unlock_helper_obi-wankenobi",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
                 "name": "Chapter Completion - Unlock Qui-Gon Jinn",
-                "chest_unopened_img": "images/items/qui-gonjinn.png",
-                "chest_opened_img": "images/items/qui-gonjinn_disabled.png",
+                "hosted_item": "chapter_completion_unlock_helper_qui-gonjinn",
                 "visibility_rules": [
                   "story_character_locations"
                 ]

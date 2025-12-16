@@ -6,6 +6,7 @@ Tracker:AddItems("items/bosses.json")
 Tracker:AddItems("items/unique_bosses.json")
 Tracker:AddItems("items/gold_brick_events.json")
 Tracker:AddItems("items/power_brick_events.json")
+Tracker:AddItems("items/chapter_completion_character_unlock_helpers.json")
 
 -- Maps
 Tracker:AddMaps("maps/maps.json")

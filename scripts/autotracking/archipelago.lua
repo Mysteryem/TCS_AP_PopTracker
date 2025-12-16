@@ -109,6 +109,9 @@ function onClear(slot_data)
                     if location:sub(1, 1) == "@" then
                         location_obj.AvailableChestCount = location_obj.ChestCount
                     else
+                        -- Locations that can be accessed from multiple places use hosted toggle items. This allows
+                        -- the AP location to be spread across multiple PopTracker sections with different logic
+                        -- requirements, but allows for the sections to all clear simultaneously.
                         location_obj.Active = false
                     end
                 end
@@ -365,6 +368,9 @@ function onLocation(location_id, location_name)
             if location:sub(1, 1) == "@" then
                 location_obj.AvailableChestCount = location_obj.AvailableChestCount - 1
             else
+                -- Locations that can be accessed from multiple places use hosted toggle items. This allows the AP
+                -- location to be spread across multiple PopTracker sections with different logic requirements, but
+                -- allows for the sections to all clear simultaneously.
                 location_obj.Active = true
             end
         else

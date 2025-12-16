@@ -124,8 +124,7 @@
               },
               {
                 "name": "Chapter Completion - Unlock Anakin's Speeder",
-                "chest_unopened_img": "images/items/speeder.png",
-                "chest_opened_img": "images/items/speeder_disabled.png",
+                "hosted_item": "chapter_completion_unlock_helper_speeder",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
@@ -310,16 +309,14 @@
               },
               {
                 "name": "Chapter Completion - Unlock Obi-Wan Kenobi (Jedi Master)",
-                "chest_unopened_img": "images/items/obi-wankenobi(jedimaster).png",
-                "chest_opened_img": "images/items/obi-wankenobi(jedimaster)_disabled.png",
+                "hosted_item": "chapter_completion_unlock_helper_obi-wankenobi(jedimaster)",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
                 "name": "Chapter Completion - Unlock R4-P17",
-                "chest_unopened_img": "images/items/r4-p17.png",
-                "chest_opened_img": "images/items/r4-p17_disabled.png",
+                "hosted_item": "chapter_completion_unlock_helper_r4-p17",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
@@ -498,32 +495,28 @@
               },
               {
                 "name": "Chapter Completion - Unlock R2-D2",
-                "chest_unopened_img": "images/items/r2-d2.png",
-                "chest_opened_img": "images/items/r2-d2_disabled.png",
+                "hosted_item": "chapter_completion_unlock_helper_r2-d2",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
                 "name": "Chapter Completion - Unlock Anakin Skywalker (Padawan)",
-                "chest_unopened_img": "images/items/anakinskywalker(padawan).png",
-                "chest_opened_img": "images/items/anakinskywalker(padawan)_disabled.png",
+                "hosted_item": "chapter_completion_unlock_helper_anakinskywalker(padawan)",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
                 "name": "Chapter Completion - Unlock C-3PO",
-                "chest_unopened_img": "images/items/c-3po.png",
-                "chest_opened_img": "images/items/c-3po_disabled.png",
+                "hosted_item": "chapter_completion_unlock_helper_c-3po",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
                 "name": "Chapter Completion - Unlock Padmé (Geonosis)",
-                "chest_unopened_img": "images/items/padme(geonosis).png",
-                "chest_opened_img": "images/items/padme(geonosis)_disabled.png",
+                "hosted_item": "chapter_completion_unlock_helper_padme(geonosis)",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
@@ -748,40 +741,35 @@
               },
               {
                 "name": "Chapter Completion - Unlock R2-D2",
-                "chest_unopened_img": "images/items/r2-d2.png",
-                "chest_opened_img": "images/items/r2-d2_disabled.png",
+                "hosted_item": "chapter_completion_unlock_helper_r2-d2",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
                 "name": "Chapter Completion - Unlock Obi-Wan Kenobi (Jedi Master)",
-                "chest_unopened_img": "images/items/obi-wankenobi(jedimaster).png",
-                "chest_opened_img": "images/items/obi-wankenobi(jedimaster)_disabled.png",
+                "hosted_item": "chapter_completion_unlock_helper_obi-wankenobi(jedimaster)",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
                 "name": "Chapter Completion - Unlock Anakin Skywalker (Padawan)",
-                "chest_unopened_img": "images/items/anakinskywalker(padawan).png",
-                "chest_opened_img": "images/items/anakinskywalker(padawan)_disabled.png",
+                "hosted_item": "chapter_completion_unlock_helper_anakinskywalker(padawan)",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
                 "name": "Chapter Completion - Unlock Mace Windu",
-                "chest_unopened_img": "images/items/macewindu.png",
-                "chest_opened_img": "images/items/macewindu_disabled.png",
+                "hosted_item": "chapter_completion_unlock_helper_macewindu",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
                 "name": "Chapter Completion - Unlock Padmé (Clawed)",
-                "chest_unopened_img": "images/items/padme(clawed).png",
-                "chest_opened_img": "images/items/padme(clawed)_disabled.png",
+                "hosted_item": "chapter_completion_unlock_helper_padme(clawed)",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
@@ -942,8 +930,7 @@
               },
               {
                 "name": "Chapter Completion - Unlock Republic Gunship",
-                "chest_unopened_img": "images/items/republicgunship.png",
-                "chest_opened_img": "images/items/republicgunship_disabled.png",
+                "hosted_item": "chapter_completion_unlock_helper_republicgunship",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
@@ -1087,24 +1074,21 @@
               },
               {
                 "name": "Chapter Completion - Unlock Obi-Wan Kenobi (Jedi Master)",
-                "chest_unopened_img": "images/items/obi-wankenobi(jedimaster).png",
-                "chest_opened_img": "images/items/obi-wankenobi(jedimaster)_disabled.png",
+                "hosted_item": "chapter_completion_unlock_helper_obi-wankenobi(jedimaster)",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
                 "name": "Chapter Completion - Unlock Anakin Skywalker (Padawan)",
-                "chest_unopened_img": "images/items/anakinskywalker(padawan).png",
-                "chest_opened_img": "images/items/anakinskywalker(padawan)_disabled.png",
+                "hosted_item": "chapter_completion_unlock_helper_anakinskywalker(padawan)",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
                 "name": "Chapter Completion - Unlock Yoda",
-                "chest_unopened_img": "images/items/yoda.png",
-                "chest_opened_img": "images/items/yoda_disabled.png",
+                "hosted_item": "chapter_completion_unlock_helper_yoda",
                 "visibility_rules": [
                   "story_character_locations"
                 ]

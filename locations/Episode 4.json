@@ -124,40 +124,35 @@
               },
               {
                 "name": "Chapter Completion - Unlock R2-D2",
-                "chest_unopened_img": "images/items/r2-d2.png",
-                "chest_opened_img": "images/items/r2-d2_disabled.png",
+                "hosted_item": "chapter_completion_unlock_helper_r2-d2",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
                 "name": "Chapter Completion - Unlock C-3PO",
-                "chest_unopened_img": "images/items/c-3po.png",
-                "chest_opened_img": "images/items/c-3po_disabled.png",
+                "hosted_item": "chapter_completion_unlock_helper_c-3po",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
                 "name": "Chapter Completion - Unlock Captain Antilles",
-                "chest_unopened_img": "images/items/captainantilles.png",
-                "chest_opened_img": "images/items/captainantilles_disabled.png",
+                "hosted_item": "chapter_completion_unlock_helper_captainantilles",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
                 "name": "Chapter Completion - Unlock Princess Leia",
-                "chest_unopened_img": "images/items/princessleia.png",
-                "chest_opened_img": "images/items/princessleia_disabled.png",
+                "hosted_item": "chapter_completion_unlock_helper_princessleia",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
                 "name": "Chapter Completion - Unlock Rebel Friend",
-                "chest_unopened_img": "images/items/rebelfriend.png",
-                "chest_opened_img": "images/items/rebelfriend_disabled.png",
+                "hosted_item": "chapter_completion_unlock_helper_rebelfriend",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
@@ -319,32 +314,28 @@
               },
               {
                 "name": "Chapter Completion - Unlock R2-D2",
-                "chest_unopened_img": "images/items/r2-d2.png",
-                "chest_opened_img": "images/items/r2-d2_disabled.png",
+                "hosted_item": "chapter_completion_unlock_helper_r2-d2",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
                 "name": "Chapter Completion - Unlock C-3PO",
-                "chest_unopened_img": "images/items/c-3po.png",
-                "chest_opened_img": "images/items/c-3po_disabled.png",
+                "hosted_item": "chapter_completion_unlock_helper_c-3po",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
                 "name": "Chapter Completion - Unlock Ben Kenobi",
-                "chest_unopened_img": "images/items/benkenobi.png",
-                "chest_opened_img": "images/items/benkenobi_disabled.png",
+                "hosted_item": "chapter_completion_unlock_helper_benkenobi",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
                 "name": "Chapter Completion - Unlock Luke Skywalker (Tatooine)",
-                "chest_unopened_img": "images/items/lukeskywalker(tatooine).png",
-                "chest_opened_img": "images/items/lukeskywalker(tatooine)_disabled.png",
+                "hosted_item": "chapter_completion_unlock_helper_lukeskywalker(tatooine)",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
@@ -518,48 +509,42 @@
               },
               {
                 "name": "Chapter Completion - Unlock R2-D2",
-                "chest_unopened_img": "images/items/r2-d2.png",
-                "chest_opened_img": "images/items/r2-d2_disabled.png",
+                "hosted_item": "chapter_completion_unlock_helper_r2-d2",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
                 "name": "Chapter Completion - Unlock C-3PO",
-                "chest_unopened_img": "images/items/c-3po.png",
-                "chest_opened_img": "images/items/c-3po_disabled.png",
+                "hosted_item": "chapter_completion_unlock_helper_c-3po",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
                 "name": "Chapter Completion - Unlock Chewbacca",
-                "chest_unopened_img": "images/items/chewbacca.png",
-                "chest_opened_img": "images/items/chewbacca_disabled.png",
+                "hosted_item": "chapter_completion_unlock_helper_chewbacca",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
                 "name": "Chapter Completion - Unlock Ben Kenobi",
-                "chest_unopened_img": "images/items/benkenobi.png",
-                "chest_opened_img": "images/items/benkenobi_disabled.png",
+                "hosted_item": "chapter_completion_unlock_helper_benkenobi",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
                 "name": "Chapter Completion - Unlock Luke Skywalker (Tatooine)",
-                "chest_unopened_img": "images/items/lukeskywalker(tatooine).png",
-                "chest_opened_img": "images/items/lukeskywalker(tatooine)_disabled.png",
+                "hosted_item": "chapter_completion_unlock_helper_lukeskywalker(tatooine)",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
                 "name": "Chapter Completion - Unlock Han Solo",
-                "chest_unopened_img": "images/items/hansolo.png",
-                "chest_opened_img": "images/items/hansolo_disabled.png",
+                "hosted_item": "chapter_completion_unlock_helper_hansolo",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
@@ -762,48 +747,42 @@
               },
               {
                 "name": "Chapter Completion - Unlock R2-D2",
-                "chest_unopened_img": "images/items/r2-d2.png",
-                "chest_opened_img": "images/items/r2-d2_disabled.png",
+                "hosted_item": "chapter_completion_unlock_helper_r2-d2",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
                 "name": "Chapter Completion - Unlock C-3PO",
-                "chest_unopened_img": "images/items/c-3po.png",
-                "chest_opened_img": "images/items/c-3po_disabled.png",
+                "hosted_item": "chapter_completion_unlock_helper_c-3po",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
                 "name": "Chapter Completion - Unlock Chewbacca",
-                "chest_unopened_img": "images/items/chewbacca.png",
-                "chest_opened_img": "images/items/chewbacca_disabled.png",
+                "hosted_item": "chapter_completion_unlock_helper_chewbacca",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
                 "name": "Chapter Completion - Unlock Ben Kenobi",
-                "chest_unopened_img": "images/items/benkenobi.png",
-                "chest_opened_img": "images/items/benkenobi_disabled.png",
+                "hosted_item": "chapter_completion_unlock_helper_benkenobi",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
                 "name": "Chapter Completion - Unlock Han Solo (Stormtrooper)",
-                "chest_unopened_img": "images/items/hansolo(stormtrooper).png",
-                "chest_opened_img": "images/items/hansolo(stormtrooper)_disabled.png",
+                "hosted_item": "chapter_completion_unlock_helper_hansolo(stormtrooper)",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
                 "name": "Chapter Completion - Unlock Luke Skywalker (Stormtrooper)",
-                "chest_unopened_img": "images/items/lukeskywalker(stormtrooper).png",
-                "chest_opened_img": "images/items/lukeskywalker(stormtrooper)_disabled.png",
+                "hosted_item": "chapter_completion_unlock_helper_lukeskywalker(stormtrooper)",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
@@ -947,48 +926,42 @@
               },
               {
                 "name": "Chapter Completion - Unlock R2-D2",
-                "chest_unopened_img": "images/items/r2-d2.png",
-                "chest_opened_img": "images/items/r2-d2_disabled.png",
+                "hosted_item": "chapter_completion_unlock_helper_r2-d2",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
                 "name": "Chapter Completion - Unlock C-3PO",
-                "chest_unopened_img": "images/items/c-3po.png",
-                "chest_opened_img": "images/items/c-3po_disabled.png",
+                "hosted_item": "chapter_completion_unlock_helper_c-3po",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
                 "name": "Chapter Completion - Unlock Chewbacca",
-                "chest_unopened_img": "images/items/chewbacca.png",
-                "chest_opened_img": "images/items/chewbacca_disabled.png",
+                "hosted_item": "chapter_completion_unlock_helper_chewbacca",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
                 "name": "Chapter Completion - Unlock Princess Leia",
-                "chest_unopened_img": "images/items/princessleia.png",
-                "chest_opened_img": "images/items/princessleia_disabled.png",
+                "hosted_item": "chapter_completion_unlock_helper_princessleia",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
                 "name": "Chapter Completion - Unlock Luke Skywalker (Tatooine)",
-                "chest_unopened_img": "images/items/lukeskywalker(tatooine).png",
-                "chest_opened_img": "images/items/lukeskywalker(tatooine)_disabled.png",
+                "hosted_item": "chapter_completion_unlock_helper_lukeskywalker(tatooine)",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
                 "name": "Chapter Completion - Unlock Han Solo",
-                "chest_unopened_img": "images/items/hansolo.png",
-                "chest_opened_img": "images/items/hansolo_disabled.png",
+                "hosted_item": "chapter_completion_unlock_helper_hansolo",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
@@ -1159,16 +1132,14 @@
               },
               {
                 "name": "Chapter Completion - Unlock X-Wing",
-                "chest_unopened_img": "images/items/x-wing.png",
-                "chest_opened_img": "images/items/x-wing_disabled.png",
+                "hosted_item": "chapter_completion_unlock_helper_x-wing",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
                 "name": "Chapter Completion - Unlock Y-Wing",
-                "chest_unopened_img": "images/items/y-wing.png",
-                "chest_opened_img": "images/items/y-wing_disabled.png",
+                "hosted_item": "chapter_completion_unlock_helper_y-wing",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
