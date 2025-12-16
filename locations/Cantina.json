@@ -303,6 +303,70 @@
                 "access_rules": [
                     "[$can_purchase|1500]"
                 ]
+            },
+            {
+                "name": "Purchase Extra Toggle",
+                "chest_unopened_img": "images/items/extra_toggle.png",
+                "chest_opened_img": "images/items/extra_toggle_disabled.png",
+                "access_rules": [
+                    "[$can_purchase|30000]"
+                ]
+            },
+            {
+                "name": "Purchase Fertilizer",
+                "chest_unopened_img": "images/items/fertilizer.png",
+                "chest_opened_img": "images/items/fertilizer_disabled.png",
+                "access_rules": [
+                    "[$can_purchase|8000]"
+                ]
+            },
+            {
+                "name": "Purchase Disguise",
+                "chest_unopened_img": "images/items/disguise.png",
+                "chest_opened_img": "images/items/disguise_disabled.png",
+                "access_rules": [
+                    "[$can_purchase|10000]"
+                ]
+            },
+            {
+                "name": "Purchase Daisy Chains",
+                "chest_unopened_img": "images/items/daisy_chains.png",
+                "chest_opened_img": "images/items/daisy_chains_disabled.png",
+                "access_rules": [
+                    "[$can_purchase|5000]"
+                ]
+            },
+            {
+                "name": "Purchase Chewbacca Carrying C-3PO",
+                "chest_unopened_img": "images/items/chewbacca_carrying_c-3po.png",
+                "chest_opened_img": "images/items/chewbacca_carrying_c-3po_disabled.png",
+                "access_rules": [
+                    "[$can_purchase|10000]"
+                ]
+            },
+            {
+                "name": "Purchase Tow Death Star",
+                "chest_unopened_img": "images/items/tow_death_star.png",
+                "chest_opened_img": "images/items/tow_death_star_disabled.png",
+                "access_rules": [
+                    "[$can_purchase|5000]"
+                ]
+            },
+            {
+                "name": "Purchase Silhouettes",
+                "chest_unopened_img": "images/items/silhouettes.png",
+                "chest_opened_img": "images/items/silhouettes_disabled.png",
+                "access_rules": [
+                    "[$can_purchase|10000]"
+                ]
+            },
+            {
+                "name": "Purchase Beep Beep",
+                "chest_unopened_img": "images/items/beep_beep.png",
+                "chest_opened_img": "images/items/beep_beep_disabled.png",
+                "access_rules": [
+                    "[$can_purchase|7500]"
+                ]
             }
         ],
         "map_locations": [

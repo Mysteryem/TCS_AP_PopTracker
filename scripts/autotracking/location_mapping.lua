@@ -725,6 +725,14 @@ LOCATION_MAPPING = {
     [619] = {"@Episode 6/Battle of Endor/Battle of Endor/Chapter Completion - Unlock Han Solo (Endor)"},
     [620] = {"@Episode 6/Battle of Endor/Battle of Endor/Chapter Completion - Unlock Wicket"},
     [621] = {"@Episode 6/Jedi Destiny/Jedi Destiny/Chapter Completion - Unlock Darth Vader"},
+    [649] = {"@Cantina/Purchase Extra Toggle"},
+    [650] = {"@Cantina/Purchase Fertilizer"},
+    [651] = {"@Cantina/Purchase Disguise"},
+    [652] = {"@Cantina/Purchase Daisy Chains"},
+    [653] = {"@Cantina/Purchase Chewbacca Carrying C-3PO"},
+    [654] = {"@Cantina/Purchase Tow Death Star"},
+    [655] = {"@Cantina/Purchase Silhouettes"},
+    [656] = {"@Cantina/Purchase Beep Beep"},
 
     -- Included here with a location IDs that will never match, purely so that it gets auto-reset when connecting to AP.
     goal_event = {"@Cantina/Goal Event/Goal"},

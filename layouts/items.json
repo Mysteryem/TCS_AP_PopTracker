@@ -40,7 +40,8 @@
                 "anakinskywalker(jedi)",
                 "chancellorpalpatine",
                 "commandercody",
-                "chewbacca"
+                "chewbacca",
+                "episode1unlock"
               ],
               [
                 "princessleia",
@@ -64,7 +65,8 @@
                 "hansolo(skiff)",
                 "princessleia(slave)",
                 "princessleia(endor)",
-                "lukeskywalker(endor)"
+                "lukeskywalker(endor)",
+                "episode2unlock"
               ],
               [
                 "hansolo(endor)",
@@ -88,7 +90,8 @@
                 "clone",
                 "lamasu",
                 "taunwe",
-                "geonosian"
+                "geonosian",
+                "episode3unlock"
               ],
               [
                 "battledroid(geonosis)",
@@ -112,7 +115,8 @@
                 "macewindu(episode3)",
                 "disguisedclone",
                 "rebeltrooper",
-                "stormtrooper"
+                "stormtrooper",
+                "episode4unlock"
               ],
               [
                 "imperialshuttlepilot",
@@ -136,7 +140,8 @@
                 "bespinguard",
                 "princessleia(prisoner)",
                 "gamorreanguard",
-                "bibfortuna"
+                "bibfortuna",
+                "episode5unlock"
               ],
               [
                 "palaceguard",
@@ -156,7 +161,12 @@
                 "r2-q5",
                 "indianajones",
                 "custom_character_1",
-                "custom_character_2"
+                "custom_character_2",
+                "minikits",
+                "allepisodestoken",
+                "kyber_brick",
+                "total_gold_bricks",
+                "episode6unlock"
               ],
               [
                 "anakinspodracer",
@@ -181,6 +191,14 @@
                 "imperialshuttle"
               ],
               [
+                "extra_toggle",
+                "fertilizer",
+                "disguise",
+                "daisy_chains",
+                "chewbacca_carrying_c-3po",
+                "tow_death_star",
+                "silhouettes",
+                "beep_beep",
                 "supergonk",
                 "poomoney",
                 "walkietalkiedisable",
@@ -194,7 +212,9 @@
                 "explodingblasterbolts",
                 "forcepull",
                 "vehiclesmartbomb",
-                "superastromech",
+                "superastromech"
+              ],
+              [
                 "superjedislam",
                 "superthermaldetonator",
                 "deflectbolts",
@@ -202,9 +222,7 @@
                 "superblasters",
                 "fastforce",
                 "superlightsabers",
-                "tractorbeam"
-              ],
-              [
+                "tractorbeam",
                 "invincibility",
                 "progressivescoremultiplier",
                 "selfdestruct",
@@ -214,19 +232,7 @@
                 "superzapper",
                 "bountyhunterrockets",
                 "superewokcatapult",
-                "infinitetorpedos",
-                "",
-                "episode1unlock",
-                "episode2unlock",
-                "episode3unlock",
-                "episode4unlock",
-                "episode5unlock",
-                "episode6unlock",
-                "allepisodestoken",
-                "minikits",
-                "kyber_brick",
-                "total_gold_bricks",
-                "purplestud"
+                "infinitetorpedos"
               ]
             ]
           }
