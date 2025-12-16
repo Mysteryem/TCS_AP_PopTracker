@@ -531,7 +531,7 @@
           {
             "map": "Cantina",
             "x": 69,
-            "y": 131
+            "y": 115
           }
         ]
       },
@@ -987,7 +987,7 @@
           {
             "map": "Cantina",
             "x": 193,
-            "y": 131
+            "y": 115
           }
         ]
       },
@@ -1419,7 +1419,7 @@
           {
             "map": "Cantina",
             "x": 309,
-            "y": 131
+            "y": 115
           }
         ]
       },
@@ -1923,7 +1923,7 @@
           {
             "map": "Cantina",
             "x": 424,
-            "y": 131
+            "y": 115
           }
         ]
       },
@@ -2363,7 +2363,7 @@
           {
             "map": "Cantina",
             "x": 541,
-            "y": 131
+            "y": 115
           }
         ]
       },
@@ -2827,7 +2827,801 @@
           {
             "map": "Cantina",
             "x": 664,
-            "y": 131
+            "y": 115
+          }
+        ]
+      },
+      {
+        "name": "Episode 1 - Events",
+        "sections": [
+          {
+            "name": "Negotiations - 1-1 - Power Brick",
+            "ref": "Episode 1/Negotiations/Negotiations - Events/1-1 - Power Brick"
+          },
+          {
+            "name": "Negotiations - 1-1 Completion - Gold Brick",
+            "ref": "Episode 1/Negotiations/Negotiations - Events/1-1 Completion - Gold Brick"
+          },
+          {
+            "name": "Negotiations - 1-1 True Jedi - Gold Brick",
+            "ref": "Episode 1/Negotiations/Negotiations - Events/1-1 True Jedi - Gold Brick"
+          },
+          {
+            "name": "Negotiations - 1-1 10/10 Minikits - Gold Brick",
+            "ref": "Episode 1/Negotiations/Negotiations - Events/1-1 10/10 Minikits - Gold Brick"
+          },
+          {
+            "name": "Invasion of Naboo - 1-2 - Power Brick",
+            "ref": "Episode 1/Invasion of Naboo/Invasion of Naboo - Events/1-2 - Power Brick"
+          },
+          {
+            "name": "Invasion of Naboo - 1-2 Completion - Gold Brick",
+            "ref": "Episode 1/Invasion of Naboo/Invasion of Naboo - Events/1-2 Completion - Gold Brick"
+          },
+          {
+            "name": "Invasion of Naboo - 1-2 True Jedi - Gold Brick",
+            "ref": "Episode 1/Invasion of Naboo/Invasion of Naboo - Events/1-2 True Jedi - Gold Brick"
+          },
+          {
+            "name": "Invasion of Naboo - 1-2 10/10 Minikits - Gold Brick",
+            "ref": "Episode 1/Invasion of Naboo/Invasion of Naboo - Events/1-2 10/10 Minikits - Gold Brick"
+          },
+          {
+            "name": "Escape From Naboo - 1-3 - Power Brick",
+            "ref": "Episode 1/Escape From Naboo/Escape From Naboo - Events/1-3 - Power Brick"
+          },
+          {
+            "name": "Escape From Naboo - 1-3 Completion - Gold Brick",
+            "ref": "Episode 1/Escape From Naboo/Escape From Naboo - Events/1-3 Completion - Gold Brick"
+          },
+          {
+            "name": "Escape From Naboo - 1-3 True Jedi - Gold Brick",
+            "ref": "Episode 1/Escape From Naboo/Escape From Naboo - Events/1-3 True Jedi - Gold Brick"
+          },
+          {
+            "name": "Escape From Naboo - 1-3 10/10 Minikits - Gold Brick",
+            "ref": "Episode 1/Escape From Naboo/Escape From Naboo - Events/1-3 10/10 Minikits - Gold Brick"
+          },
+          {
+            "name": "Mos Espa Pod Race - 1-4 - Power Brick",
+            "ref": "Episode 1/Mos Espa Pod Race/Mos Espa Pod Race - Events/1-4 - Power Brick"
+          },
+          {
+            "name": "Mos Espa Pod Race - 1-4 Completion - Gold Brick",
+            "ref": "Episode 1/Mos Espa Pod Race/Mos Espa Pod Race - Events/1-4 Completion - Gold Brick"
+          },
+          {
+            "name": "Mos Espa Pod Race - 1-4 True Jedi - Gold Brick",
+            "ref": "Episode 1/Mos Espa Pod Race/Mos Espa Pod Race - Events/1-4 True Jedi - Gold Brick"
+          },
+          {
+            "name": "Mos Espa Pod Race - 1-4 10/10 Minikits - Gold Brick",
+            "ref": "Episode 1/Mos Espa Pod Race/Mos Espa Pod Race - Events/1-4 10/10 Minikits - Gold Brick"
+          },
+          {
+            "name": "Retake Theed Palace - 1-5 - Power Brick",
+            "ref": "Episode 1/Retake Theed Palace/Retake Theed Palace - Events/1-5 - Power Brick"
+          },
+          {
+            "name": "Retake Theed Palace - 1-5 Completion - Gold Brick",
+            "ref": "Episode 1/Retake Theed Palace/Retake Theed Palace - Events/1-5 Completion - Gold Brick"
+          },
+          {
+            "name": "Retake Theed Palace - 1-5 True Jedi - Gold Brick",
+            "ref": "Episode 1/Retake Theed Palace/Retake Theed Palace - Events/1-5 True Jedi - Gold Brick"
+          },
+          {
+            "name": "Retake Theed Palace - 1-5 10/10 Minikits - Gold Brick",
+            "ref": "Episode 1/Retake Theed Palace/Retake Theed Palace - Events/1-5 10/10 Minikits - Gold Brick"
+          },
+          {
+            "name": "Darth Maul - 1-6 - Power Brick",
+            "ref": "Episode 1/Darth Maul/Darth Maul - Events/1-6 - Power Brick"
+          },
+          {
+            "name": "Darth Maul - 1-6 Completion - Gold Brick",
+            "ref": "Episode 1/Darth Maul/Darth Maul - Events/1-6 Completion - Gold Brick"
+          },
+          {
+            "name": "Darth Maul - 1-6 True Jedi - Gold Brick",
+            "ref": "Episode 1/Darth Maul/Darth Maul - Events/1-6 True Jedi - Gold Brick"
+          },
+          {
+            "name": "Darth Maul - 1-6 10/10 Minikits - Gold Brick",
+            "ref": "Episode 1/Darth Maul/Darth Maul - Events/1-6 10/10 Minikits - Gold Brick"
+          },
+          {
+            "name": "Darth Maul - Defeated Darth Maul (1-6)",
+            "ref": "Episode 1/Darth Maul/Darth Maul - Events/Defeated Darth Maul (1-6)"
+          },
+          {
+            "name": "Darth Maul - Defeated Darth Maul",
+            "ref": "Episode 1/Darth Maul/Darth Maul - Events/Defeated Darth Maul"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Cantina",
+            "x": 69,
+            "y": 155,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Episode 2 - Events",
+        "sections": [
+          {
+            "name": "Bounty Hunter Pursuit - 2-1 - Power Brick",
+            "ref": "Episode 2/Bounty Hunter Pursuit/Bounty Hunter Pursuit - Events/2-1 - Power Brick"
+          },
+          {
+            "name": "Bounty Hunter Pursuit - 2-1 Completion - Gold Brick",
+            "ref": "Episode 2/Bounty Hunter Pursuit/Bounty Hunter Pursuit - Events/2-1 Completion - Gold Brick"
+          },
+          {
+            "name": "Bounty Hunter Pursuit - 2-1 True Jedi - Gold Brick",
+            "ref": "Episode 2/Bounty Hunter Pursuit/Bounty Hunter Pursuit - Events/2-1 True Jedi - Gold Brick"
+          },
+          {
+            "name": "Bounty Hunter Pursuit - 2-1 10/10 Minikits - Gold Brick",
+            "ref": "Episode 2/Bounty Hunter Pursuit/Bounty Hunter Pursuit - Events/2-1 10/10 Minikits - Gold Brick"
+          },
+          {
+            "name": "Bounty Hunter Pursuit - Defeated Zam Wesell (2-1)",
+            "ref": "Episode 2/Bounty Hunter Pursuit/Bounty Hunter Pursuit - Events/Defeated Zam Wesell (2-1)"
+          },
+          {
+            "name": "Bounty Hunter Pursuit - Defeated Zam Wesell",
+            "ref": "Episode 2/Bounty Hunter Pursuit/Bounty Hunter Pursuit - Events/Defeated Zam Wesell"
+          },
+          {
+            "name": "Discovery on Kamino - 2-2 - Power Brick",
+            "ref": "Episode 2/Discovery on Kamino/Discovery on Kamino - Events/2-2 - Power Brick"
+          },
+          {
+            "name": "Discovery on Kamino - 2-2 Completion - Gold Brick",
+            "ref": "Episode 2/Discovery on Kamino/Discovery on Kamino - Events/2-2 Completion - Gold Brick"
+          },
+          {
+            "name": "Discovery on Kamino - 2-2 True Jedi - Gold Brick",
+            "ref": "Episode 2/Discovery on Kamino/Discovery on Kamino - Events/2-2 True Jedi - Gold Brick"
+          },
+          {
+            "name": "Discovery on Kamino - 2-2 10/10 Minikits - Gold Brick",
+            "ref": "Episode 2/Discovery on Kamino/Discovery on Kamino - Events/2-2 10/10 Minikits - Gold Brick"
+          },
+          {
+            "name": "Discovery on Kamino - Defeated Jango Fett (2-2)",
+            "ref": "Episode 2/Discovery on Kamino/Discovery on Kamino - Events/Defeated Jango Fett (2-2)"
+          },
+          {
+            "name": "Discovery on Kamino - Defeated Jango Fett",
+            "ref": "Episode 2/Discovery on Kamino/Discovery on Kamino - Events/Defeated Jango Fett"
+          },
+          {
+            "name": "Droid Factory - 2-3 - Power Brick",
+            "ref": "Episode 2/Droid Factory/Droid Factory - Events/2-3 - Power Brick"
+          },
+          {
+            "name": "Droid Factory - 2-3 Completion - Gold Brick",
+            "ref": "Episode 2/Droid Factory/Droid Factory - Events/2-3 Completion - Gold Brick"
+          },
+          {
+            "name": "Droid Factory - 2-3 True Jedi - Gold Brick",
+            "ref": "Episode 2/Droid Factory/Droid Factory - Events/2-3 True Jedi - Gold Brick"
+          },
+          {
+            "name": "Droid Factory - 2-3 10/10 Minikits - Gold Brick",
+            "ref": "Episode 2/Droid Factory/Droid Factory - Events/2-3 10/10 Minikits - Gold Brick"
+          },
+          {
+            "name": "Jedi Battle - 2-4 - Power Brick",
+            "ref": "Episode 2/Jedi Battle/Jedi Battle - Events/2-4 - Power Brick"
+          },
+          {
+            "name": "Jedi Battle - 2-4 Completion - Gold Brick",
+            "ref": "Episode 2/Jedi Battle/Jedi Battle - Events/2-4 Completion - Gold Brick"
+          },
+          {
+            "name": "Jedi Battle - 2-4 True Jedi - Gold Brick",
+            "ref": "Episode 2/Jedi Battle/Jedi Battle - Events/2-4 True Jedi - Gold Brick"
+          },
+          {
+            "name": "Jedi Battle - 2-4 10/10 Minikits - Gold Brick",
+            "ref": "Episode 2/Jedi Battle/Jedi Battle - Events/2-4 10/10 Minikits - Gold Brick"
+          },
+          {
+            "name": "Jedi Battle - Defeated Jango Fett (2-4)",
+            "ref": "Episode 2/Jedi Battle/Jedi Battle - Events/Defeated Jango Fett (2-4)"
+          },
+          {
+            "name": "Jedi Battle - Defeated Jango Fett",
+            "ref": "Episode 2/Jedi Battle/Jedi Battle - Events/Defeated Jango Fett"
+          },
+          {
+            "name": "Gunship Cavalry - 2-5 - Power Brick",
+            "ref": "Episode 2/Gunship Cavalry/Gunship Cavalry - Events/2-5 - Power Brick"
+          },
+          {
+            "name": "Gunship Cavalry - 2-5 Completion - Gold Brick",
+            "ref": "Episode 2/Gunship Cavalry/Gunship Cavalry - Events/2-5 Completion - Gold Brick"
+          },
+          {
+            "name": "Gunship Cavalry - 2-5 True Jedi - Gold Brick",
+            "ref": "Episode 2/Gunship Cavalry/Gunship Cavalry - Events/2-5 True Jedi - Gold Brick"
+          },
+          {
+            "name": "Gunship Cavalry - 2-5 10/10 Minikits - Gold Brick",
+            "ref": "Episode 2/Gunship Cavalry/Gunship Cavalry - Events/2-5 10/10 Minikits - Gold Brick"
+          },
+          {
+            "name": "Count Dooku - 2-6 - Power Brick",
+            "ref": "Episode 2/Count Dooku/Count Dooku - Events/2-6 - Power Brick"
+          },
+          {
+            "name": "Count Dooku - 2-6 Completion - Gold Brick",
+            "ref": "Episode 2/Count Dooku/Count Dooku - Events/2-6 Completion - Gold Brick"
+          },
+          {
+            "name": "Count Dooku - 2-6 True Jedi - Gold Brick",
+            "ref": "Episode 2/Count Dooku/Count Dooku - Events/2-6 True Jedi - Gold Brick"
+          },
+          {
+            "name": "Count Dooku - 2-6 10/10 Minikits - Gold Brick",
+            "ref": "Episode 2/Count Dooku/Count Dooku - Events/2-6 10/10 Minikits - Gold Brick"
+          },
+          {
+            "name": "Count Dooku - Defeated Count Dooku (2-6)",
+            "ref": "Episode 2/Count Dooku/Count Dooku - Events/Defeated Count Dooku (2-6)"
+          },
+          {
+            "name": "Count Dooku - Defeated Count Dooku",
+            "ref": "Episode 2/Count Dooku/Count Dooku - Events/Defeated Count Dooku"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Cantina",
+            "x": 193,
+            "y": 155,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Episode 3 - Events",
+        "sections": [
+          {
+            "name": "Battle Over Coruscant - 3-1 - Power Brick",
+            "ref": "Episode 3/Battle Over Coruscant/Battle Over Coruscant - Events/3-1 - Power Brick"
+          },
+          {
+            "name": "Battle Over Coruscant - 3-1 Completion - Gold Brick",
+            "ref": "Episode 3/Battle Over Coruscant/Battle Over Coruscant - Events/3-1 Completion - Gold Brick"
+          },
+          {
+            "name": "Battle Over Coruscant - 3-1 True Jedi - Gold Brick",
+            "ref": "Episode 3/Battle Over Coruscant/Battle Over Coruscant - Events/3-1 True Jedi - Gold Brick"
+          },
+          {
+            "name": "Battle Over Coruscant - 3-1 10/10 Minikits - Gold Brick",
+            "ref": "Episode 3/Battle Over Coruscant/Battle Over Coruscant - Events/3-1 10/10 Minikits - Gold Brick"
+          },
+          {
+            "name": "Chancellor in Peril - 3-2 - Power Brick",
+            "ref": "Episode 3/Chancellor in Peril/Chancellor in Peril - Events/3-2 - Power Brick"
+          },
+          {
+            "name": "Chancellor in Peril - 3-2 Completion - Gold Brick",
+            "ref": "Episode 3/Chancellor in Peril/Chancellor in Peril - Events/3-2 Completion - Gold Brick"
+          },
+          {
+            "name": "Chancellor in Peril - 3-2 True Jedi - Gold Brick",
+            "ref": "Episode 3/Chancellor in Peril/Chancellor in Peril - Events/3-2 True Jedi - Gold Brick"
+          },
+          {
+            "name": "Chancellor in Peril - 3-2 10/10 Minikits - Gold Brick",
+            "ref": "Episode 3/Chancellor in Peril/Chancellor in Peril - Events/3-2 10/10 Minikits - Gold Brick"
+          },
+          {
+            "name": "Chancellor in Peril - Defeated Count Dooku (3-2)",
+            "ref": "Episode 3/Chancellor in Peril/Chancellor in Peril - Events/Defeated Count Dooku (3-2)"
+          },
+          {
+            "name": "Chancellor in Peril - Defeated Count Dooku",
+            "ref": "Episode 3/Chancellor in Peril/Chancellor in Peril - Events/Defeated Count Dooku"
+          },
+          {
+            "name": "General Grievous - 3-3 - Power Brick",
+            "ref": "Episode 3/General Grievous/General Grievous - Events/3-3 - Power Brick"
+          },
+          {
+            "name": "General Grievous - 3-3 Completion - Gold Brick",
+            "ref": "Episode 3/General Grievous/General Grievous - Events/3-3 Completion - Gold Brick"
+          },
+          {
+            "name": "General Grievous - 3-3 True Jedi - Gold Brick",
+            "ref": "Episode 3/General Grievous/General Grievous - Events/3-3 True Jedi - Gold Brick"
+          },
+          {
+            "name": "General Grievous - 3-3 10/10 Minikits - Gold Brick",
+            "ref": "Episode 3/General Grievous/General Grievous - Events/3-3 10/10 Minikits - Gold Brick"
+          },
+          {
+            "name": "General Grievous - Defeated General Grievous (3-3)",
+            "ref": "Episode 3/General Grievous/General Grievous - Events/Defeated General Grievous (3-3)"
+          },
+          {
+            "name": "General Grievous - Defeated General Grievous",
+            "ref": "Episode 3/General Grievous/General Grievous - Events/Defeated General Grievous"
+          },
+          {
+            "name": "Defense of Kashyyyk - 3-4 - Power Brick",
+            "ref": "Episode 3/Defense of Kashyyyk/Defense of Kashyyyk - Events/3-4 - Power Brick"
+          },
+          {
+            "name": "Defense of Kashyyyk - 3-4 Completion - Gold Brick",
+            "ref": "Episode 3/Defense of Kashyyyk/Defense of Kashyyyk - Events/3-4 Completion - Gold Brick"
+          },
+          {
+            "name": "Defense of Kashyyyk - 3-4 True Jedi - Gold Brick",
+            "ref": "Episode 3/Defense of Kashyyyk/Defense of Kashyyyk - Events/3-4 True Jedi - Gold Brick"
+          },
+          {
+            "name": "Defense of Kashyyyk - 3-4 10/10 Minikits - Gold Brick",
+            "ref": "Episode 3/Defense of Kashyyyk/Defense of Kashyyyk - Events/3-4 10/10 Minikits - Gold Brick"
+          },
+          {
+            "name": "Ruin of the Jedi - 3-5 - Power Brick",
+            "ref": "Episode 3/Ruin of the Jedi/Ruin of the Jedi - Events/3-5 - Power Brick"
+          },
+          {
+            "name": "Ruin of the Jedi - 3-5 Completion - Gold Brick",
+            "ref": "Episode 3/Ruin of the Jedi/Ruin of the Jedi - Events/3-5 Completion - Gold Brick"
+          },
+          {
+            "name": "Ruin of the Jedi - 3-5 True Jedi - Gold Brick",
+            "ref": "Episode 3/Ruin of the Jedi/Ruin of the Jedi - Events/3-5 True Jedi - Gold Brick"
+          },
+          {
+            "name": "Ruin of the Jedi - 3-5 10/10 Minikits - Gold Brick",
+            "ref": "Episode 3/Ruin of the Jedi/Ruin of the Jedi - Events/3-5 10/10 Minikits - Gold Brick"
+          },
+          {
+            "name": "Darth Vader - 3-6 - Power Brick",
+            "ref": "Episode 3/Darth Vader/Darth Vader - Events/3-6 - Power Brick"
+          },
+          {
+            "name": "Darth Vader - 3-6 Completion - Gold Brick",
+            "ref": "Episode 3/Darth Vader/Darth Vader - Events/3-6 Completion - Gold Brick"
+          },
+          {
+            "name": "Darth Vader - 3-6 True Jedi - Gold Brick",
+            "ref": "Episode 3/Darth Vader/Darth Vader - Events/3-6 True Jedi - Gold Brick"
+          },
+          {
+            "name": "Darth Vader - 3-6 10/10 Minikits - Gold Brick",
+            "ref": "Episode 3/Darth Vader/Darth Vader - Events/3-6 10/10 Minikits - Gold Brick"
+          },
+          {
+            "name": "Darth Vader - Defeated Anakin Skywalker (3-6)",
+            "ref": "Episode 3/Darth Vader/Darth Vader - Events/Defeated Anakin Skywalker (3-6)"
+          },
+          {
+            "name": "Darth Vader - Defeated Anakin Skywalker",
+            "ref": "Episode 3/Darth Vader/Darth Vader - Events/Defeated Anakin Skywalker"
+          },
+          {
+            "name": "Darth Vader - Defeated Darth Vader",
+            "ref": "Episode 3/Darth Vader/Darth Vader - Events/Defeated Darth Vader"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Cantina",
+            "x": 309,
+            "y": 155,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Episode 4 - Events",
+        "sections": [
+          {
+            "name": "Secret Plans - 4-1 - Power Brick",
+            "ref": "Episode 4/Secret Plans/Secret Plans - Events/4-1 - Power Brick"
+          },
+          {
+            "name": "Secret Plans - 4-1 Completion - Gold Brick",
+            "ref": "Episode 4/Secret Plans/Secret Plans - Events/4-1 Completion - Gold Brick"
+          },
+          {
+            "name": "Secret Plans - 4-1 True Jedi - Gold Brick",
+            "ref": "Episode 4/Secret Plans/Secret Plans - Events/4-1 True Jedi - Gold Brick"
+          },
+          {
+            "name": "Secret Plans - 4-1 10/10 Minikits - Gold Brick",
+            "ref": "Episode 4/Secret Plans/Secret Plans - Events/4-1 10/10 Minikits - Gold Brick"
+          },
+          {
+            "name": "Through the Jundland Wastes - 4-2 - Power Brick",
+            "ref": "Episode 4/Through the Jundland Wastes/Through the Jundland Wastes - Events/4-2 - Power Brick"
+          },
+          {
+            "name": "Through the Jundland Wastes - 4-2 Completion - Gold Brick",
+            "ref": "Episode 4/Through the Jundland Wastes/Through the Jundland Wastes - Events/4-2 Completion - Gold Brick"
+          },
+          {
+            "name": "Through the Jundland Wastes - 4-2 True Jedi - Gold Brick",
+            "ref": "Episode 4/Through the Jundland Wastes/Through the Jundland Wastes - Events/4-2 True Jedi - Gold Brick"
+          },
+          {
+            "name": "Through the Jundland Wastes - 4-2 10/10 Minikits - Gold Brick",
+            "ref": "Episode 4/Through the Jundland Wastes/Through the Jundland Wastes - Events/4-2 10/10 Minikits - Gold Brick"
+          },
+          {
+            "name": "Mos Eisley Spaceport - 4-3 - Power Brick",
+            "ref": "Episode 4/Mos Eisley Spaceport/Mos Eisley Spaceport - Events/4-3 - Power Brick"
+          },
+          {
+            "name": "Mos Eisley Spaceport - 4-3 Completion - Gold Brick",
+            "ref": "Episode 4/Mos Eisley Spaceport/Mos Eisley Spaceport - Events/4-3 Completion - Gold Brick"
+          },
+          {
+            "name": "Mos Eisley Spaceport - 4-3 True Jedi - Gold Brick",
+            "ref": "Episode 4/Mos Eisley Spaceport/Mos Eisley Spaceport - Events/4-3 True Jedi - Gold Brick"
+          },
+          {
+            "name": "Mos Eisley Spaceport - 4-3 10/10 Minikits - Gold Brick",
+            "ref": "Episode 4/Mos Eisley Spaceport/Mos Eisley Spaceport - Events/4-3 10/10 Minikits - Gold Brick"
+          },
+          {
+            "name": "Mos Eisley Spaceport - Defeated Imperial Spy (4-3)",
+            "ref": "Episode 4/Mos Eisley Spaceport/Mos Eisley Spaceport - Events/Defeated Imperial Spy (4-3)"
+          },
+          {
+            "name": "Mos Eisley Spaceport - Defeated Imperial Spy",
+            "ref": "Episode 4/Mos Eisley Spaceport/Mos Eisley Spaceport - Events/Defeated Imperial Spy"
+          },
+          {
+            "name": "Rescue the Princess - 4-4 - Power Brick",
+            "ref": "Episode 4/Rescue the Princess/Rescue the Princess - Events/4-4 - Power Brick"
+          },
+          {
+            "name": "Rescue the Princess - 4-4 Completion - Gold Brick",
+            "ref": "Episode 4/Rescue the Princess/Rescue the Princess - Events/4-4 Completion - Gold Brick"
+          },
+          {
+            "name": "Rescue the Princess - 4-4 True Jedi - Gold Brick",
+            "ref": "Episode 4/Rescue the Princess/Rescue the Princess - Events/4-4 True Jedi - Gold Brick"
+          },
+          {
+            "name": "Rescue the Princess - 4-4 10/10 Minikits - Gold Brick",
+            "ref": "Episode 4/Rescue the Princess/Rescue the Princess - Events/4-4 10/10 Minikits - Gold Brick"
+          },
+          {
+            "name": "Death Star Escape - 4-5 - Power Brick",
+            "ref": "Episode 4/Death Star Escape/Death Star Escape - Events/4-5 - Power Brick"
+          },
+          {
+            "name": "Death Star Escape - 4-5 Completion - Gold Brick",
+            "ref": "Episode 4/Death Star Escape/Death Star Escape - Events/4-5 Completion - Gold Brick"
+          },
+          {
+            "name": "Death Star Escape - 4-5 True Jedi - Gold Brick",
+            "ref": "Episode 4/Death Star Escape/Death Star Escape - Events/4-5 True Jedi - Gold Brick"
+          },
+          {
+            "name": "Death Star Escape - 4-5 10/10 Minikits - Gold Brick",
+            "ref": "Episode 4/Death Star Escape/Death Star Escape - Events/4-5 10/10 Minikits - Gold Brick"
+          },
+          {
+            "name": "Rebel Attack - 4-6 - Power Brick",
+            "ref": "Episode 4/Rebel Attack/Rebel Attack - Events/4-6 - Power Brick"
+          },
+          {
+            "name": "Rebel Attack - 4-6 Completion - Gold Brick",
+            "ref": "Episode 4/Rebel Attack/Rebel Attack - Events/4-6 Completion - Gold Brick"
+          },
+          {
+            "name": "Rebel Attack - 4-6 True Jedi - Gold Brick",
+            "ref": "Episode 4/Rebel Attack/Rebel Attack - Events/4-6 True Jedi - Gold Brick"
+          },
+          {
+            "name": "Rebel Attack - 4-6 10/10 Minikits - Gold Brick",
+            "ref": "Episode 4/Rebel Attack/Rebel Attack - Events/4-6 10/10 Minikits - Gold Brick"
+          },
+          {
+            "name": "Rebel Attack - Defeated Death Star (4-6)",
+            "ref": "Episode 4/Rebel Attack/Rebel Attack - Events/Defeated Death Star (4-6)"
+          },
+          {
+            "name": "Rebel Attack - Defeated Death Star",
+            "ref": "Episode 4/Rebel Attack/Rebel Attack - Events/Defeated Death Star"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Cantina",
+            "x": 424,
+            "y": 155,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Episode 5 - Events",
+        "sections": [
+          {
+            "name": "Hoth Battle - 5-1 - Power Brick",
+            "ref": "Episode 5/Hoth Battle/Hoth Battle - Events/5-1 - Power Brick"
+          },
+          {
+            "name": "Hoth Battle - 5-1 Completion - Gold Brick",
+            "ref": "Episode 5/Hoth Battle/Hoth Battle - Events/5-1 Completion - Gold Brick"
+          },
+          {
+            "name": "Hoth Battle - 5-1 True Jedi - Gold Brick",
+            "ref": "Episode 5/Hoth Battle/Hoth Battle - Events/5-1 True Jedi - Gold Brick"
+          },
+          {
+            "name": "Hoth Battle - 5-1 10/10 Minikits - Gold Brick",
+            "ref": "Episode 5/Hoth Battle/Hoth Battle - Events/5-1 10/10 Minikits - Gold Brick"
+          },
+          {
+            "name": "Escape From Echo Base - 5-2 - Power Brick",
+            "ref": "Episode 5/Escape From Echo Base/Escape From Echo Base - Events/5-2 - Power Brick"
+          },
+          {
+            "name": "Escape From Echo Base - 5-2 Completion - Gold Brick",
+            "ref": "Episode 5/Escape From Echo Base/Escape From Echo Base - Events/5-2 Completion - Gold Brick"
+          },
+          {
+            "name": "Escape From Echo Base - 5-2 True Jedi - Gold Brick",
+            "ref": "Episode 5/Escape From Echo Base/Escape From Echo Base - Events/5-2 True Jedi - Gold Brick"
+          },
+          {
+            "name": "Escape From Echo Base - 5-2 10/10 Minikits - Gold Brick",
+            "ref": "Episode 5/Escape From Echo Base/Escape From Echo Base - Events/5-2 10/10 Minikits - Gold Brick"
+          },
+          {
+            "name": "Falcon Flight - 5-3 - Power Brick",
+            "ref": "Episode 5/Falcon Flight/Falcon Flight - Events/5-3 - Power Brick"
+          },
+          {
+            "name": "Falcon Flight - 5-3 Completion - Gold Brick",
+            "ref": "Episode 5/Falcon Flight/Falcon Flight - Events/5-3 Completion - Gold Brick"
+          },
+          {
+            "name": "Falcon Flight - 5-3 True Jedi - Gold Brick",
+            "ref": "Episode 5/Falcon Flight/Falcon Flight - Events/5-3 True Jedi - Gold Brick"
+          },
+          {
+            "name": "Falcon Flight - 5-3 10/10 Minikits - Gold Brick",
+            "ref": "Episode 5/Falcon Flight/Falcon Flight - Events/5-3 10/10 Minikits - Gold Brick"
+          },
+          {
+            "name": "Dagobah - 5-4 - Power Brick",
+            "ref": "Episode 5/Dagobah/Dagobah - Events/5-4 - Power Brick"
+          },
+          {
+            "name": "Dagobah - 5-4 Completion - Gold Brick",
+            "ref": "Episode 5/Dagobah/Dagobah - Events/5-4 Completion - Gold Brick"
+          },
+          {
+            "name": "Dagobah - 5-4 True Jedi - Gold Brick",
+            "ref": "Episode 5/Dagobah/Dagobah - Events/5-4 True Jedi - Gold Brick"
+          },
+          {
+            "name": "Dagobah - 5-4 10/10 Minikits - Gold Brick",
+            "ref": "Episode 5/Dagobah/Dagobah - Events/5-4 10/10 Minikits - Gold Brick"
+          },
+          {
+            "name": "Dagobah - Defeated Darth Vader (5-4)",
+            "ref": "Episode 5/Dagobah/Dagobah - Events/Defeated Darth Vader (5-4)"
+          },
+          {
+            "name": "Dagobah - Defeated Darth Vader",
+            "ref": "Episode 5/Dagobah/Dagobah - Events/Defeated Darth Vader"
+          },
+          {
+            "name": "Cloud City Trap - 5-5 - Power Brick",
+            "ref": "Episode 5/Cloud City Trap/Cloud City Trap - Events/5-5 - Power Brick"
+          },
+          {
+            "name": "Cloud City Trap - 5-5 Completion - Gold Brick",
+            "ref": "Episode 5/Cloud City Trap/Cloud City Trap - Events/5-5 Completion - Gold Brick"
+          },
+          {
+            "name": "Cloud City Trap - 5-5 True Jedi - Gold Brick",
+            "ref": "Episode 5/Cloud City Trap/Cloud City Trap - Events/5-5 True Jedi - Gold Brick"
+          },
+          {
+            "name": "Cloud City Trap - 5-5 10/10 Minikits - Gold Brick",
+            "ref": "Episode 5/Cloud City Trap/Cloud City Trap - Events/5-5 10/10 Minikits - Gold Brick"
+          },
+          {
+            "name": "Cloud City Trap - Defeated Darth Vader (5-5)",
+            "ref": "Episode 5/Cloud City Trap/Cloud City Trap - Events/Defeated Darth Vader (5-5)"
+          },
+          {
+            "name": "Cloud City Trap - Defeated Darth Vader",
+            "ref": "Episode 5/Cloud City Trap/Cloud City Trap - Events/Defeated Darth Vader"
+          },
+          {
+            "name": "Betrayal Over Bespin - 5-6 - Power Brick",
+            "ref": "Episode 5/Betrayal Over Bespin/Betrayal Over Bespin - Events/5-6 - Power Brick"
+          },
+          {
+            "name": "Betrayal Over Bespin - 5-6 Completion - Gold Brick",
+            "ref": "Episode 5/Betrayal Over Bespin/Betrayal Over Bespin - Events/5-6 Completion - Gold Brick"
+          },
+          {
+            "name": "Betrayal Over Bespin - 5-6 True Jedi - Gold Brick",
+            "ref": "Episode 5/Betrayal Over Bespin/Betrayal Over Bespin - Events/5-6 True Jedi - Gold Brick"
+          },
+          {
+            "name": "Betrayal Over Bespin - 5-6 10/10 Minikits - Gold Brick",
+            "ref": "Episode 5/Betrayal Over Bespin/Betrayal Over Bespin - Events/5-6 10/10 Minikits - Gold Brick"
+          },
+          {
+            "name": "Betrayal Over Bespin - Defeated Boba Fett (5-6)",
+            "ref": "Episode 5/Betrayal Over Bespin/Betrayal Over Bespin - Events/Defeated Boba Fett (5-6)"
+          },
+          {
+            "name": "Betrayal Over Bespin - Defeated Boba Fett",
+            "ref": "Episode 5/Betrayal Over Bespin/Betrayal Over Bespin - Events/Defeated Boba Fett"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Cantina",
+            "x": 541,
+            "y": 155,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Episode 6 - Events",
+        "sections": [
+          {
+            "name": "Jabba's Palace - 6-1 - Power Brick",
+            "ref": "Episode 6/Jabba's Palace/Jabba's Palace - Events/6-1 - Power Brick"
+          },
+          {
+            "name": "Jabba's Palace - 6-1 Completion - Gold Brick",
+            "ref": "Episode 6/Jabba's Palace/Jabba's Palace - Events/6-1 Completion - Gold Brick"
+          },
+          {
+            "name": "Jabba's Palace - 6-1 True Jedi - Gold Brick",
+            "ref": "Episode 6/Jabba's Palace/Jabba's Palace - Events/6-1 True Jedi - Gold Brick"
+          },
+          {
+            "name": "Jabba's Palace - 6-1 10/10 Minikits - Gold Brick",
+            "ref": "Episode 6/Jabba's Palace/Jabba's Palace - Events/6-1 10/10 Minikits - Gold Brick"
+          },
+          {
+            "name": "Jabba's Palace - Defeated Rancor (6-1)",
+            "ref": "Episode 6/Jabba's Palace/Jabba's Palace - Events/Defeated Rancor (6-1)"
+          },
+          {
+            "name": "Jabba's Palace - Defeated Rancor",
+            "ref": "Episode 6/Jabba's Palace/Jabba's Palace - Events/Defeated Rancor"
+          },
+          {
+            "name": "Pit of Carkoon - 6-2 - Power Brick",
+            "ref": "Episode 6/Pit of Carkoon/Pit of Carkoon - Events/6-2 - Power Brick"
+          },
+          {
+            "name": "Pit of Carkoon - 6-2 Completion - Gold Brick",
+            "ref": "Episode 6/Pit of Carkoon/Pit of Carkoon - Events/6-2 Completion - Gold Brick"
+          },
+          {
+            "name": "Pit of Carkoon - 6-2 True Jedi - Gold Brick",
+            "ref": "Episode 6/Pit of Carkoon/Pit of Carkoon - Events/6-2 True Jedi - Gold Brick"
+          },
+          {
+            "name": "Pit of Carkoon - 6-2 10/10 Minikits - Gold Brick",
+            "ref": "Episode 6/Pit of Carkoon/Pit of Carkoon - Events/6-2 10/10 Minikits - Gold Brick"
+          },
+          {
+            "name": "Pit of Carkoon - Defeated Boba Fett (6-2)",
+            "ref": "Episode 6/Pit of Carkoon/Pit of Carkoon - Events/Defeated Boba Fett (6-2)"
+          },
+          {
+            "name": "Pit of Carkoon - Defeated Boba Fett",
+            "ref": "Episode 6/Pit of Carkoon/Pit of Carkoon - Events/Defeated Boba Fett"
+          },
+          {
+            "name": "Speeder Showdown - 6-3 - Power Brick",
+            "ref": "Episode 6/Speeder Showdown/Speeder Showdown - Events/6-3 - Power Brick"
+          },
+          {
+            "name": "Speeder Showdown - 6-3 Completion - Gold Brick",
+            "ref": "Episode 6/Speeder Showdown/Speeder Showdown - Events/6-3 Completion - Gold Brick"
+          },
+          {
+            "name": "Speeder Showdown - 6-3 True Jedi - Gold Brick",
+            "ref": "Episode 6/Speeder Showdown/Speeder Showdown - Events/6-3 True Jedi - Gold Brick"
+          },
+          {
+            "name": "Speeder Showdown - 6-3 10/10 Minikits - Gold Brick",
+            "ref": "Episode 6/Speeder Showdown/Speeder Showdown - Events/6-3 10/10 Minikits - Gold Brick"
+          },
+          {
+            "name": "Battle of Endor - 6-4 - Power Brick",
+            "ref": "Episode 6/Battle of Endor/Battle of Endor - Events/6-4 - Power Brick"
+          },
+          {
+            "name": "Battle of Endor - 6-4 Completion - Gold Brick",
+            "ref": "Episode 6/Battle of Endor/Battle of Endor - Events/6-4 Completion - Gold Brick"
+          },
+          {
+            "name": "Battle of Endor - 6-4 True Jedi - Gold Brick",
+            "ref": "Episode 6/Battle of Endor/Battle of Endor - Events/6-4 True Jedi - Gold Brick"
+          },
+          {
+            "name": "Battle of Endor - 6-4 10/10 Minikits - Gold Brick",
+            "ref": "Episode 6/Battle of Endor/Battle of Endor - Events/6-4 10/10 Minikits - Gold Brick"
+          },
+          {
+            "name": "Jedi Destiny - 6-5 - Power Brick",
+            "ref": "Episode 6/Jedi Destiny/Jedi Destiny - Events/6-5 - Power Brick"
+          },
+          {
+            "name": "Jedi Destiny - 6-5 Completion - Gold Brick",
+            "ref": "Episode 6/Jedi Destiny/Jedi Destiny - Events/6-5 Completion - Gold Brick"
+          },
+          {
+            "name": "Jedi Destiny - 6-5 True Jedi - Gold Brick",
+            "ref": "Episode 6/Jedi Destiny/Jedi Destiny - Events/6-5 True Jedi - Gold Brick"
+          },
+          {
+            "name": "Jedi Destiny - 6-5 10/10 Minikits - Gold Brick",
+            "ref": "Episode 6/Jedi Destiny/Jedi Destiny - Events/6-5 10/10 Minikits - Gold Brick"
+          },
+          {
+            "name": "Jedi Destiny - Defeated The Emperor (6-5)",
+            "ref": "Episode 6/Jedi Destiny/Jedi Destiny - Events/Defeated The Emperor (6-5)"
+          },
+          {
+            "name": "Jedi Destiny - Defeated The Emperor",
+            "ref": "Episode 6/Jedi Destiny/Jedi Destiny - Events/Defeated The Emperor"
+          },
+          {
+            "name": "Into the Death Star - 6-6 - Power Brick",
+            "ref": "Episode 6/Into the Death Star/Into the Death Star - Events/6-6 - Power Brick"
+          },
+          {
+            "name": "Into the Death Star - 6-6 Completion - Gold Brick",
+            "ref": "Episode 6/Into the Death Star/Into the Death Star - Events/6-6 Completion - Gold Brick"
+          },
+          {
+            "name": "Into the Death Star - 6-6 True Jedi - Gold Brick",
+            "ref": "Episode 6/Into the Death Star/Into the Death Star - Events/6-6 True Jedi - Gold Brick"
+          },
+          {
+            "name": "Into the Death Star - 6-6 10/10 Minikits - Gold Brick",
+            "ref": "Episode 6/Into the Death Star/Into the Death Star - Events/6-6 10/10 Minikits - Gold Brick"
+          },
+          {
+            "name": "Into the Death Star - Defeated Death Star II (6-6)",
+            "ref": "Episode 6/Into the Death Star/Into the Death Star - Events/Defeated Death Star II (6-6)"
+          },
+          {
+            "name": "Into the Death Star - Defeated Death Star II",
+            "ref": "Episode 6/Into the Death Star/Into the Death Star - Events/Defeated Death Star II"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Cantina",
+            "x": 664,
+            "y": 155,
+            "shape": "diamond"
           }
         ]
       }
