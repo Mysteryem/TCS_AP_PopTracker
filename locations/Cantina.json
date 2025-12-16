@@ -291,12 +291,18 @@
             {
                 "name": "Purchase Gonk Droid",
                 "chest_unopened_img": "images/items/gonkdroid.png",
-                "chest_opened_img": "images/items/gonkdroid_disabled.png"
+                "chest_opened_img": "images/items/gonkdroid_disabled.png",
+                "access_rules": [
+                    "[$can_purchase|3000]"
+                ]
             },
             {
                 "name": "Purchase PK Droid",
                 "chest_unopened_img": "images/items/pkdroid.png",
-                "chest_opened_img": "images/items/pkdroid_disabled.png"
+                "chest_opened_img": "images/items/pkdroid_disabled.png",
+                "access_rules": [
+                    "[$can_purchase|1500]"
+                ]
             }
         ],
         "map_locations": [
