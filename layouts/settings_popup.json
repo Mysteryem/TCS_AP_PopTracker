@@ -118,6 +118,10 @@
               [
                 "setting_goal_level_completions_amount",
                 "setting_goal_requires_kyber_bricks"
+              ],
+              [
+                "setting_goal_chapter_locations_mode",
+                "setting_goal_chapter"
               ]
             ]
           },

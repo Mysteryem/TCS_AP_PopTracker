@@ -303,6 +303,25 @@ function onClear(slot_data)
     local easier_true_jedi = slot_data["easier_true_jedi"] or 0
     Tracker:FindObjectForCode("easier_true_jedi").CurrentStage = easier_true_jedi
 
+    -- Set the Goal Chapter
+    local goal_chapter = slot_data["goal_chapter"]
+    local goal_chapter_setting = Tracker:FindObjectForCode("setting_goal_chapter")
+    if goal_chapter then
+        -- Convert "X-Y" into the correct stage number, where "1-1" = 1, "1-6" = 6, "2-1" = 7 etc.
+        local episode = tonumber(goal_chapter:sub(1, 1))
+        local chapter = tonumber(goal_chapter:sub(3, 3))
+        local stage = (episode - 1) * 6 + chapter
+        goal_chapter_setting.CurrentStage = stage
+    else
+        -- No Goal Chapter
+        goal_chapter_setting.CurrentStage = 0
+    end
+
+    -- Set the Goal Chapter's Locations Mode
+    -- The world's option starts at 1, but the tracker item starts at 0, so subtracting 1 is needed.
+    local goal_chapter_locations_mode = (slot_data["goal_chapter_locations_mode"] or 1) - 1
+    Tracker:FindObjectForCode("setting_goal_chapter_locations_mode").CurrentStage = goal_chapter_locations_mode
+
     -- Hint tracking disabled until PopTracker 0.32.0 is released, which adds section highlighting.
 --     if Archipelago.PlayerNumber > -1 then
 --

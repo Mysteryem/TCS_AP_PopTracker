@@ -13,7 +13,7 @@
       {
         "name": "Secret Plans",
         "access_rules": [
-          "4_1_enabled, princessleia, captainantilles, c-3po, r2-d2, rebelfriend"
+          "4_1_enabled, princessleia, captainantilles, c-3po, r2-d2, rebelfriend, @Goal Macros/Goal Requirements Met/4-1"
         ],
         "visibility_rules": [
           "4_1_enabled"
@@ -24,7 +24,7 @@
             "chest_unopened_img": "images/items/minikit.png",
             "chest_opened_img": "images/items/minikit_disabled.png",
             "access_rules": [
-              "sith, bounty, imperial, setting_minikit_locations_enabled"
+              "sith, bounty, imperial"
             ],
             "sections": [
               {
@@ -66,7 +66,7 @@
               }
             ],
             "visibility_rules": [
-              "setting_minikit_locations_enabled"
+              "setting_minikit_locations_enabled, @Goal Macros/Locations Visible/4-1"
             ]
           },
           {
@@ -110,9 +110,6 @@
               },
               {
                 "name": "4-1 True Jedi",
-                "access_rules": [
-                  "setting_true_jedi_locations_enabled"
-                ],
                 "visibility_rules": [
                   "setting_true_jedi_locations_enabled"
                 ],
@@ -164,6 +161,9 @@
                 "x": 79,
                 "y": 105
               }
+            ],
+            "visibility_rules": [
+              "@Goal Macros/Locations Visible/4-1"
             ]
           },
           {
@@ -171,30 +171,37 @@
             "sections": [
               {
                 "name": "4-1 - Power Brick",
-                "hosted_item": "4-1_power_brick"
+                "hosted_item": "4-1_power_brick",
+                "visibility_rules": [
+                  "@Goal Macros/Locations Visible/4-1"
+                ]
               },
               {
                 "name": "4-1 Completion - Gold Brick",
-                "hosted_item": "4-1_completion_gold_brick"
+                "hosted_item": "4-1_completion_gold_brick",
+                "access_rules": [
+                  "@Goal Macros/Gold Bricks Logically Expected/4-1"
+                ]
               },
               {
                 "name": "4-1 True Jedi - Gold Brick",
                 "hosted_item": "4-1_true_jedi_gold_brick",
                 "access_rules": [
-                  "@Episode 4/Secret Plans/Secret Plans/4-1 True Jedi"
-                ],
-                "visibility_rules": [
-                  "@Episode 4/Secret Plans/Secret Plans/4-1 True Jedi"
+                  "@Episode 4/Secret Plans/Secret Plans/4-1 True Jedi, [setting_true_jedi_locations_enabled], @Goal Macros/Gold Bricks Logically Expected/4-1"
                 ]
               },
               {
                 "name": "4-1 10 Minikits Collected - Gold Brick",
                 "hosted_item": "4-1_minikits_gold_brick",
                 "access_rules": [
-                  "@Episode 4/Secret Plans/Minikits"
-                ],
+                  "@Episode 4/Secret Plans/Minikits, [setting_minikit_locations_enabled], @Goal Macros/Gold Bricks Logically Expected/4-1"
+                ]
+              },
+              {
+                "name": "Final Goal - Complete 4-1",
+                "hosted_item": "goal",
                 "visibility_rules": [
-                  "@Episode 4/Secret Plans/Minikits"
+                  "4_1_goal_chapter"
                 ]
               }
             ],
@@ -212,7 +219,7 @@
       {
         "name": "Through the Jundland Wastes",
         "access_rules": [
-          "4_2_enabled, lukeskywalker(tatooine), c-3po, r2-d2, benkenobi"
+          "4_2_enabled, lukeskywalker(tatooine), c-3po, r2-d2, benkenobi, @Goal Macros/Goal Requirements Met/4-2"
         ],
         "visibility_rules": [
           "4_2_enabled"
@@ -223,7 +230,7 @@
             "chest_unopened_img": "images/items/minikit.png",
             "chest_opened_img": "images/items/minikit_disabled.png",
             "access_rules": [
-              "sith, shortie, setting_minikit_locations_enabled"
+              "sith, shortie"
             ],
             "sections": [
               {
@@ -265,7 +272,7 @@
               }
             ],
             "visibility_rules": [
-              "setting_minikit_locations_enabled"
+              "setting_minikit_locations_enabled, @Goal Macros/Locations Visible/4-2"
             ]
           },
           {
@@ -300,9 +307,6 @@
               },
               {
                 "name": "4-2 True Jedi",
-                "access_rules": [
-                  "setting_true_jedi_locations_enabled"
-                ],
                 "visibility_rules": [
                   "setting_true_jedi_locations_enabled"
                 ],
@@ -347,6 +351,9 @@
                 "x": 252,
                 "y": 105
               }
+            ],
+            "visibility_rules": [
+              "@Goal Macros/Locations Visible/4-2"
             ]
           },
           {
@@ -357,30 +364,37 @@
                 "hosted_item": "4-2_power_brick",
                 "access_rules": [
                   "bounty"
+                ],
+                "visibility_rules": [
+                  "@Goal Macros/Locations Visible/4-2"
                 ]
               },
               {
                 "name": "4-2 Completion - Gold Brick",
-                "hosted_item": "4-2_completion_gold_brick"
+                "hosted_item": "4-2_completion_gold_brick",
+                "access_rules": [
+                  "@Goal Macros/Gold Bricks Logically Expected/4-2"
+                ]
               },
               {
                 "name": "4-2 True Jedi - Gold Brick",
                 "hosted_item": "4-2_true_jedi_gold_brick",
                 "access_rules": [
-                  "@Episode 4/Through the Jundland Wastes/Through the Jundland Wastes/4-2 True Jedi"
-                ],
-                "visibility_rules": [
-                  "@Episode 4/Through the Jundland Wastes/Through the Jundland Wastes/4-2 True Jedi"
+                  "@Episode 4/Through the Jundland Wastes/Through the Jundland Wastes/4-2 True Jedi, [setting_true_jedi_locations_enabled], @Goal Macros/Gold Bricks Logically Expected/4-2"
                 ]
               },
               {
                 "name": "4-2 10 Minikits Collected - Gold Brick",
                 "hosted_item": "4-2_minikits_gold_brick",
                 "access_rules": [
-                  "@Episode 4/Through the Jundland Wastes/Minikits"
-                ],
+                  "@Episode 4/Through the Jundland Wastes/Minikits, [setting_minikit_locations_enabled], @Goal Macros/Gold Bricks Logically Expected/4-2"
+                ]
+              },
+              {
+                "name": "Final Goal - Complete 4-2",
+                "hosted_item": "goal",
                 "visibility_rules": [
-                  "@Episode 4/Through the Jundland Wastes/Minikits"
+                  "4_2_goal_chapter"
                 ]
               }
             ],
@@ -398,7 +412,7 @@
       {
         "name": "Mos Eisley Spaceport",
         "access_rules": [
-          "4_3_enabled, hansolo, benkenobi, lukeskywalker(tatooine), c-3po, r2-d2, chewbacca"
+          "4_3_enabled, hansolo, benkenobi, lukeskywalker(tatooine), c-3po, r2-d2, chewbacca, @Goal Macros/Goal Requirements Met/4-3"
         ],
         "visibility_rules": [
           "4_3_enabled"
@@ -409,7 +423,7 @@
             "chest_unopened_img": "images/items/minikit.png",
             "chest_opened_img": "images/items/minikit_disabled.png",
             "access_rules": [
-              "sith, highjump, bounty, shortie, setting_minikit_locations_enabled"
+              "sith, highjump, bounty, shortie"
             ],
             "sections": [
               {
@@ -451,7 +465,7 @@
               }
             ],
             "visibility_rules": [
-              "setting_minikit_locations_enabled"
+              "setting_minikit_locations_enabled, @Goal Macros/Locations Visible/4-3"
             ]
           },
           {
@@ -495,9 +509,6 @@
               },
               {
                 "name": "4-3 True Jedi",
-                "access_rules": [
-                  "setting_true_jedi_locations_enabled"
-                ],
                 "visibility_rules": [
                   "setting_true_jedi_locations_enabled"
                 ],
@@ -556,6 +567,9 @@
                 "x": 422,
                 "y": 105
               }
+            ],
+            "visibility_rules": [
+              "@Goal Macros/Locations Visible/4-3"
             ]
           },
           {
@@ -563,30 +577,30 @@
             "sections": [
               {
                 "name": "4-3 - Power Brick",
-                "hosted_item": "4-3_power_brick"
+                "hosted_item": "4-3_power_brick",
+                "visibility_rules": [
+                  "@Goal Macros/Locations Visible/4-3"
+                ]
               },
               {
                 "name": "4-3 Completion - Gold Brick",
-                "hosted_item": "4-3_completion_gold_brick"
+                "hosted_item": "4-3_completion_gold_brick",
+                "access_rules": [
+                  "@Goal Macros/Gold Bricks Logically Expected/4-3"
+                ]
               },
               {
                 "name": "4-3 True Jedi - Gold Brick",
                 "hosted_item": "4-3_true_jedi_gold_brick",
                 "access_rules": [
-                  "@Episode 4/Mos Eisley Spaceport/Mos Eisley Spaceport/4-3 True Jedi"
-                ],
-                "visibility_rules": [
-                  "@Episode 4/Mos Eisley Spaceport/Mos Eisley Spaceport/4-3 True Jedi"
+                  "@Episode 4/Mos Eisley Spaceport/Mos Eisley Spaceport/4-3 True Jedi, [setting_true_jedi_locations_enabled], @Goal Macros/Gold Bricks Logically Expected/4-3"
                 ]
               },
               {
                 "name": "4-3 10 Minikits Collected - Gold Brick",
                 "hosted_item": "4-3_minikits_gold_brick",
                 "access_rules": [
-                  "@Episode 4/Mos Eisley Spaceport/Minikits"
-                ],
-                "visibility_rules": [
-                  "@Episode 4/Mos Eisley Spaceport/Minikits"
+                  "@Episode 4/Mos Eisley Spaceport/Minikits, [setting_minikit_locations_enabled], @Goal Macros/Gold Bricks Logically Expected/4-3"
                 ]
               },
               {
@@ -601,6 +615,13 @@
                 "hosted_item": "boss_imperial_spy",
                 "visibility_rules": [
                   "setting_defeat_bosses_unique, $boss_enabled|boss_imperial_spy, $boss_enabled|boss_imperial_spy_4-3"
+                ]
+              },
+              {
+                "name": "Final Goal - Complete 4-3",
+                "hosted_item": "goal",
+                "visibility_rules": [
+                  "4_3_goal_chapter"
                 ]
               }
             ],
@@ -618,7 +639,7 @@
       {
         "name": "Rescue the Princess",
         "access_rules": [
-          "4_4_enabled, lukeskywalker(stormtrooper), benkenobi, hansolo(stormtrooper), chewbacca, c-3po, r2-d2"
+          "4_4_enabled, lukeskywalker(stormtrooper), benkenobi, hansolo(stormtrooper), chewbacca, c-3po, r2-d2, @Goal Macros/Goal Requirements Met/4-4"
         ],
         "visibility_rules": [
           "4_4_enabled"
@@ -629,7 +650,7 @@
             "chest_unopened_img": "images/items/minikit.png",
             "chest_opened_img": "images/items/minikit_disabled.png",
             "access_rules": [
-              "sith, bounty, imperial, setting_minikit_locations_enabled"
+              "sith, bounty, imperial"
             ],
             "sections": [
               {
@@ -671,7 +692,7 @@
               }
             ],
             "visibility_rules": [
-              "setting_minikit_locations_enabled"
+              "setting_minikit_locations_enabled, @Goal Macros/Locations Visible/4-4"
             ]
           },
           {
@@ -733,9 +754,6 @@
               },
               {
                 "name": "4-4 True Jedi",
-                "access_rules": [
-                  "setting_true_jedi_locations_enabled"
-                ],
                 "visibility_rules": [
                   "setting_true_jedi_locations_enabled"
                 ],
@@ -794,6 +812,9 @@
                 "x": 606,
                 "y": 105
               }
+            ],
+            "visibility_rules": [
+              "@Goal Macros/Locations Visible/4-4"
             ]
           },
           {
@@ -801,30 +822,37 @@
             "sections": [
               {
                 "name": "4-4 - Power Brick",
-                "hosted_item": "4-4_power_brick"
+                "hosted_item": "4-4_power_brick",
+                "visibility_rules": [
+                  "@Goal Macros/Locations Visible/4-4"
+                ]
               },
               {
                 "name": "4-4 Completion - Gold Brick",
-                "hosted_item": "4-4_completion_gold_brick"
+                "hosted_item": "4-4_completion_gold_brick",
+                "access_rules": [
+                  "@Goal Macros/Gold Bricks Logically Expected/4-4"
+                ]
               },
               {
                 "name": "4-4 True Jedi - Gold Brick",
                 "hosted_item": "4-4_true_jedi_gold_brick",
                 "access_rules": [
-                  "@Episode 4/Rescue the Princess/Rescue the Princess/4-4 True Jedi"
-                ],
-                "visibility_rules": [
-                  "@Episode 4/Rescue the Princess/Rescue the Princess/4-4 True Jedi"
+                  "@Episode 4/Rescue the Princess/Rescue the Princess/4-4 True Jedi, [setting_true_jedi_locations_enabled], @Goal Macros/Gold Bricks Logically Expected/4-4"
                 ]
               },
               {
                 "name": "4-4 10 Minikits Collected - Gold Brick",
                 "hosted_item": "4-4_minikits_gold_brick",
                 "access_rules": [
-                  "@Episode 4/Rescue the Princess/Minikits"
-                ],
+                  "@Episode 4/Rescue the Princess/Minikits, [setting_minikit_locations_enabled], @Goal Macros/Gold Bricks Logically Expected/4-4"
+                ]
+              },
+              {
+                "name": "Final Goal - Complete 4-4",
+                "hosted_item": "goal",
                 "visibility_rules": [
-                  "@Episode 4/Rescue the Princess/Minikits"
+                  "4_4_goal_chapter"
                 ]
               }
             ],
@@ -842,7 +870,7 @@
       {
         "name": "Death Star Escape",
         "access_rules": [
-          "4_5_enabled, lukeskywalker(tatooine), princessleia, hansolo, chewbacca, c-3po, r2-d2"
+          "4_5_enabled, lukeskywalker(tatooine), princessleia, hansolo, chewbacca, c-3po, r2-d2, @Goal Macros/Goal Requirements Met/4-5"
         ],
         "visibility_rules": [
           "4_5_enabled"
@@ -853,7 +881,7 @@
             "chest_unopened_img": "images/items/minikit.png",
             "chest_opened_img": "images/items/minikit_disabled.png",
             "access_rules": [
-              "sith, bounty, imperial, shortie, setting_minikit_locations_enabled"
+              "sith, bounty, imperial, shortie"
             ],
             "sections": [
               {
@@ -895,7 +923,7 @@
               }
             ],
             "visibility_rules": [
-              "setting_minikit_locations_enabled"
+              "setting_minikit_locations_enabled, @Goal Macros/Locations Visible/4-5"
             ]
           },
           {
@@ -912,9 +940,6 @@
               },
               {
                 "name": "4-5 True Jedi",
-                "access_rules": [
-                  "setting_true_jedi_locations_enabled"
-                ],
                 "visibility_rules": [
                   "setting_true_jedi_locations_enabled"
                 ],
@@ -973,6 +998,9 @@
                 "x": 779,
                 "y": 105
               }
+            ],
+            "visibility_rules": [
+              "@Goal Macros/Locations Visible/4-5"
             ]
           },
           {
@@ -980,30 +1008,37 @@
             "sections": [
               {
                 "name": "4-5 - Power Brick",
-                "hosted_item": "4-5_power_brick"
+                "hosted_item": "4-5_power_brick",
+                "visibility_rules": [
+                  "@Goal Macros/Locations Visible/4-5"
+                ]
               },
               {
                 "name": "4-5 Completion - Gold Brick",
-                "hosted_item": "4-5_completion_gold_brick"
+                "hosted_item": "4-5_completion_gold_brick",
+                "access_rules": [
+                  "@Goal Macros/Gold Bricks Logically Expected/4-5"
+                ]
               },
               {
                 "name": "4-5 True Jedi - Gold Brick",
                 "hosted_item": "4-5_true_jedi_gold_brick",
                 "access_rules": [
-                  "@Episode 4/Death Star Escape/Death Star Escape/4-5 True Jedi"
-                ],
-                "visibility_rules": [
-                  "@Episode 4/Death Star Escape/Death Star Escape/4-5 True Jedi"
+                  "@Episode 4/Death Star Escape/Death Star Escape/4-5 True Jedi, [setting_true_jedi_locations_enabled], @Goal Macros/Gold Bricks Logically Expected/4-5"
                 ]
               },
               {
                 "name": "4-5 10 Minikits Collected - Gold Brick",
                 "hosted_item": "4-5_minikits_gold_brick",
                 "access_rules": [
-                  "@Episode 4/Death Star Escape/Minikits"
-                ],
+                  "@Episode 4/Death Star Escape/Minikits, [setting_minikit_locations_enabled], @Goal Macros/Gold Bricks Logically Expected/4-5"
+                ]
+              },
+              {
+                "name": "Final Goal - Complete 4-5",
+                "hosted_item": "goal",
                 "visibility_rules": [
-                  "@Episode 4/Death Star Escape/Minikits"
+                  "4_5_goal_chapter"
                 ]
               }
             ],
@@ -1021,7 +1056,7 @@
       {
         "name": "Rebel Attack",
         "access_rules": [
-          "4_6_enabled, x-wing, y-wing"
+          "4_6_enabled, x-wing, y-wing, @Goal Macros/Goal Requirements Met/4-6"
         ],
         "visibility_rules": [
           "4_6_enabled"
@@ -1032,7 +1067,7 @@
             "chest_unopened_img": "images/items/minikit.png",
             "chest_opened_img": "images/items/minikit_disabled.png",
             "access_rules": [
-              "towvehicle, tievehicle, setting_minikit_locations_enabled"
+              "towvehicle, tievehicle"
             ],
             "sections": [
               {
@@ -1074,7 +1109,7 @@
               }
             ],
             "visibility_rules": [
-              "setting_minikit_locations_enabled"
+              "setting_minikit_locations_enabled, @Goal Macros/Locations Visible/4-6"
             ]
           },
           {
@@ -1118,9 +1153,6 @@
               },
               {
                 "name": "4-6 True Jedi",
-                "access_rules": [
-                  "setting_true_jedi_locations_enabled"
-                ],
                 "visibility_rules": [
                   "setting_true_jedi_locations_enabled"
                 ],
@@ -1151,6 +1183,9 @@
                 "x": 940,
                 "y": 105
               }
+            ],
+            "visibility_rules": [
+              "@Goal Macros/Locations Visible/4-6"
             ]
           },
           {
@@ -1158,30 +1193,30 @@
             "sections": [
               {
                 "name": "4-6 - Power Brick",
-                "hosted_item": "4-6_power_brick"
+                "hosted_item": "4-6_power_brick",
+                "visibility_rules": [
+                  "@Goal Macros/Locations Visible/4-6"
+                ]
               },
               {
                 "name": "4-6 Completion - Gold Brick",
-                "hosted_item": "4-6_completion_gold_brick"
+                "hosted_item": "4-6_completion_gold_brick",
+                "access_rules": [
+                  "@Goal Macros/Gold Bricks Logically Expected/4-6"
+                ]
               },
               {
                 "name": "4-6 True Jedi - Gold Brick",
                 "hosted_item": "4-6_true_jedi_gold_brick",
                 "access_rules": [
-                  "@Episode 4/Rebel Attack/Rebel Attack/4-6 True Jedi"
-                ],
-                "visibility_rules": [
-                  "@Episode 4/Rebel Attack/Rebel Attack/4-6 True Jedi"
+                  "@Episode 4/Rebel Attack/Rebel Attack/4-6 True Jedi, [setting_true_jedi_locations_enabled], @Goal Macros/Gold Bricks Logically Expected/4-6"
                 ]
               },
               {
                 "name": "4-6 10 Minikits Collected - Gold Brick",
                 "hosted_item": "4-6_minikits_gold_brick",
                 "access_rules": [
-                  "@Episode 4/Rebel Attack/Minikits"
-                ],
-                "visibility_rules": [
-                  "@Episode 4/Rebel Attack/Minikits"
+                  "@Episode 4/Rebel Attack/Minikits, [setting_minikit_locations_enabled], @Goal Macros/Gold Bricks Logically Expected/4-6"
                 ]
               },
               {
@@ -1196,6 +1231,13 @@
                 "hosted_item": "boss_death_star",
                 "visibility_rules": [
                   "setting_defeat_bosses_unique, $boss_enabled|boss_death_star, $boss_enabled|boss_death_star_4-6"
+                ]
+              },
+              {
+                "name": "Final Goal - Complete 4-6",
+                "hosted_item": "goal",
+                "visibility_rules": [
+                  "4_6_goal_chapter"
                 ]
               }
             ],

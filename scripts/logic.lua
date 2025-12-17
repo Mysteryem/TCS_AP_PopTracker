@@ -58,18 +58,21 @@ function boss_enabled(boss_code)
     return Tracker:FindObjectForCode(boss_code).CurrentStage > 0
 end
 
-function defeat_bosses_goal()
-    local goal_amount = Tracker:ProviderCountForCode("setting_defeat_bosses_goal_amount")
+local function get_defeated_bosses_count()
     if Tracker:ProviderCountForCode("setting_defeat_bosses_normal") > 0 then
         -- Each boss in a chapter counts separately.
-        return Tracker:ProviderCountForCode("boss_defeated") >= goal_amount
+        return Tracker:ProviderCountForCode("boss_defeated")
     elseif Tracker:ProviderCountForCode("setting_defeat_bosses_unique") > 0 then
         -- Each boss character counts separately.
-        return Tracker:ProviderCountForCode("unique_boss_defeated") >= goal_amount
+        return Tracker:ProviderCountForCode("unique_boss_defeated")
     else
         -- The Defeat Bosses Goal is not enabled.
-        return true
+        return nil
     end
+end
+
+function defeat_bosses_goal()
+    return Tracker:ProviderCountForCode("total_bosses_defeated") >= Tracker:ProviderCountForCode("setting_defeat_bosses_goal_amount")
 end
 
 function complete_levels_goal()
@@ -84,5 +87,12 @@ local function update_level_completions_total(code)
     Tracker:FindObjectForCode("total_level_completions").AcquiredCount = Tracker:ProviderCountForCode(code)
 end
 
+local function update_defeated_bosses_total(code)
+    local count = get_defeated_bosses_count() or 0
+    Tracker:FindObjectForCode("total_bosses_defeated").AcquiredCount = count
+end
+
 ScriptHost:AddWatchForCode("update_gold_brick_total", "gold_brick", update_gold_brick_total)
 ScriptHost:AddWatchForCode("update_level_completion_total", "level_completion_gold_brick", update_level_completions_total)
+ScriptHost:AddWatchForCode("update_total_bosses_defeated_1", "boss_defeated", update_defeated_bosses_total)
+ScriptHost:AddWatchForCode("update_total_bosses_defeated_2", "unique_boss_defeated", update_defeated_bosses_total)

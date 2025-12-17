@@ -762,7 +762,7 @@
     "codes": "total_gold_bricks"
   },
   {
-    "name": "Level Completions",
+    "name": "Levels Completed",
     "type": "consumable",
     "img": "images/items/gold_brick_level_completion.png",
     "codes": "total_level_completions"

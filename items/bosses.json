@@ -406,5 +406,12 @@
         "img_mods": "overlay|images/bosses/boss_defeated.png"
       }
     ]
+  },
+  {
+    "name": "Bosses Defeated",
+    "type": "consumable",
+    "img": "images/bosses/boba_fett.png",
+    "img_mods": "overlay|images/bosses/boss_defeated.png",
+    "codes": "total_bosses_defeated"
   }
 ]

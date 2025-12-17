@@ -162,10 +162,10 @@
                 "indianajones",
                 "custom_character_1",
                 "custom_character_2",
-                "minikits",
+                "",
+                "",
+                "",
                 "allepisodestoken",
-                "kyber_brick",
-                "total_gold_bricks",
                 "episode6unlock"
               ],
               [
@@ -212,7 +212,8 @@
                 "explodingblasterbolts",
                 "forcepull",
                 "vehiclesmartbomb",
-                "superastromech"
+                "superastromech",
+                "total_gold_bricks"
               ],
               [
                 "superjedislam",
@@ -232,7 +233,12 @@
                 "superzapper",
                 "bountyhunterrockets",
                 "superewokcatapult",
-                "infinitetorpedos"
+                "infinitetorpedos",
+                "",
+                "minikits",
+                "kyber_brick",
+                "total_level_completions",
+                "total_bosses_defeated"
               ]
             ]
           }

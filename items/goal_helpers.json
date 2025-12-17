@@ -1,0 +1,10 @@
+[
+  {
+    "name": "Goal",
+    "type": "toggle",
+    "img": "images/goal/han_solo_medal.png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "goal"
+  }
+]

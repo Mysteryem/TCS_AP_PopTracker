@@ -59,5 +59,848 @@
         ]
       }
     ]
+  },
+  {
+    "name": "Goal Macros",
+    "children": [
+      {
+        "name": "All Non Goal Chapter Goals Completed",
+        "access_rules": [
+          [
+            "@Macros/Can Complete Kyber Bricks Goal",
+            "$minikits_goal",
+            "$defeat_bosses_goal",
+            "$complete_levels_goal"
+          ]
+        ]
+      },
+      {
+        "name": "Can Reach Goal Chapter Completion",
+        "access_rules": [
+          "no_goal_chapter",
+          "1_1_goal_chapter, @Episode 1/Negotiations/Negotiations/1-1 Completion",
+          "1_2_goal_chapter, @Episode 1/Invasion of Naboo/Invasion of Naboo/1-2 Completion",
+          "1_3_goal_chapter, @Episode 1/Escape From Naboo/Escape From Naboo/1-3 Completion",
+          "1_4_goal_chapter, @Episode 1/Mos Espa Pod Race/Mos Espa Pod Race/1-4 Completion",
+          "1_5_goal_chapter, @Episode 1/Retake Theed Palace/Retake Theed Palace/1-5 Completion",
+          "1_6_goal_chapter, @Episode 1/Darth Maul/Darth Maul/1-6 Completion",
+          "2_1_goal_chapter, @Episode 2/Bounty Hunter Pursuit/Bounty Hunter Pursuit/2-1 Completion",
+          "2_2_goal_chapter, @Episode 2/Discovery on Kamino/Discovery on Kamino/2-2 Completion",
+          "2_3_goal_chapter, @Episode 2/Droid Factory/Droid Factory/2-3 Completion",
+          "2_4_goal_chapter, @Episode 2/Jedi Battle/Jedi Battle/2-4 Completion",
+          "2_5_goal_chapter, @Episode 2/Gunship Cavalry/Gunship Cavalry/2-5 Completion",
+          "2_6_goal_chapter, @Episode 2/Count Dooku/Count Dooku/2-6 Completion",
+          "3_1_goal_chapter, @Episode 3/Battle Over Coruscant/Battle Over Coruscant/3-1 Completion",
+          "3_2_goal_chapter, @Episode 3/Chancellor in Peril/Chancellor in Peril/3-2 Completion",
+          "3_3_goal_chapter, @Episode 3/General Grievous/General Grievous/3-3 Completion",
+          "3_4_goal_chapter, @Episode 3/Defense of Kashyyyk/Defense of Kashyyyk/3-4 Completion",
+          "3_5_goal_chapter, @Episode 3/Ruin of the Jedi/Ruin of the Jedi/3-5 Completion",
+          "3_6_goal_chapter, @Episode 3/Darth Vader/Darth Vader/3-6 Completion",
+          "4_1_goal_chapter, @Episode 4/Secret Plans/Secret Plans/4-1 Completion",
+          "4_2_goal_chapter, @Episode 4/Through the Jundland Wastes/Through the Jundland Wastes/4-2 Completion",
+          "4_3_goal_chapter, @Episode 4/Mos Eisley Spaceport/Mos Eisley Spaceport/4-3 Completion",
+          "4_4_goal_chapter, @Episode 4/Rescue the Princess/Rescue the Princess/4-4 Completion",
+          "4_5_goal_chapter, @Episode 4/Death Star Escape/Death Star Escape/4-5 Completion",
+          "4_6_goal_chapter, @Episode 4/Rebel Attack/Rebel Attack/4-6 Completion",
+          "5_1_goal_chapter, @Episode 5/Hoth Battle/Hoth Battle/5-1 Completion",
+          "5_2_goal_chapter, @Episode 5/Escape From Echo Base/Escape From Echo Base/5-2 Completion",
+          "5_3_goal_chapter, @Episode 5/Falcon Flight/Falcon Flight/5-3 Completion",
+          "5_4_goal_chapter, @Episode 5/Dagobah/Dagobah/5-4 Completion",
+          "5_5_goal_chapter, @Episode 5/Cloud City Trap/Cloud City Trap/5-5 Completion",
+          "5_6_goal_chapter, @Episode 5/Betrayal Over Bespin/Betrayal Over Bespin/5-6 Completion",
+          "6_1_goal_chapter, @Episode 6/Jabba's Palace/Jabba's Palace/6-1 Completion",
+          "6_2_goal_chapter, @Episode 6/Pit of Carkoon/Pit of Carkoon/6-2 Completion",
+          "6_3_goal_chapter, @Episode 6/Speeder Showdown/Speeder Showdown/6-3 Completion",
+          "6_4_goal_chapter, @Episode 6/Battle of Endor/Battle of Endor/6-4 Completion",
+          "6_5_goal_chapter, @Episode 6/Jedi Destiny/Jedi Destiny/6-5 Completion",
+          "6_6_goal_chapter, @Episode 6/Into the Death Star/Into the Death Star/6-6 Completion"
+        ]
+      },
+      {
+        "name": "Goal Requirements Met",
+        "children": [
+          {
+            "name": "1-1",
+            "access_rules": [
+              "not_1_1_goal_chapter",
+              "@Goal Macros/All Non Goal Chapter Goals Completed"
+            ]
+          },
+          {
+            "name": "1-2",
+            "access_rules": [
+              "not_1_2_goal_chapter",
+              "@Goal Macros/All Non Goal Chapter Goals Completed"
+            ]
+          },
+          {
+            "name": "1-3",
+            "access_rules": [
+              "not_1_3_goal_chapter",
+              "@Goal Macros/All Non Goal Chapter Goals Completed"
+            ]
+          },
+          {
+            "name": "1-4",
+            "access_rules": [
+              "not_1_4_goal_chapter",
+              "@Goal Macros/All Non Goal Chapter Goals Completed"
+            ]
+          },
+          {
+            "name": "1-5",
+            "access_rules": [
+              "not_1_5_goal_chapter",
+              "@Goal Macros/All Non Goal Chapter Goals Completed"
+            ]
+          },
+          {
+            "name": "1-6",
+            "access_rules": [
+              "not_1_6_goal_chapter",
+              "@Goal Macros/All Non Goal Chapter Goals Completed"
+            ]
+          },
+          {
+            "name": "2-1",
+            "access_rules": [
+              "not_2_1_goal_chapter",
+              "@Goal Macros/All Non Goal Chapter Goals Completed"
+            ]
+          },
+          {
+            "name": "2-2",
+            "access_rules": [
+              "not_2_2_goal_chapter",
+              "@Goal Macros/All Non Goal Chapter Goals Completed"
+            ]
+          },
+          {
+            "name": "2-3",
+            "access_rules": [
+              "not_2_3_goal_chapter",
+              "@Goal Macros/All Non Goal Chapter Goals Completed"
+            ]
+          },
+          {
+            "name": "2-4",
+            "access_rules": [
+              "not_2_4_goal_chapter",
+              "@Goal Macros/All Non Goal Chapter Goals Completed"
+            ]
+          },
+          {
+            "name": "2-5",
+            "access_rules": [
+              "not_2_5_goal_chapter",
+              "@Goal Macros/All Non Goal Chapter Goals Completed"
+            ]
+          },
+          {
+            "name": "2-6",
+            "access_rules": [
+              "not_2_6_goal_chapter",
+              "@Goal Macros/All Non Goal Chapter Goals Completed"
+            ]
+          },
+          {
+            "name": "3-1",
+            "access_rules": [
+              "not_3_1_goal_chapter",
+              "@Goal Macros/All Non Goal Chapter Goals Completed"
+            ]
+          },
+          {
+            "name": "3-2",
+            "access_rules": [
+              "not_3_2_goal_chapter",
+              "@Goal Macros/All Non Goal Chapter Goals Completed"
+            ]
+          },
+          {
+            "name": "3-3",
+            "access_rules": [
+              "not_3_3_goal_chapter",
+              "@Goal Macros/All Non Goal Chapter Goals Completed"
+            ]
+          },
+          {
+            "name": "3-4",
+            "access_rules": [
+              "not_3_4_goal_chapter",
+              "@Goal Macros/All Non Goal Chapter Goals Completed"
+            ]
+          },
+          {
+            "name": "3-5",
+            "access_rules": [
+              "not_3_5_goal_chapter",
+              "@Goal Macros/All Non Goal Chapter Goals Completed"
+            ]
+          },
+          {
+            "name": "3-6",
+            "access_rules": [
+              "not_3_6_goal_chapter",
+              "@Goal Macros/All Non Goal Chapter Goals Completed"
+            ]
+          },
+          {
+            "name": "4-1",
+            "access_rules": [
+              "not_4_1_goal_chapter",
+              "@Goal Macros/All Non Goal Chapter Goals Completed"
+            ]
+          },
+          {
+            "name": "4-2",
+            "access_rules": [
+              "not_4_2_goal_chapter",
+              "@Goal Macros/All Non Goal Chapter Goals Completed"
+            ]
+          },
+          {
+            "name": "4-3",
+            "access_rules": [
+              "not_4_3_goal_chapter",
+              "@Goal Macros/All Non Goal Chapter Goals Completed"
+            ]
+          },
+          {
+            "name": "4-4",
+            "access_rules": [
+              "not_4_4_goal_chapter",
+              "@Goal Macros/All Non Goal Chapter Goals Completed"
+            ]
+          },
+          {
+            "name": "4-5",
+            "access_rules": [
+              "not_4_5_goal_chapter",
+              "@Goal Macros/All Non Goal Chapter Goals Completed"
+            ]
+          },
+          {
+            "name": "4-6",
+            "access_rules": [
+              "not_4_6_goal_chapter",
+              "@Goal Macros/All Non Goal Chapter Goals Completed"
+            ]
+          },
+          {
+            "name": "5-1",
+            "access_rules": [
+              "not_5_1_goal_chapter",
+              "@Goal Macros/All Non Goal Chapter Goals Completed"
+            ]
+          },
+          {
+            "name": "5-2",
+            "access_rules": [
+              "not_5_2_goal_chapter",
+              "@Goal Macros/All Non Goal Chapter Goals Completed"
+            ]
+          },
+          {
+            "name": "5-3",
+            "access_rules": [
+              "not_5_3_goal_chapter",
+              "@Goal Macros/All Non Goal Chapter Goals Completed"
+            ]
+          },
+          {
+            "name": "5-4",
+            "access_rules": [
+              "not_5_4_goal_chapter",
+              "@Goal Macros/All Non Goal Chapter Goals Completed"
+            ]
+          },
+          {
+            "name": "5-5",
+            "access_rules": [
+              "not_5_5_goal_chapter",
+              "@Goal Macros/All Non Goal Chapter Goals Completed"
+            ]
+          },
+          {
+            "name": "5-6",
+            "access_rules": [
+              "not_5_6_goal_chapter",
+              "@Goal Macros/All Non Goal Chapter Goals Completed"
+            ]
+          },
+          {
+            "name": "6-1",
+            "access_rules": [
+              "not_6_1_goal_chapter",
+              "@Goal Macros/All Non Goal Chapter Goals Completed"
+            ]
+          },
+          {
+            "name": "6-2",
+            "access_rules": [
+              "not_6_2_goal_chapter",
+              "@Goal Macros/All Non Goal Chapter Goals Completed"
+            ]
+          },
+          {
+            "name": "6-3",
+            "access_rules": [
+              "not_6_3_goal_chapter",
+              "@Goal Macros/All Non Goal Chapter Goals Completed"
+            ]
+          },
+          {
+            "name": "6-4",
+            "access_rules": [
+              "not_6_4_goal_chapter",
+              "@Goal Macros/All Non Goal Chapter Goals Completed"
+            ]
+          },
+          {
+            "name": "6-5",
+            "access_rules": [
+              "not_6_5_goal_chapter",
+              "@Goal Macros/All Non Goal Chapter Goals Completed"
+            ]
+          },
+          {
+            "name": "6-6",
+            "access_rules": [
+              "not_6_6_goal_chapter",
+              "@Goal Macros/All Non Goal Chapter Goals Completed"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Goal Chapter AP Locations Visible",
+        "visibility_rules": [
+          "setting_goal_chapter_locations_normal",
+          "setting_goal_chapter_locations_excluded"
+        ]
+      },
+      {
+        "name": "Locations Visible",
+        "children": [
+          {
+            "name": "1-1",
+            "visibility_rules": [
+              "not_1_1_goal_chapter",
+              "@Goal Macros/Goal Chapter AP Locations Visible"
+            ]
+          },
+          {
+            "name": "1-2",
+            "visibility_rules": [
+              "not_1_2_goal_chapter",
+              "@Goal Macros/Goal Chapter AP Locations Visible"
+            ]
+          },
+          {
+            "name": "1-3",
+            "visibility_rules": [
+              "not_1_3_goal_chapter",
+              "@Goal Macros/Goal Chapter AP Locations Visible"
+            ]
+          },
+          {
+            "name": "1-4",
+            "visibility_rules": [
+              "not_1_4_goal_chapter",
+              "@Goal Macros/Goal Chapter AP Locations Visible"
+            ]
+          },
+          {
+            "name": "1-5",
+            "visibility_rules": [
+              "not_1_5_goal_chapter",
+              "@Goal Macros/Goal Chapter AP Locations Visible"
+            ]
+          },
+          {
+            "name": "1-6",
+            "visibility_rules": [
+              "not_1_6_goal_chapter",
+              "@Goal Macros/Goal Chapter AP Locations Visible"
+            ]
+          },
+          {
+            "name": "2-1",
+            "visibility_rules": [
+              "not_2_1_goal_chapter",
+              "@Goal Macros/Goal Chapter AP Locations Visible"
+            ]
+          },
+          {
+            "name": "2-2",
+            "visibility_rules": [
+              "not_2_2_goal_chapter",
+              "@Goal Macros/Goal Chapter AP Locations Visible"
+            ]
+          },
+          {
+            "name": "2-3",
+            "visibility_rules": [
+              "not_2_3_goal_chapter",
+              "@Goal Macros/Goal Chapter AP Locations Visible"
+            ]
+          },
+          {
+            "name": "2-4",
+            "visibility_rules": [
+              "not_2_4_goal_chapter",
+              "@Goal Macros/Goal Chapter AP Locations Visible"
+            ]
+          },
+          {
+            "name": "2-5",
+            "visibility_rules": [
+              "not_2_5_goal_chapter",
+              "@Goal Macros/Goal Chapter AP Locations Visible"
+            ]
+          },
+          {
+            "name": "2-6",
+            "visibility_rules": [
+              "not_2_6_goal_chapter",
+              "@Goal Macros/Goal Chapter AP Locations Visible"
+            ]
+          },
+          {
+            "name": "3-1",
+            "visibility_rules": [
+              "not_3_1_goal_chapter",
+              "@Goal Macros/Goal Chapter AP Locations Visible"
+            ]
+          },
+          {
+            "name": "3-2",
+            "visibility_rules": [
+              "not_3_2_goal_chapter",
+              "@Goal Macros/Goal Chapter AP Locations Visible"
+            ]
+          },
+          {
+            "name": "3-3",
+            "visibility_rules": [
+              "not_3_3_goal_chapter",
+              "@Goal Macros/Goal Chapter AP Locations Visible"
+            ]
+          },
+          {
+            "name": "3-4",
+            "visibility_rules": [
+              "not_3_4_goal_chapter",
+              "@Goal Macros/Goal Chapter AP Locations Visible"
+            ]
+          },
+          {
+            "name": "3-5",
+            "visibility_rules": [
+              "not_3_5_goal_chapter",
+              "@Goal Macros/Goal Chapter AP Locations Visible"
+            ]
+          },
+          {
+            "name": "3-6",
+            "visibility_rules": [
+              "not_3_6_goal_chapter",
+              "@Goal Macros/Goal Chapter AP Locations Visible"
+            ]
+          },
+          {
+            "name": "4-1",
+            "visibility_rules": [
+              "not_4_1_goal_chapter",
+              "@Goal Macros/Goal Chapter AP Locations Visible"
+            ]
+          },
+          {
+            "name": "4-2",
+            "visibility_rules": [
+              "not_4_2_goal_chapter",
+              "@Goal Macros/Goal Chapter AP Locations Visible"
+            ]
+          },
+          {
+            "name": "4-3",
+            "visibility_rules": [
+              "not_4_3_goal_chapter",
+              "@Goal Macros/Goal Chapter AP Locations Visible"
+            ]
+          },
+          {
+            "name": "4-4",
+            "visibility_rules": [
+              "not_4_4_goal_chapter",
+              "@Goal Macros/Goal Chapter AP Locations Visible"
+            ]
+          },
+          {
+            "name": "4-5",
+            "visibility_rules": [
+              "not_4_5_goal_chapter",
+              "@Goal Macros/Goal Chapter AP Locations Visible"
+            ]
+          },
+          {
+            "name": "4-6",
+            "visibility_rules": [
+              "not_4_6_goal_chapter",
+              "@Goal Macros/Goal Chapter AP Locations Visible"
+            ]
+          },
+          {
+            "name": "5-1",
+            "visibility_rules": [
+              "not_5_1_goal_chapter",
+              "@Goal Macros/Goal Chapter AP Locations Visible"
+            ]
+          },
+          {
+            "name": "5-2",
+            "visibility_rules": [
+              "not_5_2_goal_chapter",
+              "@Goal Macros/Goal Chapter AP Locations Visible"
+            ]
+          },
+          {
+            "name": "5-3",
+            "visibility_rules": [
+              "not_5_3_goal_chapter",
+              "@Goal Macros/Goal Chapter AP Locations Visible"
+            ]
+          },
+          {
+            "name": "5-4",
+            "visibility_rules": [
+              "not_5_4_goal_chapter",
+              "@Goal Macros/Goal Chapter AP Locations Visible"
+            ]
+          },
+          {
+            "name": "5-5",
+            "visibility_rules": [
+              "not_5_5_goal_chapter",
+              "@Goal Macros/Goal Chapter AP Locations Visible"
+            ]
+          },
+          {
+            "name": "5-6",
+            "visibility_rules": [
+              "not_5_6_goal_chapter",
+              "@Goal Macros/Goal Chapter AP Locations Visible"
+            ]
+          },
+          {
+            "name": "6-1",
+            "visibility_rules": [
+              "not_6_1_goal_chapter",
+              "@Goal Macros/Goal Chapter AP Locations Visible"
+            ]
+          },
+          {
+            "name": "6-2",
+            "visibility_rules": [
+              "not_6_2_goal_chapter",
+              "@Goal Macros/Goal Chapter AP Locations Visible"
+            ]
+          },
+          {
+            "name": "6-3",
+            "visibility_rules": [
+              "not_6_3_goal_chapter",
+              "@Goal Macros/Goal Chapter AP Locations Visible"
+            ]
+          },
+          {
+            "name": "6-4",
+            "visibility_rules": [
+              "not_6_4_goal_chapter",
+              "@Goal Macros/Goal Chapter AP Locations Visible"
+            ]
+          },
+          {
+            "name": "6-5",
+            "visibility_rules": [
+              "not_6_5_goal_chapter",
+              "@Goal Macros/Goal Chapter AP Locations Visible"
+            ]
+          },
+          {
+            "name": "6-6",
+            "visibility_rules": [
+              "not_6_6_goal_chapter",
+              "@Goal Macros/Goal Chapter AP Locations Visible"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Goal Chapter Gold Bricks Logically Expected",
+        "access_rules": [
+          "setting_goal_chapter_locations_normal",
+          "[never]"
+        ]
+      },
+      {
+        "name": "Gold Bricks Logically Expected",
+        "children": [
+          {
+            "name": "1-1",
+            "access_rules": [
+              "not_1_1_goal_chapter",
+              "@Goal Macros/Goal Chapter Gold Bricks Logically Expected"
+            ]
+          },
+          {
+            "name": "1-2",
+            "access_rules": [
+              "not_1_2_goal_chapter",
+              "@Goal Macros/Goal Chapter Gold Bricks Logically Expected"
+            ]
+          },
+          {
+            "name": "1-3",
+            "access_rules": [
+              "not_1_3_goal_chapter",
+              "@Goal Macros/Goal Chapter Gold Bricks Logically Expected"
+            ]
+          },
+          {
+            "name": "1-4",
+            "access_rules": [
+              "not_1_4_goal_chapter",
+              "@Goal Macros/Goal Chapter Gold Bricks Logically Expected"
+            ]
+          },
+          {
+            "name": "1-5",
+            "access_rules": [
+              "not_1_5_goal_chapter",
+              "@Goal Macros/Goal Chapter Gold Bricks Logically Expected"
+            ]
+          },
+          {
+            "name": "1-6",
+            "access_rules": [
+              "not_1_6_goal_chapter",
+              "@Goal Macros/Goal Chapter Gold Bricks Logically Expected"
+            ]
+          },
+          {
+            "name": "2-1",
+            "access_rules": [
+              "not_2_1_goal_chapter",
+              "@Goal Macros/Goal Chapter Gold Bricks Logically Expected"
+            ]
+          },
+          {
+            "name": "2-2",
+            "access_rules": [
+              "not_2_2_goal_chapter",
+              "@Goal Macros/Goal Chapter Gold Bricks Logically Expected"
+            ]
+          },
+          {
+            "name": "2-3",
+            "access_rules": [
+              "not_2_3_goal_chapter",
+              "@Goal Macros/Goal Chapter Gold Bricks Logically Expected"
+            ]
+          },
+          {
+            "name": "2-4",
+            "access_rules": [
+              "not_2_4_goal_chapter",
+              "@Goal Macros/Goal Chapter Gold Bricks Logically Expected"
+            ]
+          },
+          {
+            "name": "2-5",
+            "access_rules": [
+              "not_2_5_goal_chapter",
+              "@Goal Macros/Goal Chapter Gold Bricks Logically Expected"
+            ]
+          },
+          {
+            "name": "2-6",
+            "access_rules": [
+              "not_2_6_goal_chapter",
+              "@Goal Macros/Goal Chapter Gold Bricks Logically Expected"
+            ]
+          },
+          {
+            "name": "3-1",
+            "access_rules": [
+              "not_3_1_goal_chapter",
+              "@Goal Macros/Goal Chapter Gold Bricks Logically Expected"
+            ]
+          },
+          {
+            "name": "3-2",
+            "access_rules": [
+              "not_3_2_goal_chapter",
+              "@Goal Macros/Goal Chapter Gold Bricks Logically Expected"
+            ]
+          },
+          {
+            "name": "3-3",
+            "access_rules": [
+              "not_3_3_goal_chapter",
+              "@Goal Macros/Goal Chapter Gold Bricks Logically Expected"
+            ]
+          },
+          {
+            "name": "3-4",
+            "access_rules": [
+              "not_3_4_goal_chapter",
+              "@Goal Macros/Goal Chapter Gold Bricks Logically Expected"
+            ]
+          },
+          {
+            "name": "3-5",
+            "access_rules": [
+              "not_3_5_goal_chapter",
+              "@Goal Macros/Goal Chapter Gold Bricks Logically Expected"
+            ]
+          },
+          {
+            "name": "3-6",
+            "access_rules": [
+              "not_3_6_goal_chapter",
+              "@Goal Macros/Goal Chapter Gold Bricks Logically Expected"
+            ]
+          },
+          {
+            "name": "4-1",
+            "access_rules": [
+              "not_4_1_goal_chapter",
+              "@Goal Macros/Goal Chapter Gold Bricks Logically Expected"
+            ]
+          },
+          {
+            "name": "4-2",
+            "access_rules": [
+              "not_4_2_goal_chapter",
+              "@Goal Macros/Goal Chapter Gold Bricks Logically Expected"
+            ]
+          },
+          {
+            "name": "4-3",
+            "access_rules": [
+              "not_4_3_goal_chapter",
+              "@Goal Macros/Goal Chapter Gold Bricks Logically Expected"
+            ]
+          },
+          {
+            "name": "4-4",
+            "access_rules": [
+              "not_4_4_goal_chapter",
+              "@Goal Macros/Goal Chapter Gold Bricks Logically Expected"
+            ]
+          },
+          {
+            "name": "4-5",
+            "access_rules": [
+              "not_4_5_goal_chapter",
+              "@Goal Macros/Goal Chapter Gold Bricks Logically Expected"
+            ]
+          },
+          {
+            "name": "4-6",
+            "access_rules": [
+              "not_4_6_goal_chapter",
+              "@Goal Macros/Goal Chapter Gold Bricks Logically Expected"
+            ]
+          },
+          {
+            "name": "5-1",
+            "access_rules": [
+              "not_5_1_goal_chapter",
+              "@Goal Macros/Goal Chapter Gold Bricks Logically Expected"
+            ]
+          },
+          {
+            "name": "5-2",
+            "access_rules": [
+              "not_5_2_goal_chapter",
+              "@Goal Macros/Goal Chapter Gold Bricks Logically Expected"
+            ]
+          },
+          {
+            "name": "5-3",
+            "access_rules": [
+              "not_5_3_goal_chapter",
+              "@Goal Macros/Goal Chapter Gold Bricks Logically Expected"
+            ]
+          },
+          {
+            "name": "5-4",
+            "access_rules": [
+              "not_5_4_goal_chapter",
+              "@Goal Macros/Goal Chapter Gold Bricks Logically Expected"
+            ]
+          },
+          {
+            "name": "5-5",
+            "access_rules": [
+              "not_5_5_goal_chapter",
+              "@Goal Macros/Goal Chapter Gold Bricks Logically Expected"
+            ]
+          },
+          {
+            "name": "5-6",
+            "access_rules": [
+              "not_5_6_goal_chapter",
+              "@Goal Macros/Goal Chapter Gold Bricks Logically Expected"
+            ]
+          },
+          {
+            "name": "6-1",
+            "access_rules": [
+              "not_6_1_goal_chapter",
+              "@Goal Macros/Goal Chapter Gold Bricks Logically Expected"
+            ]
+          },
+          {
+            "name": "6-2",
+            "access_rules": [
+              "not_6_2_goal_chapter",
+              "@Goal Macros/Goal Chapter Gold Bricks Logically Expected"
+            ]
+          },
+          {
+            "name": "6-3",
+            "access_rules": [
+              "not_6_3_goal_chapter",
+              "@Goal Macros/Goal Chapter Gold Bricks Logically Expected"
+            ]
+          },
+          {
+            "name": "6-4",
+            "access_rules": [
+              "not_6_4_goal_chapter",
+              "@Goal Macros/Goal Chapter Gold Bricks Logically Expected"
+            ]
+          },
+          {
+            "name": "6-5",
+            "access_rules": [
+              "not_6_5_goal_chapter",
+              "@Goal Macros/Goal Chapter Gold Bricks Logically Expected"
+            ]
+          },
+          {
+            "name": "6-6",
+            "access_rules": [
+              "not_6_6_goal_chapter",
+              "@Goal Macros/Goal Chapter Gold Bricks Logically Expected"
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]

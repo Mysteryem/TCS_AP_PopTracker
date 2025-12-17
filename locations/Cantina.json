@@ -95,13 +95,10 @@
                 "sections": [
                     {
                         "name": "Goal",
+                        "hosted_item": "goal",
                         "access_rules": [
-                            [
-                                "@Macros/Can Complete Kyber Bricks Goal",
-                                "$minikits_goal",
-                                "$defeat_bosses_goal",
-                                "$complete_levels_goal"
-                            ]
+                            "no_goal_chapter, @Goal Macros/All Non Goal Chapter Goals Completed",
+                            "@Goal Macros/Can Reach Goal Chapter Completion"
                         ]
                     }
                 ],
