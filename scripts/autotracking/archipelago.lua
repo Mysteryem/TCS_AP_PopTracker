@@ -295,6 +295,10 @@ function onClear(slot_data)
     local goal_requires_kyber_bricks = slot_data["goal_requires_kyber_bricks"] or 0
     Tracker:FindObjectForCode("setting_goal_requires_kyber_bricks").CurrentStage = goal_requires_kyber_bricks
 
+    -- Set Level Completion goal requirement
+    local goal_area_completion_count = slot_data["goal_area_completion_count"] or 0
+    Tracker:FindObjectForCode("setting_goal_level_completions_amount").AcquiredCount = goal_area_completion_count
+
     -- Set easier True Jedi
     local easier_true_jedi = slot_data["easier_true_jedi"] or 0
     Tracker:FindObjectForCode("easier_true_jedi").CurrentStage = easier_true_jedi

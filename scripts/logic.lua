@@ -180,9 +180,17 @@ function defeat_bosses_goal()
     end
 end
 
+function complete_levels_goal()
+    return Tracker:ProviderCountForCode("level_completion_gold_brick") >= Tracker:ProviderCountForCode("setting_goal_level_completions_amount")
+end
 
 local function update_gold_brick_total(code)
     Tracker:FindObjectForCode("total_gold_bricks").AcquiredCount = Tracker:ProviderCountForCode(code)
 end
 
+local function update_level_completions_total(code)
+    Tracker:FindObjectForCode("total_level_completions").AcquiredCount = Tracker:ProviderCountForCode(code)
+end
+
 ScriptHost:AddWatchForCode("update_gold_brick_total", "gold_brick", update_gold_brick_total)
+ScriptHost:AddWatchForCode("update_level_completion_total", "level_completion_gold_brick", update_level_completions_total)

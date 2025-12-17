@@ -572,5 +572,11 @@
         "inherit_codes": false
       }
     ]
+  },
+  {
+    "name": "Level Completions Required For Goal",
+    "type": "consumable",
+    "img": "images/items/gold_brick_level_completion.png",
+    "codes": "setting_goal_level_completions_amount"
   }
 ]
