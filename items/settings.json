@@ -566,7 +566,7 @@
         "codes": "setting_goal_does_not_require_kyber_bricks"
       },
       {
-        "name": "Goal does not require Kyber Bricks",
+        "name": "Goal requires collecting 7 Kyber Bricks",
         "img": "images/items/kyber_brick.png",
         "codes": "setting_goal_requires_kyber_bricks",
         "inherit_codes": false
