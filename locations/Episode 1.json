@@ -186,7 +186,7 @@
                 ]
               },
               {
-                "name": "1-1 10/10 Minikits - Gold Brick",
+                "name": "1-1 10 Minikits Collected - Gold Brick",
                 "hosted_item": "1-1_minikits_gold_brick",
                 "access_rules": [
                   "@Episode 1/Negotiations/Minikits"
@@ -365,7 +365,7 @@
                 ]
               },
               {
-                "name": "1-2 10/10 Minikits - Gold Brick",
+                "name": "1-2 10 Minikits Collected - Gold Brick",
                 "hosted_item": "1-2_minikits_gold_brick",
                 "access_rules": [
                   "@Episode 1/Invasion of Naboo/Minikits"
@@ -551,7 +551,7 @@
                 ]
               },
               {
-                "name": "1-3 10/10 Minikits - Gold Brick",
+                "name": "1-3 10 Minikits Collected - Gold Brick",
                 "hosted_item": "1-3_minikits_gold_brick",
                 "access_rules": [
                   "@Episode 1/Escape From Naboo/Minikits"
@@ -722,7 +722,7 @@
                 ]
               },
               {
-                "name": "1-4 10/10 Minikits - Gold Brick",
+                "name": "1-4 10 Minikits Collected - Gold Brick",
                 "hosted_item": "1-4_minikits_gold_brick",
                 "access_rules": [
                   "@Episode 1/Mos Espa Pod Race/Minikits"
@@ -901,7 +901,7 @@
                 ]
               },
               {
-                "name": "1-5 10/10 Minikits - Gold Brick",
+                "name": "1-5 10 Minikits Collected - Gold Brick",
                 "hosted_item": "1-5_minikits_gold_brick",
                 "access_rules": [
                   "@Episode 1/Retake Theed Palace/Minikits"
@@ -1064,7 +1064,7 @@
                 ]
               },
               {
-                "name": "1-6 10/10 Minikits - Gold Brick",
+                "name": "1-6 10 Minikits Collected - Gold Brick",
                 "hosted_item": "1-6_minikits_gold_brick",
                 "access_rules": [
                   "@Episode 1/Darth Maul/Minikits"
