@@ -159,7 +159,7 @@
                     {
                         "name": "LEGO City",
                         "access_rules": [
-                            "bonuses_enabled_lego_city, sith, highjump, blaster, bounty, @total_gold_bricks:10"
+                            "bonuses_enabled_lego_city, sith, highjump, blaster, bounty, total_gold_bricks:10"
                         ],
                         "visibility_rules": [
                             "bonuses_enabled_lego_city"
