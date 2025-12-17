@@ -128,8 +128,7 @@ function can_purchase(studs_count_str)
     if cached ~= nil then
         required_item = cached
     else
-        local max_purchase_with_no_multipliers_item = Tracker:FindObjectForCode("max_purchase_with_no_multipliers")
-        local max_purchase_with_no_multipliers = max_purchase_with_no_multipliers_item.AcquiredCount
+        local max_purchase_with_no_multipliers = Tracker:ProviderCountForCode("max_purchase_with_no_multipliers")
         local studs_count = tonumber(studs_count_str)
         local required_count
         if studs_count <= max_purchase_with_no_multipliers then
