@@ -166,14 +166,20 @@
                 "name": "3-1 True Jedi - Gold Brick",
                 "hosted_item": "3-1_true_jedi_gold_brick",
                 "access_rules": [
-                  "@Episode 3/Battle Over Coruscant/Battle Over Coruscant/3-1 True Jedi, [setting_true_jedi_locations_enabled], @Goal Macros/Gold Bricks Logically Expected/3-1"
+                  "@Episode 3/Battle Over Coruscant/Battle Over Coruscant/3-1 True Jedi, @Goal Macros/Gold Bricks Logically Expected/3-1"
+                ],
+                "visibility_rules": [
+                  "@Episode 3/Battle Over Coruscant/Battle Over Coruscant/3-1 True Jedi"
                 ]
               },
               {
                 "name": "3-1 10 Minikits Collected - Gold Brick",
                 "hosted_item": "3-1_minikits_gold_brick",
                 "access_rules": [
-                  "@Episode 3/Battle Over Coruscant/Minikits, [setting_minikit_locations_enabled], @Goal Macros/Gold Bricks Logically Expected/3-1"
+                  "@Episode 3/Battle Over Coruscant/Minikits, @Goal Macros/Gold Bricks Logically Expected/3-1"
+                ],
+                "visibility_rules": [
+                  "@Episode 3/Battle Over Coruscant/Minikits"
                 ]
               },
               {
@@ -359,14 +365,20 @@
                 "name": "3-2 True Jedi - Gold Brick",
                 "hosted_item": "3-2_true_jedi_gold_brick",
                 "access_rules": [
-                  "@Episode 3/Chancellor in Peril/Chancellor in Peril/3-2 True Jedi, [setting_true_jedi_locations_enabled], @Goal Macros/Gold Bricks Logically Expected/3-2"
+                  "@Episode 3/Chancellor in Peril/Chancellor in Peril/3-2 True Jedi, @Goal Macros/Gold Bricks Logically Expected/3-2"
+                ],
+                "visibility_rules": [
+                  "@Episode 3/Chancellor in Peril/Chancellor in Peril/3-2 True Jedi"
                 ]
               },
               {
                 "name": "3-2 10 Minikits Collected - Gold Brick",
                 "hosted_item": "3-2_minikits_gold_brick",
                 "access_rules": [
-                  "@Episode 3/Chancellor in Peril/Minikits, [setting_minikit_locations_enabled], @Goal Macros/Gold Bricks Logically Expected/3-2"
+                  "@Episode 3/Chancellor in Peril/Minikits, @Goal Macros/Gold Bricks Logically Expected/3-2"
+                ],
+                "visibility_rules": [
+                  "@Episode 3/Chancellor in Peril/Minikits"
                 ]
               },
               {
@@ -547,14 +559,20 @@
                 "name": "3-3 True Jedi - Gold Brick",
                 "hosted_item": "3-3_true_jedi_gold_brick",
                 "access_rules": [
-                  "@Episode 3/General Grievous/General Grievous/3-3 True Jedi, [setting_true_jedi_locations_enabled], @Goal Macros/Gold Bricks Logically Expected/3-3"
+                  "@Episode 3/General Grievous/General Grievous/3-3 True Jedi, @Goal Macros/Gold Bricks Logically Expected/3-3"
+                ],
+                "visibility_rules": [
+                  "@Episode 3/General Grievous/General Grievous/3-3 True Jedi"
                 ]
               },
               {
                 "name": "3-3 10 Minikits Collected - Gold Brick",
                 "hosted_item": "3-3_minikits_gold_brick",
                 "access_rules": [
-                  "@Episode 3/General Grievous/Minikits, [setting_minikit_locations_enabled], @Goal Macros/Gold Bricks Logically Expected/3-3"
+                  "@Episode 3/General Grievous/Minikits, @Goal Macros/Gold Bricks Logically Expected/3-3"
+                ],
+                "visibility_rules": [
+                  "@Episode 3/General Grievous/Minikits"
                 ]
               },
               {
@@ -774,14 +792,20 @@
                 "name": "3-4 True Jedi - Gold Brick",
                 "hosted_item": "3-4_true_jedi_gold_brick",
                 "access_rules": [
-                  "@Episode 3/Defense of Kashyyyk/Defense of Kashyyyk/3-4 True Jedi, [setting_true_jedi_locations_enabled], @Goal Macros/Gold Bricks Logically Expected/3-4"
+                  "@Episode 3/Defense of Kashyyyk/Defense of Kashyyyk/3-4 True Jedi, @Goal Macros/Gold Bricks Logically Expected/3-4"
+                ],
+                "visibility_rules": [
+                  "@Episode 3/Defense of Kashyyyk/Defense of Kashyyyk/3-4 True Jedi"
                 ]
               },
               {
                 "name": "3-4 10 Minikits Collected - Gold Brick",
                 "hosted_item": "3-4_minikits_gold_brick",
                 "access_rules": [
-                  "@Episode 3/Defense of Kashyyyk/Minikits, [setting_minikit_locations_enabled], @Goal Macros/Gold Bricks Logically Expected/3-4"
+                  "@Episode 3/Defense of Kashyyyk/Minikits, @Goal Macros/Gold Bricks Logically Expected/3-4"
+                ],
+                "visibility_rules": [
+                  "@Episode 3/Defense of Kashyyyk/Minikits"
                 ]
               },
               {
@@ -956,14 +980,20 @@
                 "name": "3-5 True Jedi - Gold Brick",
                 "hosted_item": "3-5_true_jedi_gold_brick",
                 "access_rules": [
-                  "@Episode 3/Ruin of the Jedi/Ruin of the Jedi/3-5 True Jedi, [setting_true_jedi_locations_enabled], @Goal Macros/Gold Bricks Logically Expected/3-5"
+                  "@Episode 3/Ruin of the Jedi/Ruin of the Jedi/3-5 True Jedi, @Goal Macros/Gold Bricks Logically Expected/3-5"
+                ],
+                "visibility_rules": [
+                  "@Episode 3/Ruin of the Jedi/Ruin of the Jedi/3-5 True Jedi"
                 ]
               },
               {
                 "name": "3-5 10 Minikits Collected - Gold Brick",
                 "hosted_item": "3-5_minikits_gold_brick",
                 "access_rules": [
-                  "@Episode 3/Ruin of the Jedi/Minikits, [setting_minikit_locations_enabled], @Goal Macros/Gold Bricks Logically Expected/3-5"
+                  "@Episode 3/Ruin of the Jedi/Minikits, @Goal Macros/Gold Bricks Logically Expected/3-5"
+                ],
+                "visibility_rules": [
+                  "@Episode 3/Ruin of the Jedi/Minikits"
                 ]
               },
               {
@@ -1120,14 +1150,20 @@
                 "name": "3-6 True Jedi - Gold Brick",
                 "hosted_item": "3-6_true_jedi_gold_brick",
                 "access_rules": [
-                  "@Episode 3/Darth Vader/Darth Vader/3-6 True Jedi, [setting_true_jedi_locations_enabled], @Goal Macros/Gold Bricks Logically Expected/3-6"
+                  "@Episode 3/Darth Vader/Darth Vader/3-6 True Jedi, @Goal Macros/Gold Bricks Logically Expected/3-6"
+                ],
+                "visibility_rules": [
+                  "@Episode 3/Darth Vader/Darth Vader/3-6 True Jedi"
                 ]
               },
               {
                 "name": "3-6 10 Minikits Collected - Gold Brick",
                 "hosted_item": "3-6_minikits_gold_brick",
                 "access_rules": [
-                  "@Episode 3/Darth Vader/Minikits, [setting_minikit_locations_enabled], @Goal Macros/Gold Bricks Logically Expected/3-6"
+                  "@Episode 3/Darth Vader/Minikits, @Goal Macros/Gold Bricks Logically Expected/3-6"
+                ],
+                "visibility_rules": [
+                  "@Episode 3/Darth Vader/Minikits"
                 ]
               },
               {

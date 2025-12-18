@@ -219,14 +219,20 @@
                 "name": "4-1 True Jedi - Gold Brick",
                 "hosted_item": "4-1_true_jedi_gold_brick",
                 "access_rules": [
-                  "@Episode 4/Secret Plans/Secret Plans/4-1 True Jedi, [setting_true_jedi_locations_enabled], @Goal Macros/Gold Bricks Logically Expected/4-1"
+                  "@Episode 4/Secret Plans/Secret Plans/4-1 True Jedi, @Goal Macros/Gold Bricks Logically Expected/4-1"
+                ],
+                "visibility_rules": [
+                  "@Episode 4/Secret Plans/Secret Plans/4-1 True Jedi"
                 ]
               },
               {
                 "name": "4-1 10 Minikits Collected - Gold Brick",
                 "hosted_item": "4-1_minikits_gold_brick",
                 "access_rules": [
-                  "@Episode 4/Secret Plans/Minikits, [setting_minikit_locations_enabled], @Goal Macros/Gold Bricks Logically Expected/4-1"
+                  "@Episode 4/Secret Plans/Minikits, @Goal Macros/Gold Bricks Logically Expected/4-1"
+                ],
+                "visibility_rules": [
+                  "@Episode 4/Secret Plans/Minikits"
                 ]
               },
               {
@@ -433,14 +439,20 @@
                 "name": "4-2 True Jedi - Gold Brick",
                 "hosted_item": "4-2_true_jedi_gold_brick",
                 "access_rules": [
-                  "@Episode 4/Through the Jundland Wastes/Through the Jundland Wastes/4-2 True Jedi, [setting_true_jedi_locations_enabled], @Goal Macros/Gold Bricks Logically Expected/4-2"
+                  "@Episode 4/Through the Jundland Wastes/Through the Jundland Wastes/4-2 True Jedi, @Goal Macros/Gold Bricks Logically Expected/4-2"
+                ],
+                "visibility_rules": [
+                  "@Episode 4/Through the Jundland Wastes/Through the Jundland Wastes/4-2 True Jedi"
                 ]
               },
               {
                 "name": "4-2 10 Minikits Collected - Gold Brick",
                 "hosted_item": "4-2_minikits_gold_brick",
                 "access_rules": [
-                  "@Episode 4/Through the Jundland Wastes/Minikits, [setting_minikit_locations_enabled], @Goal Macros/Gold Bricks Logically Expected/4-2"
+                  "@Episode 4/Through the Jundland Wastes/Minikits, @Goal Macros/Gold Bricks Logically Expected/4-2"
+                ],
+                "visibility_rules": [
+                  "@Episode 4/Through the Jundland Wastes/Minikits"
                 ]
               },
               {
@@ -674,14 +686,20 @@
                 "name": "4-3 True Jedi - Gold Brick",
                 "hosted_item": "4-3_true_jedi_gold_brick",
                 "access_rules": [
-                  "@Episode 4/Mos Eisley Spaceport/Mos Eisley Spaceport/4-3 True Jedi, [setting_true_jedi_locations_enabled], @Goal Macros/Gold Bricks Logically Expected/4-3"
+                  "@Episode 4/Mos Eisley Spaceport/Mos Eisley Spaceport/4-3 True Jedi, @Goal Macros/Gold Bricks Logically Expected/4-3"
+                ],
+                "visibility_rules": [
+                  "@Episode 4/Mos Eisley Spaceport/Mos Eisley Spaceport/4-3 True Jedi"
                 ]
               },
               {
                 "name": "4-3 10 Minikits Collected - Gold Brick",
                 "hosted_item": "4-3_minikits_gold_brick",
                 "access_rules": [
-                  "@Episode 4/Mos Eisley Spaceport/Minikits, [setting_minikit_locations_enabled], @Goal Macros/Gold Bricks Logically Expected/4-3"
+                  "@Episode 4/Mos Eisley Spaceport/Minikits, @Goal Macros/Gold Bricks Logically Expected/4-3"
+                ],
+                "visibility_rules": [
+                  "@Episode 4/Mos Eisley Spaceport/Minikits"
                 ]
               },
               {
@@ -926,14 +944,20 @@
                 "name": "4-4 True Jedi - Gold Brick",
                 "hosted_item": "4-4_true_jedi_gold_brick",
                 "access_rules": [
-                  "@Episode 4/Rescue the Princess/Rescue the Princess/4-4 True Jedi, [setting_true_jedi_locations_enabled], @Goal Macros/Gold Bricks Logically Expected/4-4"
+                  "@Episode 4/Rescue the Princess/Rescue the Princess/4-4 True Jedi, @Goal Macros/Gold Bricks Logically Expected/4-4"
+                ],
+                "visibility_rules": [
+                  "@Episode 4/Rescue the Princess/Rescue the Princess/4-4 True Jedi"
                 ]
               },
               {
                 "name": "4-4 10 Minikits Collected - Gold Brick",
                 "hosted_item": "4-4_minikits_gold_brick",
                 "access_rules": [
-                  "@Episode 4/Rescue the Princess/Minikits, [setting_minikit_locations_enabled], @Goal Macros/Gold Bricks Logically Expected/4-4"
+                  "@Episode 4/Rescue the Princess/Minikits, @Goal Macros/Gold Bricks Logically Expected/4-4"
+                ],
+                "visibility_rules": [
+                  "@Episode 4/Rescue the Princess/Minikits"
                 ]
               },
               {
@@ -1119,14 +1143,20 @@
                 "name": "4-5 True Jedi - Gold Brick",
                 "hosted_item": "4-5_true_jedi_gold_brick",
                 "access_rules": [
-                  "@Episode 4/Death Star Escape/Death Star Escape/4-5 True Jedi, [setting_true_jedi_locations_enabled], @Goal Macros/Gold Bricks Logically Expected/4-5"
+                  "@Episode 4/Death Star Escape/Death Star Escape/4-5 True Jedi, @Goal Macros/Gold Bricks Logically Expected/4-5"
+                ],
+                "visibility_rules": [
+                  "@Episode 4/Death Star Escape/Death Star Escape/4-5 True Jedi"
                 ]
               },
               {
                 "name": "4-5 10 Minikits Collected - Gold Brick",
                 "hosted_item": "4-5_minikits_gold_brick",
                 "access_rules": [
-                  "@Episode 4/Death Star Escape/Minikits, [setting_minikit_locations_enabled], @Goal Macros/Gold Bricks Logically Expected/4-5"
+                  "@Episode 4/Death Star Escape/Minikits, @Goal Macros/Gold Bricks Logically Expected/4-5"
+                ],
+                "visibility_rules": [
+                  "@Episode 4/Death Star Escape/Minikits"
                 ]
               },
               {
@@ -1304,14 +1334,20 @@
                 "name": "4-6 True Jedi - Gold Brick",
                 "hosted_item": "4-6_true_jedi_gold_brick",
                 "access_rules": [
-                  "@Episode 4/Rebel Attack/Rebel Attack/4-6 True Jedi, [setting_true_jedi_locations_enabled], @Goal Macros/Gold Bricks Logically Expected/4-6"
+                  "@Episode 4/Rebel Attack/Rebel Attack/4-6 True Jedi, @Goal Macros/Gold Bricks Logically Expected/4-6"
+                ],
+                "visibility_rules": [
+                  "@Episode 4/Rebel Attack/Rebel Attack/4-6 True Jedi"
                 ]
               },
               {
                 "name": "4-6 10 Minikits Collected - Gold Brick",
                 "hosted_item": "4-6_minikits_gold_brick",
                 "access_rules": [
-                  "@Episode 4/Rebel Attack/Minikits, [setting_minikit_locations_enabled], @Goal Macros/Gold Bricks Logically Expected/4-6"
+                  "@Episode 4/Rebel Attack/Minikits, @Goal Macros/Gold Bricks Logically Expected/4-6"
+                ],
+                "visibility_rules": [
+                  "@Episode 4/Rebel Attack/Minikits"
                 ]
               },
               {

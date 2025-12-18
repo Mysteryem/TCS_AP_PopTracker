@@ -442,14 +442,20 @@
                 "name": "6-2 True Jedi - Gold Brick",
                 "hosted_item": "6-2_true_jedi_gold_brick",
                 "access_rules": [
-                  "@Episode 6/Pit of Carkoon/Pit of Carkoon/6-2 True Jedi, [setting_true_jedi_locations_enabled], @Goal Macros/Gold Bricks Logically Expected/6-2"
+                  "@Episode 6/Pit of Carkoon/Pit of Carkoon/6-2 True Jedi, @Goal Macros/Gold Bricks Logically Expected/6-2"
+                ],
+                "visibility_rules": [
+                  "@Episode 6/Pit of Carkoon/Pit of Carkoon/6-2 True Jedi"
                 ]
               },
               {
                 "name": "6-2 10 Minikits Collected - Gold Brick",
                 "hosted_item": "6-2_minikits_gold_brick",
                 "access_rules": [
-                  "@Episode 6/Pit of Carkoon/Minikits, [setting_minikit_locations_enabled], @Goal Macros/Gold Bricks Logically Expected/6-2"
+                  "@Episode 6/Pit of Carkoon/Minikits, @Goal Macros/Gold Bricks Logically Expected/6-2"
+                ],
+                "visibility_rules": [
+                  "@Episode 6/Pit of Carkoon/Minikits"
                 ]
               },
               {
@@ -638,14 +644,20 @@
                 "name": "6-3 True Jedi - Gold Brick",
                 "hosted_item": "6-3_true_jedi_gold_brick",
                 "access_rules": [
-                  "@Episode 6/Speeder Showdown/Speeder Showdown/6-3 True Jedi, [setting_true_jedi_locations_enabled], @Goal Macros/Gold Bricks Logically Expected/6-3"
+                  "@Episode 6/Speeder Showdown/Speeder Showdown/6-3 True Jedi, @Goal Macros/Gold Bricks Logically Expected/6-3"
+                ],
+                "visibility_rules": [
+                  "@Episode 6/Speeder Showdown/Speeder Showdown/6-3 True Jedi"
                 ]
               },
               {
                 "name": "6-3 10 Minikits Collected - Gold Brick",
                 "hosted_item": "6-3_minikits_gold_brick",
                 "access_rules": [
-                  "@Episode 6/Speeder Showdown/Minikits, [setting_minikit_locations_enabled], @Goal Macros/Gold Bricks Logically Expected/6-3"
+                  "@Episode 6/Speeder Showdown/Minikits, @Goal Macros/Gold Bricks Logically Expected/6-3"
+                ],
+                "visibility_rules": [
+                  "@Episode 6/Speeder Showdown/Minikits"
                 ]
               },
               {
@@ -857,14 +869,20 @@
                 "name": "6-4 True Jedi - Gold Brick",
                 "hosted_item": "6-4_true_jedi_gold_brick",
                 "access_rules": [
-                  "@Episode 6/Battle of Endor/Battle of Endor/6-4 True Jedi, [setting_true_jedi_locations_enabled], @Goal Macros/Gold Bricks Logically Expected/6-4"
+                  "@Episode 6/Battle of Endor/Battle of Endor/6-4 True Jedi, @Goal Macros/Gold Bricks Logically Expected/6-4"
+                ],
+                "visibility_rules": [
+                  "@Episode 6/Battle of Endor/Battle of Endor/6-4 True Jedi"
                 ]
               },
               {
                 "name": "6-4 10 Minikits Collected - Gold Brick",
                 "hosted_item": "6-4_minikits_gold_brick",
                 "access_rules": [
-                  "@Episode 6/Battle of Endor/Minikits, [setting_minikit_locations_enabled], @Goal Macros/Gold Bricks Logically Expected/6-4"
+                  "@Episode 6/Battle of Endor/Minikits, @Goal Macros/Gold Bricks Logically Expected/6-4"
+                ],
+                "visibility_rules": [
+                  "@Episode 6/Battle of Endor/Minikits"
                 ]
               },
               {
@@ -1036,14 +1054,20 @@
                 "name": "6-5 True Jedi - Gold Brick",
                 "hosted_item": "6-5_true_jedi_gold_brick",
                 "access_rules": [
-                  "@Episode 6/Jedi Destiny/Jedi Destiny/6-5 True Jedi, [setting_true_jedi_locations_enabled], @Goal Macros/Gold Bricks Logically Expected/6-5"
+                  "@Episode 6/Jedi Destiny/Jedi Destiny/6-5 True Jedi, @Goal Macros/Gold Bricks Logically Expected/6-5"
+                ],
+                "visibility_rules": [
+                  "@Episode 6/Jedi Destiny/Jedi Destiny/6-5 True Jedi"
                 ]
               },
               {
                 "name": "6-5 10 Minikits Collected - Gold Brick",
                 "hosted_item": "6-5_minikits_gold_brick",
                 "access_rules": [
-                  "@Episode 6/Jedi Destiny/Minikits, [setting_minikit_locations_enabled], @Goal Macros/Gold Bricks Logically Expected/6-5"
+                  "@Episode 6/Jedi Destiny/Minikits, @Goal Macros/Gold Bricks Logically Expected/6-5"
+                ],
+                "visibility_rules": [
+                  "@Episode 6/Jedi Destiny/Minikits"
                 ]
               },
               {
@@ -1217,14 +1241,20 @@
                 "name": "6-6 True Jedi - Gold Brick",
                 "hosted_item": "6-6_true_jedi_gold_brick",
                 "access_rules": [
-                  "@Episode 6/Into the Death Star/Into the Death Star/6-6 True Jedi, [setting_true_jedi_locations_enabled], @Goal Macros/Gold Bricks Logically Expected/6-6"
+                  "@Episode 6/Into the Death Star/Into the Death Star/6-6 True Jedi, @Goal Macros/Gold Bricks Logically Expected/6-6"
+                ],
+                "visibility_rules": [
+                  "@Episode 6/Into the Death Star/Into the Death Star/6-6 True Jedi"
                 ]
               },
               {
                 "name": "6-6 10 Minikits Collected - Gold Brick",
                 "hosted_item": "6-6_minikits_gold_brick",
                 "access_rules": [
-                  "@Episode 6/Into the Death Star/Minikits, [setting_minikit_locations_enabled], @Goal Macros/Gold Bricks Logically Expected/6-6"
+                  "@Episode 6/Into the Death Star/Minikits, @Goal Macros/Gold Bricks Logically Expected/6-6"
+                ],
+                "visibility_rules": [
+                  "@Episode 6/Into the Death Star/Minikits"
                 ]
               },
               {

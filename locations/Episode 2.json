@@ -159,14 +159,20 @@
                 "name": "2-1 True Jedi - Gold Brick",
                 "hosted_item": "2-1_true_jedi_gold_brick",
                 "access_rules": [
-                  "@Episode 2/Bounty Hunter Pursuit/Bounty Hunter Pursuit/2-1 True Jedi, [setting_true_jedi_locations_enabled], @Goal Macros/Gold Bricks Logically Expected/2-1"
+                  "@Episode 2/Bounty Hunter Pursuit/Bounty Hunter Pursuit/2-1 True Jedi, @Goal Macros/Gold Bricks Logically Expected/2-1"
+                ],
+                "visibility_rules": [
+                  "@Episode 2/Bounty Hunter Pursuit/Bounty Hunter Pursuit/2-1 True Jedi"
                 ]
               },
               {
                 "name": "2-1 10 Minikits Collected - Gold Brick",
                 "hosted_item": "2-1_minikits_gold_brick",
                 "access_rules": [
-                  "@Episode 2/Bounty Hunter Pursuit/Minikits, [setting_minikit_locations_enabled], @Goal Macros/Gold Bricks Logically Expected/2-1"
+                  "@Episode 2/Bounty Hunter Pursuit/Minikits, @Goal Macros/Gold Bricks Logically Expected/2-1"
+                ],
+                "visibility_rules": [
+                  "@Episode 2/Bounty Hunter Pursuit/Minikits"
                 ]
               },
               {
@@ -361,14 +367,20 @@
                 "name": "2-2 True Jedi - Gold Brick",
                 "hosted_item": "2-2_true_jedi_gold_brick",
                 "access_rules": [
-                  "@Episode 2/Discovery on Kamino/Discovery on Kamino/2-2 True Jedi, [setting_true_jedi_locations_enabled], @Goal Macros/Gold Bricks Logically Expected/2-2"
+                  "@Episode 2/Discovery on Kamino/Discovery on Kamino/2-2 True Jedi, @Goal Macros/Gold Bricks Logically Expected/2-2"
+                ],
+                "visibility_rules": [
+                  "@Episode 2/Discovery on Kamino/Discovery on Kamino/2-2 True Jedi"
                 ]
               },
               {
                 "name": "2-2 10 Minikits Collected - Gold Brick",
                 "hosted_item": "2-2_minikits_gold_brick",
                 "access_rules": [
-                  "@Episode 2/Discovery on Kamino/Minikits, [setting_minikit_locations_enabled], @Goal Macros/Gold Bricks Logically Expected/2-2"
+                  "@Episode 2/Discovery on Kamino/Minikits, @Goal Macros/Gold Bricks Logically Expected/2-2"
+                ],
+                "visibility_rules": [
+                  "@Episode 2/Discovery on Kamino/Minikits"
                 ]
               },
               {
@@ -565,14 +577,20 @@
                 "name": "2-3 True Jedi - Gold Brick",
                 "hosted_item": "2-3_true_jedi_gold_brick",
                 "access_rules": [
-                  "@Episode 2/Droid Factory/Droid Factory/2-3 True Jedi, [setting_true_jedi_locations_enabled], @Goal Macros/Gold Bricks Logically Expected/2-3"
+                  "@Episode 2/Droid Factory/Droid Factory/2-3 True Jedi, @Goal Macros/Gold Bricks Logically Expected/2-3"
+                ],
+                "visibility_rules": [
+                  "@Episode 2/Droid Factory/Droid Factory/2-3 True Jedi"
                 ]
               },
               {
                 "name": "2-3 10 Minikits Collected - Gold Brick",
                 "hosted_item": "2-3_minikits_gold_brick",
                 "access_rules": [
-                  "@Episode 2/Droid Factory/Minikits, [setting_minikit_locations_enabled], @Goal Macros/Gold Bricks Logically Expected/2-3"
+                  "@Episode 2/Droid Factory/Minikits, @Goal Macros/Gold Bricks Logically Expected/2-3"
+                ],
+                "visibility_rules": [
+                  "@Episode 2/Droid Factory/Minikits"
                 ]
               },
               {
@@ -828,14 +846,20 @@
                 "name": "2-4 True Jedi - Gold Brick",
                 "hosted_item": "2-4_true_jedi_gold_brick",
                 "access_rules": [
-                  "@Episode 2/Jedi Battle/Jedi Battle/2-4 True Jedi, [setting_true_jedi_locations_enabled], @Goal Macros/Gold Bricks Logically Expected/2-4"
+                  "@Episode 2/Jedi Battle/Jedi Battle/2-4 True Jedi, @Goal Macros/Gold Bricks Logically Expected/2-4"
+                ],
+                "visibility_rules": [
+                  "@Episode 2/Jedi Battle/Jedi Battle/2-4 True Jedi"
                 ]
               },
               {
                 "name": "2-4 10 Minikits Collected - Gold Brick",
                 "hosted_item": "2-4_minikits_gold_brick",
                 "access_rules": [
-                  "@Episode 2/Jedi Battle/Minikits, [setting_minikit_locations_enabled], @Goal Macros/Gold Bricks Logically Expected/2-4"
+                  "@Episode 2/Jedi Battle/Minikits, @Goal Macros/Gold Bricks Logically Expected/2-4"
+                ],
+                "visibility_rules": [
+                  "@Episode 2/Jedi Battle/Minikits"
                 ]
               },
               {
@@ -993,14 +1017,20 @@
                 "name": "2-5 True Jedi - Gold Brick",
                 "hosted_item": "2-5_true_jedi_gold_brick",
                 "access_rules": [
-                  "@Episode 2/Gunship Cavalry/Gunship Cavalry/2-5 True Jedi, [setting_true_jedi_locations_enabled], @Goal Macros/Gold Bricks Logically Expected/2-5"
+                  "@Episode 2/Gunship Cavalry/Gunship Cavalry/2-5 True Jedi, @Goal Macros/Gold Bricks Logically Expected/2-5"
+                ],
+                "visibility_rules": [
+                  "@Episode 2/Gunship Cavalry/Gunship Cavalry/2-5 True Jedi"
                 ]
               },
               {
                 "name": "2-5 10 Minikits Collected - Gold Brick",
                 "hosted_item": "2-5_minikits_gold_brick",
                 "access_rules": [
-                  "@Episode 2/Gunship Cavalry/Minikits, [setting_minikit_locations_enabled], @Goal Macros/Gold Bricks Logically Expected/2-5"
+                  "@Episode 2/Gunship Cavalry/Minikits, @Goal Macros/Gold Bricks Logically Expected/2-5"
+                ],
+                "visibility_rules": [
+                  "@Episode 2/Gunship Cavalry/Minikits"
                 ]
               },
               {
@@ -1164,14 +1194,20 @@
                 "name": "2-6 True Jedi - Gold Brick",
                 "hosted_item": "2-6_true_jedi_gold_brick",
                 "access_rules": [
-                  "@Episode 2/Count Dooku/Count Dooku/2-6 True Jedi, [setting_true_jedi_locations_enabled], @Goal Macros/Gold Bricks Logically Expected/2-6"
+                  "@Episode 2/Count Dooku/Count Dooku/2-6 True Jedi, @Goal Macros/Gold Bricks Logically Expected/2-6"
+                ],
+                "visibility_rules": [
+                  "@Episode 2/Count Dooku/Count Dooku/2-6 True Jedi"
                 ]
               },
               {
                 "name": "2-6 10 Minikits Collected - Gold Brick",
                 "hosted_item": "2-6_minikits_gold_brick",
                 "access_rules": [
-                  "@Episode 2/Count Dooku/Minikits, [setting_minikit_locations_enabled], @Goal Macros/Gold Bricks Logically Expected/2-6"
+                  "@Episode 2/Count Dooku/Minikits, @Goal Macros/Gold Bricks Logically Expected/2-6"
+                ],
+                "visibility_rules": [
+                  "@Episode 2/Count Dooku/Minikits"
                 ]
               },
               {
