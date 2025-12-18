@@ -1191,7 +1191,7 @@
     "codes": "custom_character_2, blaster"
   },
   {
-    "name": "Kyber Brick",
+    "name": "Kyber Bricks",
     "type": "consumable",
     "img": "images/items/kyber_brick.png",
     "max_quantity": 7,
