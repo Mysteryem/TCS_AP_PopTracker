@@ -124,79 +124,115 @@
                 "sections": [
                     {
                         "name": "Mos Espa Pod Race (Original)",
-                        "access_rules": [
-                            "bonuses_enabled_podrace, total_gold_bricks:10"
-                        ],
-                        "visibility_rules": [
-                            "bonuses_enabled_podrace"
-                        ]
+                        "ref": "Bonuses/Mos Espa Pod Race (Original)/Completion"
                     },
                     {
                         "name": "Anakin's Flight",
-                        "access_rules": [
-                            "bonuses_enabled_anakin_flight, total_gold_bricks:30"
-                        ],
-                        "visibility_rules": [
-                            "bonuses_enabled_anakin_flight"
-                        ]
+                        "ref": "Bonuses/Anakin's Flight/Completion"
                     },
                     {
                         "name": "Gunship Cavalry (Original)",
-                        "access_rules": [
-                            "bonuses_enabled_gunship, total_gold_bricks:10"
-                        ],
-                        "visibility_rules": [
-                            "bonuses_enabled_gunship"
-                        ]
+                        "ref": "Bonuses/Gunship Cavalry (Original)/Completion"
                     },
                     {
                         "name": "A New Hope (Bonus Level)",
-                        "access_rules": [
-                            "bonuses_enabled_a_new_hope, total_gold_bricks:20"
-                        ],
-                        "visibility_rules": [
-                            "bonuses_enabled_a_new_hope"
-                        ]
+                        "ref": "Bonuses/A New Hope/Completion"
                     },
                     {
-                        "name": "LEGO City",
-                        "access_rules": [
-                            "bonuses_enabled_lego_city, sith, highjump, blaster, bounty, total_gold_bricks:10"
-                        ],
-                        "visibility_rules": [
-                            "bonuses_enabled_lego_city"
-                        ]
+                        "name": "LEGO City - Completion",
+                        "ref": "Bonuses/LEGO City/Completion"
                     },
                     {
-                        "name": "New Town",
-                        "access_rules": [
-                            "bonuses_enabled_new_town, sith, highjump, blaster, bounty, total_gold_bricks:50"
-                        ],
-                        "visibility_rules": [
-                            "bonuses_enabled_new_town"
-                        ]
+                        "name": "LEGO City - Ride AT-ST",
+                        "ref": "Bonuses/LEGO City/Ride AT-ST"
+                    },
+                    {
+                        "name": "LEGO City - Ride Bantha",
+                        "ref": "Bonuses/LEGO City/Ride Bantha"
+                    },
+                    {
+                        "name": "LEGO City - Ride Cloud Car",
+                        "ref": "Bonuses/LEGO City/Ride Cloud Car"
+                    },
+                    {
+                        "name": "LEGO City - Ride Dewback",
+                        "ref": "Bonuses/LEGO City/Ride Dewback"
+                    },
+                    {
+                        "name": "LEGO City - Ride Landspeeder",
+                        "ref": "Bonuses/LEGO City/Ride Landspeeder"
+                    },
+                    {
+                        "name": "LEGO City - Ride Moon Car",
+                        "ref": "Bonuses/LEGO City/Ride Moon Car"
+                    },
+                    {
+                        "name": "LEGO City - Ride Tractor",
+                        "ref": "Bonuses/LEGO City/Ride Tractor"
+                    },
+                    {
+                        "name": "LEGO City - Ride Wookie Flyer",
+                        "ref": "Bonuses/LEGO City/Ride Wookie Flyer"
+                    },
+                    {
+                        "name": "New Town - Completion",
+                        "ref": "Bonuses/New Town/Completion"
+                    },
+                    {
+                        "name": "New Town - Ride Bantha",
+                        "ref": "Bonuses/New Town/Ride Bantha"
+                    },
+                    {
+                        "name": "New Town - Ride Basketball Cannon",
+                        "ref": "Bonuses/New Town/Ride Basketball Cannon"
+                    },
+                    {
+                        "name": "New Town - Ride Clone Walker",
+                        "ref": "Bonuses/New Town/Ride Clone Walker"
+                    },
+                    {
+                        "name": "New Town - Ride Cloud Car",
+                        "ref": "Bonuses/New Town/Ride Cloud Car"
+                    },
+                    {
+                        "name": "New Town - Ride Dewback",
+                        "ref": "Bonuses/New Town/Ride Dewback"
+                    },
+                    {
+                        "name": "New Town - Ride Firetruck",
+                        "ref": "Bonuses/New Town/Ride Firetruck"
+                    },
+                    {
+                        "name": "New Town - Ride Landspeeder",
+                        "ref": "Bonuses/New Town/Ride Landspeeder"
+                    },
+                    {
+                        "name": "New Town - Ride Lifeboat",
+                        "ref": "Bonuses/New Town/Ride Lifeboat"
+                    },
+                    {
+                        "name": "New Town - Ride Moon Car",
+                        "ref": "Bonuses/New Town/Ride Moon Car"
+                    },
+                    {
+                        "name": "New Town - Ride Tauntaun",
+                        "ref": "Bonuses/New Town/Ride Tauntaun"
+                    },
+                    {
+                        "name": "New Town - Ride Town Car",
+                        "ref": "Bonuses/New Town/Ride Town Car"
+                    },
+                    {
+                        "name": "New Town - Ride Tractor",
+                        "ref": "Bonuses/New Town/Ride Tractor"
                     },
                     {
                         "name": "Indiana Jones: Trailer",
-                        "chest_unopened_img": "images/items/indy_hat.png",
-                        "chest_opened_img": "images/items/indy_hat_disabled.png",
-                        "access_rules": [
-                            "bonuses_enabled_indy"
-                        ],
-                        "visibility_rules": [
-                            "bonuses_enabled_indy"
-                        ]
+                        "ref": "Bonuses/Indiana Jones/Watch Trailer"
                     },
                     {
                         "name": "Purchase Indiana Jones",
-                        "chest_unopened_img": "images/items/indianajones.png",
-                        "chest_opened_img": "images/items/indianajones_disabled.png",
-                        "access_rules": [
-                            "bonuses_enabled_indy, [$can_purchase|50000]"
-                        ],
-                        "visibility_rules": [
-                            "bonuses_enabled_indy"
-                        ]
+                        "ref": "Bonuses/Indiana Jones/Purchase Indiana Jones"
                     }
                 ],
                 "map_locations": [
@@ -222,60 +258,60 @@
                         "name": "Mos Espa Pod Race (Original) Completion - Gold Brick",
                         "hosted_item": "bonus_pod_race_completion_gold_brick",
                         "access_rules": [
-                            "@Cantina/Bonus Levels/Mos Espa Pod Race (Original)"
+                            "@Bonuses/Mos Espa Pod Race (Original)/Completion"
                         ],
                         "visibility_rules": [
-                            "@Cantina/Bonus Levels/Mos Espa Pod Race (Original)"
+                            "@Bonuses/Mos Espa Pod Race (Original)/Completion"
                         ]
                     },
                     {
                         "name": "Anakin's Flight Completion - Gold Brick",
                         "hosted_item": "bonus_anakins_flight_completion_gold_brick",
                         "access_rules": [
-                            "@Cantina/Bonus Levels/Anakin's Flight"
+                            "@Bonuses/Anakin's Flight/Completion"
                         ],
                         "visibility_rules": [
-                            "@Cantina/Bonus Levels/Anakin's Flight"
+                            "@Bonuses/Anakin's Flight/Completion"
                         ]
                     },
                     {
                         "name": "Gunship Cavalry (Original) Completion - Gold Brick",
                         "hosted_item": "bonus_gunship_cavalry_completion_gold_brick",
                         "access_rules": [
-                            "@Cantina/Bonus Levels/Gunship Cavalry (Original)"
+                            "@Bonuses/Gunship Cavalry (Original)/Completion"
                         ],
                         "visibility_rules": [
-                            "@Cantina/Bonus Levels/Gunship Cavalry (Original)"
+                            "@Bonuses/Gunship Cavalry (Original)/Completion"
                         ]
                     },
                     {
                         "name": "A New Hope (Bonus Level) Completion - Gold Brick",
                         "hosted_item": "bonus_a_new_hope_completion_gold_brick",
                         "access_rules": [
-                            "@Cantina/Bonus Levels/A New Hope (Bonus Level)"
+                            "@Bonuses/A New Hope/Completion"
                         ],
                         "visibility_rules": [
-                            "@Cantina/Bonus Levels/A New Hope (Bonus Level)"
+                            "@Bonuses/A New Hope/Completion"
                         ]
                     },
                     {
                         "name": "LEGO City Completion - Gold Brick",
                         "hosted_item": "bonus_lego_city_completion_gold_brick",
                         "access_rules": [
-                            "@Cantina/Bonus Levels/LEGO City"
+                            "@Bonuses/LEGO City/Completion"
                         ],
                         "visibility_rules": [
-                            "@Cantina/Bonus Levels/LEGO City"
+                            "@Bonuses/LEGO City/Completion"
                         ]
                     },
                     {
                         "name": "New Town Completion - Gold Brick",
                         "hosted_item": "bonus_new_town_completion_gold_brick",
                         "access_rules": [
-                            "@Cantina/Bonus Levels/New Town"
+                            "@Bonuses/New Town/Completion"
                         ],
                         "visibility_rules": [
-                            "@Cantina/Bonus Levels/New Town"
+                            "@Bonuses/New Town/Completion"
                         ]
                     }
                 ],

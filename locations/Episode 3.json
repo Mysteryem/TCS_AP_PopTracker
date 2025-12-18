@@ -730,6 +730,13 @@
                 "visibility_rules": [
                   "story_character_locations"
                 ]
+              },
+              {
+                "name": "Ride Clone Walker",
+                "hosted_item": "ride_clone_walker",
+                "visibility_rules": [
+                  "setting_ridesanity_enabled"
+                ]
               }
             ],
             "map_locations": [

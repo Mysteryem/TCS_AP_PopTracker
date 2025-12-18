@@ -1,0 +1,191 @@
+[
+  {
+    "type": "toggle",
+    "img": "images/ridesanity/stap.png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "ride_stap"
+  },
+  {
+    "type": "toggle",
+    "img": "images/ridesanity/landspeeder.png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "ride_landspeeder"
+  },
+  {
+    "type": "toggle",
+    "img": "images/ridesanity/wookie_flyer.png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "ride_wookie_flyer"
+  },
+  {
+    "type": "toggle",
+    "img": "images/ridesanity/dewback.png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "ride_dewback"
+  },
+  {
+    "type": "toggle",
+    "img": "images/ridesanity/moon_car.png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "ride_moon_car"
+  },
+  {
+    "type": "toggle",
+    "img": "images/ridesanity/lifeboat.png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "ride_lifeboat"
+  },
+  {
+    "type": "toggle",
+    "img": "images/ridesanity/firetruck.png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "ride_firetruck"
+  },
+  {
+    "type": "toggle",
+    "img": "images/ridesanity/basketball_cannon.png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "ride_basketball_cannon"
+  },
+  {
+    "type": "toggle",
+    "img": "images/ridesanity/clone_walker.png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "ride_clone_walker"
+  },
+  {
+    "type": "toggle",
+    "img": "images/ridesanity/cloud_car.png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "ride_cloud_car"
+  },
+  {
+    "type": "toggle",
+    "img": "images/ridesanity/tauntaun.png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "ride_tauntaun"
+  },
+  {
+    "type": "toggle",
+    "img": "images/ridesanity/town_car.png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "ride_town_car"
+  },
+  {
+    "type": "toggle",
+    "img": "images/ridesanity/tractor.png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "ride_tractor"
+  },
+  {
+    "type": "toggle",
+    "img": "images/ridesanity/bantha.png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "ride_bantha"
+  },
+  {
+    "type": "toggle",
+    "img": "images/ridesanity/at-st.png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "ride_at-st"
+  },
+  {
+    "type": "toggle",
+    "img": "images/ridesanity/service_car.png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "ride_service_car"
+  },
+  {
+    "type": "toggle",
+    "img": "images/ridesanity/flash_speeder.png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "ride_flash_speeder"
+  },
+  {
+    "type": "toggle",
+    "img": "images/ridesanity/crane_control.png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "ride_crane_control"
+  },
+  {
+    "type": "toggle",
+    "img": "images/ridesanity/mos_eisley_cannon.png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "ride_mos_eisley_cannon"
+  },
+  {
+    "type": "toggle",
+    "img": "images/ridesanity/stormtrooper_cannon.png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "ride_stormtrooper_cannon"
+  },
+  {
+    "type": "toggle",
+    "img": "images/ridesanity/snowmobile.png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "ride_snowmobile"
+  },
+  {
+    "type": "toggle",
+    "img": "images/ridesanity/ewok_catapult.png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "ride_ewok_catapult"
+  },
+  {
+    "type": "toggle",
+    "img": "images/ridesanity/skiff_cannon.png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "ride_skiff_cannon"
+  },
+  {
+    "type": "toggle",
+    "img": "images/ridesanity/big_skiff_cannon.png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "ride_big_skiff_cannon"
+  },
+  {
+    "type": "toggle",
+    "img": "images/ridesanity/cantina_car.png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "ride_cantina_car"
+  },
+  {
+    "type": "toggle",
+    "img": "images/ridesanity/speeder_bike.png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "ride_speeder_bike"
+  },
+  {
+    "type": "toggle",
+    "img": "images/ridesanity/at-at.png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "ride_at-at"
+  }
+]

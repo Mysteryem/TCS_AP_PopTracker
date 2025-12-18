@@ -494,6 +494,13 @@
     "codes": "setting_minikit_locations_enabled"
   },
   {
+    "name": "Ridesanity Enabled",
+    "type": "toggle",
+    "initial_active_state": false,
+    "img": "images/ridesanity/town_car.png",
+    "codes": "setting_ridesanity_enabled"
+  },
+  {
     "name": "Defeat Bosses Goal Amount",
     "type": "consumable",
     "img": "images/bosses/boba_fett.png",

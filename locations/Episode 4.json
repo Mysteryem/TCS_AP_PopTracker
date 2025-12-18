@@ -153,6 +153,34 @@
                 "visibility_rules": [
                   "story_character_locations"
                 ]
+              },
+              {
+                "name": "Ride Crane Control",
+                "hosted_item": "ride_crane_control",
+                "visibility_rules": [
+                  "setting_ridesanity_enabled"
+                ]
+              },
+              {
+                "name": "Ride Moon Car",
+                "hosted_item": "ride_moon_car",
+                "access_rules": [
+                  "bounty"
+                ],
+                "visibility_rules": [
+                  "setting_ridesanity_enabled"
+                ]
+              },
+              {
+                "name": "Ride Town Car",
+                "hosted_item": "ride_town_car",
+                "access_rules": [
+                  "bounty",
+                  "imperial"
+                ],
+                "visibility_rules": [
+                  "setting_ridesanity_enabled"
+                ]
               }
             ],
             "map_locations": [
@@ -172,6 +200,10 @@
               {
                 "name": "4-1 - Power Brick",
                 "hosted_item": "4-1_power_brick",
+                "access_rules": [
+                  "imperial",
+                  "bounty"
+                ],
                 "visibility_rules": [
                   "@Goal Macros/Locations Visible/4-1"
                 ]
@@ -342,6 +374,27 @@
                 "hosted_item": "chapter_completion_unlock_helper_lukeskywalker(tatooine)",
                 "visibility_rules": [
                   "story_character_locations"
+                ]
+              },
+              {
+                "name": "Ride Bantha",
+                "hosted_item": "ride_bantha",
+                "visibility_rules": [
+                  "setting_ridesanity_enabled"
+                ]
+              },
+              {
+                "name": "Ride Dewback",
+                "hosted_item": "ride_dewback",
+                "visibility_rules": [
+                  "setting_ridesanity_enabled"
+                ]
+              },
+              {
+                "name": "Ride Landspeeder",
+                "hosted_item": "ride_landspeeder",
+                "visibility_rules": [
+                  "setting_ridesanity_enabled"
                 ]
               }
             ],
@@ -558,6 +611,34 @@
                 "hosted_item": "chapter_completion_unlock_helper_hansolo",
                 "visibility_rules": [
                   "story_character_locations"
+                ]
+              },
+              {
+                "name": "Ride AT-ST",
+                "hosted_item": "ride_at-st",
+                "visibility_rules": [
+                  "setting_ridesanity_enabled"
+                ]
+              },
+              {
+                "name": "Ride Dewback",
+                "hosted_item": "ride_dewback",
+                "visibility_rules": [
+                  "setting_ridesanity_enabled"
+                ]
+              },
+              {
+                "name": "Ride Landspeeder",
+                "hosted_item": "ride_landspeeder",
+                "visibility_rules": [
+                  "setting_ridesanity_enabled"
+                ]
+              },
+              {
+                "name": "Ride Mos Eisley Cannon",
+                "hosted_item": "ride_mod_eisley_cannon",
+                "visibility_rules": [
+                  "setting_ridesanity_enabled"
                 ]
               }
             ],
@@ -804,6 +885,13 @@
                 "visibility_rules": [
                   "story_character_locations"
                 ]
+              },
+              {
+                "name": "Ride Crane Control",
+                "hosted_item": "ride_crane_control",
+                "visibility_rules": [
+                  "setting_ridesanity_enabled"
+                ]
               }
             ],
             "map_locations": [
@@ -989,6 +1077,13 @@
                 "hosted_item": "chapter_completion_unlock_helper_hansolo",
                 "visibility_rules": [
                   "story_character_locations"
+                ]
+              },
+              {
+                "name": "Ride Crane Control",
+                "hosted_item": "ride_crane_control",
+                "visibility_rules": [
+                  "setting_ridesanity_enabled"
                 ]
               }
             ],

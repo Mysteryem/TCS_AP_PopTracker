@@ -1,0 +1,275 @@
+[
+  {
+    "name": "Bonuses",
+    "chest_unopened_img": "images/items/gold_brick.png",
+    "chest_opened_img": "images/items/gold_brick_disabled.png",
+    "access_rules": [
+      "bonuses_enabled"
+    ],
+    "visibility_rules": [
+      "bonuses_enabled"
+    ],
+    "children": [
+      {
+        "name": "Indiana Jones",
+        "access_rules": [
+          "bonuses_enabled_indy"
+        ],
+        "visibility_rules": [
+          "bonuses_enabled_indy"
+        ],
+        "sections": [
+          {
+            "name": "Watch Trailer",
+            "chest_unopened_img": "images/items/indy_hat.png",
+            "chest_opened_img": "images/items/indy_hat_disabled.png"
+          },
+          {
+            "name": "Purchase Indiana Jones",
+            "chest_unopened_img": "images/items/indianajones.png",
+            "chest_opened_img": "images/items/indianajones_disabled.png",
+            "access_rules": [
+              "[$can_purchase|50000]"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Mos Espa Pod Race (Original)",
+        "access_rules": [
+          "bonuses_enabled_podrace, total_gold_bricks:10"
+        ],
+        "visibility_rules": [
+          "bonuses_enabled_podrace"
+        ],
+        "sections": [
+          {
+            "name": "Completion"
+          }
+        ]
+      },
+      {
+        "name": "Anakin's Flight",
+        "access_rules": [
+          "bonuses_enabled_anakin_flight, total_gold_bricks:30"
+        ],
+        "visibility_rules": [
+          "bonuses_enabled_anakin_flight"
+        ],
+        "sections": [
+          {
+            "name": "Completion"
+          }
+        ]
+      },
+      {
+        "name": "Gunship Cavalry (Original)",
+        "access_rules": [
+          "bonuses_enabled_gunship, total_gold_bricks:10"
+        ],
+        "visibility_rules": [
+          "bonuses_enabled_gunship"
+        ],
+        "sections": [
+          {
+            "name": "Completion"
+          }
+        ]
+      },
+      {
+        "name": "A New Hope",
+        "access_rules": [
+          "bonuses_enabled_a_new_hope, total_gold_bricks:20"
+        ],
+        "visibility_rules": [
+          "bonuses_enabled_a_new_hope"
+        ],
+        "sections": [
+          {
+            "name": "Completion"
+          }
+        ]
+      },
+      {
+        "name": "LEGO City",
+        "access_rules": [
+          "bonuses_enabled_lego_city, total_gold_bricks:10"
+        ],
+        "visibility_rules": [
+          "bonuses_enabled_lego_city"
+        ],
+        "sections": [
+          {
+            "name": "Completion",
+            "access_rules": [
+              "sith, highjump, blaster, bounty"
+            ]
+          },
+          {
+            "name": "Ride AT-ST",
+            "hosted_item": "ride_at-st",
+            "visibility_rules": [
+              "setting_ridesanity_enabled"
+            ]
+          },
+          {
+            "name": "Ride Bantha",
+            "hosted_item": "ride_bantha",
+            "visibility_rules": [
+              "setting_ridesanity_enabled"
+            ]
+          },
+          {
+            "name": "Ride Cloud Car",
+            "hosted_item": "ride_cloud_car",
+            "visibility_rules": [
+              "setting_ridesanity_enabled"
+            ]
+          },
+          {
+            "name": "Ride Dewback",
+            "hosted_item": "ride_dewback",
+            "visibility_rules": [
+              "setting_ridesanity_enabled"
+            ]
+          },
+          {
+            "name": "Ride Landspeeder",
+            "hosted_item": "ride_landspeeder",
+            "visibility_rules": [
+              "setting_ridesanity_enabled"
+            ]
+          },
+          {
+            "name": "Ride Moon Car",
+            "hosted_item": "ride_moon_car",
+            "access_rules": [
+              "bounty"
+            ],
+            "visibility_rules": [
+              "setting_ridesanity_enabled"
+            ]
+          },
+          {
+            "name": "Ride Tractor",
+            "hosted_item": "ride_tractor",
+            "visibility_rules": [
+              "setting_ridesanity_enabled"
+            ]
+          },
+          {
+            "name": "Ride Wookie Flyer",
+            "hosted_item": "ride_wookie_flyer",
+            "visibility_rules": [
+              "setting_ridesanity_enabled"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "New Town",
+        "access_rules": [
+          "bonuses_enabled_new_town, total_gold_bricks:50"
+        ],
+        "visibility_rules": [
+          "bonuses_enabled_new_town"
+        ],
+        "sections": [
+          {
+            "name": "Completion",
+            "access_rules": [
+              "sith, highjump, blaster, bounty"
+            ]
+          },
+          {
+            "name": "Ride Bantha",
+            "hosted_item": "ride_bantha",
+            "visibility_rules": [
+              "setting_ridesanity_enabled"
+            ]
+          },
+          {
+            "name": "Ride Basketball Cannon",
+            "hosted_item": "ride_basketball_cannon",
+            "visibility_rules": [
+              "setting_ridesanity_enabled"
+            ]
+          },
+          {
+            "name": "Ride Clone Walker",
+            "hosted_item": "ride_clone_walker",
+            "visibility_rules": [
+              "setting_ridesanity_enabled"
+            ]
+          },
+          {
+            "name": "Ride Cloud Car",
+            "hosted_item": "ride_cloud_car",
+            "visibility_rules": [
+              "setting_ridesanity_enabled"
+            ]
+          },
+          {
+            "name": "Ride Dewback",
+            "hosted_item": "ride_dewback",
+            "visibility_rules": [
+              "setting_ridesanity_enabled"
+            ]
+          },
+          {
+            "name": "Ride Firetruck",
+            "hosted_item": "ride_firetruck",
+            "visibility_rules": [
+              "setting_ridesanity_enabled"
+            ]
+          },
+          {
+            "name": "Ride Landspeeder",
+            "hosted_item": "ride_landspeeder",
+            "visibility_rules": [
+              "setting_ridesanity_enabled"
+            ]
+          },
+          {
+            "name": "Ride Lifeboat",
+            "hosted_item": "ride_lifeboat",
+            "visibility_rules": [
+              "setting_ridesanity_enabled"
+            ]
+          },
+          {
+            "name": "Ride Moon Car",
+            "hosted_item": "ride_moon_car",
+            "access_rules": [
+              "bounty"
+            ],
+            "visibility_rules": [
+              "setting_ridesanity_enabled"
+            ]
+          },
+          {
+            "name": "Ride Tauntaun",
+            "hosted_item": "ride_tauntaun",
+            "visibility_rules": [
+              "setting_ridesanity_enabled"
+            ]
+          },
+          {
+            "name": "Ride Town Car",
+            "hosted_item": "ride_town_car",
+            "visibility_rules": [
+              "setting_ridesanity_enabled"
+            ]
+          },
+          {
+            "name": "Ride Tractor",
+            "hosted_item": "ride_tractor",
+            "visibility_rules": [
+              "setting_ridesanity_enabled"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

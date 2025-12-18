@@ -267,6 +267,9 @@ function onClear(slot_data)
     end
     Tracker:FindObjectForCode("setting_minikit_locations_enabled").Active = enable_minikit_locations
 
+    local enable_ridesanity = slot_data["ridesanity"] or 0
+    Tracker:FindObjectForCode("setting_ridesanity_enabled").Active = enable_ridesanity == 1
+
     local defeat_bosses_goal_amount
     if apworld_version < Version.new({1,1,0}) then
         -- The goal did not exist in earlier versions.

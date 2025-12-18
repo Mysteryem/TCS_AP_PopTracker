@@ -148,6 +148,13 @@
                 "visibility_rules": [
                   "story_character_locations"
                 ]
+              },
+              {
+                "name": "Ride STAP",
+                "hosted_item": "ride_stap",
+                "visibility_rules": [
+                  "setting_ridesanity_enabled"
+                ]
               }
             ],
             "map_locations": [
@@ -894,6 +901,13 @@
                 "visibility_rules": [
                   "story_character_locations"
                 ]
+              },
+              {
+                "name": "Ride Flash Speeder",
+                "hosted_item": "ride_flash_speeder",
+                "visibility_rules": [
+                  "setting_ridesanity_enabled"
+                ]
               }
             ],
             "map_locations": [
@@ -1063,6 +1077,13 @@
                 "hosted_item": "chapter_completion_unlock_helper_qui-gonjinn",
                 "visibility_rules": [
                   "story_character_locations"
+                ]
+              },
+              {
+                "name": "Ride Service Car",
+                "hosted_item": "ride_service_car",
+                "visibility_rules": [
+                  "setting_ridesanity_enabled"
                 ]
               }
             ],

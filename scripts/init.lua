@@ -8,6 +8,7 @@ Tracker:AddItems("items/gold_brick_events.json")
 Tracker:AddItems("items/power_brick_events.json")
 Tracker:AddItems("items/chapter_completion_character_unlock_helpers.json")
 Tracker:AddItems("items/goal_helpers.json")
+Tracker:AddItems("items/ridesanity_helpers.json")
 
 -- Maps
 Tracker:AddMaps("maps/maps.json")
@@ -29,6 +30,7 @@ Tracker:AddLocations("locations/Episode 3.json")
 Tracker:AddLocations("locations/Episode 4.json")
 Tracker:AddLocations("locations/Episode 5.json")
 Tracker:AddLocations("locations/Episode 6.json")
+Tracker:AddLocations("locations/Bonuses.json")
 Tracker:AddLocations("locations/Overworld.json")
 Tracker:AddLocations("locations/LevelRequirementsDisplay.json")
 

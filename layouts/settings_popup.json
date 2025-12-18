@@ -13,7 +13,8 @@
               "setting_minikit_locations_enabled",
               "setting_true_jedi_locations_enabled",
               "story_character_locations",
-              "all_episodes_purchase_locations"
+              "all_episodes_purchase_locations",
+              "setting_ridesanity_enabled"
             ],
             [
               "episode_1_enabled",

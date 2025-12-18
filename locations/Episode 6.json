@@ -394,6 +394,20 @@
                 "visibility_rules": [
                   "story_character_locations"
                 ]
+              },
+              {
+                "name": "Ride Skiff Cannon",
+                "hosted_item": "ride_skiff_cannon",
+                "visibility_rules": [
+                  "setting_ridesanity_enabled"
+                ]
+              },
+              {
+                "name": "Ride Big Skiff Cannon",
+                "hosted_item": "ride_big_skiff_cannon",
+                "visibility_rules": [
+                  "setting_ridesanity_enabled"
+                ]
               }
             ],
             "map_locations": [
@@ -565,6 +579,27 @@
                 "hosted_item": "chapter_completion_unlock_helper_princessleia(endor)",
                 "visibility_rules": [
                   "story_character_locations"
+                ]
+              },
+              {
+                "name": "Ride Speeder Bike",
+                "hosted_item": "ride_speeder_bike",
+                "visibility_rules": [
+                  "setting_ridesanity_enabled"
+                ]
+              },
+              {
+                "name": "Ride AT-ST",
+                "hosted_item": "ride_at-st",
+                "visibility_rules": [
+                  "setting_ridesanity_enabled"
+                ]
+              },
+              {
+                "name": "Ride AT-AT",
+                "hosted_item": "ride_at-at",
+                "visibility_rules": [
+                  "setting_ridesanity_enabled"
                 ]
               }
             ],
@@ -763,6 +798,27 @@
                 "hosted_item": "chapter_completion_unlock_helper_wicket",
                 "visibility_rules": [
                   "story_character_locations"
+                ]
+              },
+              {
+                "name": "Ride Tractor",
+                "hosted_item": "ride_tractor",
+                "visibility_rules": [
+                  "setting_ridesanity_enabled"
+                ]
+              },
+              {
+                "name": "Ride Ewok Catapult",
+                "hosted_item": "ride_ewok_catapult",
+                "visibility_rules": [
+                  "setting_ridesanity_enabled"
+                ]
+              },
+              {
+                "name": "Ride AT-ST",
+                "hosted_item": "ride_at-st",
+                "visibility_rules": [
+                  "setting_ridesanity_enabled"
                 ]
               }
             ],
