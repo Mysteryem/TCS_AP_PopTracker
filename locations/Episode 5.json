@@ -916,15 +916,15 @@
                 ]
               },
               {
-                "name": "Ride Crane Control",
-                "hosted_item": "ride_crane_control",
+                "name": "Ride Stormtrooper Cannon",
+                "hosted_item": "ride_stormtrooper_cannon",
                 "visibility_rules": [
                   "setting_ridesanity_enabled"
                 ]
               },
               {
-                "name": "Ride Stormtrooper Cannon",
-                "hosted_item": "ride_stormtrooper_cannon",
+                "name": "Ride Crane Control",
+                "hosted_item": "ride_crane_control",
                 "visibility_rules": [
                   "setting_ridesanity_enabled"
                 ]
