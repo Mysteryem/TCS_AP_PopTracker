@@ -46,10 +46,6 @@ function can_purchase(studs_count_str)
     end
 end
 
-function all_episodes_tokens()
-    return Tracker:ProviderCountForCode("allepisodestoken") >= Tracker:ProviderCountForCode("enabled_episodes_count")
-end
-
 function boss_enabled(boss_code)
     -- The boss X enabled items do not provide any codes for their first stage (boss not enabled) or their second stage
     -- (boss enabled, but not defeated) because the boss items are hosted on sections, and the sections should only

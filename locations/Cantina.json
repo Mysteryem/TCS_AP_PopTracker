@@ -18,7 +18,7 @@
                     [
                         "all_episodes_purchase_locations",
                         "all_episodes_purchases_unlock_tokens",
-                        "$all_episodes_tokens"
+                        "allepisodestoken:6"
                     ]
                 ],
                 "visibility_rules": [
