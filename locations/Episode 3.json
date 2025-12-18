@@ -160,6 +160,9 @@
                 "hosted_item": "3-1_completion_gold_brick",
                 "access_rules": [
                   "@Goal Macros/Gold Bricks Logically Expected/3-1"
+                ],
+                "visibility_rules": [
+                  "@Goal Macros/Locations Visible/3-1"
                 ]
               },
               {
@@ -359,6 +362,9 @@
                 "hosted_item": "3-2_completion_gold_brick",
                 "access_rules": [
                   "@Goal Macros/Gold Bricks Logically Expected/3-2"
+                ],
+                "visibility_rules": [
+                  "@Goal Macros/Locations Visible/3-2"
                 ]
               },
               {
@@ -553,6 +559,9 @@
                 "hosted_item": "3-3_completion_gold_brick",
                 "access_rules": [
                   "@Goal Macros/Gold Bricks Logically Expected/3-3"
+                ],
+                "visibility_rules": [
+                  "@Goal Macros/Locations Visible/3-3"
                 ]
               },
               {
@@ -786,6 +795,9 @@
                 "hosted_item": "3-4_completion_gold_brick",
                 "access_rules": [
                   "@Goal Macros/Gold Bricks Logically Expected/3-4"
+                ],
+                "visibility_rules": [
+                  "@Goal Macros/Locations Visible/3-4"
                 ]
               },
               {
@@ -974,6 +986,9 @@
                 "hosted_item": "3-5_completion_gold_brick",
                 "access_rules": [
                   "@Goal Macros/Gold Bricks Logically Expected/3-5"
+                ],
+                "visibility_rules": [
+                  "@Goal Macros/Locations Visible/3-5"
                 ]
               },
               {
@@ -1144,6 +1159,9 @@
                 "hosted_item": "3-6_completion_gold_brick",
                 "access_rules": [
                   "@Goal Macros/Gold Bricks Logically Expected/3-6"
+                ],
+                "visibility_rules": [
+                  "@Goal Macros/Locations Visible/3-6"
                 ]
               },
               {

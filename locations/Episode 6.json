@@ -197,6 +197,9 @@
                 "hosted_item": "6-1_completion_gold_brick",
                 "access_rules": [
                   "@Goal Macros/Gold Bricks Logically Expected/6-1"
+                ],
+                "visibility_rules": [
+                  "@Goal Macros/Locations Visible/6-1"
                 ]
               },
               {
@@ -436,6 +439,9 @@
                 "hosted_item": "6-2_completion_gold_brick",
                 "access_rules": [
                   "@Goal Macros/Gold Bricks Logically Expected/6-2"
+                ],
+                "visibility_rules": [
+                  "@Goal Macros/Locations Visible/6-2"
                 ]
               },
               {
@@ -638,6 +644,9 @@
                 "hosted_item": "6-3_completion_gold_brick",
                 "access_rules": [
                   "@Goal Macros/Gold Bricks Logically Expected/6-3"
+                ],
+                "visibility_rules": [
+                  "@Goal Macros/Locations Visible/6-3"
                 ]
               },
               {
@@ -863,6 +872,9 @@
                 "hosted_item": "6-4_completion_gold_brick",
                 "access_rules": [
                   "@Goal Macros/Gold Bricks Logically Expected/6-4"
+                ],
+                "visibility_rules": [
+                  "@Goal Macros/Locations Visible/6-4"
                 ]
               },
               {
@@ -1048,6 +1060,9 @@
                 "hosted_item": "6-5_completion_gold_brick",
                 "access_rules": [
                   "@Goal Macros/Gold Bricks Logically Expected/6-5"
+                ],
+                "visibility_rules": [
+                  "@Goal Macros/Locations Visible/6-5"
                 ]
               },
               {
@@ -1235,6 +1250,9 @@
                 "hosted_item": "6-6_completion_gold_brick",
                 "access_rules": [
                   "@Goal Macros/Gold Bricks Logically Expected/6-6"
+                ],
+                "visibility_rules": [
+                  "@Goal Macros/Locations Visible/6-6"
                 ]
               },
               {
