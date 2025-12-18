@@ -405,6 +405,13 @@
                 "access_rules": [
                     "[$can_purchase|7500]"
                 ]
+            },
+            {
+                "name": "Ride Cantina Car",
+                "hosted_item": "ride_cantina_car",
+                "visibility_rules": [
+                  "setting_ridesanity_enabled"
+                ]
             }
         ],
         "map_locations": [
