@@ -1173,7 +1173,7 @@
     "codes": "episode1unlock"
   },
   {
-    "name": "All Episodes Token",
+    "name": "Episode Completion Token",
     "type": "consumable",
     "img": "images/items/allepisodestoken.png",
     "codes": "allepisodestoken"

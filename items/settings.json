@@ -465,7 +465,7 @@
         "codes": "all_episodes_purchases_unlock, all_episodes_purchases_unlock_episodes"
       },
       {
-        "name": "'All Episodes' Character Purchases - Unlock with all All Episodes Tokens received",
+        "name": "'All Episodes' Character Purchases - Unlock with all Episode Completion Tokens received",
         "img": "images/items/allepisodestoken.png",
         "codes": "all_episodes_purchases_unlock_tokens",
         "inherit_codes": false
