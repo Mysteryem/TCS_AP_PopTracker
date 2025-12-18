@@ -386,6 +386,10 @@
             "ref": "Episode 1/Retake Theed Palace/Retake Theed Palace/Ride Flash Speeder"
           },
           {
+            "name": "Retake Theed Palace - Ride Service Car",
+            "ref": "Episode 1/Retake Theed Palace/Retake Theed Palace/Ride Service Car"
+          },
+          {
             "name": "Darth Maul - 1-6 Minikit 1",
             "ref": "Episode 1/Darth Maul/Minikits/1-6 Minikit 1"
           },
@@ -1824,6 +1828,10 @@
           {
             "name": "Death Star Escape - Ride Crane Control",
             "ref": "Episode 4/Death Star Escape/Death Star Escape/Ride Crane Control"
+          },
+          {
+            "name": "Death Star Escape - Ride Service Car",
+            "ref": "Episode 4/Death Star Escape/Death Star Escape/Ride Service Car"
           },
           {
             "name": "Rebel Attack - 4-6 Minikit 1",

@@ -944,6 +944,13 @@
                 "visibility_rules": [
                   "setting_ridesanity_enabled"
                 ]
+              },
+              {
+                "name": "Ride Service Car",
+                "hosted_item": "ride_service_car",
+                "visibility_rules": [
+                  "setting_ridesanity_enabled"
+                ]
               }
             ],
             "map_locations": [
