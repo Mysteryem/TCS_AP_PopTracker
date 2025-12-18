@@ -453,10 +453,11 @@ local function checkGoalStatus(value)
     -- CLIENT_READY = 10
     -- CLIENT_PLAYING = 20
     -- CLIENT_GOAL = 30
+    local goal_helper = Tracker:FindObjectForCode("goal")
     if value == 30 then
-        local goal_location = Tracker:FindObjectForCode("@Cantina/Goal Event/Goal")
-        goal_location.AvailableChestCount = goal_location.AvailableChestCount - 1
+        goal_helper.Active = true
     else
+        goal_helper.Active = false
         print(string.format("Current goal status is %s", value))
     end
 end
