@@ -86,6 +86,10 @@
             "ref": "Episode 1/Negotiations/Negotiations/Chapter Completion - Unlock TC-14"
           },
           {
+            "name": "Negotiations - Ride STAP",
+            "ref": "Episode 1/Negotiations/Negotiations/Ride STAP"
+          },
+          {
             "name": "Invasion of Naboo - 1-2 Minikit 1",
             "ref": "Episode 1/Invasion of Naboo/Minikits/1-2 Minikit 1"
           },
@@ -378,6 +382,10 @@
             "ref": "Episode 1/Retake Theed Palace/Retake Theed Palace/Chapter Completion - Unlock R2-D2"
           },
           {
+            "name": "Retake Theed Palace - Ride Flash Speeder",
+            "ref": "Episode 1/Retake Theed Palace/Retake Theed Palace/Ride Flash Speeder"
+          },
+          {
             "name": "Darth Maul - 1-6 Minikit 1",
             "ref": "Episode 1/Darth Maul/Minikits/1-6 Minikit 1"
           },
@@ -440,6 +448,10 @@
           {
             "name": "Darth Maul - Chapter Completion - Unlock Qui-Gon Jinn",
             "ref": "Episode 1/Darth Maul/Darth Maul/Chapter Completion - Unlock Qui-Gon Jinn"
+          },
+          {
+            "name": "Darth Maul - Ride Service Car",
+            "ref": "Episode 1/Darth Maul/Darth Maul/Ride Service Car"
           }
         ],
         "map_locations": [
@@ -1202,6 +1214,10 @@
             "ref": "Episode 3/Defense of Kashyyyk/Defense of Kashyyyk/Chapter Completion - Unlock Chewbacca"
           },
           {
+            "name": "Defense of Kashyyyk - Ride Clone Walker",
+            "ref": "Episode 3/Defense of Kashyyyk/Defense of Kashyyyk/Ride Clone Walker"
+          },
+          {
             "name": "Ruin of the Jedi - 3-5 Minikit 1",
             "ref": "Episode 3/Ruin of the Jedi/Minikits/3-5 Minikit 1"
           },
@@ -1426,6 +1442,18 @@
             "ref": "Episode 4/Secret Plans/Secret Plans/Chapter Completion - Unlock Rebel Friend"
           },
           {
+            "name": "Secret Plans - Ride Crane Control",
+            "ref": "Episode 4/Secret Plans/Secret Plans/Ride Crane Control"
+          },
+          {
+            "name": "Secret Plans - Ride Moon Car",
+            "ref": "Episode 4/Secret Plans/Secret Plans/Ride Moon Car"
+          },
+          {
+            "name": "Secret Plans - Ride Town Car",
+            "ref": "Episode 4/Secret Plans/Secret Plans/Ride Town Car"
+          },
+          {
             "name": "Through the Jundland Wastes - 4-2 Minikit 1",
             "ref": "Episode 4/Through the Jundland Wastes/Minikits/4-2 Minikit 1"
           },
@@ -1500,6 +1528,18 @@
           {
             "name": "Through the Jundland Wastes - Chapter Completion - Unlock Luke Skywalker (Tatooine)",
             "ref": "Episode 4/Through the Jundland Wastes/Through the Jundland Wastes/Chapter Completion - Unlock Luke Skywalker (Tatooine)"
+          },
+          {
+            "name": "Through the Jundland Wastes - Ride Bantha",
+            "ref": "Episode 4/Through the Jundland Wastes/Through the Jundland Wastes/Ride Bantha"
+          },
+          {
+            "name": "Through the Jundland Wastes - Ride Dewback",
+            "ref": "Episode 4/Through the Jundland Wastes/Through the Jundland Wastes/Ride Dewback"
+          },
+          {
+            "name": "Through the Jundland Wastes - Ride Landspeeder",
+            "ref": "Episode 4/Through the Jundland Wastes/Through the Jundland Wastes/Ride Landspeeder"
           },
           {
             "name": "Mos Eisley Spaceport - 4-3 Minikit 1",
@@ -1588,6 +1628,22 @@
           {
             "name": "Mos Eisley Spaceport - Chapter Completion - Unlock Han Solo",
             "ref": "Episode 4/Mos Eisley Spaceport/Mos Eisley Spaceport/Chapter Completion - Unlock Han Solo"
+          },
+          {
+            "name": "Mos Eisley Spaceport - Ride AT-ST",
+            "ref": "Episode 4/Mos Eisley Spaceport/Mos Eisley Spaceport/Ride AT-ST"
+          },
+          {
+            "name": "Mos Eisley Spaceport - Ride Dewback",
+            "ref": "Episode 4/Mos Eisley Spaceport/Mos Eisley Spaceport/Ride Dewback"
+          },
+          {
+            "name": "Mos Eisley Spaceport - Ride Landspeeder",
+            "ref": "Episode 4/Mos Eisley Spaceport/Mos Eisley Spaceport/Ride Landspeeder"
+          },
+          {
+            "name": "Mos Eisley Spaceport - Ride Mos Eisley Cannon",
+            "ref": "Episode 4/Mos Eisley Spaceport/Mos Eisley Spaceport/Ride Mos Eisley Cannon"
           },
           {
             "name": "Rescue the Princess - 4-4 Minikit 1",
@@ -1686,6 +1742,10 @@
             "ref": "Episode 4/Rescue the Princess/Rescue the Princess/Chapter Completion - Unlock Luke Skywalker (Stormtrooper)"
           },
           {
+            "name": "Rescue the Princess - Ride Crane Control",
+            "ref": "Episode 4/Rescue the Princess/Rescue the Princess/Ride Crane Control"
+          },
+          {
             "name": "Death Star Escape - 4-5 Minikit 1",
             "ref": "Episode 4/Death Star Escape/Minikits/4-5 Minikit 1"
           },
@@ -1760,6 +1820,10 @@
           {
             "name": "Death Star Escape - Chapter Completion - Unlock Han Solo",
             "ref": "Episode 4/Death Star Escape/Death Star Escape/Chapter Completion - Unlock Han Solo"
+          },
+          {
+            "name": "Death Star Escape - Ride Crane Control",
+            "ref": "Episode 4/Death Star Escape/Death Star Escape/Ride Crane Control"
           },
           {
             "name": "Rebel Attack - 4-6 Minikit 1",
@@ -1990,6 +2054,18 @@
             "ref": "Episode 5/Escape From Echo Base/Escape From Echo Base/Chapter Completion - Unlock Princess Leia (Hoth)"
           },
           {
+            "name": "Escape From Echo Base - Ride Snowmobile",
+            "ref": "Episode 5/Escape From Echo Base/Escape From Echo Base/Ride Snowmobile"
+          },
+          {
+            "name": "Escape From Echo Base - Ride Stormtrooper Cannon",
+            "ref": "Episode 5/Escape From Echo Base/Escape From Echo Base/Ride Stormtrooper Cannon"
+          },
+          {
+            "name": "Escape From Echo Base - Ride Tauntaun",
+            "ref": "Episode 5/Escape From Echo Base/Escape From Echo Base/Ride Tauntaun"
+          },
+          {
             "name": "Falcon Flight - 5-3 Minikit 1",
             "ref": "Episode 5/Falcon Flight/Minikits/5-3 Minikit 1"
           },
@@ -2126,6 +2202,10 @@
             "ref": "Episode 5/Dagobah/Dagobah/Chapter Completion - Unlock Luke Skywalker (Pilot)"
           },
           {
+            "name": "Dagobah - Ride Tractor",
+            "ref": "Episode 5/Dagobah/Dagobah/Ride Tractor"
+          },
+          {
             "name": "Cloud City Trap - 5-5 Minikit 1",
             "ref": "Episode 5/Cloud City Trap/Minikits/5-5 Minikit 1"
           },
@@ -2180,6 +2260,14 @@
           {
             "name": "Cloud City Trap - Chapter Completion - Unlock Luke Skywalker (Bespin)",
             "ref": "Episode 5/Cloud City Trap/Cloud City Trap/Chapter Completion - Unlock Luke Skywalker (Bespin)"
+          },
+          {
+            "name": "Cloud City Trap - Ride Stormtrooper Cannon",
+            "ref": "Episode 5/Cloud City Trap/Cloud City Trap/Ride Stormtrooper Cannon"
+          },
+          {
+            "name": "Cloud City Trap - Ride Crane Control",
+            "ref": "Episode 5/Cloud City Trap/Cloud City Trap/Ride Crane Control"
           },
           {
             "name": "Cloud City Trap - Purchase Score x6",
@@ -2272,6 +2360,14 @@
           {
             "name": "Betrayal Over Bespin - Chapter Completion - Unlock Princess Leia (Bespin)",
             "ref": "Episode 5/Betrayal Over Bespin/Betrayal Over Bespin/Chapter Completion - Unlock Princess Leia (Bespin)"
+          },
+          {
+            "name": "Betrayal Over Bespin - Ride Cloud Car",
+            "ref": "Episode 5/Betrayal Over Bespin/Betrayal Over Bespin/Ride Cloud Car"
+          },
+          {
+            "name": "Betrayal Over Bespin - Ride Crane Control",
+            "ref": "Episode 5/Betrayal Over Bespin/Betrayal Over Bespin/Ride Crane Control"
           }
         ],
         "map_locations": [
@@ -2466,6 +2562,14 @@
             "ref": "Episode 6/Pit of Carkoon/Pit of Carkoon/Chapter Completion - Unlock Lando Calrissian (Palace Guard)"
           },
           {
+            "name": "Pit of Carkoon - Ride Skiff Cannon",
+            "ref": "Episode 6/Pit of Carkoon/Pit of Carkoon/Ride Skiff Cannon"
+          },
+          {
+            "name": "Pit of Carkoon - Ride Big Skiff Cannon",
+            "ref": "Episode 6/Pit of Carkoon/Pit of Carkoon/Ride Big Skiff Cannon"
+          },
+          {
             "name": "Speeder Showdown - 6-3 Minikit 1",
             "ref": "Episode 6/Speeder Showdown/Minikits/6-3 Minikit 1"
           },
@@ -2520,6 +2624,18 @@
           {
             "name": "Speeder Showdown - Chapter Completion - Unlock Princess Leia (Endor)",
             "ref": "Episode 6/Speeder Showdown/Speeder Showdown/Chapter Completion - Unlock Princess Leia (Endor)"
+          },
+          {
+            "name": "Speeder Showdown - Ride Speeder Bike",
+            "ref": "Episode 6/Speeder Showdown/Speeder Showdown/Ride Speeder Bike"
+          },
+          {
+            "name": "Speeder Showdown - Ride AT-ST",
+            "ref": "Episode 6/Speeder Showdown/Speeder Showdown/Ride AT-ST"
+          },
+          {
+            "name": "Speeder Showdown - Ride AT-AT",
+            "ref": "Episode 6/Speeder Showdown/Speeder Showdown/Ride AT-AT"
           },
           {
             "name": "Speeder Showdown - Purchase Score x8",
@@ -2604,6 +2720,18 @@
           {
             "name": "Battle of Endor - Chapter Completion - Unlock Wicket",
             "ref": "Episode 6/Battle of Endor/Battle of Endor/Chapter Completion - Unlock Wicket"
+          },
+          {
+            "name": "Battle of Endor - Ride Tractor",
+            "ref": "Episode 6/Battle of Endor/Battle of Endor/Ride Tractor"
+          },
+          {
+            "name": "Battle of Endor - Ride Ewok Catapult",
+            "ref": "Episode 6/Battle of Endor/Battle of Endor/Ride Ewok Catapult"
+          },
+          {
+            "name": "Battle of Endor - Ride AT-ST",
+            "ref": "Episode 6/Battle of Endor/Battle of Endor/Ride AT-ST"
           },
           {
             "name": "Jedi Destiny - 6-5 Minikit 1",
