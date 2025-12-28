@@ -504,25 +504,25 @@
     "codes": "pkdroid"
   },
   {
-    "name": "Padm\u00c3\u00a9",
+    "name": "Padmé",
     "type": "toggle",
     "img": "images/items/padme.png",
     "codes": "padme, blaster"
   },
   {
-    "name": "Padm\u00c3\u00a9 (Battle)",
+    "name": "Padmé (Battle)",
     "type": "toggle",
     "img": "images/items/padme(battle).png",
     "codes": "padme(battle), blaster"
   },
   {
-    "name": "Padm\u00c3\u00a9 (Clawed)",
+    "name": "Padmé (Clawed)",
     "type": "toggle",
     "img": "images/items/padme(clawed).png",
     "codes": "padme(clawed), blaster"
   },
   {
-    "name": "Padm\u00c3\u00a9 (Geonosis)",
+    "name": "Padmé (Geonosis)",
     "type": "toggle",
     "img": "images/items/padme(geonosis).png",
     "codes": "padme(geonosis), blaster"
