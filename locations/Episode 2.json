@@ -120,7 +120,7 @@
                 "name": "2-1 Completion"
               },
               {
-                "name": "Chapter Completion - Unlock Anakin's Speeder",
+                "name": "Level Completion - Unlock Anakin's Speeder",
                 "hosted_item": "chapter_completion_unlock_helper_speeder",
                 "visibility_rules": [
                   "story_character_locations"
@@ -321,14 +321,14 @@
                 "name": "2-2 Completion"
               },
               {
-                "name": "Chapter Completion - Unlock Obi-Wan Kenobi (Jedi Master)",
+                "name": "Level Completion - Unlock Obi-Wan Kenobi (Jedi Master)",
                 "hosted_item": "chapter_completion_unlock_helper_obi-wankenobi(jedimaster)",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
-                "name": "Chapter Completion - Unlock R4-P17",
+                "name": "Level Completion - Unlock R4-P17",
                 "hosted_item": "chapter_completion_unlock_helper_r4-p17",
                 "visibility_rules": [
                   "story_character_locations"
@@ -523,28 +523,28 @@
                 "name": "2-3 Completion"
               },
               {
-                "name": "Chapter Completion - Unlock R2-D2",
+                "name": "Level Completion - Unlock R2-D2",
                 "hosted_item": "chapter_completion_unlock_helper_r2-d2",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
-                "name": "Chapter Completion - Unlock Anakin Skywalker (Padawan)",
+                "name": "Level Completion - Unlock Anakin Skywalker (Padawan)",
                 "hosted_item": "chapter_completion_unlock_helper_anakinskywalker(padawan)",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
-                "name": "Chapter Completion - Unlock C-3PO",
+                "name": "Level Completion - Unlock C-3PO",
                 "hosted_item": "chapter_completion_unlock_helper_c-3po",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
-                "name": "Chapter Completion - Unlock Padmé (Geonosis)",
+                "name": "Level Completion - Unlock Padmé (Geonosis)",
                 "hosted_item": "chapter_completion_unlock_helper_padme(geonosis)",
                 "visibility_rules": [
                   "story_character_locations"
@@ -785,35 +785,35 @@
                 "name": "2-4 Completion"
               },
               {
-                "name": "Chapter Completion - Unlock R2-D2",
+                "name": "Level Completion - Unlock R2-D2",
                 "hosted_item": "chapter_completion_unlock_helper_r2-d2",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
-                "name": "Chapter Completion - Unlock Obi-Wan Kenobi (Jedi Master)",
+                "name": "Level Completion - Unlock Obi-Wan Kenobi (Jedi Master)",
                 "hosted_item": "chapter_completion_unlock_helper_obi-wankenobi(jedimaster)",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
-                "name": "Chapter Completion - Unlock Anakin Skywalker (Padawan)",
+                "name": "Level Completion - Unlock Anakin Skywalker (Padawan)",
                 "hosted_item": "chapter_completion_unlock_helper_anakinskywalker(padawan)",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
-                "name": "Chapter Completion - Unlock Mace Windu",
+                "name": "Level Completion - Unlock Mace Windu",
                 "hosted_item": "chapter_completion_unlock_helper_macewindu",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
-                "name": "Chapter Completion - Unlock Padmé (Clawed)",
+                "name": "Level Completion - Unlock Padmé (Clawed)",
                 "hosted_item": "chapter_completion_unlock_helper_padme(clawed)",
                 "visibility_rules": [
                   "story_character_locations"
@@ -990,7 +990,7 @@
                 "name": "2-5 Completion"
               },
               {
-                "name": "Chapter Completion - Unlock Republic Gunship",
+                "name": "Level Completion - Unlock Republic Gunship",
                 "hosted_item": "chapter_completion_unlock_helper_republicgunship",
                 "visibility_rules": [
                   "story_character_locations"
@@ -1153,21 +1153,21 @@
                 "name": "2-6 Completion"
               },
               {
-                "name": "Chapter Completion - Unlock Obi-Wan Kenobi (Jedi Master)",
+                "name": "Level Completion - Unlock Obi-Wan Kenobi (Jedi Master)",
                 "hosted_item": "chapter_completion_unlock_helper_obi-wankenobi(jedimaster)",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
-                "name": "Chapter Completion - Unlock Anakin Skywalker (Padawan)",
+                "name": "Level Completion - Unlock Anakin Skywalker (Padawan)",
                 "hosted_item": "chapter_completion_unlock_helper_anakinskywalker(padawan)",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
-                "name": "Chapter Completion - Unlock Yoda",
+                "name": "Level Completion - Unlock Yoda",
                 "hosted_item": "chapter_completion_unlock_helper_yoda",
                 "visibility_rules": [
                   "story_character_locations"

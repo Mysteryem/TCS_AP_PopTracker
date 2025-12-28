@@ -127,16 +127,36 @@
                         "ref": "Bonuses/Mos Espa Pod Race (Original)/Completion"
                     },
                     {
+                        "name": "Mos Espa Pod Race (Original) - Level Completion - Unlock Anakin's Pod",
+                        "ref": "Bonuses/Mos Espa Pod Race (Original)/Level Completion - Unlock Anakin's Pod"
+                    },
+                    {
                         "name": "Anakin's Flight",
                         "ref": "Bonuses/Anakin's Flight/Completion"
+                    },
+                    {
+                        "name": "Anakin's Flight - Level Completion - Unlock Naboo Starfighter",
+                        "ref": "Bonuses/Anakin's Flight/Level Completion - Unlock Naboo Starfighter"
                     },
                     {
                         "name": "Gunship Cavalry (Original)",
                         "ref": "Bonuses/Gunship Cavalry (Original)/Completion"
                     },
                     {
+                        "name": "Gunship Cavalry (Original) - Level Completion - Unlock Republic Gunship",
+                        "ref": "Bonuses/Gunship Cavalry (Original)/Level Completion - Unlock Republic Gunship"
+                    },
+                    {
                         "name": "A New Hope (Bonus Level)",
                         "ref": "Bonuses/A New Hope/Completion"
+                    },
+                    {
+                        "name": "A New Hope (Bonus Level) - Level Completion - Unlock Darth Vader",
+                        "ref": "Bonuses/A New Hope/Level Completion - Unlock Darth Vader"
+                    },
+                    {
+                        "name": "A New Hope (Bonus Level) - Level Completion - Unlock C-3PO",
+                        "ref": "Bonuses/A New Hope/Level Completion - Unlock C-3PO"
                     },
                     {
                         "name": "LEGO City - Completion",

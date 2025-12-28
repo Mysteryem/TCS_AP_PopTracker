@@ -96,7 +96,7 @@
                 "name": "5-1 Completion"
               },
               {
-                "name": "Chapter Completion - Unlock Snowspeeder",
+                "name": "Level Completion - Unlock Snowspeeder",
                 "hosted_item": "chapter_completion_unlock_helper_snowspeeder",
                 "visibility_rules": [
                   "story_character_locations"
@@ -307,28 +307,28 @@
                 "name": "5-2 Completion"
               },
               {
-                "name": "Chapter Completion - Unlock C-3PO",
+                "name": "Level Completion - Unlock C-3PO",
                 "hosted_item": "chapter_completion_unlock_helper_c-3po",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
-                "name": "Chapter Completion - Unlock Chewbacca",
+                "name": "Level Completion - Unlock Chewbacca",
                 "hosted_item": "chapter_completion_unlock_helper_chewbacca",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
-                "name": "Chapter Completion - Unlock Han Solo (Hoth)",
+                "name": "Level Completion - Unlock Han Solo (Hoth)",
                 "hosted_item": "chapter_completion_unlock_helper_hansolo(hoth)",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
-                "name": "Chapter Completion - Unlock Princess Leia (Hoth)",
+                "name": "Level Completion - Unlock Princess Leia (Hoth)",
                 "hosted_item": "chapter_completion_unlock_helper_princessleia(hoth)",
                 "visibility_rules": [
                   "story_character_locations"
@@ -530,14 +530,14 @@
                 "name": "5-3 Completion"
               },
               {
-                "name": "Chapter Completion - Unlock X-Wing",
+                "name": "Level Completion - Unlock X-Wing",
                 "hosted_item": "chapter_completion_unlock_helper_x-wing",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
-                "name": "Chapter Completion - Unlock Millennium Falcon",
+                "name": "Level Completion - Unlock Millennium Falcon",
                 "hosted_item": "chapter_completion_unlock_helper_millenniumfalcon",
                 "visibility_rules": [
                   "story_character_locations"
@@ -697,28 +697,28 @@
                 "name": "5-4 Completion"
               },
               {
-                "name": "Chapter Completion - Unlock R2-D2",
+                "name": "Level Completion - Unlock R2-D2",
                 "hosted_item": "chapter_completion_unlock_helper_r2-d2",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
-                "name": "Chapter Completion - Unlock Yoda",
+                "name": "Level Completion - Unlock Yoda",
                 "hosted_item": "chapter_completion_unlock_helper_yoda",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
-                "name": "Chapter Completion - Unlock Luke Skywalker (Dagobah)",
+                "name": "Level Completion - Unlock Luke Skywalker (Dagobah)",
                 "hosted_item": "chapter_completion_unlock_helper_lukeskywalker(dagobah)",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
-                "name": "Chapter Completion - Unlock Luke Skywalker (Pilot)",
+                "name": "Level Completion - Unlock Luke Skywalker (Pilot)",
                 "hosted_item": "chapter_completion_unlock_helper_lukeskywalker(pilot)",
                 "visibility_rules": [
                   "story_character_locations"
@@ -902,14 +902,14 @@
                 "name": "5-5 Completion"
               },
               {
-                "name": "Chapter Completion - Unlock R2-D2",
+                "name": "Level Completion - Unlock R2-D2",
                 "hosted_item": "chapter_completion_unlock_helper_r2-d2",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
-                "name": "Chapter Completion - Unlock Luke Skywalker (Bespin)",
+                "name": "Level Completion - Unlock Luke Skywalker (Bespin)",
                 "hosted_item": "chapter_completion_unlock_helper_lukeskywalker(bespin)",
                 "visibility_rules": [
                   "story_character_locations"
@@ -1139,35 +1139,35 @@
                 "name": "5-6 Completion"
               },
               {
-                "name": "Chapter Completion - Unlock R2-D2",
+                "name": "Level Completion - Unlock R2-D2",
                 "hosted_item": "chapter_completion_unlock_helper_r2-d2",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
-                "name": "Chapter Completion - Unlock C-3PO",
+                "name": "Level Completion - Unlock C-3PO",
                 "hosted_item": "chapter_completion_unlock_helper_c-3po",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
-                "name": "Chapter Completion - Unlock Chewbacca",
+                "name": "Level Completion - Unlock Chewbacca",
                 "hosted_item": "chapter_completion_unlock_helper_chewbacca",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
-                "name": "Chapter Completion - Unlock Lando Calrissian",
+                "name": "Level Completion - Unlock Lando Calrissian",
                 "hosted_item": "chapter_completion_unlock_helper_landocalrissian",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
-                "name": "Chapter Completion - Unlock Princess Leia (Bespin)",
+                "name": "Level Completion - Unlock Princess Leia (Bespin)",
                 "hosted_item": "chapter_completion_unlock_helper_princessleia(bespin)",
                 "visibility_rules": [
                   "story_character_locations"

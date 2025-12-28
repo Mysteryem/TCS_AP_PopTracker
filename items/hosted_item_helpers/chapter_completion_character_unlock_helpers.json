@@ -390,5 +390,12 @@
     "img_mods": "@disabled,@disabled",
     "disabled_img_mods": "",
     "codes": "chapter_completion_unlock_helper_darthvader"
+  },
+  {
+    "type": "toggle",
+    "img": "images/items/naboostarfighter.png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "chapter_completion_unlock_helper_naboostarfighter"
   }
 ]

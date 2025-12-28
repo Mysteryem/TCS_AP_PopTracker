@@ -45,6 +45,13 @@
         "sections": [
           {
             "name": "Completion"
+          },
+          {
+            "name": "Level Completion - Unlock Anakin's Pod",
+            "hosted_item": "chapter_completion_unlock_helper_anakinspodracer",
+            "visibility_rules": [
+              "story_character_locations"
+            ]
           }
         ]
       },
@@ -59,6 +66,13 @@
         "sections": [
           {
             "name": "Completion"
+          },
+          {
+            "name": "Level Completion - Unlock Naboo Starfighter",
+            "hosted_item": "chapter_completion_unlock_helper_naboostarfighter",
+            "visibility_rules": [
+              "story_character_locations"
+            ]
           }
         ]
       },
@@ -73,6 +87,13 @@
         "sections": [
           {
             "name": "Completion"
+          },
+          {
+            "name": "Level Completion - Unlock Republic Gunship",
+            "hosted_item": "chapter_completion_unlock_helper_republicgunship",
+            "visibility_rules": [
+              "story_character_locations"
+            ]
           }
         ]
       },
@@ -87,6 +108,20 @@
         "sections": [
           {
             "name": "Completion"
+          },
+          {
+            "name": "Level Completion - Unlock Darth Vader",
+            "hosted_item": "chapter_completion_unlock_helper_darthvader",
+            "visibility_rules": [
+              "story_character_locations"
+            ]
+          },
+          {
+            "name": "Level Completion - Unlock C-3PO",
+            "hosted_item": "chapter_completion_unlock_helper_c-3po",
+            "visibility_rules": [
+              "story_character_locations"
+            ]
           }
         ]
       },

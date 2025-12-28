@@ -129,21 +129,21 @@
                 "name": "1-1 Completion"
               },
               {
-                "name": "Chapter Completion - Unlock Obi-Wan Kenobi",
+                "name": "Level Completion - Unlock Obi-Wan Kenobi",
                 "hosted_item": "chapter_completion_unlock_helper_obi-wankenobi",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
-                "name": "Chapter Completion - Unlock Qui-Gon Jinn",
+                "name": "Level Completion - Unlock Qui-Gon Jinn",
                 "hosted_item": "chapter_completion_unlock_helper_qui-gonjinn",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
-                "name": "Chapter Completion - Unlock TC-14",
+                "name": "Level Completion - Unlock TC-14",
                 "hosted_item": "chapter_completion_unlock_helper_tc-14",
                 "visibility_rules": [
                   "story_character_locations"
@@ -331,21 +331,21 @@
                 "name": "1-2 Completion"
               },
               {
-                "name": "Chapter Completion - Unlock Obi-Wan Kenobi",
+                "name": "Level Completion - Unlock Obi-Wan Kenobi",
                 "hosted_item": "chapter_completion_unlock_helper_obi-wankenobi",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
-                "name": "Chapter Completion - Unlock Qui-Gon Jinn",
+                "name": "Level Completion - Unlock Qui-Gon Jinn",
                 "hosted_item": "chapter_completion_unlock_helper_qui-gonjinn",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
-                "name": "Chapter Completion - Unlock Jar Jar Binks",
+                "name": "Level Completion - Unlock Jar Jar Binks",
                 "hosted_item": "chapter_completion_unlock_helper_jarjarbinks",
                 "visibility_rules": [
                   "story_character_locations"
@@ -526,28 +526,28 @@
                 "name": "1-3 Completion"
               },
               {
-                "name": "Chapter Completion - Unlock Obi-Wan Kenobi",
+                "name": "Level Completion - Unlock Obi-Wan Kenobi",
                 "hosted_item": "chapter_completion_unlock_helper_obi-wankenobi",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
-                "name": "Chapter Completion - Unlock Qui-Gon Jinn",
+                "name": "Level Completion - Unlock Qui-Gon Jinn",
                 "hosted_item": "chapter_completion_unlock_helper_qui-gonjinn",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
-                "name": "Chapter Completion - Unlock Captain Panaka",
+                "name": "Level Completion - Unlock Captain Panaka",
                 "hosted_item": "chapter_completion_unlock_helper_captainpanaka",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
-                "name": "Chapter Completion - Unlock Queen Amidala",
+                "name": "Level Completion - Unlock Queen Amidala",
                 "hosted_item": "chapter_completion_unlock_helper_queenamidala",
                 "visibility_rules": [
                   "story_character_locations"
@@ -737,7 +737,7 @@
                 "name": "1-4 Completion"
               },
               {
-                "name": "Chapter Completion - Unlock Anakin's Pod",
+                "name": "Level Completion - Unlock Anakin's Pod",
                 "hosted_item": "chapter_completion_unlock_helper_anakinspodracer",
                 "visibility_rules": [
                   "story_character_locations"
@@ -897,42 +897,42 @@
                 "name": "1-5 Completion"
               },
               {
-                "name": "Chapter Completion - Unlock Obi-Wan Kenobi",
+                "name": "Level Completion - Unlock Obi-Wan Kenobi",
                 "hosted_item": "chapter_completion_unlock_helper_obi-wankenobi",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
-                "name": "Chapter Completion - Unlock Qui-Gon Jinn",
+                "name": "Level Completion - Unlock Qui-Gon Jinn",
                 "hosted_item": "chapter_completion_unlock_helper_qui-gonjinn",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
-                "name": "Chapter Completion - Unlock Captain Panaka",
+                "name": "Level Completion - Unlock Captain Panaka",
                 "hosted_item": "chapter_completion_unlock_helper_captainpanaka",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
-                "name": "Chapter Completion - Unlock Anakin Skywalker (Boy)",
+                "name": "Level Completion - Unlock Anakin Skywalker (Boy)",
                 "hosted_item": "chapter_completion_unlock_helper_anakinskywalker(boy)",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
-                "name": "Chapter Completion - Unlock Padmé (Battle)",
+                "name": "Level Completion - Unlock Padmé (Battle)",
                 "hosted_item": "chapter_completion_unlock_helper_padme(battle)",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
-                "name": "Chapter Completion - Unlock R2-D2",
+                "name": "Level Completion - Unlock R2-D2",
                 "hosted_item": "chapter_completion_unlock_helper_r2-d2",
                 "visibility_rules": [
                   "story_character_locations"
@@ -1118,14 +1118,14 @@
                 "name": "1-6 Completion"
               },
               {
-                "name": "Chapter Completion - Unlock Obi-Wan Kenobi",
+                "name": "Level Completion - Unlock Obi-Wan Kenobi",
                 "hosted_item": "chapter_completion_unlock_helper_obi-wankenobi",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
-                "name": "Chapter Completion - Unlock Qui-Gon Jinn",
+                "name": "Level Completion - Unlock Qui-Gon Jinn",
                 "hosted_item": "chapter_completion_unlock_helper_qui-gonjinn",
                 "visibility_rules": [
                   "story_character_locations"

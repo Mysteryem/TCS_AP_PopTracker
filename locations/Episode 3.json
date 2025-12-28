@@ -120,14 +120,14 @@
                 "name": "3-1 Completion"
               },
               {
-                "name": "Chapter Completion - Unlock Anakin's Starfighter",
+                "name": "Level Completion - Unlock Anakin's Starfighter",
                 "hosted_item": "chapter_completion_unlock_helper_anakinsstarfighter",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
-                "name": "Chapter Completion - Unlock Obi-Wan's Starfighter",
+                "name": "Level Completion - Unlock Obi-Wan's Starfighter",
                 "hosted_item": "chapter_completion_unlock_helper_obi-wansstarfighter",
                 "visibility_rules": [
                   "story_character_locations"
@@ -305,28 +305,28 @@
                 "name": "3-2 Completion"
               },
               {
-                "name": "Chapter Completion - Unlock R2-D2",
+                "name": "Level Completion - Unlock R2-D2",
                 "hosted_item": "chapter_completion_unlock_helper_r2-d2",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
-                "name": "Chapter Completion - Unlock Anakin Skywalker (Jedi)",
+                "name": "Level Completion - Unlock Anakin Skywalker (Jedi)",
                 "hosted_item": "chapter_completion_unlock_helper_anakinskywalker(jedi)",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
-                "name": "Chapter Completion - Unlock Chancellor Palpatine",
+                "name": "Level Completion - Unlock Chancellor Palpatine",
                 "hosted_item": "chapter_completion_unlock_helper_chancellorpalpatine",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
-                "name": "Chapter Completion - Unlock Obi-Wan Kenobi (Episode 3)",
+                "name": "Level Completion - Unlock Obi-Wan Kenobi (Episode 3)",
                 "hosted_item": "chapter_completion_unlock_helper_obi-wankenobi(episode3)",
                 "visibility_rules": [
                   "story_character_locations"
@@ -515,14 +515,14 @@
                 "name": "3-3 Completion"
               },
               {
-                "name": "Chapter Completion - Unlock Obi-Wan Kenobi (Episode 3)",
+                "name": "Level Completion - Unlock Obi-Wan Kenobi (Episode 3)",
                 "hosted_item": "chapter_completion_unlock_helper_obi-wankenobi(episode3)",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
-                "name": "Chapter Completion - Unlock Commander Cody",
+                "name": "Level Completion - Unlock Commander Cody",
                 "hosted_item": "chapter_completion_unlock_helper_commandercody",
                 "visibility_rules": [
                   "story_character_locations"
@@ -745,14 +745,14 @@
                 "name": "3-4 Completion"
               },
               {
-                "name": "Chapter Completion - Unlock Yoda",
+                "name": "Level Completion - Unlock Yoda",
                 "hosted_item": "chapter_completion_unlock_helper_yoda",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
-                "name": "Chapter Completion - Unlock Chewbacca",
+                "name": "Level Completion - Unlock Chewbacca",
                 "hosted_item": "chapter_completion_unlock_helper_chewbacca",
                 "visibility_rules": [
                   "story_character_locations"
@@ -943,14 +943,14 @@
                 "name": "3-5 Completion"
               },
               {
-                "name": "Chapter Completion - Unlock Yoda",
+                "name": "Level Completion - Unlock Yoda",
                 "hosted_item": "chapter_completion_unlock_helper_yoda",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
-                "name": "Chapter Completion - Unlock Obi-Wan Kenobi (Episode 3)",
+                "name": "Level Completion - Unlock Obi-Wan Kenobi (Episode 3)",
                 "hosted_item": "chapter_completion_unlock_helper_obi-wankenobi(episode3)",
                 "visibility_rules": [
                   "story_character_locations"
@@ -1116,14 +1116,14 @@
                 "name": "3-6 Completion"
               },
               {
-                "name": "Chapter Completion - Unlock Anakin Skywalker (Jedi)",
+                "name": "Level Completion - Unlock Anakin Skywalker (Jedi)",
                 "hosted_item": "chapter_completion_unlock_helper_anakinskywalker(jedi)",
                 "visibility_rules": [
                   "story_character_locations"
                 ]
               },
               {
-                "name": "Chapter Completion - Unlock Obi-Wan Kenobi (Episode 3)",
+                "name": "Level Completion - Unlock Obi-Wan Kenobi (Episode 3)",
                 "hosted_item": "chapter_completion_unlock_helper_obi-wankenobi(episode3)",
                 "visibility_rules": [
                   "story_character_locations"

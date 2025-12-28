@@ -74,16 +74,16 @@
             "ref": "Episode 1/Negotiations/Negotiations/1-1 Completion"
           },
           {
-            "name": "Negotiations - Chapter Completion - Unlock Obi-Wan Kenobi",
-            "ref": "Episode 1/Negotiations/Negotiations/Chapter Completion - Unlock Obi-Wan Kenobi"
+            "name": "Negotiations - Level Completion - Unlock Obi-Wan Kenobi",
+            "ref": "Episode 1/Negotiations/Negotiations/Level Completion - Unlock Obi-Wan Kenobi"
           },
           {
-            "name": "Negotiations - Chapter Completion - Unlock Qui-Gon Jinn",
-            "ref": "Episode 1/Negotiations/Negotiations/Chapter Completion - Unlock Qui-Gon Jinn"
+            "name": "Negotiations - Level Completion - Unlock Qui-Gon Jinn",
+            "ref": "Episode 1/Negotiations/Negotiations/Level Completion - Unlock Qui-Gon Jinn"
           },
           {
-            "name": "Negotiations - Chapter Completion - Unlock TC-14",
-            "ref": "Episode 1/Negotiations/Negotiations/Chapter Completion - Unlock TC-14"
+            "name": "Negotiations - Level Completion - Unlock TC-14",
+            "ref": "Episode 1/Negotiations/Negotiations/Level Completion - Unlock TC-14"
           },
           {
             "name": "Negotiations - Ride STAP",
@@ -150,16 +150,16 @@
             "ref": "Episode 1/Invasion of Naboo/Invasion of Naboo/1-2 Completion"
           },
           {
-            "name": "Invasion of Naboo - Chapter Completion - Unlock Obi-Wan Kenobi",
-            "ref": "Episode 1/Invasion of Naboo/Invasion of Naboo/Chapter Completion - Unlock Obi-Wan Kenobi"
+            "name": "Invasion of Naboo - Level Completion - Unlock Obi-Wan Kenobi",
+            "ref": "Episode 1/Invasion of Naboo/Invasion of Naboo/Level Completion - Unlock Obi-Wan Kenobi"
           },
           {
-            "name": "Invasion of Naboo - Chapter Completion - Unlock Qui-Gon Jinn",
-            "ref": "Episode 1/Invasion of Naboo/Invasion of Naboo/Chapter Completion - Unlock Qui-Gon Jinn"
+            "name": "Invasion of Naboo - Level Completion - Unlock Qui-Gon Jinn",
+            "ref": "Episode 1/Invasion of Naboo/Invasion of Naboo/Level Completion - Unlock Qui-Gon Jinn"
           },
           {
-            "name": "Invasion of Naboo - Chapter Completion - Unlock Jar Jar Binks",
-            "ref": "Episode 1/Invasion of Naboo/Invasion of Naboo/Chapter Completion - Unlock Jar Jar Binks"
+            "name": "Invasion of Naboo - Level Completion - Unlock Jar Jar Binks",
+            "ref": "Episode 1/Invasion of Naboo/Invasion of Naboo/Level Completion - Unlock Jar Jar Binks"
           },
           {
             "name": "Escape From Naboo - 1-3 Minikit 1",
@@ -222,20 +222,20 @@
             "ref": "Episode 1/Escape From Naboo/Escape From Naboo/1-3 Completion"
           },
           {
-            "name": "Escape From Naboo - Chapter Completion - Unlock Obi-Wan Kenobi",
-            "ref": "Episode 1/Escape From Naboo/Escape From Naboo/Chapter Completion - Unlock Obi-Wan Kenobi"
+            "name": "Escape From Naboo - Level Completion - Unlock Obi-Wan Kenobi",
+            "ref": "Episode 1/Escape From Naboo/Escape From Naboo/Level Completion - Unlock Obi-Wan Kenobi"
           },
           {
-            "name": "Escape From Naboo - Chapter Completion - Unlock Qui-Gon Jinn",
-            "ref": "Episode 1/Escape From Naboo/Escape From Naboo/Chapter Completion - Unlock Qui-Gon Jinn"
+            "name": "Escape From Naboo - Level Completion - Unlock Qui-Gon Jinn",
+            "ref": "Episode 1/Escape From Naboo/Escape From Naboo/Level Completion - Unlock Qui-Gon Jinn"
           },
           {
-            "name": "Escape From Naboo - Chapter Completion - Unlock Captain Panaka",
-            "ref": "Episode 1/Escape From Naboo/Escape From Naboo/Chapter Completion - Unlock Captain Panaka"
+            "name": "Escape From Naboo - Level Completion - Unlock Captain Panaka",
+            "ref": "Episode 1/Escape From Naboo/Escape From Naboo/Level Completion - Unlock Captain Panaka"
           },
           {
-            "name": "Escape From Naboo - Chapter Completion - Unlock Queen Amidala",
-            "ref": "Episode 1/Escape From Naboo/Escape From Naboo/Chapter Completion - Unlock Queen Amidala"
+            "name": "Escape From Naboo - Level Completion - Unlock Queen Amidala",
+            "ref": "Episode 1/Escape From Naboo/Escape From Naboo/Level Completion - Unlock Queen Amidala"
           },
           {
             "name": "Mos Espa Pod Race - 1-4 Minikit 1",
@@ -302,8 +302,8 @@
             "ref": "Episode 1/Mos Espa Pod Race/Mos Espa Pod Race/1-4 Completion"
           },
           {
-            "name": "Mos Espa Pod Race - Chapter Completion - Unlock Anakin's Pod",
-            "ref": "Episode 1/Mos Espa Pod Race/Mos Espa Pod Race/Chapter Completion - Unlock Anakin's Pod"
+            "name": "Mos Espa Pod Race - Level Completion - Unlock Anakin's Pod",
+            "ref": "Episode 1/Mos Espa Pod Race/Mos Espa Pod Race/Level Completion - Unlock Anakin's Pod"
           },
           {
             "name": "Retake Theed Palace - 1-5 Minikit 1",
@@ -358,28 +358,28 @@
             "ref": "Episode 1/Retake Theed Palace/Retake Theed Palace/1-5 Completion"
           },
           {
-            "name": "Retake Theed Palace - Chapter Completion - Unlock Obi-Wan Kenobi",
-            "ref": "Episode 1/Retake Theed Palace/Retake Theed Palace/Chapter Completion - Unlock Obi-Wan Kenobi"
+            "name": "Retake Theed Palace - Level Completion - Unlock Obi-Wan Kenobi",
+            "ref": "Episode 1/Retake Theed Palace/Retake Theed Palace/Level Completion - Unlock Obi-Wan Kenobi"
           },
           {
-            "name": "Retake Theed Palace - Chapter Completion - Unlock Qui-Gon Jinn",
-            "ref": "Episode 1/Retake Theed Palace/Retake Theed Palace/Chapter Completion - Unlock Qui-Gon Jinn"
+            "name": "Retake Theed Palace - Level Completion - Unlock Qui-Gon Jinn",
+            "ref": "Episode 1/Retake Theed Palace/Retake Theed Palace/Level Completion - Unlock Qui-Gon Jinn"
           },
           {
-            "name": "Retake Theed Palace - Chapter Completion - Unlock Captain Panaka",
-            "ref": "Episode 1/Retake Theed Palace/Retake Theed Palace/Chapter Completion - Unlock Captain Panaka"
+            "name": "Retake Theed Palace - Level Completion - Unlock Captain Panaka",
+            "ref": "Episode 1/Retake Theed Palace/Retake Theed Palace/Level Completion - Unlock Captain Panaka"
           },
           {
-            "name": "Retake Theed Palace - Chapter Completion - Unlock Anakin Skywalker (Boy)",
-            "ref": "Episode 1/Retake Theed Palace/Retake Theed Palace/Chapter Completion - Unlock Anakin Skywalker (Boy)"
+            "name": "Retake Theed Palace - Level Completion - Unlock Anakin Skywalker (Boy)",
+            "ref": "Episode 1/Retake Theed Palace/Retake Theed Palace/Level Completion - Unlock Anakin Skywalker (Boy)"
           },
           {
-            "name": "Retake Theed Palace - Chapter Completion - Unlock Padmé (Battle)",
-            "ref": "Episode 1/Retake Theed Palace/Retake Theed Palace/Chapter Completion - Unlock Padmé (Battle)"
+            "name": "Retake Theed Palace - Level Completion - Unlock Padmé (Battle)",
+            "ref": "Episode 1/Retake Theed Palace/Retake Theed Palace/Level Completion - Unlock Padmé (Battle)"
           },
           {
-            "name": "Retake Theed Palace - Chapter Completion - Unlock R2-D2",
-            "ref": "Episode 1/Retake Theed Palace/Retake Theed Palace/Chapter Completion - Unlock R2-D2"
+            "name": "Retake Theed Palace - Level Completion - Unlock R2-D2",
+            "ref": "Episode 1/Retake Theed Palace/Retake Theed Palace/Level Completion - Unlock R2-D2"
           },
           {
             "name": "Retake Theed Palace - Ride Flash Speeder",
@@ -446,12 +446,12 @@
             "ref": "Episode 1/Darth Maul/Darth Maul/1-6 Completion"
           },
           {
-            "name": "Darth Maul - Chapter Completion - Unlock Obi-Wan Kenobi",
-            "ref": "Episode 1/Darth Maul/Darth Maul/Chapter Completion - Unlock Obi-Wan Kenobi"
+            "name": "Darth Maul - Level Completion - Unlock Obi-Wan Kenobi",
+            "ref": "Episode 1/Darth Maul/Darth Maul/Level Completion - Unlock Obi-Wan Kenobi"
           },
           {
-            "name": "Darth Maul - Chapter Completion - Unlock Qui-Gon Jinn",
-            "ref": "Episode 1/Darth Maul/Darth Maul/Chapter Completion - Unlock Qui-Gon Jinn"
+            "name": "Darth Maul - Level Completion - Unlock Qui-Gon Jinn",
+            "ref": "Episode 1/Darth Maul/Darth Maul/Level Completion - Unlock Qui-Gon Jinn"
           },
           {
             "name": "Darth Maul - Ride Service Car",
@@ -534,8 +534,8 @@
             "ref": "Episode 2/Bounty Hunter Pursuit/Bounty Hunter Pursuit/2-1 Completion"
           },
           {
-            "name": "Bounty Hunter Pursuit - Chapter Completion - Unlock Anakin's Speeder",
-            "ref": "Episode 2/Bounty Hunter Pursuit/Bounty Hunter Pursuit/Chapter Completion - Unlock Anakin's Speeder"
+            "name": "Bounty Hunter Pursuit - Level Completion - Unlock Anakin's Speeder",
+            "ref": "Episode 2/Bounty Hunter Pursuit/Bounty Hunter Pursuit/Level Completion - Unlock Anakin's Speeder"
           },
           {
             "name": "Discovery on Kamino - 2-2 Minikit 1",
@@ -602,12 +602,12 @@
             "ref": "Episode 2/Discovery on Kamino/Discovery on Kamino/2-2 Completion"
           },
           {
-            "name": "Discovery on Kamino - Chapter Completion - Unlock Obi-Wan Kenobi (Jedi Master)",
-            "ref": "Episode 2/Discovery on Kamino/Discovery on Kamino/Chapter Completion - Unlock Obi-Wan Kenobi (Jedi Master)"
+            "name": "Discovery on Kamino - Level Completion - Unlock Obi-Wan Kenobi (Jedi Master)",
+            "ref": "Episode 2/Discovery on Kamino/Discovery on Kamino/Level Completion - Unlock Obi-Wan Kenobi (Jedi Master)"
           },
           {
-            "name": "Discovery on Kamino - Chapter Completion - Unlock R4-P17",
-            "ref": "Episode 2/Discovery on Kamino/Discovery on Kamino/Chapter Completion - Unlock R4-P17"
+            "name": "Discovery on Kamino - Level Completion - Unlock R4-P17",
+            "ref": "Episode 2/Discovery on Kamino/Discovery on Kamino/Level Completion - Unlock R4-P17"
           },
           {
             "name": "Droid Factory - 2-3 Minikit 1",
@@ -670,20 +670,20 @@
             "ref": "Episode 2/Droid Factory/Droid Factory/2-3 Completion"
           },
           {
-            "name": "Droid Factory - Chapter Completion - Unlock R2-D2",
-            "ref": "Episode 2/Droid Factory/Droid Factory/Chapter Completion - Unlock R2-D2"
+            "name": "Droid Factory - Level Completion - Unlock R2-D2",
+            "ref": "Episode 2/Droid Factory/Droid Factory/Level Completion - Unlock R2-D2"
           },
           {
-            "name": "Droid Factory - Chapter Completion - Unlock Anakin Skywalker (Padawan)",
-            "ref": "Episode 2/Droid Factory/Droid Factory/Chapter Completion - Unlock Anakin Skywalker (Padawan)"
+            "name": "Droid Factory - Level Completion - Unlock Anakin Skywalker (Padawan)",
+            "ref": "Episode 2/Droid Factory/Droid Factory/Level Completion - Unlock Anakin Skywalker (Padawan)"
           },
           {
-            "name": "Droid Factory - Chapter Completion - Unlock C-3PO",
-            "ref": "Episode 2/Droid Factory/Droid Factory/Chapter Completion - Unlock C-3PO"
+            "name": "Droid Factory - Level Completion - Unlock C-3PO",
+            "ref": "Episode 2/Droid Factory/Droid Factory/Level Completion - Unlock C-3PO"
           },
           {
-            "name": "Droid Factory - Chapter Completion - Unlock Padmé (Geonosis)",
-            "ref": "Episode 2/Droid Factory/Droid Factory/Chapter Completion - Unlock Padmé (Geonosis)"
+            "name": "Droid Factory - Level Completion - Unlock Padmé (Geonosis)",
+            "ref": "Episode 2/Droid Factory/Droid Factory/Level Completion - Unlock Padmé (Geonosis)"
           },
           {
             "name": "Jedi Battle - 2-4 Minikit 1",
@@ -774,24 +774,24 @@
             "ref": "Episode 2/Jedi Battle/Jedi Battle/2-4 Completion"
           },
           {
-            "name": "Jedi Battle - Chapter Completion - Unlock R2-D2",
-            "ref": "Episode 2/Jedi Battle/Jedi Battle/Chapter Completion - Unlock R2-D2"
+            "name": "Jedi Battle - Level Completion - Unlock R2-D2",
+            "ref": "Episode 2/Jedi Battle/Jedi Battle/Level Completion - Unlock R2-D2"
           },
           {
-            "name": "Jedi Battle - Chapter Completion - Unlock Obi-Wan Kenobi (Jedi Master)",
-            "ref": "Episode 2/Jedi Battle/Jedi Battle/Chapter Completion - Unlock Obi-Wan Kenobi (Jedi Master)"
+            "name": "Jedi Battle - Level Completion - Unlock Obi-Wan Kenobi (Jedi Master)",
+            "ref": "Episode 2/Jedi Battle/Jedi Battle/Level Completion - Unlock Obi-Wan Kenobi (Jedi Master)"
           },
           {
-            "name": "Jedi Battle - Chapter Completion - Unlock Anakin Skywalker (Padawan)",
-            "ref": "Episode 2/Jedi Battle/Jedi Battle/Chapter Completion - Unlock Anakin Skywalker (Padawan)"
+            "name": "Jedi Battle - Level Completion - Unlock Anakin Skywalker (Padawan)",
+            "ref": "Episode 2/Jedi Battle/Jedi Battle/Level Completion - Unlock Anakin Skywalker (Padawan)"
           },
           {
-            "name": "Jedi Battle - Chapter Completion - Unlock Mace Windu",
-            "ref": "Episode 2/Jedi Battle/Jedi Battle/Chapter Completion - Unlock Mace Windu"
+            "name": "Jedi Battle - Level Completion - Unlock Mace Windu",
+            "ref": "Episode 2/Jedi Battle/Jedi Battle/Level Completion - Unlock Mace Windu"
           },
           {
-            "name": "Jedi Battle - Chapter Completion - Unlock Padmé (Clawed)",
-            "ref": "Episode 2/Jedi Battle/Jedi Battle/Chapter Completion - Unlock Padmé (Clawed)"
+            "name": "Jedi Battle - Level Completion - Unlock Padmé (Clawed)",
+            "ref": "Episode 2/Jedi Battle/Jedi Battle/Level Completion - Unlock Padmé (Clawed)"
           },
           {
             "name": "Gunship Cavalry - 2-5 Minikit 1",
@@ -846,8 +846,8 @@
             "ref": "Episode 2/Gunship Cavalry/Gunship Cavalry/2-5 Completion"
           },
           {
-            "name": "Gunship Cavalry - Chapter Completion - Unlock Republic Gunship",
-            "ref": "Episode 2/Gunship Cavalry/Gunship Cavalry/Chapter Completion - Unlock Republic Gunship"
+            "name": "Gunship Cavalry - Level Completion - Unlock Republic Gunship",
+            "ref": "Episode 2/Gunship Cavalry/Gunship Cavalry/Level Completion - Unlock Republic Gunship"
           },
           {
             "name": "Count Dooku - 2-6 Minikit 1",
@@ -902,16 +902,16 @@
             "ref": "Episode 2/Count Dooku/Count Dooku/2-6 Completion"
           },
           {
-            "name": "Count Dooku - Chapter Completion - Unlock Obi-Wan Kenobi (Jedi Master)",
-            "ref": "Episode 2/Count Dooku/Count Dooku/Chapter Completion - Unlock Obi-Wan Kenobi (Jedi Master)"
+            "name": "Count Dooku - Level Completion - Unlock Obi-Wan Kenobi (Jedi Master)",
+            "ref": "Episode 2/Count Dooku/Count Dooku/Level Completion - Unlock Obi-Wan Kenobi (Jedi Master)"
           },
           {
-            "name": "Count Dooku - Chapter Completion - Unlock Anakin Skywalker (Padawan)",
-            "ref": "Episode 2/Count Dooku/Count Dooku/Chapter Completion - Unlock Anakin Skywalker (Padawan)"
+            "name": "Count Dooku - Level Completion - Unlock Anakin Skywalker (Padawan)",
+            "ref": "Episode 2/Count Dooku/Count Dooku/Level Completion - Unlock Anakin Skywalker (Padawan)"
           },
           {
-            "name": "Count Dooku - Chapter Completion - Unlock Yoda",
-            "ref": "Episode 2/Count Dooku/Count Dooku/Chapter Completion - Unlock Yoda"
+            "name": "Count Dooku - Level Completion - Unlock Yoda",
+            "ref": "Episode 2/Count Dooku/Count Dooku/Level Completion - Unlock Yoda"
           }
         ],
         "map_locations": [
@@ -990,12 +990,12 @@
             "ref": "Episode 3/Battle Over Coruscant/Battle Over Coruscant/3-1 Completion"
           },
           {
-            "name": "Battle Over Coruscant - Chapter Completion - Unlock Anakin's Starfighter",
-            "ref": "Episode 3/Battle Over Coruscant/Battle Over Coruscant/Chapter Completion - Unlock Anakin's Starfighter"
+            "name": "Battle Over Coruscant - Level Completion - Unlock Anakin's Starfighter",
+            "ref": "Episode 3/Battle Over Coruscant/Battle Over Coruscant/Level Completion - Unlock Anakin's Starfighter"
           },
           {
-            "name": "Battle Over Coruscant - Chapter Completion - Unlock Obi-Wan's Starfighter",
-            "ref": "Episode 3/Battle Over Coruscant/Battle Over Coruscant/Chapter Completion - Unlock Obi-Wan's Starfighter"
+            "name": "Battle Over Coruscant - Level Completion - Unlock Obi-Wan's Starfighter",
+            "ref": "Episode 3/Battle Over Coruscant/Battle Over Coruscant/Level Completion - Unlock Obi-Wan's Starfighter"
           },
           {
             "name": "Chancellor in Peril - 3-2 Minikit 1",
@@ -1058,20 +1058,20 @@
             "ref": "Episode 3/Chancellor in Peril/Chancellor in Peril/3-2 Completion"
           },
           {
-            "name": "Chancellor in Peril - Chapter Completion - Unlock R2-D2",
-            "ref": "Episode 3/Chancellor in Peril/Chancellor in Peril/Chapter Completion - Unlock R2-D2"
+            "name": "Chancellor in Peril - Level Completion - Unlock R2-D2",
+            "ref": "Episode 3/Chancellor in Peril/Chancellor in Peril/Level Completion - Unlock R2-D2"
           },
           {
-            "name": "Chancellor in Peril - Chapter Completion - Unlock Anakin Skywalker (Jedi)",
-            "ref": "Episode 3/Chancellor in Peril/Chancellor in Peril/Chapter Completion - Unlock Anakin Skywalker (Jedi)"
+            "name": "Chancellor in Peril - Level Completion - Unlock Anakin Skywalker (Jedi)",
+            "ref": "Episode 3/Chancellor in Peril/Chancellor in Peril/Level Completion - Unlock Anakin Skywalker (Jedi)"
           },
           {
-            "name": "Chancellor in Peril - Chapter Completion - Unlock Chancellor Palpatine",
-            "ref": "Episode 3/Chancellor in Peril/Chancellor in Peril/Chapter Completion - Unlock Chancellor Palpatine"
+            "name": "Chancellor in Peril - Level Completion - Unlock Chancellor Palpatine",
+            "ref": "Episode 3/Chancellor in Peril/Chancellor in Peril/Level Completion - Unlock Chancellor Palpatine"
           },
           {
-            "name": "Chancellor in Peril - Chapter Completion - Unlock Obi-Wan Kenobi (Episode 3)",
-            "ref": "Episode 3/Chancellor in Peril/Chancellor in Peril/Chapter Completion - Unlock Obi-Wan Kenobi (Episode 3)"
+            "name": "Chancellor in Peril - Level Completion - Unlock Obi-Wan Kenobi (Episode 3)",
+            "ref": "Episode 3/Chancellor in Peril/Chancellor in Peril/Level Completion - Unlock Obi-Wan Kenobi (Episode 3)"
           },
           {
             "name": "General Grievous - 3-3 Minikit 1",
@@ -1130,12 +1130,12 @@
             "ref": "Episode 3/General Grievous/General Grievous/3-3 Completion"
           },
           {
-            "name": "General Grievous - Chapter Completion - Unlock Obi-Wan Kenobi (Episode 3)",
-            "ref": "Episode 3/General Grievous/General Grievous/Chapter Completion - Unlock Obi-Wan Kenobi (Episode 3)"
+            "name": "General Grievous - Level Completion - Unlock Obi-Wan Kenobi (Episode 3)",
+            "ref": "Episode 3/General Grievous/General Grievous/Level Completion - Unlock Obi-Wan Kenobi (Episode 3)"
           },
           {
-            "name": "General Grievous - Chapter Completion - Unlock Commander Cody",
-            "ref": "Episode 3/General Grievous/General Grievous/Chapter Completion - Unlock Commander Cody"
+            "name": "General Grievous - Level Completion - Unlock Commander Cody",
+            "ref": "Episode 3/General Grievous/General Grievous/Level Completion - Unlock Commander Cody"
           },
           {
             "name": "Defense of Kashyyyk - 3-4 Minikit 1",
@@ -1210,12 +1210,12 @@
             "ref": "Episode 3/Defense of Kashyyyk/Defense of Kashyyyk/3-4 Completion"
           },
           {
-            "name": "Defense of Kashyyyk - Chapter Completion - Unlock Yoda",
-            "ref": "Episode 3/Defense of Kashyyyk/Defense of Kashyyyk/Chapter Completion - Unlock Yoda"
+            "name": "Defense of Kashyyyk - Level Completion - Unlock Yoda",
+            "ref": "Episode 3/Defense of Kashyyyk/Defense of Kashyyyk/Level Completion - Unlock Yoda"
           },
           {
-            "name": "Defense of Kashyyyk - Chapter Completion - Unlock Chewbacca",
-            "ref": "Episode 3/Defense of Kashyyyk/Defense of Kashyyyk/Chapter Completion - Unlock Chewbacca"
+            "name": "Defense of Kashyyyk - Level Completion - Unlock Chewbacca",
+            "ref": "Episode 3/Defense of Kashyyyk/Defense of Kashyyyk/Level Completion - Unlock Chewbacca"
           },
           {
             "name": "Defense of Kashyyyk - Ride Clone Walker",
@@ -1282,12 +1282,12 @@
             "ref": "Episode 3/Ruin of the Jedi/Ruin of the Jedi/3-5 Completion"
           },
           {
-            "name": "Ruin of the Jedi - Chapter Completion - Unlock Yoda",
-            "ref": "Episode 3/Ruin of the Jedi/Ruin of the Jedi/Chapter Completion - Unlock Yoda"
+            "name": "Ruin of the Jedi - Level Completion - Unlock Yoda",
+            "ref": "Episode 3/Ruin of the Jedi/Ruin of the Jedi/Level Completion - Unlock Yoda"
           },
           {
-            "name": "Ruin of the Jedi - Chapter Completion - Unlock Obi-Wan Kenobi (Episode 3)",
-            "ref": "Episode 3/Ruin of the Jedi/Ruin of the Jedi/Chapter Completion - Unlock Obi-Wan Kenobi (Episode 3)"
+            "name": "Ruin of the Jedi - Level Completion - Unlock Obi-Wan Kenobi (Episode 3)",
+            "ref": "Episode 3/Ruin of the Jedi/Ruin of the Jedi/Level Completion - Unlock Obi-Wan Kenobi (Episode 3)"
           },
           {
             "name": "Darth Vader - 3-6 Minikit 1",
@@ -1342,12 +1342,12 @@
             "ref": "Episode 3/Darth Vader/Darth Vader/3-6 Completion"
           },
           {
-            "name": "Darth Vader - Chapter Completion - Unlock Anakin Skywalker (Jedi)",
-            "ref": "Episode 3/Darth Vader/Darth Vader/Chapter Completion - Unlock Anakin Skywalker (Jedi)"
+            "name": "Darth Vader - Level Completion - Unlock Anakin Skywalker (Jedi)",
+            "ref": "Episode 3/Darth Vader/Darth Vader/Level Completion - Unlock Anakin Skywalker (Jedi)"
           },
           {
-            "name": "Darth Vader - Chapter Completion - Unlock Obi-Wan Kenobi (Episode 3)",
-            "ref": "Episode 3/Darth Vader/Darth Vader/Chapter Completion - Unlock Obi-Wan Kenobi (Episode 3)"
+            "name": "Darth Vader - Level Completion - Unlock Obi-Wan Kenobi (Episode 3)",
+            "ref": "Episode 3/Darth Vader/Darth Vader/Level Completion - Unlock Obi-Wan Kenobi (Episode 3)"
           }
         ],
         "map_locations": [
@@ -1426,24 +1426,24 @@
             "ref": "Episode 4/Secret Plans/Secret Plans/4-1 Completion"
           },
           {
-            "name": "Secret Plans - Chapter Completion - Unlock R2-D2",
-            "ref": "Episode 4/Secret Plans/Secret Plans/Chapter Completion - Unlock R2-D2"
+            "name": "Secret Plans - Level Completion - Unlock R2-D2",
+            "ref": "Episode 4/Secret Plans/Secret Plans/Level Completion - Unlock R2-D2"
           },
           {
-            "name": "Secret Plans - Chapter Completion - Unlock C-3PO",
-            "ref": "Episode 4/Secret Plans/Secret Plans/Chapter Completion - Unlock C-3PO"
+            "name": "Secret Plans - Level Completion - Unlock C-3PO",
+            "ref": "Episode 4/Secret Plans/Secret Plans/Level Completion - Unlock C-3PO"
           },
           {
-            "name": "Secret Plans - Chapter Completion - Unlock Captain Antilles",
-            "ref": "Episode 4/Secret Plans/Secret Plans/Chapter Completion - Unlock Captain Antilles"
+            "name": "Secret Plans - Level Completion - Unlock Captain Antilles",
+            "ref": "Episode 4/Secret Plans/Secret Plans/Level Completion - Unlock Captain Antilles"
           },
           {
-            "name": "Secret Plans - Chapter Completion - Unlock Princess Leia",
-            "ref": "Episode 4/Secret Plans/Secret Plans/Chapter Completion - Unlock Princess Leia"
+            "name": "Secret Plans - Level Completion - Unlock Princess Leia",
+            "ref": "Episode 4/Secret Plans/Secret Plans/Level Completion - Unlock Princess Leia"
           },
           {
-            "name": "Secret Plans - Chapter Completion - Unlock Rebel Friend",
-            "ref": "Episode 4/Secret Plans/Secret Plans/Chapter Completion - Unlock Rebel Friend"
+            "name": "Secret Plans - Level Completion - Unlock Rebel Friend",
+            "ref": "Episode 4/Secret Plans/Secret Plans/Level Completion - Unlock Rebel Friend"
           },
           {
             "name": "Secret Plans - Ride Crane Control",
@@ -1518,20 +1518,20 @@
             "ref": "Episode 4/Through the Jundland Wastes/Through the Jundland Wastes/4-2 Completion"
           },
           {
-            "name": "Through the Jundland Wastes - Chapter Completion - Unlock R2-D2",
-            "ref": "Episode 4/Through the Jundland Wastes/Through the Jundland Wastes/Chapter Completion - Unlock R2-D2"
+            "name": "Through the Jundland Wastes - Level Completion - Unlock R2-D2",
+            "ref": "Episode 4/Through the Jundland Wastes/Through the Jundland Wastes/Level Completion - Unlock R2-D2"
           },
           {
-            "name": "Through the Jundland Wastes - Chapter Completion - Unlock C-3PO",
-            "ref": "Episode 4/Through the Jundland Wastes/Through the Jundland Wastes/Chapter Completion - Unlock C-3PO"
+            "name": "Through the Jundland Wastes - Level Completion - Unlock C-3PO",
+            "ref": "Episode 4/Through the Jundland Wastes/Through the Jundland Wastes/Level Completion - Unlock C-3PO"
           },
           {
-            "name": "Through the Jundland Wastes - Chapter Completion - Unlock Ben Kenobi",
-            "ref": "Episode 4/Through the Jundland Wastes/Through the Jundland Wastes/Chapter Completion - Unlock Ben Kenobi"
+            "name": "Through the Jundland Wastes - Level Completion - Unlock Ben Kenobi",
+            "ref": "Episode 4/Through the Jundland Wastes/Through the Jundland Wastes/Level Completion - Unlock Ben Kenobi"
           },
           {
-            "name": "Through the Jundland Wastes - Chapter Completion - Unlock Luke Skywalker (Tatooine)",
-            "ref": "Episode 4/Through the Jundland Wastes/Through the Jundland Wastes/Chapter Completion - Unlock Luke Skywalker (Tatooine)"
+            "name": "Through the Jundland Wastes - Level Completion - Unlock Luke Skywalker (Tatooine)",
+            "ref": "Episode 4/Through the Jundland Wastes/Through the Jundland Wastes/Level Completion - Unlock Luke Skywalker (Tatooine)"
           },
           {
             "name": "Through the Jundland Wastes - Ride Bantha",
@@ -1610,28 +1610,28 @@
             "ref": "Episode 4/Mos Eisley Spaceport/Mos Eisley Spaceport/4-3 Completion"
           },
           {
-            "name": "Mos Eisley Spaceport - Chapter Completion - Unlock R2-D2",
-            "ref": "Episode 4/Mos Eisley Spaceport/Mos Eisley Spaceport/Chapter Completion - Unlock R2-D2"
+            "name": "Mos Eisley Spaceport - Level Completion - Unlock R2-D2",
+            "ref": "Episode 4/Mos Eisley Spaceport/Mos Eisley Spaceport/Level Completion - Unlock R2-D2"
           },
           {
-            "name": "Mos Eisley Spaceport - Chapter Completion - Unlock C-3PO",
-            "ref": "Episode 4/Mos Eisley Spaceport/Mos Eisley Spaceport/Chapter Completion - Unlock C-3PO"
+            "name": "Mos Eisley Spaceport - Level Completion - Unlock C-3PO",
+            "ref": "Episode 4/Mos Eisley Spaceport/Mos Eisley Spaceport/Level Completion - Unlock C-3PO"
           },
           {
-            "name": "Mos Eisley Spaceport - Chapter Completion - Unlock Chewbacca",
-            "ref": "Episode 4/Mos Eisley Spaceport/Mos Eisley Spaceport/Chapter Completion - Unlock Chewbacca"
+            "name": "Mos Eisley Spaceport - Level Completion - Unlock Chewbacca",
+            "ref": "Episode 4/Mos Eisley Spaceport/Mos Eisley Spaceport/Level Completion - Unlock Chewbacca"
           },
           {
-            "name": "Mos Eisley Spaceport - Chapter Completion - Unlock Ben Kenobi",
-            "ref": "Episode 4/Mos Eisley Spaceport/Mos Eisley Spaceport/Chapter Completion - Unlock Ben Kenobi"
+            "name": "Mos Eisley Spaceport - Level Completion - Unlock Ben Kenobi",
+            "ref": "Episode 4/Mos Eisley Spaceport/Mos Eisley Spaceport/Level Completion - Unlock Ben Kenobi"
           },
           {
-            "name": "Mos Eisley Spaceport - Chapter Completion - Unlock Luke Skywalker (Tatooine)",
-            "ref": "Episode 4/Mos Eisley Spaceport/Mos Eisley Spaceport/Chapter Completion - Unlock Luke Skywalker (Tatooine)"
+            "name": "Mos Eisley Spaceport - Level Completion - Unlock Luke Skywalker (Tatooine)",
+            "ref": "Episode 4/Mos Eisley Spaceport/Mos Eisley Spaceport/Level Completion - Unlock Luke Skywalker (Tatooine)"
           },
           {
-            "name": "Mos Eisley Spaceport - Chapter Completion - Unlock Han Solo",
-            "ref": "Episode 4/Mos Eisley Spaceport/Mos Eisley Spaceport/Chapter Completion - Unlock Han Solo"
+            "name": "Mos Eisley Spaceport - Level Completion - Unlock Han Solo",
+            "ref": "Episode 4/Mos Eisley Spaceport/Mos Eisley Spaceport/Level Completion - Unlock Han Solo"
           },
           {
             "name": "Mos Eisley Spaceport - Ride AT-ST",
@@ -1722,28 +1722,28 @@
             "ref": "Episode 4/Rescue the Princess/Rescue the Princess/4-4 Completion"
           },
           {
-            "name": "Rescue the Princess - Chapter Completion - Unlock R2-D2",
-            "ref": "Episode 4/Rescue the Princess/Rescue the Princess/Chapter Completion - Unlock R2-D2"
+            "name": "Rescue the Princess - Level Completion - Unlock R2-D2",
+            "ref": "Episode 4/Rescue the Princess/Rescue the Princess/Level Completion - Unlock R2-D2"
           },
           {
-            "name": "Rescue the Princess - Chapter Completion - Unlock C-3PO",
-            "ref": "Episode 4/Rescue the Princess/Rescue the Princess/Chapter Completion - Unlock C-3PO"
+            "name": "Rescue the Princess - Level Completion - Unlock C-3PO",
+            "ref": "Episode 4/Rescue the Princess/Rescue the Princess/Level Completion - Unlock C-3PO"
           },
           {
-            "name": "Rescue the Princess - Chapter Completion - Unlock Chewbacca",
-            "ref": "Episode 4/Rescue the Princess/Rescue the Princess/Chapter Completion - Unlock Chewbacca"
+            "name": "Rescue the Princess - Level Completion - Unlock Chewbacca",
+            "ref": "Episode 4/Rescue the Princess/Rescue the Princess/Level Completion - Unlock Chewbacca"
           },
           {
-            "name": "Rescue the Princess - Chapter Completion - Unlock Ben Kenobi",
-            "ref": "Episode 4/Rescue the Princess/Rescue the Princess/Chapter Completion - Unlock Ben Kenobi"
+            "name": "Rescue the Princess - Level Completion - Unlock Ben Kenobi",
+            "ref": "Episode 4/Rescue the Princess/Rescue the Princess/Level Completion - Unlock Ben Kenobi"
           },
           {
-            "name": "Rescue the Princess - Chapter Completion - Unlock Han Solo (Stormtrooper)",
-            "ref": "Episode 4/Rescue the Princess/Rescue the Princess/Chapter Completion - Unlock Han Solo (Stormtrooper)"
+            "name": "Rescue the Princess - Level Completion - Unlock Han Solo (Stormtrooper)",
+            "ref": "Episode 4/Rescue the Princess/Rescue the Princess/Level Completion - Unlock Han Solo (Stormtrooper)"
           },
           {
-            "name": "Rescue the Princess - Chapter Completion - Unlock Luke Skywalker (Stormtrooper)",
-            "ref": "Episode 4/Rescue the Princess/Rescue the Princess/Chapter Completion - Unlock Luke Skywalker (Stormtrooper)"
+            "name": "Rescue the Princess - Level Completion - Unlock Luke Skywalker (Stormtrooper)",
+            "ref": "Episode 4/Rescue the Princess/Rescue the Princess/Level Completion - Unlock Luke Skywalker (Stormtrooper)"
           },
           {
             "name": "Rescue the Princess - Ride Crane Control",
@@ -1802,28 +1802,28 @@
             "ref": "Episode 4/Death Star Escape/Death Star Escape/4-5 Completion"
           },
           {
-            "name": "Death Star Escape - Chapter Completion - Unlock R2-D2",
-            "ref": "Episode 4/Death Star Escape/Death Star Escape/Chapter Completion - Unlock R2-D2"
+            "name": "Death Star Escape - Level Completion - Unlock R2-D2",
+            "ref": "Episode 4/Death Star Escape/Death Star Escape/Level Completion - Unlock R2-D2"
           },
           {
-            "name": "Death Star Escape - Chapter Completion - Unlock C-3PO",
-            "ref": "Episode 4/Death Star Escape/Death Star Escape/Chapter Completion - Unlock C-3PO"
+            "name": "Death Star Escape - Level Completion - Unlock C-3PO",
+            "ref": "Episode 4/Death Star Escape/Death Star Escape/Level Completion - Unlock C-3PO"
           },
           {
-            "name": "Death Star Escape - Chapter Completion - Unlock Chewbacca",
-            "ref": "Episode 4/Death Star Escape/Death Star Escape/Chapter Completion - Unlock Chewbacca"
+            "name": "Death Star Escape - Level Completion - Unlock Chewbacca",
+            "ref": "Episode 4/Death Star Escape/Death Star Escape/Level Completion - Unlock Chewbacca"
           },
           {
-            "name": "Death Star Escape - Chapter Completion - Unlock Princess Leia",
-            "ref": "Episode 4/Death Star Escape/Death Star Escape/Chapter Completion - Unlock Princess Leia"
+            "name": "Death Star Escape - Level Completion - Unlock Princess Leia",
+            "ref": "Episode 4/Death Star Escape/Death Star Escape/Level Completion - Unlock Princess Leia"
           },
           {
-            "name": "Death Star Escape - Chapter Completion - Unlock Luke Skywalker (Tatooine)",
-            "ref": "Episode 4/Death Star Escape/Death Star Escape/Chapter Completion - Unlock Luke Skywalker (Tatooine)"
+            "name": "Death Star Escape - Level Completion - Unlock Luke Skywalker (Tatooine)",
+            "ref": "Episode 4/Death Star Escape/Death Star Escape/Level Completion - Unlock Luke Skywalker (Tatooine)"
           },
           {
-            "name": "Death Star Escape - Chapter Completion - Unlock Han Solo",
-            "ref": "Episode 4/Death Star Escape/Death Star Escape/Chapter Completion - Unlock Han Solo"
+            "name": "Death Star Escape - Level Completion - Unlock Han Solo",
+            "ref": "Episode 4/Death Star Escape/Death Star Escape/Level Completion - Unlock Han Solo"
           },
           {
             "name": "Death Star Escape - Ride Crane Control",
@@ -1898,12 +1898,12 @@
             "ref": "Episode 4/Rebel Attack/Rebel Attack/4-6 Completion"
           },
           {
-            "name": "Rebel Attack - Chapter Completion - Unlock X-Wing",
-            "ref": "Episode 4/Rebel Attack/Rebel Attack/Chapter Completion - Unlock X-Wing"
+            "name": "Rebel Attack - Level Completion - Unlock X-Wing",
+            "ref": "Episode 4/Rebel Attack/Rebel Attack/Level Completion - Unlock X-Wing"
           },
           {
-            "name": "Rebel Attack - Chapter Completion - Unlock Y-Wing",
-            "ref": "Episode 4/Rebel Attack/Rebel Attack/Chapter Completion - Unlock Y-Wing"
+            "name": "Rebel Attack - Level Completion - Unlock Y-Wing",
+            "ref": "Episode 4/Rebel Attack/Rebel Attack/Level Completion - Unlock Y-Wing"
           }
         ],
         "map_locations": [
@@ -1970,8 +1970,8 @@
             "ref": "Episode 5/Hoth Battle/Hoth Battle/5-1 Completion"
           },
           {
-            "name": "Hoth Battle - Chapter Completion - Unlock Snowspeeder",
-            "ref": "Episode 5/Hoth Battle/Hoth Battle/Chapter Completion - Unlock Snowspeeder"
+            "name": "Hoth Battle - Level Completion - Unlock Snowspeeder",
+            "ref": "Episode 5/Hoth Battle/Hoth Battle/Level Completion - Unlock Snowspeeder"
           },
           {
             "name": "Escape From Echo Base - 5-2 Minikit 1",
@@ -2046,20 +2046,20 @@
             "ref": "Episode 5/Escape From Echo Base/Escape From Echo Base/5-2 Completion"
           },
           {
-            "name": "Escape From Echo Base - Chapter Completion - Unlock C-3PO",
-            "ref": "Episode 5/Escape From Echo Base/Escape From Echo Base/Chapter Completion - Unlock C-3PO"
+            "name": "Escape From Echo Base - Level Completion - Unlock C-3PO",
+            "ref": "Episode 5/Escape From Echo Base/Escape From Echo Base/Level Completion - Unlock C-3PO"
           },
           {
-            "name": "Escape From Echo Base - Chapter Completion - Unlock Chewbacca",
-            "ref": "Episode 5/Escape From Echo Base/Escape From Echo Base/Chapter Completion - Unlock Chewbacca"
+            "name": "Escape From Echo Base - Level Completion - Unlock Chewbacca",
+            "ref": "Episode 5/Escape From Echo Base/Escape From Echo Base/Level Completion - Unlock Chewbacca"
           },
           {
-            "name": "Escape From Echo Base - Chapter Completion - Unlock Han Solo (Hoth)",
-            "ref": "Episode 5/Escape From Echo Base/Escape From Echo Base/Chapter Completion - Unlock Han Solo (Hoth)"
+            "name": "Escape From Echo Base - Level Completion - Unlock Han Solo (Hoth)",
+            "ref": "Episode 5/Escape From Echo Base/Escape From Echo Base/Level Completion - Unlock Han Solo (Hoth)"
           },
           {
-            "name": "Escape From Echo Base - Chapter Completion - Unlock Princess Leia (Hoth)",
-            "ref": "Episode 5/Escape From Echo Base/Escape From Echo Base/Chapter Completion - Unlock Princess Leia (Hoth)"
+            "name": "Escape From Echo Base - Level Completion - Unlock Princess Leia (Hoth)",
+            "ref": "Episode 5/Escape From Echo Base/Escape From Echo Base/Level Completion - Unlock Princess Leia (Hoth)"
           },
           {
             "name": "Escape From Echo Base - Ride Snowmobile",
@@ -2130,12 +2130,12 @@
             "ref": "Episode 5/Falcon Flight/Falcon Flight/5-3 Completion"
           },
           {
-            "name": "Falcon Flight - Chapter Completion - Unlock X-Wing",
-            "ref": "Episode 5/Falcon Flight/Falcon Flight/Chapter Completion - Unlock X-Wing"
+            "name": "Falcon Flight - Level Completion - Unlock X-Wing",
+            "ref": "Episode 5/Falcon Flight/Falcon Flight/Level Completion - Unlock X-Wing"
           },
           {
-            "name": "Falcon Flight - Chapter Completion - Unlock Millennium Falcon",
-            "ref": "Episode 5/Falcon Flight/Falcon Flight/Chapter Completion - Unlock Millennium Falcon"
+            "name": "Falcon Flight - Level Completion - Unlock Millennium Falcon",
+            "ref": "Episode 5/Falcon Flight/Falcon Flight/Level Completion - Unlock Millennium Falcon"
           },
           {
             "name": "Falcon Flight - Purchase Score x4",
@@ -2194,20 +2194,20 @@
             "ref": "Episode 5/Dagobah/Dagobah/5-4 Completion"
           },
           {
-            "name": "Dagobah - Chapter Completion - Unlock R2-D2",
-            "ref": "Episode 5/Dagobah/Dagobah/Chapter Completion - Unlock R2-D2"
+            "name": "Dagobah - Level Completion - Unlock R2-D2",
+            "ref": "Episode 5/Dagobah/Dagobah/Level Completion - Unlock R2-D2"
           },
           {
-            "name": "Dagobah - Chapter Completion - Unlock Yoda",
-            "ref": "Episode 5/Dagobah/Dagobah/Chapter Completion - Unlock Yoda"
+            "name": "Dagobah - Level Completion - Unlock Yoda",
+            "ref": "Episode 5/Dagobah/Dagobah/Level Completion - Unlock Yoda"
           },
           {
-            "name": "Dagobah - Chapter Completion - Unlock Luke Skywalker (Dagobah)",
-            "ref": "Episode 5/Dagobah/Dagobah/Chapter Completion - Unlock Luke Skywalker (Dagobah)"
+            "name": "Dagobah - Level Completion - Unlock Luke Skywalker (Dagobah)",
+            "ref": "Episode 5/Dagobah/Dagobah/Level Completion - Unlock Luke Skywalker (Dagobah)"
           },
           {
-            "name": "Dagobah - Chapter Completion - Unlock Luke Skywalker (Pilot)",
-            "ref": "Episode 5/Dagobah/Dagobah/Chapter Completion - Unlock Luke Skywalker (Pilot)"
+            "name": "Dagobah - Level Completion - Unlock Luke Skywalker (Pilot)",
+            "ref": "Episode 5/Dagobah/Dagobah/Level Completion - Unlock Luke Skywalker (Pilot)"
           },
           {
             "name": "Dagobah - Ride Tractor",
@@ -2262,12 +2262,12 @@
             "ref": "Episode 5/Cloud City Trap/Cloud City Trap/5-5 Completion"
           },
           {
-            "name": "Cloud City Trap - Chapter Completion - Unlock R2-D2",
-            "ref": "Episode 5/Cloud City Trap/Cloud City Trap/Chapter Completion - Unlock R2-D2"
+            "name": "Cloud City Trap - Level Completion - Unlock R2-D2",
+            "ref": "Episode 5/Cloud City Trap/Cloud City Trap/Level Completion - Unlock R2-D2"
           },
           {
-            "name": "Cloud City Trap - Chapter Completion - Unlock Luke Skywalker (Bespin)",
-            "ref": "Episode 5/Cloud City Trap/Cloud City Trap/Chapter Completion - Unlock Luke Skywalker (Bespin)"
+            "name": "Cloud City Trap - Level Completion - Unlock Luke Skywalker (Bespin)",
+            "ref": "Episode 5/Cloud City Trap/Cloud City Trap/Level Completion - Unlock Luke Skywalker (Bespin)"
           },
           {
             "name": "Cloud City Trap - Ride Stormtrooper Cannon",
@@ -2350,24 +2350,24 @@
             "ref": "Episode 5/Betrayal Over Bespin/Betrayal Over Bespin/5-6 Completion"
           },
           {
-            "name": "Betrayal Over Bespin - Chapter Completion - Unlock R2-D2",
-            "ref": "Episode 5/Betrayal Over Bespin/Betrayal Over Bespin/Chapter Completion - Unlock R2-D2"
+            "name": "Betrayal Over Bespin - Level Completion - Unlock R2-D2",
+            "ref": "Episode 5/Betrayal Over Bespin/Betrayal Over Bespin/Level Completion - Unlock R2-D2"
           },
           {
-            "name": "Betrayal Over Bespin - Chapter Completion - Unlock C-3PO",
-            "ref": "Episode 5/Betrayal Over Bespin/Betrayal Over Bespin/Chapter Completion - Unlock C-3PO"
+            "name": "Betrayal Over Bespin - Level Completion - Unlock C-3PO",
+            "ref": "Episode 5/Betrayal Over Bespin/Betrayal Over Bespin/Level Completion - Unlock C-3PO"
           },
           {
-            "name": "Betrayal Over Bespin - Chapter Completion - Unlock Chewbacca",
-            "ref": "Episode 5/Betrayal Over Bespin/Betrayal Over Bespin/Chapter Completion - Unlock Chewbacca"
+            "name": "Betrayal Over Bespin - Level Completion - Unlock Chewbacca",
+            "ref": "Episode 5/Betrayal Over Bespin/Betrayal Over Bespin/Level Completion - Unlock Chewbacca"
           },
           {
-            "name": "Betrayal Over Bespin - Chapter Completion - Unlock Lando Calrissian",
-            "ref": "Episode 5/Betrayal Over Bespin/Betrayal Over Bespin/Chapter Completion - Unlock Lando Calrissian"
+            "name": "Betrayal Over Bespin - Level Completion - Unlock Lando Calrissian",
+            "ref": "Episode 5/Betrayal Over Bespin/Betrayal Over Bespin/Level Completion - Unlock Lando Calrissian"
           },
           {
-            "name": "Betrayal Over Bespin - Chapter Completion - Unlock Princess Leia (Bespin)",
-            "ref": "Episode 5/Betrayal Over Bespin/Betrayal Over Bespin/Chapter Completion - Unlock Princess Leia (Bespin)"
+            "name": "Betrayal Over Bespin - Level Completion - Unlock Princess Leia (Bespin)",
+            "ref": "Episode 5/Betrayal Over Bespin/Betrayal Over Bespin/Level Completion - Unlock Princess Leia (Bespin)"
           },
           {
             "name": "Betrayal Over Bespin - Ride Cloud Car",
@@ -2458,28 +2458,28 @@
             "ref": "Episode 6/Jabba's Palace/Jabba's Palace/6-1 Completion"
           },
           {
-            "name": "Jabba's Palace - Chapter Completion - Unlock R2-D2",
-            "ref": "Episode 6/Jabba's Palace/Jabba's Palace/Chapter Completion - Unlock R2-D2"
+            "name": "Jabba's Palace - Level Completion - Unlock R2-D2",
+            "ref": "Episode 6/Jabba's Palace/Jabba's Palace/Level Completion - Unlock R2-D2"
           },
           {
-            "name": "Jabba's Palace - Chapter Completion - Unlock C-3PO",
-            "ref": "Episode 6/Jabba's Palace/Jabba's Palace/Chapter Completion - Unlock C-3PO"
+            "name": "Jabba's Palace - Level Completion - Unlock C-3PO",
+            "ref": "Episode 6/Jabba's Palace/Jabba's Palace/Level Completion - Unlock C-3PO"
           },
           {
-            "name": "Jabba's Palace - Chapter Completion - Unlock Chewbacca",
-            "ref": "Episode 6/Jabba's Palace/Jabba's Palace/Chapter Completion - Unlock Chewbacca"
+            "name": "Jabba's Palace - Level Completion - Unlock Chewbacca",
+            "ref": "Episode 6/Jabba's Palace/Jabba's Palace/Level Completion - Unlock Chewbacca"
           },
           {
-            "name": "Jabba's Palace - Chapter Completion - Unlock Han Solo (Skiff)",
-            "ref": "Episode 6/Jabba's Palace/Jabba's Palace/Chapter Completion - Unlock Han Solo (Skiff)"
+            "name": "Jabba's Palace - Level Completion - Unlock Han Solo (Skiff)",
+            "ref": "Episode 6/Jabba's Palace/Jabba's Palace/Level Completion - Unlock Han Solo (Skiff)"
           },
           {
-            "name": "Jabba's Palace - Chapter Completion - Unlock Princess Leia (Boushh)",
-            "ref": "Episode 6/Jabba's Palace/Jabba's Palace/Chapter Completion - Unlock Princess Leia (Boushh)"
+            "name": "Jabba's Palace - Level Completion - Unlock Princess Leia (Boushh)",
+            "ref": "Episode 6/Jabba's Palace/Jabba's Palace/Level Completion - Unlock Princess Leia (Boushh)"
           },
           {
-            "name": "Jabba's Palace - Chapter Completion - Unlock Luke Skywalker (Jedi)",
-            "ref": "Episode 6/Jabba's Palace/Jabba's Palace/Chapter Completion - Unlock Luke Skywalker (Jedi)"
+            "name": "Jabba's Palace - Level Completion - Unlock Luke Skywalker (Jedi)",
+            "ref": "Episode 6/Jabba's Palace/Jabba's Palace/Level Completion - Unlock Luke Skywalker (Jedi)"
           },
           {
             "name": "Pit of Carkoon - 6-2 Minikit 1",
@@ -2542,32 +2542,32 @@
             "ref": "Episode 6/Pit of Carkoon/Pit of Carkoon/6-2 Completion"
           },
           {
-            "name": "Pit of Carkoon - Chapter Completion - Unlock R2-D2",
-            "ref": "Episode 6/Pit of Carkoon/Pit of Carkoon/Chapter Completion - Unlock R2-D2"
+            "name": "Pit of Carkoon - Level Completion - Unlock R2-D2",
+            "ref": "Episode 6/Pit of Carkoon/Pit of Carkoon/Level Completion - Unlock R2-D2"
           },
           {
-            "name": "Pit of Carkoon - Chapter Completion - Unlock C-3PO",
-            "ref": "Episode 6/Pit of Carkoon/Pit of Carkoon/Chapter Completion - Unlock C-3PO"
+            "name": "Pit of Carkoon - Level Completion - Unlock C-3PO",
+            "ref": "Episode 6/Pit of Carkoon/Pit of Carkoon/Level Completion - Unlock C-3PO"
           },
           {
-            "name": "Pit of Carkoon - Chapter Completion - Unlock Chewbacca",
-            "ref": "Episode 6/Pit of Carkoon/Pit of Carkoon/Chapter Completion - Unlock Chewbacca"
+            "name": "Pit of Carkoon - Level Completion - Unlock Chewbacca",
+            "ref": "Episode 6/Pit of Carkoon/Pit of Carkoon/Level Completion - Unlock Chewbacca"
           },
           {
-            "name": "Pit of Carkoon - Chapter Completion - Unlock Han Solo (Skiff)",
-            "ref": "Episode 6/Pit of Carkoon/Pit of Carkoon/Chapter Completion - Unlock Han Solo (Skiff)"
+            "name": "Pit of Carkoon - Level Completion - Unlock Han Solo (Skiff)",
+            "ref": "Episode 6/Pit of Carkoon/Pit of Carkoon/Level Completion - Unlock Han Solo (Skiff)"
           },
           {
-            "name": "Pit of Carkoon - Chapter Completion - Unlock Luke Skywalker (Jedi)",
-            "ref": "Episode 6/Pit of Carkoon/Pit of Carkoon/Chapter Completion - Unlock Luke Skywalker (Jedi)"
+            "name": "Pit of Carkoon - Level Completion - Unlock Luke Skywalker (Jedi)",
+            "ref": "Episode 6/Pit of Carkoon/Pit of Carkoon/Level Completion - Unlock Luke Skywalker (Jedi)"
           },
           {
-            "name": "Pit of Carkoon - Chapter Completion - Unlock Princess Leia (Slave)",
-            "ref": "Episode 6/Pit of Carkoon/Pit of Carkoon/Chapter Completion - Unlock Princess Leia (Slave)"
+            "name": "Pit of Carkoon - Level Completion - Unlock Princess Leia (Slave)",
+            "ref": "Episode 6/Pit of Carkoon/Pit of Carkoon/Level Completion - Unlock Princess Leia (Slave)"
           },
           {
-            "name": "Pit of Carkoon - Chapter Completion - Unlock Lando Calrissian (Palace Guard)",
-            "ref": "Episode 6/Pit of Carkoon/Pit of Carkoon/Chapter Completion - Unlock Lando Calrissian (Palace Guard)"
+            "name": "Pit of Carkoon - Level Completion - Unlock Lando Calrissian (Palace Guard)",
+            "ref": "Episode 6/Pit of Carkoon/Pit of Carkoon/Level Completion - Unlock Lando Calrissian (Palace Guard)"
           },
           {
             "name": "Pit of Carkoon - Ride Skiff Cannon",
@@ -2626,12 +2626,12 @@
             "ref": "Episode 6/Speeder Showdown/Speeder Showdown/6-3 Completion"
           },
           {
-            "name": "Speeder Showdown - Chapter Completion - Unlock Luke Skywalker (Endor)",
-            "ref": "Episode 6/Speeder Showdown/Speeder Showdown/Chapter Completion - Unlock Luke Skywalker (Endor)"
+            "name": "Speeder Showdown - Level Completion - Unlock Luke Skywalker (Endor)",
+            "ref": "Episode 6/Speeder Showdown/Speeder Showdown/Level Completion - Unlock Luke Skywalker (Endor)"
           },
           {
-            "name": "Speeder Showdown - Chapter Completion - Unlock Princess Leia (Endor)",
-            "ref": "Episode 6/Speeder Showdown/Speeder Showdown/Chapter Completion - Unlock Princess Leia (Endor)"
+            "name": "Speeder Showdown - Level Completion - Unlock Princess Leia (Endor)",
+            "ref": "Episode 6/Speeder Showdown/Speeder Showdown/Level Completion - Unlock Princess Leia (Endor)"
           },
           {
             "name": "Speeder Showdown - Ride Speeder Bike",
@@ -2706,28 +2706,28 @@
             "ref": "Episode 6/Battle of Endor/Battle of Endor/6-4 Completion"
           },
           {
-            "name": "Battle of Endor - Chapter Completion - Unlock R2-D2",
-            "ref": "Episode 6/Battle of Endor/Battle of Endor/Chapter Completion - Unlock R2-D2"
+            "name": "Battle of Endor - Level Completion - Unlock R2-D2",
+            "ref": "Episode 6/Battle of Endor/Battle of Endor/Level Completion - Unlock R2-D2"
           },
           {
-            "name": "Battle of Endor - Chapter Completion - Unlock C-3PO",
-            "ref": "Episode 6/Battle of Endor/Battle of Endor/Chapter Completion - Unlock C-3PO"
+            "name": "Battle of Endor - Level Completion - Unlock C-3PO",
+            "ref": "Episode 6/Battle of Endor/Battle of Endor/Level Completion - Unlock C-3PO"
           },
           {
-            "name": "Battle of Endor - Chapter Completion - Unlock Chewbacca",
-            "ref": "Episode 6/Battle of Endor/Battle of Endor/Chapter Completion - Unlock Chewbacca"
+            "name": "Battle of Endor - Level Completion - Unlock Chewbacca",
+            "ref": "Episode 6/Battle of Endor/Battle of Endor/Level Completion - Unlock Chewbacca"
           },
           {
-            "name": "Battle of Endor - Chapter Completion - Unlock Princess Leia (Endor)",
-            "ref": "Episode 6/Battle of Endor/Battle of Endor/Chapter Completion - Unlock Princess Leia (Endor)"
+            "name": "Battle of Endor - Level Completion - Unlock Princess Leia (Endor)",
+            "ref": "Episode 6/Battle of Endor/Battle of Endor/Level Completion - Unlock Princess Leia (Endor)"
           },
           {
-            "name": "Battle of Endor - Chapter Completion - Unlock Han Solo (Endor)",
-            "ref": "Episode 6/Battle of Endor/Battle of Endor/Chapter Completion - Unlock Han Solo (Endor)"
+            "name": "Battle of Endor - Level Completion - Unlock Han Solo (Endor)",
+            "ref": "Episode 6/Battle of Endor/Battle of Endor/Level Completion - Unlock Han Solo (Endor)"
           },
           {
-            "name": "Battle of Endor - Chapter Completion - Unlock Wicket",
-            "ref": "Episode 6/Battle of Endor/Battle of Endor/Chapter Completion - Unlock Wicket"
+            "name": "Battle of Endor - Level Completion - Unlock Wicket",
+            "ref": "Episode 6/Battle of Endor/Battle of Endor/Level Completion - Unlock Wicket"
           },
           {
             "name": "Battle of Endor - Ride Tractor",
@@ -2802,12 +2802,12 @@
             "ref": "Episode 6/Jedi Destiny/Jedi Destiny/6-5 Completion"
           },
           {
-            "name": "Jedi Destiny - Chapter Completion - Unlock Luke Skywalker (Jedi)",
-            "ref": "Episode 6/Jedi Destiny/Jedi Destiny/Chapter Completion - Unlock Luke Skywalker (Jedi)"
+            "name": "Jedi Destiny - Level Completion - Unlock Luke Skywalker (Jedi)",
+            "ref": "Episode 6/Jedi Destiny/Jedi Destiny/Level Completion - Unlock Luke Skywalker (Jedi)"
           },
           {
-            "name": "Jedi Destiny - Chapter Completion - Unlock Darth Vader",
-            "ref": "Episode 6/Jedi Destiny/Jedi Destiny/Chapter Completion - Unlock Darth Vader"
+            "name": "Jedi Destiny - Level Completion - Unlock Darth Vader",
+            "ref": "Episode 6/Jedi Destiny/Jedi Destiny/Level Completion - Unlock Darth Vader"
           },
           {
             "name": "Into the Death Star - 6-6 Minikit 1",
@@ -2866,12 +2866,12 @@
             "ref": "Episode 6/Into the Death Star/Into the Death Star/6-6 Completion"
           },
           {
-            "name": "Into the Death Star - Chapter Completion - Unlock X-Wing",
-            "ref": "Episode 6/Into the Death Star/Into the Death Star/Chapter Completion - Unlock X-Wing"
+            "name": "Into the Death Star - Level Completion - Unlock X-Wing",
+            "ref": "Episode 6/Into the Death Star/Into the Death Star/Level Completion - Unlock X-Wing"
           },
           {
-            "name": "Into the Death Star - Chapter Completion - Unlock Millennium Falcon",
-            "ref": "Episode 6/Into the Death Star/Into the Death Star/Chapter Completion - Unlock Millennium Falcon"
+            "name": "Into the Death Star - Level Completion - Unlock Millennium Falcon",
+            "ref": "Episode 6/Into the Death Star/Into the Death Star/Level Completion - Unlock Millennium Falcon"
           }
         ],
         "map_locations": [
