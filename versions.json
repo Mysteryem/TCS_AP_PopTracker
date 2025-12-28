@@ -1,6 +1,18 @@
 {
     "versions": [
         {
+            "package_version": "1.2.1",
+            "download_url": "https://github.com/Mysteryem/TCS_AP_PopTracker/archive/refs/tags/v1.2.1.zip",
+            "sha256": "c08f5c7f6afb97b438ea69c8cccc86db64569c624881fa17feb9970c858a1821",
+            "changelog": [
+                "Updates the tracker to support the 1.2.1 apworld",
+                "Fix Poo Money's icon being the icon for Fertilizer",
+                "Fix difficulty true jedi logic being set on 1-1 instead of 1-6",
+                "Fix boss completions counting disabled duplicate bosses",
+                "Fix a typo in LEGO City's Gold Brick requirement"
+            ]
+        },
+        {
             "package_version": "1.1.2",
             "download_url": "https://github.com/Mysteryem/TCS_AP_PopTracker/archive/refs/tags/v1.1.2.zip",
             "sha256": "bc8ec2d6e65e3e050db7c2b43ae82629c1b46b1f70e306349d2dac86f5ba8cb1",
