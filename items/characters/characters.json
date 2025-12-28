@@ -1,0 +1,770 @@
+[
+  {
+    "name": "4-LOM",
+    "type": "toggle",
+    "img": "images/items/4-lom.png",
+    "codes": "4-lom, bounty, astromech, blaster"
+  },
+  {
+    "name": "Aayla Secura",
+    "type": "toggle",
+    "img": "images/items/aaylasecura.png",
+    "codes": "aaylasecura"
+  },
+  {
+    "name": "Admiral Ackbar",
+    "type": "toggle",
+    "img": "images/items/admiralackbar.png",
+    "codes": "admiralackbar, blaster"
+  },
+  {
+    "name": "Anakin Skywalker (Boy)",
+    "type": "toggle",
+    "img": "images/items/anakinskywalker(boy).png",
+    "codes": "anakinskywalker(boy), shortie"
+  },
+  {
+    "name": "Anakin Skywalker (Ghost)",
+    "type": "toggle",
+    "img": "images/items/anakinskywalker(ghost).png",
+    "codes": "anakinskywalker(ghost)"
+  },
+  {
+    "name": "Anakin Skywalker (Jedi)",
+    "type": "toggle",
+    "img": "images/items/anakinskywalker(jedi).png",
+    "codes": "anakinskywalker(jedi)"
+  },
+  {
+    "name": "Anakin Skywalker (Padawan)",
+    "type": "toggle",
+    "img": "images/items/anakinskywalker(padawan).png",
+    "codes": "anakinskywalker(padawan)"
+  },
+  {
+    "name": "Battle Droid",
+    "type": "toggle",
+    "img": "images/items/battledroid.png",
+    "codes": "battledroid"
+  },
+  {
+    "name": "Battle Droid (Commander)",
+    "type": "toggle",
+    "img": "images/items/battledroid(commander).png",
+    "codes": "battledroid(commander)"
+  },
+  {
+    "name": "Battle Droid (Geonosis)",
+    "type": "toggle",
+    "img": "images/items/battledroid(geonosis).png",
+    "codes": "battledroid(geonosis)"
+  },
+  {
+    "name": "Battle Droid (Security)",
+    "type": "toggle",
+    "img": "images/items/battledroid(security).png",
+    "codes": "battledroid(security)"
+  },
+  {
+    "name": "Beach Trooper",
+    "type": "toggle",
+    "img": "images/items/beachtrooper.png",
+    "codes": "beachtrooper, imperial, blaster"
+  },
+  {
+    "name": "Ben Kenobi",
+    "type": "toggle",
+    "img": "images/items/benkenobi.png",
+    "codes": "benkenobi"
+  },
+  {
+    "name": "Ben Kenobi (Ghost)",
+    "type": "toggle",
+    "img": "images/items/benkenobi(ghost).png",
+    "codes": "benkenobi(ghost)"
+  },
+  {
+    "name": "Bespin Guard",
+    "type": "toggle",
+    "img": "images/items/bespinguard.png",
+    "codes": "bespinguard, blaster"
+  },
+  {
+    "name": "Bib Fortuna",
+    "type": "toggle",
+    "img": "images/items/bibfortuna.png",
+    "codes": "bibfortuna"
+  },
+  {
+    "name": "Boba Fett",
+    "type": "toggle",
+    "img": "images/items/bobafett.png",
+    "codes": "bobafett, bounty, blaster, hover"
+  },
+  {
+    "name": "Boba Fett (Boy)",
+    "type": "toggle",
+    "img": "images/items/bobafett(boy).png",
+    "codes": "bobafett(boy), shortie"
+  },
+  {
+    "name": "Boss Nass",
+    "type": "toggle",
+    "img": "images/items/bossnass.png",
+    "codes": "bossnass"
+  },
+  {
+    "name": "Bossk",
+    "type": "toggle",
+    "img": "images/items/bossk.png",
+    "codes": "bossk, bounty, blaster"
+  },
+  {
+    "name": "C-3PO",
+    "type": "toggle",
+    "img": "images/items/c-3po.png",
+    "codes": "c-3po"
+  },
+  {
+    "name": "Captain Antilles",
+    "type": "toggle",
+    "img": "images/items/captainantilles.png",
+    "codes": "captainantilles, blaster"
+  },
+  {
+    "name": "Captain Panaka",
+    "type": "toggle",
+    "img": "images/items/captainpanaka.png",
+    "codes": "captainpanaka, blaster"
+  },
+  {
+    "name": "Captain Tarpals",
+    "type": "toggle",
+    "img": "images/items/captaintarpals.png",
+    "codes": "captaintarpals, highjump"
+  },
+  {
+    "name": "Chancellor Palpatine",
+    "type": "toggle",
+    "img": "images/items/chancellorpalpatine.png",
+    "codes": "chancellorpalpatine"
+  },
+  {
+    "name": "Chewbacca",
+    "type": "toggle",
+    "img": "images/items/chewbacca.png",
+    "codes": "chewbacca, blaster"
+  },
+  {
+    "name": "Clone",
+    "type": "toggle",
+    "img": "images/items/clone.png",
+    "codes": "clone, imperial, blaster"
+  },
+  {
+    "name": "Clone (Episode 3)",
+    "type": "toggle",
+    "img": "images/items/clone(episode3).png",
+    "codes": "clone(episode3), imperial, blaster"
+  },
+  {
+    "name": "Clone (Episode 3, Pilot)",
+    "type": "toggle",
+    "img": "images/items/clone(episode3-pilot).png",
+    "codes": "clone(episode3-pilot), imperial, blaster"
+  },
+  {
+    "name": "Clone (Episode 3, Swamp)",
+    "type": "toggle",
+    "img": "images/items/clone(episode3-swamp).png",
+    "codes": "clone(episode3-swamp), imperial, blaster"
+  },
+  {
+    "name": "Clone (Episode 3, Walker)",
+    "type": "toggle",
+    "img": "images/items/clone(episode3-walker).png",
+    "codes": "clone(episode3-walker), imperial, blaster"
+  },
+  {
+    "name": "Commander Cody",
+    "type": "toggle",
+    "img": "images/items/commandercody.png",
+    "codes": "commandercody, imperial, blaster"
+  },
+  {
+    "name": "Count Dooku",
+    "type": "toggle",
+    "img": "images/items/countdooku.png",
+    "codes": "countdooku, sith"
+  },
+  {
+    "name": "Darth Maul",
+    "type": "toggle",
+    "img": "images/items/darthmaul.png",
+    "codes": "darthmaul, sith"
+  },
+  {
+    "name": "Darth Vader",
+    "type": "toggle",
+    "img": "images/items/darthvader.png",
+    "codes": "darthvader, sith, imperial"
+  },
+  {
+    "name": "Death Star Trooper",
+    "type": "toggle",
+    "img": "images/items/deathstartrooper.png",
+    "codes": "deathstartrooper, imperial, blaster"
+  },
+  {
+    "name": "Dengar",
+    "type": "toggle",
+    "img": "images/items/dengar.png",
+    "codes": "dengar, bounty, blaster"
+  },
+  {
+    "name": "Dexter Jettster",
+    "type": "toggle",
+    "img": "images/items/dexterjettster.png",
+    "codes": "dexterjettster"
+  },
+  {
+    "name": "Disguised Clone",
+    "type": "toggle",
+    "img": "images/items/disguisedclone.png",
+    "codes": "disguisedclone, imperial, blaster"
+  },
+  {
+    "name": "Droideka",
+    "type": "toggle",
+    "img": "images/items/droideka.png",
+    "codes": "droideka"
+  },
+  {
+    "name": "Ewok",
+    "type": "toggle",
+    "img": "images/items/ewok.png",
+    "codes": "ewok, shortie"
+  },
+  {
+    "name": "Gamorrean Guard",
+    "type": "toggle",
+    "img": "images/items/gamorreanguard.png",
+    "codes": "gamorreanguard"
+  },
+  {
+    "name": "General Grievous",
+    "type": "toggle",
+    "img": "images/items/generalgrievous.png",
+    "codes": "generalgrievous, highjump"
+  },
+  {
+    "name": "Geonosian",
+    "type": "toggle",
+    "img": "images/items/geonosian.png",
+    "codes": "geonosian"
+  },
+  {
+    "name": "Gonk Droid",
+    "type": "toggle",
+    "img": "images/items/gonkdroid.png",
+    "codes": "gonkdroid"
+  },
+  {
+    "name": "Grand Moff Tarkin",
+    "type": "toggle",
+    "img": "images/items/grandmofftarkin.png",
+    "codes": "grandmofftarkin, imperial, blaster"
+  },
+  {
+    "name": "Greedo",
+    "type": "toggle",
+    "img": "images/items/greedo.png",
+    "codes": "greedo, bounty, blaster"
+  },
+  {
+    "name": "Grievous' Bodyguard",
+    "type": "toggle",
+    "img": "images/items/grievousbodyguard.png",
+    "codes": "grievousbodyguard, highjump"
+  },
+  {
+    "name": "Han Solo",
+    "type": "toggle",
+    "img": "images/items/hansolo.png",
+    "codes": "hansolo, blaster"
+  },
+  {
+    "name": "Han Solo (Endor)",
+    "type": "toggle",
+    "img": "images/items/hansolo(endor).png",
+    "codes": "hansolo(endor), blaster"
+  },
+  {
+    "name": "Han Solo (Hood)",
+    "type": "toggle",
+    "img": "images/items/hansolo(hood).png",
+    "codes": "hansolo(hood), blaster"
+  },
+  {
+    "name": "Han Solo (Hoth)",
+    "type": "toggle",
+    "img": "images/items/hansolo(hoth).png",
+    "codes": "hansolo(hoth), blaster"
+  },
+  {
+    "name": "Han Solo (Skiff)",
+    "type": "toggle",
+    "img": "images/items/hansolo(skiff).png",
+    "codes": "hansolo(skiff), blaster"
+  },
+  {
+    "name": "Han Solo (Stormtrooper)",
+    "type": "toggle",
+    "img": "images/items/hansolo(stormtrooper).png",
+    "codes": "hansolo(stormtrooper), blaster"
+  },
+  {
+    "name": "IG-88",
+    "type": "toggle",
+    "img": "images/items/ig-88.png",
+    "codes": "ig-88, bounty, astromech, blaster"
+  },
+  {
+    "name": "Imperial Guard",
+    "type": "toggle",
+    "img": "images/items/imperialguard.png",
+    "codes": "imperialguard, imperial"
+  },
+  {
+    "name": "Imperial Officer",
+    "type": "toggle",
+    "img": "images/items/imperialofficer.png",
+    "codes": "imperialofficer, imperial, blaster"
+  },
+  {
+    "name": "Imperial Shuttle Pilot",
+    "type": "toggle",
+    "img": "images/items/imperialshuttlepilot.png",
+    "codes": "imperialshuttlepilot, imperial, blaster"
+  },
+  {
+    "name": "Imperial Spy",
+    "type": "toggle",
+    "img": "images/items/imperialspy.png",
+    "codes": "imperialspy"
+  },
+  {
+    "name": "Indiana Jones",
+    "type": "toggle",
+    "img": "images/items/indianajones.png",
+    "codes": "indianajones, blaster"
+  },
+  {
+    "name": "Jango Fett",
+    "type": "toggle",
+    "img": "images/items/jangofett.png",
+    "codes": "jangofett, bounty, blaster, hover"
+  },
+  {
+    "name": "Jar Jar Binks",
+    "type": "toggle",
+    "img": "images/items/jarjarbinks.png",
+    "codes": "jarjarbinks, highjump"
+  },
+  {
+    "name": "Jawa",
+    "type": "toggle",
+    "img": "images/items/jawa.png",
+    "codes": "jawa, shortie"
+  },
+  {
+    "name": "Ki-Adi Mundi",
+    "type": "toggle",
+    "img": "images/items/ki-adimundi.png",
+    "codes": "ki-adimundi"
+  },
+  {
+    "name": "Kit Fisto",
+    "type": "toggle",
+    "img": "images/items/kitfisto.png",
+    "codes": "kitfisto"
+  },
+  {
+    "name": "Lama Su",
+    "type": "toggle",
+    "img": "images/items/lamasu.png",
+    "codes": "lamasu"
+  },
+  {
+    "name": "Lando Calrissian",
+    "type": "toggle",
+    "img": "images/items/landocalrissian.png",
+    "codes": "landocalrissian, blaster"
+  },
+  {
+    "name": "Lando Calrissian (Palace Guard)",
+    "type": "toggle",
+    "img": "images/items/landocalrissian(palaceguard).png",
+    "codes": "landocalrissian(palaceguard), blaster"
+  },
+  {
+    "name": "Lobot",
+    "type": "toggle",
+    "img": "images/items/lobot.png",
+    "codes": "lobot"
+  },
+  {
+    "name": "Luke Skywalker (Bespin)",
+    "type": "toggle",
+    "img": "images/items/lukeskywalker(bespin).png",
+    "codes": "lukeskywalker(bespin)"
+  },
+  {
+    "name": "Luke Skywalker (Dagobah)",
+    "type": "toggle",
+    "img": "images/items/lukeskywalker(dagobah).png",
+    "codes": "lukeskywalker(dagobah)"
+  },
+  {
+    "name": "Luke Skywalker (Endor)",
+    "type": "toggle",
+    "img": "images/items/lukeskywalker(endor).png",
+    "codes": "lukeskywalker(endor)"
+  },
+  {
+    "name": "Luke Skywalker (Hoth)",
+    "type": "toggle",
+    "img": "images/items/lukeskywalker(hoth).png",
+    "codes": "lukeskywalker(hoth), blaster"
+  },
+  {
+    "name": "Luke Skywalker (Jedi)",
+    "type": "toggle",
+    "img": "images/items/lukeskywalker(jedi).png",
+    "codes": "lukeskywalker(jedi)"
+  },
+  {
+    "name": "Luke Skywalker (Pilot)",
+    "type": "toggle",
+    "img": "images/items/lukeskywalker(pilot).png",
+    "codes": "lukeskywalker(pilot), blaster"
+  },
+  {
+    "name": "Luke Skywalker (Stormtrooper)",
+    "type": "toggle",
+    "img": "images/items/lukeskywalker(stormtrooper).png",
+    "codes": "lukeskywalker(stormtrooper), blaster"
+  },
+  {
+    "name": "Luke Skywalker (Tatooine)",
+    "type": "toggle",
+    "img": "images/items/lukeskywalker(tatooine).png",
+    "codes": "lukeskywalker(tatooine), blaster"
+  },
+  {
+    "name": "Luminara",
+    "type": "toggle",
+    "img": "images/items/luminara.png",
+    "codes": "luminara"
+  },
+  {
+    "name": "Mace Windu",
+    "type": "toggle",
+    "img": "images/items/macewindu.png",
+    "codes": "macewindu"
+  },
+  {
+    "name": "Mace Windu (Episode 3)",
+    "type": "toggle",
+    "img": "images/items/macewindu(episode3).png",
+    "codes": "macewindu(episode3)"
+  },
+  {
+    "name": "Obi-Wan Kenobi",
+    "type": "toggle",
+    "img": "images/items/obi-wankenobi.png",
+    "codes": "obi-wankenobi"
+  },
+  {
+    "name": "Obi-Wan Kenobi (Episode 3)",
+    "type": "toggle",
+    "img": "images/items/obi-wankenobi(episode3).png",
+    "codes": "obi-wankenobi(episode3)"
+  },
+  {
+    "name": "Obi-Wan Kenobi (Jedi Master)",
+    "type": "toggle",
+    "img": "images/items/obi-wankenobi(jedimaster).png",
+    "codes": "obi-wankenobi(jedimaster)"
+  },
+  {
+    "name": "PK Droid",
+    "type": "toggle",
+    "img": "images/items/pkdroid.png",
+    "codes": "pkdroid"
+  },
+  {
+    "name": "Padm\u00c3\u00a9",
+    "type": "toggle",
+    "img": "images/items/padme.png",
+    "codes": "padme, blaster"
+  },
+  {
+    "name": "Padm\u00c3\u00a9 (Battle)",
+    "type": "toggle",
+    "img": "images/items/padme(battle).png",
+    "codes": "padme(battle), blaster"
+  },
+  {
+    "name": "Padm\u00c3\u00a9 (Clawed)",
+    "type": "toggle",
+    "img": "images/items/padme(clawed).png",
+    "codes": "padme(clawed), blaster"
+  },
+  {
+    "name": "Padm\u00c3\u00a9 (Geonosis)",
+    "type": "toggle",
+    "img": "images/items/padme(geonosis).png",
+    "codes": "padme(geonosis), blaster"
+  },
+  {
+    "name": "Palace Guard",
+    "type": "toggle",
+    "img": "images/items/palaceguard.png",
+    "codes": "palaceguard, blaster"
+  },
+  {
+    "name": "Pit Droid",
+    "type": "toggle",
+    "img": "images/items/pitdroid.png",
+    "codes": "pitdroid"
+  },
+  {
+    "name": "Plo Koon",
+    "type": "toggle",
+    "img": "images/items/plokoon.png",
+    "codes": "plokoon"
+  },
+  {
+    "name": "Princess Leia",
+    "type": "toggle",
+    "img": "images/items/princessleia.png",
+    "codes": "princessleia, blaster"
+  },
+  {
+    "name": "Princess Leia (Bespin)",
+    "type": "toggle",
+    "img": "images/items/princessleia(bespin).png",
+    "codes": "princessleia(bespin), blaster"
+  },
+  {
+    "name": "Princess Leia (Boushh)",
+    "type": "toggle",
+    "img": "images/items/princessleia(boushh).png",
+    "codes": "princessleia(boushh), blaster"
+  },
+  {
+    "name": "Princess Leia (Endor)",
+    "type": "toggle",
+    "img": "images/items/princessleia(endor).png",
+    "codes": "princessleia(endor), blaster"
+  },
+  {
+    "name": "Princess Leia (Hoth)",
+    "type": "toggle",
+    "img": "images/items/princessleia(hoth).png",
+    "codes": "princessleia(hoth), blaster"
+  },
+  {
+    "name": "Princess Leia (Prisoner)",
+    "type": "toggle",
+    "img": "images/items/princessleia(prisoner).png",
+    "codes": "princessleia(prisoner), blaster"
+  },
+  {
+    "name": "Princess Leia (Slave)",
+    "type": "toggle",
+    "img": "images/items/princessleia(slave).png",
+    "codes": "princessleia(slave), blaster"
+  },
+  {
+    "name": "Queen Amidala",
+    "type": "toggle",
+    "img": "images/items/queenamidala.png",
+    "codes": "queenamidala, blaster"
+  },
+  {
+    "name": "Qui-Gon Jinn",
+    "type": "toggle",
+    "img": "images/items/qui-gonjinn.png",
+    "codes": "qui-gonjinn"
+  },
+  {
+    "name": "R2-D2",
+    "type": "toggle",
+    "img": "images/items/r2-d2.png",
+    "codes": "r2-d2, astromech, hover"
+  },
+  {
+    "name": "R2-Q5",
+    "type": "toggle",
+    "img": "images/items/r2-q5.png",
+    "codes": "r2-q5, astromech, hover"
+  },
+  {
+    "name": "R4-P17",
+    "type": "toggle",
+    "img": "images/items/r4-p17.png",
+    "codes": "r4-p17, astromech, hover"
+  },
+  {
+    "name": "Rebel Friend",
+    "type": "toggle",
+    "img": "images/items/rebelfriend.png",
+    "codes": "rebelfriend, blaster"
+  },
+  {
+    "name": "Rebel Pilot",
+    "type": "toggle",
+    "img": "images/items/rebelpilot.png",
+    "codes": "rebelpilot, blaster"
+  },
+  {
+    "name": "Rebel Trooper",
+    "type": "toggle",
+    "img": "images/items/rebeltrooper.png",
+    "codes": "rebeltrooper, blaster"
+  },
+  {
+    "name": "Rebel Trooper (Hoth)",
+    "type": "toggle",
+    "img": "images/items/rebeltrooper(hoth).png",
+    "codes": "rebeltrooper(hoth), blaster"
+  },
+  {
+    "name": "Royal Guard",
+    "type": "toggle",
+    "img": "images/items/royalguard.png",
+    "codes": "royalguard, blaster"
+  },
+  {
+    "name": "STRANGER 1",
+    "type": "toggle",
+    "img": "images/items/custom_character_1.png",
+    "codes": "custom_character_1, blaster"
+  },
+  {
+    "name": "STRANGER 2",
+    "type": "toggle",
+    "img": "images/items/custom_character_2.png",
+    "codes": "custom_character_2, blaster"
+  },
+  {
+    "name": "Sandtrooper",
+    "type": "toggle",
+    "img": "images/items/sandtrooper.png",
+    "codes": "sandtrooper, imperial, blaster"
+  },
+  {
+    "name": "Shaak Ti",
+    "type": "toggle",
+    "img": "images/items/shaakti.png",
+    "codes": "shaakti"
+  },
+  {
+    "name": "Skiff Guard",
+    "type": "toggle",
+    "img": "images/items/skiffguard.png",
+    "codes": "skiffguard, blaster"
+  },
+  {
+    "name": "Snowtrooper",
+    "type": "toggle",
+    "img": "images/items/snowtrooper.png",
+    "codes": "snowtrooper, imperial, blaster"
+  },
+  {
+    "name": "Stormtrooper",
+    "type": "toggle",
+    "img": "images/items/stormtrooper.png",
+    "codes": "stormtrooper, imperial, blaster"
+  },
+  {
+    "name": "Super Battle Droid",
+    "type": "toggle",
+    "img": "images/items/superbattledroid.png",
+    "codes": "superbattledroid"
+  },
+  {
+    "name": "TC-14",
+    "type": "toggle",
+    "img": "images/items/tc-14.png",
+    "codes": "tc-14"
+  },
+  {
+    "name": "TIE Fighter Pilot",
+    "type": "toggle",
+    "img": "images/items/tiefighterpilot.png",
+    "codes": "tiefighterpilot, imperial, blaster"
+  },
+  {
+    "name": "Taun We",
+    "type": "toggle",
+    "img": "images/items/taunwe.png",
+    "codes": "taunwe"
+  },
+  {
+    "name": "The Emperor",
+    "type": "toggle",
+    "img": "images/items/theemperor.png",
+    "codes": "theemperor, sith, imperial"
+  },
+  {
+    "name": "Tusken Raider",
+    "type": "toggle",
+    "img": "images/items/tuskenraider.png",
+    "codes": "tuskenraider, blaster"
+  },
+  {
+    "name": "Ugnaught",
+    "type": "toggle",
+    "img": "images/items/ugnaught.png",
+    "codes": "ugnaught, shortie"
+  },
+  {
+    "name": "Watto",
+    "type": "toggle",
+    "img": "images/items/watto.png",
+    "codes": "watto"
+  },
+  {
+    "name": "Wicket",
+    "type": "toggle",
+    "img": "images/items/wicket.png",
+    "codes": "wicket, shortie"
+  },
+  {
+    "name": "Wookiee",
+    "type": "toggle",
+    "img": "images/items/wookiee.png",
+    "codes": "wookiee, blaster"
+  },
+  {
+    "name": "Yoda",
+    "type": "toggle",
+    "img": "images/items/yoda.png",
+    "codes": "yoda"
+  },
+  {
+    "name": "Yoda (Ghost)",
+    "type": "toggle",
+    "img": "images/items/yoda(ghost).png",
+    "codes": "yoda(ghost)"
+  },
+  {
+    "name": "Zam Wesell",
+    "type": "toggle",
+    "img": "images/items/zamwesell.png",
+    "codes": "zamwesell, bounty, blaster"
+  }
+]

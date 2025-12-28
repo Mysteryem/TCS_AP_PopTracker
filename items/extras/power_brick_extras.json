@@ -1,0 +1,220 @@
+[
+  {
+    "name": "Bounty Hunter Rockets",
+    "type": "toggle",
+    "img": "images/items/bountyhunterrockets.png",
+    "codes": "bountyhunterrockets"
+  },
+  {
+    "name": "Character Studs",
+    "type": "toggle",
+    "img": "images/items/characterstuds.png",
+    "codes": "characterstuds"
+  },
+  {
+    "name": "Dark Side",
+    "type": "toggle",
+    "img": "images/items/darkside.png",
+    "codes": "darkside"
+  },
+  {
+    "name": "Deflect Bolts",
+    "type": "toggle",
+    "img": "images/items/deflectbolts.png",
+    "codes": "deflectbolts"
+  },
+  {
+    "name": "Disarm Troopers",
+    "type": "toggle",
+    "img": "images/items/disarmtroopers.png",
+    "codes": "disarmtroopers"
+  },
+  {
+    "name": "Exploding Blaster Bolts",
+    "type": "toggle",
+    "img": "images/items/explodingblasterbolts.png",
+    "codes": "explodingblasterbolts"
+  },
+  {
+    "name": "Fast Build",
+    "type": "toggle",
+    "img": "images/items/fastbuild.png",
+    "codes": "fastbuild"
+  },
+  {
+    "name": "Fast Force",
+    "type": "toggle",
+    "img": "images/items/fastforce.png",
+    "codes": "fastforce"
+  },
+  {
+    "name": "Force Grapple Leap",
+    "type": "toggle",
+    "img": "images/items/forcegrappleleap.png",
+    "codes": "forcegrappleleap"
+  },
+  {
+    "name": "Force Pull",
+    "type": "toggle",
+    "img": "images/items/forcepull.png",
+    "codes": "forcepull"
+  },
+  {
+    "name": "Infinite Torpedos",
+    "type": "toggle",
+    "img": "images/items/infinitetorpedos.png",
+    "codes": "infinitetorpedos"
+  },
+  {
+    "name": "Invincibility",
+    "type": "toggle",
+    "img": "images/items/invincibility.png",
+    "codes": "invincibility"
+  },
+  {
+    "name": "Minikit Detector",
+    "type": "toggle",
+    "img": "images/items/minikitdetector.png",
+    "codes": "minikitdetector"
+  },
+  {
+    "name": "Perfect Deflect",
+    "type": "toggle",
+    "img": "images/items/perfectdeflect.png",
+    "codes": "perfectdeflect"
+  },
+  {
+    "name": "Poo Money",
+    "type": "toggle",
+    "img": "images/items/poomoney.png",
+    "codes": "poomoney"
+  },
+  {
+    "name": "Power Brick Detector",
+    "type": "toggle",
+    "img": "images/items/redbrickdetector.png",
+    "codes": "redbrickdetector"
+  },
+  {
+    "name": "Progressive Score Multiplier",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/progressivescoremultiplier2.png",
+        "img_mods": "@disabled"
+      },
+      {
+        "img": "images/items/progressivescoremultiplier2.png",
+        "codes": "progressivescoremultiplier, progressivescoremultiplier1"
+      },
+      {
+        "img": "images/items/progressivescoremultiplier4.png",
+        "codes": "progressivescoremultiplier2"
+      },
+      {
+        "img": "images/items/progressivescoremultiplier6.png",
+        "codes": "progressivescoremultiplier3"
+      },
+      {
+        "img": "images/items/progressivescoremultiplier8.png",
+        "codes": "progressivescoremultiplier4"
+      },
+      {
+        "img": "images/items/progressivescoremultiplier10.png",
+        "codes": "progressivescoremultiplier5"
+      }
+    ]
+  },
+  {
+    "name": "Regenerate Hearts",
+    "type": "toggle",
+    "img": "images/items/regeneratehearts.png",
+    "codes": "regeneratehearts"
+  },
+  {
+    "name": "Self Destruct",
+    "type": "toggle",
+    "img": "images/items/selfdestruct.png",
+    "codes": "selfdestruct"
+  },
+  {
+    "name": "Stud Magnet",
+    "type": "toggle",
+    "img": "images/items/studmagnet.png",
+    "codes": "studmagnet"
+  },
+  {
+    "name": "Super Astromech",
+    "type": "toggle",
+    "img": "images/items/superastromech.png",
+    "codes": "superastromech"
+  },
+  {
+    "name": "Super Blasters",
+    "type": "toggle",
+    "img": "images/items/superblasters.png",
+    "codes": "superblasters"
+  },
+  {
+    "name": "Super Ewok Catapult",
+    "type": "toggle",
+    "img": "images/items/superewokcatapult.png",
+    "codes": "superewokcatapult"
+  },
+  {
+    "name": "Super Gonk",
+    "type": "toggle",
+    "img": "images/items/supergonk.png",
+    "codes": "supergonk"
+  },
+  {
+    "name": "Super Jedi Slam",
+    "type": "toggle",
+    "img": "images/items/superjedislam.png",
+    "codes": "superjedislam"
+  },
+  {
+    "name": "Super Lightsabers",
+    "type": "toggle",
+    "img": "images/items/superlightsabers.png",
+    "codes": "superlightsabers"
+  },
+  {
+    "name": "Super Slap",
+    "type": "toggle",
+    "img": "images/items/superslap.png",
+    "codes": "superslap"
+  },
+  {
+    "name": "Super Thermal Detonator",
+    "type": "toggle",
+    "img": "images/items/superthermaldetonator.png",
+    "codes": "superthermaldetonator"
+  },
+  {
+    "name": "Super Zapper",
+    "type": "toggle",
+    "img": "images/items/superzapper.png",
+    "codes": "superzapper"
+  },
+  {
+    "name": "Tractor Beam",
+    "type": "toggle",
+    "img": "images/items/tractorbeam.png",
+    "codes": "tractorbeam"
+  },
+  {
+    "name": "Vehicle Smart Bomb",
+    "type": "toggle",
+    "img": "images/items/vehiclesmartbomb.png",
+    "codes": "vehiclesmartbomb"
+  },
+  {
+    "name": "Walkie Talkie Disable",
+    "type": "toggle",
+    "img": "images/items/walkietalkiedisable.png",
+    "codes": "walkietalkiedisable"
+  }
+]

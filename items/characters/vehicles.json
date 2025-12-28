@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Anakin's Pod",
+    "type": "toggle",
+    "img": "images/items/anakinspodracer.png",
+    "codes": "anakinspodracer"
+  },
+  {
+    "name": "Anakin's Speeder",
+    "type": "toggle",
+    "img": "images/items/speeder.png",
+    "codes": "speeder"
+  },
+  {
+    "name": "Anakin's Starfighter",
+    "type": "toggle",
+    "img": "images/items/anakinsstarfighter.png",
+    "codes": "anakinsstarfighter"
+  },
+  {
+    "name": "Clone Arcfighter",
+    "type": "toggle",
+    "img": "images/items/clonearcfighter.png",
+    "codes": "clonearcfighter"
+  },
+  {
+    "name": "Droid Trifighter",
+    "type": "toggle",
+    "img": "images/items/droidtrifighter.png",
+    "codes": "droidtrifighter"
+  },
+  {
+    "name": "Imperial Shuttle",
+    "type": "toggle",
+    "img": "images/items/imperialshuttle.png",
+    "codes": "imperialshuttle"
+  },
+  {
+    "name": "Millennium Falcon",
+    "type": "toggle",
+    "img": "images/items/millenniumfalcon.png",
+    "codes": "millenniumfalcon"
+  },
+  {
+    "name": "Naboo Starfighter",
+    "type": "toggle",
+    "img": "images/items/naboostarfighter.png",
+    "codes": "naboostarfighter, towvehicle"
+  },
+  {
+    "name": "Obi-Wan's Starfighter",
+    "type": "toggle",
+    "img": "images/items/obi-wansstarfighter.png",
+    "codes": "obi-wansstarfighter"
+  },
+  {
+    "name": "Republic Gunship",
+    "type": "toggle",
+    "img": "images/items/republicgunship.png",
+    "codes": "republicgunship, towvehicle"
+  },
+  {
+    "name": "Sebulbas's Pod",
+    "type": "toggle",
+    "img": "images/items/sebulbaspodracer.png",
+    "codes": "sebulbaspodracer"
+  },
+  {
+    "name": "Snowspeeder",
+    "type": "toggle",
+    "img": "images/items/snowspeeder.png",
+    "codes": "snowspeeder, towvehicle"
+  },
+  {
+    "name": "TIE Bomber",
+    "type": "toggle",
+    "img": "images/items/tiebomber.png",
+    "codes": "tiebomber, tievehicle"
+  },
+  {
+    "name": "TIE Fighter",
+    "type": "toggle",
+    "img": "images/items/tiefighter.png",
+    "codes": "tiefighter, tievehicle"
+  },
+  {
+    "name": "TIE Fighter (Darth Vader)",
+    "type": "toggle",
+    "img": "images/items/tiefighter(darthvader).png",
+    "codes": "tiefighter(darthvader), tievehicle"
+  },
+  {
+    "name": "TIE Interceptor",
+    "type": "toggle",
+    "img": "images/items/tie-interceptor.png",
+    "codes": "tie-interceptor, tievehicle"
+  },
+  {
+    "name": "Vulture Droid",
+    "type": "toggle",
+    "img": "images/items/vulturedroid.png",
+    "codes": "vulturedroid"
+  },
+  {
+    "name": "X-Wing",
+    "type": "toggle",
+    "img": "images/items/x-wing.png",
+    "codes": "x-wing"
+  },
+  {
+    "name": "Y-Wing",
+    "type": "toggle",
+    "img": "images/items/y-wing.png",
+    "codes": "y-wing"
+  },
+  {
+    "name": "Zam's Airspeeder",
+    "type": "toggle",
+    "img": "images/items/zamsairspeeder.png",
+    "codes": "zamsairspeeder"
+  }
+]

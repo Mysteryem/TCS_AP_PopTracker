@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Episode 1 Unlock",
+    "type": "toggle",
+    "img": "images/items/episode1unlock.png",
+    "codes": "episode1unlock"
+  },
+  {
+    "name": "Episode 2 Unlock",
+    "type": "toggle",
+    "img": "images/items/episode2unlock.png",
+    "codes": "episode2unlock"
+  },
+  {
+    "name": "Episode 3 Unlock",
+    "type": "toggle",
+    "img": "images/items/episode3unlock.png",
+    "codes": "episode3unlock"
+  },
+  {
+    "name": "Episode 4 Unlock",
+    "type": "toggle",
+    "img": "images/items/episode4unlock.png",
+    "codes": "episode4unlock"
+  },
+  {
+    "name": "Episode 5 Unlock",
+    "type": "toggle",
+    "img": "images/items/episode5unlock.png",
+    "codes": "episode5unlock"
+  },
+  {
+    "name": "Episode 6 Unlock",
+    "type": "toggle",
+    "img": "images/items/episode6unlock.png",
+    "codes": "episode6unlock"
+  }
+]

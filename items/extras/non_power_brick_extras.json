@@ -1,0 +1,50 @@
+[
+    {
+    "name": "Beep Beep",
+    "type": "toggle",
+    "img": "images/items/beep_beep.png",
+    "codes": "beep_beep"
+  },
+  {
+    "name": "Chewbacca Carrying C-3PO",
+    "type": "toggle",
+    "img": "images/items/chewbacca_carrying_c-3po.png",
+    "codes": "chewbacca_carrying_c-3po"
+  },
+  {
+    "name": "Daisy Chains",
+    "type": "toggle",
+    "img": "images/items/daisy_chains.png",
+    "codes": "daisy_chains"
+  },
+  {
+    "name": "Disguise",
+    "type": "toggle",
+    "img": "images/items/disguise.png",
+    "codes": "disguise"
+  },
+  {
+    "name": "Extra Toggle",
+    "type": "toggle",
+    "img": "images/items/extra_toggle.png",
+    "codes": "extra_toggle"
+  },
+  {
+    "name": "Fertilizer",
+    "type": "toggle",
+    "img": "images/items/fertilizer.png",
+    "codes": "fertilizer"
+  },
+  {
+    "name": "Silhouettes",
+    "type": "toggle",
+    "img": "images/items/silhouettes.png",
+    "codes": "silhouettes"
+  },
+  {
+    "name": "Tow Death Star",
+    "type": "toggle",
+    "img": "images/items/tow_death_star.png",
+    "codes": "tow_death_star"
+  }
+]
