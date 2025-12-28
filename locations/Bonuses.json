@@ -137,7 +137,7 @@
           {
             "name": "Completion",
             "access_rules": [
-              "sith, highjump, blaster, bounty"
+              "sith, high_jump, blaster, bounty_hunter"
             ]
           },
           {
@@ -179,7 +179,7 @@
             "name": "Ride Moon Car",
             "hosted_item": "ride_moon_car",
             "access_rules": [
-              "bounty"
+              "bounty_hunter"
             ],
             "visibility_rules": [
               "setting_ridesanity_enabled"
@@ -213,7 +213,7 @@
           {
             "name": "Completion",
             "access_rules": [
-              "sith, highjump, blaster, bounty"
+              "sith, high_jump, blaster, bounty_hunter"
             ]
           },
           {
@@ -276,7 +276,7 @@
             "name": "Ride Moon Car",
             "hosted_item": "ride_moon_car",
             "access_rules": [
-              "bounty"
+              "bounty_hunter"
             ],
             "visibility_rules": [
               "setting_ridesanity_enabled"

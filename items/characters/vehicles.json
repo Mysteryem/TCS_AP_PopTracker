@@ -3,120 +3,120 @@
     "name": "Anakin's Pod",
     "type": "toggle",
     "img": "images/items/anakinspodracer.png",
-    "codes": "anakinspodracer"
+    "codes": "anakinspod, is_a_vehicle"
   },
   {
     "name": "Anakin's Speeder",
     "type": "toggle",
     "img": "images/items/speeder.png",
-    "codes": "speeder"
+    "codes": "anakinsspeeder, is_a_vehicle, vehicle_blaster"
   },
   {
     "name": "Anakin's Starfighter",
     "type": "toggle",
     "img": "images/items/anakinsstarfighter.png",
-    "codes": "anakinsstarfighter"
+    "codes": "anakinsstarfighter, is_a_vehicle, vehicle_blaster"
   },
   {
     "name": "Clone Arcfighter",
     "type": "toggle",
     "img": "images/items/clonearcfighter.png",
-    "codes": "clonearcfighter"
+    "codes": "clonearcfighter, is_a_vehicle, vehicle_blaster"
   },
   {
     "name": "Droid Trifighter",
     "type": "toggle",
     "img": "images/items/droidtrifighter.png",
-    "codes": "droidtrifighter"
+    "codes": "droidtrifighter, is_a_vehicle, vehicle_blaster"
   },
   {
     "name": "Imperial Shuttle",
     "type": "toggle",
     "img": "images/items/imperialshuttle.png",
-    "codes": "imperialshuttle"
+    "codes": "imperialshuttle, is_a_vehicle, vehicle_blaster"
   },
   {
     "name": "Millennium Falcon",
     "type": "toggle",
     "img": "images/items/millenniumfalcon.png",
-    "codes": "millenniumfalcon"
+    "codes": "millenniumfalcon, is_a_vehicle, vehicle_blaster"
   },
   {
     "name": "Naboo Starfighter",
     "type": "toggle",
     "img": "images/items/naboostarfighter.png",
-    "codes": "naboostarfighter, towvehicle"
+    "codes": "naboostarfighter, is_a_vehicle, vehicle_tow, vehicle_blaster"
   },
   {
     "name": "Obi-Wan's Starfighter",
     "type": "toggle",
     "img": "images/items/obi-wansstarfighter.png",
-    "codes": "obi-wansstarfighter"
+    "codes": "obi-wansstarfighter, is_a_vehicle, vehicle_blaster"
   },
   {
     "name": "Republic Gunship",
     "type": "toggle",
     "img": "images/items/republicgunship.png",
-    "codes": "republicgunship, towvehicle"
+    "codes": "republicgunship, is_a_vehicle, vehicle_tow, vehicle_blaster"
   },
   {
-    "name": "Sebulbas's Pod",
+    "name": "Sebulba's Pod",
     "type": "toggle",
     "img": "images/items/sebulbaspodracer.png",
-    "codes": "sebulbaspodracer"
+    "codes": "sebulbaspod, is_a_vehicle"
   },
   {
     "name": "Snowspeeder",
     "type": "toggle",
     "img": "images/items/snowspeeder.png",
-    "codes": "snowspeeder, towvehicle"
+    "codes": "snowspeeder, is_a_vehicle, vehicle_tow, vehicle_blaster"
   },
   {
     "name": "TIE Bomber",
     "type": "toggle",
     "img": "images/items/tiebomber.png",
-    "codes": "tiebomber, tievehicle"
+    "codes": "tiebomber, is_a_vehicle, vehicle_tie, vehicle_blaster"
   },
   {
     "name": "TIE Fighter",
     "type": "toggle",
     "img": "images/items/tiefighter.png",
-    "codes": "tiefighter, tievehicle"
+    "codes": "tiefighter, is_a_vehicle, vehicle_tie, vehicle_blaster"
   },
   {
     "name": "TIE Fighter (Darth Vader)",
     "type": "toggle",
     "img": "images/items/tiefighter(darthvader).png",
-    "codes": "tiefighter(darthvader), tievehicle"
+    "codes": "tiefighter(darthvader), is_a_vehicle, vehicle_tie, vehicle_blaster"
   },
   {
     "name": "TIE Interceptor",
     "type": "toggle",
     "img": "images/items/tie-interceptor.png",
-    "codes": "tie-interceptor, tievehicle"
+    "codes": "tieinterceptor, is_a_vehicle, vehicle_tie, vehicle_blaster"
   },
   {
     "name": "Vulture Droid",
     "type": "toggle",
     "img": "images/items/vulturedroid.png",
-    "codes": "vulturedroid"
+    "codes": "vulturedroid, is_a_vehicle, vehicle_blaster"
   },
   {
     "name": "X-Wing",
     "type": "toggle",
     "img": "images/items/x-wing.png",
-    "codes": "x-wing"
+    "codes": "x-wing, is_a_vehicle, vehicle_blaster"
   },
   {
     "name": "Y-Wing",
     "type": "toggle",
     "img": "images/items/y-wing.png",
-    "codes": "y-wing"
+    "codes": "y-wing, is_a_vehicle, vehicle_blaster"
   },
   {
     "name": "Zam's Airspeeder",
     "type": "toggle",
     "img": "images/items/zamsairspeeder.png",
-    "codes": "zamsairspeeder"
+    "codes": "zamsairspeeder, is_a_vehicle, vehicle_blaster"
   }
 ]

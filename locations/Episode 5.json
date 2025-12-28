@@ -13,7 +13,7 @@
       {
         "name": "Hoth Battle",
         "access_rules": [
-          "5_1_enabled, snowspeeder, @Goal Macros/Goal Requirements Met/5-1"
+          "5_1_enabled, @Chapter Macros/5-1 Items, @Goal Macros/Goal Requirements Met/5-1"
         ],
         "visibility_rules": [
           "5_1_enabled"
@@ -179,7 +179,7 @@
       {
         "name": "Escape From Echo Base",
         "access_rules": [
-          "5_2_enabled, hansolo(hoth), princessleia(hoth), c-3po, chewbacca, @Goal Macros/Goal Requirements Met/5-2"
+          "5_2_enabled, @Chapter Macros/5-2 Items, @Goal Macros/Goal Requirements Met/5-2"
         ],
         "visibility_rules": [
           "5_2_enabled"
@@ -190,7 +190,7 @@
             "chest_unopened_img": "images/items/minikit.png",
             "chest_opened_img": "images/items/minikit_disabled.png",
             "access_rules": [
-              "sith, hover, astromech, bounty, shortie"
+              "sith, hover, astromech, bounty_hunter, shortie"
             ],
             "sections": [
               {
@@ -432,7 +432,7 @@
       {
         "name": "Falcon Flight",
         "access_rules": [
-          "5_3_enabled, millenniumfalcon, x-wing, @Goal Macros/Goal Requirements Met/5-3"
+          "5_3_enabled, @Chapter Macros/5-3 Items, @Goal Macros/Goal Requirements Met/5-3"
         ],
         "visibility_rules": [
           "5_3_enabled"
@@ -617,7 +617,7 @@
       {
         "name": "Dagobah",
         "access_rules": [
-          "5_4_enabled, lukeskywalker(pilot), lukeskywalker(dagobah), r2-d2, yoda, @Goal Macros/Goal Requirements Met/5-4"
+          "5_4_enabled, @Chapter Macros/5-4 Items, @Goal Macros/Goal Requirements Met/5-4"
         ],
         "visibility_rules": [
           "5_4_enabled"
@@ -628,7 +628,7 @@
             "chest_unopened_img": "images/items/minikit.png",
             "chest_opened_img": "images/items/minikit_disabled.png",
             "access_rules": [
-              "sith, bounty, shortie"
+              "sith, bounty_hunter, shortie"
             ],
             "sections": [
               {
@@ -822,7 +822,7 @@
       {
         "name": "Cloud City Trap",
         "access_rules": [
-          "5_5_enabled, lukeskywalker(bespin), r2-d2, @Goal Macros/Goal Requirements Met/5-5"
+          "5_5_enabled, @Chapter Macros/5-5 Items, @Goal Macros/Goal Requirements Met/5-5"
         ],
         "visibility_rules": [
           "5_5_enabled"
@@ -833,7 +833,7 @@
             "chest_unopened_img": "images/items/minikit.png",
             "chest_opened_img": "images/items/minikit_disabled.png",
             "access_rules": [
-              "bounty, imperial, shortie, sith"
+              "bounty_hunter, imperial, shortie, sith"
             ],
             "sections": [
               {
@@ -948,7 +948,7 @@
                 "name": "5-5 - Power Brick",
                 "hosted_item": "5-5_power_brick",
                 "access_rules": [
-                  "bounty, hover"
+                  "bounty_hunter, hover"
                 ],
                 "visibility_rules": [
                   "@Goal Macros/Locations Visible/5-5"
@@ -1020,7 +1020,7 @@
       {
         "name": "Betrayal Over Bespin",
         "access_rules": [
-          "5_6_enabled, princessleia(bespin), landocalrissian, c-3po, r2-d2, chewbacca, @Goal Macros/Goal Requirements Met/5-6"
+          "5_6_enabled, @Chapter Macros/5-6 Items, @Goal Macros/Goal Requirements Met/5-6"
         ],
         "visibility_rules": [
           "5_6_enabled"
@@ -1031,7 +1031,7 @@
             "chest_unopened_img": "images/items/minikit.png",
             "chest_opened_img": "images/items/minikit_disabled.png",
             "access_rules": [
-              "sith, bounty"
+              "sith, bounty_hunter"
             ],
             "sections": [
               {
@@ -1206,7 +1206,7 @@
                 "name": "5-6 - Power Brick",
                 "hosted_item": "5-6_power_brick",
                 "access_rules": [
-                  "bounty"
+                  "bounty_hunter"
                 ],
                 "visibility_rules": [
                   "@Goal Macros/Locations Visible/5-6"

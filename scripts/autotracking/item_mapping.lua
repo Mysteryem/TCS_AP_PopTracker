@@ -169,7 +169,7 @@ ITEM_MAPPING = {
     [161] = {{"anakinskywalker(ghost)", "toggle"}},
     [162] = {{"indianajones", "toggle"}},
     [163] = {{"princessleia(prisoner)", "toggle"}},
-    [164] = {{"anakinspodracer", "toggle"}},
+    [164] = {{"anakinspod", "toggle"}},
     [165] = {{"naboostarfighter", "toggle"}},
     [166] = {{"republicgunship", "toggle"}},
     [167] = {{"anakinsstarfighter", "toggle"}},
@@ -177,9 +177,9 @@ ITEM_MAPPING = {
     [169] = {{"x-wing", "toggle"}},
     [170] = {{"y-wing", "toggle"}},
     [171] = {{"millenniumfalcon", "toggle"}},
-    [172] = {{"tie-interceptor", "toggle"}},
+    [172] = {{"tieinterceptor", "toggle"}},
     [173] = {{"snowspeeder", "toggle"}},
-    [174] = {{"speeder", "toggle"}},
+    [174] = {{"anakinsspeeder", "toggle"}},
     [175] = {{"purplestud", "consumable"}},
     [176] = {{"qui-gonjinn", "toggle"}},
     [177] = {{"obi-wankenobi", "toggle"}},
@@ -192,9 +192,9 @@ ITEM_MAPPING = {
     [185] = {{"tow_death_star", "toggle"}},
     [186] = {{"silhouettes", "toggle"}},
     [187] = {{"beep_beep", "toggle"}},
-    [188] = {{"custom_character_1", "toggle"}},
-    [189] = {{"custom_character_2", "toggle"}},
-    [190] = {{"sebulbaspodracer", "toggle"}},
+    [188] = {{"stranger1", "toggle"}},
+    [189] = {{"stranger2", "toggle"}},
+    [190] = {{"sebulbaspod", "toggle"}},
     [191] = {{"zamsairspeeder", "toggle"}},
     [192] = {{"droidtrifighter", "toggle"}},
     [193] = {{"vulturedroid", "toggle"}},
@@ -224,3 +224,11 @@ ITEM_MAPPING = {
             },
     [203] = {{"kyber_brick", "consumable"}},
 }
+
+
+local i = 1000
+for episode=1,6 do
+    for chapter=1,6 do
+        ITEM_MAPPING[i] = {{string.format("%i_%i_unlock", episode, chapter), "toggle"}}
+    end
+end

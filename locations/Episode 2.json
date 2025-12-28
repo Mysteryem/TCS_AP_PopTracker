@@ -13,7 +13,7 @@
       {
         "name": "Bounty Hunter Pursuit",
         "access_rules": [
-          "2_1_enabled, speeder, @Goal Macros/Goal Requirements Met/2-1"
+          "2_1_enabled, @Chapter Macros/2-1 Items, @Goal Macros/Goal Requirements Met/2-1"
         ],
         "visibility_rules": [
           "2_1_enabled"
@@ -214,7 +214,7 @@
       {
         "name": "Discovery on Kamino",
         "access_rules": [
-          "2_2_enabled, r4-p17, obi-wankenobi(jedimaster), @Goal Macros/Goal Requirements Met/2-2"
+          "2_2_enabled, @Chapter Macros/2-2 Items, @Goal Macros/Goal Requirements Met/2-2"
         ],
         "visibility_rules": [
           "2_2_enabled"
@@ -225,7 +225,7 @@
             "chest_unopened_img": "images/items/minikit.png",
             "chest_opened_img": "images/items/minikit_disabled.png",
             "access_rules": [
-              "sith, highjump, blaster, bounty, shortie"
+              "sith, high_jump, blaster, bounty_hunter, shortie"
             ],
             "sections": [
               {
@@ -425,7 +425,7 @@
       {
         "name": "Droid Factory",
         "access_rules": [
-          "2_3_enabled, anakinskywalker(padawan), padme(geonosis), r2-d2, c-3po, @Goal Macros/Goal Requirements Met/2-3"
+          "2_3_enabled, @Chapter Macros/2-3 Items, @Goal Macros/Goal Requirements Met/2-3"
         ],
         "visibility_rules": [
           "2_3_enabled"
@@ -436,7 +436,7 @@
             "chest_unopened_img": "images/items/minikit.png",
             "chest_opened_img": "images/items/minikit_disabled.png",
             "access_rules": [
-              "highjump, imperial, shortie"
+              "high_jump, imperial, shortie"
             ],
             "sections": [
               {
@@ -624,7 +624,7 @@
       {
         "name": "Jedi Battle",
         "access_rules": [
-          "2_4_enabled, macewindu, padme(clawed), anakinskywalker(padawan), obi-wankenobi(jedimaster), r2-d2, @Goal Macros/Goal Requirements Met/2-4"
+          "2_4_enabled, @Chapter Macros/2-4 Items, @Goal Macros/Goal Requirements Met/2-4"
         ],
         "visibility_rules": [
           "2_4_enabled"
@@ -635,7 +635,7 @@
             "chest_unopened_img": "images/items/minikit.png",
             "chest_opened_img": "images/items/minikit_disabled.png",
             "access_rules": [
-              "highjump, shortie"
+              "high_jump, shortie"
             ],
             "sections": [
               {
@@ -838,7 +838,7 @@
                 "name": "2-4 - Power Brick",
                 "hosted_item": "2-4_power_brick",
                 "access_rules": [
-                  "bounty"
+                  "bounty_hunter"
                 ],
                 "visibility_rules": [
                   "@Goal Macros/Locations Visible/2-4"
@@ -910,7 +910,7 @@
       {
         "name": "Gunship Cavalry",
         "access_rules": [
-          "2_5_enabled, republicgunship, @Goal Macros/Goal Requirements Met/2-5"
+          "2_5_enabled, @Chapter Macros/2-5 Items, @Goal Macros/Goal Requirements Met/2-5"
         ],
         "visibility_rules": [
           "2_5_enabled"
@@ -1070,7 +1070,7 @@
       {
         "name": "Count Dooku",
         "access_rules": [
-          "2_6_enabled, anakinskywalker(padawan), obi-wankenobi(jedimaster), yoda, @Goal Macros/Goal Requirements Met/2-6"
+          "2_6_enabled, @Chapter Macros/2-6 Items, @Goal Macros/Goal Requirements Met/2-6"
         ],
         "visibility_rules": [
           "2_6_enabled"
@@ -1081,7 +1081,7 @@
             "chest_unopened_img": "images/items/minikit.png",
             "chest_opened_img": "images/items/minikit_disabled.png",
             "access_rules": [
-              "highjump, blaster, astromech"
+              "high_jump, blaster, astromech"
             ],
             "sections": [
               {
@@ -1192,7 +1192,7 @@
                 "name": "2-6 - Power Brick",
                 "hosted_item": "2-6_power_brick",
                 "access_rules": [
-                  "bounty, shortie"
+                  "bounty_hunter, shortie"
                 ],
                 "visibility_rules": [
                   "@Goal Macros/Locations Visible/2-6"

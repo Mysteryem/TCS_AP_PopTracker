@@ -306,6 +306,10 @@ function onClear(slot_data)
     local easier_true_jedi = slot_data["easier_true_jedi"] or 0
     Tracker:FindObjectForCode("easier_true_jedi").CurrentStage = easier_true_jedi
 
+    -- Set Chapter Unlock Requirement
+    local chapter_unlock_requirement = slot_data["chapter_unlock_requirement"] or 0
+    Tracker:FindObjectForCode("setting_chapter_unlock_requirement").CurrentStage = chapter_unlock_requirement
+
     -- Set the Goal Chapter
     local goal_chapter = slot_data["goal_chapter"]
     local goal_chapter_setting = Tracker:FindObjectForCode("setting_goal_chapter")

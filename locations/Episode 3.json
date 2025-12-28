@@ -13,7 +13,7 @@
       {
         "name": "Battle Over Coruscant",
         "access_rules": [
-          "3_1_enabled, obi-wansstarfighter, anakinsstarfighter, @Goal Macros/Goal Requirements Met/3-1"
+          "3_1_enabled, @Chapter Macros/3-1 Items, @Goal Macros/Goal Requirements Met/3-1"
         ],
         "visibility_rules": [
           "3_1_enabled"
@@ -207,7 +207,7 @@
       {
         "name": "Chancellor in Peril",
         "access_rules": [
-          "3_2_enabled, anakinskywalker(jedi), chancellorpalpatine, obi-wankenobi(episode3), r2-d2, @Goal Macros/Goal Requirements Met/3-2"
+          "3_2_enabled, @Chapter Macros/3-2 Items, @Goal Macros/Goal Requirements Met/3-2"
         ],
         "visibility_rules": [
           "3_2_enabled"
@@ -218,7 +218,7 @@
             "chest_unopened_img": "images/items/minikit.png",
             "chest_opened_img": "images/items/minikit_disabled.png",
             "access_rules": [
-              "highjump, blaster, shortie"
+              "high_jump, blaster, shortie"
             ],
             "sections": [
               {
@@ -351,7 +351,7 @@
                 "name": "3-2 - Power Brick",
                 "hosted_item": "3-2_power_brick",
                 "access_rules": [
-                  "bounty"
+                  "bounty_hunter"
                 ],
                 "visibility_rules": [
                   "@Goal Macros/Locations Visible/3-2"
@@ -423,7 +423,7 @@
       {
         "name": "General Grievous",
         "access_rules": [
-          "3_3_enabled, obi-wankenobi(episode3), commandercody, @Goal Macros/Goal Requirements Met/3-3"
+          "3_3_enabled, @Chapter Macros/3-3 Items, @Goal Macros/Goal Requirements Met/3-3"
         ],
         "visibility_rules": [
           "3_3_enabled"
@@ -434,7 +434,7 @@
             "chest_unopened_img": "images/items/minikit.png",
             "chest_opened_img": "images/items/minikit_disabled.png",
             "access_rules": [
-              "hover, bounty, highjump"
+              "hover, bounty_hunter, high_jump"
             ],
             "sections": [
               {
@@ -547,7 +547,7 @@
                 "name": "3-3 - Power Brick",
                 "hosted_item": "3-3_power_brick",
                 "access_rules": [
-                  "highjump",
+                  "high_jump",
                   "hover"
                 ],
                 "visibility_rules": [
@@ -620,7 +620,7 @@
       {
         "name": "Defense of Kashyyyk",
         "access_rules": [
-          "3_4_enabled, chewbacca, yoda, @Goal Macros/Goal Requirements Met/3-4"
+          "3_4_enabled, @Chapter Macros/3-4 Items, @Goal Macros/Goal Requirements Met/3-4"
         ],
         "visibility_rules": [
           "3_4_enabled"
@@ -631,7 +631,7 @@
             "chest_unopened_img": "images/items/minikit.png",
             "chest_opened_img": "images/items/minikit_disabled.png",
             "access_rules": [
-              "sith, highjump, hover"
+              "sith, high_jump, hover"
             ],
             "sections": [
               {
@@ -784,7 +784,7 @@
                 "name": "3-4 - Power Brick",
                 "hosted_item": "3-4_power_brick",
                 "access_rules": [
-                  "sith, bounty"
+                  "sith, bounty_hunter"
                 ],
                 "visibility_rules": [
                   "@Goal Macros/Locations Visible/3-4"
@@ -842,7 +842,7 @@
       {
         "name": "Ruin of the Jedi",
         "access_rules": [
-          "3_5_enabled, obi-wankenobi(episode3), yoda, @Goal Macros/Goal Requirements Met/3-5"
+          "3_5_enabled, @Chapter Macros/3-5 Items, @Goal Macros/Goal Requirements Met/3-5"
         ],
         "visibility_rules": [
           "3_5_enabled"
@@ -853,7 +853,7 @@
             "chest_unopened_img": "images/items/minikit.png",
             "chest_opened_img": "images/items/minikit_disabled.png",
             "access_rules": [
-              "sith, highjump, blaster, hover, bounty, imperial"
+              "sith, high_jump, blaster, hover, bounty_hunter, imperial"
             ],
             "sections": [
               {
@@ -975,7 +975,7 @@
                 "name": "3-5 - Power Brick",
                 "hosted_item": "3-5_power_brick",
                 "access_rules": [
-                  "sith, highjump"
+                  "sith, high_jump"
                 ],
                 "visibility_rules": [
                   "@Goal Macros/Locations Visible/3-5"
@@ -1033,7 +1033,7 @@
       {
         "name": "Darth Vader",
         "access_rules": [
-          "3_6_enabled, anakinskywalker(jedi), obi-wankenobi(episode3), @Goal Macros/Goal Requirements Met/3-6"
+          "3_6_enabled, @Chapter Macros/3-6 Items, @Goal Macros/Goal Requirements Met/3-6"
         ],
         "visibility_rules": [
           "3_6_enabled"

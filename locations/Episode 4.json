@@ -13,7 +13,7 @@
       {
         "name": "Secret Plans",
         "access_rules": [
-          "4_1_enabled, princessleia, captainantilles, c-3po, r2-d2, rebelfriend, @Goal Macros/Goal Requirements Met/4-1"
+          "4_1_enabled, @Chapter Macros/4-1 Items, @Goal Macros/Goal Requirements Met/4-1"
         ],
         "visibility_rules": [
           "4_1_enabled"
@@ -24,7 +24,7 @@
             "chest_unopened_img": "images/items/minikit.png",
             "chest_opened_img": "images/items/minikit_disabled.png",
             "access_rules": [
-              "sith, bounty, imperial"
+              "sith, bounty_hunter, imperial"
             ],
             "sections": [
               {
@@ -165,7 +165,7 @@
                 "name": "Ride Moon Car",
                 "hosted_item": "ride_moon_car",
                 "access_rules": [
-                  "bounty"
+                  "bounty_hunter"
                 ],
                 "visibility_rules": [
                   "setting_ridesanity_enabled"
@@ -175,7 +175,7 @@
                 "name": "Ride Town Car",
                 "hosted_item": "ride_town_car",
                 "access_rules": [
-                  "bounty",
+                  "bounty_hunter",
                   "imperial"
                 ],
                 "visibility_rules": [
@@ -202,7 +202,7 @@
                 "hosted_item": "4-1_power_brick",
                 "access_rules": [
                   "imperial",
-                  "bounty"
+                  "bounty_hunter"
                 ],
                 "visibility_rules": [
                   "@Goal Macros/Locations Visible/4-1"
@@ -260,7 +260,7 @@
       {
         "name": "Through the Jundland Wastes",
         "access_rules": [
-          "4_2_enabled, lukeskywalker(tatooine), c-3po, r2-d2, benkenobi, @Goal Macros/Goal Requirements Met/4-2"
+          "4_2_enabled, @Chapter Macros/4-2 Items, @Goal Macros/Goal Requirements Met/4-2"
         ],
         "visibility_rules": [
           "4_2_enabled"
@@ -425,7 +425,7 @@
                 "name": "4-2 - Power Brick",
                 "hosted_item": "4-2_power_brick",
                 "access_rules": [
-                  "bounty"
+                  "bounty_hunter"
                 ],
                 "visibility_rules": [
                   "@Goal Macros/Locations Visible/4-2"
@@ -483,7 +483,7 @@
       {
         "name": "Mos Eisley Spaceport",
         "access_rules": [
-          "4_3_enabled, hansolo, benkenobi, lukeskywalker(tatooine), c-3po, r2-d2, chewbacca, @Goal Macros/Goal Requirements Met/4-3"
+          "4_3_enabled, @Chapter Macros/4-3 Items, @Goal Macros/Goal Requirements Met/4-3"
         ],
         "visibility_rules": [
           "4_3_enabled"
@@ -494,7 +494,7 @@
             "chest_unopened_img": "images/items/minikit.png",
             "chest_opened_img": "images/items/minikit_disabled.png",
             "access_rules": [
-              "sith, highjump, bounty, shortie"
+              "sith, high_jump, bounty_hunter, shortie"
             ],
             "sections": [
               {
@@ -747,7 +747,7 @@
       {
         "name": "Rescue the Princess",
         "access_rules": [
-          "4_4_enabled, lukeskywalker(stormtrooper), benkenobi, hansolo(stormtrooper), chewbacca, c-3po, r2-d2, @Goal Macros/Goal Requirements Met/4-4"
+          "4_4_enabled, @Chapter Macros/4-4 Items, @Goal Macros/Goal Requirements Met/4-4"
         ],
         "visibility_rules": [
           "4_4_enabled"
@@ -758,7 +758,7 @@
             "chest_unopened_img": "images/items/minikit.png",
             "chest_opened_img": "images/items/minikit_disabled.png",
             "access_rules": [
-              "sith, bounty, imperial"
+              "sith, bounty_hunter, imperial"
             ],
             "sections": [
               {
@@ -994,7 +994,7 @@
       {
         "name": "Death Star Escape",
         "access_rules": [
-          "4_5_enabled, lukeskywalker(tatooine), princessleia, hansolo, chewbacca, c-3po, r2-d2, @Goal Macros/Goal Requirements Met/4-5"
+          "4_5_enabled, @Chapter Macros/4-5 Items, @Goal Macros/Goal Requirements Met/4-5"
         ],
         "visibility_rules": [
           "4_5_enabled"
@@ -1005,7 +1005,7 @@
             "chest_unopened_img": "images/items/minikit.png",
             "chest_opened_img": "images/items/minikit_disabled.png",
             "access_rules": [
-              "sith, bounty, imperial, shortie"
+              "sith, bounty_hunter, imperial, shortie"
             ],
             "sections": [
               {
@@ -1203,7 +1203,7 @@
       {
         "name": "Rebel Attack",
         "access_rules": [
-          "4_6_enabled, x-wing, y-wing, @Goal Macros/Goal Requirements Met/4-6"
+          "4_6_enabled, @Chapter Macros/4-6 Items, @Goal Macros/Goal Requirements Met/4-6"
         ],
         "visibility_rules": [
           "4_6_enabled"

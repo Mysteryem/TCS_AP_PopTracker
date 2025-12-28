@@ -13,7 +13,7 @@
       {
         "name": "Jabba's Palace",
         "access_rules": [
-          "6_1_enabled, princessleia(boushh), chewbacca, lukeskywalker(jedi), r2-d2, c-3po, hansolo(skiff), @Goal Macros/Goal Requirements Met/6-1"
+          "6_1_enabled, @Chapter Macros/6-1 Items, @Goal Macros/Goal Requirements Met/6-1"
         ],
         "visibility_rules": [
           "6_1_enabled"
@@ -24,7 +24,7 @@
             "chest_unopened_img": "images/items/minikit.png",
             "chest_opened_img": "images/items/minikit_disabled.png",
             "access_rules": [
-              "sith, bounty, imperial, shortie"
+              "sith, bounty_hunter, imperial, shortie"
             ],
             "sections": [
               {
@@ -252,7 +252,7 @@
       {
         "name": "Pit of Carkoon",
         "access_rules": [
-          "6_2_enabled, lukeskywalker(jedi), landocalrissian(palaceguard), hansolo(skiff), chewbacca, r2-d2, c-3po, princessleia(slave), @Goal Macros/Goal Requirements Met/6-2"
+          "6_2_enabled, @Chapter Macros/6-2 Items, @Goal Macros/Goal Requirements Met/6-2"
         ],
         "visibility_rules": [
           "6_2_enabled"
@@ -500,7 +500,7 @@
       {
         "name": "Speeder Showdown",
         "access_rules": [
-          "6_3_enabled, lukeskywalker(endor), princessleia(endor), @Goal Macros/Goal Requirements Met/6-3"
+          "6_3_enabled, @Chapter Macros/6-3 Items, @Goal Macros/Goal Requirements Met/6-3"
         ],
         "visibility_rules": [
           "6_3_enabled"
@@ -511,7 +511,7 @@
             "chest_unopened_img": "images/items/minikit.png",
             "chest_opened_img": "images/items/minikit_disabled.png",
             "access_rules": [
-              "sith, highjump, bounty, imperial, shortie"
+              "sith, high_jump, bounty_hunter, imperial, shortie"
             ],
             "sections": [
               {
@@ -691,7 +691,7 @@
       {
         "name": "Battle of Endor",
         "access_rules": [
-          "6_4_enabled, hansolo(endor), princessleia(endor), chewbacca, r2-d2, c-3po, wicket, @Goal Macros/Goal Requirements Met/6-4"
+          "6_4_enabled, @Chapter Macros/6-4 Items, @Goal Macros/Goal Requirements Met/6-4"
         ],
         "visibility_rules": [
           "6_4_enabled"
@@ -702,7 +702,7 @@
             "chest_unopened_img": "images/items/minikit.png",
             "chest_opened_img": "images/items/minikit_disabled.png",
             "access_rules": [
-              "bounty"
+              "bounty_hunter"
             ],
             "sections": [
               {
@@ -919,7 +919,7 @@
       {
         "name": "Jedi Destiny",
         "access_rules": [
-          "6_5_enabled, darthvader, lukeskywalker(jedi), @Goal Macros/Goal Requirements Met/6-5"
+          "6_5_enabled, @Chapter Macros/6-5 Items, @Goal Macros/Goal Requirements Met/6-5"
         ],
         "visibility_rules": [
           "6_5_enabled"
@@ -930,7 +930,7 @@
             "chest_unopened_img": "images/items/minikit.png",
             "chest_opened_img": "images/items/minikit_disabled.png",
             "access_rules": [
-              "highjump, blaster, bounty, shortie, astromech"
+              "high_jump, blaster, bounty_hunter, shortie, astromech"
             ],
             "sections": [
               {
@@ -1121,7 +1121,7 @@
       {
         "name": "Into the Death Star",
         "access_rules": [
-          "6_6_enabled, millenniumfalcon, x-wing, @Goal Macros/Goal Requirements Met/6-6"
+          "6_6_enabled, @Chapter Macros/6-6 Items, @Goal Macros/Goal Requirements Met/6-6"
         ],
         "visibility_rules": [
           "6_6_enabled"

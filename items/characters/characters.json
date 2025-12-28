@@ -3,265 +3,265 @@
     "name": "4-LOM",
     "type": "toggle",
     "img": "images/items/4-lom.png",
-    "codes": "4-lom, bounty, astromech, blaster"
+    "codes": "4-lom, astromech, blaster, bounty_hunter, protocol_droid, can_ride_vehicles, can_push_objects, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Aayla Secura",
     "type": "toggle",
     "img": "images/items/aaylasecura.png",
-    "codes": "aaylasecura"
+    "codes": "aaylasecura, jedi, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Admiral Ackbar",
     "type": "toggle",
     "img": "images/items/admiralackbar.png",
-    "codes": "admiralackbar, blaster"
+    "codes": "admiralackbar, blaster, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Anakin Skywalker (Boy)",
     "type": "toggle",
     "img": "images/items/anakinskywalker(boy).png",
-    "codes": "anakinskywalker(boy), shortie"
+    "codes": "anakinskywalker(boy), shortie, can_wear_hat, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally"
   },
   {
     "name": "Anakin Skywalker (Ghost)",
     "type": "toggle",
     "img": "images/items/anakinskywalker(ghost).png",
-    "codes": "anakinskywalker(ghost)"
+    "codes": "anakinskywalker(ghost), jedi, can_wear_hat, can_wear_hat_and_double_jump, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Anakin Skywalker (Jedi)",
     "type": "toggle",
     "img": "images/items/anakinskywalker(jedi).png",
-    "codes": "anakinskywalker(jedi)"
+    "codes": "anakinskywalker(jedi), jedi, can_wear_hat, can_wear_hat_and_double_jump, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Anakin Skywalker (Padawan)",
     "type": "toggle",
     "img": "images/items/anakinskywalker(padawan).png",
-    "codes": "anakinskywalker(padawan)"
+    "codes": "anakinskywalker(padawan), jedi, can_wear_hat, can_wear_hat_and_double_jump, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Battle Droid",
     "type": "toggle",
     "img": "images/items/battledroid.png",
-    "codes": "battledroid"
+    "codes": "battledroid, can_attack_up_close"
   },
   {
     "name": "Battle Droid (Commander)",
     "type": "toggle",
     "img": "images/items/battledroid(commander).png",
-    "codes": "battledroid(commander)"
+    "codes": "battledroid(commander), can_attack_up_close"
   },
   {
     "name": "Battle Droid (Geonosis)",
     "type": "toggle",
     "img": "images/items/battledroid(geonosis).png",
-    "codes": "battledroid(geonosis)"
+    "codes": "battledroid(geonosis), can_attack_up_close"
   },
   {
     "name": "Battle Droid (Security)",
     "type": "toggle",
     "img": "images/items/battledroid(security).png",
-    "codes": "battledroid(security)"
+    "codes": "battledroid(security), can_attack_up_close"
   },
   {
     "name": "Beach Trooper",
     "type": "toggle",
     "img": "images/items/beachtrooper.png",
-    "codes": "beachtrooper, imperial, blaster"
+    "codes": "beachtrooper, blaster, imperial, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Ben Kenobi",
     "type": "toggle",
     "img": "images/items/benkenobi.png",
-    "codes": "benkenobi"
+    "codes": "benkenobi, jedi, can_wear_hat, can_wear_hat_and_double_jump, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Ben Kenobi (Ghost)",
     "type": "toggle",
     "img": "images/items/benkenobi(ghost).png",
-    "codes": "benkenobi(ghost)"
+    "codes": "benkenobi(ghost), jedi, can_wear_hat, can_wear_hat_and_double_jump, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Bespin Guard",
     "type": "toggle",
     "img": "images/items/bespinguard.png",
-    "codes": "bespinguard, blaster"
+    "codes": "bespinguard, blaster, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Bib Fortuna",
     "type": "toggle",
     "img": "images/items/bibfortuna.png",
-    "codes": "bibfortuna"
+    "codes": "bibfortuna, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Boba Fett",
     "type": "toggle",
     "img": "images/items/bobafett.png",
-    "codes": "bobafett, bounty, blaster, hover"
+    "codes": "bobafett, blaster, bounty_hunter, hover, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Boba Fett (Boy)",
     "type": "toggle",
     "img": "images/items/bobafett(boy).png",
-    "codes": "bobafett(boy), shortie"
+    "codes": "bobafett(boy), shortie, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally"
   },
   {
     "name": "Boss Nass",
     "type": "toggle",
     "img": "images/items/bossnass.png",
-    "codes": "bossnass"
+    "codes": "bossnass, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally"
   },
   {
     "name": "Bossk",
     "type": "toggle",
     "img": "images/items/bossk.png",
-    "codes": "bossk, bounty, blaster"
+    "codes": "bossk, blaster, bounty_hunter, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "C-3PO",
     "type": "toggle",
     "img": "images/items/c-3po.png",
-    "codes": "c-3po"
+    "codes": "c-3po, protocol_droid"
   },
   {
     "name": "Captain Antilles",
     "type": "toggle",
     "img": "images/items/captainantilles.png",
-    "codes": "captainantilles, blaster"
+    "codes": "captainantilles, blaster, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Captain Panaka",
     "type": "toggle",
     "img": "images/items/captainpanaka.png",
-    "codes": "captainpanaka, blaster"
+    "codes": "captainpanaka, blaster, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Captain Tarpals",
     "type": "toggle",
     "img": "images/items/captaintarpals.png",
-    "codes": "captaintarpals, highjump"
+    "codes": "captaintarpals, high_jump, can_ride_vehicles, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Chancellor Palpatine",
     "type": "toggle",
     "img": "images/items/chancellorpalpatine.png",
-    "codes": "chancellorpalpatine"
+    "codes": "chancellorpalpatine, can_wear_hat, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally"
   },
   {
     "name": "Chewbacca",
     "type": "toggle",
     "img": "images/items/chewbacca.png",
-    "codes": "chewbacca, blaster"
+    "codes": "chewbacca, blaster, can_wear_hat, can_wear_hat_and_grapple, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Clone",
     "type": "toggle",
     "img": "images/items/clone.png",
-    "codes": "clone, imperial, blaster"
+    "codes": "clone, blaster, imperial, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Clone (Episode 3)",
     "type": "toggle",
     "img": "images/items/clone(episode3).png",
-    "codes": "clone(episode3), imperial, blaster"
+    "codes": "clone(episode3), blaster, imperial, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Clone (Episode 3, Pilot)",
     "type": "toggle",
     "img": "images/items/clone(episode3-pilot).png",
-    "codes": "clone(episode3-pilot), imperial, blaster"
+    "codes": "clone(episode3-pilot), blaster, imperial, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Clone (Episode 3, Swamp)",
     "type": "toggle",
     "img": "images/items/clone(episode3-swamp).png",
-    "codes": "clone(episode3-swamp), imperial, blaster"
+    "codes": "clone(episode3-swamp), blaster, imperial, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Clone (Episode 3, Walker)",
     "type": "toggle",
     "img": "images/items/clone(episode3-walker).png",
-    "codes": "clone(episode3-walker), imperial, blaster"
+    "codes": "clone(episode3-walker), blaster, imperial, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Commander Cody",
     "type": "toggle",
     "img": "images/items/commandercody.png",
-    "codes": "commandercody, imperial, blaster"
+    "codes": "commandercody, blaster, imperial, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Count Dooku",
     "type": "toggle",
     "img": "images/items/countdooku.png",
-    "codes": "countdooku, sith"
+    "codes": "countdooku, jedi, sith, can_wear_hat, can_wear_hat_and_double_jump, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Darth Maul",
     "type": "toggle",
     "img": "images/items/darthmaul.png",
-    "codes": "darthmaul, sith"
+    "codes": "darthmaul, jedi, sith, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Darth Vader",
     "type": "toggle",
     "img": "images/items/darthvader.png",
-    "codes": "darthvader, sith, imperial"
+    "codes": "darthvader, imperial, jedi, sith, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Death Star Trooper",
     "type": "toggle",
     "img": "images/items/deathstartrooper.png",
-    "codes": "deathstartrooper, imperial, blaster"
+    "codes": "deathstartrooper, blaster, imperial, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Dengar",
     "type": "toggle",
     "img": "images/items/dengar.png",
-    "codes": "dengar, bounty, blaster"
+    "codes": "dengar, blaster, bounty_hunter, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Dexter Jettster",
     "type": "toggle",
     "img": "images/items/dexterjettster.png",
-    "codes": "dexterjettster"
+    "codes": "dexterjettster, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally"
   },
   {
     "name": "Disguised Clone",
     "type": "toggle",
     "img": "images/items/disguisedclone.png",
-    "codes": "disguisedclone, imperial, blaster"
+    "codes": "disguisedclone, blaster, imperial, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Droideka",
     "type": "toggle",
     "img": "images/items/droideka.png",
-    "codes": "droideka"
+    "codes": "droideka, can_attack_up_close"
   },
   {
     "name": "Ewok",
     "type": "toggle",
     "img": "images/items/ewok.png",
-    "codes": "ewok, shortie"
+    "codes": "ewok, shortie, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Gamorrean Guard",
     "type": "toggle",
     "img": "images/items/gamorreanguard.png",
-    "codes": "gamorreanguard"
+    "codes": "gamorreanguard, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "General Grievous",
     "type": "toggle",
     "img": "images/items/generalgrievous.png",
-    "codes": "generalgrievous, highjump"
+    "codes": "generalgrievous, high_jump, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Geonosian",
     "type": "toggle",
     "img": "images/items/geonosian.png",
-    "codes": "geonosian"
+    "codes": "geonosian, can_ride_vehicles, can_pull_levers, can_push_objects, can_attack_up_close"
   },
   {
     "name": "Gonk Droid",
@@ -273,229 +273,229 @@
     "name": "Grand Moff Tarkin",
     "type": "toggle",
     "img": "images/items/grandmofftarkin.png",
-    "codes": "grandmofftarkin, imperial, blaster"
+    "codes": "grandmofftarkin, blaster, imperial, can_wear_hat, can_wear_hat_and_grapple, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Greedo",
     "type": "toggle",
     "img": "images/items/greedo.png",
-    "codes": "greedo, bounty, blaster"
+    "codes": "greedo, blaster, bounty_hunter, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Grievous' Bodyguard",
     "type": "toggle",
     "img": "images/items/grievousbodyguard.png",
-    "codes": "grievousbodyguard, highjump"
+    "codes": "grievousbodyguard, high_jump, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Han Solo",
     "type": "toggle",
     "img": "images/items/hansolo.png",
-    "codes": "hansolo, blaster"
+    "codes": "hansolo, blaster, can_wear_hat, can_wear_hat_and_grapple, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Han Solo (Endor)",
     "type": "toggle",
     "img": "images/items/hansolo(endor).png",
-    "codes": "hansolo(endor), blaster"
+    "codes": "hansolo(endor), blaster, can_wear_hat, can_wear_hat_and_grapple, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Han Solo (Hood)",
     "type": "toggle",
     "img": "images/items/hansolo(hood).png",
-    "codes": "hansolo(hood), blaster"
+    "codes": "hansolo(hood), blaster, can_wear_hat, can_wear_hat_and_grapple, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Han Solo (Hoth)",
     "type": "toggle",
     "img": "images/items/hansolo(hoth).png",
-    "codes": "hansolo(hoth), blaster"
+    "codes": "hansolo(hoth), blaster, can_wear_hat, can_wear_hat_and_grapple, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Han Solo (Skiff)",
     "type": "toggle",
     "img": "images/items/hansolo(skiff).png",
-    "codes": "hansolo(skiff), blaster"
+    "codes": "hansolo(skiff), blaster, can_wear_hat, can_wear_hat_and_grapple, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Han Solo (Stormtrooper)",
     "type": "toggle",
     "img": "images/items/hansolo(stormtrooper).png",
-    "codes": "hansolo(stormtrooper), blaster"
+    "codes": "hansolo(stormtrooper), blaster, can_wear_hat, can_wear_hat_and_grapple, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "IG-88",
     "type": "toggle",
     "img": "images/items/ig-88.png",
-    "codes": "ig-88, bounty, astromech, blaster"
+    "codes": "ig-88, astromech, blaster, bounty_hunter, protocol_droid, can_ride_vehicles, can_push_objects, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Imperial Guard",
     "type": "toggle",
     "img": "images/items/imperialguard.png",
-    "codes": "imperialguard, imperial"
+    "codes": "imperialguard, imperial, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Imperial Officer",
     "type": "toggle",
     "img": "images/items/imperialofficer.png",
-    "codes": "imperialofficer, imperial, blaster"
+    "codes": "imperialofficer, blaster, imperial, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Imperial Shuttle Pilot",
     "type": "toggle",
     "img": "images/items/imperialshuttlepilot.png",
-    "codes": "imperialshuttlepilot, imperial, blaster"
+    "codes": "imperialshuttlepilot, blaster, imperial, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Imperial Spy",
     "type": "toggle",
     "img": "images/items/imperialspy.png",
-    "codes": "imperialspy"
+    "codes": "imperialspy, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally"
   },
   {
     "name": "Indiana Jones",
     "type": "toggle",
     "img": "images/items/indianajones.png",
-    "codes": "indianajones, blaster"
+    "codes": "indianajones, blaster, can_wear_hat, can_wear_hat_and_grapple, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Jango Fett",
     "type": "toggle",
     "img": "images/items/jangofett.png",
-    "codes": "jangofett, bounty, blaster, hover"
+    "codes": "jangofett, blaster, bounty_hunter, hover, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Jar Jar Binks",
     "type": "toggle",
     "img": "images/items/jarjarbinks.png",
-    "codes": "jarjarbinks, highjump"
+    "codes": "jarjarbinks, high_jump, can_ride_vehicles, can_push_objects, can_build_bricks, can_jump_normally"
   },
   {
     "name": "Jawa",
     "type": "toggle",
     "img": "images/items/jawa.png",
-    "codes": "jawa, shortie"
+    "codes": "jawa, shortie, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally"
   },
   {
     "name": "Ki-Adi Mundi",
     "type": "toggle",
     "img": "images/items/ki-adimundi.png",
-    "codes": "ki-adimundi"
+    "codes": "ki-adimundi, jedi, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Kit Fisto",
     "type": "toggle",
     "img": "images/items/kitfisto.png",
-    "codes": "kitfisto"
+    "codes": "kitfisto, jedi, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Lama Su",
     "type": "toggle",
     "img": "images/items/lamasu.png",
-    "codes": "lamasu"
+    "codes": "lamasu, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Lando Calrissian",
     "type": "toggle",
     "img": "images/items/landocalrissian.png",
-    "codes": "landocalrissian, blaster"
+    "codes": "landocalrissian, blaster, can_wear_hat, can_wear_hat_and_grapple, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Lando Calrissian (Palace Guard)",
     "type": "toggle",
     "img": "images/items/landocalrissian(palaceguard).png",
-    "codes": "landocalrissian(palaceguard), blaster"
+    "codes": "landocalrissian(palaceguard), blaster, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Lobot",
     "type": "toggle",
     "img": "images/items/lobot.png",
-    "codes": "lobot"
+    "codes": "lobot, can_wear_hat, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Luke Skywalker (Bespin)",
     "type": "toggle",
     "img": "images/items/lukeskywalker(bespin).png",
-    "codes": "lukeskywalker(bespin)"
+    "codes": "lukeskywalker(bespin), jedi, can_wear_hat, can_wear_hat_and_double_jump, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Luke Skywalker (Dagobah)",
     "type": "toggle",
     "img": "images/items/lukeskywalker(dagobah).png",
-    "codes": "lukeskywalker(dagobah)"
+    "codes": "lukeskywalker(dagobah), jedi, can_wear_hat, can_wear_hat_and_double_jump, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Luke Skywalker (Endor)",
     "type": "toggle",
     "img": "images/items/lukeskywalker(endor).png",
-    "codes": "lukeskywalker(endor)"
+    "codes": "lukeskywalker(endor), jedi, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Luke Skywalker (Hoth)",
     "type": "toggle",
     "img": "images/items/lukeskywalker(hoth).png",
-    "codes": "lukeskywalker(hoth), blaster"
+    "codes": "lukeskywalker(hoth), blaster, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Luke Skywalker (Jedi)",
     "type": "toggle",
     "img": "images/items/lukeskywalker(jedi).png",
-    "codes": "lukeskywalker(jedi)"
+    "codes": "lukeskywalker(jedi), jedi, can_wear_hat, can_wear_hat_and_double_jump, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Luke Skywalker (Pilot)",
     "type": "toggle",
     "img": "images/items/lukeskywalker(pilot).png",
-    "codes": "lukeskywalker(pilot), blaster"
+    "codes": "lukeskywalker(pilot), blaster, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Luke Skywalker (Stormtrooper)",
     "type": "toggle",
     "img": "images/items/lukeskywalker(stormtrooper).png",
-    "codes": "lukeskywalker(stormtrooper), blaster"
+    "codes": "lukeskywalker(stormtrooper), blaster, can_wear_hat, can_wear_hat_and_grapple, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Luke Skywalker (Tatooine)",
     "type": "toggle",
     "img": "images/items/lukeskywalker(tatooine).png",
-    "codes": "lukeskywalker(tatooine), blaster"
+    "codes": "lukeskywalker(tatooine), blaster, can_wear_hat, can_wear_hat_and_grapple, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Luminara",
     "type": "toggle",
     "img": "images/items/luminara.png",
-    "codes": "luminara"
+    "codes": "luminara, jedi, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Mace Windu",
     "type": "toggle",
     "img": "images/items/macewindu.png",
-    "codes": "macewindu"
+    "codes": "macewindu, jedi, can_wear_hat, can_wear_hat_and_double_jump, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Mace Windu (Episode 3)",
     "type": "toggle",
     "img": "images/items/macewindu(episode3).png",
-    "codes": "macewindu(episode3)"
+    "codes": "macewindu(episode3), jedi, can_wear_hat, can_wear_hat_and_double_jump, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Obi-Wan Kenobi",
     "type": "toggle",
     "img": "images/items/obi-wankenobi.png",
-    "codes": "obi-wankenobi"
+    "codes": "obi-wankenobi, jedi, can_wear_hat, can_wear_hat_and_double_jump, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Obi-Wan Kenobi (Episode 3)",
     "type": "toggle",
     "img": "images/items/obi-wankenobi(episode3).png",
-    "codes": "obi-wankenobi(episode3)"
+    "codes": "obi-wankenobi(episode3), jedi, can_wear_hat, can_wear_hat_and_double_jump, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Obi-Wan Kenobi (Jedi Master)",
     "type": "toggle",
     "img": "images/items/obi-wankenobi(jedimaster).png",
-    "codes": "obi-wankenobi(jedimaster)"
+    "codes": "obi-wankenobi(jedimaster), jedi, can_wear_hat, can_wear_hat_and_double_jump, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "PK Droid",
@@ -507,31 +507,31 @@
     "name": "Padmé",
     "type": "toggle",
     "img": "images/items/padme.png",
-    "codes": "padme, blaster"
+    "codes": "padme, blaster, can_wear_hat, can_wear_hat_and_grapple, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Padmé (Battle)",
     "type": "toggle",
     "img": "images/items/padme(battle).png",
-    "codes": "padme(battle), blaster"
+    "codes": "padme(battle), blaster, can_wear_hat, can_wear_hat_and_grapple, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Padmé (Clawed)",
     "type": "toggle",
     "img": "images/items/padme(clawed).png",
-    "codes": "padme(clawed), blaster"
+    "codes": "padme(clawed), blaster, can_wear_hat, can_wear_hat_and_grapple, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Padmé (Geonosis)",
     "type": "toggle",
     "img": "images/items/padme(geonosis).png",
-    "codes": "padme(geonosis), blaster"
+    "codes": "padme(geonosis), blaster, can_wear_hat, can_wear_hat_and_grapple, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Palace Guard",
     "type": "toggle",
     "img": "images/items/palaceguard.png",
-    "codes": "palaceguard, blaster"
+    "codes": "palaceguard, blaster, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Pit Droid",
@@ -543,228 +543,228 @@
     "name": "Plo Koon",
     "type": "toggle",
     "img": "images/items/plokoon.png",
-    "codes": "plokoon"
+    "codes": "plokoon, jedi, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Princess Leia",
     "type": "toggle",
     "img": "images/items/princessleia.png",
-    "codes": "princessleia, blaster"
+    "codes": "princessleia, blaster, can_wear_hat, can_wear_hat_and_grapple, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Princess Leia (Bespin)",
     "type": "toggle",
     "img": "images/items/princessleia(bespin).png",
-    "codes": "princessleia(bespin), blaster"
+    "codes": "princessleia(bespin), blaster, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Princess Leia (Boushh)",
     "type": "toggle",
     "img": "images/items/princessleia(boushh).png",
-    "codes": "princessleia(boushh), blaster"
+    "codes": "princessleia(boushh), blaster, can_wear_hat, can_wear_hat_and_grapple, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Princess Leia (Endor)",
     "type": "toggle",
     "img": "images/items/princessleia(endor).png",
-    "codes": "princessleia(endor), blaster"
+    "codes": "princessleia(endor), blaster, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Princess Leia (Hoth)",
     "type": "toggle",
     "img": "images/items/princessleia(hoth).png",
-    "codes": "princessleia(hoth), blaster"
+    "codes": "princessleia(hoth), blaster, can_wear_hat, can_wear_hat_and_grapple, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Princess Leia (Prisoner)",
     "type": "toggle",
     "img": "images/items/princessleia(prisoner).png",
-    "codes": "princessleia(prisoner), blaster"
+    "codes": "princessleia(prisoner), blaster, can_wear_hat, can_wear_hat_and_grapple, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Princess Leia (Slave)",
     "type": "toggle",
     "img": "images/items/princessleia(slave).png",
-    "codes": "princessleia(slave), blaster"
+    "codes": "princessleia(slave), blaster, can_wear_hat, can_wear_hat_and_grapple, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Queen Amidala",
     "type": "toggle",
     "img": "images/items/queenamidala.png",
-    "codes": "queenamidala, blaster"
+    "codes": "queenamidala, blaster, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Qui-Gon Jinn",
     "type": "toggle",
     "img": "images/items/qui-gonjinn.png",
-    "codes": "qui-gonjinn"
+    "codes": "qui-gonjinn, jedi, can_wear_hat, can_wear_hat_and_double_jump, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "R2-D2",
     "type": "toggle",
     "img": "images/items/r2-d2.png",
-    "codes": "r2-d2, astromech, hover"
+    "codes": "r2-d2, astromech, hover, can_dagobah_swamp"
   },
   {
     "name": "R2-Q5",
     "type": "toggle",
     "img": "images/items/r2-q5.png",
-    "codes": "r2-q5, astromech, hover"
+    "codes": "r2-q5, astromech, hover, can_dagobah_swamp"
   },
   {
     "name": "R4-P17",
     "type": "toggle",
     "img": "images/items/r4-p17.png",
-    "codes": "r4-p17, astromech, hover"
+    "codes": "r4-p17, astromech, hover, can_dagobah_swamp"
   },
   {
     "name": "Rebel Friend",
     "type": "toggle",
     "img": "images/items/rebelfriend.png",
-    "codes": "rebelfriend, blaster"
+    "codes": "rebelfriend, blaster, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Rebel Pilot",
     "type": "toggle",
     "img": "images/items/rebelpilot.png",
-    "codes": "rebelpilot, blaster"
+    "codes": "rebelpilot, blaster, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Rebel Trooper",
     "type": "toggle",
     "img": "images/items/rebeltrooper.png",
-    "codes": "rebeltrooper, blaster"
+    "codes": "rebeltrooper, blaster, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Rebel Trooper (Hoth)",
     "type": "toggle",
     "img": "images/items/rebeltrooper(hoth).png",
-    "codes": "rebeltrooper(hoth), blaster"
+    "codes": "rebeltrooper(hoth), blaster, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Royal Guard",
     "type": "toggle",
     "img": "images/items/royalguard.png",
-    "codes": "royalguard, blaster"
+    "codes": "royalguard, blaster, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "STRANGER 1",
     "type": "toggle",
     "img": "images/items/custom_character_1.png",
-    "codes": "custom_character_1, blaster"
+    "codes": "stranger1, blaster, can_wear_hat, can_wear_hat_and_grapple, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "STRANGER 2",
     "type": "toggle",
     "img": "images/items/custom_character_2.png",
-    "codes": "custom_character_2, blaster"
+    "codes": "stranger2, blaster, can_wear_hat, can_wear_hat_and_grapple, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Sandtrooper",
     "type": "toggle",
     "img": "images/items/sandtrooper.png",
-    "codes": "sandtrooper, imperial, blaster"
+    "codes": "sandtrooper, blaster, imperial, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Shaak Ti",
     "type": "toggle",
     "img": "images/items/shaakti.png",
-    "codes": "shaakti"
+    "codes": "shaakti, jedi, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Skiff Guard",
     "type": "toggle",
     "img": "images/items/skiffguard.png",
-    "codes": "skiffguard, blaster"
+    "codes": "skiffguard, blaster, can_wear_hat, can_wear_hat_and_grapple, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Snowtrooper",
     "type": "toggle",
     "img": "images/items/snowtrooper.png",
-    "codes": "snowtrooper, imperial, blaster"
+    "codes": "snowtrooper, blaster, imperial, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Stormtrooper",
     "type": "toggle",
     "img": "images/items/stormtrooper.png",
-    "codes": "stormtrooper, imperial, blaster"
+    "codes": "stormtrooper, blaster, imperial, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Super Battle Droid",
     "type": "toggle",
     "img": "images/items/superbattledroid.png",
-    "codes": "superbattledroid"
+    "codes": "superbattledroid, can_attack_up_close"
   },
   {
     "name": "TC-14",
     "type": "toggle",
     "img": "images/items/tc-14.png",
-    "codes": "tc-14"
+    "codes": "tc-14, protocol_droid"
   },
   {
     "name": "TIE Fighter Pilot",
     "type": "toggle",
     "img": "images/items/tiefighterpilot.png",
-    "codes": "tiefighterpilot, imperial, blaster"
+    "codes": "tiefighterpilot, blaster, imperial, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Taun We",
     "type": "toggle",
     "img": "images/items/taunwe.png",
-    "codes": "taunwe"
+    "codes": "taunwe, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "The Emperor",
     "type": "toggle",
     "img": "images/items/theemperor.png",
-    "codes": "theemperor, sith, imperial"
+    "codes": "theemperor, imperial, jedi, sith, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Tusken Raider",
     "type": "toggle",
     "img": "images/items/tuskenraider.png",
-    "codes": "tuskenraider, blaster"
+    "codes": "tuskenraider, blaster, can_wear_hat, can_wear_hat_and_grapple, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Ugnaught",
     "type": "toggle",
     "img": "images/items/ugnaught.png",
-    "codes": "ugnaught, shortie"
+    "codes": "ugnaught, shortie, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally"
   },
   {
     "name": "Watto",
     "type": "toggle",
     "img": "images/items/watto.png",
-    "codes": "watto"
+    "codes": "watto, can_ride_vehicles, can_pull_levers, can_push_objects"
   },
   {
     "name": "Wicket",
     "type": "toggle",
     "img": "images/items/wicket.png",
-    "codes": "wicket, shortie"
+    "codes": "wicket, shortie, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Wookiee",
     "type": "toggle",
     "img": "images/items/wookiee.png",
-    "codes": "wookiee, blaster"
+    "codes": "wookiee, blaster, can_wear_hat, can_wear_hat_and_grapple, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Yoda",
     "type": "toggle",
     "img": "images/items/yoda.png",
-    "codes": "yoda"
+    "codes": "yoda, jedi, can_wear_hat, can_wear_hat_and_double_jump, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Yoda (Ghost)",
     "type": "toggle",
     "img": "images/items/yoda(ghost).png",
-    "codes": "yoda(ghost)"
+    "codes": "yoda(ghost), jedi, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   },
   {
     "name": "Zam Wesell",
     "type": "toggle",
     "img": "images/items/zamwesell.png",
-    "codes": "zamwesell, bounty, blaster"
+    "codes": "zamwesell, blaster, bounty_hunter, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
   }
 ]
