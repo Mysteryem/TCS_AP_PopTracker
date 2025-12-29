@@ -66,6 +66,12 @@
     "codes": "sebulbaspod, is_a_vehicle"
   },
   {
+    "name": "Slave 1",
+    "type": "toggle",
+    "img": "images/items/slave1.png",
+    "codes": "slave1, is_a_vehicle, vehicle_blaster"
+  },
+  {
     "name": "Snowspeeder",
     "type": "toggle",
     "img": "images/items/snowspeeder.png",
