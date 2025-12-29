@@ -143,6 +143,9 @@
           {
             "name": "Ride AT-ST",
             "hosted_item": "ride_at-st",
+            "access_rules": [
+              "jedi, can_attack_up_close, can_ride_vehicles"
+            ],
             "visibility_rules": [
               "setting_ridesanity_enabled"
             ]
@@ -150,6 +153,9 @@
           {
             "name": "Ride Bantha",
             "hosted_item": "ride_bantha",
+            "access_rules": [
+              "can_ride_vehicles"
+            ],
             "visibility_rules": [
               "setting_ridesanity_enabled"
             ]
@@ -157,6 +163,9 @@
           {
             "name": "Ride Cloud Car",
             "hosted_item": "ride_cloud_car",
+            "access_rules": [
+              "can_ride_vehicles"
+            ],
             "visibility_rules": [
               "setting_ridesanity_enabled"
             ]
@@ -164,6 +173,9 @@
           {
             "name": "Ride Dewback",
             "hosted_item": "ride_dewback",
+            "access_rules": [
+              "can_ride_vehicles"
+            ],
             "visibility_rules": [
               "setting_ridesanity_enabled"
             ]
@@ -171,6 +183,10 @@
           {
             "name": "Ride Landspeeder",
             "hosted_item": "ride_landspeeder",
+            "access_rules": [
+              "jedi, can_attack_up_close, can_ride_vehicles",
+              "bounty_hunter, can_ride_vehicles"
+            ],
             "visibility_rules": [
               "setting_ridesanity_enabled"
             ]
@@ -179,7 +195,7 @@
             "name": "Ride Moon Car",
             "hosted_item": "ride_moon_car",
             "access_rules": [
-              "bounty_hunter"
+              "bounty_hunter, can_build_bricks, can_ride_vehicles"
             ],
             "visibility_rules": [
               "setting_ridesanity_enabled"
@@ -188,6 +204,9 @@
           {
             "name": "Ride Tractor",
             "hosted_item": "ride_tractor",
+            "access_rules": [
+              "can_attack_up_close, can_build_bricks, can_ride_vehicles"
+            ],
             "visibility_rules": [
               "setting_ridesanity_enabled"
             ]
@@ -195,6 +214,9 @@
           {
             "name": "Ride Wookie Flyer",
             "hosted_item": "ride_wookie_flyer",
+            "access_rules": [
+              "jedi, can_build_bricks, can_pull_levers, can_ride_vehicles"
+            ],
             "visibility_rules": [
               "setting_ridesanity_enabled"
             ]
@@ -219,6 +241,9 @@
           {
             "name": "Ride Bantha",
             "hosted_item": "ride_bantha",
+            "access_rules": [
+              "can_ride_vehicles"
+            ],
             "visibility_rules": [
               "setting_ridesanity_enabled"
             ]
@@ -226,6 +251,9 @@
           {
             "name": "Ride Basketball Cannon",
             "hosted_item": "ride_basketball_cannon",
+            "access_rules": [
+              "can_ride_vehicles"
+            ],
             "visibility_rules": [
               "setting_ridesanity_enabled"
             ]
@@ -233,6 +261,9 @@
           {
             "name": "Ride Clone Walker",
             "hosted_item": "ride_clone_walker",
+            "access_rules": [
+              "can_ride_vehicles"
+            ],
             "visibility_rules": [
               "setting_ridesanity_enabled"
             ]
@@ -240,6 +271,9 @@
           {
             "name": "Ride Cloud Car",
             "hosted_item": "ride_cloud_car",
+            "access_rules": [
+              "can_ride_vehicles"
+            ],
             "visibility_rules": [
               "setting_ridesanity_enabled"
             ]
@@ -247,6 +281,9 @@
           {
             "name": "Ride Dewback",
             "hosted_item": "ride_dewback",
+            "access_rules": [
+              "can_ride_vehicles"
+            ],
             "visibility_rules": [
               "setting_ridesanity_enabled"
             ]
@@ -254,6 +291,9 @@
           {
             "name": "Ride Firetruck",
             "hosted_item": "ride_firetruck",
+            "access_rules": [
+              "can_ride_vehicles"
+            ],
             "visibility_rules": [
               "setting_ridesanity_enabled"
             ]
@@ -261,6 +301,9 @@
           {
             "name": "Ride Landspeeder",
             "hosted_item": "ride_landspeeder",
+            "access_rules": [
+              "can_ride_vehicles"
+            ],
             "visibility_rules": [
               "setting_ridesanity_enabled"
             ]
@@ -268,6 +311,9 @@
           {
             "name": "Ride Lifeboat",
             "hosted_item": "ride_lifeboat",
+            "access_rules": [
+              "can_build_bricks, can_ride_vehicles"
+            ],
             "visibility_rules": [
               "setting_ridesanity_enabled"
             ]
@@ -276,7 +322,7 @@
             "name": "Ride Moon Car",
             "hosted_item": "ride_moon_car",
             "access_rules": [
-              "bounty_hunter"
+              "bounty_hunter, can_build_bricks, can_ride_vehicles"
             ],
             "visibility_rules": [
               "setting_ridesanity_enabled"
@@ -285,6 +331,9 @@
           {
             "name": "Ride Tauntaun",
             "hosted_item": "ride_tauntaun",
+            "access_rules": [
+              "can_ride_vehicles"
+            ],
             "visibility_rules": [
               "setting_ridesanity_enabled"
             ]
@@ -292,6 +341,9 @@
           {
             "name": "Ride Town Car",
             "hosted_item": "ride_town_car",
+            "access_rules": [
+              "can_attack_up_close, can_build_bricks, can_ride_vehicles"
+            ],
             "visibility_rules": [
               "setting_ridesanity_enabled"
             ]
@@ -299,6 +351,9 @@
           {
             "name": "Ride Tractor",
             "hosted_item": "ride_tractor",
+            "access_rules": [
+              "can_attack_up_close, can_build_bricks, can_ride_vehicles"
+            ],
             "visibility_rules": [
               "setting_ridesanity_enabled"
             ]

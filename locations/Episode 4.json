@@ -175,8 +175,8 @@
                 "name": "Ride Town Car",
                 "hosted_item": "ride_town_car",
                 "access_rules": [
-                  "bounty_hunter",
-                  "imperial"
+                  "jedi, bounty_hunter, can_ride_vehicles",
+                  "jedi, imperial, can_ride_vehicles"
                 ],
                 "visibility_rules": [
                   "setting_ridesanity_enabled"
