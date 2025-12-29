@@ -861,7 +861,7 @@
                 "name": "6-4 - Power Brick",
                 "hosted_item": "6-4_power_brick",
                 "access_rules": [
-                  "shortie"
+                  "shortie, sith"
                 ],
                 "visibility_rules": [
                   "@Goal Macros/Locations Visible/6-4"
