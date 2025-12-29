@@ -702,7 +702,7 @@
             "chest_unopened_img": "images/items/minikit.png",
             "chest_opened_img": "images/items/minikit_disabled.png",
             "access_rules": [
-              "bounty_hunter"
+              "jedi, bounty_hunter"
             ],
             "sections": [
               {

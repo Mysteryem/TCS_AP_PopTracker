@@ -201,8 +201,8 @@
                 "name": "4-1 - Power Brick",
                 "hosted_item": "4-1_power_brick",
                 "access_rules": [
-                  "imperial",
-                  "bounty_hunter"
+                  "jedi, imperial",
+                  "jedi, bounty_hunter"
                 ],
                 "visibility_rules": [
                   "@Goal Macros/Locations Visible/4-1"
