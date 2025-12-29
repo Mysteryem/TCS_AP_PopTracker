@@ -218,7 +218,7 @@
             "chest_unopened_img": "images/items/minikit.png",
             "chest_opened_img": "images/items/minikit_disabled.png",
             "access_rules": [
-              "high_jump, blaster, shortie"
+              "high_jump, blaster, shortie, protocol_droid"
             ],
             "sections": [
               {
@@ -853,7 +853,7 @@
             "chest_unopened_img": "images/items/minikit.png",
             "chest_opened_img": "images/items/minikit_disabled.png",
             "access_rules": [
-              "sith, high_jump, blaster, hover, bounty_hunter, imperial"
+              "sith, high_jump, blaster, hover, bounty_hunter, imperial, protocol_droid"
             ],
             "sections": [
               {
@@ -975,7 +975,7 @@
                 "name": "3-5 - Power Brick",
                 "hosted_item": "3-5_power_brick",
                 "access_rules": [
-                  "sith, high_jump"
+                  "sith, high_jump, protocol_droid"
                 ],
                 "visibility_rules": [
                   "@Goal Macros/Locations Visible/3-5"

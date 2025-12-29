@@ -930,7 +930,7 @@
             "chest_unopened_img": "images/items/minikit.png",
             "chest_opened_img": "images/items/minikit_disabled.png",
             "access_rules": [
-              "high_jump, blaster, bounty_hunter, shortie, astromech"
+              "high_jump, blaster, bounty_hunter, shortie, astromech, protocol_droid"
             ],
             "sections": [
               {
