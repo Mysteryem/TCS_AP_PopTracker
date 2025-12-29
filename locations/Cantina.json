@@ -429,6 +429,10 @@
             {
                 "name": "Ride Cantina Car",
                 "hosted_item": "ride_cantina_car",
+                "access_rules": [
+                    "can_attack_up_close, can_build_bricks, can_ride_vehicles",
+                    "can_pull_levers, can_ride_vehicles"
+                ],
                 "visibility_rules": [
                   "setting_ridesanity_enabled"
                 ]
