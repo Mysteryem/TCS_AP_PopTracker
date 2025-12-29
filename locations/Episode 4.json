@@ -157,6 +157,9 @@
               {
                 "name": "Ride Crane Control",
                 "hosted_item": "ride_crane_control",
+                "access_rules": [
+                  "can_ride_vehicles"
+                ],
                 "visibility_rules": [
                   "setting_ridesanity_enabled"
                 ]
@@ -165,7 +168,7 @@
                 "name": "Ride Moon Car",
                 "hosted_item": "ride_moon_car",
                 "access_rules": [
-                  "bounty_hunter"
+                  "bounty_hunter, can_ride_vehicles"
                 ],
                 "visibility_rules": [
                   "setting_ridesanity_enabled"
@@ -388,6 +391,9 @@
               {
                 "name": "Ride Bantha",
                 "hosted_item": "ride_bantha",
+                "access_rules": [
+                  "can_ride_vehicles"
+                ],
                 "visibility_rules": [
                   "setting_ridesanity_enabled"
                 ]
@@ -395,6 +401,9 @@
               {
                 "name": "Ride Dewback",
                 "hosted_item": "ride_dewback",
+                "access_rules": [
+                  "can_ride_vehicles"
+                ],
                 "visibility_rules": [
                   "setting_ridesanity_enabled"
                 ]
@@ -402,6 +411,9 @@
               {
                 "name": "Ride Landspeeder",
                 "hosted_item": "ride_landspeeder",
+                "access_rules": [
+                  "can_ride_vehicles"
+                ],
                 "visibility_rules": [
                   "setting_ridesanity_enabled"
                 ]
@@ -634,6 +646,9 @@
               {
                 "name": "Ride AT-ST",
                 "hosted_item": "ride_at-st",
+                "access_rules": [
+                  "can_ride_vehicles"
+                ],
                 "visibility_rules": [
                   "setting_ridesanity_enabled"
                 ]
@@ -641,6 +656,9 @@
               {
                 "name": "Ride Dewback",
                 "hosted_item": "ride_dewback",
+                "access_rules": [
+                  "can_ride_vehicles"
+                ],
                 "visibility_rules": [
                   "setting_ridesanity_enabled"
                 ]
@@ -648,6 +666,9 @@
               {
                 "name": "Ride Landspeeder",
                 "hosted_item": "ride_landspeeder",
+                "access_rules": [
+                  "can_ride_vehicles"
+                ],
                 "visibility_rules": [
                   "setting_ridesanity_enabled"
                 ]
@@ -655,6 +676,9 @@
               {
                 "name": "Ride Mos Eisley Cannon",
                 "hosted_item": "ride_mod_eisley_cannon",
+                "access_rules": [
+                  "can_ride_vehicles"
+                ],
                 "visibility_rules": [
                   "setting_ridesanity_enabled"
                 ]
@@ -916,6 +940,9 @@
               {
                 "name": "Ride Crane Control",
                 "hosted_item": "ride_crane_control",
+                "access_rules": [
+                  "can_ride_vehicles"
+                ],
                 "visibility_rules": [
                   "setting_ridesanity_enabled"
                 ]

@@ -761,6 +761,9 @@
               {
                 "name": "Ride Clone Walker",
                 "hosted_item": "ride_clone_walker",
+                "access_rules": [
+                  "can_ride_vehicles"
+                ],
                 "visibility_rules": [
                   "setting_ridesanity_enabled"
                 ]

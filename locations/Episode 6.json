@@ -401,6 +401,9 @@
               {
                 "name": "Ride Skiff Cannon",
                 "hosted_item": "ride_skiff_cannon",
+                "access_rules": [
+                  "can_ride_vehicles"
+                ],
                 "visibility_rules": [
                   "setting_ridesanity_enabled"
                 ]
@@ -408,6 +411,9 @@
               {
                 "name": "Ride Big Skiff Cannon",
                 "hosted_item": "ride_big_skiff_cannon",
+                "access_rules": [
+                  "can_ride_vehicles"
+                ],
                 "visibility_rules": [
                   "setting_ridesanity_enabled"
                 ]
@@ -596,6 +602,9 @@
               {
                 "name": "Ride Speeder Bike",
                 "hosted_item": "ride_speeder_bike",
+                "access_rules": [
+                  "can_ride_vehicles"
+                ],
                 "visibility_rules": [
                   "setting_ridesanity_enabled"
                 ]
@@ -603,6 +612,9 @@
               {
                 "name": "Ride AT-ST",
                 "hosted_item": "ride_at-st",
+                "access_rules": [
+                  "can_ride_vehicles"
+                ],
                 "visibility_rules": [
                   "setting_ridesanity_enabled"
                 ]
@@ -610,6 +622,9 @@
               {
                 "name": "Ride AT-AT",
                 "hosted_item": "ride_at-at",
+                "access_rules": [
+                  "can_ride_vehicles"
+                ],
                 "visibility_rules": [
                   "setting_ridesanity_enabled"
                 ]
@@ -824,6 +839,9 @@
               {
                 "name": "Ride Tractor",
                 "hosted_item": "ride_tractor",
+                "access_rules": [
+                  "can_ride_vehicles"
+                ],
                 "visibility_rules": [
                   "setting_ridesanity_enabled"
                 ]
@@ -831,6 +849,9 @@
               {
                 "name": "Ride Ewok Catapult",
                 "hosted_item": "ride_ewok_catapult",
+                "access_rules": [
+                  "can_ride_vehicles"
+                ],
                 "visibility_rules": [
                   "setting_ridesanity_enabled"
                 ]
@@ -838,6 +859,9 @@
               {
                 "name": "Ride AT-ST",
                 "hosted_item": "ride_at-st",
+                "access_rules": [
+                  "can_ride_vehicles"
+                ],
                 "visibility_rules": [
                   "setting_ridesanity_enabled"
                 ]

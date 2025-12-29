@@ -152,6 +152,9 @@
               {
                 "name": "Ride STAP",
                 "hosted_item": "ride_stap",
+                "access_rules": [
+                  "can_ride_vehicles"
+                ],
                 "visibility_rules": [
                   "setting_ridesanity_enabled"
                 ]
@@ -941,6 +944,9 @@
               {
                 "name": "Ride Flash Speeder",
                 "hosted_item": "ride_flash_speeder",
+                "access_rules": [
+                  "can_ride_vehicles"
+                ],
                 "visibility_rules": [
                   "setting_ridesanity_enabled"
                 ]
@@ -948,6 +954,9 @@
               {
                 "name": "Ride Service Car",
                 "hosted_item": "ride_service_car",
+                "access_rules": [
+                  "can_ride_vehicles"
+                ],
                 "visibility_rules": [
                   "setting_ridesanity_enabled"
                 ]
@@ -1134,6 +1143,9 @@
               {
                 "name": "Ride Service Car",
                 "hosted_item": "ride_service_car",
+                "access_rules": [
+                  "can_ride_vehicles"
+                ],
                 "visibility_rules": [
                   "setting_ridesanity_enabled"
                 ]

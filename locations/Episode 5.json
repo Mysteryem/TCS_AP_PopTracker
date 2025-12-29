@@ -337,6 +337,9 @@
               {
                 "name": "Ride Snowmobile",
                 "hosted_item": "ride_snowmobile",
+                "access_rules": [
+                  "can_ride_vehicles"
+                ],
                 "visibility_rules": [
                   "setting_ridesanity_enabled"
                 ]
@@ -344,6 +347,9 @@
               {
                 "name": "Ride Stormtrooper Cannon",
                 "hosted_item": "ride_stormtrooper_cannon",
+                "access_rules": [
+                  "can_ride_vehicles"
+                ],
                 "visibility_rules": [
                   "setting_ridesanity_enabled"
                 ]
@@ -351,6 +357,9 @@
               {
                 "name": "Ride Tauntaun",
                 "hosted_item": "ride_tauntaun",
+                "access_rules": [
+                  "can_ride_vehicles"
+                ],
                 "visibility_rules": [
                   "setting_ridesanity_enabled"
                 ]
@@ -727,6 +736,9 @@
               {
                 "name": "Ride Tractor",
                 "hosted_item": "ride_tractor",
+                "access_rules": [
+                  "can_ride_vehicles"
+                ],
                 "visibility_rules": [
                   "setting_ridesanity_enabled"
                 ]
@@ -918,6 +930,9 @@
               {
                 "name": "Ride Stormtrooper Cannon",
                 "hosted_item": "ride_stormtrooper_cannon",
+                "access_rules": [
+                  "can_ride_vehicles"
+                ],
                 "visibility_rules": [
                   "setting_ridesanity_enabled"
                 ]
@@ -925,6 +940,9 @@
               {
                 "name": "Ride Crane Control",
                 "hosted_item": "ride_crane_control",
+                "access_rules": [
+                  "can_ride_vehicles"
+                ],
                 "visibility_rules": [
                   "setting_ridesanity_enabled"
                 ]
@@ -1176,6 +1194,9 @@
               {
                 "name": "Ride Cloud Car",
                 "hosted_item": "ride_cloud_car",
+                "access_rules": [
+                  "can_ride_vehicles"
+                ],
                 "visibility_rules": [
                   "setting_ridesanity_enabled"
                 ]
@@ -1183,6 +1204,9 @@
               {
                 "name": "Ride Crane Control",
                 "hosted_item": "ride_crane_control",
+                "access_rules": [
+                  "can_ride_vehicles"
+                ],
                 "visibility_rules": [
                   "setting_ridesanity_enabled"
                 ]
