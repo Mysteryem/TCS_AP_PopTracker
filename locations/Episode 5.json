@@ -1205,9 +1205,6 @@
               {
                 "name": "5-6 - Power Brick",
                 "hosted_item": "5-6_power_brick",
-                "access_rules": [
-                  "bounty_hunter"
-                ],
                 "visibility_rules": [
                   "@Goal Macros/Locations Visible/5-6"
                 ]
