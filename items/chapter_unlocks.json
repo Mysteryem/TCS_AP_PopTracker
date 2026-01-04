@@ -5,7 +5,7 @@
     "codes": "1_1_unlock",
     "img": "images/settings/goal/episode1.png",
     "img_mods": "overlay|images/settings/goal/chapter1.png",
-    "disabled_img_mods": "@disabled,@disabled"
+    "disabled_img_mods": "overlay|images/settings/goal/chapter1.png,@disabled,@disabled"
   },
   {
     "name": "1-2 Unlock",
@@ -13,7 +13,7 @@
     "codes": "1_2_unlock",
     "img": "images/settings/goal/episode1.png",
     "img_mods": "overlay|images/settings/goal/chapter2.png",
-    "disabled_img_mods": "@disabled,@disabled"
+    "disabled_img_mods": "overlay|images/settings/goal/chapter2.png,@disabled,@disabled"
   },
   {
     "name": "1-3 Unlock",
@@ -21,7 +21,7 @@
     "codes": "1_3_unlock",
     "img": "images/settings/goal/episode1.png",
     "img_mods": "overlay|images/settings/goal/chapter3.png",
-    "disabled_img_mods": "@disabled,@disabled"
+    "disabled_img_mods": "overlay|images/settings/goal/chapter3.png,@disabled,@disabled"
   },
   {
     "name": "1-4 Unlock",
@@ -29,7 +29,7 @@
     "codes": "1_4_unlock",
     "img": "images/settings/goal/episode1.png",
     "img_mods": "overlay|images/settings/goal/chapter4.png",
-    "disabled_img_mods": "@disabled,@disabled"
+    "disabled_img_mods": "overlay|images/settings/goal/chapter4.png,@disabled,@disabled"
   },
   {
     "name": "1-5 Unlock",
@@ -37,7 +37,7 @@
     "codes": "1_5_unlock",
     "img": "images/settings/goal/episode1.png",
     "img_mods": "overlay|images/settings/goal/chapter5.png",
-    "disabled_img_mods": "@disabled,@disabled"
+    "disabled_img_mods": "overlay|images/settings/goal/chapter5.png,@disabled,@disabled"
   },
   {
     "name": "1-6 Unlock",
@@ -45,7 +45,7 @@
     "codes": "1_6_unlock",
     "img": "images/settings/goal/episode1.png",
     "img_mods": "overlay|images/settings/goal/chapter6.png",
-    "disabled_img_mods": "@disabled,@disabled"
+    "disabled_img_mods": "overlay|images/settings/goal/chapter6.png,@disabled,@disabled"
   },
   {
     "name": "2-1 Unlock",
@@ -53,7 +53,7 @@
     "codes": "2_1_unlock",
     "img": "images/settings/goal/episode2.png",
     "img_mods": "overlay|images/settings/goal/chapter1.png",
-    "disabled_img_mods": "@disabled,@disabled"
+    "disabled_img_mods": "overlay|images/settings/goal/chapter1.png,@disabled,@disabled"
   },
   {
     "name": "2-2 Unlock",
@@ -61,7 +61,7 @@
     "codes": "2_2_unlock",
     "img": "images/settings/goal/episode2.png",
     "img_mods": "overlay|images/settings/goal/chapter2.png",
-    "disabled_img_mods": "@disabled,@disabled"
+    "disabled_img_mods": "overlay|images/settings/goal/chapter2.png,@disabled,@disabled"
   },
   {
     "name": "2-3 Unlock",
@@ -69,7 +69,7 @@
     "codes": "2_3_unlock",
     "img": "images/settings/goal/episode2.png",
     "img_mods": "overlay|images/settings/goal/chapter3.png",
-    "disabled_img_mods": "@disabled,@disabled"
+    "disabled_img_mods": "overlay|images/settings/goal/chapter3.png,@disabled,@disabled"
   },
   {
     "name": "2-4 Unlock",
@@ -77,7 +77,7 @@
     "codes": "2_4_unlock",
     "img": "images/settings/goal/episode2.png",
     "img_mods": "overlay|images/settings/goal/chapter4.png",
-    "disabled_img_mods": "@disabled,@disabled"
+    "disabled_img_mods": "overlay|images/settings/goal/chapter4.png,@disabled,@disabled"
   },
   {
     "name": "2-5 Unlock",
@@ -85,7 +85,7 @@
     "codes": "2_5_unlock",
     "img": "images/settings/goal/episode2.png",
     "img_mods": "overlay|images/settings/goal/chapter5.png",
-    "disabled_img_mods": "@disabled,@disabled"
+    "disabled_img_mods": "overlay|images/settings/goal/chapter5.png,@disabled,@disabled"
   },
   {
     "name": "2-6 Unlock",
@@ -93,7 +93,7 @@
     "codes": "2_6_unlock",
     "img": "images/settings/goal/episode2.png",
     "img_mods": "overlay|images/settings/goal/chapter6.png",
-    "disabled_img_mods": "@disabled,@disabled"
+    "disabled_img_mods": "overlay|images/settings/goal/chapter6.png,@disabled,@disabled"
   },
   {
     "name": "3-1 Unlock",
@@ -101,7 +101,7 @@
     "codes": "3_1_unlock",
     "img": "images/settings/goal/episode3.png",
     "img_mods": "overlay|images/settings/goal/chapter1.png",
-    "disabled_img_mods": "@disabled,@disabled"
+    "disabled_img_mods": "overlay|images/settings/goal/chapter1.png,@disabled,@disabled"
   },
   {
     "name": "3-2 Unlock",
@@ -109,7 +109,7 @@
     "codes": "3_2_unlock",
     "img": "images/settings/goal/episode3.png",
     "img_mods": "overlay|images/settings/goal/chapter2.png",
-    "disabled_img_mods": "@disabled,@disabled"
+    "disabled_img_mods": "overlay|images/settings/goal/chapter2.png,@disabled,@disabled"
   },
   {
     "name": "3-3 Unlock",
@@ -117,7 +117,7 @@
     "codes": "3_3_unlock",
     "img": "images/settings/goal/episode3.png",
     "img_mods": "overlay|images/settings/goal/chapter3.png",
-    "disabled_img_mods": "@disabled,@disabled"
+    "disabled_img_mods": "overlay|images/settings/goal/chapter3.png,@disabled,@disabled"
   },
   {
     "name": "3-4 Unlock",
@@ -125,7 +125,7 @@
     "codes": "3_4_unlock",
     "img": "images/settings/goal/episode3.png",
     "img_mods": "overlay|images/settings/goal/chapter4.png",
-    "disabled_img_mods": "@disabled,@disabled"
+    "disabled_img_mods": "overlay|images/settings/goal/chapter4.png,@disabled,@disabled"
   },
   {
     "name": "3-5 Unlock",
@@ -133,7 +133,7 @@
     "codes": "3_5_unlock",
     "img": "images/settings/goal/episode3.png",
     "img_mods": "overlay|images/settings/goal/chapter5.png",
-    "disabled_img_mods": "@disabled,@disabled"
+    "disabled_img_mods": "overlay|images/settings/goal/chapter5.png,@disabled,@disabled"
   },
   {
     "name": "3-6 Unlock",
@@ -141,7 +141,7 @@
     "codes": "3_6_unlock",
     "img": "images/settings/goal/episode3.png",
     "img_mods": "overlay|images/settings/goal/chapter6.png",
-    "disabled_img_mods": "@disabled,@disabled"
+    "disabled_img_mods": "overlay|images/settings/goal/chapter6.png,@disabled,@disabled"
   },
   {
     "name": "4-1 Unlock",
@@ -149,7 +149,7 @@
     "codes": "4_1_unlock",
     "img": "images/settings/goal/episode4.png",
     "img_mods": "overlay|images/settings/goal/chapter1.png",
-    "disabled_img_mods": "@disabled,@disabled"
+    "disabled_img_mods": "overlay|images/settings/goal/chapter1.png,@disabled,@disabled"
   },
   {
     "name": "4-2 Unlock",
@@ -157,7 +157,7 @@
     "codes": "4_2_unlock",
     "img": "images/settings/goal/episode4.png",
     "img_mods": "overlay|images/settings/goal/chapter2.png",
-    "disabled_img_mods": "@disabled,@disabled"
+    "disabled_img_mods": "overlay|images/settings/goal/chapter2.png,@disabled,@disabled"
   },
   {
     "name": "4-3 Unlock",
@@ -165,7 +165,7 @@
     "codes": "4_3_unlock",
     "img": "images/settings/goal/episode4.png",
     "img_mods": "overlay|images/settings/goal/chapter3.png",
-    "disabled_img_mods": "@disabled,@disabled"
+    "disabled_img_mods": "overlay|images/settings/goal/chapter3.png,@disabled,@disabled"
   },
   {
     "name": "4-4 Unlock",
@@ -173,7 +173,7 @@
     "codes": "4_4_unlock",
     "img": "images/settings/goal/episode4.png",
     "img_mods": "overlay|images/settings/goal/chapter4.png",
-    "disabled_img_mods": "@disabled,@disabled"
+    "disabled_img_mods": "overlay|images/settings/goal/chapter4.png,@disabled,@disabled"
   },
   {
     "name": "4-5 Unlock",
@@ -181,7 +181,7 @@
     "codes": "4_5_unlock",
     "img": "images/settings/goal/episode4.png",
     "img_mods": "overlay|images/settings/goal/chapter5.png",
-    "disabled_img_mods": "@disabled,@disabled"
+    "disabled_img_mods": "overlay|images/settings/goal/chapter5.png,@disabled,@disabled"
   },
   {
     "name": "4-6 Unlock",
@@ -189,7 +189,7 @@
     "codes": "4_6_unlock",
     "img": "images/settings/goal/episode4.png",
     "img_mods": "overlay|images/settings/goal/chapter6.png",
-    "disabled_img_mods": "@disabled,@disabled"
+    "disabled_img_mods": "overlay|images/settings/goal/chapter6.png,@disabled,@disabled"
   },
   {
     "name": "5-1 Unlock",
@@ -197,7 +197,7 @@
     "codes": "5_1_unlock",
     "img": "images/settings/goal/episode5.png",
     "img_mods": "overlay|images/settings/goal/chapter1.png",
-    "disabled_img_mods": "@disabled,@disabled"
+    "disabled_img_mods": "overlay|images/settings/goal/chapter1.png,@disabled,@disabled"
   },
   {
     "name": "5-2 Unlock",
@@ -205,7 +205,7 @@
     "codes": "5_2_unlock",
     "img": "images/settings/goal/episode5.png",
     "img_mods": "overlay|images/settings/goal/chapter2.png",
-    "disabled_img_mods": "@disabled,@disabled"
+    "disabled_img_mods": "overlay|images/settings/goal/chapter2.png,@disabled,@disabled"
   },
   {
     "name": "5-3 Unlock",
@@ -213,7 +213,7 @@
     "codes": "5_3_unlock",
     "img": "images/settings/goal/episode5.png",
     "img_mods": "overlay|images/settings/goal/chapter3.png",
-    "disabled_img_mods": "@disabled,@disabled"
+    "disabled_img_mods": "overlay|images/settings/goal/chapter3.png,@disabled,@disabled"
   },
   {
     "name": "5-4 Unlock",
@@ -221,7 +221,7 @@
     "codes": "5_4_unlock",
     "img": "images/settings/goal/episode5.png",
     "img_mods": "overlay|images/settings/goal/chapter4.png",
-    "disabled_img_mods": "@disabled,@disabled"
+    "disabled_img_mods": "overlay|images/settings/goal/chapter4.png,@disabled,@disabled"
   },
   {
     "name": "5-5 Unlock",
@@ -229,7 +229,7 @@
     "codes": "5_5_unlock",
     "img": "images/settings/goal/episode5.png",
     "img_mods": "overlay|images/settings/goal/chapter5.png",
-    "disabled_img_mods": "@disabled,@disabled"
+    "disabled_img_mods": "overlay|images/settings/goal/chapter5.png,@disabled,@disabled"
   },
   {
     "name": "5-6 Unlock",
@@ -237,7 +237,7 @@
     "codes": "5_6_unlock",
     "img": "images/settings/goal/episode5.png",
     "img_mods": "overlay|images/settings/goal/chapter6.png",
-    "disabled_img_mods": "@disabled,@disabled"
+    "disabled_img_mods": "overlay|images/settings/goal/chapter6.png,@disabled,@disabled"
   },
   {
     "name": "6-1 Unlock",
@@ -245,7 +245,7 @@
     "codes": "6_1_unlock",
     "img": "images/settings/goal/episode6.png",
     "img_mods": "overlay|images/settings/goal/chapter1.png",
-    "disabled_img_mods": "@disabled,@disabled"
+    "disabled_img_mods": "overlay|images/settings/goal/chapter1.png,@disabled,@disabled"
   },
   {
     "name": "6-2 Unlock",
@@ -253,7 +253,7 @@
     "codes": "6_2_unlock",
     "img": "images/settings/goal/episode6.png",
     "img_mods": "overlay|images/settings/goal/chapter2.png",
-    "disabled_img_mods": "@disabled,@disabled"
+    "disabled_img_mods": "overlay|images/settings/goal/chapter2.png,@disabled,@disabled"
   },
   {
     "name": "6-3 Unlock",
@@ -261,7 +261,7 @@
     "codes": "6_3_unlock",
     "img": "images/settings/goal/episode6.png",
     "img_mods": "overlay|images/settings/goal/chapter3.png",
-    "disabled_img_mods": "@disabled,@disabled"
+    "disabled_img_mods": "overlay|images/settings/goal/chapter3.png,@disabled,@disabled"
   },
   {
     "name": "6-4 Unlock",
@@ -269,7 +269,7 @@
     "codes": "6_4_unlock",
     "img": "images/settings/goal/episode6.png",
     "img_mods": "overlay|images/settings/goal/chapter4.png",
-    "disabled_img_mods": "@disabled,@disabled"
+    "disabled_img_mods": "overlay|images/settings/goal/chapter4.png,@disabled,@disabled"
   },
   {
     "name": "6-5 Unlock",
@@ -277,7 +277,7 @@
     "codes": "6_5_unlock",
     "img": "images/settings/goal/episode6.png",
     "img_mods": "overlay|images/settings/goal/chapter5.png",
-    "disabled_img_mods": "@disabled,@disabled"
+    "disabled_img_mods": "overlay|images/settings/goal/chapter5.png,@disabled,@disabled"
   },
   {
     "name": "6-6 Unlock",
@@ -285,6 +285,6 @@
     "codes": "6_6_unlock",
     "img": "images/settings/goal/episode6.png",
     "img_mods": "overlay|images/settings/goal/chapter6.png",
-    "disabled_img_mods": "@disabled,@disabled"
+    "disabled_img_mods": "overlay|images/settings/goal/chapter6.png,@disabled,@disabled"
   }
 ]
