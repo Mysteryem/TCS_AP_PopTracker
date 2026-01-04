@@ -6,7 +6,7 @@
         "name": "1-1 Items",
         "access_rules": [
           "chapters_unlock_with_story_characters, obi-wankenobi, qui-gonjinn, tc-14",
-          "chapters_unlock_with_unlock_item, 1_1_unlock, jedi, protocol_droid, can_wear_hat, can_wear_hat_and_double_jump, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
+          "chapters_unlock_with_unlock_item, 1_1_unlock, jedi, protocol_droid, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
         ]
       },
       {
@@ -48,7 +48,7 @@
         "name": "2-1 Items",
         "access_rules": [
           "chapters_unlock_with_story_characters, anakinsspeeder",
-          "chapters_unlock_with_unlock_item, 2_1_unlock, is_a_vehicle, vehicle_blaster"
+          "chapters_unlock_with_unlock_item, 2_1_unlock, vehicle_blaster"
         ]
       },
       {
@@ -76,7 +76,7 @@
         "name": "2-5 Items",
         "access_rules": [
           "chapters_unlock_with_story_characters, republicgunship",
-          "chapters_unlock_with_unlock_item, 2_5_unlock, is_a_vehicle, vehicle_tow, vehicle_blaster"
+          "chapters_unlock_with_unlock_item, 2_5_unlock, vehicle_tow, vehicle_blaster"
         ]
       },
       {
@@ -90,7 +90,7 @@
         "name": "3-1 Items",
         "access_rules": [
           "chapters_unlock_with_story_characters, obi-wansstarfighter, anakinsstarfighter",
-          "chapters_unlock_with_unlock_item, 3_1_unlock, is_a_vehicle, vehicle_blaster"
+          "chapters_unlock_with_unlock_item, 3_1_unlock, vehicle_blaster"
         ]
       },
       {
@@ -170,14 +170,14 @@
         "name": "4-6 Items",
         "access_rules": [
           "chapters_unlock_with_story_characters, x-wing, y-wing",
-          "chapters_unlock_with_unlock_item, 4_6_unlock, is_a_vehicle, vehicle_blaster"
+          "chapters_unlock_with_unlock_item, 4_6_unlock, vehicle_blaster"
         ]
       },
       {
         "name": "5-1 Items",
         "access_rules": [
           "chapters_unlock_with_story_characters, snowspeeder",
-          "chapters_unlock_with_unlock_item, 5_1_unlock, is_a_vehicle, vehicle_tow, vehicle_blaster"
+          "chapters_unlock_with_unlock_item, 5_1_unlock, vehicle_tow, vehicle_blaster"
         ]
       },
       {
@@ -191,7 +191,7 @@
         "name": "5-3 Items",
         "access_rules": [
           "chapters_unlock_with_story_characters, millenniumfalcon, x-wing",
-          "chapters_unlock_with_unlock_item, 5_3_unlock, is_a_vehicle, vehicle_blaster"
+          "chapters_unlock_with_unlock_item, 5_3_unlock, vehicle_blaster"
         ]
       },
       {
@@ -257,7 +257,7 @@
         "name": "6-6 Items",
         "access_rules": [
           "chapters_unlock_with_story_characters, millenniumfalcon, x-wing",
-          "chapters_unlock_with_unlock_item, 6_6_unlock, is_a_vehicle, vehicle_blaster"
+          "chapters_unlock_with_unlock_item, 6_6_unlock, vehicle_blaster"
         ]
       }
     ]
