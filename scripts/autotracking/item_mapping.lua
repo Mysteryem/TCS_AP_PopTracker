@@ -231,5 +231,6 @@ local i = 1000
 for episode=1,6 do
     for chapter=1,6 do
         ITEM_MAPPING[i] = {{string.format("%i_%i_unlock", episode, chapter), "toggle"}}
+        i = i + 1
     end
 end
