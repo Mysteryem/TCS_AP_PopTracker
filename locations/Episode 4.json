@@ -675,7 +675,7 @@
               },
               {
                 "name": "Ride Mos Eisley Cannon",
-                "hosted_item": "ride_mod_eisley_cannon",
+                "hosted_item": "ride_mos_eisley_cannon",
                 "access_rules": [
                   "can_ride_vehicles"
                 ],
