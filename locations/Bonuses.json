@@ -137,7 +137,7 @@
           {
             "name": "Completion",
             "access_rules": [
-              "jedi, sith, blaster, bounty_hunter, can_build_bricks, can_pull_levers, can_attack_up_close, can_ride_vehicles"
+              "jedi, blaster, bounty_hunter, can_build_bricks, can_pull_levers, can_attack_up_close, can_ride_vehicles"
             ]
           },
           {
