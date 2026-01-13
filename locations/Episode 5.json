@@ -24,7 +24,7 @@
             "chest_unopened_img": "images/items/minikit.png",
             "chest_opened_img": "images/items/minikit_disabled.png",
             "access_rules": [
-              "tievehicle"
+              "vehicle_tie"
             ],
             "sections": [
               {
@@ -121,7 +121,7 @@
                 "name": "5-1 - Power Brick",
                 "hosted_item": "5-1_power_brick",
                 "access_rules": [
-                  "tievehicle"
+                  "vehicle_tie"
                 ],
                 "visibility_rules": [
                   "@Goal Macros/Locations Visible/5-1"
@@ -452,7 +452,7 @@
             "chest_unopened_img": "images/items/minikit.png",
             "chest_opened_img": "images/items/minikit_disabled.png",
             "access_rules": [
-              "towvehicle, tievehicle"
+              "vehicle_tow, vehicle_tie"
             ],
             "sections": [
               {

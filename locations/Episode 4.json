@@ -1241,7 +1241,7 @@
             "chest_unopened_img": "images/items/minikit.png",
             "chest_opened_img": "images/items/minikit_disabled.png",
             "access_rules": [
-              "towvehicle, tievehicle"
+              "vehicle_tow, vehicle_tie"
             ],
             "sections": [
               {
