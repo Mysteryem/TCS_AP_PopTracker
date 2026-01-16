@@ -1,7 +1,7 @@
 {
     "versions": [
         {
-            "pacakge_version": "1.3.0",
+            "package_version": "1.3.0",
             "download_url": "https://github.com/Mysteryem/TCS_AP_PopTracker/archive/refs/tags/v1.3.0.zip",
             "sha256": "a523d29db553b5e259ca295a04f4ca80edf64f1b98b7aa5fac43fe7d67ce1a10",
             "changelog": [
