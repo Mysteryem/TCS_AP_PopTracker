@@ -1,6 +1,15 @@
 {
     "versions": [
         {
+            "package_version": "1.3.1",
+            "download_url": "https://github.com/Mysteryem/TCS_AP_PopTracker/archive/refs/tags/v1.3.1.zip",
+            "sha256": "f409312d95abdb2a5a6db8f127474b58e2f416d81aa32ba774c0ea825b3aca83",
+            "changelog": [
+                "Fix TIE and Tow requirements for Vehicle level minikits",
+                "Fix typo in Ride Mos Eisley Cannon location that was causing it to be hidden from the tracker"
+            ]
+        },
+        {
             "package_version": "1.3.0",
             "download_url": "https://github.com/Mysteryem/TCS_AP_PopTracker/archive/refs/tags/v1.3.0.zip",
             "sha256": "a523d29db553b5e259ca295a04f4ca80edf64f1b98b7aa5fac43fe7d67ce1a10",
