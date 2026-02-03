@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "1.3.2",
+            "download_url": "https://github.com/Mysteryem/TCS_AP_PopTracker/archive/refs/tags/v1.3.2.zip",
+            "sha256": "2419609f0e4748af015d80a8e113a98ac6ad0bd403cd59282f85b807dfa1df5f",
+            "changelog": [
+                "Fix goal logic when a Goal Chapter is not enabled"
+            ]
+        },
+        {
             "package_version": "1.3.1",
             "download_url": "https://github.com/Mysteryem/TCS_AP_PopTracker/archive/refs/tags/v1.3.1.zip",
             "sha256": "f409312d95abdb2a5a6db8f127474b58e2f416d81aa32ba774c0ea825b3aca83",
