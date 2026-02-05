@@ -1174,6 +1174,9 @@
               {
                 "name": "4-5 - Power Brick",
                 "hosted_item": "4-5_power_brick",
+                "access_rules": [
+                  "jedi"
+                ],
                 "visibility_rules": [
                   "@Goal Macros/Locations Visible/4-5"
                 ]
