@@ -225,7 +225,7 @@
             "chest_unopened_img": "images/items/minikit.png",
             "chest_opened_img": "images/items/minikit_disabled.png",
             "access_rules": [
-              "sith, high_jump, blaster, bounty_hunter, shortie"
+              "sith, high_jump, blaster, bounty_hunter, shortie, protocol_droid"
             ],
             "sections": [
               {
