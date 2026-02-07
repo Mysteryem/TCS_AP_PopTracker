@@ -383,7 +383,7 @@
                 "name": "5-2 - Power Brick",
                 "hosted_item": "5-2_power_brick",
                 "access_rules": [
-                  "sith"
+                  "sith, astromech"
                 ],
                 "visibility_rules": [
                   "@Goal Macros/Locations Visible/5-2"
