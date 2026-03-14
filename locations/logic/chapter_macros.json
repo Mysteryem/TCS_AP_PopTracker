@@ -104,7 +104,7 @@
         "name": "3-3 Items",
         "access_rules": [
           "chapters_unlock_with_story_characters, obi-wankenobi(episode3), commandercody",
-          "chapters_unlock_with_unlock_item, 3_3_unlock, blaster, imperial, jedi, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
+          "chapters_unlock_with_unlock_item, 3_3_unlock, blaster, jedi, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
         ]
       },
       {
@@ -250,7 +250,7 @@
         "name": "6-5 Items",
         "access_rules": [
           "chapters_unlock_with_story_characters, darthvader, lukeskywalker(jedi)",
-          "chapters_unlock_with_unlock_item, 6_5_unlock, imperial, jedi, sith, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
+          "chapters_unlock_with_unlock_item, 6_5_unlock, jedi, sith, can_ride_vehicles, can_pull_levers, can_push_objects, can_build_bricks, can_jump_normally, can_attack_up_close"
         ]
       },
       {
