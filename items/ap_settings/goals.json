@@ -1,0 +1,344 @@
+[
+  {
+    "name": "Minikits for Goal",
+    "type": "consumable",
+    "img": "images/items/minikit.png",
+    "min_quantity": 0,
+    "max_quantity": 360,
+    "codes": "minikits_for_goal"
+  },
+  {
+    "name": "Defeat Bosses Goal Amount",
+    "type": "consumable",
+    "img": "images/bosses/boba_fett.png",
+    "img_mods": "overlay|images/bosses/boss_defeated.png",
+    "codes": "setting_defeat_bosses_goal_amount"
+  },
+  {
+    "name": "Defeat Bosses Mode",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "name": "Defeat Bosses Goal Is Not Enabled",
+        "img": "images/bosses/defeat_bosses_goal_mode.png",
+        "img_mods": "@disabled",
+        "codes": "setting_defeat_bosses_mode, setting_defeat_bosses_disabled"
+      },
+      {
+        "name": "Defeat Bosses To Goal",
+        "img": "images/bosses/defeat_bosses_goal_mode.png",
+        "img_mods": "overlay|images/bosses/defeat_bosses_goal_mode_overlay_normal.png",
+        "inherit_codes": false,
+        "codes": "setting_defeat_bosses_normal"
+      },
+      {
+        "name": "Defeat Unique Bosses To Goal",
+        "img": "images/bosses/defeat_bosses_goal_mode.png",
+        "img_mods": "overlay|images/bosses/defeat_bosses_goal_mode_overlay_unique.png",
+        "inherit_codes": false,
+        "codes": "setting_defeat_bosses_unique"
+      },
+      {
+        "name": "Defeat Unique Bosses To Goal (defeating Anakin Skywalker counts as defeating Darth Vader)",
+        "img": "images/bosses/defeat_bosses_goal_mode_unique_anakin_as_vader.png",
+        "img_mods": "overlay|images/bosses/defeat_bosses_goal_mode_overlay_unique_anakin_as_vader.png",
+        "inherit_codes": false,
+        "codes": "setting_defeat_bosses_unique, setting_defeat_bosses_unique_anakin_as_vader"
+      }
+    ]
+  },
+  {
+    "name": "7 Kyber Bricks required to goal",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": false,
+    "stages": [
+      {
+        "name": "Goal does not require Kyber Bricks",
+        "img": "images/items/kyber_brick.png",
+        "img_mods": "@disabled",
+        "codes": "setting_goal_does_not_require_kyber_bricks"
+      },
+      {
+        "name": "Goal requires collecting 7 Kyber Bricks",
+        "img": "images/items/kyber_brick.png",
+        "codes": "setting_goal_requires_kyber_bricks",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Level Completions Required For Goal",
+    "type": "consumable",
+    "img": "images/items/gold_brick_level_completion.png",
+    "codes": "setting_goal_level_completions_amount"
+  },
+  {
+    "name": "Goal Chapter",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "name": "No Goal Chapter",
+        "codes": "setting_goal_chapter, no_goal_chapter, not_1_1_goal_chapter, not_1_2_goal_chapter, not_1_3_goal_chapter, not_1_4_goal_chapter, not_1_5_goal_chapter, not_1_6_goal_chapter, not_2_1_goal_chapter, not_2_2_goal_chapter, not_2_3_goal_chapter, not_2_4_goal_chapter, not_2_5_goal_chapter, not_2_6_goal_chapter, not_3_1_goal_chapter, not_3_2_goal_chapter, not_3_3_goal_chapter, not_3_4_goal_chapter, not_3_5_goal_chapter, not_3_6_goal_chapter, not_4_1_goal_chapter, not_4_2_goal_chapter, not_4_3_goal_chapter, not_4_4_goal_chapter, not_4_5_goal_chapter, not_4_6_goal_chapter, not_5_1_goal_chapter, not_5_2_goal_chapter, not_5_3_goal_chapter, not_5_4_goal_chapter, not_5_5_goal_chapter, not_5_6_goal_chapter, not_6_1_goal_chapter, not_6_2_goal_chapter, not_6_3_goal_chapter, not_6_4_goal_chapter, not_6_5_goal_chapter, not_6_6_goal_chapter",
+        "img": "images/settings/goal/goal_chapter_off.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "1-1 Goal Chapter",
+        "codes": "1_1_goal_chapter, not_1_2_goal_chapter, not_1_3_goal_chapter, not_1_4_goal_chapter, not_1_5_goal_chapter, not_1_6_goal_chapter, not_2_1_goal_chapter, not_2_2_goal_chapter, not_2_3_goal_chapter, not_2_4_goal_chapter, not_2_5_goal_chapter, not_2_6_goal_chapter, not_3_1_goal_chapter, not_3_2_goal_chapter, not_3_3_goal_chapter, not_3_4_goal_chapter, not_3_5_goal_chapter, not_3_6_goal_chapter, not_4_1_goal_chapter, not_4_2_goal_chapter, not_4_3_goal_chapter, not_4_4_goal_chapter, not_4_5_goal_chapter, not_4_6_goal_chapter, not_5_1_goal_chapter, not_5_2_goal_chapter, not_5_3_goal_chapter, not_5_4_goal_chapter, not_5_5_goal_chapter, not_5_6_goal_chapter, not_6_1_goal_chapter, not_6_2_goal_chapter, not_6_3_goal_chapter, not_6_4_goal_chapter, not_6_5_goal_chapter, not_6_6_goal_chapter",
+        "img": "images/settings/goal/episode1.png",
+        "img_mods": "overlay|images/settings/goal/chapter1.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "1-2 Goal Chapter",
+        "codes": "1_2_goal_chapter, not_1_1_goal_chapter, not_1_3_goal_chapter, not_1_4_goal_chapter, not_1_5_goal_chapter, not_1_6_goal_chapter, not_2_1_goal_chapter, not_2_2_goal_chapter, not_2_3_goal_chapter, not_2_4_goal_chapter, not_2_5_goal_chapter, not_2_6_goal_chapter, not_3_1_goal_chapter, not_3_2_goal_chapter, not_3_3_goal_chapter, not_3_4_goal_chapter, not_3_5_goal_chapter, not_3_6_goal_chapter, not_4_1_goal_chapter, not_4_2_goal_chapter, not_4_3_goal_chapter, not_4_4_goal_chapter, not_4_5_goal_chapter, not_4_6_goal_chapter, not_5_1_goal_chapter, not_5_2_goal_chapter, not_5_3_goal_chapter, not_5_4_goal_chapter, not_5_5_goal_chapter, not_5_6_goal_chapter, not_6_1_goal_chapter, not_6_2_goal_chapter, not_6_3_goal_chapter, not_6_4_goal_chapter, not_6_5_goal_chapter, not_6_6_goal_chapter",
+        "img": "images/settings/goal/episode1.png",
+        "img_mods": "overlay|images/settings/goal/chapter2.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "1-3 Goal Chapter",
+        "codes": "1_3_goal_chapter, not_1_1_goal_chapter, not_1_2_goal_chapter, not_1_4_goal_chapter, not_1_5_goal_chapter, not_1_6_goal_chapter, not_2_1_goal_chapter, not_2_2_goal_chapter, not_2_3_goal_chapter, not_2_4_goal_chapter, not_2_5_goal_chapter, not_2_6_goal_chapter, not_3_1_goal_chapter, not_3_2_goal_chapter, not_3_3_goal_chapter, not_3_4_goal_chapter, not_3_5_goal_chapter, not_3_6_goal_chapter, not_4_1_goal_chapter, not_4_2_goal_chapter, not_4_3_goal_chapter, not_4_4_goal_chapter, not_4_5_goal_chapter, not_4_6_goal_chapter, not_5_1_goal_chapter, not_5_2_goal_chapter, not_5_3_goal_chapter, not_5_4_goal_chapter, not_5_5_goal_chapter, not_5_6_goal_chapter, not_6_1_goal_chapter, not_6_2_goal_chapter, not_6_3_goal_chapter, not_6_4_goal_chapter, not_6_5_goal_chapter, not_6_6_goal_chapter",
+        "img": "images/settings/goal/episode1.png",
+        "img_mods": "overlay|images/settings/goal/chapter3.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "1-4 Goal Chapter",
+        "codes": "1_4_goal_chapter, not_1_1_goal_chapter, not_1_2_goal_chapter, not_1_3_goal_chapter, not_1_5_goal_chapter, not_1_6_goal_chapter, not_2_1_goal_chapter, not_2_2_goal_chapter, not_2_3_goal_chapter, not_2_4_goal_chapter, not_2_5_goal_chapter, not_2_6_goal_chapter, not_3_1_goal_chapter, not_3_2_goal_chapter, not_3_3_goal_chapter, not_3_4_goal_chapter, not_3_5_goal_chapter, not_3_6_goal_chapter, not_4_1_goal_chapter, not_4_2_goal_chapter, not_4_3_goal_chapter, not_4_4_goal_chapter, not_4_5_goal_chapter, not_4_6_goal_chapter, not_5_1_goal_chapter, not_5_2_goal_chapter, not_5_3_goal_chapter, not_5_4_goal_chapter, not_5_5_goal_chapter, not_5_6_goal_chapter, not_6_1_goal_chapter, not_6_2_goal_chapter, not_6_3_goal_chapter, not_6_4_goal_chapter, not_6_5_goal_chapter, not_6_6_goal_chapter",
+        "img": "images/settings/goal/episode1.png",
+        "img_mods": "overlay|images/settings/goal/chapter4.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "1-5 Goal Chapter",
+        "codes": "1_5_goal_chapter, not_1_1_goal_chapter, not_1_2_goal_chapter, not_1_3_goal_chapter, not_1_4_goal_chapter, not_1_6_goal_chapter, not_2_1_goal_chapter, not_2_2_goal_chapter, not_2_3_goal_chapter, not_2_4_goal_chapter, not_2_5_goal_chapter, not_2_6_goal_chapter, not_3_1_goal_chapter, not_3_2_goal_chapter, not_3_3_goal_chapter, not_3_4_goal_chapter, not_3_5_goal_chapter, not_3_6_goal_chapter, not_4_1_goal_chapter, not_4_2_goal_chapter, not_4_3_goal_chapter, not_4_4_goal_chapter, not_4_5_goal_chapter, not_4_6_goal_chapter, not_5_1_goal_chapter, not_5_2_goal_chapter, not_5_3_goal_chapter, not_5_4_goal_chapter, not_5_5_goal_chapter, not_5_6_goal_chapter, not_6_1_goal_chapter, not_6_2_goal_chapter, not_6_3_goal_chapter, not_6_4_goal_chapter, not_6_5_goal_chapter, not_6_6_goal_chapter",
+        "img": "images/settings/goal/episode1.png",
+        "img_mods": "overlay|images/settings/goal/chapter5.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "1-6 Goal Chapter",
+        "codes": "1_6_goal_chapter, not_1_1_goal_chapter, not_1_2_goal_chapter, not_1_3_goal_chapter, not_1_4_goal_chapter, not_1_5_goal_chapter, not_2_1_goal_chapter, not_2_2_goal_chapter, not_2_3_goal_chapter, not_2_4_goal_chapter, not_2_5_goal_chapter, not_2_6_goal_chapter, not_3_1_goal_chapter, not_3_2_goal_chapter, not_3_3_goal_chapter, not_3_4_goal_chapter, not_3_5_goal_chapter, not_3_6_goal_chapter, not_4_1_goal_chapter, not_4_2_goal_chapter, not_4_3_goal_chapter, not_4_4_goal_chapter, not_4_5_goal_chapter, not_4_6_goal_chapter, not_5_1_goal_chapter, not_5_2_goal_chapter, not_5_3_goal_chapter, not_5_4_goal_chapter, not_5_5_goal_chapter, not_5_6_goal_chapter, not_6_1_goal_chapter, not_6_2_goal_chapter, not_6_3_goal_chapter, not_6_4_goal_chapter, not_6_5_goal_chapter, not_6_6_goal_chapter",
+        "img": "images/settings/goal/episode1.png",
+        "img_mods": "overlay|images/settings/goal/chapter6.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "2-1 Goal Chapter",
+        "codes": "2_1_goal_chapter, not_1_1_goal_chapter, not_1_2_goal_chapter, not_1_3_goal_chapter, not_1_4_goal_chapter, not_1_5_goal_chapter, not_1_6_goal_chapter, not_2_2_goal_chapter, not_2_3_goal_chapter, not_2_4_goal_chapter, not_2_5_goal_chapter, not_2_6_goal_chapter, not_3_1_goal_chapter, not_3_2_goal_chapter, not_3_3_goal_chapter, not_3_4_goal_chapter, not_3_5_goal_chapter, not_3_6_goal_chapter, not_4_1_goal_chapter, not_4_2_goal_chapter, not_4_3_goal_chapter, not_4_4_goal_chapter, not_4_5_goal_chapter, not_4_6_goal_chapter, not_5_1_goal_chapter, not_5_2_goal_chapter, not_5_3_goal_chapter, not_5_4_goal_chapter, not_5_5_goal_chapter, not_5_6_goal_chapter, not_6_1_goal_chapter, not_6_2_goal_chapter, not_6_3_goal_chapter, not_6_4_goal_chapter, not_6_5_goal_chapter, not_6_6_goal_chapter",
+        "img": "images/settings/goal/episode2.png",
+        "img_mods": "overlay|images/settings/goal/chapter1.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "2-2 Goal Chapter",
+        "codes": "2_2_goal_chapter, not_1_1_goal_chapter, not_1_2_goal_chapter, not_1_3_goal_chapter, not_1_4_goal_chapter, not_1_5_goal_chapter, not_1_6_goal_chapter, not_2_1_goal_chapter, not_2_3_goal_chapter, not_2_4_goal_chapter, not_2_5_goal_chapter, not_2_6_goal_chapter, not_3_1_goal_chapter, not_3_2_goal_chapter, not_3_3_goal_chapter, not_3_4_goal_chapter, not_3_5_goal_chapter, not_3_6_goal_chapter, not_4_1_goal_chapter, not_4_2_goal_chapter, not_4_3_goal_chapter, not_4_4_goal_chapter, not_4_5_goal_chapter, not_4_6_goal_chapter, not_5_1_goal_chapter, not_5_2_goal_chapter, not_5_3_goal_chapter, not_5_4_goal_chapter, not_5_5_goal_chapter, not_5_6_goal_chapter, not_6_1_goal_chapter, not_6_2_goal_chapter, not_6_3_goal_chapter, not_6_4_goal_chapter, not_6_5_goal_chapter, not_6_6_goal_chapter",
+        "img": "images/settings/goal/episode2.png",
+        "img_mods": "overlay|images/settings/goal/chapter2.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "2-3 Goal Chapter",
+        "codes": "2_3_goal_chapter, not_1_1_goal_chapter, not_1_2_goal_chapter, not_1_3_goal_chapter, not_1_4_goal_chapter, not_1_5_goal_chapter, not_1_6_goal_chapter, not_2_1_goal_chapter, not_2_2_goal_chapter, not_2_4_goal_chapter, not_2_5_goal_chapter, not_2_6_goal_chapter, not_3_1_goal_chapter, not_3_2_goal_chapter, not_3_3_goal_chapter, not_3_4_goal_chapter, not_3_5_goal_chapter, not_3_6_goal_chapter, not_4_1_goal_chapter, not_4_2_goal_chapter, not_4_3_goal_chapter, not_4_4_goal_chapter, not_4_5_goal_chapter, not_4_6_goal_chapter, not_5_1_goal_chapter, not_5_2_goal_chapter, not_5_3_goal_chapter, not_5_4_goal_chapter, not_5_5_goal_chapter, not_5_6_goal_chapter, not_6_1_goal_chapter, not_6_2_goal_chapter, not_6_3_goal_chapter, not_6_4_goal_chapter, not_6_5_goal_chapter, not_6_6_goal_chapter",
+        "img": "images/settings/goal/episode2.png",
+        "img_mods": "overlay|images/settings/goal/chapter3.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "2-4 Goal Chapter",
+        "codes": "2_4_goal_chapter, not_1_1_goal_chapter, not_1_2_goal_chapter, not_1_3_goal_chapter, not_1_4_goal_chapter, not_1_5_goal_chapter, not_1_6_goal_chapter, not_2_1_goal_chapter, not_2_2_goal_chapter, not_2_3_goal_chapter, not_2_5_goal_chapter, not_2_6_goal_chapter, not_3_1_goal_chapter, not_3_2_goal_chapter, not_3_3_goal_chapter, not_3_4_goal_chapter, not_3_5_goal_chapter, not_3_6_goal_chapter, not_4_1_goal_chapter, not_4_2_goal_chapter, not_4_3_goal_chapter, not_4_4_goal_chapter, not_4_5_goal_chapter, not_4_6_goal_chapter, not_5_1_goal_chapter, not_5_2_goal_chapter, not_5_3_goal_chapter, not_5_4_goal_chapter, not_5_5_goal_chapter, not_5_6_goal_chapter, not_6_1_goal_chapter, not_6_2_goal_chapter, not_6_3_goal_chapter, not_6_4_goal_chapter, not_6_5_goal_chapter, not_6_6_goal_chapter",
+        "img": "images/settings/goal/episode2.png",
+        "img_mods": "overlay|images/settings/goal/chapter4.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "2-5 Goal Chapter",
+        "codes": "2_5_goal_chapter, not_1_1_goal_chapter, not_1_2_goal_chapter, not_1_3_goal_chapter, not_1_4_goal_chapter, not_1_5_goal_chapter, not_1_6_goal_chapter, not_2_1_goal_chapter, not_2_2_goal_chapter, not_2_3_goal_chapter, not_2_4_goal_chapter, not_2_6_goal_chapter, not_3_1_goal_chapter, not_3_2_goal_chapter, not_3_3_goal_chapter, not_3_4_goal_chapter, not_3_5_goal_chapter, not_3_6_goal_chapter, not_4_1_goal_chapter, not_4_2_goal_chapter, not_4_3_goal_chapter, not_4_4_goal_chapter, not_4_5_goal_chapter, not_4_6_goal_chapter, not_5_1_goal_chapter, not_5_2_goal_chapter, not_5_3_goal_chapter, not_5_4_goal_chapter, not_5_5_goal_chapter, not_5_6_goal_chapter, not_6_1_goal_chapter, not_6_2_goal_chapter, not_6_3_goal_chapter, not_6_4_goal_chapter, not_6_5_goal_chapter, not_6_6_goal_chapter",
+        "img": "images/settings/goal/episode2.png",
+        "img_mods": "overlay|images/settings/goal/chapter5.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "2-6 Goal Chapter",
+        "codes": "2_6_goal_chapter, not_1_1_goal_chapter, not_1_2_goal_chapter, not_1_3_goal_chapter, not_1_4_goal_chapter, not_1_5_goal_chapter, not_1_6_goal_chapter, not_2_1_goal_chapter, not_2_2_goal_chapter, not_2_3_goal_chapter, not_2_4_goal_chapter, not_2_5_goal_chapter, not_3_1_goal_chapter, not_3_2_goal_chapter, not_3_3_goal_chapter, not_3_4_goal_chapter, not_3_5_goal_chapter, not_3_6_goal_chapter, not_4_1_goal_chapter, not_4_2_goal_chapter, not_4_3_goal_chapter, not_4_4_goal_chapter, not_4_5_goal_chapter, not_4_6_goal_chapter, not_5_1_goal_chapter, not_5_2_goal_chapter, not_5_3_goal_chapter, not_5_4_goal_chapter, not_5_5_goal_chapter, not_5_6_goal_chapter, not_6_1_goal_chapter, not_6_2_goal_chapter, not_6_3_goal_chapter, not_6_4_goal_chapter, not_6_5_goal_chapter, not_6_6_goal_chapter",
+        "img": "images/settings/goal/episode2.png",
+        "img_mods": "overlay|images/settings/goal/chapter6.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "3-1 Goal Chapter",
+        "codes": "3_1_goal_chapter, not_1_1_goal_chapter, not_1_2_goal_chapter, not_1_3_goal_chapter, not_1_4_goal_chapter, not_1_5_goal_chapter, not_1_6_goal_chapter, not_2_1_goal_chapter, not_2_2_goal_chapter, not_2_3_goal_chapter, not_2_4_goal_chapter, not_2_5_goal_chapter, not_2_6_goal_chapter, not_3_2_goal_chapter, not_3_3_goal_chapter, not_3_4_goal_chapter, not_3_5_goal_chapter, not_3_6_goal_chapter, not_4_1_goal_chapter, not_4_2_goal_chapter, not_4_3_goal_chapter, not_4_4_goal_chapter, not_4_5_goal_chapter, not_4_6_goal_chapter, not_5_1_goal_chapter, not_5_2_goal_chapter, not_5_3_goal_chapter, not_5_4_goal_chapter, not_5_5_goal_chapter, not_5_6_goal_chapter, not_6_1_goal_chapter, not_6_2_goal_chapter, not_6_3_goal_chapter, not_6_4_goal_chapter, not_6_5_goal_chapter, not_6_6_goal_chapter",
+        "img": "images/settings/goal/episode3.png",
+        "img_mods": "overlay|images/settings/goal/chapter1.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "3-2 Goal Chapter",
+        "codes": "3_2_goal_chapter, not_1_1_goal_chapter, not_1_2_goal_chapter, not_1_3_goal_chapter, not_1_4_goal_chapter, not_1_5_goal_chapter, not_1_6_goal_chapter, not_2_1_goal_chapter, not_2_2_goal_chapter, not_2_3_goal_chapter, not_2_4_goal_chapter, not_2_5_goal_chapter, not_2_6_goal_chapter, not_3_1_goal_chapter, not_3_3_goal_chapter, not_3_4_goal_chapter, not_3_5_goal_chapter, not_3_6_goal_chapter, not_4_1_goal_chapter, not_4_2_goal_chapter, not_4_3_goal_chapter, not_4_4_goal_chapter, not_4_5_goal_chapter, not_4_6_goal_chapter, not_5_1_goal_chapter, not_5_2_goal_chapter, not_5_3_goal_chapter, not_5_4_goal_chapter, not_5_5_goal_chapter, not_5_6_goal_chapter, not_6_1_goal_chapter, not_6_2_goal_chapter, not_6_3_goal_chapter, not_6_4_goal_chapter, not_6_5_goal_chapter, not_6_6_goal_chapter",
+        "img": "images/settings/goal/episode3.png",
+        "img_mods": "overlay|images/settings/goal/chapter2.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "3-3 Goal Chapter",
+        "codes": "3_3_goal_chapter, not_1_1_goal_chapter, not_1_2_goal_chapter, not_1_3_goal_chapter, not_1_4_goal_chapter, not_1_5_goal_chapter, not_1_6_goal_chapter, not_2_1_goal_chapter, not_2_2_goal_chapter, not_2_3_goal_chapter, not_2_4_goal_chapter, not_2_5_goal_chapter, not_2_6_goal_chapter, not_3_1_goal_chapter, not_3_2_goal_chapter, not_3_4_goal_chapter, not_3_5_goal_chapter, not_3_6_goal_chapter, not_4_1_goal_chapter, not_4_2_goal_chapter, not_4_3_goal_chapter, not_4_4_goal_chapter, not_4_5_goal_chapter, not_4_6_goal_chapter, not_5_1_goal_chapter, not_5_2_goal_chapter, not_5_3_goal_chapter, not_5_4_goal_chapter, not_5_5_goal_chapter, not_5_6_goal_chapter, not_6_1_goal_chapter, not_6_2_goal_chapter, not_6_3_goal_chapter, not_6_4_goal_chapter, not_6_5_goal_chapter, not_6_6_goal_chapter",
+        "img": "images/settings/goal/episode3.png",
+        "img_mods": "overlay|images/settings/goal/chapter3.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "3-4 Goal Chapter",
+        "codes": "3_4_goal_chapter, not_1_1_goal_chapter, not_1_2_goal_chapter, not_1_3_goal_chapter, not_1_4_goal_chapter, not_1_5_goal_chapter, not_1_6_goal_chapter, not_2_1_goal_chapter, not_2_2_goal_chapter, not_2_3_goal_chapter, not_2_4_goal_chapter, not_2_5_goal_chapter, not_2_6_goal_chapter, not_3_1_goal_chapter, not_3_2_goal_chapter, not_3_3_goal_chapter, not_3_5_goal_chapter, not_3_6_goal_chapter, not_4_1_goal_chapter, not_4_2_goal_chapter, not_4_3_goal_chapter, not_4_4_goal_chapter, not_4_5_goal_chapter, not_4_6_goal_chapter, not_5_1_goal_chapter, not_5_2_goal_chapter, not_5_3_goal_chapter, not_5_4_goal_chapter, not_5_5_goal_chapter, not_5_6_goal_chapter, not_6_1_goal_chapter, not_6_2_goal_chapter, not_6_3_goal_chapter, not_6_4_goal_chapter, not_6_5_goal_chapter, not_6_6_goal_chapter",
+        "img": "images/settings/goal/episode3.png",
+        "img_mods": "overlay|images/settings/goal/chapter4.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "3-5 Goal Chapter",
+        "codes": "3_5_goal_chapter, not_1_1_goal_chapter, not_1_2_goal_chapter, not_1_3_goal_chapter, not_1_4_goal_chapter, not_1_5_goal_chapter, not_1_6_goal_chapter, not_2_1_goal_chapter, not_2_2_goal_chapter, not_2_3_goal_chapter, not_2_4_goal_chapter, not_2_5_goal_chapter, not_2_6_goal_chapter, not_3_1_goal_chapter, not_3_2_goal_chapter, not_3_3_goal_chapter, not_3_4_goal_chapter, not_3_6_goal_chapter, not_4_1_goal_chapter, not_4_2_goal_chapter, not_4_3_goal_chapter, not_4_4_goal_chapter, not_4_5_goal_chapter, not_4_6_goal_chapter, not_5_1_goal_chapter, not_5_2_goal_chapter, not_5_3_goal_chapter, not_5_4_goal_chapter, not_5_5_goal_chapter, not_5_6_goal_chapter, not_6_1_goal_chapter, not_6_2_goal_chapter, not_6_3_goal_chapter, not_6_4_goal_chapter, not_6_5_goal_chapter, not_6_6_goal_chapter",
+        "img": "images/settings/goal/episode3.png",
+        "img_mods": "overlay|images/settings/goal/chapter5.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "3-6 Goal Chapter",
+        "codes": "3_6_goal_chapter, not_1_1_goal_chapter, not_1_2_goal_chapter, not_1_3_goal_chapter, not_1_4_goal_chapter, not_1_5_goal_chapter, not_1_6_goal_chapter, not_2_1_goal_chapter, not_2_2_goal_chapter, not_2_3_goal_chapter, not_2_4_goal_chapter, not_2_5_goal_chapter, not_2_6_goal_chapter, not_3_1_goal_chapter, not_3_2_goal_chapter, not_3_3_goal_chapter, not_3_4_goal_chapter, not_3_5_goal_chapter, not_4_1_goal_chapter, not_4_2_goal_chapter, not_4_3_goal_chapter, not_4_4_goal_chapter, not_4_5_goal_chapter, not_4_6_goal_chapter, not_5_1_goal_chapter, not_5_2_goal_chapter, not_5_3_goal_chapter, not_5_4_goal_chapter, not_5_5_goal_chapter, not_5_6_goal_chapter, not_6_1_goal_chapter, not_6_2_goal_chapter, not_6_3_goal_chapter, not_6_4_goal_chapter, not_6_5_goal_chapter, not_6_6_goal_chapter",
+        "img": "images/settings/goal/episode3.png",
+        "img_mods": "overlay|images/settings/goal/chapter6.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "4-1 Goal Chapter",
+        "codes": "4_1_goal_chapter, not_1_1_goal_chapter, not_1_2_goal_chapter, not_1_3_goal_chapter, not_1_4_goal_chapter, not_1_5_goal_chapter, not_1_6_goal_chapter, not_2_1_goal_chapter, not_2_2_goal_chapter, not_2_3_goal_chapter, not_2_4_goal_chapter, not_2_5_goal_chapter, not_2_6_goal_chapter, not_3_1_goal_chapter, not_3_2_goal_chapter, not_3_3_goal_chapter, not_3_4_goal_chapter, not_3_5_goal_chapter, not_3_6_goal_chapter, not_4_2_goal_chapter, not_4_3_goal_chapter, not_4_4_goal_chapter, not_4_5_goal_chapter, not_4_6_goal_chapter, not_5_1_goal_chapter, not_5_2_goal_chapter, not_5_3_goal_chapter, not_5_4_goal_chapter, not_5_5_goal_chapter, not_5_6_goal_chapter, not_6_1_goal_chapter, not_6_2_goal_chapter, not_6_3_goal_chapter, not_6_4_goal_chapter, not_6_5_goal_chapter, not_6_6_goal_chapter",
+        "img": "images/settings/goal/episode4.png",
+        "img_mods": "overlay|images/settings/goal/chapter1.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "4-2 Goal Chapter",
+        "codes": "4_2_goal_chapter, not_1_1_goal_chapter, not_1_2_goal_chapter, not_1_3_goal_chapter, not_1_4_goal_chapter, not_1_5_goal_chapter, not_1_6_goal_chapter, not_2_1_goal_chapter, not_2_2_goal_chapter, not_2_3_goal_chapter, not_2_4_goal_chapter, not_2_5_goal_chapter, not_2_6_goal_chapter, not_3_1_goal_chapter, not_3_2_goal_chapter, not_3_3_goal_chapter, not_3_4_goal_chapter, not_3_5_goal_chapter, not_3_6_goal_chapter, not_4_1_goal_chapter, not_4_3_goal_chapter, not_4_4_goal_chapter, not_4_5_goal_chapter, not_4_6_goal_chapter, not_5_1_goal_chapter, not_5_2_goal_chapter, not_5_3_goal_chapter, not_5_4_goal_chapter, not_5_5_goal_chapter, not_5_6_goal_chapter, not_6_1_goal_chapter, not_6_2_goal_chapter, not_6_3_goal_chapter, not_6_4_goal_chapter, not_6_5_goal_chapter, not_6_6_goal_chapter",
+        "img": "images/settings/goal/episode4.png",
+        "img_mods": "overlay|images/settings/goal/chapter2.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "4-3 Goal Chapter",
+        "codes": "4_3_goal_chapter, not_1_1_goal_chapter, not_1_2_goal_chapter, not_1_3_goal_chapter, not_1_4_goal_chapter, not_1_5_goal_chapter, not_1_6_goal_chapter, not_2_1_goal_chapter, not_2_2_goal_chapter, not_2_3_goal_chapter, not_2_4_goal_chapter, not_2_5_goal_chapter, not_2_6_goal_chapter, not_3_1_goal_chapter, not_3_2_goal_chapter, not_3_3_goal_chapter, not_3_4_goal_chapter, not_3_5_goal_chapter, not_3_6_goal_chapter, not_4_1_goal_chapter, not_4_2_goal_chapter, not_4_4_goal_chapter, not_4_5_goal_chapter, not_4_6_goal_chapter, not_5_1_goal_chapter, not_5_2_goal_chapter, not_5_3_goal_chapter, not_5_4_goal_chapter, not_5_5_goal_chapter, not_5_6_goal_chapter, not_6_1_goal_chapter, not_6_2_goal_chapter, not_6_3_goal_chapter, not_6_4_goal_chapter, not_6_5_goal_chapter, not_6_6_goal_chapter",
+        "img": "images/settings/goal/episode4.png",
+        "img_mods": "overlay|images/settings/goal/chapter3.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "4-4 Goal Chapter",
+        "codes": "4_4_goal_chapter, not_1_1_goal_chapter, not_1_2_goal_chapter, not_1_3_goal_chapter, not_1_4_goal_chapter, not_1_5_goal_chapter, not_1_6_goal_chapter, not_2_1_goal_chapter, not_2_2_goal_chapter, not_2_3_goal_chapter, not_2_4_goal_chapter, not_2_5_goal_chapter, not_2_6_goal_chapter, not_3_1_goal_chapter, not_3_2_goal_chapter, not_3_3_goal_chapter, not_3_4_goal_chapter, not_3_5_goal_chapter, not_3_6_goal_chapter, not_4_1_goal_chapter, not_4_2_goal_chapter, not_4_3_goal_chapter, not_4_5_goal_chapter, not_4_6_goal_chapter, not_5_1_goal_chapter, not_5_2_goal_chapter, not_5_3_goal_chapter, not_5_4_goal_chapter, not_5_5_goal_chapter, not_5_6_goal_chapter, not_6_1_goal_chapter, not_6_2_goal_chapter, not_6_3_goal_chapter, not_6_4_goal_chapter, not_6_5_goal_chapter, not_6_6_goal_chapter",
+        "img": "images/settings/goal/episode4.png",
+        "img_mods": "overlay|images/settings/goal/chapter4.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "4-5 Goal Chapter",
+        "codes": "4_5_goal_chapter, not_1_1_goal_chapter, not_1_2_goal_chapter, not_1_3_goal_chapter, not_1_4_goal_chapter, not_1_5_goal_chapter, not_1_6_goal_chapter, not_2_1_goal_chapter, not_2_2_goal_chapter, not_2_3_goal_chapter, not_2_4_goal_chapter, not_2_5_goal_chapter, not_2_6_goal_chapter, not_3_1_goal_chapter, not_3_2_goal_chapter, not_3_3_goal_chapter, not_3_4_goal_chapter, not_3_5_goal_chapter, not_3_6_goal_chapter, not_4_1_goal_chapter, not_4_2_goal_chapter, not_4_3_goal_chapter, not_4_4_goal_chapter, not_4_6_goal_chapter, not_5_1_goal_chapter, not_5_2_goal_chapter, not_5_3_goal_chapter, not_5_4_goal_chapter, not_5_5_goal_chapter, not_5_6_goal_chapter, not_6_1_goal_chapter, not_6_2_goal_chapter, not_6_3_goal_chapter, not_6_4_goal_chapter, not_6_5_goal_chapter, not_6_6_goal_chapter",
+        "img": "images/settings/goal/episode4.png",
+        "img_mods": "overlay|images/settings/goal/chapter5.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "4-6 Goal Chapter",
+        "codes": "4_6_goal_chapter, not_1_1_goal_chapter, not_1_2_goal_chapter, not_1_3_goal_chapter, not_1_4_goal_chapter, not_1_5_goal_chapter, not_1_6_goal_chapter, not_2_1_goal_chapter, not_2_2_goal_chapter, not_2_3_goal_chapter, not_2_4_goal_chapter, not_2_5_goal_chapter, not_2_6_goal_chapter, not_3_1_goal_chapter, not_3_2_goal_chapter, not_3_3_goal_chapter, not_3_4_goal_chapter, not_3_5_goal_chapter, not_3_6_goal_chapter, not_4_1_goal_chapter, not_4_2_goal_chapter, not_4_3_goal_chapter, not_4_4_goal_chapter, not_4_5_goal_chapter, not_5_1_goal_chapter, not_5_2_goal_chapter, not_5_3_goal_chapter, not_5_4_goal_chapter, not_5_5_goal_chapter, not_5_6_goal_chapter, not_6_1_goal_chapter, not_6_2_goal_chapter, not_6_3_goal_chapter, not_6_4_goal_chapter, not_6_5_goal_chapter, not_6_6_goal_chapter",
+        "img": "images/settings/goal/episode4.png",
+        "img_mods": "overlay|images/settings/goal/chapter6.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "5-1 Goal Chapter",
+        "codes": "5_1_goal_chapter, not_1_1_goal_chapter, not_1_2_goal_chapter, not_1_3_goal_chapter, not_1_4_goal_chapter, not_1_5_goal_chapter, not_1_6_goal_chapter, not_2_1_goal_chapter, not_2_2_goal_chapter, not_2_3_goal_chapter, not_2_4_goal_chapter, not_2_5_goal_chapter, not_2_6_goal_chapter, not_3_1_goal_chapter, not_3_2_goal_chapter, not_3_3_goal_chapter, not_3_4_goal_chapter, not_3_5_goal_chapter, not_3_6_goal_chapter, not_4_1_goal_chapter, not_4_2_goal_chapter, not_4_3_goal_chapter, not_4_4_goal_chapter, not_4_5_goal_chapter, not_4_6_goal_chapter, not_5_2_goal_chapter, not_5_3_goal_chapter, not_5_4_goal_chapter, not_5_5_goal_chapter, not_5_6_goal_chapter, not_6_1_goal_chapter, not_6_2_goal_chapter, not_6_3_goal_chapter, not_6_4_goal_chapter, not_6_5_goal_chapter, not_6_6_goal_chapter",
+        "img": "images/settings/goal/episode5.png",
+        "img_mods": "overlay|images/settings/goal/chapter1.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "5-2 Goal Chapter",
+        "codes": "5_2_goal_chapter, not_1_1_goal_chapter, not_1_2_goal_chapter, not_1_3_goal_chapter, not_1_4_goal_chapter, not_1_5_goal_chapter, not_1_6_goal_chapter, not_2_1_goal_chapter, not_2_2_goal_chapter, not_2_3_goal_chapter, not_2_4_goal_chapter, not_2_5_goal_chapter, not_2_6_goal_chapter, not_3_1_goal_chapter, not_3_2_goal_chapter, not_3_3_goal_chapter, not_3_4_goal_chapter, not_3_5_goal_chapter, not_3_6_goal_chapter, not_4_1_goal_chapter, not_4_2_goal_chapter, not_4_3_goal_chapter, not_4_4_goal_chapter, not_4_5_goal_chapter, not_4_6_goal_chapter, not_5_1_goal_chapter, not_5_3_goal_chapter, not_5_4_goal_chapter, not_5_5_goal_chapter, not_5_6_goal_chapter, not_6_1_goal_chapter, not_6_2_goal_chapter, not_6_3_goal_chapter, not_6_4_goal_chapter, not_6_5_goal_chapter, not_6_6_goal_chapter",
+        "img": "images/settings/goal/episode5.png",
+        "img_mods": "overlay|images/settings/goal/chapter2.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "5-3 Goal Chapter",
+        "codes": "5_3_goal_chapter, not_1_1_goal_chapter, not_1_2_goal_chapter, not_1_3_goal_chapter, not_1_4_goal_chapter, not_1_5_goal_chapter, not_1_6_goal_chapter, not_2_1_goal_chapter, not_2_2_goal_chapter, not_2_3_goal_chapter, not_2_4_goal_chapter, not_2_5_goal_chapter, not_2_6_goal_chapter, not_3_1_goal_chapter, not_3_2_goal_chapter, not_3_3_goal_chapter, not_3_4_goal_chapter, not_3_5_goal_chapter, not_3_6_goal_chapter, not_4_1_goal_chapter, not_4_2_goal_chapter, not_4_3_goal_chapter, not_4_4_goal_chapter, not_4_5_goal_chapter, not_4_6_goal_chapter, not_5_1_goal_chapter, not_5_2_goal_chapter, not_5_4_goal_chapter, not_5_5_goal_chapter, not_5_6_goal_chapter, not_6_1_goal_chapter, not_6_2_goal_chapter, not_6_3_goal_chapter, not_6_4_goal_chapter, not_6_5_goal_chapter, not_6_6_goal_chapter",
+        "img": "images/settings/goal/episode5.png",
+        "img_mods": "overlay|images/settings/goal/chapter3.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "5-4 Goal Chapter",
+        "codes": "5_4_goal_chapter, not_1_1_goal_chapter, not_1_2_goal_chapter, not_1_3_goal_chapter, not_1_4_goal_chapter, not_1_5_goal_chapter, not_1_6_goal_chapter, not_2_1_goal_chapter, not_2_2_goal_chapter, not_2_3_goal_chapter, not_2_4_goal_chapter, not_2_5_goal_chapter, not_2_6_goal_chapter, not_3_1_goal_chapter, not_3_2_goal_chapter, not_3_3_goal_chapter, not_3_4_goal_chapter, not_3_5_goal_chapter, not_3_6_goal_chapter, not_4_1_goal_chapter, not_4_2_goal_chapter, not_4_3_goal_chapter, not_4_4_goal_chapter, not_4_5_goal_chapter, not_4_6_goal_chapter, not_5_1_goal_chapter, not_5_2_goal_chapter, not_5_3_goal_chapter, not_5_5_goal_chapter, not_5_6_goal_chapter, not_6_1_goal_chapter, not_6_2_goal_chapter, not_6_3_goal_chapter, not_6_4_goal_chapter, not_6_5_goal_chapter, not_6_6_goal_chapter",
+        "img": "images/settings/goal/episode5.png",
+        "img_mods": "overlay|images/settings/goal/chapter4.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "5-5 Goal Chapter",
+        "codes": "5_5_goal_chapter, not_1_1_goal_chapter, not_1_2_goal_chapter, not_1_3_goal_chapter, not_1_4_goal_chapter, not_1_5_goal_chapter, not_1_6_goal_chapter, not_2_1_goal_chapter, not_2_2_goal_chapter, not_2_3_goal_chapter, not_2_4_goal_chapter, not_2_5_goal_chapter, not_2_6_goal_chapter, not_3_1_goal_chapter, not_3_2_goal_chapter, not_3_3_goal_chapter, not_3_4_goal_chapter, not_3_5_goal_chapter, not_3_6_goal_chapter, not_4_1_goal_chapter, not_4_2_goal_chapter, not_4_3_goal_chapter, not_4_4_goal_chapter, not_4_5_goal_chapter, not_4_6_goal_chapter, not_5_1_goal_chapter, not_5_2_goal_chapter, not_5_3_goal_chapter, not_5_4_goal_chapter, not_5_6_goal_chapter, not_6_1_goal_chapter, not_6_2_goal_chapter, not_6_3_goal_chapter, not_6_4_goal_chapter, not_6_5_goal_chapter, not_6_6_goal_chapter",
+        "img": "images/settings/goal/episode5.png",
+        "img_mods": "overlay|images/settings/goal/chapter5.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "5-6 Goal Chapter",
+        "codes": "5_6_goal_chapter, not_1_1_goal_chapter, not_1_2_goal_chapter, not_1_3_goal_chapter, not_1_4_goal_chapter, not_1_5_goal_chapter, not_1_6_goal_chapter, not_2_1_goal_chapter, not_2_2_goal_chapter, not_2_3_goal_chapter, not_2_4_goal_chapter, not_2_5_goal_chapter, not_2_6_goal_chapter, not_3_1_goal_chapter, not_3_2_goal_chapter, not_3_3_goal_chapter, not_3_4_goal_chapter, not_3_5_goal_chapter, not_3_6_goal_chapter, not_4_1_goal_chapter, not_4_2_goal_chapter, not_4_3_goal_chapter, not_4_4_goal_chapter, not_4_5_goal_chapter, not_4_6_goal_chapter, not_5_1_goal_chapter, not_5_2_goal_chapter, not_5_3_goal_chapter, not_5_4_goal_chapter, not_5_5_goal_chapter, not_6_1_goal_chapter, not_6_2_goal_chapter, not_6_3_goal_chapter, not_6_4_goal_chapter, not_6_5_goal_chapter, not_6_6_goal_chapter",
+        "img": "images/settings/goal/episode5.png",
+        "img_mods": "overlay|images/settings/goal/chapter6.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "6-1 Goal Chapter",
+        "codes": "6_1_goal_chapter, not_1_1_goal_chapter, not_1_2_goal_chapter, not_1_3_goal_chapter, not_1_4_goal_chapter, not_1_5_goal_chapter, not_1_6_goal_chapter, not_2_1_goal_chapter, not_2_2_goal_chapter, not_2_3_goal_chapter, not_2_4_goal_chapter, not_2_5_goal_chapter, not_2_6_goal_chapter, not_3_1_goal_chapter, not_3_2_goal_chapter, not_3_3_goal_chapter, not_3_4_goal_chapter, not_3_5_goal_chapter, not_3_6_goal_chapter, not_4_1_goal_chapter, not_4_2_goal_chapter, not_4_3_goal_chapter, not_4_4_goal_chapter, not_4_5_goal_chapter, not_4_6_goal_chapter, not_5_1_goal_chapter, not_5_2_goal_chapter, not_5_3_goal_chapter, not_5_4_goal_chapter, not_5_5_goal_chapter, not_5_6_goal_chapter, not_6_2_goal_chapter, not_6_3_goal_chapter, not_6_4_goal_chapter, not_6_5_goal_chapter, not_6_6_goal_chapter",
+        "img": "images/settings/goal/episode6.png",
+        "img_mods": "overlay|images/settings/goal/chapter1.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "6-2 Goal Chapter",
+        "codes": "6_2_goal_chapter, not_1_1_goal_chapter, not_1_2_goal_chapter, not_1_3_goal_chapter, not_1_4_goal_chapter, not_1_5_goal_chapter, not_1_6_goal_chapter, not_2_1_goal_chapter, not_2_2_goal_chapter, not_2_3_goal_chapter, not_2_4_goal_chapter, not_2_5_goal_chapter, not_2_6_goal_chapter, not_3_1_goal_chapter, not_3_2_goal_chapter, not_3_3_goal_chapter, not_3_4_goal_chapter, not_3_5_goal_chapter, not_3_6_goal_chapter, not_4_1_goal_chapter, not_4_2_goal_chapter, not_4_3_goal_chapter, not_4_4_goal_chapter, not_4_5_goal_chapter, not_4_6_goal_chapter, not_5_1_goal_chapter, not_5_2_goal_chapter, not_5_3_goal_chapter, not_5_4_goal_chapter, not_5_5_goal_chapter, not_5_6_goal_chapter, not_6_1_goal_chapter, not_6_3_goal_chapter, not_6_4_goal_chapter, not_6_5_goal_chapter, not_6_6_goal_chapter",
+        "img": "images/settings/goal/episode6.png",
+        "img_mods": "overlay|images/settings/goal/chapter2.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "6-3 Goal Chapter",
+        "codes": "6_3_goal_chapter, not_1_1_goal_chapter, not_1_2_goal_chapter, not_1_3_goal_chapter, not_1_4_goal_chapter, not_1_5_goal_chapter, not_1_6_goal_chapter, not_2_1_goal_chapter, not_2_2_goal_chapter, not_2_3_goal_chapter, not_2_4_goal_chapter, not_2_5_goal_chapter, not_2_6_goal_chapter, not_3_1_goal_chapter, not_3_2_goal_chapter, not_3_3_goal_chapter, not_3_4_goal_chapter, not_3_5_goal_chapter, not_3_6_goal_chapter, not_4_1_goal_chapter, not_4_2_goal_chapter, not_4_3_goal_chapter, not_4_4_goal_chapter, not_4_5_goal_chapter, not_4_6_goal_chapter, not_5_1_goal_chapter, not_5_2_goal_chapter, not_5_3_goal_chapter, not_5_4_goal_chapter, not_5_5_goal_chapter, not_5_6_goal_chapter, not_6_1_goal_chapter, not_6_2_goal_chapter, not_6_4_goal_chapter, not_6_5_goal_chapter, not_6_6_goal_chapter",
+        "img": "images/settings/goal/episode6.png",
+        "img_mods": "overlay|images/settings/goal/chapter3.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "6-4 Goal Chapter",
+        "codes": "6_4_goal_chapter, not_1_1_goal_chapter, not_1_2_goal_chapter, not_1_3_goal_chapter, not_1_4_goal_chapter, not_1_5_goal_chapter, not_1_6_goal_chapter, not_2_1_goal_chapter, not_2_2_goal_chapter, not_2_3_goal_chapter, not_2_4_goal_chapter, not_2_5_goal_chapter, not_2_6_goal_chapter, not_3_1_goal_chapter, not_3_2_goal_chapter, not_3_3_goal_chapter, not_3_4_goal_chapter, not_3_5_goal_chapter, not_3_6_goal_chapter, not_4_1_goal_chapter, not_4_2_goal_chapter, not_4_3_goal_chapter, not_4_4_goal_chapter, not_4_5_goal_chapter, not_4_6_goal_chapter, not_5_1_goal_chapter, not_5_2_goal_chapter, not_5_3_goal_chapter, not_5_4_goal_chapter, not_5_5_goal_chapter, not_5_6_goal_chapter, not_6_1_goal_chapter, not_6_2_goal_chapter, not_6_3_goal_chapter, not_6_5_goal_chapter, not_6_6_goal_chapter",
+        "img": "images/settings/goal/episode6.png",
+        "img_mods": "overlay|images/settings/goal/chapter4.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "6-5 Goal Chapter",
+        "codes": "6_5_goal_chapter, not_1_1_goal_chapter, not_1_2_goal_chapter, not_1_3_goal_chapter, not_1_4_goal_chapter, not_1_5_goal_chapter, not_1_6_goal_chapter, not_2_1_goal_chapter, not_2_2_goal_chapter, not_2_3_goal_chapter, not_2_4_goal_chapter, not_2_5_goal_chapter, not_2_6_goal_chapter, not_3_1_goal_chapter, not_3_2_goal_chapter, not_3_3_goal_chapter, not_3_4_goal_chapter, not_3_5_goal_chapter, not_3_6_goal_chapter, not_4_1_goal_chapter, not_4_2_goal_chapter, not_4_3_goal_chapter, not_4_4_goal_chapter, not_4_5_goal_chapter, not_4_6_goal_chapter, not_5_1_goal_chapter, not_5_2_goal_chapter, not_5_3_goal_chapter, not_5_4_goal_chapter, not_5_5_goal_chapter, not_5_6_goal_chapter, not_6_1_goal_chapter, not_6_2_goal_chapter, not_6_3_goal_chapter, not_6_4_goal_chapter, not_6_6_goal_chapter",
+        "img": "images/settings/goal/episode6.png",
+        "img_mods": "overlay|images/settings/goal/chapter5.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "6-6 Goal Chapter",
+        "codes": "6_6_goal_chapter, not_1_1_goal_chapter, not_1_2_goal_chapter, not_1_3_goal_chapter, not_1_4_goal_chapter, not_1_5_goal_chapter, not_1_6_goal_chapter, not_2_1_goal_chapter, not_2_2_goal_chapter, not_2_3_goal_chapter, not_2_4_goal_chapter, not_2_5_goal_chapter, not_2_6_goal_chapter, not_3_1_goal_chapter, not_3_2_goal_chapter, not_3_3_goal_chapter, not_3_4_goal_chapter, not_3_5_goal_chapter, not_3_6_goal_chapter, not_4_1_goal_chapter, not_4_2_goal_chapter, not_4_3_goal_chapter, not_4_4_goal_chapter, not_4_5_goal_chapter, not_4_6_goal_chapter, not_5_1_goal_chapter, not_5_2_goal_chapter, not_5_3_goal_chapter, not_5_4_goal_chapter, not_5_5_goal_chapter, not_5_6_goal_chapter, not_6_1_goal_chapter, not_6_2_goal_chapter, not_6_3_goal_chapter, not_6_4_goal_chapter, not_6_5_goal_chapter",
+        "img": "images/settings/goal/episode6.png",
+        "img_mods": "overlay|images/settings/goal/chapter6.png",
+        "inherit_codes": false
+      }
+    ]
+  }
+]
