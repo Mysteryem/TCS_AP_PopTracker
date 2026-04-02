@@ -15,55 +15,6 @@
     "codes": "bonuses_enabled"
   },
   {
-    "name": "Pod Race Bonus Enabled",
-    "type": "toggle",
-    "initial_active_state": true,
-    "img": "images/settings/chapter1.png",
-    "codes": "bonuses_enabled_podrace"
-  },
-  {
-    "name": "Anakin's Flight Bonus Enabled",
-    "type": "toggle",
-    "initial_active_state": true,
-    "img": "images/settings/chapter2.png",
-    "codes": "bonuses_enabled_anakin_flight"
-  },
-  {
-    "name": "Gunship Bonus Enabled",
-    "type": "toggle",
-    "initial_active_state": true,
-    "img": "images/settings/chapter3.png",
-    "codes": "bonuses_enabled_gunship"
-  },
-  {
-    "name": "A New Hope Bonus Enabled",
-    "type": "toggle",
-    "initial_active_state": true,
-    "img": "images/settings/chapter4.png",
-    "codes": "bonuses_enabled_a_new_hope"
-  },
-  {
-    "name": "LEGO City Bonus Enabled",
-    "type": "toggle",
-    "initial_active_state": true,
-    "img": "images/settings/chapter5.png",
-    "codes": "bonuses_enabled_lego_city"
-  },
-  {
-    "name": "New Town Bonus Enabled",
-    "type": "toggle",
-    "initial_active_state": true,
-    "img": "images/settings/chapter6.png",
-    "codes": "bonuses_enabled_new_town"
-  },
-  {
-    "name": "Indiana Jones: Trailer",
-    "type": "toggle",
-    "initial_active_state": true,
-    "img": "images/items/indianajones.png",
-    "codes": "bonuses_enabled_indy"
-  },
-  {
     "name": "Most Expensive Purchase Without Score Multipliers",
     "type": "consumable",
     "img": "images/settings/wuher.png",
