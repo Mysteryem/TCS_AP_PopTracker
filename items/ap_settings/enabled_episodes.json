@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Episode 1 Enabled",
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "name": "Episode 1 Disabled",
+        "img": "images/items/episode1unlock.png",
+        "img_mods": "@disabled",
+        "codes": "episode_1_disabled"
+      },
+      {
+        "img": "images/items/episode1unlock.png",
+        "codes": "episode_1_enabled, enabled_episodes_count",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Episode 2 Enabled",
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "name": "Episode 2 Disabled",
+        "img": "images/items/episode2unlock.png",
+        "img_mods": "@disabled",
+        "codes": "episode_2_disabled"
+      },
+      {
+        "img": "images/items/episode2unlock.png",
+        "codes": "episode_2_enabled, enabled_episodes_count",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Episode 3 Enabled",
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "name": "Episode 3 Disabled",
+        "img": "images/items/episode3unlock.png",
+        "img_mods": "@disabled",
+        "codes": "episode_3_disabled"
+      },
+      {
+        "img": "images/items/episode3unlock.png",
+        "codes": "episode_3_enabled, enabled_episodes_count",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Episode 4 Enabled",
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "name": "Episode 4 Disabled",
+        "img": "images/items/episode4unlock.png",
+        "img_mods": "@disabled",
+        "codes": "episode_4_disabled"
+      },
+      {
+        "img": "images/items/episode4unlock.png",
+        "codes": "episode_4_enabled, enabled_episodes_count",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Episode 5 Enabled",
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "name": "Episode 5 Disabled",
+        "img": "images/items/episode5unlock.png",
+        "img_mods": "@disabled",
+        "codes": "episode_5_disabled"
+      },
+      {
+        "img": "images/items/episode5unlock.png",
+        "codes": "episode_5_enabled, enabled_episodes_count",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Episode 6 Enabled",
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "name": "Episode 6 Disabled",
+        "img": "images/items/episode6unlock.png",
+        "img_mods": "@disabled",
+        "codes": "episode_6_disabled"
+      },
+      {
+        "img": "images/items/episode6unlock.png",
+        "codes": "episode_6_enabled, enabled_episodes_count",
+        "inherit_codes": false
+      }
+    ]
+  }
+]
