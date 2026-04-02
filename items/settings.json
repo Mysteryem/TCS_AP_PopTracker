@@ -8,13 +8,6 @@
     "codes": "minikits_for_goal"
   },
   {
-    "name": "Bonuses Enabled",
-    "type": "toggle",
-    "img": "images/items/progressivebonuslevel.png",
-    "initial_active_state": true,
-    "codes": "bonuses_enabled"
-  },
-  {
     "name": "Most Expensive Purchase Without Score Multipliers",
     "type": "consumable",
     "img": "images/settings/wuher.png",
@@ -23,13 +16,6 @@
     "decrement": 1000,
     "overlay_align": "center",
     "codes": "max_purchase_with_no_multipliers"
-  },
-  {
-    "name": "Story Character Unlock Locations Enabled",
-    "type": "toggle",
-    "img": "images/items/c-3po.png",
-    "initial_active_state": true,
-    "codes": "story_character_locations"
   },
   {
     "name": "'All Episodes' Character Purchase Unlock Requirement",
@@ -49,34 +35,6 @@
         "inherit_codes": false
       }
     ]
-  },
-  {
-    "name": "'All Episodes' Character Purchase Locations Enabled",
-    "type": "toggle",
-    "initial_active_state": true,
-    "img": "images/items/allepisodestoken.png",
-    "codes": "all_episodes_purchase_locations"
-  },
-  {
-    "name": "True Jedi Locations Enabled",
-    "type": "toggle",
-    "initial_active_state": true,
-    "img": "images/settings/true_jedi.png",
-    "codes": "setting_true_jedi_locations_enabled"
-  },
-  {
-    "name": "Minikit Locations Enabled",
-    "type": "toggle",
-    "initial_active_state": true,
-    "img": "images/items/minikit.png",
-    "codes": "setting_minikit_locations_enabled"
-  },
-  {
-    "name": "Ridesanity Enabled",
-    "type": "toggle",
-    "initial_active_state": false,
-    "img": "images/ridesanity/town_car.png",
-    "codes": "setting_ridesanity_enabled"
   },
   {
     "name": "Defeat Bosses Goal Amount",
