@@ -1,254 +1,911 @@
 [
   {
     "name": "Chapter 1-1 Enabled",
-    "type": "toggle",
-    "codes": "1_1_enabled",
+    "type": "progressive_toggle",
     "initial_active_state": true,
-    "img": "images/settings/chapter1.png"
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "name": "Chapter 1-1 Enabled - Locked by 1-1 Unlock",
+        "img": "images/settings/chapter1.png",
+        "codes": "1_1_enabled, 1_1_requires_unlock_item"
+      },
+      {
+        "name": "Chapter 1-1 Enabled - Locked by Story Characters",
+        "img": "images/settings/chapter1.png",
+        "inherit_codes": false,
+        "codes": "1_1_enabled, 1_1_requires_story_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/qui-gonjinn.png"
+      },
+      {
+        "name": "Chapter 1-1 Enabled - Locked by Purchase Characters",
+        "img": "images/settings/chapter1.png",
+        "inherit_codes": false,
+        "codes": "1_1_enabled, 1_1_requires_purchase_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/battledroid(security).png"
+      }
+    ]
   },
   {
     "name": "Chapter 1-2 Enabled",
-    "type": "toggle",
-    "codes": "1_2_enabled",
+    "type": "progressive_toggle",
     "initial_active_state": true,
-    "img": "images/settings/chapter2.png"
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "name": "Chapter 1-2 Enabled - Locked by 1-2 Unlock",
+        "img": "images/settings/chapter2.png",
+        "codes": "1_2_enabled, 1_2_requires_unlock_item"
+      },
+      {
+        "name": "Chapter 1-2 Enabled - Locked by Story Characters",
+        "img": "images/settings/chapter2.png",
+        "inherit_codes": false,
+        "codes": "1_2_enabled, 1_2_requires_story_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/qui-gonjinn.png"
+      },
+      {
+        "name": "Chapter 1-2 Enabled - Locked by Purchase Characters",
+        "img": "images/settings/chapter2.png",
+        "inherit_codes": false,
+        "codes": "1_2_enabled, 1_2_requires_purchase_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/bossnass.png"
+      }
+    ]
   },
   {
     "name": "Chapter 1-3 Enabled",
-    "type": "toggle",
-    "codes": "1_3_enabled",
+    "type": "progressive_toggle",
     "initial_active_state": true,
-    "img": "images/settings/chapter3.png"
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "name": "Chapter 1-3 Enabled - Locked by 1-3 Unlock",
+        "img": "images/settings/chapter3.png",
+        "codes": "1_3_enabled, 1_3_requires_unlock_item"
+      },
+      {
+        "name": "Chapter 1-3 Enabled - Locked by Story Characters",
+        "img": "images/settings/chapter3.png",
+        "inherit_codes": false,
+        "codes": "1_3_enabled, 1_3_requires_story_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/qui-gonjinn.png"
+      },
+      {
+        "name": "Chapter 1-3 Enabled - Locked by Purchase Characters",
+        "img": "images/settings/chapter3.png",
+        "inherit_codes": false,
+        "codes": "1_3_enabled, 1_3_requires_purchase_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/royalguard.png"
+      }
+    ]
   },
   {
     "name": "Chapter 1-4 Enabled",
-    "type": "toggle",
-    "codes": "1_4_enabled",
+    "type": "progressive_toggle",
     "initial_active_state": true,
-    "img": "images/settings/chapter4.png"
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "name": "Chapter 1-4 Enabled - Locked by 1-4 Unlock",
+        "img": "images/settings/chapter4.png",
+        "codes": "1_4_enabled, 1_4_requires_unlock_item"
+      },
+      {
+        "name": "Chapter 1-4 Enabled - Locked by Story Characters",
+        "img": "images/settings/chapter4.png",
+        "inherit_codes": false,
+        "codes": "1_4_enabled, 1_4_requires_story_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/anakinspod.png"
+      },
+      {
+        "name": "Chapter 1-4 Enabled - Locked by Purchase Characters",
+        "img": "images/settings/chapter4.png",
+        "inherit_codes": false,
+        "codes": "1_4_enabled, 1_4_requires_purchase_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/watto.png"
+      }
+    ]
   },
   {
     "name": "Chapter 1-5 Enabled",
-    "type": "toggle",
-    "codes": "1_5_enabled",
+    "type": "progressive_toggle",
     "initial_active_state": true,
-    "img": "images/settings/chapter5.png"
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "name": "Chapter 1-5 Enabled - Locked by 1-5 Unlock",
+        "img": "images/settings/chapter5.png",
+        "codes": "1_5_enabled, 1_5_requires_unlock_item"
+      },
+      {
+        "name": "Chapter 1-5 Enabled - Locked by Story Characters",
+        "img": "images/settings/chapter5.png",
+        "inherit_codes": false,
+        "codes": "1_5_enabled, 1_5_requires_story_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/qui-gonjinn.png"
+      }
+    ]
   },
   {
     "name": "Chapter 1-6 Enabled",
-    "type": "toggle",
-    "codes": "1_6_enabled",
+    "type": "progressive_toggle",
     "initial_active_state": true,
-    "img": "images/settings/chapter6.png"
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "name": "Chapter 1-6 Enabled - Locked by 1-6 Unlock",
+        "img": "images/settings/chapter6.png",
+        "codes": "1_6_enabled, 1_6_requires_unlock_item"
+      },
+      {
+        "name": "Chapter 1-6 Enabled - Locked by Story Characters",
+        "img": "images/settings/chapter6.png",
+        "inherit_codes": false,
+        "codes": "1_6_enabled, 1_6_requires_story_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/qui-gonjinn.png"
+      },
+      {
+        "name": "Chapter 1-6 Enabled - Locked by Purchase Characters",
+        "img": "images/settings/chapter6.png",
+        "inherit_codes": false,
+        "codes": "1_6_enabled, 1_6_requires_purchase_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/darthmaul.png"
+      }
+    ]
   },
   {
     "name": "Chapter 2-1 Enabled",
-    "type": "toggle",
-    "codes": "2_1_enabled",
+    "type": "progressive_toggle",
     "initial_active_state": true,
-    "img": "images/settings/chapter1.png"
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "name": "Chapter 2-1 Enabled - Locked by 2-1 Unlock",
+        "img": "images/settings/chapter1.png",
+        "codes": "2_1_enabled, 2_1_requires_unlock_item"
+      },
+      {
+        "name": "Chapter 2-1 Enabled - Locked by Story Characters",
+        "img": "images/settings/chapter1.png",
+        "inherit_codes": false,
+        "codes": "2_1_enabled, 2_1_requires_story_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/anakinsspeeder.png"
+      },
+      {
+        "name": "Chapter 2-1 Enabled - Locked by Purchase Characters",
+        "img": "images/settings/chapter1.png",
+        "inherit_codes": false,
+        "codes": "2_1_enabled, 2_1_requires_purchase_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/dexterjettster.png"
+      }
+    ]
   },
   {
     "name": "Chapter 2-2 Enabled",
-    "type": "toggle",
-    "codes": "2_2_enabled",
+    "type": "progressive_toggle",
     "initial_active_state": true,
-    "img": "images/settings/chapter2.png"
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "name": "Chapter 2-2 Enabled - Locked by 2-2 Unlock",
+        "img": "images/settings/chapter2.png",
+        "codes": "2_2_enabled, 2_2_requires_unlock_item"
+      },
+      {
+        "name": "Chapter 2-2 Enabled - Locked by Story Characters",
+        "img": "images/settings/chapter2.png",
+        "inherit_codes": false,
+        "codes": "2_2_enabled, 2_2_requires_story_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/r4-p17.png"
+      },
+      {
+        "name": "Chapter 2-2 Enabled - Locked by Purchase Characters",
+        "img": "images/settings/chapter2.png",
+        "inherit_codes": false,
+        "codes": "2_2_enabled, 2_2_requires_purchase_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/lamasu.png"
+      }
+    ]
   },
   {
     "name": "Chapter 2-3 Enabled",
-    "type": "toggle",
-    "codes": "2_3_enabled",
+    "type": "progressive_toggle",
     "initial_active_state": true,
-    "img": "images/settings/chapter3.png"
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "name": "Chapter 2-3 Enabled - Locked by 2-3 Unlock",
+        "img": "images/settings/chapter3.png",
+        "codes": "2_3_enabled, 2_3_requires_unlock_item"
+      },
+      {
+        "name": "Chapter 2-3 Enabled - Locked by Story Characters",
+        "img": "images/settings/chapter3.png",
+        "inherit_codes": false,
+        "codes": "2_3_enabled, 2_3_requires_story_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/anakinskywalker(padawan).png"
+      },
+      {
+        "name": "Chapter 2-3 Enabled - Locked by Purchase Characters",
+        "img": "images/settings/chapter3.png",
+        "inherit_codes": false,
+        "codes": "2_3_enabled, 2_3_requires_purchase_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/geonosian.png"
+      }
+    ]
   },
   {
     "name": "Chapter 2-4 Enabled",
-    "type": "toggle",
-    "codes": "2_4_enabled",
+    "type": "progressive_toggle",
     "initial_active_state": true,
-    "img": "images/settings/chapter4.png"
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "name": "Chapter 2-4 Enabled - Locked by 2-4 Unlock",
+        "img": "images/settings/chapter4.png",
+        "codes": "2_4_enabled, 2_4_requires_unlock_item"
+      },
+      {
+        "name": "Chapter 2-4 Enabled - Locked by Story Characters",
+        "img": "images/settings/chapter4.png",
+        "inherit_codes": false,
+        "codes": "2_4_enabled, 2_4_requires_story_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/anakinskywalker(padawan).png"
+      },
+      {
+        "name": "Chapter 2-4 Enabled - Locked by Purchase Characters",
+        "img": "images/settings/chapter4.png",
+        "inherit_codes": false,
+        "codes": "2_4_enabled, 2_4_requires_purchase_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/superbattledroid.png"
+      }
+    ]
   },
   {
     "name": "Chapter 2-5 Enabled",
-    "type": "toggle",
-    "codes": "2_5_enabled",
+    "type": "progressive_toggle",
     "initial_active_state": true,
-    "img": "images/settings/chapter5.png"
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "name": "Chapter 2-5 Enabled - Locked by 2-5 Unlock",
+        "img": "images/settings/chapter5.png",
+        "codes": "2_5_enabled, 2_5_requires_unlock_item"
+      },
+      {
+        "name": "Chapter 2-5 Enabled - Locked by Story Characters",
+        "img": "images/settings/chapter5.png",
+        "inherit_codes": false,
+        "codes": "2_5_enabled, 2_5_requires_story_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/republicgunship.png"
+      }
+    ]
   },
   {
     "name": "Chapter 2-6 Enabled",
-    "type": "toggle",
-    "codes": "2_6_enabled",
+    "type": "progressive_toggle",
     "initial_active_state": true,
-    "img": "images/settings/chapter6.png"
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "name": "Chapter 2-6 Enabled - Locked by 2-6 Unlock",
+        "img": "images/settings/chapter6.png",
+        "codes": "2_6_enabled, 2_6_requires_unlock_item"
+      },
+      {
+        "name": "Chapter 2-6 Enabled - Locked by Story Characters",
+        "img": "images/settings/chapter6.png",
+        "inherit_codes": false,
+        "codes": "2_6_enabled, 2_6_requires_story_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/anakinskywalker(padawan).png"
+      }
+    ]
   },
   {
     "name": "Chapter 3-1 Enabled",
-    "type": "toggle",
-    "codes": "3_1_enabled",
+    "type": "progressive_toggle",
     "initial_active_state": true,
-    "img": "images/settings/chapter1.png"
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "name": "Chapter 3-1 Enabled - Locked by 3-1 Unlock",
+        "img": "images/settings/chapter1.png",
+        "codes": "3_1_enabled, 3_1_requires_unlock_item"
+      },
+      {
+        "name": "Chapter 3-1 Enabled - Locked by Story Characters",
+        "img": "images/settings/chapter1.png",
+        "inherit_codes": false,
+        "codes": "3_1_enabled, 3_1_requires_story_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/anakinsstarfighter.png"
+      },
+      {
+        "name": "Chapter 3-1 Enabled - Locked by Purchase Characters",
+        "img": "images/settings/chapter1.png",
+        "inherit_codes": false,
+        "codes": "3_1_enabled, 3_1_requires_purchase_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/droidtrifighter.png"
+      }
+    ]
   },
   {
     "name": "Chapter 3-2 Enabled",
-    "type": "toggle",
-    "codes": "3_2_enabled",
+    "type": "progressive_toggle",
     "initial_active_state": true,
-    "img": "images/settings/chapter2.png"
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "name": "Chapter 3-2 Enabled - Locked by 3-2 Unlock",
+        "img": "images/settings/chapter2.png",
+        "codes": "3_2_enabled, 3_2_requires_unlock_item"
+      },
+      {
+        "name": "Chapter 3-2 Enabled - Locked by Story Characters",
+        "img": "images/settings/chapter2.png",
+        "inherit_codes": false,
+        "codes": "3_2_enabled, 3_2_requires_story_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/obi-wankenobi(episode3).png"
+      },
+      {
+        "name": "Chapter 3-2 Enabled - Locked by Purchase Characters",
+        "img": "images/settings/chapter2.png",
+        "inherit_codes": false,
+        "codes": "3_2_enabled, 3_2_requires_purchase_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/grievousbodyguard.png"
+      }
+    ]
   },
   {
     "name": "Chapter 3-3 Enabled",
-    "type": "toggle",
-    "codes": "3_3_enabled",
+    "type": "progressive_toggle",
     "initial_active_state": true,
-    "img": "images/settings/chapter3.png"
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "name": "Chapter 3-3 Enabled - Locked by 3-3 Unlock",
+        "img": "images/settings/chapter3.png",
+        "codes": "3_3_enabled, 3_3_requires_unlock_item"
+      },
+      {
+        "name": "Chapter 3-3 Enabled - Locked by Story Characters",
+        "img": "images/settings/chapter3.png",
+        "inherit_codes": false,
+        "codes": "3_3_enabled, 3_3_requires_story_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/obi-wankenobi(episode3).png"
+      },
+      {
+        "name": "Chapter 3-3 Enabled - Locked by Purchase Characters",
+        "img": "images/settings/chapter3.png",
+        "inherit_codes": false,
+        "codes": "3_3_enabled, 3_3_requires_purchase_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/generalgrievous.png"
+      }
+    ]
   },
   {
     "name": "Chapter 3-4 Enabled",
-    "type": "toggle",
-    "codes": "3_4_enabled",
+    "type": "progressive_toggle",
     "initial_active_state": true,
-    "img": "images/settings/chapter4.png"
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "name": "Chapter 3-4 Enabled - Locked by 3-4 Unlock",
+        "img": "images/settings/chapter4.png",
+        "codes": "3_4_enabled, 3_4_requires_unlock_item"
+      },
+      {
+        "name": "Chapter 3-4 Enabled - Locked by Story Characters",
+        "img": "images/settings/chapter4.png",
+        "inherit_codes": false,
+        "codes": "3_4_enabled, 3_4_requires_story_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/yoda.png"
+      },
+      {
+        "name": "Chapter 3-4 Enabled - Locked by Purchase Characters",
+        "img": "images/settings/chapter4.png",
+        "inherit_codes": false,
+        "codes": "3_4_enabled, 3_4_requires_purchase_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/clone(episode3).png"
+      }
+    ]
   },
   {
     "name": "Chapter 3-5 Enabled",
-    "type": "toggle",
-    "codes": "3_5_enabled",
+    "type": "progressive_toggle",
     "initial_active_state": true,
-    "img": "images/settings/chapter5.png"
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "name": "Chapter 3-5 Enabled - Locked by 3-5 Unlock",
+        "img": "images/settings/chapter5.png",
+        "codes": "3_5_enabled, 3_5_requires_unlock_item"
+      },
+      {
+        "name": "Chapter 3-5 Enabled - Locked by Story Characters",
+        "img": "images/settings/chapter5.png",
+        "inherit_codes": false,
+        "codes": "3_5_enabled, 3_5_requires_story_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/obi-wankenobi(episode3).png"
+      },
+      {
+        "name": "Chapter 3-5 Enabled - Locked by Purchase Characters",
+        "img": "images/settings/chapter5.png",
+        "inherit_codes": false,
+        "codes": "3_5_enabled, 3_5_requires_purchase_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/disguisedclone.png"
+      }
+    ]
   },
   {
     "name": "Chapter 3-6 Enabled",
-    "type": "toggle",
-    "codes": "3_6_enabled",
+    "type": "progressive_toggle",
     "initial_active_state": true,
-    "img": "images/settings/chapter6.png"
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "name": "Chapter 3-6 Enabled - Locked by 3-6 Unlock",
+        "img": "images/settings/chapter6.png",
+        "codes": "3_6_enabled, 3_6_requires_unlock_item"
+      },
+      {
+        "name": "Chapter 3-6 Enabled - Locked by Story Characters",
+        "img": "images/settings/chapter6.png",
+        "inherit_codes": false,
+        "codes": "3_6_enabled, 3_6_requires_story_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/obi-wankenobi(episode3).png"
+      }
+    ]
   },
   {
     "name": "Chapter 4-1 Enabled",
-    "type": "toggle",
-    "codes": "4_1_enabled",
+    "type": "progressive_toggle",
     "initial_active_state": true,
-    "img": "images/settings/chapter1.png"
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "name": "Chapter 4-1 Enabled - Locked by 4-1 Unlock",
+        "img": "images/settings/chapter1.png",
+        "codes": "4_1_enabled, 4_1_requires_unlock_item"
+      },
+      {
+        "name": "Chapter 4-1 Enabled - Locked by Story Characters",
+        "img": "images/settings/chapter1.png",
+        "inherit_codes": false,
+        "codes": "4_1_enabled, 4_1_requires_story_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/princessleia.png"
+      },
+      {
+        "name": "Chapter 4-1 Enabled - Locked by Purchase Characters",
+        "img": "images/settings/chapter1.png",
+        "inherit_codes": false,
+        "codes": "4_1_enabled, 4_1_requires_purchase_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/stormtrooper.png"
+      }
+    ]
   },
   {
     "name": "Chapter 4-2 Enabled",
-    "type": "toggle",
-    "codes": "4_2_enabled",
+    "type": "progressive_toggle",
     "initial_active_state": true,
-    "img": "images/settings/chapter2.png"
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "name": "Chapter 4-2 Enabled - Locked by 4-2 Unlock",
+        "img": "images/settings/chapter2.png",
+        "codes": "4_2_enabled, 4_2_requires_unlock_item"
+      },
+      {
+        "name": "Chapter 4-2 Enabled - Locked by Story Characters",
+        "img": "images/settings/chapter2.png",
+        "inherit_codes": false,
+        "codes": "4_2_enabled, 4_2_requires_story_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/lukeskywalker(tatooine).png"
+      },
+      {
+        "name": "Chapter 4-2 Enabled - Locked by Purchase Characters",
+        "img": "images/settings/chapter2.png",
+        "inherit_codes": false,
+        "codes": "4_2_enabled, 4_2_requires_purchase_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/jawa.png"
+      }
+    ]
   },
   {
     "name": "Chapter 4-3 Enabled",
-    "type": "toggle",
-    "codes": "4_3_enabled",
+    "type": "progressive_toggle",
     "initial_active_state": true,
-    "img": "images/settings/chapter3.png"
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "name": "Chapter 4-3 Enabled - Locked by 4-3 Unlock",
+        "img": "images/settings/chapter3.png",
+        "codes": "4_3_enabled, 4_3_requires_unlock_item"
+      },
+      {
+        "name": "Chapter 4-3 Enabled - Locked by Story Characters",
+        "img": "images/settings/chapter3.png",
+        "inherit_codes": false,
+        "codes": "4_3_enabled, 4_3_requires_story_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/lukeskywalker(tatooine).png"
+      },
+      {
+        "name": "Chapter 4-3 Enabled - Locked by Purchase Characters",
+        "img": "images/settings/chapter3.png",
+        "inherit_codes": false,
+        "codes": "4_3_enabled, 4_3_requires_purchase_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/greedo.png"
+      }
+    ]
   },
   {
     "name": "Chapter 4-4 Enabled",
-    "type": "toggle",
-    "codes": "4_4_enabled",
+    "type": "progressive_toggle",
     "initial_active_state": true,
-    "img": "images/settings/chapter4.png"
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "name": "Chapter 4-4 Enabled - Locked by 4-4 Unlock",
+        "img": "images/settings/chapter4.png",
+        "codes": "4_4_enabled, 4_4_requires_unlock_item"
+      },
+      {
+        "name": "Chapter 4-4 Enabled - Locked by Story Characters",
+        "img": "images/settings/chapter4.png",
+        "inherit_codes": false,
+        "codes": "4_4_enabled, 4_4_requires_story_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/hansolo(stormtrooper).png"
+      },
+      {
+        "name": "Chapter 4-4 Enabled - Locked by Purchase Characters",
+        "img": "images/settings/chapter4.png",
+        "inherit_codes": false,
+        "codes": "4_4_enabled, 4_4_requires_purchase_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/tiefighterpilot.png"
+      }
+    ]
   },
   {
     "name": "Chapter 4-5 Enabled",
-    "type": "toggle",
-    "codes": "4_5_enabled",
+    "type": "progressive_toggle",
     "initial_active_state": true,
-    "img": "images/settings/chapter5.png"
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "name": "Chapter 4-5 Enabled - Locked by 4-5 Unlock",
+        "img": "images/settings/chapter5.png",
+        "codes": "4_5_enabled, 4_5_requires_unlock_item"
+      },
+      {
+        "name": "Chapter 4-5 Enabled - Locked by Story Characters",
+        "img": "images/settings/chapter5.png",
+        "inherit_codes": false,
+        "codes": "4_5_enabled, 4_5_requires_story_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/lukeskywalker(tatooine).png"
+      }
+    ]
   },
   {
     "name": "Chapter 4-6 Enabled",
-    "type": "toggle",
-    "codes": "4_6_enabled",
+    "type": "progressive_toggle",
     "initial_active_state": true,
-    "img": "images/settings/chapter6.png"
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "name": "Chapter 4-6 Enabled - Locked by 4-6 Unlock",
+        "img": "images/settings/chapter6.png",
+        "codes": "4_6_enabled, 4_6_requires_unlock_item"
+      },
+      {
+        "name": "Chapter 4-6 Enabled - Locked by Story Characters",
+        "img": "images/settings/chapter6.png",
+        "inherit_codes": false,
+        "codes": "4_6_enabled, 4_6_requires_story_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/x-wing.png"
+      },
+      {
+        "name": "Chapter 4-6 Enabled - Locked by Purchase Characters",
+        "img": "images/settings/chapter6.png",
+        "inherit_codes": false,
+        "codes": "4_6_enabled, 4_6_requires_purchase_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/tiefighter.png"
+      }
+    ]
   },
   {
     "name": "Chapter 5-1 Enabled",
-    "type": "toggle",
-    "codes": "5_1_enabled",
+    "type": "progressive_toggle",
     "initial_active_state": true,
-    "img": "images/settings/chapter1.png"
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "name": "Chapter 5-1 Enabled - Locked by 5-1 Unlock",
+        "img": "images/settings/chapter1.png",
+        "codes": "5_1_enabled, 5_1_requires_unlock_item"
+      },
+      {
+        "name": "Chapter 5-1 Enabled - Locked by Story Characters",
+        "img": "images/settings/chapter1.png",
+        "inherit_codes": false,
+        "codes": "5_1_enabled, 5_1_requires_story_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/snowspeeder.png"
+      }
+    ]
   },
   {
     "name": "Chapter 5-2 Enabled",
-    "type": "toggle",
-    "codes": "5_2_enabled",
+    "type": "progressive_toggle",
     "initial_active_state": true,
-    "img": "images/settings/chapter2.png"
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "name": "Chapter 5-2 Enabled - Locked by 5-2 Unlock",
+        "img": "images/settings/chapter2.png",
+        "codes": "5_2_enabled, 5_2_requires_unlock_item"
+      },
+      {
+        "name": "Chapter 5-2 Enabled - Locked by Story Characters",
+        "img": "images/settings/chapter2.png",
+        "inherit_codes": false,
+        "codes": "5_2_enabled, 5_2_requires_story_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/princessleia(hoth).png"
+      },
+      {
+        "name": "Chapter 5-2 Enabled - Locked by Purchase Characters",
+        "img": "images/settings/chapter2.png",
+        "inherit_codes": false,
+        "codes": "5_2_enabled, 5_2_requires_purchase_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/snowtrooper.png"
+      }
+    ]
   },
   {
     "name": "Chapter 5-3 Enabled",
-    "type": "toggle",
-    "codes": "5_3_enabled",
+    "type": "progressive_toggle",
     "initial_active_state": true,
-    "img": "images/settings/chapter3.png"
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "name": "Chapter 5-3 Enabled - Locked by 5-3 Unlock",
+        "img": "images/settings/chapter3.png",
+        "codes": "5_3_enabled, 5_3_requires_unlock_item"
+      },
+      {
+        "name": "Chapter 5-3 Enabled - Locked by Story Characters",
+        "img": "images/settings/chapter3.png",
+        "inherit_codes": false,
+        "codes": "5_3_enabled, 5_3_requires_story_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/x-wing.png"
+      },
+      {
+        "name": "Chapter 5-3 Enabled - Locked by Purchase Characters",
+        "img": "images/settings/chapter3.png",
+        "inherit_codes": false,
+        "codes": "5_3_enabled, 5_3_requires_purchase_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/imperialshuttle.png"
+      }
+    ]
   },
   {
     "name": "Chapter 5-4 Enabled",
-    "type": "toggle",
-    "codes": "5_4_enabled",
+    "type": "progressive_toggle",
     "initial_active_state": true,
-    "img": "images/settings/chapter4.png"
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "name": "Chapter 5-4 Enabled - Locked by 5-4 Unlock",
+        "img": "images/settings/chapter4.png",
+        "codes": "5_4_enabled, 5_4_requires_unlock_item"
+      },
+      {
+        "name": "Chapter 5-4 Enabled - Locked by Story Characters",
+        "img": "images/settings/chapter4.png",
+        "inherit_codes": false,
+        "codes": "5_4_enabled, 5_4_requires_story_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/yoda.png"
+      }
+    ]
   },
   {
     "name": "Chapter 5-5 Enabled",
-    "type": "toggle",
-    "codes": "5_5_enabled",
+    "type": "progressive_toggle",
     "initial_active_state": true,
-    "img": "images/settings/chapter5.png"
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "name": "Chapter 5-5 Enabled - Locked by 5-5 Unlock",
+        "img": "images/settings/chapter5.png",
+        "codes": "5_5_enabled, 5_5_requires_unlock_item"
+      },
+      {
+        "name": "Chapter 5-5 Enabled - Locked by Story Characters",
+        "img": "images/settings/chapter5.png",
+        "inherit_codes": false,
+        "codes": "5_5_enabled, 5_5_requires_story_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/lukeskywalker(bespin).png"
+      }
+    ]
   },
   {
     "name": "Chapter 5-6 Enabled",
-    "type": "toggle",
-    "codes": "5_6_enabled",
+    "type": "progressive_toggle",
     "initial_active_state": true,
-    "img": "images/settings/chapter6.png"
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "name": "Chapter 5-6 Enabled - Locked by 5-6 Unlock",
+        "img": "images/settings/chapter6.png",
+        "codes": "5_6_enabled, 5_6_requires_unlock_item"
+      },
+      {
+        "name": "Chapter 5-6 Enabled - Locked by Story Characters",
+        "img": "images/settings/chapter6.png",
+        "inherit_codes": false,
+        "codes": "5_6_enabled, 5_6_requires_story_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/landocalrissian.png"
+      },
+      {
+        "name": "Chapter 5-6 Enabled - Locked by Purchase Characters",
+        "img": "images/settings/chapter6.png",
+        "inherit_codes": false,
+        "codes": "5_6_enabled, 5_6_requires_purchase_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/ugnaught.png"
+      }
+    ]
   },
   {
     "name": "Chapter 6-1 Enabled",
-    "type": "toggle",
-    "codes": "6_1_enabled",
+    "type": "progressive_toggle",
     "initial_active_state": true,
-    "img": "images/settings/chapter1.png"
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "name": "Chapter 6-1 Enabled - Locked by 6-1 Unlock",
+        "img": "images/settings/chapter1.png",
+        "codes": "6_1_enabled, 6_1_requires_unlock_item"
+      },
+      {
+        "name": "Chapter 6-1 Enabled - Locked by Story Characters",
+        "img": "images/settings/chapter1.png",
+        "inherit_codes": false,
+        "codes": "6_1_enabled, 6_1_requires_story_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/lukeskywalker(jedi).png"
+      },
+      {
+        "name": "Chapter 6-1 Enabled - Locked by Purchase Characters",
+        "img": "images/settings/chapter1.png",
+        "inherit_codes": false,
+        "codes": "6_1_enabled, 6_1_requires_purchase_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/gamorreanguard.png"
+      }
+    ]
   },
   {
     "name": "Chapter 6-2 Enabled",
-    "type": "toggle",
-    "codes": "6_2_enabled",
+    "type": "progressive_toggle",
     "initial_active_state": true,
-    "img": "images/settings/chapter2.png"
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "name": "Chapter 6-2 Enabled - Locked by 6-2 Unlock",
+        "img": "images/settings/chapter2.png",
+        "codes": "6_2_enabled, 6_2_requires_unlock_item"
+      },
+      {
+        "name": "Chapter 6-2 Enabled - Locked by Story Characters",
+        "img": "images/settings/chapter2.png",
+        "inherit_codes": false,
+        "codes": "6_2_enabled, 6_2_requires_story_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/lukeskywalker(jedi).png"
+      },
+      {
+        "name": "Chapter 6-2 Enabled - Locked by Purchase Characters",
+        "img": "images/settings/chapter2.png",
+        "inherit_codes": false,
+        "codes": "6_2_enabled, 6_2_requires_purchase_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/bobafett.png"
+      }
+    ]
   },
   {
     "name": "Chapter 6-3 Enabled",
-    "type": "toggle",
-    "codes": "6_3_enabled",
+    "type": "progressive_toggle",
     "initial_active_state": true,
-    "img": "images/settings/chapter3.png"
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "name": "Chapter 6-3 Enabled - Locked by 6-3 Unlock",
+        "img": "images/settings/chapter3.png",
+        "codes": "6_3_enabled, 6_3_requires_unlock_item"
+      },
+      {
+        "name": "Chapter 6-3 Enabled - Locked by Story Characters",
+        "img": "images/settings/chapter3.png",
+        "inherit_codes": false,
+        "codes": "6_3_enabled, 6_3_requires_story_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/princessleia(endor).png"
+      }
+    ]
   },
   {
     "name": "Chapter 6-4 Enabled",
-    "type": "toggle",
-    "codes": "6_4_enabled",
+    "type": "progressive_toggle",
     "initial_active_state": true,
-    "img": "images/settings/chapter4.png"
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "name": "Chapter 6-4 Enabled - Locked by 6-4 Unlock",
+        "img": "images/settings/chapter4.png",
+        "codes": "6_4_enabled, 6_4_requires_unlock_item"
+      },
+      {
+        "name": "Chapter 6-4 Enabled - Locked by Story Characters",
+        "img": "images/settings/chapter4.png",
+        "inherit_codes": false,
+        "codes": "6_4_enabled, 6_4_requires_story_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/princessleia(endor).png"
+      },
+      {
+        "name": "Chapter 6-4 Enabled - Locked by Purchase Characters",
+        "img": "images/settings/chapter4.png",
+        "inherit_codes": false,
+        "codes": "6_4_enabled, 6_4_requires_purchase_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/ewok.png"
+      }
+    ]
   },
   {
     "name": "Chapter 6-5 Enabled",
-    "type": "toggle",
-    "codes": "6_5_enabled",
+    "type": "progressive_toggle",
     "initial_active_state": true,
-    "img": "images/settings/chapter5.png"
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "name": "Chapter 6-5 Enabled - Locked by 6-5 Unlock",
+        "img": "images/settings/chapter5.png",
+        "codes": "6_5_enabled, 6_5_requires_unlock_item"
+      },
+      {
+        "name": "Chapter 6-5 Enabled - Locked by Story Characters",
+        "img": "images/settings/chapter5.png",
+        "inherit_codes": false,
+        "codes": "6_5_enabled, 6_5_requires_story_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/lukeskywalker(jedi).png"
+      },
+      {
+        "name": "Chapter 6-5 Enabled - Locked by Purchase Characters",
+        "img": "images/settings/chapter5.png",
+        "inherit_codes": false,
+        "codes": "6_5_enabled, 6_5_requires_purchase_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/imperialguard.png"
+      }
+    ]
   },
   {
     "name": "Chapter 6-6 Enabled",
-    "type": "toggle",
-    "codes": "6_6_enabled",
+    "type": "progressive_toggle",
     "initial_active_state": true,
-    "img": "images/settings/chapter6.png"
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "name": "Chapter 6-6 Enabled - Locked by 6-6 Unlock",
+        "img": "images/settings/chapter6.png",
+        "codes": "6_6_enabled, 6_6_requires_unlock_item"
+      },
+      {
+        "name": "Chapter 6-6 Enabled - Locked by Story Characters",
+        "img": "images/settings/chapter6.png",
+        "inherit_codes": false,
+        "codes": "6_6_enabled, 6_6_requires_story_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/x-wing.png"
+      },
+      {
+        "name": "Chapter 6-6 Enabled - Locked by Purchase Characters",
+        "img": "images/settings/chapter6.png",
+        "inherit_codes": false,
+        "codes": "6_6_enabled, 6_6_requires_purchase_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/admiralackbar.png"
+      }
+    ]
   }
 ]
