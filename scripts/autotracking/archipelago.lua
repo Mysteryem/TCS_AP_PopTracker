@@ -349,6 +349,14 @@ function onItem(index, item_id, item_name, player_number)
         --print(string.format("onItem: could not find item mapping for id %s", item_id))
         return
     end
+    -- These items use a progressive_toggle, but where the second stage is used to mark the character as not counting
+    -- towards chapter unlock requirements. Collecting an extra copy of these characters should not progress the item to
+    -- its next stage.
+    local special_progressive_toggle = {
+        ["r2-d2"] = true,
+        ["c-3po"] = true,
+        ["chewbacca"] = true,
+    }
     for _, item_pair in pairs(item) do
         item_code = item_pair[1]
         item_type = item_pair[2]
@@ -369,10 +377,14 @@ function onItem(index, item_id, item_name, player_number)
                 item_obj.AcquiredCount = item_obj.AcquiredCount + item_obj.Increment * (tonumber(item_pair[3]) or 1)
             elseif item_obj.Type == "progressive_toggle" then
                 -- print("progressive_toggle")
-                if item_obj.Active then
-                    item_obj.CurrentStage = item_obj.CurrentStage + 1
-                else
+                if special_progressive_toggle[item_code] then
                     item_obj.Active = true
+                else
+                    if item_obj.Active then
+                        item_obj.CurrentStage = item_obj.CurrentStage + 1
+                    else
+                        item_obj.Active = true
+                    end
                 end
             end
         else
