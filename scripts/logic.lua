@@ -88,7 +88,22 @@ local function update_defeated_bosses_total(code)
     Tracker:FindObjectForCode("total_bosses_defeated").AcquiredCount = count
 end
 
+-- It is not possible to reverse these watches (changing the R2-D2 stage changes excludable helper) because when the
+-- player does not have R2-D2, the R2-D2 item provides no codes at all.
+local function add_excludable_character_helper_watches()
+    local excludable_characters = {"r2-d2", "c-3po", "chewbacca"}
+    for _, code in ipairs(excludable_characters) do
+        local excludable_helper_code = code.."_excludable_helper"
+        local function code_update()
+            -- The helper only provides codes in stage 1.
+            Tracker:FindObjectForCode(code).CurrentStage = Tracker:ProviderCountForCode(excludable_helper_code)
+        end
+        ScriptHost:AddWatchForCode("update_"..code.."_from_excludable_helper", excludable_helper_code, code_update)
+    end
+end
+
 ScriptHost:AddWatchForCode("update_gold_brick_total", "gold_brick", update_gold_brick_total)
 ScriptHost:AddWatchForCode("update_level_completion_total", "level_completion_gold_brick", update_level_completions_total)
 ScriptHost:AddWatchForCode("update_total_bosses_defeated_1", "boss_defeated", update_defeated_bosses_total)
 ScriptHost:AddWatchForCode("update_total_bosses_defeated_2", "unique_boss_defeated", update_defeated_bosses_total)
+add_excludable_character_helper_watches()
