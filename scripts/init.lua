@@ -1,6 +1,7 @@
 -- Items
 Tracker:AddItems("items/characters/characters.json")
 Tracker:AddItems("items/characters/vehicles.json")
+Tracker:AddItems("items/characters/chapter_completion_character_unlock_helpers.json")
 Tracker:AddItems("items/extras/non_power_brick_extras.json")
 Tracker:AddItems("items/extras/power_brick_extras.json")
 Tracker:AddItems("items/episode_unlocks.json")

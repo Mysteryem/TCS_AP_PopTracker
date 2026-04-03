@@ -102,6 +102,15 @@
               ],
               [
                 "setting_chapter_unlock_requirement"
+              ],
+              [
+                "r2-d2_excludable_helper"
+              ],
+              [
+                "c-3po_excludable_helper"
+              ],
+              [
+                "chewbacca_excludable_helper"
               ]
             ]
           }
