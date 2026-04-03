@@ -95,8 +95,10 @@ local function add_excludable_character_helper_watches()
     for _, code in ipairs(excludable_characters) do
         local excludable_helper_code = code.."_excludable_helper"
         local function code_update()
-            -- The helper only provides codes in stage 1.
-            Tracker:FindObjectForCode(code).CurrentStage = Tracker:ProviderCountForCode(excludable_helper_code)
+            -- The helper only provides codes in stage 1, which says the character does not provide chapter unlock
+            -- codes.
+            -- The character only provides chapter unlock codes in stage 1.
+            Tracker:FindObjectForCode(code).CurrentStage = 1 - Tracker:ProviderCountForCode(excludable_helper_code)
         end
         ScriptHost:AddWatchForCode("update_"..code.."_from_excludable_helper", excludable_helper_code, code_update)
     end
