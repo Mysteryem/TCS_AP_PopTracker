@@ -125,7 +125,7 @@
     "initial_stage_idx": 1,
     "stages": [
       {
-        "name": "C-3PO (removed from chapter unlock requirements)",
+        "name": "C-3PO (does not count towards unlocking chapters)",
         "img": "images/items/c-3po.png",
         "img_mods": "overlay|images/overlays/does_not_count_towards_unlocking_chapters.png",
         "disabled_img_mods": "overlay|images/overlays/does_not_count_towards_unlocking_chapters.png,@disabled,",
@@ -167,7 +167,7 @@
     "initial_stage_idx": 1,
     "stages": [
       {
-        "name": "Chewbacca (removed from chapter unlock requirements)",
+        "name": "Chewbacca (does not count towards unlocking chapters)",
         "img": "images/items/chewbacca.png",
         "img_mods": "overlay|images/overlays/does_not_count_towards_unlocking_chapters.png",
         "disabled_img_mods": "overlay|images/overlays/does_not_count_towards_unlocking_chapters.png,@disabled,",
@@ -629,7 +629,7 @@
     "initial_stage_idx": 1,
     "stages": [
       {
-        "name": "R2-D2 (removed from chapter unlock requirements)",
+        "name": "R2-D2 (does not count towards unlocking chapters)",
         "img": "images/items/r2-d2.png",
         "img_mods": "overlay|images/overlays/does_not_count_towards_unlocking_chapters.png",
         "disabled_img_mods": "overlay|images/overlays/does_not_count_towards_unlocking_chapters.png,@disabled,",
