@@ -13,7 +13,7 @@
       {
         "name": "Secret Plans",
         "access_rules": [
-          "4_1_enabled, @Chapter Macros/4-1 Items, @Goal Macros/Goal Requirements Met/4-1"
+          "4_1_enabled, @Chapter Macros/Item Requirements/4-1, @Chapter Macros/Ability Requirements/4-1, @Goal Macros/Goal Requirements Met/4-1"
         ],
         "visibility_rules": [
           "4_1_enabled"
@@ -263,7 +263,7 @@
       {
         "name": "Through the Jundland Wastes",
         "access_rules": [
-          "4_2_enabled, @Chapter Macros/4-2 Items, @Goal Macros/Goal Requirements Met/4-2"
+          "4_2_enabled, @Chapter Macros/Item Requirements/4-2, @Chapter Macros/Ability Requirements/4-2, @Goal Macros/Goal Requirements Met/4-2"
         ],
         "visibility_rules": [
           "4_2_enabled"
@@ -495,7 +495,7 @@
       {
         "name": "Mos Eisley Spaceport",
         "access_rules": [
-          "4_3_enabled, @Chapter Macros/4-3 Items, @Goal Macros/Goal Requirements Met/4-3"
+          "4_3_enabled, @Chapter Macros/Item Requirements/4-3, @Chapter Macros/Ability Requirements/4-3, @Goal Macros/Goal Requirements Met/4-3"
         ],
         "visibility_rules": [
           "4_3_enabled"
@@ -771,7 +771,7 @@
       {
         "name": "Rescue the Princess",
         "access_rules": [
-          "4_4_enabled, @Chapter Macros/4-4 Items, @Goal Macros/Goal Requirements Met/4-4"
+          "4_4_enabled, @Chapter Macros/Item Requirements/4-4, @Chapter Macros/Ability Requirements/4-4, @Goal Macros/Goal Requirements Met/4-4"
         ],
         "visibility_rules": [
           "4_4_enabled"
@@ -1021,7 +1021,7 @@
       {
         "name": "Death Star Escape",
         "access_rules": [
-          "4_5_enabled, @Chapter Macros/4-5 Items, @Goal Macros/Goal Requirements Met/4-5"
+          "4_5_enabled, @Chapter Macros/Item Requirements/4-5, @Chapter Macros/Ability Requirements/4-5, @Goal Macros/Goal Requirements Met/4-5"
         ],
         "visibility_rules": [
           "4_5_enabled"
@@ -1233,7 +1233,7 @@
       {
         "name": "Rebel Attack",
         "access_rules": [
-          "4_6_enabled, @Chapter Macros/4-6 Items, @Goal Macros/Goal Requirements Met/4-6"
+          "4_6_enabled, @Chapter Macros/Item Requirements/4-6, @Chapter Macros/Ability Requirements/4-6, @Goal Macros/Goal Requirements Met/4-6"
         ],
         "visibility_rules": [
           "4_6_enabled"

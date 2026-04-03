@@ -13,7 +13,7 @@
       {
         "name": "Hoth Battle",
         "access_rules": [
-          "5_1_enabled, @Chapter Macros/5-1 Items, @Goal Macros/Goal Requirements Met/5-1"
+          "5_1_enabled, @Chapter Macros/Item Requirements/5-1, @Chapter Macros/Ability Requirements/5-1, @Goal Macros/Goal Requirements Met/5-1"
         ],
         "visibility_rules": [
           "5_1_enabled"
@@ -179,7 +179,7 @@
       {
         "name": "Escape From Echo Base",
         "access_rules": [
-          "5_2_enabled, @Chapter Macros/5-2 Items, @Goal Macros/Goal Requirements Met/5-2"
+          "5_2_enabled, @Chapter Macros/Item Requirements/5-2, @Chapter Macros/Ability Requirements/5-2, @Goal Macros/Goal Requirements Met/5-2"
         ],
         "visibility_rules": [
           "5_2_enabled"
@@ -441,7 +441,7 @@
       {
         "name": "Falcon Flight",
         "access_rules": [
-          "5_3_enabled, @Chapter Macros/5-3 Items, @Goal Macros/Goal Requirements Met/5-3"
+          "5_3_enabled, @Chapter Macros/Item Requirements/5-3, @Chapter Macros/Ability Requirements/5-3, @Goal Macros/Goal Requirements Met/5-3"
         ],
         "visibility_rules": [
           "5_3_enabled"
@@ -626,7 +626,7 @@
       {
         "name": "Dagobah",
         "access_rules": [
-          "5_4_enabled, @Chapter Macros/5-4 Items, @Goal Macros/Goal Requirements Met/5-4"
+          "5_4_enabled, @Chapter Macros/Item Requirements/5-4, @Chapter Macros/Ability Requirements/5-4, @Goal Macros/Goal Requirements Met/5-4"
         ],
         "visibility_rules": [
           "5_4_enabled"
@@ -834,7 +834,7 @@
       {
         "name": "Cloud City Trap",
         "access_rules": [
-          "5_5_enabled, @Chapter Macros/5-5 Items, @Goal Macros/Goal Requirements Met/5-5"
+          "5_5_enabled, @Chapter Macros/Item Requirements/5-5, @Chapter Macros/Ability Requirements/5-5, @Goal Macros/Goal Requirements Met/5-5"
         ],
         "visibility_rules": [
           "5_5_enabled"
@@ -1038,7 +1038,7 @@
       {
         "name": "Betrayal Over Bespin",
         "access_rules": [
-          "5_6_enabled, @Chapter Macros/5-6 Items, @Goal Macros/Goal Requirements Met/5-6"
+          "5_6_enabled, @Chapter Macros/Item Requirements/5-6, @Chapter Macros/Ability Requirements/5-6, @Goal Macros/Goal Requirements Met/5-6"
         ],
         "visibility_rules": [
           "5_6_enabled"

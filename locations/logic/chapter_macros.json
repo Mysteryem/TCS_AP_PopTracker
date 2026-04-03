@@ -3,922 +3,1258 @@
     "name": "Chapter Macros",
     "children": [
       {
-        "name": "1-1 Items",
-        "access_rules": [
-          [
-            "chapters_unlock_with_story_characters",
-            "obi-wankenobi",
-            "qui-gonjinn",
-            "tc-14"
-          ],
-          [
-            "chapters_unlock_with_unlock_item",
-            "1_1_unlock",
-            "jedi",
-            "protocol_droid",
-            "can_ride_vehicles",
-            "can_pull_levers",
-            "can_push_objects",
-            "can_build_bricks",
-            "can_jump_normally",
-            "can_attack_up_close"
-          ]
+        "name": "Ability Requirements",
+        "children": [
+          {
+            "name": "1-1",
+            "access_rules": [
+              [
+                "jedi",
+                "protocol_droid",
+                "can_ride_vehicles",
+                "can_pull_levers",
+                "can_push_objects",
+                "can_build_bricks",
+                "can_jump_normally",
+                "can_attack_up_close"
+              ]
+            ]
+          },
+          {
+            "name": "1-2",
+            "access_rules": [
+              [
+                "high_jump",
+                "jedi",
+                "can_ride_vehicles",
+                "can_pull_levers",
+                "can_push_objects",
+                "can_build_bricks",
+                "can_jump_normally",
+                "can_attack_up_close"
+              ]
+            ]
+          },
+          {
+            "name": "1-3",
+            "access_rules": [
+              [
+                "blaster",
+                "jedi",
+                "can_ride_vehicles",
+                "can_pull_levers",
+                "can_push_objects",
+                "can_build_bricks",
+                "can_jump_normally",
+                "can_attack_up_close"
+              ]
+            ]
+          },
+          {
+            "name": "1-4",
+            "access_rules": [
+              [
+                "is_a_vehicle"
+              ]
+            ]
+          },
+          {
+            "name": "1-5",
+            "access_rules": [
+              [
+                "astromech",
+                "blaster",
+                "hover",
+                "jedi",
+                "shortie",
+                "can_ride_vehicles",
+                "can_pull_levers",
+                "can_push_objects",
+                "can_build_bricks",
+                "can_jump_normally",
+                "can_attack_up_close"
+              ]
+            ]
+          },
+          {
+            "name": "1-6",
+            "access_rules": [
+              [
+                "jedi",
+                "can_ride_vehicles",
+                "can_pull_levers",
+                "can_push_objects",
+                "can_build_bricks",
+                "can_jump_normally",
+                "can_attack_up_close"
+              ]
+            ]
+          },
+          {
+            "name": "2-1",
+            "access_rules": [
+              [
+                "vehicle_blaster"
+              ]
+            ]
+          },
+          {
+            "name": "2-2",
+            "access_rules": [
+              [
+                "astromech",
+                "hover",
+                "jedi",
+                "can_ride_vehicles",
+                "can_pull_levers",
+                "can_push_objects",
+                "can_build_bricks",
+                "can_jump_normally",
+                "can_attack_up_close"
+              ]
+            ]
+          },
+          {
+            "name": "2-3",
+            "access_rules": [
+              [
+                "astromech",
+                "blaster",
+                "hover",
+                "jedi",
+                "protocol_droid",
+                "can_ride_vehicles",
+                "can_pull_levers",
+                "can_push_objects",
+                "can_build_bricks",
+                "can_jump_normally",
+                "can_attack_up_close"
+              ]
+            ]
+          },
+          {
+            "name": "2-4",
+            "access_rules": [
+              [
+                "astromech",
+                "blaster",
+                "hover",
+                "jedi",
+                "can_ride_vehicles",
+                "can_pull_levers",
+                "can_push_objects",
+                "can_build_bricks",
+                "can_jump_normally",
+                "can_attack_up_close"
+              ]
+            ]
+          },
+          {
+            "name": "2-5",
+            "access_rules": [
+              [
+                "vehicle_tow",
+                "vehicle_blaster"
+              ]
+            ]
+          },
+          {
+            "name": "2-6",
+            "access_rules": [
+              [
+                "jedi",
+                "can_ride_vehicles",
+                "can_pull_levers",
+                "can_push_objects",
+                "can_build_bricks",
+                "can_jump_normally",
+                "can_attack_up_close"
+              ]
+            ]
+          },
+          {
+            "name": "3-1",
+            "access_rules": [
+              [
+                "vehicle_blaster"
+              ]
+            ]
+          },
+          {
+            "name": "3-2",
+            "access_rules": [
+              [
+                "astromech",
+                "hover",
+                "jedi",
+                "can_ride_vehicles",
+                "can_pull_levers",
+                "can_push_objects",
+                "can_build_bricks",
+                "can_jump_normally",
+                "can_attack_up_close"
+              ]
+            ]
+          },
+          {
+            "name": "3-3",
+            "access_rules": [
+              [
+                "blaster",
+                "jedi",
+                "can_ride_vehicles",
+                "can_pull_levers",
+                "can_push_objects",
+                "can_build_bricks",
+                "can_jump_normally",
+                "can_attack_up_close"
+              ]
+            ]
+          },
+          {
+            "name": "3-4",
+            "access_rules": [
+              [
+                "blaster",
+                "jedi",
+                "can_ride_vehicles",
+                "can_pull_levers",
+                "can_push_objects",
+                "can_build_bricks",
+                "can_jump_normally",
+                "can_attack_up_close"
+              ]
+            ]
+          },
+          {
+            "name": "3-5",
+            "access_rules": [
+              [
+                "jedi",
+                "can_ride_vehicles",
+                "can_pull_levers",
+                "can_push_objects",
+                "can_build_bricks",
+                "can_jump_normally",
+                "can_attack_up_close"
+              ]
+            ]
+          },
+          {
+            "name": "3-6",
+            "access_rules": [
+              [
+                "jedi",
+                "can_ride_vehicles",
+                "can_pull_levers",
+                "can_push_objects",
+                "can_build_bricks",
+                "can_jump_normally",
+                "can_attack_up_close"
+              ]
+            ]
+          },
+          {
+            "name": "4-1",
+            "access_rules": [
+              [
+                "astromech",
+                "blaster",
+                "hover",
+                "protocol_droid",
+                "can_ride_vehicles",
+                "can_pull_levers",
+                "can_push_objects",
+                "can_build_bricks",
+                "can_jump_normally",
+                "can_attack_up_close"
+              ]
+            ]
+          },
+          {
+            "name": "4-2",
+            "access_rules": [
+              [
+                "astromech",
+                "blaster",
+                "hover",
+                "jedi",
+                "protocol_droid",
+                "can_ride_vehicles",
+                "can_pull_levers",
+                "can_push_objects",
+                "can_build_bricks",
+                "can_jump_normally",
+                "can_attack_up_close"
+              ]
+            ]
+          },
+          {
+            "name": "4-3",
+            "access_rules": [
+              [
+                "astromech",
+                "blaster",
+                "hover",
+                "jedi",
+                "protocol_droid",
+                "can_wear_hat",
+                "can_ride_vehicles",
+                "can_pull_levers",
+                "can_push_objects",
+                "can_build_bricks",
+                "can_jump_normally",
+                "can_attack_up_close"
+              ],
+              [
+                "astromech",
+                "blaster",
+                "hover",
+                "imperial",
+                "jedi",
+                "protocol_droid",
+                "can_ride_vehicles",
+                "can_pull_levers",
+                "can_push_objects",
+                "can_build_bricks",
+                "can_jump_normally",
+                "can_attack_up_close"
+              ]
+            ]
+          },
+          {
+            "name": "4-4",
+            "access_rules": [
+              [
+                "astromech",
+                "blaster",
+                "hover",
+                "jedi",
+                "protocol_droid",
+                "can_wear_hat_and_grapple",
+                "can_ride_vehicles",
+                "can_pull_levers",
+                "can_push_objects",
+                "can_build_bricks",
+                "can_jump_normally",
+                "can_attack_up_close"
+              ],
+              [
+                "astromech",
+                "blaster",
+                "hover",
+                "imperial",
+                "jedi",
+                "protocol_droid",
+                "can_ride_vehicles",
+                "can_pull_levers",
+                "can_push_objects",
+                "can_build_bricks",
+                "can_jump_normally",
+                "can_attack_up_close"
+              ]
+            ]
+          },
+          {
+            "name": "4-5",
+            "access_rules": [
+              [
+                "astromech",
+                "blaster",
+                "hover",
+                "protocol_droid",
+                "can_wear_hat_and_grapple",
+                "can_ride_vehicles",
+                "can_pull_levers",
+                "can_push_objects",
+                "can_build_bricks",
+                "can_jump_normally",
+                "can_attack_up_close"
+              ],
+              [
+                "astromech",
+                "blaster",
+                "hover",
+                "imperial",
+                "protocol_droid",
+                "can_ride_vehicles",
+                "can_pull_levers",
+                "can_push_objects",
+                "can_build_bricks",
+                "can_jump_normally",
+                "can_attack_up_close"
+              ]
+            ]
+          },
+          {
+            "name": "4-6",
+            "access_rules": [
+              [
+                "vehicle_blaster"
+              ]
+            ]
+          },
+          {
+            "name": "5-1",
+            "access_rules": [
+              [
+                "vehicle_tow",
+                "vehicle_blaster"
+              ]
+            ]
+          },
+          {
+            "name": "5-2",
+            "access_rules": [
+              [
+                "blaster",
+                "protocol_droid",
+                "can_ride_vehicles",
+                "can_pull_levers",
+                "can_push_objects",
+                "can_build_bricks",
+                "can_jump_normally",
+                "can_attack_up_close"
+              ]
+            ]
+          },
+          {
+            "name": "5-3",
+            "access_rules": [
+              [
+                "vehicle_blaster"
+              ]
+            ]
+          },
+          {
+            "name": "5-4",
+            "access_rules": [
+              [
+                "astromech",
+                "blaster",
+                "hover",
+                "jedi",
+                "can_ride_vehicles",
+                "can_pull_levers",
+                "can_push_objects",
+                "can_build_bricks",
+                "can_jump_normally",
+                "can_attack_up_close",
+                "can_dagobah_swamp"
+              ]
+            ]
+          },
+          {
+            "name": "5-5",
+            "access_rules": [
+              [
+                "astromech",
+                "hover",
+                "jedi",
+                "can_wear_hat_and_double_jump",
+                "can_ride_vehicles",
+                "can_pull_levers",
+                "can_push_objects",
+                "can_build_bricks",
+                "can_jump_normally",
+                "can_attack_up_close"
+              ],
+              [
+                "astromech",
+                "hover",
+                "imperial",
+                "jedi",
+                "can_ride_vehicles",
+                "can_pull_levers",
+                "can_push_objects",
+                "can_build_bricks",
+                "can_jump_normally",
+                "can_attack_up_close"
+              ]
+            ]
+          },
+          {
+            "name": "5-6",
+            "access_rules": [
+              [
+                "astromech",
+                "blaster",
+                "hover",
+                "protocol_droid",
+                "can_wear_hat",
+                "can_ride_vehicles",
+                "can_pull_levers",
+                "can_push_objects",
+                "can_build_bricks",
+                "can_jump_normally",
+                "can_attack_up_close"
+              ],
+              [
+                "astromech",
+                "blaster",
+                "hover",
+                "imperial",
+                "protocol_droid",
+                "can_ride_vehicles",
+                "can_pull_levers",
+                "can_push_objects",
+                "can_build_bricks",
+                "can_jump_normally",
+                "can_attack_up_close"
+              ]
+            ]
+          },
+          {
+            "name": "6-1",
+            "access_rules": [
+              [
+                "astromech",
+                "blaster",
+                "hover",
+                "jedi",
+                "protocol_droid",
+                "can_wear_hat",
+                "can_ride_vehicles",
+                "can_pull_levers",
+                "can_push_objects",
+                "can_build_bricks",
+                "can_jump_normally",
+                "can_attack_up_close"
+              ],
+              [
+                "astromech",
+                "blaster",
+                "bounty_hunter",
+                "hover",
+                "jedi",
+                "protocol_droid",
+                "can_ride_vehicles",
+                "can_pull_levers",
+                "can_push_objects",
+                "can_build_bricks",
+                "can_jump_normally",
+                "can_attack_up_close"
+              ]
+            ]
+          },
+          {
+            "name": "6-2",
+            "access_rules": [
+              [
+                "astromech",
+                "blaster",
+                "hover",
+                "jedi",
+                "protocol_droid",
+                "can_ride_vehicles",
+                "can_pull_levers",
+                "can_push_objects",
+                "can_build_bricks",
+                "can_jump_normally",
+                "can_attack_up_close"
+              ]
+            ]
+          },
+          {
+            "name": "6-3",
+            "access_rules": [
+              [
+                "blaster",
+                "jedi",
+                "can_ride_vehicles",
+                "can_pull_levers",
+                "can_push_objects",
+                "can_build_bricks",
+                "can_jump_normally",
+                "can_attack_up_close"
+              ]
+            ]
+          },
+          {
+            "name": "6-4",
+            "access_rules": [
+              [
+                "astromech",
+                "blaster",
+                "hover",
+                "protocol_droid",
+                "shortie",
+                "can_ride_vehicles",
+                "can_pull_levers",
+                "can_push_objects",
+                "can_build_bricks",
+                "can_jump_normally",
+                "can_attack_up_close"
+              ]
+            ]
+          },
+          {
+            "name": "6-5",
+            "access_rules": [
+              [
+                "jedi",
+                "sith",
+                "can_ride_vehicles",
+                "can_pull_levers",
+                "can_push_objects",
+                "can_build_bricks",
+                "can_jump_normally",
+                "can_attack_up_close"
+              ]
+            ]
+          },
+          {
+            "name": "6-6",
+            "access_rules": [
+              [
+                "vehicle_blaster"
+              ]
+            ]
+          }
         ]
       },
       {
-        "name": "1-2 Items",
-        "access_rules": [
-          [
-            "chapters_unlock_with_story_characters",
-            "jarjarbinks",
-            "obi-wankenobi",
-            "qui-gonjinn"
-          ],
-          [
-            "chapters_unlock_with_unlock_item",
-            "1_2_unlock",
-            "high_jump",
-            "jedi",
-            "can_ride_vehicles",
-            "can_pull_levers",
-            "can_push_objects",
-            "can_build_bricks",
-            "can_jump_normally",
-            "can_attack_up_close"
-          ]
-        ]
-      },
-      {
-        "name": "1-3 Items",
-        "access_rules": [
-          [
-            "chapters_unlock_with_story_characters",
-            "captainpanaka",
-            "obi-wankenobi",
-            "queenamidala",
-            "qui-gonjinn"
-          ],
-          [
-            "chapters_unlock_with_unlock_item",
-            "1_3_unlock",
-            "blaster",
-            "jedi",
-            "can_ride_vehicles",
-            "can_pull_levers",
-            "can_push_objects",
-            "can_build_bricks",
-            "can_jump_normally",
-            "can_attack_up_close"
-          ]
-        ]
-      },
-      {
-        "name": "1-4 Items",
-        "access_rules": [
-          [
-            "chapters_unlock_with_story_characters",
-            "anakinspod"
-          ],
-          [
-            "chapters_unlock_with_unlock_item",
-            "1_4_unlock",
-            "is_a_vehicle"
-          ]
-        ]
-      },
-      {
-        "name": "1-5 Items",
-        "access_rules": [
-          [
-            "chapters_unlock_with_story_characters",
-            "anakinskywalker(boy)",
-            "captainpanaka",
-            "obi-wankenobi",
-            "padme(battle)",
-            "qui-gonjinn",
-            "r2-d2"
-          ],
-          [
-            "chapters_unlock_with_unlock_item",
-            "1_5_unlock",
-            "astromech",
-            "blaster",
-            "hover",
-            "jedi",
-            "shortie",
-            "can_ride_vehicles",
-            "can_pull_levers",
-            "can_push_objects",
-            "can_build_bricks",
-            "can_jump_normally",
-            "can_attack_up_close"
-          ]
-        ]
-      },
-      {
-        "name": "1-6 Items",
-        "access_rules": [
-          [
-            "chapters_unlock_with_story_characters",
-            "obi-wankenobi",
-            "qui-gonjinn"
-          ],
-          [
-            "chapters_unlock_with_unlock_item",
-            "1_6_unlock",
-            "jedi",
-            "can_ride_vehicles",
-            "can_pull_levers",
-            "can_push_objects",
-            "can_build_bricks",
-            "can_jump_normally",
-            "can_attack_up_close"
-          ]
-        ]
-      },
-      {
-        "name": "2-1 Items",
-        "access_rules": [
-          [
-            "chapters_unlock_with_story_characters",
-            "anakinsspeeder"
-          ],
-          [
-            "chapters_unlock_with_unlock_item",
-            "2_1_unlock",
-            "vehicle_blaster"
-          ]
-        ]
-      },
-      {
-        "name": "2-2 Items",
-        "access_rules": [
-          [
-            "chapters_unlock_with_story_characters",
-            "obi-wankenobi(jedimaster)",
-            "r4-p17"
-          ],
-          [
-            "chapters_unlock_with_unlock_item",
-            "2_2_unlock",
-            "astromech",
-            "hover",
-            "jedi",
-            "can_ride_vehicles",
-            "can_pull_levers",
-            "can_push_objects",
-            "can_build_bricks",
-            "can_jump_normally",
-            "can_attack_up_close"
-          ]
-        ]
-      },
-      {
-        "name": "2-3 Items",
-        "access_rules": [
-          [
-            "chapters_unlock_with_story_characters",
-            "anakinskywalker(padawan)",
-            "c-3po",
-            "padme(geonosis)",
-            "r2-d2"
-          ],
-          [
-            "chapters_unlock_with_unlock_item",
-            "2_3_unlock",
-            "astromech",
-            "blaster",
-            "hover",
-            "jedi",
-            "protocol_droid",
-            "can_ride_vehicles",
-            "can_pull_levers",
-            "can_push_objects",
-            "can_build_bricks",
-            "can_jump_normally",
-            "can_attack_up_close"
-          ]
-        ]
-      },
-      {
-        "name": "2-4 Items",
-        "access_rules": [
-          [
-            "chapters_unlock_with_story_characters",
-            "anakinskywalker(padawan)",
-            "macewindu",
-            "obi-wankenobi(jedimaster)",
-            "padme(clawed)",
-            "r2-d2"
-          ],
-          [
-            "chapters_unlock_with_unlock_item",
-            "2_4_unlock",
-            "astromech",
-            "blaster",
-            "hover",
-            "jedi",
-            "can_ride_vehicles",
-            "can_pull_levers",
-            "can_push_objects",
-            "can_build_bricks",
-            "can_jump_normally",
-            "can_attack_up_close"
-          ]
-        ]
-      },
-      {
-        "name": "2-5 Items",
-        "access_rules": [
-          [
-            "chapters_unlock_with_story_characters",
-            "republicgunship"
-          ],
-          [
-            "chapters_unlock_with_unlock_item",
-            "2_5_unlock",
-            "vehicle_tow",
-            "vehicle_blaster"
-          ]
-        ]
-      },
-      {
-        "name": "2-6 Items",
-        "access_rules": [
-          [
-            "chapters_unlock_with_story_characters",
-            "anakinskywalker(padawan)",
-            "obi-wankenobi(jedimaster)",
-            "yoda"
-          ],
-          [
-            "chapters_unlock_with_unlock_item",
-            "2_6_unlock",
-            "jedi",
-            "can_ride_vehicles",
-            "can_pull_levers",
-            "can_push_objects",
-            "can_build_bricks",
-            "can_jump_normally",
-            "can_attack_up_close"
-          ]
-        ]
-      },
-      {
-        "name": "3-1 Items",
-        "access_rules": [
-          [
-            "chapters_unlock_with_story_characters",
-            "anakinsstarfighter",
-            "obi-wansstarfighter"
-          ],
-          [
-            "chapters_unlock_with_unlock_item",
-            "3_1_unlock",
-            "vehicle_blaster"
-          ]
-        ]
-      },
-      {
-        "name": "3-2 Items",
-        "access_rules": [
-          [
-            "chapters_unlock_with_story_characters",
-            "anakinskywalker(jedi)",
-            "chancellorpalpatine",
-            "obi-wankenobi(episode3)",
-            "r2-d2"
-          ],
-          [
-            "chapters_unlock_with_unlock_item",
-            "3_2_unlock",
-            "astromech",
-            "hover",
-            "jedi",
-            "can_ride_vehicles",
-            "can_pull_levers",
-            "can_push_objects",
-            "can_build_bricks",
-            "can_jump_normally",
-            "can_attack_up_close"
-          ]
-        ]
-      },
-      {
-        "name": "3-3 Items",
-        "access_rules": [
-          [
-            "chapters_unlock_with_story_characters",
-            "commandercody",
-            "obi-wankenobi(episode3)"
-          ],
-          [
-            "chapters_unlock_with_unlock_item",
-            "3_3_unlock",
-            "blaster",
-            "jedi",
-            "can_ride_vehicles",
-            "can_pull_levers",
-            "can_push_objects",
-            "can_build_bricks",
-            "can_jump_normally",
-            "can_attack_up_close"
-          ]
-        ]
-      },
-      {
-        "name": "3-4 Items",
-        "access_rules": [
-          [
-            "chapters_unlock_with_story_characters",
-            "chewbacca",
-            "yoda"
-          ],
-          [
-            "chapters_unlock_with_unlock_item",
-            "3_4_unlock",
-            "blaster",
-            "jedi",
-            "can_ride_vehicles",
-            "can_pull_levers",
-            "can_push_objects",
-            "can_build_bricks",
-            "can_jump_normally",
-            "can_attack_up_close"
-          ]
-        ]
-      },
-      {
-        "name": "3-5 Items",
-        "access_rules": [
-          [
-            "chapters_unlock_with_story_characters",
-            "obi-wankenobi(episode3)",
-            "yoda"
-          ],
-          [
-            "chapters_unlock_with_unlock_item",
-            "3_5_unlock",
-            "jedi",
-            "can_ride_vehicles",
-            "can_pull_levers",
-            "can_push_objects",
-            "can_build_bricks",
-            "can_jump_normally",
-            "can_attack_up_close"
-          ]
-        ]
-      },
-      {
-        "name": "3-6 Items",
-        "access_rules": [
-          [
-            "chapters_unlock_with_story_characters",
-            "anakinskywalker(jedi)",
-            "obi-wankenobi(episode3)"
-          ],
-          [
-            "chapters_unlock_with_unlock_item",
-            "3_6_unlock",
-            "jedi",
-            "can_ride_vehicles",
-            "can_pull_levers",
-            "can_push_objects",
-            "can_build_bricks",
-            "can_jump_normally",
-            "can_attack_up_close"
-          ]
-        ]
-      },
-      {
-        "name": "4-1 Items",
-        "access_rules": [
-          [
-            "chapters_unlock_with_story_characters",
-            "c-3po",
-            "captainantilles",
-            "princessleia",
-            "r2-d2",
-            "rebelfriend"
-          ],
-          [
-            "chapters_unlock_with_unlock_item",
-            "4_1_unlock",
-            "astromech",
-            "blaster",
-            "hover",
-            "protocol_droid",
-            "can_ride_vehicles",
-            "can_pull_levers",
-            "can_push_objects",
-            "can_build_bricks",
-            "can_jump_normally",
-            "can_attack_up_close"
-          ]
-        ]
-      },
-      {
-        "name": "4-2 Items",
-        "access_rules": [
-          [
-            "chapters_unlock_with_story_characters",
-            "benkenobi",
-            "c-3po",
-            "lukeskywalker(tatooine)",
-            "r2-d2"
-          ],
-          [
-            "chapters_unlock_with_unlock_item",
-            "4_2_unlock",
-            "astromech",
-            "blaster",
-            "hover",
-            "jedi",
-            "protocol_droid",
-            "can_ride_vehicles",
-            "can_pull_levers",
-            "can_push_objects",
-            "can_build_bricks",
-            "can_jump_normally",
-            "can_attack_up_close"
-          ]
-        ]
-      },
-      {
-        "name": "4-3 Items",
-        "access_rules": [
-          [
-            "chapters_unlock_with_story_characters",
-            "benkenobi",
-            "c-3po",
-            "chewbacca",
-            "hansolo",
-            "lukeskywalker(tatooine)",
-            "r2-d2"
-          ],
-          [
-            "chapters_unlock_with_unlock_item",
-            "4_3_unlock",
-            "astromech",
-            "blaster",
-            "hover",
-            "jedi",
-            "protocol_droid",
-            "can_wear_hat",
-            "can_ride_vehicles",
-            "can_pull_levers",
-            "can_push_objects",
-            "can_build_bricks",
-            "can_jump_normally",
-            "can_attack_up_close"
-          ],
-          [
-            "chapters_unlock_with_unlock_item",
-            "4_3_unlock",
-            "astromech",
-            "blaster",
-            "hover",
-            "imperial",
-            "jedi",
-            "protocol_droid",
-            "can_ride_vehicles",
-            "can_pull_levers",
-            "can_push_objects",
-            "can_build_bricks",
-            "can_jump_normally",
-            "can_attack_up_close"
-          ]
-        ]
-      },
-      {
-        "name": "4-4 Items",
-        "access_rules": [
-          [
-            "chapters_unlock_with_story_characters",
-            "benkenobi",
-            "c-3po",
-            "chewbacca",
-            "hansolo(stormtrooper)",
-            "lukeskywalker(stormtrooper)",
-            "r2-d2"
-          ],
-          [
-            "chapters_unlock_with_unlock_item",
-            "4_4_unlock",
-            "astromech",
-            "blaster",
-            "hover",
-            "jedi",
-            "protocol_droid",
-            "can_wear_hat_and_grapple",
-            "can_ride_vehicles",
-            "can_pull_levers",
-            "can_push_objects",
-            "can_build_bricks",
-            "can_jump_normally",
-            "can_attack_up_close"
-          ],
-          [
-            "chapters_unlock_with_unlock_item",
-            "4_4_unlock",
-            "astromech",
-            "blaster",
-            "hover",
-            "imperial",
-            "jedi",
-            "protocol_droid",
-            "can_ride_vehicles",
-            "can_pull_levers",
-            "can_push_objects",
-            "can_build_bricks",
-            "can_jump_normally",
-            "can_attack_up_close"
-          ]
-        ]
-      },
-      {
-        "name": "4-5 Items",
-        "access_rules": [
-          [
-            "chapters_unlock_with_story_characters",
-            "c-3po",
-            "chewbacca",
-            "hansolo",
-            "lukeskywalker(tatooine)",
-            "princessleia",
-            "r2-d2"
-          ],
-          [
-            "chapters_unlock_with_unlock_item",
-            "4_5_unlock",
-            "astromech",
-            "blaster",
-            "hover",
-            "protocol_droid",
-            "can_wear_hat_and_grapple",
-            "can_ride_vehicles",
-            "can_pull_levers",
-            "can_push_objects",
-            "can_build_bricks",
-            "can_jump_normally",
-            "can_attack_up_close"
-          ],
-          [
-            "chapters_unlock_with_unlock_item",
-            "4_5_unlock",
-            "astromech",
-            "blaster",
-            "hover",
-            "imperial",
-            "protocol_droid",
-            "can_ride_vehicles",
-            "can_pull_levers",
-            "can_push_objects",
-            "can_build_bricks",
-            "can_jump_normally",
-            "can_attack_up_close"
-          ]
-        ]
-      },
-      {
-        "name": "4-6 Items",
-        "access_rules": [
-          [
-            "chapters_unlock_with_story_characters",
-            "x-wing",
-            "y-wing"
-          ],
-          [
-            "chapters_unlock_with_unlock_item",
-            "4_6_unlock",
-            "vehicle_blaster"
-          ]
-        ]
-      },
-      {
-        "name": "5-1 Items",
-        "access_rules": [
-          [
-            "chapters_unlock_with_story_characters",
-            "snowspeeder"
-          ],
-          [
-            "chapters_unlock_with_unlock_item",
-            "5_1_unlock",
-            "vehicle_tow",
-            "vehicle_blaster"
-          ]
-        ]
-      },
-      {
-        "name": "5-2 Items",
-        "access_rules": [
-          [
-            "chapters_unlock_with_story_characters",
-            "c-3po",
-            "chewbacca",
-            "hansolo(hoth)",
-            "princessleia(hoth)"
-          ],
-          [
-            "chapters_unlock_with_unlock_item",
-            "5_2_unlock",
-            "blaster",
-            "protocol_droid",
-            "can_ride_vehicles",
-            "can_pull_levers",
-            "can_push_objects",
-            "can_build_bricks",
-            "can_jump_normally",
-            "can_attack_up_close"
-          ]
-        ]
-      },
-      {
-        "name": "5-3 Items",
-        "access_rules": [
-          [
-            "chapters_unlock_with_story_characters",
-            "millenniumfalcon",
-            "x-wing"
-          ],
-          [
-            "chapters_unlock_with_unlock_item",
-            "5_3_unlock",
-            "vehicle_blaster"
-          ]
-        ]
-      },
-      {
-        "name": "5-4 Items",
-        "access_rules": [
-          [
-            "chapters_unlock_with_story_characters",
-            "lukeskywalker(dagobah)",
-            "lukeskywalker(pilot)",
-            "r2-d2",
-            "yoda"
-          ],
-          [
-            "chapters_unlock_with_unlock_item",
-            "5_4_unlock",
-            "astromech",
-            "blaster",
-            "hover",
-            "jedi",
-            "can_ride_vehicles",
-            "can_pull_levers",
-            "can_push_objects",
-            "can_build_bricks",
-            "can_jump_normally",
-            "can_attack_up_close",
-            "can_dagobah_swamp"
-          ]
-        ]
-      },
-      {
-        "name": "5-5 Items",
-        "access_rules": [
-          [
-            "chapters_unlock_with_story_characters",
-            "lukeskywalker(bespin)",
-            "r2-d2"
-          ],
-          [
-            "chapters_unlock_with_unlock_item",
-            "5_5_unlock",
-            "astromech",
-            "hover",
-            "jedi",
-            "can_wear_hat_and_double_jump",
-            "can_ride_vehicles",
-            "can_pull_levers",
-            "can_push_objects",
-            "can_build_bricks",
-            "can_jump_normally",
-            "can_attack_up_close"
-          ],
-          [
-            "chapters_unlock_with_unlock_item",
-            "5_5_unlock",
-            "astromech",
-            "hover",
-            "imperial",
-            "jedi",
-            "can_ride_vehicles",
-            "can_pull_levers",
-            "can_push_objects",
-            "can_build_bricks",
-            "can_jump_normally",
-            "can_attack_up_close"
-          ]
-        ]
-      },
-      {
-        "name": "5-6 Items",
-        "access_rules": [
-          [
-            "chapters_unlock_with_story_characters",
-            "c-3po",
-            "chewbacca",
-            "landocalrissian",
-            "princessleia(bespin)",
-            "r2-d2"
-          ],
-          [
-            "chapters_unlock_with_unlock_item",
-            "5_6_unlock",
-            "astromech",
-            "blaster",
-            "hover",
-            "protocol_droid",
-            "can_wear_hat",
-            "can_ride_vehicles",
-            "can_pull_levers",
-            "can_push_objects",
-            "can_build_bricks",
-            "can_jump_normally",
-            "can_attack_up_close"
-          ],
-          [
-            "chapters_unlock_with_unlock_item",
-            "5_6_unlock",
-            "astromech",
-            "blaster",
-            "hover",
-            "imperial",
-            "protocol_droid",
-            "can_ride_vehicles",
-            "can_pull_levers",
-            "can_push_objects",
-            "can_build_bricks",
-            "can_jump_normally",
-            "can_attack_up_close"
-          ]
-        ]
-      },
-      {
-        "name": "6-1 Items",
-        "access_rules": [
-          [
-            "chapters_unlock_with_story_characters",
-            "c-3po",
-            "chewbacca",
-            "hansolo(skiff)",
-            "lukeskywalker(jedi)",
-            "princessleia(boushh)",
-            "r2-d2"
-          ],
-          [
-            "chapters_unlock_with_unlock_item",
-            "6_1_unlock",
-            "astromech",
-            "blaster",
-            "hover",
-            "jedi",
-            "protocol_droid",
-            "can_wear_hat",
-            "can_ride_vehicles",
-            "can_pull_levers",
-            "can_push_objects",
-            "can_build_bricks",
-            "can_jump_normally",
-            "can_attack_up_close"
-          ],
-          [
-            "chapters_unlock_with_unlock_item",
-            "6_1_unlock",
-            "astromech",
-            "blaster",
-            "bounty_hunter",
-            "hover",
-            "jedi",
-            "protocol_droid",
-            "can_ride_vehicles",
-            "can_pull_levers",
-            "can_push_objects",
-            "can_build_bricks",
-            "can_jump_normally",
-            "can_attack_up_close"
-          ]
-        ]
-      },
-      {
-        "name": "6-2 Items",
-        "access_rules": [
-          [
-            "chapters_unlock_with_story_characters",
-            "c-3po",
-            "chewbacca",
-            "hansolo(skiff)",
-            "landocalrissian(palaceguard)",
-            "lukeskywalker(jedi)",
-            "princessleia(slave)",
-            "r2-d2"
-          ],
-          [
-            "chapters_unlock_with_unlock_item",
-            "6_2_unlock",
-            "astromech",
-            "blaster",
-            "hover",
-            "jedi",
-            "protocol_droid",
-            "can_ride_vehicles",
-            "can_pull_levers",
-            "can_push_objects",
-            "can_build_bricks",
-            "can_jump_normally",
-            "can_attack_up_close"
-          ]
-        ]
-      },
-      {
-        "name": "6-3 Items",
-        "access_rules": [
-          [
-            "chapters_unlock_with_story_characters",
-            "lukeskywalker(endor)",
-            "princessleia(endor)"
-          ],
-          [
-            "chapters_unlock_with_unlock_item",
-            "6_3_unlock",
-            "blaster",
-            "jedi",
-            "can_ride_vehicles",
-            "can_pull_levers",
-            "can_push_objects",
-            "can_build_bricks",
-            "can_jump_normally",
-            "can_attack_up_close"
-          ]
-        ]
-      },
-      {
-        "name": "6-4 Items",
-        "access_rules": [
-          [
-            "chapters_unlock_with_story_characters",
-            "c-3po",
-            "chewbacca",
-            "hansolo(endor)",
-            "princessleia(endor)",
-            "r2-d2",
-            "wicket"
-          ],
-          [
-            "chapters_unlock_with_unlock_item",
-            "6_4_unlock",
-            "astromech",
-            "blaster",
-            "hover",
-            "protocol_droid",
-            "shortie",
-            "can_ride_vehicles",
-            "can_pull_levers",
-            "can_push_objects",
-            "can_build_bricks",
-            "can_jump_normally",
-            "can_attack_up_close"
-          ]
-        ]
-      },
-      {
-        "name": "6-5 Items",
-        "access_rules": [
-          [
-            "chapters_unlock_with_story_characters",
-            "darthvader",
-            "lukeskywalker(jedi)"
-          ],
-          [
-            "chapters_unlock_with_unlock_item",
-            "6_5_unlock",
-            "jedi",
-            "sith",
-            "can_ride_vehicles",
-            "can_pull_levers",
-            "can_push_objects",
-            "can_build_bricks",
-            "can_jump_normally",
-            "can_attack_up_close"
-          ]
-        ]
-      },
-      {
-        "name": "6-6 Items",
-        "access_rules": [
-          [
-            "chapters_unlock_with_story_characters",
-            "millenniumfalcon",
-            "x-wing"
-          ],
-          [
-            "chapters_unlock_with_unlock_item",
-            "6_6_unlock",
-            "vehicle_blaster"
-          ]
+        "name": "Item Requirements",
+        "children": [
+          {
+            "name": "1-1",
+            "access_rules": [
+              [
+                "chapters_unlock_with_story_characters",
+                "1_1_requires_story_characters",
+                "1_1_story_character:4"
+              ],
+              [
+                "chapters_unlock_with_story_characters",
+                "1_1_requires_purchase_characters",
+                "1_1_purchase_character:4"
+              ],
+              [
+                "chapters_unlock_with_unlock_item",
+                "1_1_unlock"
+              ]
+            ]
+          },
+          {
+            "name": "1-2",
+            "access_rules": [
+              [
+                "chapters_unlock_with_story_characters",
+                "1_2_requires_story_characters",
+                "1_2_story_character:3"
+              ],
+              [
+                "chapters_unlock_with_story_characters",
+                "1_2_requires_purchase_characters",
+                "1_2_purchase_character:3"
+              ],
+              [
+                "chapters_unlock_with_unlock_item",
+                "1_2_unlock"
+              ]
+            ]
+          },
+          {
+            "name": "1-3",
+            "access_rules": [
+              [
+                "chapters_unlock_with_story_characters",
+                "1_3_requires_story_characters",
+                "1_3_story_character:4"
+              ],
+              [
+                "chapters_unlock_with_story_characters",
+                "1_3_requires_purchase_characters",
+                "1_3_purchase_character:4"
+              ],
+              [
+                "chapters_unlock_with_unlock_item",
+                "1_3_unlock"
+              ]
+            ]
+          },
+          {
+            "name": "1-4",
+            "access_rules": [
+              [
+                "chapters_unlock_with_story_characters",
+                "1_4_requires_story_characters",
+                "1_4_story_character:3"
+              ],
+              [
+                "chapters_unlock_with_story_characters",
+                "1_4_requires_purchase_characters",
+                "1_4_purchase_character:3"
+              ],
+              [
+                "chapters_unlock_with_unlock_item",
+                "1_4_unlock"
+              ]
+            ]
+          },
+          {
+            "name": "1-5",
+            "access_rules": [
+              [
+                "chapters_unlock_with_story_characters",
+                "1_5_requires_story_characters",
+                "1_5_story_character:6"
+              ],
+              [
+                "chapters_unlock_with_unlock_item",
+                "1_5_unlock"
+              ]
+            ]
+          },
+          {
+            "name": "1-6",
+            "access_rules": [
+              [
+                "chapters_unlock_with_story_characters",
+                "1_6_requires_story_characters",
+                "1_6_story_character:2"
+              ],
+              [
+                "chapters_unlock_with_story_characters",
+                "1_6_requires_purchase_characters",
+                "1_6_purchase_character:2"
+              ],
+              [
+                "chapters_unlock_with_unlock_item",
+                "1_6_unlock"
+              ]
+            ]
+          },
+          {
+            "name": "2-1",
+            "access_rules": [
+              [
+                "chapters_unlock_with_story_characters",
+                "2_1_requires_story_characters",
+                "2_1_story_character:3"
+              ],
+              [
+                "chapters_unlock_with_story_characters",
+                "2_1_requires_purchase_characters",
+                "2_1_purchase_character:3"
+              ],
+              [
+                "chapters_unlock_with_unlock_item",
+                "2_1_unlock"
+              ]
+            ]
+          },
+          {
+            "name": "2-2",
+            "access_rules": [
+              [
+                "chapters_unlock_with_story_characters",
+                "2_2_requires_story_characters",
+                "2_2_story_character:3"
+              ],
+              [
+                "chapters_unlock_with_story_characters",
+                "2_2_requires_purchase_characters",
+                "2_2_purchase_character:3"
+              ],
+              [
+                "chapters_unlock_with_unlock_item",
+                "2_2_unlock"
+              ]
+            ]
+          },
+          {
+            "name": "2-3",
+            "access_rules": [
+              [
+                "chapters_unlock_with_story_characters",
+                "2_3_requires_story_characters",
+                "2_3_story_character:4"
+              ],
+              [
+                "chapters_unlock_with_story_characters",
+                "2_3_requires_purchase_characters",
+                "2_3_purchase_character:4"
+              ],
+              [
+                "chapters_unlock_with_unlock_item",
+                "2_3_unlock"
+              ]
+            ]
+          },
+          {
+            "name": "2-4",
+            "access_rules": [
+              [
+                "chapters_unlock_with_story_characters",
+                "2_4_requires_story_characters",
+                "2_4_story_character:9"
+              ],
+              [
+                "chapters_unlock_with_story_characters",
+                "2_4_requires_purchase_characters",
+                "2_4_purchase_character:9"
+              ],
+              [
+                "chapters_unlock_with_unlock_item",
+                "2_4_unlock"
+              ]
+            ]
+          },
+          {
+            "name": "2-5",
+            "access_rules": [
+              [
+                "chapters_unlock_with_story_characters",
+                "2_5_requires_story_characters",
+                "2_5_story_character:1"
+              ],
+              [
+                "chapters_unlock_with_unlock_item",
+                "2_5_unlock"
+              ]
+            ]
+          },
+          {
+            "name": "2-6",
+            "access_rules": [
+              [
+                "chapters_unlock_with_story_characters",
+                "2_6_requires_story_characters",
+                "2_6_story_character:3"
+              ],
+              [
+                "chapters_unlock_with_unlock_item",
+                "2_6_unlock"
+              ]
+            ]
+          },
+          {
+            "name": "3-1",
+            "access_rules": [
+              [
+                "chapters_unlock_with_story_characters",
+                "3_1_requires_story_characters",
+                "3_1_story_character:3"
+              ],
+              [
+                "chapters_unlock_with_story_characters",
+                "3_1_requires_purchase_characters",
+                "3_1_purchase_character:3"
+              ],
+              [
+                "chapters_unlock_with_unlock_item",
+                "3_1_unlock"
+              ]
+            ]
+          },
+          {
+            "name": "3-2",
+            "access_rules": [
+              [
+                "chapters_unlock_with_story_characters",
+                "3_2_requires_story_characters",
+                "3_2_story_character:4"
+              ],
+              [
+                "chapters_unlock_with_story_characters",
+                "3_2_requires_purchase_characters",
+                "3_2_purchase_character:4"
+              ],
+              [
+                "chapters_unlock_with_unlock_item",
+                "3_2_unlock"
+              ]
+            ]
+          },
+          {
+            "name": "3-3",
+            "access_rules": [
+              [
+                "chapters_unlock_with_story_characters",
+                "3_3_requires_story_characters",
+                "3_3_story_character:2"
+              ],
+              [
+                "chapters_unlock_with_story_characters",
+                "3_3_requires_purchase_characters",
+                "3_3_purchase_character:2"
+              ],
+              [
+                "chapters_unlock_with_unlock_item",
+                "3_3_unlock"
+              ]
+            ]
+          },
+          {
+            "name": "3-4",
+            "access_rules": [
+              [
+                "chapters_unlock_with_story_characters",
+                "3_4_requires_story_characters",
+                "3_4_story_character:5"
+              ],
+              [
+                "chapters_unlock_with_story_characters",
+                "3_4_requires_purchase_characters",
+                "3_4_purchase_character:5"
+              ],
+              [
+                "chapters_unlock_with_unlock_item",
+                "3_4_unlock"
+              ]
+            ]
+          },
+          {
+            "name": "3-5",
+            "access_rules": [
+              [
+                "chapters_unlock_with_story_characters",
+                "3_5_requires_story_characters",
+                "3_5_story_character:2"
+              ],
+              [
+                "chapters_unlock_with_story_characters",
+                "3_5_requires_purchase_characters",
+                "3_5_purchase_character:2"
+              ],
+              [
+                "chapters_unlock_with_unlock_item",
+                "3_5_unlock"
+              ]
+            ]
+          },
+          {
+            "name": "3-6",
+            "access_rules": [
+              [
+                "chapters_unlock_with_story_characters",
+                "3_6_requires_story_characters",
+                "3_6_story_character:2"
+              ],
+              [
+                "chapters_unlock_with_unlock_item",
+                "3_6_unlock"
+              ]
+            ]
+          },
+          {
+            "name": "4-1",
+            "access_rules": [
+              [
+                "chapters_unlock_with_story_characters",
+                "4_1_requires_story_characters",
+                "4_1_story_character:5"
+              ],
+              [
+                "chapters_unlock_with_story_characters",
+                "4_1_requires_purchase_characters",
+                "4_1_purchase_character:5"
+              ],
+              [
+                "chapters_unlock_with_unlock_item",
+                "4_1_unlock"
+              ]
+            ]
+          },
+          {
+            "name": "4-2",
+            "access_rules": [
+              [
+                "chapters_unlock_with_story_characters",
+                "4_2_requires_story_characters",
+                "4_2_story_character:4"
+              ],
+              [
+                "chapters_unlock_with_story_characters",
+                "4_2_requires_purchase_characters",
+                "4_2_purchase_character:4"
+              ],
+              [
+                "chapters_unlock_with_unlock_item",
+                "4_2_unlock"
+              ]
+            ]
+          },
+          {
+            "name": "4-3",
+            "access_rules": [
+              [
+                "chapters_unlock_with_story_characters",
+                "4_3_requires_story_characters",
+                "4_3_story_character:6"
+              ],
+              [
+                "chapters_unlock_with_story_characters",
+                "4_3_requires_purchase_characters",
+                "4_3_purchase_character:6"
+              ],
+              [
+                "chapters_unlock_with_unlock_item",
+                "4_3_unlock"
+              ]
+            ]
+          },
+          {
+            "name": "4-4",
+            "access_rules": [
+              [
+                "chapters_unlock_with_story_characters",
+                "4_4_requires_story_characters",
+                "4_4_story_character:6"
+              ],
+              [
+                "chapters_unlock_with_story_characters",
+                "4_4_requires_purchase_characters",
+                "4_4_purchase_character:6"
+              ],
+              [
+                "chapters_unlock_with_unlock_item",
+                "4_4_unlock"
+              ]
+            ]
+          },
+          {
+            "name": "4-5",
+            "access_rules": [
+              [
+                "chapters_unlock_with_story_characters",
+                "4_5_requires_story_characters",
+                "4_5_story_character:6"
+              ],
+              [
+                "chapters_unlock_with_unlock_item",
+                "4_5_unlock"
+              ]
+            ]
+          },
+          {
+            "name": "4-6",
+            "access_rules": [
+              [
+                "chapters_unlock_with_story_characters",
+                "4_6_requires_story_characters",
+                "4_6_story_character:3"
+              ],
+              [
+                "chapters_unlock_with_story_characters",
+                "4_6_requires_purchase_characters",
+                "4_6_purchase_character:3"
+              ],
+              [
+                "chapters_unlock_with_unlock_item",
+                "4_6_unlock"
+              ]
+            ]
+          },
+          {
+            "name": "5-1",
+            "access_rules": [
+              [
+                "chapters_unlock_with_story_characters",
+                "5_1_requires_story_characters",
+                "5_1_story_character:1"
+              ],
+              [
+                "chapters_unlock_with_unlock_item",
+                "5_1_unlock"
+              ]
+            ]
+          },
+          {
+            "name": "5-2",
+            "access_rules": [
+              [
+                "chapters_unlock_with_story_characters",
+                "5_2_requires_story_characters",
+                "5_2_story_character:5"
+              ],
+              [
+                "chapters_unlock_with_story_characters",
+                "5_2_requires_purchase_characters",
+                "5_2_purchase_character:5"
+              ],
+              [
+                "chapters_unlock_with_unlock_item",
+                "5_2_unlock"
+              ]
+            ]
+          },
+          {
+            "name": "5-3",
+            "access_rules": [
+              [
+                "chapters_unlock_with_story_characters",
+                "5_3_requires_story_characters",
+                "5_3_story_character:2"
+              ],
+              [
+                "chapters_unlock_with_story_characters",
+                "5_3_requires_purchase_characters",
+                "5_3_purchase_character:2"
+              ],
+              [
+                "chapters_unlock_with_unlock_item",
+                "5_3_unlock"
+              ]
+            ]
+          },
+          {
+            "name": "5-4",
+            "access_rules": [
+              [
+                "chapters_unlock_with_story_characters",
+                "5_4_requires_story_characters",
+                "5_4_story_character:4"
+              ],
+              [
+                "chapters_unlock_with_unlock_item",
+                "5_4_unlock"
+              ]
+            ]
+          },
+          {
+            "name": "5-5",
+            "access_rules": [
+              [
+                "chapters_unlock_with_story_characters",
+                "5_5_requires_story_characters",
+                "5_5_story_character:2"
+              ],
+              [
+                "chapters_unlock_with_unlock_item",
+                "5_5_unlock"
+              ]
+            ]
+          },
+          {
+            "name": "5-6",
+            "access_rules": [
+              [
+                "chapters_unlock_with_story_characters",
+                "5_6_requires_story_characters",
+                "5_6_story_character:5"
+              ],
+              [
+                "chapters_unlock_with_story_characters",
+                "5_6_requires_purchase_characters",
+                "5_6_purchase_character:5"
+              ],
+              [
+                "chapters_unlock_with_unlock_item",
+                "5_6_unlock"
+              ]
+            ]
+          },
+          {
+            "name": "6-1",
+            "access_rules": [
+              [
+                "chapters_unlock_with_story_characters",
+                "6_1_requires_story_characters",
+                "6_1_story_character:6"
+              ],
+              [
+                "chapters_unlock_with_story_characters",
+                "6_1_requires_purchase_characters",
+                "6_1_purchase_character:6"
+              ],
+              [
+                "chapters_unlock_with_unlock_item",
+                "6_1_unlock"
+              ]
+            ]
+          },
+          {
+            "name": "6-2",
+            "access_rules": [
+              [
+                "chapters_unlock_with_story_characters",
+                "6_2_requires_story_characters",
+                "6_2_story_character:7"
+              ],
+              [
+                "chapters_unlock_with_story_characters",
+                "6_2_requires_purchase_characters",
+                "6_2_purchase_character:7"
+              ],
+              [
+                "chapters_unlock_with_unlock_item",
+                "6_2_unlock"
+              ]
+            ]
+          },
+          {
+            "name": "6-3",
+            "access_rules": [
+              [
+                "chapters_unlock_with_story_characters",
+                "6_3_requires_story_characters",
+                "6_3_story_character:2"
+              ],
+              [
+                "chapters_unlock_with_unlock_item",
+                "6_3_unlock"
+              ]
+            ]
+          },
+          {
+            "name": "6-4",
+            "access_rules": [
+              [
+                "chapters_unlock_with_story_characters",
+                "6_4_requires_story_characters",
+                "6_4_story_character:6"
+              ],
+              [
+                "chapters_unlock_with_story_characters",
+                "6_4_requires_purchase_characters",
+                "6_4_purchase_character:6"
+              ],
+              [
+                "chapters_unlock_with_unlock_item",
+                "6_4_unlock"
+              ]
+            ]
+          },
+          {
+            "name": "6-5",
+            "access_rules": [
+              [
+                "chapters_unlock_with_story_characters",
+                "6_5_requires_story_characters",
+                "6_5_story_character:2"
+              ],
+              [
+                "chapters_unlock_with_story_characters",
+                "6_5_requires_purchase_characters",
+                "6_5_purchase_character:2"
+              ],
+              [
+                "chapters_unlock_with_unlock_item",
+                "6_5_unlock"
+              ]
+            ]
+          },
+          {
+            "name": "6-6",
+            "access_rules": [
+              [
+                "chapters_unlock_with_story_characters",
+                "6_6_requires_story_characters",
+                "6_6_story_character:2"
+              ],
+              [
+                "chapters_unlock_with_story_characters",
+                "6_6_requires_purchase_characters",
+                "6_6_purchase_character:2"
+              ],
+              [
+                "chapters_unlock_with_unlock_item",
+                "6_6_unlock"
+              ]
+            ]
+          }
         ]
       }
     ]
