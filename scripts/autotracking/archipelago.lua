@@ -37,6 +37,13 @@ local completed_bonuses_key
 local COLLECTED_POWER_BRICKS_KEY_FORMAT = "tcs_collected_power_bricks_%i_%i"
 local collected_power_bricks_key
 
+-- Stage 0 marks them as excluded from counting towards unlocking chapters, so the default stage should be 1.
+local excludable_character_progressive_toggle = {
+    ["r2-d2"] = true,
+    ["c-3po"] = true,
+    ["chewbacca"] = true,
+}
+
 CUR_INDEX = -1
 --SLOT_DATA = nil
 
@@ -140,7 +147,12 @@ function onClear(slot_data)
                             item_obj.AcquiredCount = 0
                         end
                     elseif item_obj.Type == "progressive_toggle" then
-                        item_obj.CurrentStage = 0
+                        if excludable_character_progressive_toggle[item_code] then
+                            -- Stage 0 marks the character as not counting towards unlocking chapters.
+                            item_obj.CurrentStage = 1
+                        else
+                            item_obj.CurrentStage = 0
+                        end
                         item_obj.Active = false
                     end
                 end
@@ -330,6 +342,14 @@ function onClear(slot_data)
         for _, v in ipairs(slot_data["chapter_unlock_characters_not_required"] or {}) do
             excluded_characters[v] = true
         end
+        local excludable_code_to_character = {c_3po="C-3PO", r2_d2="R2-D2", chewbacca="Chewbacca"}
+        for code, character_name in pairs(excludable_code_to_character) do
+            if excluded_characters[character_name] then
+                -- These are special progressive_toggle items, which are reset to stage *1* earlier in onClear, so it is
+                -- only necessary to set them to stage 0 when they are excluded.
+                Tracker:FindObjectForCode(code).CurrentStage = 0
+            end
+        end
 
         local required_character_count = slot_data["chapter_unlock_characters_count"] or 9  -- 9 is the max, for 2-4.
 
@@ -411,11 +431,6 @@ function onItem(index, item_id, item_name, player_number)
     -- These items use a progressive_toggle, but where the second stage is used to mark the character as not counting
     -- towards chapter unlock requirements. Collecting an extra copy of these characters should not progress the item to
     -- its next stage.
-    local special_progressive_toggle = {
-        ["r2-d2"] = true,
-        ["c-3po"] = true,
-        ["chewbacca"] = true,
-    }
     for _, item_pair in pairs(item) do
         item_code = item_pair[1]
         item_type = item_pair[2]
@@ -436,7 +451,9 @@ function onItem(index, item_id, item_name, player_number)
                 item_obj.AcquiredCount = item_obj.AcquiredCount + item_obj.Increment * (tonumber(item_pair[3]) or 1)
             elseif item_obj.Type == "progressive_toggle" then
                 -- print("progressive_toggle")
-                if special_progressive_toggle[item_code] then
+                if excludable_character_progressive_toggle[item_code] then
+                    -- Do not adjust the stage for excludable characters because the stage says whether the character is
+                    -- excluded for the current player.
                     item_obj.Active = true
                 else
                     if item_obj.Active then
