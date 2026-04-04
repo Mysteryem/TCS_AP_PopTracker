@@ -325,22 +325,10 @@ function onClear(slot_data)
             alt_character_chapters[v] = true
         end
 
-        -- FIXME: Need to subtract 1 from the maximum for Chapters that feature C-3PO, R2-D2 or Chewbacca when they are
-        -- excluded.
         -- Set characters excluded from unlocking chapters.
         local excluded_characters = {}
         for _, v in ipairs(slot_data["chapter_unlock_characters_not_required"] or {}) do
             excluded_characters[v] = true
-        end
-        local excluded_character_indices = {}
-        if excluded_characters["C-3PO"] then
-            table.insert(excluded_character_indices, EXCLUDABLE_C_3PO)
-        end
-        if excluded_characters["R2-D2"] then
-            table.insert(excluded_character_indices, EXCLUDABLE_R2_D2)
-        end
-        if excluded_characters["CHEWBACCA"] then
-            table.insert(excluded_character_indices, EXCLUDABLE_CHEWBACCA)
         end
 
         local required_character_count = slot_data["chapter_unlock_characters_count"] or 9  -- 9 is the max, for 2-4.
@@ -361,9 +349,10 @@ function onClear(slot_data)
                     unlock_requirement.CurrentStage = 1
                     max_for_chapter_lookup = MAX_REQUIRED_PURCHASE_CHARACTERS
                     -- Reduce max by any excluded characters that are required for this chapter.
-                    local excluded_reductions = EXCLUDABLE_CHARACTERS[episode][chapter]
-                    for _, index in ipairs(excluded_character_indices) do
-                        if excluded_reductions[index] then
+                    local excluded_reductions = EXCLUDABLE_CHARACTERS[episode][chapter] or {}
+                    for excludable_character, _v in pairs(excluded_reductions) do
+                        if excluded_characters[excludable_character] then
+                            -- Increase the reduction in the maximum required character count.
                             max_reduction_for_excluded = max_reduction_for_excluded + 1
                         end
                     end

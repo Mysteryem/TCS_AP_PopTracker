@@ -92,57 +92,46 @@ MAX_REQUIRED_PURCHASE_CHARACTERS = {
     },
 }
 
--- Episode -> Chapter -> {requires C-3PO, requires R2-D2, requires Chewbacca}
+-- Episode -> Chapter -> {excludable characters set}
+-- The innermost tables are converted to sets (dict-like tables keyed by the array elements)
 EXCLUDABLE_CHARACTERS = {
     [1] = {
-        [1] = {false, false, false},
-        [2] = {false, false, false},
-        [3] = {false, false, false},
-        [4] = {false, false, false},
-        [5] = {false, true, false},
-        [6] = {false, false, false},
+        [5] = {"R2-D2"},
     },
     [2] = {
-        [1] = {false, false, false},
-        [2] = {false, false, false},
-        [3] = {true, true, false},
-        [4] = {false, true, false},
-        [5] = {false, false, false},
-        [6] = {false, false, false},
+        [3] = {"C-3PO", "R2-D2"},
+        [4] = {"R2-D2"},
     },
     [3] = {
-        [1] = {false, false, false},
-        [2] = {false, true, false},
-        [3] = {false, false, false},
-        [4] = {false, false, true},
-        [5] = {false, false, false},
-        [6] = {false, false, false},
+        [2] = {"R2-D2"},
+        [4] = {"Chewbacca"},
     },
     [4] = {
-        [1] = {true, true, false},
-        [2] = {true, true, false},
-        [3] = {true, true, true},
-        [4] = {true, true, true},
-        [5] = {true, true, true},
-        [6] = {false, false, false},
+        [1] = {"C-3PO", "R2-D2"},
+        [2] = {"C-3PO", "R2-D2"},
+        [3] = {"C-3PO", "R2-D2", "Chewbacca"},
+        [4] = {"C-3PO", "R2-D2", "Chewbacca"},
+        [5] = {"C-3PO", "R2-D2", "Chewbacca"},
     },
     [5] = {
-        [1] = {false, false, false},
-        [2] = {true, false, true},
-        [3] = {false, false, false},
-        [4] = {false, true, false},
-        [5] = {false, true, false},
-        [6] = {true, true, true},
+        [2] = {"C-3PO", "Chewbacca"},
+        [4] = {"R2-D2"},
+        [5] = {"R2-D2"},
+        [6] = {"C-3PO", "R2-D2", "Chewbacca"},
     },
     [6] = {
-        [1] = {true, true, true},
-        [2] = {true, true, true},
-        [3] = {false, false, false},
-        [4] = {true, true, true},
-        [5] = {false, false, false},
-        [6] = {false, false, false},
+        [1] = {"C-3PO", "R2-D2", "Chewbacca"},
+        [2] = {"C-3PO", "R2-D2", "Chewbacca"},
+        [4] = {"C-3PO", "R2-D2", "Chewbacca"},
     },
 }
-EXCLUDABLE_C_3PO = 1
-EXCLUDABLE_R2_D2 = 2
-EXCLUDABLE_CHEWBACCA = 3
+-- Convert array-like tables into set-like tables (dict-like tables used as sets)
+for episode, chapters_table in pairs(EXCLUDABLE_CHARACTERS) do
+    for chapter, excludes_table in pairs(chapters_table) do
+        local set_like_table = {}
+        for _, character_name in ipairs(excludes_table) do
+            set_like_table[character_name] = true
+        end
+        chapters_table[chapter] = set_like_table
+    end
+end
