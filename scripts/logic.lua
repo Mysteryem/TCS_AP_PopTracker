@@ -75,6 +75,20 @@ function complete_levels_goal()
     return Tracker:ProviderCountForCode("level_completion_gold_brick") >= Tracker:ProviderCountForCode("setting_goal_level_completions_amount")
 end
 
+function has_story_characters(chapter_short_name_code)
+    local acquired_count = Tracker:ProviderCountForCode(chapter_short_name_code.."_story_character")
+    local required_count_minus_1 = Tracker:FindObjectForCode(chapter_short_name_code.."_required_character_count").CurrentStage
+    -- return acquired_count > required_count_minus_1, but might be barely more performant.
+    return acquired_count - required_count_minus_1
+end
+
+function has_purchase_characters(chapter_short_name_code)
+    local acquired_count = Tracker:ProviderCountForCode(chapter_short_name_code.."_purchase_character")
+    local required_count_minus_1 = Tracker:FindObjectForCode(chapter_short_name_code.."_required_character_count").CurrentStage
+    -- return acquired_count > required_count_minus_1, but might be barely more performant.
+    return acquired_count - required_count_minus_1
+end
+
 local function update_gold_brick_total(code)
     Tracker:FindObjectForCode("total_gold_bricks").AcquiredCount = Tracker:ProviderCountForCode(code)
 end
@@ -88,24 +102,7 @@ local function update_defeated_bosses_total(code)
     Tracker:FindObjectForCode("total_bosses_defeated").AcquiredCount = count
 end
 
--- It is not possible to reverse these watches (changing the R2-D2 stage changes excludable helper) because when the
--- player does not have R2-D2, the R2-D2 item provides no codes at all.
-local function add_excludable_character_helper_watches()
-    local excludable_characters = {"r2-d2", "c-3po", "chewbacca"}
-    for _, code in ipairs(excludable_characters) do
-        local excludable_helper_code = code.."_excludable_helper"
-        local function code_update()
-            -- The helper only provides codes in stage 1, which says the character does not provide chapter unlock
-            -- codes.
-            -- The character only provides chapter unlock codes in stage 1.
-            Tracker:FindObjectForCode(code).CurrentStage = 1 - Tracker:ProviderCountForCode(excludable_helper_code)
-        end
-        ScriptHost:AddWatchForCode("update_"..code.."_from_excludable_helper", excludable_helper_code, code_update)
-    end
-end
-
 ScriptHost:AddWatchForCode("update_gold_brick_total", "gold_brick", update_gold_brick_total)
 ScriptHost:AddWatchForCode("update_level_completion_total", "level_completion_gold_brick", update_level_completions_total)
 ScriptHost:AddWatchForCode("update_total_bosses_defeated_1", "boss_defeated", update_defeated_bosses_total)
 ScriptHost:AddWatchForCode("update_total_bosses_defeated_2", "unique_boss_defeated", update_defeated_bosses_total)
-add_excludable_character_helper_watches()

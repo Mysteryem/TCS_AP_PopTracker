@@ -9,14 +9,17 @@
         "name": "Episode 1",
         "children": [
           {
-            "name": "Characters To Unlock 1-1",
+            "name": "Items To Unlock 1-1",
             "visibility_rules": [
               "1_1_enabled"
             ],
             "sections": [
               {
-                "hosted_item": "obi-wankenobi, qui-gonjinn, tc-14",
-                "clear_as_group": false
+                "hosted_item": "1_1_unlock",
+                "clear_as_group": false,
+                "visibility_rules": [
+                  "1_1_requires_unlock_item"
+                ]
               }
             ],
             "map_locations": [
@@ -30,120 +33,40 @@
             ]
           },
           {
-            "name": "Characters To Unlock 1-2",
-            "visibility_rules": [
-              "1_2_enabled"
-            ],
-            "sections": [
-              {
-                "hosted_item": "obi-wankenobi, qui-gonjinn, jarjarbinks",
-                "clear_as_group": false
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "Episode 1",
-                "x": 256,
-                "y": 183,
-                "shape": "diamond",
-                "size": 20
-              }
-            ]
-          },
-          {
-            "name": "Characters To Unlock 1-3",
-            "visibility_rules": [
-              "1_3_enabled"
-            ],
-            "sections": [
-              {
-                "hosted_item": "obi-wankenobi, qui-gonjinn, captainpanaka, queenamidala",
-                "clear_as_group": false
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "Episode 1",
-                "x": 399,
-                "y": 183,
-                "shape": "diamond",
-                "size": 20
-              }
-            ]
-          },
-          {
-            "name": "Characters To Unlock 1-4",
-            "visibility_rules": [
-              "1_4_enabled"
-            ],
-            "sections": [
-              {
-                "hosted_item": "anakinspod",
-                "clear_as_group": false
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "Episode 1",
-                "x": 559,
-                "y": 183,
-                "shape": "diamond",
-                "size": 20
-              }
-            ]
-          },
-          {
-            "name": "Characters To Unlock 1-5",
-            "visibility_rules": [
-              "1_5_enabled"
-            ],
-            "sections": [
-              {
-                "hosted_item": "obi-wankenobi, qui-gonjinn, captainpanaka, padme(battle), r2-d2, anakinskywalker(boy)",
-                "clear_as_group": false
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "Episode 1",
-                "x": 740,
-                "y": 183,
-                "shape": "diamond",
-                "size": 20
-              }
-            ]
-          },
-          {
-            "name": "Characters To Unlock 1-6",
-            "visibility_rules": [
-              "1_6_enabled"
-            ],
-            "sections": [
-              {
-                "hosted_item": "obi-wankenobi, qui-gonjinn",
-                "clear_as_group": false
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "Episode 1",
-                "x": 923,
-                "y": 183,
-                "shape": "diamond",
-                "size": 20
-              }
-            ]
-          },
-          {
-            "name": "Items To Unlock 1-1",
+            "name": "Story Characters To Unlock 1-1",
             "visibility_rules": [
               "1_1_enabled"
             ],
             "sections": [
               {
-                "hosted_item": "1_1_unlock",
+                "hosted_item": "1_1_required_character_count, obi-wankenobi, qui-gonjinn, tc-14",
+                "clear_as_group": false,
                 "visibility_rules": [
-                  "chapters_unlock_with_unlock_item"
+                  "1_1_requires_story_characters"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 1",
+                "x": 77,
+                "y": 183,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Characters To Unlock 1-1",
+            "visibility_rules": [
+              "1_1_enabled"
+            ],
+            "sections": [
+              {
+                "hosted_item": "1_1_required_character_count, battledroid, battledroid(commander), battledroid(security), droideka",
+                "clear_as_group": false,
+                "visibility_rules": [
+                  "1_1_requires_purchase_characters"
                 ]
               }
             ],
@@ -165,8 +88,57 @@
             "sections": [
               {
                 "hosted_item": "1_2_unlock",
+                "clear_as_group": false,
                 "visibility_rules": [
-                  "chapters_unlock_with_unlock_item"
+                  "1_2_requires_unlock_item"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 1",
+                "x": 256,
+                "y": 183,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Story Characters To Unlock 1-2",
+            "visibility_rules": [
+              "1_2_enabled"
+            ],
+            "sections": [
+              {
+                "hosted_item": "1_2_required_character_count, jarjarbinks, obi-wankenobi, qui-gonjinn",
+                "clear_as_group": false,
+                "visibility_rules": [
+                  "1_2_requires_story_characters"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 1",
+                "x": 256,
+                "y": 183,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Characters To Unlock 1-2",
+            "visibility_rules": [
+              "1_2_enabled"
+            ],
+            "sections": [
+              {
+                "hosted_item": "1_2_required_character_count, bossnass, captaintarpals",
+                "clear_as_group": false,
+                "visibility_rules": [
+                  "1_2_requires_purchase_characters"
                 ]
               }
             ],
@@ -188,8 +160,57 @@
             "sections": [
               {
                 "hosted_item": "1_3_unlock",
+                "clear_as_group": false,
                 "visibility_rules": [
-                  "chapters_unlock_with_unlock_item"
+                  "1_3_requires_unlock_item"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 1",
+                "x": 399,
+                "y": 183,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Story Characters To Unlock 1-3",
+            "visibility_rules": [
+              "1_3_enabled"
+            ],
+            "sections": [
+              {
+                "hosted_item": "1_3_required_character_count, captainpanaka, obi-wankenobi, queenamidala, qui-gonjinn",
+                "clear_as_group": false,
+                "visibility_rules": [
+                  "1_3_requires_story_characters"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 1",
+                "x": 399,
+                "y": 183,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Characters To Unlock 1-3",
+            "visibility_rules": [
+              "1_3_enabled"
+            ],
+            "sections": [
+              {
+                "hosted_item": "1_3_required_character_count, padme, royalguard",
+                "clear_as_group": false,
+                "visibility_rules": [
+                  "1_3_requires_purchase_characters"
                 ]
               }
             ],
@@ -211,8 +232,57 @@
             "sections": [
               {
                 "hosted_item": "1_4_unlock",
+                "clear_as_group": false,
                 "visibility_rules": [
-                  "chapters_unlock_with_unlock_item"
+                  "1_4_requires_unlock_item"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 1",
+                "x": 559,
+                "y": 183,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Story Characters To Unlock 1-4",
+            "visibility_rules": [
+              "1_4_enabled"
+            ],
+            "sections": [
+              {
+                "hosted_item": "1_4_required_character_count, anakinspod",
+                "clear_as_group": false,
+                "visibility_rules": [
+                  "1_4_requires_story_characters"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 1",
+                "x": 559,
+                "y": 183,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Characters To Unlock 1-4",
+            "visibility_rules": [
+              "1_4_enabled"
+            ],
+            "sections": [
+              {
+                "hosted_item": "1_4_required_character_count, pitdroid, sebulbaspod, watto",
+                "clear_as_group": false,
+                "visibility_rules": [
+                  "1_4_requires_purchase_characters"
                 ]
               }
             ],
@@ -234,8 +304,33 @@
             "sections": [
               {
                 "hosted_item": "1_5_unlock",
+                "clear_as_group": false,
                 "visibility_rules": [
-                  "chapters_unlock_with_unlock_item"
+                  "1_5_requires_unlock_item"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 1",
+                "x": 740,
+                "y": 183,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Story Characters To Unlock 1-5",
+            "visibility_rules": [
+              "1_5_enabled"
+            ],
+            "sections": [
+              {
+                "hosted_item": "1_5_required_character_count, anakinskywalker(boy), captainpanaka, obi-wankenobi, padme(battle), qui-gonjinn, r2-d2",
+                "clear_as_group": false,
+                "visibility_rules": [
+                  "1_5_requires_story_characters"
                 ]
               }
             ],
@@ -257,8 +352,57 @@
             "sections": [
               {
                 "hosted_item": "1_6_unlock",
+                "clear_as_group": false,
                 "visibility_rules": [
-                  "chapters_unlock_with_unlock_item"
+                  "1_6_requires_unlock_item"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 1",
+                "x": 923,
+                "y": 183,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Story Characters To Unlock 1-6",
+            "visibility_rules": [
+              "1_6_enabled"
+            ],
+            "sections": [
+              {
+                "hosted_item": "1_6_required_character_count, obi-wankenobi, qui-gonjinn",
+                "clear_as_group": false,
+                "visibility_rules": [
+                  "1_6_requires_story_characters"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 1",
+                "x": 923,
+                "y": 183,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Characters To Unlock 1-6",
+            "visibility_rules": [
+              "1_6_enabled"
+            ],
+            "sections": [
+              {
+                "hosted_item": "1_6_required_character_count, darthmaul",
+                "clear_as_group": false,
+                "visibility_rules": [
+                  "1_6_requires_purchase_characters"
                 ]
               }
             ],
@@ -278,14 +422,17 @@
         "name": "Episode 2",
         "children": [
           {
-            "name": "Characters To Unlock 2-1",
+            "name": "Items To Unlock 2-1",
             "visibility_rules": [
               "2_1_enabled"
             ],
             "sections": [
               {
-                "hosted_item": "anakinsspeeder",
-                "clear_as_group": false
+                "hosted_item": "2_1_unlock",
+                "clear_as_group": false,
+                "visibility_rules": [
+                  "2_1_requires_unlock_item"
+                ]
               }
             ],
             "map_locations": [
@@ -299,120 +446,40 @@
             ]
           },
           {
-            "name": "Characters To Unlock 2-2",
-            "visibility_rules": [
-              "2_2_enabled"
-            ],
-            "sections": [
-              {
-                "hosted_item": "r4-p17, obi-wankenobi(jedimaster)",
-                "clear_as_group": false
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "Episode 2",
-                "x": 287,
-                "y": 175,
-                "shape": "diamond",
-                "size": 20
-              }
-            ]
-          },
-          {
-            "name": "Characters To Unlock 2-3",
-            "visibility_rules": [
-              "2_3_enabled"
-            ],
-            "sections": [
-              {
-                "hosted_item": "anakinskywalker(padawan), padme(geonosis), r2-d2, c-3po",
-                "clear_as_group": false
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "Episode 2",
-                "x": 466,
-                "y": 168,
-                "shape": "diamond",
-                "size": 20
-              }
-            ]
-          },
-          {
-            "name": "Characters To Unlock 2-4",
-            "visibility_rules": [
-              "2_4_enabled"
-            ],
-            "sections": [
-              {
-                "hosted_item": "macewindu, padme(clawed), anakinskywalker(padawan), obi-wankenobi(jedimaster), r2-d2",
-                "clear_as_group": false
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "Episode 2",
-                "x": 610,
-                "y": 161,
-                "shape": "diamond",
-                "size": 20
-              }
-            ]
-          },
-          {
-            "name": "Characters To Unlock 2-5",
-            "visibility_rules": [
-              "2_5_enabled"
-            ],
-            "sections": [
-              {
-                "hosted_item": "republicgunship",
-                "clear_as_group": false
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "Episode 2",
-                "x": 775,
-                "y": 165,
-                "shape": "diamond",
-                "size": 20
-              }
-            ]
-          },
-          {
-            "name": "Characters To Unlock 2-6",
-            "visibility_rules": [
-              "2_6_enabled"
-            ],
-            "sections": [
-              {
-                "hosted_item": "anakinskywalker(padawan), obi-wankenobi(jedimaster), yoda",
-                "clear_as_group": false
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "Episode 2",
-                "x": 922,
-                "y": 175,
-                "shape": "diamond",
-                "size": 20
-              }
-            ]
-          },
-          {
-            "name": "Items To Unlock 2-1",
+            "name": "Story Characters To Unlock 2-1",
             "visibility_rules": [
               "2_1_enabled"
             ],
             "sections": [
               {
-                "hosted_item": "2_1_unlock",
+                "hosted_item": "2_1_required_character_count, anakinsspeeder",
+                "clear_as_group": false,
                 "visibility_rules": [
-                  "chapters_unlock_with_unlock_item"
+                  "2_1_requires_story_characters"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 2",
+                "x": 79,
+                "y": 183,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Characters To Unlock 2-1",
+            "visibility_rules": [
+              "2_1_enabled"
+            ],
+            "sections": [
+              {
+                "hosted_item": "2_1_required_character_count, dexterjettster, zamwesell, zamsairspeeder",
+                "clear_as_group": false,
+                "visibility_rules": [
+                  "2_1_requires_purchase_characters"
                 ]
               }
             ],
@@ -434,8 +501,57 @@
             "sections": [
               {
                 "hosted_item": "2_2_unlock",
+                "clear_as_group": false,
                 "visibility_rules": [
-                  "chapters_unlock_with_unlock_item"
+                  "2_2_requires_unlock_item"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 2",
+                "x": 287,
+                "y": 175,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Story Characters To Unlock 2-2",
+            "visibility_rules": [
+              "2_2_enabled"
+            ],
+            "sections": [
+              {
+                "hosted_item": "2_2_required_character_count, obi-wankenobi(jedimaster), r4-p17",
+                "clear_as_group": false,
+                "visibility_rules": [
+                  "2_2_requires_story_characters"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 2",
+                "x": 287,
+                "y": 175,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Characters To Unlock 2-2",
+            "visibility_rules": [
+              "2_2_enabled"
+            ],
+            "sections": [
+              {
+                "hosted_item": "2_2_required_character_count, clone, lamasu, taunwe",
+                "clear_as_group": false,
+                "visibility_rules": [
+                  "2_2_requires_purchase_characters"
                 ]
               }
             ],
@@ -457,8 +573,57 @@
             "sections": [
               {
                 "hosted_item": "2_3_unlock",
+                "clear_as_group": false,
                 "visibility_rules": [
-                  "chapters_unlock_with_unlock_item"
+                  "2_3_requires_unlock_item"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 2",
+                "x": 466,
+                "y": 168,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Story Characters To Unlock 2-3",
+            "visibility_rules": [
+              "2_3_enabled"
+            ],
+            "sections": [
+              {
+                "hosted_item": "2_3_required_character_count, anakinskywalker(padawan), c-3po, padme(geonosis), r2-d2",
+                "clear_as_group": false,
+                "visibility_rules": [
+                  "2_3_requires_story_characters"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 2",
+                "x": 466,
+                "y": 168,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Characters To Unlock 2-3",
+            "visibility_rules": [
+              "2_3_enabled"
+            ],
+            "sections": [
+              {
+                "hosted_item": "2_3_required_character_count, battledroid(geonosis), geonosian",
+                "clear_as_group": false,
+                "visibility_rules": [
+                  "2_3_requires_purchase_characters"
                 ]
               }
             ],
@@ -480,8 +645,57 @@
             "sections": [
               {
                 "hosted_item": "2_4_unlock",
+                "clear_as_group": false,
                 "visibility_rules": [
-                  "chapters_unlock_with_unlock_item"
+                  "2_4_requires_unlock_item"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 2",
+                "x": 610,
+                "y": 161,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Story Characters To Unlock 2-4",
+            "visibility_rules": [
+              "2_4_enabled"
+            ],
+            "sections": [
+              {
+                "hosted_item": "2_4_required_character_count, anakinskywalker(padawan), macewindu, obi-wankenobi(jedimaster), padme(clawed), r2-d2",
+                "clear_as_group": false,
+                "visibility_rules": [
+                  "2_4_requires_story_characters"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 2",
+                "x": 610,
+                "y": 161,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Characters To Unlock 2-4",
+            "visibility_rules": [
+              "2_4_enabled"
+            ],
+            "sections": [
+              {
+                "hosted_item": "2_4_required_character_count, aaylasecura, bobafett(boy), jangofett, ki-adimundi, kitfisto, luminara, plokoon, shaakti, superbattledroid",
+                "clear_as_group": false,
+                "visibility_rules": [
+                  "2_4_requires_purchase_characters"
                 ]
               }
             ],
@@ -503,8 +717,33 @@
             "sections": [
               {
                 "hosted_item": "2_5_unlock",
+                "clear_as_group": false,
                 "visibility_rules": [
-                  "chapters_unlock_with_unlock_item"
+                  "2_5_requires_unlock_item"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 2",
+                "x": 775,
+                "y": 165,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Story Characters To Unlock 2-5",
+            "visibility_rules": [
+              "2_5_enabled"
+            ],
+            "sections": [
+              {
+                "hosted_item": "2_5_required_character_count, republicgunship",
+                "clear_as_group": false,
+                "visibility_rules": [
+                  "2_5_requires_story_characters"
                 ]
               }
             ],
@@ -526,8 +765,33 @@
             "sections": [
               {
                 "hosted_item": "2_6_unlock",
+                "clear_as_group": false,
                 "visibility_rules": [
-                  "chapters_unlock_with_unlock_item"
+                  "2_6_requires_unlock_item"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 2",
+                "x": 922,
+                "y": 175,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Story Characters To Unlock 2-6",
+            "visibility_rules": [
+              "2_6_enabled"
+            ],
+            "sections": [
+              {
+                "hosted_item": "2_6_required_character_count, anakinskywalker(padawan), obi-wankenobi(jedimaster), yoda",
+                "clear_as_group": false,
+                "visibility_rules": [
+                  "2_6_requires_story_characters"
                 ]
               }
             ],
@@ -547,14 +811,17 @@
         "name": "Episode 3",
         "children": [
           {
-            "name": "Characters To Unlock 3-1",
+            "name": "Items To Unlock 3-1",
             "visibility_rules": [
               "3_1_enabled"
             ],
             "sections": [
               {
-                "hosted_item": "obi-wansstarfighter, anakinsstarfighter",
-                "clear_as_group": false
+                "hosted_item": "3_1_unlock",
+                "clear_as_group": false,
+                "visibility_rules": [
+                  "3_1_requires_unlock_item"
+                ]
               }
             ],
             "map_locations": [
@@ -568,120 +835,40 @@
             ]
           },
           {
-            "name": "Characters To Unlock 3-2",
-            "visibility_rules": [
-              "3_2_enabled"
-            ],
-            "sections": [
-              {
-                "hosted_item": "anakinskywalker(jedi), chancellorpalpatine, obi-wankenobi(episode3), r2-d2",
-                "clear_as_group": false
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "Episode 3",
-                "x": 378,
-                "y": 252,
-                "shape": "diamond",
-                "size": 20
-              }
-            ]
-          },
-          {
-            "name": "Characters To Unlock 3-3",
-            "visibility_rules": [
-              "3_3_enabled"
-            ],
-            "sections": [
-              {
-                "hosted_item": "obi-wankenobi(episode3), commandercody",
-                "clear_as_group": false
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "Episode 3",
-                "x": 540,
-                "y": 248,
-                "shape": "diamond",
-                "size": 20
-              }
-            ]
-          },
-          {
-            "name": "Characters To Unlock 3-4",
-            "visibility_rules": [
-              "3_4_enabled"
-            ],
-            "sections": [
-              {
-                "hosted_item": "chewbacca, yoda",
-                "clear_as_group": false
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "Episode 3",
-                "x": 662,
-                "y": 215,
-                "shape": "diamond",
-                "size": 20
-              }
-            ]
-          },
-          {
-            "name": "Characters To Unlock 3-5",
-            "visibility_rules": [
-              "3_5_enabled"
-            ],
-            "sections": [
-              {
-                "hosted_item": "obi-wankenobi(episode3), yoda",
-                "clear_as_group": false
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "Episode 3",
-                "x": 774,
-                "y": 207,
-                "shape": "diamond",
-                "size": 20
-              }
-            ]
-          },
-          {
-            "name": "Characters To Unlock 3-6",
-            "visibility_rules": [
-              "3_6_enabled"
-            ],
-            "sections": [
-              {
-                "hosted_item": "anakinskywalker(jedi), obi-wankenobi(episode3)",
-                "clear_as_group": false
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "Episode 3",
-                "x": 917,
-                "y": 208,
-                "shape": "diamond",
-                "size": 20
-              }
-            ]
-          },
-          {
-            "name": "Items To Unlock 3-1",
+            "name": "Story Characters To Unlock 3-1",
             "visibility_rules": [
               "3_1_enabled"
             ],
             "sections": [
               {
-                "hosted_item": "3_1_unlock",
+                "hosted_item": "3_1_required_character_count, anakinsstarfighter, obi-wansstarfighter",
+                "clear_as_group": false,
                 "visibility_rules": [
-                  "chapters_unlock_with_unlock_item"
+                  "3_1_requires_story_characters"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 3",
+                "x": 107,
+                "y": 293,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Characters To Unlock 3-1",
+            "visibility_rules": [
+              "3_1_enabled"
+            ],
+            "sections": [
+              {
+                "hosted_item": "3_1_required_character_count, clonearcfighter, droidtrifighter, vulturedroid",
+                "clear_as_group": false,
+                "visibility_rules": [
+                  "3_1_requires_purchase_characters"
                 ]
               }
             ],
@@ -703,8 +890,57 @@
             "sections": [
               {
                 "hosted_item": "3_2_unlock",
+                "clear_as_group": false,
                 "visibility_rules": [
-                  "chapters_unlock_with_unlock_item"
+                  "3_2_requires_unlock_item"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 3",
+                "x": 378,
+                "y": 252,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Story Characters To Unlock 3-2",
+            "visibility_rules": [
+              "3_2_enabled"
+            ],
+            "sections": [
+              {
+                "hosted_item": "3_2_required_character_count, anakinskywalker(jedi), chancellorpalpatine, obi-wankenobi(episode3), r2-d2",
+                "clear_as_group": false,
+                "visibility_rules": [
+                  "3_2_requires_story_characters"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 3",
+                "x": 378,
+                "y": 252,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Characters To Unlock 3-2",
+            "visibility_rules": [
+              "3_2_enabled"
+            ],
+            "sections": [
+              {
+                "hosted_item": "3_2_required_character_count, countdooku, grievousbodyguard",
+                "clear_as_group": false,
+                "visibility_rules": [
+                  "3_2_requires_purchase_characters"
                 ]
               }
             ],
@@ -726,8 +962,57 @@
             "sections": [
               {
                 "hosted_item": "3_3_unlock",
+                "clear_as_group": false,
                 "visibility_rules": [
-                  "chapters_unlock_with_unlock_item"
+                  "3_3_requires_unlock_item"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 3",
+                "x": 540,
+                "y": 248,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Story Characters To Unlock 3-3",
+            "visibility_rules": [
+              "3_3_enabled"
+            ],
+            "sections": [
+              {
+                "hosted_item": "3_3_required_character_count, commandercody, obi-wankenobi(episode3)",
+                "clear_as_group": false,
+                "visibility_rules": [
+                  "3_3_requires_story_characters"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 3",
+                "x": 540,
+                "y": 248,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Characters To Unlock 3-3",
+            "visibility_rules": [
+              "3_3_enabled"
+            ],
+            "sections": [
+              {
+                "hosted_item": "3_3_required_character_count, generalgrievous",
+                "clear_as_group": false,
+                "visibility_rules": [
+                  "3_3_requires_purchase_characters"
                 ]
               }
             ],
@@ -749,8 +1034,57 @@
             "sections": [
               {
                 "hosted_item": "3_4_unlock",
+                "clear_as_group": false,
                 "visibility_rules": [
-                  "chapters_unlock_with_unlock_item"
+                  "3_4_requires_unlock_item"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 3",
+                "x": 662,
+                "y": 215,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Story Characters To Unlock 3-4",
+            "visibility_rules": [
+              "3_4_enabled"
+            ],
+            "sections": [
+              {
+                "hosted_item": "3_4_required_character_count, chewbacca, yoda",
+                "clear_as_group": false,
+                "visibility_rules": [
+                  "3_4_requires_story_characters"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 3",
+                "x": 662,
+                "y": 215,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Characters To Unlock 3-4",
+            "visibility_rules": [
+              "3_4_enabled"
+            ],
+            "sections": [
+              {
+                "hosted_item": "3_4_required_character_count, clone(episode3), clone(episode3-pilot), clone(episode3-swamp), clone(episode3-walker), wookiee",
+                "clear_as_group": false,
+                "visibility_rules": [
+                  "3_4_requires_purchase_characters"
                 ]
               }
             ],
@@ -772,8 +1106,57 @@
             "sections": [
               {
                 "hosted_item": "3_5_unlock",
+                "clear_as_group": false,
                 "visibility_rules": [
-                  "chapters_unlock_with_unlock_item"
+                  "3_5_requires_unlock_item"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 3",
+                "x": 774,
+                "y": 207,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Story Characters To Unlock 3-5",
+            "visibility_rules": [
+              "3_5_enabled"
+            ],
+            "sections": [
+              {
+                "hosted_item": "3_5_required_character_count, obi-wankenobi(episode3), yoda",
+                "clear_as_group": false,
+                "visibility_rules": [
+                  "3_5_requires_story_characters"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 3",
+                "x": 774,
+                "y": 207,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Characters To Unlock 3-5",
+            "visibility_rules": [
+              "3_5_enabled"
+            ],
+            "sections": [
+              {
+                "hosted_item": "3_5_required_character_count, disguisedclone, macewindu(episode3)",
+                "clear_as_group": false,
+                "visibility_rules": [
+                  "3_5_requires_purchase_characters"
                 ]
               }
             ],
@@ -795,8 +1178,33 @@
             "sections": [
               {
                 "hosted_item": "3_6_unlock",
+                "clear_as_group": false,
                 "visibility_rules": [
-                  "chapters_unlock_with_unlock_item"
+                  "3_6_requires_unlock_item"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 3",
+                "x": 917,
+                "y": 208,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Story Characters To Unlock 3-6",
+            "visibility_rules": [
+              "3_6_enabled"
+            ],
+            "sections": [
+              {
+                "hosted_item": "3_6_required_character_count, anakinskywalker(jedi), obi-wankenobi(episode3)",
+                "clear_as_group": false,
+                "visibility_rules": [
+                  "3_6_requires_story_characters"
                 ]
               }
             ],
@@ -816,14 +1224,17 @@
         "name": "Episode 4",
         "children": [
           {
-            "name": "Characters To Unlock 4-1",
+            "name": "Items To Unlock 4-1",
             "visibility_rules": [
               "4_1_enabled"
             ],
             "sections": [
               {
-                "hosted_item": "princessleia, captainantilles, c-3po, r2-d2, rebelfriend",
-                "clear_as_group": false
+                "hosted_item": "4_1_unlock",
+                "clear_as_group": false,
+                "visibility_rules": [
+                  "4_1_requires_unlock_item"
+                ]
               }
             ],
             "map_locations": [
@@ -837,120 +1248,40 @@
             ]
           },
           {
-            "name": "Characters To Unlock 4-2",
-            "visibility_rules": [
-              "4_2_enabled"
-            ],
-            "sections": [
-              {
-                "hosted_item": "lukeskywalker(tatooine), c-3po, r2-d2, benkenobi",
-                "clear_as_group": false
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "Episode 4",
-                "x": 252,
-                "y": 166,
-                "shape": "diamond",
-                "size": 20
-              }
-            ]
-          },
-          {
-            "name": "Characters To Unlock 4-3",
-            "visibility_rules": [
-              "4_3_enabled"
-            ],
-            "sections": [
-              {
-                "hosted_item": "hansolo, benkenobi, lukeskywalker(tatooine), c-3po, r2-d2, chewbacca",
-                "clear_as_group": false
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "Episode 4",
-                "x": 422,
-                "y": 166,
-                "shape": "diamond",
-                "size": 20
-              }
-            ]
-          },
-          {
-            "name": "Characters To Unlock 4-4",
-            "visibility_rules": [
-              "4_4_enabled"
-            ],
-            "sections": [
-              {
-                "hosted_item": "lukeskywalker(stormtrooper), benkenobi, hansolo(stormtrooper), chewbacca, c-3po, r2-d2",
-                "clear_as_group": false
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "Episode 4",
-                "x": 606,
-                "y": 166,
-                "shape": "diamond",
-                "size": 20
-              }
-            ]
-          },
-          {
-            "name": "Characters To Unlock 4-5",
-            "visibility_rules": [
-              "4_5_enabled"
-            ],
-            "sections": [
-              {
-                "hosted_item": "lukeskywalker(tatooine), princessleia, hansolo, chewbacca, c-3po, r2-d2",
-                "clear_as_group": false
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "Episode 4",
-                "x": 779,
-                "y": 166,
-                "shape": "diamond",
-                "size": 20
-              }
-            ]
-          },
-          {
-            "name": "Characters To Unlock 4-6",
-            "visibility_rules": [
-              "4_6_enabled"
-            ],
-            "sections": [
-              {
-                "hosted_item": "x-wing, y-wing",
-                "clear_as_group": false
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "Episode 4",
-                "x": 940,
-                "y": 166,
-                "shape": "diamond",
-                "size": 20
-              }
-            ]
-          },
-          {
-            "name": "Items To Unlock 4-1",
+            "name": "Story Characters To Unlock 4-1",
             "visibility_rules": [
               "4_1_enabled"
             ],
             "sections": [
               {
-                "hosted_item": "4_1_unlock",
+                "hosted_item": "4_1_required_character_count, c-3po, captainantilles, princessleia, r2-d2, rebelfriend",
+                "clear_as_group": false,
                 "visibility_rules": [
-                  "chapters_unlock_with_unlock_item"
+                  "4_1_requires_story_characters"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 4",
+                "x": 79,
+                "y": 166,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Characters To Unlock 4-1",
+            "visibility_rules": [
+              "4_1_enabled"
+            ],
+            "sections": [
+              {
+                "hosted_item": "4_1_required_character_count, imperialshuttlepilot, rebeltrooper, stormtrooper",
+                "clear_as_group": false,
+                "visibility_rules": [
+                  "4_1_requires_purchase_characters"
                 ]
               }
             ],
@@ -972,8 +1303,57 @@
             "sections": [
               {
                 "hosted_item": "4_2_unlock",
+                "clear_as_group": false,
                 "visibility_rules": [
-                  "chapters_unlock_with_unlock_item"
+                  "4_2_requires_unlock_item"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 4",
+                "x": 252,
+                "y": 166,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Story Characters To Unlock 4-2",
+            "visibility_rules": [
+              "4_2_enabled"
+            ],
+            "sections": [
+              {
+                "hosted_item": "4_2_required_character_count, benkenobi, c-3po, lukeskywalker(tatooine), r2-d2",
+                "clear_as_group": false,
+                "visibility_rules": [
+                  "4_2_requires_story_characters"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 4",
+                "x": 252,
+                "y": 166,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Characters To Unlock 4-2",
+            "visibility_rules": [
+              "4_2_enabled"
+            ],
+            "sections": [
+              {
+                "hosted_item": "4_2_required_character_count, jawa, tuskenraider",
+                "clear_as_group": false,
+                "visibility_rules": [
+                  "4_2_requires_purchase_characters"
                 ]
               }
             ],
@@ -995,8 +1375,57 @@
             "sections": [
               {
                 "hosted_item": "4_3_unlock",
+                "clear_as_group": false,
                 "visibility_rules": [
-                  "chapters_unlock_with_unlock_item"
+                  "4_3_requires_unlock_item"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 4",
+                "x": 422,
+                "y": 166,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Story Characters To Unlock 4-3",
+            "visibility_rules": [
+              "4_3_enabled"
+            ],
+            "sections": [
+              {
+                "hosted_item": "4_3_required_character_count, benkenobi, c-3po, chewbacca, hansolo, lukeskywalker(tatooine), r2-d2",
+                "clear_as_group": false,
+                "visibility_rules": [
+                  "4_3_requires_story_characters"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 4",
+                "x": 422,
+                "y": 166,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Characters To Unlock 4-3",
+            "visibility_rules": [
+              "4_3_enabled"
+            ],
+            "sections": [
+              {
+                "hosted_item": "4_3_required_character_count, greedo, imperialspy, sandtrooper",
+                "clear_as_group": false,
+                "visibility_rules": [
+                  "4_3_requires_purchase_characters"
                 ]
               }
             ],
@@ -1018,8 +1447,57 @@
             "sections": [
               {
                 "hosted_item": "4_4_unlock",
+                "clear_as_group": false,
                 "visibility_rules": [
-                  "chapters_unlock_with_unlock_item"
+                  "4_4_requires_unlock_item"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 4",
+                "x": 606,
+                "y": 166,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Story Characters To Unlock 4-4",
+            "visibility_rules": [
+              "4_4_enabled"
+            ],
+            "sections": [
+              {
+                "hosted_item": "4_4_required_character_count, benkenobi, c-3po, chewbacca, hansolo(stormtrooper), lukeskywalker(stormtrooper), r2-d2",
+                "clear_as_group": false,
+                "visibility_rules": [
+                  "4_4_requires_story_characters"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 4",
+                "x": 606,
+                "y": 166,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Characters To Unlock 4-4",
+            "visibility_rules": [
+              "4_4_enabled"
+            ],
+            "sections": [
+              {
+                "hosted_item": "4_4_required_character_count, beachtrooper, deathstartrooper, grandmofftarkin, imperialofficer, tiefighterpilot",
+                "clear_as_group": false,
+                "visibility_rules": [
+                  "4_4_requires_purchase_characters"
                 ]
               }
             ],
@@ -1041,8 +1519,33 @@
             "sections": [
               {
                 "hosted_item": "4_5_unlock",
+                "clear_as_group": false,
                 "visibility_rules": [
-                  "chapters_unlock_with_unlock_item"
+                  "4_5_requires_unlock_item"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 4",
+                "x": 779,
+                "y": 166,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Story Characters To Unlock 4-5",
+            "visibility_rules": [
+              "4_5_enabled"
+            ],
+            "sections": [
+              {
+                "hosted_item": "4_5_required_character_count, c-3po, chewbacca, hansolo, lukeskywalker(tatooine), princessleia, r2-d2",
+                "clear_as_group": false,
+                "visibility_rules": [
+                  "4_5_requires_story_characters"
                 ]
               }
             ],
@@ -1064,8 +1567,57 @@
             "sections": [
               {
                 "hosted_item": "4_6_unlock",
+                "clear_as_group": false,
                 "visibility_rules": [
-                  "chapters_unlock_with_unlock_item"
+                  "4_6_requires_unlock_item"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 4",
+                "x": 940,
+                "y": 166,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Story Characters To Unlock 4-6",
+            "visibility_rules": [
+              "4_6_enabled"
+            ],
+            "sections": [
+              {
+                "hosted_item": "4_6_required_character_count, x-wing, y-wing",
+                "clear_as_group": false,
+                "visibility_rules": [
+                  "4_6_requires_story_characters"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 4",
+                "x": 940,
+                "y": 166,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Characters To Unlock 4-6",
+            "visibility_rules": [
+              "4_6_enabled"
+            ],
+            "sections": [
+              {
+                "hosted_item": "4_6_required_character_count, tiefighter, tiefighter(darthvader), tieinterceptor",
+                "clear_as_group": false,
+                "visibility_rules": [
+                  "4_6_requires_purchase_characters"
                 ]
               }
             ],
@@ -1085,14 +1637,17 @@
         "name": "Episode 5",
         "children": [
           {
-            "name": "Characters To Unlock 5-1",
+            "name": "Items To Unlock 5-1",
             "visibility_rules": [
               "5_1_enabled"
             ],
             "sections": [
               {
-                "hosted_item": "snowspeeder",
-                "clear_as_group": false
+                "hosted_item": "5_1_unlock",
+                "clear_as_group": false,
+                "visibility_rules": [
+                  "5_1_requires_unlock_item"
+                ]
               }
             ],
             "map_locations": [
@@ -1106,120 +1661,16 @@
             ]
           },
           {
-            "name": "Characters To Unlock 5-2",
-            "visibility_rules": [
-              "5_2_enabled"
-            ],
-            "sections": [
-              {
-                "hosted_item": "hansolo(hoth), princessleia(hoth), c-3po, chewbacca",
-                "clear_as_group": false
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "Episode 5",
-                "x": 274,
-                "y": 168,
-                "shape": "diamond",
-                "size": 20
-              }
-            ]
-          },
-          {
-            "name": "Characters To Unlock 5-3",
-            "visibility_rules": [
-              "5_3_enabled"
-            ],
-            "sections": [
-              {
-                "hosted_item": "millenniumfalcon, x-wing",
-                "clear_as_group": false
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "Episode 5",
-                "x": 474,
-                "y": 164,
-                "shape": "diamond",
-                "size": 20
-              }
-            ]
-          },
-          {
-            "name": "Characters To Unlock 5-4",
-            "visibility_rules": [
-              "5_4_enabled"
-            ],
-            "sections": [
-              {
-                "hosted_item": "lukeskywalker(pilot), lukeskywalker(dagobah), r2-d2, yoda",
-                "clear_as_group": false
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "Episode 5",
-                "x": 625,
-                "y": 159,
-                "shape": "diamond",
-                "size": 20
-              }
-            ]
-          },
-          {
-            "name": "Characters To Unlock 5-5",
-            "visibility_rules": [
-              "5_5_enabled"
-            ],
-            "sections": [
-              {
-                "hosted_item": "lukeskywalker(bespin), r2-d2",
-                "clear_as_group": false
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "Episode 5",
-                "x": 828,
-                "y": 166,
-                "shape": "diamond",
-                "size": 20
-              }
-            ]
-          },
-          {
-            "name": "Characters To Unlock 5-6",
-            "visibility_rules": [
-              "5_6_enabled"
-            ],
-            "sections": [
-              {
-                "hosted_item": "princessleia(bespin), landocalrissian, c-3po, r2-d2, chewbacca",
-                "clear_as_group": false
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "Episode 5",
-                "x": 986,
-                "y": 178,
-                "shape": "diamond",
-                "size": 20
-              }
-            ]
-          },
-          {
-            "name": "Items To Unlock 5-1",
+            "name": "Story Characters To Unlock 5-1",
             "visibility_rules": [
               "5_1_enabled"
             ],
             "sections": [
               {
-                "hosted_item": "5_1_unlock",
+                "hosted_item": "5_1_required_character_count, snowspeeder",
+                "clear_as_group": false,
                 "visibility_rules": [
-                  "chapters_unlock_with_unlock_item"
+                  "5_1_requires_story_characters"
                 ]
               }
             ],
@@ -1241,8 +1692,57 @@
             "sections": [
               {
                 "hosted_item": "5_2_unlock",
+                "clear_as_group": false,
                 "visibility_rules": [
-                  "chapters_unlock_with_unlock_item"
+                  "5_2_requires_unlock_item"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 5",
+                "x": 274,
+                "y": 168,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Story Characters To Unlock 5-2",
+            "visibility_rules": [
+              "5_2_enabled"
+            ],
+            "sections": [
+              {
+                "hosted_item": "5_2_required_character_count, c-3po, chewbacca, hansolo(hoth), princessleia(hoth)",
+                "clear_as_group": false,
+                "visibility_rules": [
+                  "5_2_requires_story_characters"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 5",
+                "x": 274,
+                "y": 168,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Characters To Unlock 5-2",
+            "visibility_rules": [
+              "5_2_enabled"
+            ],
+            "sections": [
+              {
+                "hosted_item": "5_2_required_character_count, hansolo(hood), lukeskywalker(hoth), rebelpilot, rebeltrooper(hoth), snowtrooper",
+                "clear_as_group": false,
+                "visibility_rules": [
+                  "5_2_requires_purchase_characters"
                 ]
               }
             ],
@@ -1264,8 +1764,57 @@
             "sections": [
               {
                 "hosted_item": "5_3_unlock",
+                "clear_as_group": false,
                 "visibility_rules": [
-                  "chapters_unlock_with_unlock_item"
+                  "5_3_requires_unlock_item"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 5",
+                "x": 474,
+                "y": 164,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Story Characters To Unlock 5-3",
+            "visibility_rules": [
+              "5_3_enabled"
+            ],
+            "sections": [
+              {
+                "hosted_item": "5_3_required_character_count, millenniumfalcon, x-wing",
+                "clear_as_group": false,
+                "visibility_rules": [
+                  "5_3_requires_story_characters"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 5",
+                "x": 474,
+                "y": 164,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Characters To Unlock 5-3",
+            "visibility_rules": [
+              "5_3_enabled"
+            ],
+            "sections": [
+              {
+                "hosted_item": "5_3_required_character_count, imperialshuttle, tiebomber",
+                "clear_as_group": false,
+                "visibility_rules": [
+                  "5_3_requires_purchase_characters"
                 ]
               }
             ],
@@ -1287,8 +1836,33 @@
             "sections": [
               {
                 "hosted_item": "5_4_unlock",
+                "clear_as_group": false,
                 "visibility_rules": [
-                  "chapters_unlock_with_unlock_item"
+                  "5_4_requires_unlock_item"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 5",
+                "x": 625,
+                "y": 159,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Story Characters To Unlock 5-4",
+            "visibility_rules": [
+              "5_4_enabled"
+            ],
+            "sections": [
+              {
+                "hosted_item": "5_4_required_character_count, lukeskywalker(dagobah), lukeskywalker(pilot), r2-d2, yoda",
+                "clear_as_group": false,
+                "visibility_rules": [
+                  "5_4_requires_story_characters"
                 ]
               }
             ],
@@ -1310,8 +1884,33 @@
             "sections": [
               {
                 "hosted_item": "5_5_unlock",
+                "clear_as_group": false,
                 "visibility_rules": [
-                  "chapters_unlock_with_unlock_item"
+                  "5_5_requires_unlock_item"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 5",
+                "x": 828,
+                "y": 166,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Story Characters To Unlock 5-5",
+            "visibility_rules": [
+              "5_5_enabled"
+            ],
+            "sections": [
+              {
+                "hosted_item": "5_5_required_character_count, lukeskywalker(bespin), r2-d2",
+                "clear_as_group": false,
+                "visibility_rules": [
+                  "5_5_requires_story_characters"
                 ]
               }
             ],
@@ -1333,8 +1932,57 @@
             "sections": [
               {
                 "hosted_item": "5_6_unlock",
+                "clear_as_group": false,
                 "visibility_rules": [
-                  "chapters_unlock_with_unlock_item"
+                  "5_6_requires_unlock_item"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 5",
+                "x": 986,
+                "y": 178,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Story Characters To Unlock 5-6",
+            "visibility_rules": [
+              "5_6_enabled"
+            ],
+            "sections": [
+              {
+                "hosted_item": "5_6_required_character_count, c-3po, chewbacca, landocalrissian, princessleia(bespin), r2-d2",
+                "clear_as_group": false,
+                "visibility_rules": [
+                  "5_6_requires_story_characters"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 5",
+                "x": 986,
+                "y": 178,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Characters To Unlock 5-6",
+            "visibility_rules": [
+              "5_6_enabled"
+            ],
+            "sections": [
+              {
+                "hosted_item": "5_6_required_character_count, bespinguard, lobot, princessleia(prisoner), ugnaught",
+                "clear_as_group": false,
+                "visibility_rules": [
+                  "5_6_requires_purchase_characters"
                 ]
               }
             ],
@@ -1354,14 +2002,17 @@
         "name": "Episode 6",
         "children": [
           {
-            "name": "Characters To Unlock 6-1",
+            "name": "Items To Unlock 6-1",
             "visibility_rules": [
               "6_1_enabled"
             ],
             "sections": [
               {
-                "hosted_item": "princessleia(boushh), chewbacca, lukeskywalker(jedi), r2-d2, c-3po, hansolo(skiff)",
-                "clear_as_group": false
+                "hosted_item": "6_1_unlock",
+                "clear_as_group": false,
+                "visibility_rules": [
+                  "6_1_requires_unlock_item"
+                ]
               }
             ],
             "map_locations": [
@@ -1375,120 +2026,40 @@
             ]
           },
           {
-            "name": "Characters To Unlock 6-2",
-            "visibility_rules": [
-              "6_2_enabled"
-            ],
-            "sections": [
-              {
-                "hosted_item": "lukeskywalker(jedi), landocalrissian(palaceguard), hansolo(skiff), chewbacca, r2-d2, c-3po, princessleia(slave)",
-                "clear_as_group": false
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "Episode 6",
-                "x": 251,
-                "y": 188,
-                "shape": "diamond",
-                "size": 20
-              }
-            ]
-          },
-          {
-            "name": "Characters To Unlock 6-3",
-            "visibility_rules": [
-              "6_3_enabled"
-            ],
-            "sections": [
-              {
-                "hosted_item": "lukeskywalker(endor), princessleia(endor)",
-                "clear_as_group": false
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "Episode 6",
-                "x": 412,
-                "y": 178,
-                "shape": "diamond",
-                "size": 20
-              }
-            ]
-          },
-          {
-            "name": "Characters To Unlock 6-4",
-            "visibility_rules": [
-              "6_4_enabled"
-            ],
-            "sections": [
-              {
-                "hosted_item": "hansolo(endor), princessleia(endor), chewbacca, r2-d2, c-3po, wicket",
-                "clear_as_group": false
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "Episode 6",
-                "x": 573,
-                "y": 176,
-                "shape": "diamond",
-                "size": 20
-              }
-            ]
-          },
-          {
-            "name": "Characters To Unlock 6-5",
-            "visibility_rules": [
-              "6_5_enabled"
-            ],
-            "sections": [
-              {
-                "hosted_item": "darthvader, lukeskywalker(jedi)",
-                "clear_as_group": false
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "Episode 6",
-                "x": 743,
-                "y": 184,
-                "shape": "diamond",
-                "size": 20
-              }
-            ]
-          },
-          {
-            "name": "Characters To Unlock 6-6",
-            "visibility_rules": [
-              "6_6_enabled"
-            ],
-            "sections": [
-              {
-                "hosted_item": "millenniumfalcon, x-wing",
-                "clear_as_group": false
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "Episode 6",
-                "x": 924,
-                "y": 196,
-                "shape": "diamond",
-                "size": 20
-              }
-            ]
-          },
-          {
-            "name": "Items To Unlock 6-1",
+            "name": "Story Characters To Unlock 6-1",
             "visibility_rules": [
               "6_1_enabled"
             ],
             "sections": [
               {
-                "hosted_item": "6_1_unlock",
+                "hosted_item": "6_1_required_character_count, c-3po, chewbacca, hansolo(skiff), lukeskywalker(jedi), princessleia(boushh), r2-d2",
+                "clear_as_group": false,
                 "visibility_rules": [
-                  "chapters_unlock_with_unlock_item"
+                  "6_1_requires_story_characters"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 6",
+                "x": 82,
+                "y": 204,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Characters To Unlock 6-1",
+            "visibility_rules": [
+              "6_1_enabled"
+            ],
+            "sections": [
+              {
+                "hosted_item": "6_1_required_character_count, bibfortuna, bossk, gamorreanguard, palaceguard",
+                "clear_as_group": false,
+                "visibility_rules": [
+                  "6_1_requires_purchase_characters"
                 ]
               }
             ],
@@ -1510,8 +2081,57 @@
             "sections": [
               {
                 "hosted_item": "6_2_unlock",
+                "clear_as_group": false,
                 "visibility_rules": [
-                  "chapters_unlock_with_unlock_item"
+                  "6_2_requires_unlock_item"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 6",
+                "x": 251,
+                "y": 188,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Story Characters To Unlock 6-2",
+            "visibility_rules": [
+              "6_2_enabled"
+            ],
+            "sections": [
+              {
+                "hosted_item": "6_2_required_character_count, c-3po, chewbacca, hansolo(skiff), landocalrissian(palaceguard), lukeskywalker(jedi), princessleia(slave), r2-d2",
+                "clear_as_group": false,
+                "visibility_rules": [
+                  "6_2_requires_story_characters"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 6",
+                "x": 251,
+                "y": 188,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Characters To Unlock 6-2",
+            "visibility_rules": [
+              "6_2_enabled"
+            ],
+            "sections": [
+              {
+                "hosted_item": "6_2_required_character_count, bobafett, skiffguard",
+                "clear_as_group": false,
+                "visibility_rules": [
+                  "6_2_requires_purchase_characters"
                 ]
               }
             ],
@@ -1533,8 +2153,33 @@
             "sections": [
               {
                 "hosted_item": "6_3_unlock",
+                "clear_as_group": false,
                 "visibility_rules": [
-                  "chapters_unlock_with_unlock_item"
+                  "6_3_requires_unlock_item"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 6",
+                "x": 412,
+                "y": 178,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Story Characters To Unlock 6-3",
+            "visibility_rules": [
+              "6_3_enabled"
+            ],
+            "sections": [
+              {
+                "hosted_item": "6_3_required_character_count, lukeskywalker(endor), princessleia(endor)",
+                "clear_as_group": false,
+                "visibility_rules": [
+                  "6_3_requires_story_characters"
                 ]
               }
             ],
@@ -1556,8 +2201,57 @@
             "sections": [
               {
                 "hosted_item": "6_4_unlock",
+                "clear_as_group": false,
                 "visibility_rules": [
-                  "chapters_unlock_with_unlock_item"
+                  "6_4_requires_unlock_item"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 6",
+                "x": 573,
+                "y": 176,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Story Characters To Unlock 6-4",
+            "visibility_rules": [
+              "6_4_enabled"
+            ],
+            "sections": [
+              {
+                "hosted_item": "6_4_required_character_count, c-3po, chewbacca, hansolo(endor), princessleia(endor), r2-d2, wicket",
+                "clear_as_group": false,
+                "visibility_rules": [
+                  "6_4_requires_story_characters"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 6",
+                "x": 573,
+                "y": 176,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Characters To Unlock 6-4",
+            "visibility_rules": [
+              "6_4_enabled"
+            ],
+            "sections": [
+              {
+                "hosted_item": "6_4_required_character_count, ewok",
+                "clear_as_group": false,
+                "visibility_rules": [
+                  "6_4_requires_purchase_characters"
                 ]
               }
             ],
@@ -1579,8 +2273,57 @@
             "sections": [
               {
                 "hosted_item": "6_5_unlock",
+                "clear_as_group": false,
                 "visibility_rules": [
-                  "chapters_unlock_with_unlock_item"
+                  "6_5_requires_unlock_item"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 6",
+                "x": 743,
+                "y": 184,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Story Characters To Unlock 6-5",
+            "visibility_rules": [
+              "6_5_enabled"
+            ],
+            "sections": [
+              {
+                "hosted_item": "6_5_required_character_count, darthvader, lukeskywalker(jedi)",
+                "clear_as_group": false,
+                "visibility_rules": [
+                  "6_5_requires_story_characters"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 6",
+                "x": 743,
+                "y": 184,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Characters To Unlock 6-5",
+            "visibility_rules": [
+              "6_5_enabled"
+            ],
+            "sections": [
+              {
+                "hosted_item": "6_5_required_character_count, imperialguard, theemperor",
+                "clear_as_group": false,
+                "visibility_rules": [
+                  "6_5_requires_purchase_characters"
                 ]
               }
             ],
@@ -1602,8 +2345,57 @@
             "sections": [
               {
                 "hosted_item": "6_6_unlock",
+                "clear_as_group": false,
                 "visibility_rules": [
-                  "chapters_unlock_with_unlock_item"
+                  "6_6_requires_unlock_item"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 6",
+                "x": 924,
+                "y": 196,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Story Characters To Unlock 6-6",
+            "visibility_rules": [
+              "6_6_enabled"
+            ],
+            "sections": [
+              {
+                "hosted_item": "6_6_required_character_count, millenniumfalcon, x-wing",
+                "clear_as_group": false,
+                "visibility_rules": [
+                  "6_6_requires_story_characters"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Episode 6",
+                "x": 924,
+                "y": 196,
+                "shape": "diamond",
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "Characters To Unlock 6-6",
+            "visibility_rules": [
+              "6_6_enabled"
+            ],
+            "sections": [
+              {
+                "hosted_item": "6_6_required_character_count, admiralackbar",
+                "clear_as_group": false,
+                "visibility_rules": [
+                  "6_6_requires_purchase_characters"
                 ]
               }
             ],

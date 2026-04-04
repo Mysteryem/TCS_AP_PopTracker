@@ -619,640 +619,280 @@
           {
             "name": "1-1",
             "access_rules": [
-              [
-                "chapters_unlock_with_story_characters",
-                "1_1_requires_story_characters",
-                "1_1_story_character:4"
-              ],
-              [
-                "chapters_unlock_with_story_characters",
-                "1_1_requires_purchase_characters",
-                "1_1_purchase_character:4"
-              ],
-              [
-                "chapters_unlock_with_unlock_item",
-                "1_1_unlock"
-              ]
+              "1_1_requires_story_characters, $has_story_characters|1_1",
+              "1_1_requires_purchase_characters, $has_purchase_characters|1_1",
+              "1_1_requires_unlock_item, 1_1_unlock"
             ]
           },
           {
             "name": "1-2",
             "access_rules": [
-              [
-                "chapters_unlock_with_story_characters",
-                "1_2_requires_story_characters",
-                "1_2_story_character:3"
-              ],
-              [
-                "chapters_unlock_with_story_characters",
-                "1_2_requires_purchase_characters",
-                "1_2_purchase_character:3"
-              ],
-              [
-                "chapters_unlock_with_unlock_item",
-                "1_2_unlock"
-              ]
+              "1_2_requires_story_characters, $has_story_characters|1_2",
+              "1_2_requires_purchase_characters, $has_purchase_characters|1_2",
+              "1_2_requires_unlock_item, 1_2_unlock"
             ]
           },
           {
             "name": "1-3",
             "access_rules": [
-              [
-                "chapters_unlock_with_story_characters",
-                "1_3_requires_story_characters",
-                "1_3_story_character:4"
-              ],
-              [
-                "chapters_unlock_with_story_characters",
-                "1_3_requires_purchase_characters",
-                "1_3_purchase_character:4"
-              ],
-              [
-                "chapters_unlock_with_unlock_item",
-                "1_3_unlock"
-              ]
+              "1_3_requires_story_characters, $has_story_characters|1_3",
+              "1_3_requires_purchase_characters, $has_purchase_characters|1_3",
+              "1_3_requires_unlock_item, 1_3_unlock"
             ]
           },
           {
             "name": "1-4",
             "access_rules": [
-              [
-                "chapters_unlock_with_story_characters",
-                "1_4_requires_story_characters",
-                "1_4_story_character:3"
-              ],
-              [
-                "chapters_unlock_with_story_characters",
-                "1_4_requires_purchase_characters",
-                "1_4_purchase_character:3"
-              ],
-              [
-                "chapters_unlock_with_unlock_item",
-                "1_4_unlock"
-              ]
+              "1_4_requires_story_characters, $has_story_characters|1_4",
+              "1_4_requires_purchase_characters, $has_purchase_characters|1_4",
+              "1_4_requires_unlock_item, 1_4_unlock"
             ]
           },
           {
             "name": "1-5",
             "access_rules": [
-              [
-                "chapters_unlock_with_story_characters",
-                "1_5_requires_story_characters",
-                "1_5_story_character:6"
-              ],
-              [
-                "chapters_unlock_with_unlock_item",
-                "1_5_unlock"
-              ]
+              "1_5_requires_story_characters, $has_story_characters|1_5",
+              "1_5_requires_unlock_item, 1_5_unlock"
             ]
           },
           {
             "name": "1-6",
             "access_rules": [
-              [
-                "chapters_unlock_with_story_characters",
-                "1_6_requires_story_characters",
-                "1_6_story_character:2"
-              ],
-              [
-                "chapters_unlock_with_story_characters",
-                "1_6_requires_purchase_characters",
-                "1_6_purchase_character:2"
-              ],
-              [
-                "chapters_unlock_with_unlock_item",
-                "1_6_unlock"
-              ]
+              "1_6_requires_story_characters, $has_story_characters|1_6",
+              "1_6_requires_purchase_characters, $has_purchase_characters|1_6",
+              "1_6_requires_unlock_item, 1_6_unlock"
             ]
           },
           {
             "name": "2-1",
             "access_rules": [
-              [
-                "chapters_unlock_with_story_characters",
-                "2_1_requires_story_characters",
-                "2_1_story_character:3"
-              ],
-              [
-                "chapters_unlock_with_story_characters",
-                "2_1_requires_purchase_characters",
-                "2_1_purchase_character:3"
-              ],
-              [
-                "chapters_unlock_with_unlock_item",
-                "2_1_unlock"
-              ]
+              "2_1_requires_story_characters, $has_story_characters|2_1",
+              "2_1_requires_purchase_characters, $has_purchase_characters|2_1",
+              "2_1_requires_unlock_item, 2_1_unlock"
             ]
           },
           {
             "name": "2-2",
             "access_rules": [
-              [
-                "chapters_unlock_with_story_characters",
-                "2_2_requires_story_characters",
-                "2_2_story_character:3"
-              ],
-              [
-                "chapters_unlock_with_story_characters",
-                "2_2_requires_purchase_characters",
-                "2_2_purchase_character:3"
-              ],
-              [
-                "chapters_unlock_with_unlock_item",
-                "2_2_unlock"
-              ]
+              "2_2_requires_story_characters, $has_story_characters|2_2",
+              "2_2_requires_purchase_characters, $has_purchase_characters|2_2",
+              "2_2_requires_unlock_item, 2_2_unlock"
             ]
           },
           {
             "name": "2-3",
             "access_rules": [
-              [
-                "chapters_unlock_with_story_characters",
-                "2_3_requires_story_characters",
-                "2_3_story_character:4"
-              ],
-              [
-                "chapters_unlock_with_story_characters",
-                "2_3_requires_purchase_characters",
-                "2_3_purchase_character:4"
-              ],
-              [
-                "chapters_unlock_with_unlock_item",
-                "2_3_unlock"
-              ]
+              "2_3_requires_story_characters, $has_story_characters|2_3",
+              "2_3_requires_purchase_characters, $has_purchase_characters|2_3",
+              "2_3_requires_unlock_item, 2_3_unlock"
             ]
           },
           {
             "name": "2-4",
             "access_rules": [
-              [
-                "chapters_unlock_with_story_characters",
-                "2_4_requires_story_characters",
-                "2_4_story_character:9"
-              ],
-              [
-                "chapters_unlock_with_story_characters",
-                "2_4_requires_purchase_characters",
-                "2_4_purchase_character:9"
-              ],
-              [
-                "chapters_unlock_with_unlock_item",
-                "2_4_unlock"
-              ]
+              "2_4_requires_story_characters, $has_story_characters|2_4",
+              "2_4_requires_purchase_characters, $has_purchase_characters|2_4",
+              "2_4_requires_unlock_item, 2_4_unlock"
             ]
           },
           {
             "name": "2-5",
             "access_rules": [
-              [
-                "chapters_unlock_with_story_characters",
-                "2_5_requires_story_characters",
-                "2_5_story_character:1"
-              ],
-              [
-                "chapters_unlock_with_unlock_item",
-                "2_5_unlock"
-              ]
+              "2_5_requires_story_characters, $has_story_characters|2_5",
+              "2_5_requires_unlock_item, 2_5_unlock"
             ]
           },
           {
             "name": "2-6",
             "access_rules": [
-              [
-                "chapters_unlock_with_story_characters",
-                "2_6_requires_story_characters",
-                "2_6_story_character:3"
-              ],
-              [
-                "chapters_unlock_with_unlock_item",
-                "2_6_unlock"
-              ]
+              "2_6_requires_story_characters, $has_story_characters|2_6",
+              "2_6_requires_unlock_item, 2_6_unlock"
             ]
           },
           {
             "name": "3-1",
             "access_rules": [
-              [
-                "chapters_unlock_with_story_characters",
-                "3_1_requires_story_characters",
-                "3_1_story_character:3"
-              ],
-              [
-                "chapters_unlock_with_story_characters",
-                "3_1_requires_purchase_characters",
-                "3_1_purchase_character:3"
-              ],
-              [
-                "chapters_unlock_with_unlock_item",
-                "3_1_unlock"
-              ]
+              "3_1_requires_story_characters, $has_story_characters|3_1",
+              "3_1_requires_purchase_characters, $has_purchase_characters|3_1",
+              "3_1_requires_unlock_item, 3_1_unlock"
             ]
           },
           {
             "name": "3-2",
             "access_rules": [
-              [
-                "chapters_unlock_with_story_characters",
-                "3_2_requires_story_characters",
-                "3_2_story_character:4"
-              ],
-              [
-                "chapters_unlock_with_story_characters",
-                "3_2_requires_purchase_characters",
-                "3_2_purchase_character:4"
-              ],
-              [
-                "chapters_unlock_with_unlock_item",
-                "3_2_unlock"
-              ]
+              "3_2_requires_story_characters, $has_story_characters|3_2",
+              "3_2_requires_purchase_characters, $has_purchase_characters|3_2",
+              "3_2_requires_unlock_item, 3_2_unlock"
             ]
           },
           {
             "name": "3-3",
             "access_rules": [
-              [
-                "chapters_unlock_with_story_characters",
-                "3_3_requires_story_characters",
-                "3_3_story_character:2"
-              ],
-              [
-                "chapters_unlock_with_story_characters",
-                "3_3_requires_purchase_characters",
-                "3_3_purchase_character:2"
-              ],
-              [
-                "chapters_unlock_with_unlock_item",
-                "3_3_unlock"
-              ]
+              "3_3_requires_story_characters, $has_story_characters|3_3",
+              "3_3_requires_purchase_characters, $has_purchase_characters|3_3",
+              "3_3_requires_unlock_item, 3_3_unlock"
             ]
           },
           {
             "name": "3-4",
             "access_rules": [
-              [
-                "chapters_unlock_with_story_characters",
-                "3_4_requires_story_characters",
-                "3_4_story_character:5"
-              ],
-              [
-                "chapters_unlock_with_story_characters",
-                "3_4_requires_purchase_characters",
-                "3_4_purchase_character:5"
-              ],
-              [
-                "chapters_unlock_with_unlock_item",
-                "3_4_unlock"
-              ]
+              "3_4_requires_story_characters, $has_story_characters|3_4",
+              "3_4_requires_purchase_characters, $has_purchase_characters|3_4",
+              "3_4_requires_unlock_item, 3_4_unlock"
             ]
           },
           {
             "name": "3-5",
             "access_rules": [
-              [
-                "chapters_unlock_with_story_characters",
-                "3_5_requires_story_characters",
-                "3_5_story_character:2"
-              ],
-              [
-                "chapters_unlock_with_story_characters",
-                "3_5_requires_purchase_characters",
-                "3_5_purchase_character:2"
-              ],
-              [
-                "chapters_unlock_with_unlock_item",
-                "3_5_unlock"
-              ]
+              "3_5_requires_story_characters, $has_story_characters|3_5",
+              "3_5_requires_purchase_characters, $has_purchase_characters|3_5",
+              "3_5_requires_unlock_item, 3_5_unlock"
             ]
           },
           {
             "name": "3-6",
             "access_rules": [
-              [
-                "chapters_unlock_with_story_characters",
-                "3_6_requires_story_characters",
-                "3_6_story_character:2"
-              ],
-              [
-                "chapters_unlock_with_unlock_item",
-                "3_6_unlock"
-              ]
+              "3_6_requires_story_characters, $has_story_characters|3_6",
+              "3_6_requires_unlock_item, 3_6_unlock"
             ]
           },
           {
             "name": "4-1",
             "access_rules": [
-              [
-                "chapters_unlock_with_story_characters",
-                "4_1_requires_story_characters",
-                "4_1_story_character:5"
-              ],
-              [
-                "chapters_unlock_with_story_characters",
-                "4_1_requires_purchase_characters",
-                "4_1_purchase_character:5"
-              ],
-              [
-                "chapters_unlock_with_unlock_item",
-                "4_1_unlock"
-              ]
+              "4_1_requires_story_characters, $has_story_characters|4_1",
+              "4_1_requires_purchase_characters, $has_purchase_characters|4_1",
+              "4_1_requires_unlock_item, 4_1_unlock"
             ]
           },
           {
             "name": "4-2",
             "access_rules": [
-              [
-                "chapters_unlock_with_story_characters",
-                "4_2_requires_story_characters",
-                "4_2_story_character:4"
-              ],
-              [
-                "chapters_unlock_with_story_characters",
-                "4_2_requires_purchase_characters",
-                "4_2_purchase_character:4"
-              ],
-              [
-                "chapters_unlock_with_unlock_item",
-                "4_2_unlock"
-              ]
+              "4_2_requires_story_characters, $has_story_characters|4_2",
+              "4_2_requires_purchase_characters, $has_purchase_characters|4_2",
+              "4_2_requires_unlock_item, 4_2_unlock"
             ]
           },
           {
             "name": "4-3",
             "access_rules": [
-              [
-                "chapters_unlock_with_story_characters",
-                "4_3_requires_story_characters",
-                "4_3_story_character:6"
-              ],
-              [
-                "chapters_unlock_with_story_characters",
-                "4_3_requires_purchase_characters",
-                "4_3_purchase_character:6"
-              ],
-              [
-                "chapters_unlock_with_unlock_item",
-                "4_3_unlock"
-              ]
+              "4_3_requires_story_characters, $has_story_characters|4_3",
+              "4_3_requires_purchase_characters, $has_purchase_characters|4_3",
+              "4_3_requires_unlock_item, 4_3_unlock"
             ]
           },
           {
             "name": "4-4",
             "access_rules": [
-              [
-                "chapters_unlock_with_story_characters",
-                "4_4_requires_story_characters",
-                "4_4_story_character:6"
-              ],
-              [
-                "chapters_unlock_with_story_characters",
-                "4_4_requires_purchase_characters",
-                "4_4_purchase_character:6"
-              ],
-              [
-                "chapters_unlock_with_unlock_item",
-                "4_4_unlock"
-              ]
+              "4_4_requires_story_characters, $has_story_characters|4_4",
+              "4_4_requires_purchase_characters, $has_purchase_characters|4_4",
+              "4_4_requires_unlock_item, 4_4_unlock"
             ]
           },
           {
             "name": "4-5",
             "access_rules": [
-              [
-                "chapters_unlock_with_story_characters",
-                "4_5_requires_story_characters",
-                "4_5_story_character:6"
-              ],
-              [
-                "chapters_unlock_with_unlock_item",
-                "4_5_unlock"
-              ]
+              "4_5_requires_story_characters, $has_story_characters|4_5",
+              "4_5_requires_unlock_item, 4_5_unlock"
             ]
           },
           {
             "name": "4-6",
             "access_rules": [
-              [
-                "chapters_unlock_with_story_characters",
-                "4_6_requires_story_characters",
-                "4_6_story_character:3"
-              ],
-              [
-                "chapters_unlock_with_story_characters",
-                "4_6_requires_purchase_characters",
-                "4_6_purchase_character:3"
-              ],
-              [
-                "chapters_unlock_with_unlock_item",
-                "4_6_unlock"
-              ]
+              "4_6_requires_story_characters, $has_story_characters|4_6",
+              "4_6_requires_purchase_characters, $has_purchase_characters|4_6",
+              "4_6_requires_unlock_item, 4_6_unlock"
             ]
           },
           {
             "name": "5-1",
             "access_rules": [
-              [
-                "chapters_unlock_with_story_characters",
-                "5_1_requires_story_characters",
-                "5_1_story_character:1"
-              ],
-              [
-                "chapters_unlock_with_unlock_item",
-                "5_1_unlock"
-              ]
+              "5_1_requires_story_characters, $has_story_characters|5_1",
+              "5_1_requires_unlock_item, 5_1_unlock"
             ]
           },
           {
             "name": "5-2",
             "access_rules": [
-              [
-                "chapters_unlock_with_story_characters",
-                "5_2_requires_story_characters",
-                "5_2_story_character:5"
-              ],
-              [
-                "chapters_unlock_with_story_characters",
-                "5_2_requires_purchase_characters",
-                "5_2_purchase_character:5"
-              ],
-              [
-                "chapters_unlock_with_unlock_item",
-                "5_2_unlock"
-              ]
+              "5_2_requires_story_characters, $has_story_characters|5_2",
+              "5_2_requires_purchase_characters, $has_purchase_characters|5_2",
+              "5_2_requires_unlock_item, 5_2_unlock"
             ]
           },
           {
             "name": "5-3",
             "access_rules": [
-              [
-                "chapters_unlock_with_story_characters",
-                "5_3_requires_story_characters",
-                "5_3_story_character:2"
-              ],
-              [
-                "chapters_unlock_with_story_characters",
-                "5_3_requires_purchase_characters",
-                "5_3_purchase_character:2"
-              ],
-              [
-                "chapters_unlock_with_unlock_item",
-                "5_3_unlock"
-              ]
+              "5_3_requires_story_characters, $has_story_characters|5_3",
+              "5_3_requires_purchase_characters, $has_purchase_characters|5_3",
+              "5_3_requires_unlock_item, 5_3_unlock"
             ]
           },
           {
             "name": "5-4",
             "access_rules": [
-              [
-                "chapters_unlock_with_story_characters",
-                "5_4_requires_story_characters",
-                "5_4_story_character:4"
-              ],
-              [
-                "chapters_unlock_with_unlock_item",
-                "5_4_unlock"
-              ]
+              "5_4_requires_story_characters, $has_story_characters|5_4",
+              "5_4_requires_unlock_item, 5_4_unlock"
             ]
           },
           {
             "name": "5-5",
             "access_rules": [
-              [
-                "chapters_unlock_with_story_characters",
-                "5_5_requires_story_characters",
-                "5_5_story_character:2"
-              ],
-              [
-                "chapters_unlock_with_unlock_item",
-                "5_5_unlock"
-              ]
+              "5_5_requires_story_characters, $has_story_characters|5_5",
+              "5_5_requires_unlock_item, 5_5_unlock"
             ]
           },
           {
             "name": "5-6",
             "access_rules": [
-              [
-                "chapters_unlock_with_story_characters",
-                "5_6_requires_story_characters",
-                "5_6_story_character:5"
-              ],
-              [
-                "chapters_unlock_with_story_characters",
-                "5_6_requires_purchase_characters",
-                "5_6_purchase_character:5"
-              ],
-              [
-                "chapters_unlock_with_unlock_item",
-                "5_6_unlock"
-              ]
+              "5_6_requires_story_characters, $has_story_characters|5_6",
+              "5_6_requires_purchase_characters, $has_purchase_characters|5_6",
+              "5_6_requires_unlock_item, 5_6_unlock"
             ]
           },
           {
             "name": "6-1",
             "access_rules": [
-              [
-                "chapters_unlock_with_story_characters",
-                "6_1_requires_story_characters",
-                "6_1_story_character:6"
-              ],
-              [
-                "chapters_unlock_with_story_characters",
-                "6_1_requires_purchase_characters",
-                "6_1_purchase_character:6"
-              ],
-              [
-                "chapters_unlock_with_unlock_item",
-                "6_1_unlock"
-              ]
+              "6_1_requires_story_characters, $has_story_characters|6_1",
+              "6_1_requires_purchase_characters, $has_purchase_characters|6_1",
+              "6_1_requires_unlock_item, 6_1_unlock"
             ]
           },
           {
             "name": "6-2",
             "access_rules": [
-              [
-                "chapters_unlock_with_story_characters",
-                "6_2_requires_story_characters",
-                "6_2_story_character:7"
-              ],
-              [
-                "chapters_unlock_with_story_characters",
-                "6_2_requires_purchase_characters",
-                "6_2_purchase_character:7"
-              ],
-              [
-                "chapters_unlock_with_unlock_item",
-                "6_2_unlock"
-              ]
+              "6_2_requires_story_characters, $has_story_characters|6_2",
+              "6_2_requires_purchase_characters, $has_purchase_characters|6_2",
+              "6_2_requires_unlock_item, 6_2_unlock"
             ]
           },
           {
             "name": "6-3",
             "access_rules": [
-              [
-                "chapters_unlock_with_story_characters",
-                "6_3_requires_story_characters",
-                "6_3_story_character:2"
-              ],
-              [
-                "chapters_unlock_with_unlock_item",
-                "6_3_unlock"
-              ]
+              "6_3_requires_story_characters, $has_story_characters|6_3",
+              "6_3_requires_unlock_item, 6_3_unlock"
             ]
           },
           {
             "name": "6-4",
             "access_rules": [
-              [
-                "chapters_unlock_with_story_characters",
-                "6_4_requires_story_characters",
-                "6_4_story_character:6"
-              ],
-              [
-                "chapters_unlock_with_story_characters",
-                "6_4_requires_purchase_characters",
-                "6_4_purchase_character:6"
-              ],
-              [
-                "chapters_unlock_with_unlock_item",
-                "6_4_unlock"
-              ]
+              "6_4_requires_story_characters, $has_story_characters|6_4",
+              "6_4_requires_purchase_characters, $has_purchase_characters|6_4",
+              "6_4_requires_unlock_item, 6_4_unlock"
             ]
           },
           {
             "name": "6-5",
             "access_rules": [
-              [
-                "chapters_unlock_with_story_characters",
-                "6_5_requires_story_characters",
-                "6_5_story_character:2"
-              ],
-              [
-                "chapters_unlock_with_story_characters",
-                "6_5_requires_purchase_characters",
-                "6_5_purchase_character:2"
-              ],
-              [
-                "chapters_unlock_with_unlock_item",
-                "6_5_unlock"
-              ]
+              "6_5_requires_story_characters, $has_story_characters|6_5",
+              "6_5_requires_purchase_characters, $has_purchase_characters|6_5",
+              "6_5_requires_unlock_item, 6_5_unlock"
             ]
           },
           {
             "name": "6-6",
             "access_rules": [
-              [
-                "chapters_unlock_with_story_characters",
-                "6_6_requires_story_characters",
-                "6_6_story_character:2"
-              ],
-              [
-                "chapters_unlock_with_story_characters",
-                "6_6_requires_purchase_characters",
-                "6_6_purchase_character:2"
-              ],
-              [
-                "chapters_unlock_with_unlock_item",
-                "6_6_unlock"
-              ]
+              "6_6_requires_story_characters, $has_story_characters|6_6",
+              "6_6_requires_purchase_characters, $has_purchase_characters|6_6",
+              "6_6_requires_unlock_item, 6_6_unlock"
             ]
           }
         ]

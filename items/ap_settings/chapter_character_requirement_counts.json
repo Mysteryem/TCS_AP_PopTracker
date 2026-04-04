@@ -1,0 +1,874 @@
+[
+  {
+    "name": "1-1 Characters Required",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 2,
+    "stages": [
+      {
+        "name": "1 Character Required",
+        "img": "images/settings/chapter_requirements/1.png",
+        "codes": "1_1_required_character_count"
+      },
+      {
+        "name": "2 Characters Required",
+        "img": "images/settings/chapter_requirements/2.png"
+      },
+      {
+        "name": "3 Characters Required",
+        "img": "images/settings/chapter_requirements/3.png"
+      },
+      {
+        "name": "4 Characters Required",
+        "img": "images/settings/chapter_requirements/4.png"
+      }
+    ]
+  },
+  {
+    "name": "1-2 Characters Required",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 2,
+    "stages": [
+      {
+        "name": "1 Character Required",
+        "img": "images/settings/chapter_requirements/1.png",
+        "codes": "1_2_required_character_count"
+      },
+      {
+        "name": "2 Characters Required",
+        "img": "images/settings/chapter_requirements/2.png"
+      },
+      {
+        "name": "3 Characters Required",
+        "img": "images/settings/chapter_requirements/3.png"
+      }
+    ]
+  },
+  {
+    "name": "1-3 Characters Required",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 3,
+    "stages": [
+      {
+        "name": "1 Character Required",
+        "img": "images/settings/chapter_requirements/1.png",
+        "codes": "1_3_required_character_count"
+      },
+      {
+        "name": "2 Characters Required",
+        "img": "images/settings/chapter_requirements/2.png"
+      },
+      {
+        "name": "3 Characters Required",
+        "img": "images/settings/chapter_requirements/3.png"
+      },
+      {
+        "name": "4 Characters Required",
+        "img": "images/settings/chapter_requirements/4.png"
+      }
+    ]
+  },
+  {
+    "name": "1-4 Characters Required",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "name": "1 Character Required",
+        "img": "images/settings/chapter_requirements/1.png",
+        "codes": "1_4_required_character_count"
+      },
+      {
+        "name": "2 Characters Required",
+        "img": "images/settings/chapter_requirements/2.png"
+      },
+      {
+        "name": "3 Characters Required",
+        "img": "images/settings/chapter_requirements/3.png"
+      }
+    ]
+  },
+  {
+    "name": "1-5 Characters Required",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 5,
+    "stages": [
+      {
+        "name": "1 Character Required",
+        "img": "images/settings/chapter_requirements/1.png",
+        "codes": "1_5_required_character_count"
+      },
+      {
+        "name": "2 Characters Required",
+        "img": "images/settings/chapter_requirements/2.png"
+      },
+      {
+        "name": "3 Characters Required",
+        "img": "images/settings/chapter_requirements/3.png"
+      },
+      {
+        "name": "4 Characters Required",
+        "img": "images/settings/chapter_requirements/4.png"
+      },
+      {
+        "name": "5 Characters Required",
+        "img": "images/settings/chapter_requirements/5.png"
+      },
+      {
+        "name": "6 Characters Required",
+        "img": "images/settings/chapter_requirements/6.png"
+      }
+    ]
+  },
+  {
+    "name": "1-6 Characters Required",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "name": "1 Character Required",
+        "img": "images/settings/chapter_requirements/1.png",
+        "codes": "1_6_required_character_count"
+      },
+      {
+        "name": "2 Characters Required",
+        "img": "images/settings/chapter_requirements/2.png"
+      }
+    ]
+  },
+  {
+    "name": "2-1 Characters Required",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "name": "1 Character Required",
+        "img": "images/settings/chapter_requirements/1.png",
+        "codes": "2_1_required_character_count"
+      },
+      {
+        "name": "2 Characters Required",
+        "img": "images/settings/chapter_requirements/2.png"
+      },
+      {
+        "name": "3 Characters Required",
+        "img": "images/settings/chapter_requirements/3.png"
+      }
+    ]
+  },
+  {
+    "name": "2-2 Characters Required",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "name": "1 Character Required",
+        "img": "images/settings/chapter_requirements/1.png",
+        "codes": "2_2_required_character_count"
+      },
+      {
+        "name": "2 Characters Required",
+        "img": "images/settings/chapter_requirements/2.png"
+      },
+      {
+        "name": "3 Characters Required",
+        "img": "images/settings/chapter_requirements/3.png"
+      }
+    ]
+  },
+  {
+    "name": "2-3 Characters Required",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 3,
+    "stages": [
+      {
+        "name": "1 Character Required",
+        "img": "images/settings/chapter_requirements/1.png",
+        "codes": "2_3_required_character_count"
+      },
+      {
+        "name": "2 Characters Required",
+        "img": "images/settings/chapter_requirements/2.png"
+      },
+      {
+        "name": "3 Characters Required",
+        "img": "images/settings/chapter_requirements/3.png"
+      },
+      {
+        "name": "4 Characters Required",
+        "img": "images/settings/chapter_requirements/4.png"
+      }
+    ]
+  },
+  {
+    "name": "2-4 Characters Required",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 4,
+    "stages": [
+      {
+        "name": "1 Character Required",
+        "img": "images/settings/chapter_requirements/1.png",
+        "codes": "2_4_required_character_count"
+      },
+      {
+        "name": "2 Characters Required",
+        "img": "images/settings/chapter_requirements/2.png"
+      },
+      {
+        "name": "3 Characters Required",
+        "img": "images/settings/chapter_requirements/3.png"
+      },
+      {
+        "name": "4 Characters Required",
+        "img": "images/settings/chapter_requirements/4.png"
+      },
+      {
+        "name": "5 Characters Required",
+        "img": "images/settings/chapter_requirements/5.png"
+      },
+      {
+        "name": "6 Characters Required",
+        "img": "images/settings/chapter_requirements/6.png"
+      },
+      {
+        "name": "7 Characters Required",
+        "img": "images/settings/chapter_requirements/7.png"
+      },
+      {
+        "name": "8 Characters Required",
+        "img": "images/settings/chapter_requirements/8.png"
+      },
+      {
+        "name": "9 Characters Required",
+        "img": "images/settings/chapter_requirements/9.png"
+      }
+    ]
+  },
+  {
+    "name": "2-5 Characters Required",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "name": "1 Character Required",
+        "img": "images/settings/chapter_requirements/1.png",
+        "codes": "2_5_required_character_count"
+      }
+    ]
+  },
+  {
+    "name": "2-6 Characters Required",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 2,
+    "stages": [
+      {
+        "name": "1 Character Required",
+        "img": "images/settings/chapter_requirements/1.png",
+        "codes": "2_6_required_character_count"
+      },
+      {
+        "name": "2 Characters Required",
+        "img": "images/settings/chapter_requirements/2.png"
+      },
+      {
+        "name": "3 Characters Required",
+        "img": "images/settings/chapter_requirements/3.png"
+      }
+    ]
+  },
+  {
+    "name": "3-1 Characters Required",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "name": "1 Character Required",
+        "img": "images/settings/chapter_requirements/1.png",
+        "codes": "3_1_required_character_count"
+      },
+      {
+        "name": "2 Characters Required",
+        "img": "images/settings/chapter_requirements/2.png"
+      },
+      {
+        "name": "3 Characters Required",
+        "img": "images/settings/chapter_requirements/3.png"
+      }
+    ]
+  },
+  {
+    "name": "3-2 Characters Required",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 3,
+    "stages": [
+      {
+        "name": "1 Character Required",
+        "img": "images/settings/chapter_requirements/1.png",
+        "codes": "3_2_required_character_count"
+      },
+      {
+        "name": "2 Characters Required",
+        "img": "images/settings/chapter_requirements/2.png"
+      },
+      {
+        "name": "3 Characters Required",
+        "img": "images/settings/chapter_requirements/3.png"
+      },
+      {
+        "name": "4 Characters Required",
+        "img": "images/settings/chapter_requirements/4.png"
+      }
+    ]
+  },
+  {
+    "name": "3-3 Characters Required",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "name": "1 Character Required",
+        "img": "images/settings/chapter_requirements/1.png",
+        "codes": "3_3_required_character_count"
+      },
+      {
+        "name": "2 Characters Required",
+        "img": "images/settings/chapter_requirements/2.png"
+      }
+    ]
+  },
+  {
+    "name": "3-4 Characters Required",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "name": "1 Character Required",
+        "img": "images/settings/chapter_requirements/1.png",
+        "codes": "3_4_required_character_count"
+      },
+      {
+        "name": "2 Characters Required",
+        "img": "images/settings/chapter_requirements/2.png"
+      },
+      {
+        "name": "3 Characters Required",
+        "img": "images/settings/chapter_requirements/3.png"
+      },
+      {
+        "name": "4 Characters Required",
+        "img": "images/settings/chapter_requirements/4.png"
+      },
+      {
+        "name": "5 Characters Required",
+        "img": "images/settings/chapter_requirements/5.png"
+      }
+    ]
+  },
+  {
+    "name": "3-5 Characters Required",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "name": "1 Character Required",
+        "img": "images/settings/chapter_requirements/1.png",
+        "codes": "3_5_required_character_count"
+      },
+      {
+        "name": "2 Characters Required",
+        "img": "images/settings/chapter_requirements/2.png"
+      }
+    ]
+  },
+  {
+    "name": "3-6 Characters Required",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "name": "1 Character Required",
+        "img": "images/settings/chapter_requirements/1.png",
+        "codes": "3_6_required_character_count"
+      },
+      {
+        "name": "2 Characters Required",
+        "img": "images/settings/chapter_requirements/2.png"
+      }
+    ]
+  },
+  {
+    "name": "4-1 Characters Required",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 4,
+    "stages": [
+      {
+        "name": "1 Character Required",
+        "img": "images/settings/chapter_requirements/1.png",
+        "codes": "4_1_required_character_count"
+      },
+      {
+        "name": "2 Characters Required",
+        "img": "images/settings/chapter_requirements/2.png"
+      },
+      {
+        "name": "3 Characters Required",
+        "img": "images/settings/chapter_requirements/3.png"
+      },
+      {
+        "name": "4 Characters Required",
+        "img": "images/settings/chapter_requirements/4.png"
+      },
+      {
+        "name": "5 Characters Required",
+        "img": "images/settings/chapter_requirements/5.png"
+      }
+    ]
+  },
+  {
+    "name": "4-2 Characters Required",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 3,
+    "stages": [
+      {
+        "name": "1 Character Required",
+        "img": "images/settings/chapter_requirements/1.png",
+        "codes": "4_2_required_character_count"
+      },
+      {
+        "name": "2 Characters Required",
+        "img": "images/settings/chapter_requirements/2.png"
+      },
+      {
+        "name": "3 Characters Required",
+        "img": "images/settings/chapter_requirements/3.png"
+      },
+      {
+        "name": "4 Characters Required",
+        "img": "images/settings/chapter_requirements/4.png"
+      }
+    ]
+  },
+  {
+    "name": "4-3 Characters Required",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 5,
+    "stages": [
+      {
+        "name": "1 Character Required",
+        "img": "images/settings/chapter_requirements/1.png",
+        "codes": "4_3_required_character_count"
+      },
+      {
+        "name": "2 Characters Required",
+        "img": "images/settings/chapter_requirements/2.png"
+      },
+      {
+        "name": "3 Characters Required",
+        "img": "images/settings/chapter_requirements/3.png"
+      },
+      {
+        "name": "4 Characters Required",
+        "img": "images/settings/chapter_requirements/4.png"
+      },
+      {
+        "name": "5 Characters Required",
+        "img": "images/settings/chapter_requirements/5.png"
+      },
+      {
+        "name": "6 Characters Required",
+        "img": "images/settings/chapter_requirements/6.png"
+      }
+    ]
+  },
+  {
+    "name": "4-4 Characters Required",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 5,
+    "stages": [
+      {
+        "name": "1 Character Required",
+        "img": "images/settings/chapter_requirements/1.png",
+        "codes": "4_4_required_character_count"
+      },
+      {
+        "name": "2 Characters Required",
+        "img": "images/settings/chapter_requirements/2.png"
+      },
+      {
+        "name": "3 Characters Required",
+        "img": "images/settings/chapter_requirements/3.png"
+      },
+      {
+        "name": "4 Characters Required",
+        "img": "images/settings/chapter_requirements/4.png"
+      },
+      {
+        "name": "5 Characters Required",
+        "img": "images/settings/chapter_requirements/5.png"
+      },
+      {
+        "name": "6 Characters Required",
+        "img": "images/settings/chapter_requirements/6.png"
+      }
+    ]
+  },
+  {
+    "name": "4-5 Characters Required",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 5,
+    "stages": [
+      {
+        "name": "1 Character Required",
+        "img": "images/settings/chapter_requirements/1.png",
+        "codes": "4_5_required_character_count"
+      },
+      {
+        "name": "2 Characters Required",
+        "img": "images/settings/chapter_requirements/2.png"
+      },
+      {
+        "name": "3 Characters Required",
+        "img": "images/settings/chapter_requirements/3.png"
+      },
+      {
+        "name": "4 Characters Required",
+        "img": "images/settings/chapter_requirements/4.png"
+      },
+      {
+        "name": "5 Characters Required",
+        "img": "images/settings/chapter_requirements/5.png"
+      },
+      {
+        "name": "6 Characters Required",
+        "img": "images/settings/chapter_requirements/6.png"
+      }
+    ]
+  },
+  {
+    "name": "4-6 Characters Required",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "name": "1 Character Required",
+        "img": "images/settings/chapter_requirements/1.png",
+        "codes": "4_6_required_character_count"
+      },
+      {
+        "name": "2 Characters Required",
+        "img": "images/settings/chapter_requirements/2.png"
+      },
+      {
+        "name": "3 Characters Required",
+        "img": "images/settings/chapter_requirements/3.png"
+      }
+    ]
+  },
+  {
+    "name": "5-1 Characters Required",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "name": "1 Character Required",
+        "img": "images/settings/chapter_requirements/1.png",
+        "codes": "5_1_required_character_count"
+      }
+    ]
+  },
+  {
+    "name": "5-2 Characters Required",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 3,
+    "stages": [
+      {
+        "name": "1 Character Required",
+        "img": "images/settings/chapter_requirements/1.png",
+        "codes": "5_2_required_character_count"
+      },
+      {
+        "name": "2 Characters Required",
+        "img": "images/settings/chapter_requirements/2.png"
+      },
+      {
+        "name": "3 Characters Required",
+        "img": "images/settings/chapter_requirements/3.png"
+      },
+      {
+        "name": "4 Characters Required",
+        "img": "images/settings/chapter_requirements/4.png"
+      },
+      {
+        "name": "5 Characters Required",
+        "img": "images/settings/chapter_requirements/5.png"
+      }
+    ]
+  },
+  {
+    "name": "5-3 Characters Required",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "name": "1 Character Required",
+        "img": "images/settings/chapter_requirements/1.png",
+        "codes": "5_3_required_character_count"
+      },
+      {
+        "name": "2 Characters Required",
+        "img": "images/settings/chapter_requirements/2.png"
+      }
+    ]
+  },
+  {
+    "name": "5-4 Characters Required",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 3,
+    "stages": [
+      {
+        "name": "1 Character Required",
+        "img": "images/settings/chapter_requirements/1.png",
+        "codes": "5_4_required_character_count"
+      },
+      {
+        "name": "2 Characters Required",
+        "img": "images/settings/chapter_requirements/2.png"
+      },
+      {
+        "name": "3 Characters Required",
+        "img": "images/settings/chapter_requirements/3.png"
+      },
+      {
+        "name": "4 Characters Required",
+        "img": "images/settings/chapter_requirements/4.png"
+      }
+    ]
+  },
+  {
+    "name": "5-5 Characters Required",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "name": "1 Character Required",
+        "img": "images/settings/chapter_requirements/1.png",
+        "codes": "5_5_required_character_count"
+      },
+      {
+        "name": "2 Characters Required",
+        "img": "images/settings/chapter_requirements/2.png"
+      }
+    ]
+  },
+  {
+    "name": "5-6 Characters Required",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 4,
+    "stages": [
+      {
+        "name": "1 Character Required",
+        "img": "images/settings/chapter_requirements/1.png",
+        "codes": "5_6_required_character_count"
+      },
+      {
+        "name": "2 Characters Required",
+        "img": "images/settings/chapter_requirements/2.png"
+      },
+      {
+        "name": "3 Characters Required",
+        "img": "images/settings/chapter_requirements/3.png"
+      },
+      {
+        "name": "4 Characters Required",
+        "img": "images/settings/chapter_requirements/4.png"
+      },
+      {
+        "name": "5 Characters Required",
+        "img": "images/settings/chapter_requirements/5.png"
+      }
+    ]
+  },
+  {
+    "name": "6-1 Characters Required",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 5,
+    "stages": [
+      {
+        "name": "1 Character Required",
+        "img": "images/settings/chapter_requirements/1.png",
+        "codes": "6_1_required_character_count"
+      },
+      {
+        "name": "2 Characters Required",
+        "img": "images/settings/chapter_requirements/2.png"
+      },
+      {
+        "name": "3 Characters Required",
+        "img": "images/settings/chapter_requirements/3.png"
+      },
+      {
+        "name": "4 Characters Required",
+        "img": "images/settings/chapter_requirements/4.png"
+      },
+      {
+        "name": "5 Characters Required",
+        "img": "images/settings/chapter_requirements/5.png"
+      },
+      {
+        "name": "6 Characters Required",
+        "img": "images/settings/chapter_requirements/6.png"
+      }
+    ]
+  },
+  {
+    "name": "6-2 Characters Required",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 6,
+    "stages": [
+      {
+        "name": "1 Character Required",
+        "img": "images/settings/chapter_requirements/1.png",
+        "codes": "6_2_required_character_count"
+      },
+      {
+        "name": "2 Characters Required",
+        "img": "images/settings/chapter_requirements/2.png"
+      },
+      {
+        "name": "3 Characters Required",
+        "img": "images/settings/chapter_requirements/3.png"
+      },
+      {
+        "name": "4 Characters Required",
+        "img": "images/settings/chapter_requirements/4.png"
+      },
+      {
+        "name": "5 Characters Required",
+        "img": "images/settings/chapter_requirements/5.png"
+      },
+      {
+        "name": "6 Characters Required",
+        "img": "images/settings/chapter_requirements/6.png"
+      },
+      {
+        "name": "7 Characters Required",
+        "img": "images/settings/chapter_requirements/7.png"
+      }
+    ]
+  },
+  {
+    "name": "6-3 Characters Required",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "name": "1 Character Required",
+        "img": "images/settings/chapter_requirements/1.png",
+        "codes": "6_3_required_character_count"
+      },
+      {
+        "name": "2 Characters Required",
+        "img": "images/settings/chapter_requirements/2.png"
+      }
+    ]
+  },
+  {
+    "name": "6-4 Characters Required",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 5,
+    "stages": [
+      {
+        "name": "1 Character Required",
+        "img": "images/settings/chapter_requirements/1.png",
+        "codes": "6_4_required_character_count"
+      },
+      {
+        "name": "2 Characters Required",
+        "img": "images/settings/chapter_requirements/2.png"
+      },
+      {
+        "name": "3 Characters Required",
+        "img": "images/settings/chapter_requirements/3.png"
+      },
+      {
+        "name": "4 Characters Required",
+        "img": "images/settings/chapter_requirements/4.png"
+      },
+      {
+        "name": "5 Characters Required",
+        "img": "images/settings/chapter_requirements/5.png"
+      },
+      {
+        "name": "6 Characters Required",
+        "img": "images/settings/chapter_requirements/6.png"
+      }
+    ]
+  },
+  {
+    "name": "6-5 Characters Required",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "name": "1 Character Required",
+        "img": "images/settings/chapter_requirements/1.png",
+        "codes": "6_5_required_character_count"
+      },
+      {
+        "name": "2 Characters Required",
+        "img": "images/settings/chapter_requirements/2.png"
+      }
+    ]
+  },
+  {
+    "name": "6-6 Characters Required",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "name": "1 Character Required",
+        "img": "images/settings/chapter_requirements/1.png",
+        "codes": "6_6_required_character_count"
+      },
+      {
+        "name": "2 Characters Required",
+        "img": "images/settings/chapter_requirements/2.png"
+      }
+    ]
+  }
+]

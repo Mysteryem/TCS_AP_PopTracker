@@ -4,6 +4,7 @@ require("scripts/autotracking/location_mapping")
 require("scripts/autotracking/cantina_room_mapping")
 require("scripts/autotracking/boss_mapping")
 require("scripts/autotracking/area_id_mapping")
+require("scripts/autotracking/chapter_max_required_characters")
 Version = require("scripts/version")
 
 -- Disabled until PopTracker 0.32.0 is released, which adds section highlighting.
@@ -308,7 +309,76 @@ function onClear(slot_data)
 
     -- Set Chapter Unlock Requirement
     local chapter_unlock_requirement = slot_data["chapter_unlock_requirement"] or 0
-    Tracker:FindObjectForCode("setting_chapter_unlock_requirement").CurrentStage = chapter_unlock_requirement
+    if chapter_unlock_requirement == 1 then
+        -- Requiring Chapter Unlock items
+        for episode=1,6 do
+            for chapter=1,6 do
+                local unlock_requirement = Tracker:FindObjectForCode(string.format("%i_%i_enabled", episode, chapter))
+                unlock_requirement.CurrentStage = 0
+            end
+        end
+    else
+        -- Requiring Story/Purchase characters
+        local chapters_using_purchase_characters = slot_data["chapters_requiring_alt_characters"] or {}
+        local alt_character_chapters = {}
+        for _, v in ipairs(chapters_using_purchase_characters) do
+            alt_character_chapters[v] = true
+        end
+
+        -- FIXME: Need to subtract 1 from the maximum for Chapters that feature C-3PO, R2-D2 or Chewbacca when they are
+        -- excluded.
+        -- Set characters excluded from unlocking chapters.
+        local excluded_characters = {}
+        for _, v in ipairs(slot_data["chapter_unlock_characters_not_required"] or {}) do
+            excluded_characters[v] = true
+        end
+        local excluded_character_indices = {}
+        if excluded_characters["C-3PO"] then
+            table.insert(excluded_character_indices, EXCLUDABLE_C_3PO)
+        end
+        if excluded_characters["R2-D2"] then
+            table.insert(excluded_character_indices, EXCLUDABLE_R2_D2)
+        end
+        if excluded_characters["CHEWBACCA"] then
+            table.insert(excluded_character_indices, EXCLUDABLE_CHEWBACCA)
+        end
+
+        local required_character_count = slot_data["chapter_unlock_characters_count"] or 9  -- 9 is the max, for 2-4.
+
+        for episode=1,6 do
+            for chapter=1,6 do
+                local unlock_requirement = Tracker:FindObjectForCode(string.format("%i_%i_enabled", episode, chapter))
+                local required_count = Tracker:FindObjectForCode(string.format("%i_%i_required_character_count", episode, chapter))
+                local max_for_chapter_lookup
+                local max_reduction_for_excluded = 0
+                if alt_character_chapters[string.format("%i-%i")] ~= nil then
+                    -- Locked by Purchase characters.
+                    unlock_requirement.CurrentStage = 2
+                    max_for_chapter_lookup = MAX_REQUIRED_STORY_CHARACTERS
+                    -- Purchase characters are unique per chapter, so there is no option to exclude them.
+                else
+                    -- Locked by Story characters.
+                    unlock_requirement.CurrentStage = 1
+                    max_for_chapter_lookup = MAX_REQUIRED_PURCHASE_CHARACTERS
+                    -- Reduce max by any excluded characters that are required for this chapter.
+                    local excluded_reductions = EXCLUDABLE_CHARACTERS[episode][chapter]
+                    for _, index in ipairs(excluded_character_indices) do
+                        if excluded_reductions[index] then
+                            max_reduction_for_excluded = max_reduction_for_excluded + 1
+                        end
+                    end
+                end
+
+                -- Set required count of characters.
+                local max_for_chapter = max_for_chapter_lookup[episode][chapter] - max_reduction_for_excluded
+                if max_for_chapter < required_character_count then
+                    required_count.CurrentStage = max_for_chapter
+                else
+                    required_count.CurrentStage = required_character_count
+                end
+            end
+        end
+    end
 
     -- Set the Goal Chapter
     local goal_chapter = slot_data["goal_chapter"]
