@@ -3,43 +3,43 @@
     "name": "Anakin's Pod",
     "type": "toggle",
     "img": "images/items/anakinspodracer.png",
-    "codes": "anakinspod, is_a_vehicle"
+    "codes": "anakinspod, is_a_vehicle, 1_4_story_character"
   },
   {
     "name": "Anakin's Speeder",
     "type": "toggle",
     "img": "images/items/speeder.png",
-    "codes": "anakinsspeeder, is_a_vehicle, vehicle_blaster"
+    "codes": "anakinsspeeder, is_a_vehicle, vehicle_blaster, 2_1_story_character"
   },
   {
     "name": "Anakin's Starfighter",
     "type": "toggle",
     "img": "images/items/anakinsstarfighter.png",
-    "codes": "anakinsstarfighter, is_a_vehicle, vehicle_blaster"
+    "codes": "anakinsstarfighter, is_a_vehicle, vehicle_blaster, 3_1_story_character"
   },
   {
     "name": "Clone Arcfighter",
     "type": "toggle",
     "img": "images/items/clonearcfighter.png",
-    "codes": "clonearcfighter, is_a_vehicle, vehicle_blaster"
+    "codes": "clonearcfighter, is_a_vehicle, vehicle_blaster, 3_1_purchase_character"
   },
   {
     "name": "Droid Trifighter",
     "type": "toggle",
     "img": "images/items/droidtrifighter.png",
-    "codes": "droidtrifighter, is_a_vehicle, vehicle_blaster"
+    "codes": "droidtrifighter, is_a_vehicle, vehicle_blaster, 3_1_purchase_character"
   },
   {
     "name": "Imperial Shuttle",
     "type": "toggle",
     "img": "images/items/imperialshuttle.png",
-    "codes": "imperialshuttle, is_a_vehicle, vehicle_blaster"
+    "codes": "imperialshuttle, is_a_vehicle, vehicle_blaster, 5_3_purchase_character"
   },
   {
     "name": "Millennium Falcon",
     "type": "toggle",
     "img": "images/items/millenniumfalcon.png",
-    "codes": "millenniumfalcon, is_a_vehicle, vehicle_blaster"
+    "codes": "millenniumfalcon, is_a_vehicle, vehicle_blaster, 5_3_story_character, 6_6_story_character"
   },
   {
     "name": "Naboo Starfighter",
@@ -51,19 +51,19 @@
     "name": "Obi-Wan's Starfighter",
     "type": "toggle",
     "img": "images/items/obi-wansstarfighter.png",
-    "codes": "obi-wansstarfighter, is_a_vehicle, vehicle_blaster"
+    "codes": "obi-wansstarfighter, is_a_vehicle, vehicle_blaster, 3_1_story_character"
   },
   {
     "name": "Republic Gunship",
     "type": "toggle",
     "img": "images/items/republicgunship.png",
-    "codes": "republicgunship, is_a_vehicle, vehicle_tow, vehicle_blaster"
+    "codes": "republicgunship, is_a_vehicle, vehicle_tow, vehicle_blaster, 2_5_story_character"
   },
   {
     "name": "Sebulba's Pod",
     "type": "toggle",
     "img": "images/items/sebulbaspodracer.png",
-    "codes": "sebulbaspod, is_a_vehicle"
+    "codes": "sebulbaspod, is_a_vehicle, 1_4_purchase_character"
   },
   {
     "name": "Slave 1",
@@ -75,54 +75,54 @@
     "name": "Snowspeeder",
     "type": "toggle",
     "img": "images/items/snowspeeder.png",
-    "codes": "snowspeeder, is_a_vehicle, vehicle_tow, vehicle_blaster"
+    "codes": "snowspeeder, is_a_vehicle, vehicle_tow, vehicle_blaster, 5_1_story_character"
   },
   {
     "name": "TIE Bomber",
     "type": "toggle",
     "img": "images/items/tiebomber.png",
-    "codes": "tiebomber, is_a_vehicle, vehicle_tie, vehicle_blaster"
+    "codes": "tiebomber, is_a_vehicle, vehicle_tie, vehicle_blaster, 5_3_purchase_character"
   },
   {
     "name": "TIE Fighter",
     "type": "toggle",
     "img": "images/items/tiefighter.png",
-    "codes": "tiefighter, is_a_vehicle, vehicle_tie, vehicle_blaster"
+    "codes": "tiefighter, is_a_vehicle, vehicle_tie, vehicle_blaster, 4_6_purchase_character"
   },
   {
     "name": "TIE Fighter (Darth Vader)",
     "type": "toggle",
     "img": "images/items/tiefighter(darthvader).png",
-    "codes": "tiefighter(darthvader), is_a_vehicle, vehicle_tie, vehicle_blaster"
+    "codes": "tiefighter(darthvader), is_a_vehicle, vehicle_tie, vehicle_blaster, 4_6_purchase_character"
   },
   {
     "name": "TIE Interceptor",
     "type": "toggle",
     "img": "images/items/tie-interceptor.png",
-    "codes": "tieinterceptor, is_a_vehicle, vehicle_tie, vehicle_blaster"
+    "codes": "tieinterceptor, is_a_vehicle, vehicle_tie, vehicle_blaster, 4_6_purchase_character"
   },
   {
     "name": "Vulture Droid",
     "type": "toggle",
     "img": "images/items/vulturedroid.png",
-    "codes": "vulturedroid, is_a_vehicle, vehicle_blaster"
+    "codes": "vulturedroid, is_a_vehicle, vehicle_blaster, 3_1_purchase_character"
   },
   {
     "name": "X-Wing",
     "type": "toggle",
     "img": "images/items/x-wing.png",
-    "codes": "x-wing, is_a_vehicle, vehicle_blaster"
+    "codes": "x-wing, is_a_vehicle, vehicle_blaster, 4_6_story_character, 5_3_story_character, 6_6_story_character"
   },
   {
     "name": "Y-Wing",
     "type": "toggle",
     "img": "images/items/y-wing.png",
-    "codes": "y-wing, is_a_vehicle, vehicle_blaster"
+    "codes": "y-wing, is_a_vehicle, vehicle_blaster, 4_6_story_character"
   },
   {
     "name": "Zam's Airspeeder",
     "type": "toggle",
     "img": "images/items/zamsairspeeder.png",
-    "codes": "zamsairspeeder, is_a_vehicle, vehicle_blaster"
+    "codes": "zamsairspeeder, is_a_vehicle, vehicle_blaster, 2_1_purchase_character"
   }
 ]
