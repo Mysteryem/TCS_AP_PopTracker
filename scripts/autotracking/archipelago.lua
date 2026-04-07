@@ -342,7 +342,7 @@ function onClear(slot_data)
         for _, v in ipairs(slot_data["chapter_unlock_characters_not_required"] or {}) do
             excluded_characters[v] = true
         end
-        local excludable_code_to_character = {c_3po="C-3PO", r2_d2="R2-D2", chewbacca="Chewbacca"}
+        local excludable_code_to_character = {["c-3po"]="C-3PO", ["r2-d2"]="R2-D2", ["chewbacca"]="Chewbacca"}
         for code, character_name in pairs(excludable_code_to_character) do
             if excluded_characters[character_name] then
                 -- These are special progressive_toggle items, which are reset to stage *1* earlier in onClear, so it is
