@@ -380,10 +380,11 @@ function onClear(slot_data)
 
                 -- Set required count of characters.
                 local max_for_chapter = max_for_chapter_lookup[episode][chapter] - max_reduction_for_excluded
+                -- Subtract 1 before setting because stage 0 is '1 character required'
                 if max_for_chapter < required_character_count then
-                    required_count.CurrentStage = max_for_chapter
+                    required_count.CurrentStage = max_for_chapter - 1
                 else
-                    required_count.CurrentStage = required_character_count
+                    required_count.CurrentStage = required_character_count - 1
                 end
             end
         end
