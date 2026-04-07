@@ -362,12 +362,12 @@ function onClear(slot_data)
                 if alt_character_chapters[string.format("%i-%i", episode, chapter)] ~= nil then
                     -- Locked by Purchase characters.
                     unlock_requirement.CurrentStage = 2
-                    max_for_chapter_lookup = MAX_REQUIRED_STORY_CHARACTERS
+                    max_for_chapter_lookup = MAX_REQUIRED_PURCHASE_CHARACTERS
                     -- Purchase characters are unique per chapter, so there is no option to exclude them.
                 else
                     -- Locked by Story characters.
                     unlock_requirement.CurrentStage = 1
-                    max_for_chapter_lookup = MAX_REQUIRED_PURCHASE_CHARACTERS
+                    max_for_chapter_lookup = MAX_REQUIRED_STORY_CHARACTERS
                     -- Reduce max by any excluded characters that are required for this chapter.
                     local excluded_reductions = EXCLUDABLE_CHARACTERS[episode][chapter] or {}
                     for excludable_character, _v in pairs(excluded_reductions) do
