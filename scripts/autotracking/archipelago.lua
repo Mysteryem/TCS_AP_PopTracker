@@ -359,7 +359,7 @@ function onClear(slot_data)
                 local required_count = Tracker:FindObjectForCode(string.format("%i_%i_required_character_count", episode, chapter))
                 local max_for_chapter_lookup
                 local max_reduction_for_excluded = 0
-                if alt_character_chapters[string.format("%i-%i")] ~= nil then
+                if alt_character_chapters[string.format("%i-%i", episode, chapter)] ~= nil then
                     -- Locked by Purchase characters.
                     unlock_requirement.CurrentStage = 2
                     max_for_chapter_lookup = MAX_REQUIRED_STORY_CHARACTERS
