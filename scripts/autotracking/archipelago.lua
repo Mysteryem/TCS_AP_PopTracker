@@ -351,7 +351,7 @@ function onClear(slot_data)
             end
         end
 
-        local required_character_count = slot_data["chapter_unlock_characters_count"] or 9  -- 9 is the max, for 2-4.
+        local chapter_required_character_counts = slot_data["chapter_required_character_counts"] or {}
 
         for episode=1,6 do
             for chapter=1,6 do
@@ -359,7 +359,11 @@ function onClear(slot_data)
                 local required_count = Tracker:FindObjectForCode(string.format("%i_%i_required_character_count", episode, chapter))
                 local max_for_chapter_lookup
                 local max_reduction_for_excluded = 0
-                if alt_character_chapters[string.format("%i-%i", episode, chapter)] ~= nil then
+                local chapter_short_name = string.format("%i-%i", episode, chapter)
+                -- Before there were per-chapter required counts, all characters were required, and they were always
+                -- Story Characters (not Purchase Characters). 7 was the max, in 6-2.
+                local required_character_count = chapter_required_character_counts[chapter_short_name] or 7
+                if alt_character_chapters[chapter_short_name] ~= nil then
                     -- Locked by Purchase characters.
                     unlock_requirement.CurrentStage = 2
                     max_for_chapter_lookup = MAX_REQUIRED_PURCHASE_CHARACTERS
