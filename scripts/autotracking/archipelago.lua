@@ -339,7 +339,7 @@ function onClear(slot_data)
 
         -- Set characters excluded from unlocking chapters.
         local excluded_characters = {}
-        for _, v in ipairs(slot_data["chapter_unlock_characters_not_required"] or {}) do
+        for _, v in ipairs(slot_data["chapter_unlock_story_characters_not_required"] or {}) do
             excluded_characters[v] = true
         end
         local excludable_code_to_character = {["c-3po"]="C-3PO", ["r2-d2"]="R2-D2", ["chewbacca"]="Chewbacca"}
