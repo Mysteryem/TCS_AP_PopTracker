@@ -321,7 +321,9 @@ function onClear(slot_data)
 
     -- Set Chapter Unlock Requirement
     local chapter_unlock_requirement = slot_data["chapter_unlock_requirement"] or 0
-    if chapter_unlock_requirement == 1 then
+    -- 1: Chapter Unlock Items. 2: Random Characters (not yet implemented in the tracker, but acting like Chapter
+    -- Unlock Items, for now, to make using the tracker easier)
+    if chapter_unlock_requirement == 1 or chapter_unlock_requirement == 2 then
         -- Requiring Chapter Unlock items
         for episode=1,6 do
             for chapter=1,6 do
