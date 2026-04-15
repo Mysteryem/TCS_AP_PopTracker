@@ -5,6 +5,7 @@ require("scripts/autotracking/cantina_room_mapping")
 require("scripts/autotracking/boss_mapping")
 require("scripts/autotracking/area_id_mapping")
 require("scripts/autotracking/chapter_max_required_characters")
+require("scripts/random_character_requirements")
 Version = require("scripts/version")
 
 -- Disabled until PopTracker 0.32.0 is released, which adds section highlighting.
@@ -321,14 +322,40 @@ function onClear(slot_data)
 
     -- Set Chapter Unlock Requirement
     local chapter_unlock_requirement = slot_data["chapter_unlock_requirement"] or 0
-    -- 1: Chapter Unlock Items. 2: Random Characters (not yet implemented in the tracker, but acting like Chapter
-    -- Unlock Items, for now, to make using the tracker easier)
-    if chapter_unlock_requirement == 1 or chapter_unlock_requirement == 2 then
+    -- 1: Chapter Unlock Items.
+    if chapter_unlock_requirement == 1 then
         -- Requiring Chapter Unlock items
         for episode=1,6 do
             for chapter=1,6 do
                 local unlock_requirement = Tracker:FindObjectForCode(string.format("%i_%i_enabled", episode, chapter))
                 unlock_requirement.CurrentStage = 0
+            end
+        end
+    -- 2: Random Characters.
+    elseif chapter_unlock_requirement == 2 then
+        -- Requiring Random Characters
+        local chapter_required_character_counts = slot_data["chapter_required_character_counts"] or {}
+        local chapter_random_character_counts = slot_data["chapter_random_character_requirements"]
+        for episode=1,6 do
+            for chapter=1,6 do
+                local chapter_short_name = string.format("%i-%i", episode, chapter)
+                local chapter_code = string.format("%i_%i", episode, chapter)
+                local characters_codes_required = {}
+                for _, character_id in ipairs(chapter_random_character_counts[chapter_short_name] or {}) do
+                    local character_table = ITEM_MAPPING[character_id] or {}
+                    local first_inner_table = character_table[1] or {}
+                    local character_code = first_inner_table[1]
+                    if character_code ~= nil then
+                        table.insert(characters_codes_required, character_code)
+                    end
+                end
+                CHAPTER_RANDOMIZED_CHARACTER_REQUIREMENTS[chapter_code] = characters_codes_required
+
+                local unlock_requirement = Tracker:FindObjectForCode(chapter_code.."_enabled")
+                unlock_requirement.CurrentStage = 1
+                local required_count = Tracker:FindObjectForCode(chapter_code.."_required_character_count")
+                -- Subtract 1 because stage 0 is 1 required count.
+                required_count.CurrentStage = (chapter_required_character_counts[chapter_short_name] or 9) - 1
             end
         end
     else
@@ -367,12 +394,12 @@ function onClear(slot_data)
                 local required_character_count = chapter_required_character_counts[chapter_short_name] or 7
                 if alt_character_chapters[chapter_short_name] ~= nil then
                     -- Locked by Purchase characters.
-                    unlock_requirement.CurrentStage = 2
+                    unlock_requirement.CurrentStage = 3
                     max_for_chapter_lookup = MAX_REQUIRED_PURCHASE_CHARACTERS
                     -- Purchase characters are unique per chapter, so there is no option to exclude them.
                 else
                     -- Locked by Story characters.
-                    unlock_requirement.CurrentStage = 1
+                    unlock_requirement.CurrentStage = 2
                     max_for_chapter_lookup = MAX_REQUIRED_STORY_CHARACTERS
                     -- Reduce max by any excluded characters that are required for this chapter.
                     local excluded_reductions = EXCLUDABLE_CHARACTERS[episode][chapter] or {}
@@ -385,6 +412,8 @@ function onClear(slot_data)
                 end
 
                 -- Set required count of characters.
+                -- Checking against the max is only necessary to support older seeds where
+                -- "chapter_required_character_counts" is not in slot data.
                 local max_for_chapter = max_for_chapter_lookup[episode][chapter] - max_reduction_for_excluded
                 -- Subtract 1 before setting because stage 0 is '1 character required'
                 if max_for_chapter < required_character_count then

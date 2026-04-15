@@ -621,6 +621,7 @@
             "access_rules": [
               "1_1_requires_story_characters, $has_story_characters|1_1",
               "1_1_requires_purchase_characters, $has_purchase_characters|1_1",
+              "1_1_requires_random_characters, $has_random_characters|1_1",
               "1_1_requires_unlock_item, 1_1_unlock"
             ]
           },
@@ -629,6 +630,7 @@
             "access_rules": [
               "1_2_requires_story_characters, $has_story_characters|1_2",
               "1_2_requires_purchase_characters, $has_purchase_characters|1_2",
+              "1_2_requires_random_characters, $has_random_characters|1_2",
               "1_2_requires_unlock_item, 1_2_unlock"
             ]
           },
@@ -637,6 +639,7 @@
             "access_rules": [
               "1_3_requires_story_characters, $has_story_characters|1_3",
               "1_3_requires_purchase_characters, $has_purchase_characters|1_3",
+              "1_3_requires_random_characters, $has_random_characters|1_3",
               "1_3_requires_unlock_item, 1_3_unlock"
             ]
           },
@@ -645,6 +648,7 @@
             "access_rules": [
               "1_4_requires_story_characters, $has_story_characters|1_4",
               "1_4_requires_purchase_characters, $has_purchase_characters|1_4",
+              "1_4_requires_random_characters, $has_random_characters|1_4",
               "1_4_requires_unlock_item, 1_4_unlock"
             ]
           },
@@ -652,6 +656,7 @@
             "name": "1-5",
             "access_rules": [
               "1_5_requires_story_characters, $has_story_characters|1_5",
+              "1_5_requires_random_characters, $has_random_characters|1_5",
               "1_5_requires_unlock_item, 1_5_unlock"
             ]
           },
@@ -660,6 +665,7 @@
             "access_rules": [
               "1_6_requires_story_characters, $has_story_characters|1_6",
               "1_6_requires_purchase_characters, $has_purchase_characters|1_6",
+              "1_6_requires_random_characters, $has_random_characters|1_6",
               "1_6_requires_unlock_item, 1_6_unlock"
             ]
           },
@@ -668,6 +674,7 @@
             "access_rules": [
               "2_1_requires_story_characters, $has_story_characters|2_1",
               "2_1_requires_purchase_characters, $has_purchase_characters|2_1",
+              "2_1_requires_random_characters, $has_random_characters|2_1",
               "2_1_requires_unlock_item, 2_1_unlock"
             ]
           },
@@ -676,6 +683,7 @@
             "access_rules": [
               "2_2_requires_story_characters, $has_story_characters|2_2",
               "2_2_requires_purchase_characters, $has_purchase_characters|2_2",
+              "2_2_requires_random_characters, $has_random_characters|2_2",
               "2_2_requires_unlock_item, 2_2_unlock"
             ]
           },
@@ -684,6 +692,7 @@
             "access_rules": [
               "2_3_requires_story_characters, $has_story_characters|2_3",
               "2_3_requires_purchase_characters, $has_purchase_characters|2_3",
+              "2_3_requires_random_characters, $has_random_characters|2_3",
               "2_3_requires_unlock_item, 2_3_unlock"
             ]
           },
@@ -692,6 +701,7 @@
             "access_rules": [
               "2_4_requires_story_characters, $has_story_characters|2_4",
               "2_4_requires_purchase_characters, $has_purchase_characters|2_4",
+              "2_4_requires_random_characters, $has_random_characters|2_4",
               "2_4_requires_unlock_item, 2_4_unlock"
             ]
           },
@@ -699,6 +709,7 @@
             "name": "2-5",
             "access_rules": [
               "2_5_requires_story_characters, $has_story_characters|2_5",
+              "2_5_requires_random_characters, $has_random_characters|2_5",
               "2_5_requires_unlock_item, 2_5_unlock"
             ]
           },
@@ -706,6 +717,7 @@
             "name": "2-6",
             "access_rules": [
               "2_6_requires_story_characters, $has_story_characters|2_6",
+              "2_6_requires_random_characters, $has_random_characters|2_6",
               "2_6_requires_unlock_item, 2_6_unlock"
             ]
           },
@@ -714,6 +726,7 @@
             "access_rules": [
               "3_1_requires_story_characters, $has_story_characters|3_1",
               "3_1_requires_purchase_characters, $has_purchase_characters|3_1",
+              "3_1_requires_random_characters, $has_random_characters|3_1",
               "3_1_requires_unlock_item, 3_1_unlock"
             ]
           },
@@ -722,6 +735,7 @@
             "access_rules": [
               "3_2_requires_story_characters, $has_story_characters|3_2",
               "3_2_requires_purchase_characters, $has_purchase_characters|3_2",
+              "3_2_requires_random_characters, $has_random_characters|3_2",
               "3_2_requires_unlock_item, 3_2_unlock"
             ]
           },
@@ -730,6 +744,7 @@
             "access_rules": [
               "3_3_requires_story_characters, $has_story_characters|3_3",
               "3_3_requires_purchase_characters, $has_purchase_characters|3_3",
+              "3_3_requires_random_characters, $has_random_characters|3_3",
               "3_3_requires_unlock_item, 3_3_unlock"
             ]
           },
@@ -738,6 +753,7 @@
             "access_rules": [
               "3_4_requires_story_characters, $has_story_characters|3_4",
               "3_4_requires_purchase_characters, $has_purchase_characters|3_4",
+              "3_4_requires_random_characters, $has_random_characters|3_4",
               "3_4_requires_unlock_item, 3_4_unlock"
             ]
           },
@@ -746,6 +762,7 @@
             "access_rules": [
               "3_5_requires_story_characters, $has_story_characters|3_5",
               "3_5_requires_purchase_characters, $has_purchase_characters|3_5",
+              "3_5_requires_random_characters, $has_random_characters|3_5",
               "3_5_requires_unlock_item, 3_5_unlock"
             ]
           },
@@ -753,6 +770,7 @@
             "name": "3-6",
             "access_rules": [
               "3_6_requires_story_characters, $has_story_characters|3_6",
+              "3_6_requires_random_characters, $has_random_characters|3_6",
               "3_6_requires_unlock_item, 3_6_unlock"
             ]
           },
@@ -761,6 +779,7 @@
             "access_rules": [
               "4_1_requires_story_characters, $has_story_characters|4_1",
               "4_1_requires_purchase_characters, $has_purchase_characters|4_1",
+              "4_1_requires_random_characters, $has_random_characters|4_1",
               "4_1_requires_unlock_item, 4_1_unlock"
             ]
           },
@@ -769,6 +788,7 @@
             "access_rules": [
               "4_2_requires_story_characters, $has_story_characters|4_2",
               "4_2_requires_purchase_characters, $has_purchase_characters|4_2",
+              "4_2_requires_random_characters, $has_random_characters|4_2",
               "4_2_requires_unlock_item, 4_2_unlock"
             ]
           },
@@ -777,6 +797,7 @@
             "access_rules": [
               "4_3_requires_story_characters, $has_story_characters|4_3",
               "4_3_requires_purchase_characters, $has_purchase_characters|4_3",
+              "4_3_requires_random_characters, $has_random_characters|4_3",
               "4_3_requires_unlock_item, 4_3_unlock"
             ]
           },
@@ -785,6 +806,7 @@
             "access_rules": [
               "4_4_requires_story_characters, $has_story_characters|4_4",
               "4_4_requires_purchase_characters, $has_purchase_characters|4_4",
+              "4_4_requires_random_characters, $has_random_characters|4_4",
               "4_4_requires_unlock_item, 4_4_unlock"
             ]
           },
@@ -792,6 +814,7 @@
             "name": "4-5",
             "access_rules": [
               "4_5_requires_story_characters, $has_story_characters|4_5",
+              "4_5_requires_random_characters, $has_random_characters|4_5",
               "4_5_requires_unlock_item, 4_5_unlock"
             ]
           },
@@ -800,6 +823,7 @@
             "access_rules": [
               "4_6_requires_story_characters, $has_story_characters|4_6",
               "4_6_requires_purchase_characters, $has_purchase_characters|4_6",
+              "4_6_requires_random_characters, $has_random_characters|4_6",
               "4_6_requires_unlock_item, 4_6_unlock"
             ]
           },
@@ -807,6 +831,7 @@
             "name": "5-1",
             "access_rules": [
               "5_1_requires_story_characters, $has_story_characters|5_1",
+              "5_1_requires_random_characters, $has_random_characters|5_1",
               "5_1_requires_unlock_item, 5_1_unlock"
             ]
           },
@@ -815,6 +840,7 @@
             "access_rules": [
               "5_2_requires_story_characters, $has_story_characters|5_2",
               "5_2_requires_purchase_characters, $has_purchase_characters|5_2",
+              "5_2_requires_random_characters, $has_random_characters|5_2",
               "5_2_requires_unlock_item, 5_2_unlock"
             ]
           },
@@ -823,6 +849,7 @@
             "access_rules": [
               "5_3_requires_story_characters, $has_story_characters|5_3",
               "5_3_requires_purchase_characters, $has_purchase_characters|5_3",
+              "5_3_requires_random_characters, $has_random_characters|5_3",
               "5_3_requires_unlock_item, 5_3_unlock"
             ]
           },
@@ -830,6 +857,7 @@
             "name": "5-4",
             "access_rules": [
               "5_4_requires_story_characters, $has_story_characters|5_4",
+              "5_4_requires_random_characters, $has_random_characters|5_4",
               "5_4_requires_unlock_item, 5_4_unlock"
             ]
           },
@@ -837,6 +865,7 @@
             "name": "5-5",
             "access_rules": [
               "5_5_requires_story_characters, $has_story_characters|5_5",
+              "5_5_requires_random_characters, $has_random_characters|5_5",
               "5_5_requires_unlock_item, 5_5_unlock"
             ]
           },
@@ -845,6 +874,7 @@
             "access_rules": [
               "5_6_requires_story_characters, $has_story_characters|5_6",
               "5_6_requires_purchase_characters, $has_purchase_characters|5_6",
+              "5_6_requires_random_characters, $has_random_characters|5_6",
               "5_6_requires_unlock_item, 5_6_unlock"
             ]
           },
@@ -853,6 +883,7 @@
             "access_rules": [
               "6_1_requires_story_characters, $has_story_characters|6_1",
               "6_1_requires_purchase_characters, $has_purchase_characters|6_1",
+              "6_1_requires_random_characters, $has_random_characters|6_1",
               "6_1_requires_unlock_item, 6_1_unlock"
             ]
           },
@@ -861,6 +892,7 @@
             "access_rules": [
               "6_2_requires_story_characters, $has_story_characters|6_2",
               "6_2_requires_purchase_characters, $has_purchase_characters|6_2",
+              "6_2_requires_random_characters, $has_random_characters|6_2",
               "6_2_requires_unlock_item, 6_2_unlock"
             ]
           },
@@ -868,6 +900,7 @@
             "name": "6-3",
             "access_rules": [
               "6_3_requires_story_characters, $has_story_characters|6_3",
+              "6_3_requires_random_characters, $has_random_characters|6_3",
               "6_3_requires_unlock_item, 6_3_unlock"
             ]
           },
@@ -876,6 +909,7 @@
             "access_rules": [
               "6_4_requires_story_characters, $has_story_characters|6_4",
               "6_4_requires_purchase_characters, $has_purchase_characters|6_4",
+              "6_4_requires_random_characters, $has_random_characters|6_4",
               "6_4_requires_unlock_item, 6_4_unlock"
             ]
           },
@@ -884,6 +918,7 @@
             "access_rules": [
               "6_5_requires_story_characters, $has_story_characters|6_5",
               "6_5_requires_purchase_characters, $has_purchase_characters|6_5",
+              "6_5_requires_random_characters, $has_random_characters|6_5",
               "6_5_requires_unlock_item, 6_5_unlock"
             ]
           },
@@ -892,6 +927,7 @@
             "access_rules": [
               "6_6_requires_story_characters, $has_story_characters|6_6",
               "6_6_requires_purchase_characters, $has_purchase_characters|6_6",
+              "6_6_requires_random_characters, $has_random_characters|6_6",
               "6_6_requires_unlock_item, 6_6_unlock"
             ]
           }

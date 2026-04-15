@@ -1,4 +1,5 @@
 require("scripts/autotracking/archipelago")
+require("scripts/random_character_requirements")
 
 function minikits_goal()
     local minikit_count = Tracker:ProviderCountForCode("minikits")
@@ -87,6 +88,19 @@ function has_purchase_characters(chapter_short_name_code)
     local required_count_minus_1 = Tracker:FindObjectForCode(chapter_short_name_code.."_required_character_count").CurrentStage
     -- return acquired_count > required_count_minus_1, but might be barely more performant.
     return acquired_count - required_count_minus_1
+end
+
+function has_random_characters(chapter_short_name_code)
+    local required_count = Tracker:FindObjectForCode(chapter_short_name_code.."_required_character_count").CurrentStage + 1
+    for _, character_code in ipairs(CHAPTER_RANDOMIZED_CHARACTER_REQUIREMENTS[chapter_short_name_code]) do
+        if Tracker:ProviderCountForCode(character_code) > 0 then
+            required_count = required_count - 1
+            if required_count == 0 then
+                return 1
+            end
+        end
+    end
+    return 0
 end
 
 local function update_gold_brick_total(code)

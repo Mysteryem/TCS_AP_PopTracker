@@ -11,6 +11,13 @@
         "codes": "1_1_enabled, 1_1_requires_unlock_item"
       },
       {
+        "name": "Chapter 1-1 Enabled - Locked by Randomized Characters",
+        "img": "images/settings/chapter1.png",
+        "inherit_codes": false,
+        "codes": "1_1_enabled, 1_1_requires_random_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/random.png"
+      },
+      {
         "name": "Chapter 1-1 Enabled - Locked by Story Characters",
         "img": "images/settings/chapter1.png",
         "inherit_codes": false,
@@ -36,6 +43,13 @@
         "name": "Chapter 1-2 Enabled - Locked by 1-2 Unlock",
         "img": "images/settings/chapter2.png",
         "codes": "1_2_enabled, 1_2_requires_unlock_item"
+      },
+      {
+        "name": "Chapter 1-2 Enabled - Locked by Randomized Characters",
+        "img": "images/settings/chapter2.png",
+        "inherit_codes": false,
+        "codes": "1_2_enabled, 1_2_requires_random_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/random.png"
       },
       {
         "name": "Chapter 1-2 Enabled - Locked by Story Characters",
@@ -65,6 +79,13 @@
         "codes": "1_3_enabled, 1_3_requires_unlock_item"
       },
       {
+        "name": "Chapter 1-3 Enabled - Locked by Randomized Characters",
+        "img": "images/settings/chapter3.png",
+        "inherit_codes": false,
+        "codes": "1_3_enabled, 1_3_requires_random_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/random.png"
+      },
+      {
         "name": "Chapter 1-3 Enabled - Locked by Story Characters",
         "img": "images/settings/chapter3.png",
         "inherit_codes": false,
@@ -90,6 +111,13 @@
         "name": "Chapter 1-4 Enabled - Locked by 1-4 Unlock",
         "img": "images/settings/chapter4.png",
         "codes": "1_4_enabled, 1_4_requires_unlock_item"
+      },
+      {
+        "name": "Chapter 1-4 Enabled - Locked by Randomized Characters",
+        "img": "images/settings/chapter4.png",
+        "inherit_codes": false,
+        "codes": "1_4_enabled, 1_4_requires_random_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/random.png"
       },
       {
         "name": "Chapter 1-4 Enabled - Locked by Story Characters",
@@ -119,6 +147,13 @@
         "codes": "1_5_enabled, 1_5_requires_unlock_item"
       },
       {
+        "name": "Chapter 1-5 Enabled - Locked by Randomized Characters",
+        "img": "images/settings/chapter5.png",
+        "inherit_codes": false,
+        "codes": "1_5_enabled, 1_5_requires_random_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/random.png"
+      },
+      {
         "name": "Chapter 1-5 Enabled - Locked by Story Characters",
         "img": "images/settings/chapter5.png",
         "inherit_codes": false,
@@ -137,6 +172,13 @@
         "name": "Chapter 1-6 Enabled - Locked by 1-6 Unlock",
         "img": "images/settings/chapter6.png",
         "codes": "1_6_enabled, 1_6_requires_unlock_item"
+      },
+      {
+        "name": "Chapter 1-6 Enabled - Locked by Randomized Characters",
+        "img": "images/settings/chapter6.png",
+        "inherit_codes": false,
+        "codes": "1_6_enabled, 1_6_requires_random_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/random.png"
       },
       {
         "name": "Chapter 1-6 Enabled - Locked by Story Characters",
@@ -166,6 +208,13 @@
         "codes": "2_1_enabled, 2_1_requires_unlock_item"
       },
       {
+        "name": "Chapter 2-1 Enabled - Locked by Randomized Characters",
+        "img": "images/settings/chapter1.png",
+        "inherit_codes": false,
+        "codes": "2_1_enabled, 2_1_requires_random_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/random.png"
+      },
+      {
         "name": "Chapter 2-1 Enabled - Locked by Story Characters",
         "img": "images/settings/chapter1.png",
         "inherit_codes": false,
@@ -191,6 +240,13 @@
         "name": "Chapter 2-2 Enabled - Locked by 2-2 Unlock",
         "img": "images/settings/chapter2.png",
         "codes": "2_2_enabled, 2_2_requires_unlock_item"
+      },
+      {
+        "name": "Chapter 2-2 Enabled - Locked by Randomized Characters",
+        "img": "images/settings/chapter2.png",
+        "inherit_codes": false,
+        "codes": "2_2_enabled, 2_2_requires_random_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/random.png"
       },
       {
         "name": "Chapter 2-2 Enabled - Locked by Story Characters",
@@ -220,6 +276,13 @@
         "codes": "2_3_enabled, 2_3_requires_unlock_item"
       },
       {
+        "name": "Chapter 2-3 Enabled - Locked by Randomized Characters",
+        "img": "images/settings/chapter3.png",
+        "inherit_codes": false,
+        "codes": "2_3_enabled, 2_3_requires_random_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/random.png"
+      },
+      {
         "name": "Chapter 2-3 Enabled - Locked by Story Characters",
         "img": "images/settings/chapter3.png",
         "inherit_codes": false,
@@ -245,6 +308,13 @@
         "name": "Chapter 2-4 Enabled - Locked by 2-4 Unlock",
         "img": "images/settings/chapter4.png",
         "codes": "2_4_enabled, 2_4_requires_unlock_item"
+      },
+      {
+        "name": "Chapter 2-4 Enabled - Locked by Randomized Characters",
+        "img": "images/settings/chapter4.png",
+        "inherit_codes": false,
+        "codes": "2_4_enabled, 2_4_requires_random_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/random.png"
       },
       {
         "name": "Chapter 2-4 Enabled - Locked by Story Characters",
@@ -274,6 +344,13 @@
         "codes": "2_5_enabled, 2_5_requires_unlock_item"
       },
       {
+        "name": "Chapter 2-5 Enabled - Locked by Randomized Characters",
+        "img": "images/settings/chapter5.png",
+        "inherit_codes": false,
+        "codes": "2_5_enabled, 2_5_requires_random_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/random.png"
+      },
+      {
         "name": "Chapter 2-5 Enabled - Locked by Story Characters",
         "img": "images/settings/chapter5.png",
         "inherit_codes": false,
@@ -294,6 +371,13 @@
         "codes": "2_6_enabled, 2_6_requires_unlock_item"
       },
       {
+        "name": "Chapter 2-6 Enabled - Locked by Randomized Characters",
+        "img": "images/settings/chapter6.png",
+        "inherit_codes": false,
+        "codes": "2_6_enabled, 2_6_requires_random_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/random.png"
+      },
+      {
         "name": "Chapter 2-6 Enabled - Locked by Story Characters",
         "img": "images/settings/chapter6.png",
         "inherit_codes": false,
@@ -312,6 +396,13 @@
         "name": "Chapter 3-1 Enabled - Locked by 3-1 Unlock",
         "img": "images/settings/chapter1.png",
         "codes": "3_1_enabled, 3_1_requires_unlock_item"
+      },
+      {
+        "name": "Chapter 3-1 Enabled - Locked by Randomized Characters",
+        "img": "images/settings/chapter1.png",
+        "inherit_codes": false,
+        "codes": "3_1_enabled, 3_1_requires_random_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/random.png"
       },
       {
         "name": "Chapter 3-1 Enabled - Locked by Story Characters",
@@ -341,6 +432,13 @@
         "codes": "3_2_enabled, 3_2_requires_unlock_item"
       },
       {
+        "name": "Chapter 3-2 Enabled - Locked by Randomized Characters",
+        "img": "images/settings/chapter2.png",
+        "inherit_codes": false,
+        "codes": "3_2_enabled, 3_2_requires_random_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/random.png"
+      },
+      {
         "name": "Chapter 3-2 Enabled - Locked by Story Characters",
         "img": "images/settings/chapter2.png",
         "inherit_codes": false,
@@ -366,6 +464,13 @@
         "name": "Chapter 3-3 Enabled - Locked by 3-3 Unlock",
         "img": "images/settings/chapter3.png",
         "codes": "3_3_enabled, 3_3_requires_unlock_item"
+      },
+      {
+        "name": "Chapter 3-3 Enabled - Locked by Randomized Characters",
+        "img": "images/settings/chapter3.png",
+        "inherit_codes": false,
+        "codes": "3_3_enabled, 3_3_requires_random_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/random.png"
       },
       {
         "name": "Chapter 3-3 Enabled - Locked by Story Characters",
@@ -395,6 +500,13 @@
         "codes": "3_4_enabled, 3_4_requires_unlock_item"
       },
       {
+        "name": "Chapter 3-4 Enabled - Locked by Randomized Characters",
+        "img": "images/settings/chapter4.png",
+        "inherit_codes": false,
+        "codes": "3_4_enabled, 3_4_requires_random_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/random.png"
+      },
+      {
         "name": "Chapter 3-4 Enabled - Locked by Story Characters",
         "img": "images/settings/chapter4.png",
         "inherit_codes": false,
@@ -420,6 +532,13 @@
         "name": "Chapter 3-5 Enabled - Locked by 3-5 Unlock",
         "img": "images/settings/chapter5.png",
         "codes": "3_5_enabled, 3_5_requires_unlock_item"
+      },
+      {
+        "name": "Chapter 3-5 Enabled - Locked by Randomized Characters",
+        "img": "images/settings/chapter5.png",
+        "inherit_codes": false,
+        "codes": "3_5_enabled, 3_5_requires_random_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/random.png"
       },
       {
         "name": "Chapter 3-5 Enabled - Locked by Story Characters",
@@ -449,6 +568,13 @@
         "codes": "3_6_enabled, 3_6_requires_unlock_item"
       },
       {
+        "name": "Chapter 3-6 Enabled - Locked by Randomized Characters",
+        "img": "images/settings/chapter6.png",
+        "inherit_codes": false,
+        "codes": "3_6_enabled, 3_6_requires_random_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/random.png"
+      },
+      {
         "name": "Chapter 3-6 Enabled - Locked by Story Characters",
         "img": "images/settings/chapter6.png",
         "inherit_codes": false,
@@ -467,6 +593,13 @@
         "name": "Chapter 4-1 Enabled - Locked by 4-1 Unlock",
         "img": "images/settings/chapter1.png",
         "codes": "4_1_enabled, 4_1_requires_unlock_item"
+      },
+      {
+        "name": "Chapter 4-1 Enabled - Locked by Randomized Characters",
+        "img": "images/settings/chapter1.png",
+        "inherit_codes": false,
+        "codes": "4_1_enabled, 4_1_requires_random_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/random.png"
       },
       {
         "name": "Chapter 4-1 Enabled - Locked by Story Characters",
@@ -496,6 +629,13 @@
         "codes": "4_2_enabled, 4_2_requires_unlock_item"
       },
       {
+        "name": "Chapter 4-2 Enabled - Locked by Randomized Characters",
+        "img": "images/settings/chapter2.png",
+        "inherit_codes": false,
+        "codes": "4_2_enabled, 4_2_requires_random_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/random.png"
+      },
+      {
         "name": "Chapter 4-2 Enabled - Locked by Story Characters",
         "img": "images/settings/chapter2.png",
         "inherit_codes": false,
@@ -521,6 +661,13 @@
         "name": "Chapter 4-3 Enabled - Locked by 4-3 Unlock",
         "img": "images/settings/chapter3.png",
         "codes": "4_3_enabled, 4_3_requires_unlock_item"
+      },
+      {
+        "name": "Chapter 4-3 Enabled - Locked by Randomized Characters",
+        "img": "images/settings/chapter3.png",
+        "inherit_codes": false,
+        "codes": "4_3_enabled, 4_3_requires_random_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/random.png"
       },
       {
         "name": "Chapter 4-3 Enabled - Locked by Story Characters",
@@ -550,6 +697,13 @@
         "codes": "4_4_enabled, 4_4_requires_unlock_item"
       },
       {
+        "name": "Chapter 4-4 Enabled - Locked by Randomized Characters",
+        "img": "images/settings/chapter4.png",
+        "inherit_codes": false,
+        "codes": "4_4_enabled, 4_4_requires_random_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/random.png"
+      },
+      {
         "name": "Chapter 4-4 Enabled - Locked by Story Characters",
         "img": "images/settings/chapter4.png",
         "inherit_codes": false,
@@ -577,6 +731,13 @@
         "codes": "4_5_enabled, 4_5_requires_unlock_item"
       },
       {
+        "name": "Chapter 4-5 Enabled - Locked by Randomized Characters",
+        "img": "images/settings/chapter5.png",
+        "inherit_codes": false,
+        "codes": "4_5_enabled, 4_5_requires_random_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/random.png"
+      },
+      {
         "name": "Chapter 4-5 Enabled - Locked by Story Characters",
         "img": "images/settings/chapter5.png",
         "inherit_codes": false,
@@ -595,6 +756,13 @@
         "name": "Chapter 4-6 Enabled - Locked by 4-6 Unlock",
         "img": "images/settings/chapter6.png",
         "codes": "4_6_enabled, 4_6_requires_unlock_item"
+      },
+      {
+        "name": "Chapter 4-6 Enabled - Locked by Randomized Characters",
+        "img": "images/settings/chapter6.png",
+        "inherit_codes": false,
+        "codes": "4_6_enabled, 4_6_requires_random_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/random.png"
       },
       {
         "name": "Chapter 4-6 Enabled - Locked by Story Characters",
@@ -624,6 +792,13 @@
         "codes": "5_1_enabled, 5_1_requires_unlock_item"
       },
       {
+        "name": "Chapter 5-1 Enabled - Locked by Randomized Characters",
+        "img": "images/settings/chapter1.png",
+        "inherit_codes": false,
+        "codes": "5_1_enabled, 5_1_requires_random_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/random.png"
+      },
+      {
         "name": "Chapter 5-1 Enabled - Locked by Story Characters",
         "img": "images/settings/chapter1.png",
         "inherit_codes": false,
@@ -642,6 +817,13 @@
         "name": "Chapter 5-2 Enabled - Locked by 5-2 Unlock",
         "img": "images/settings/chapter2.png",
         "codes": "5_2_enabled, 5_2_requires_unlock_item"
+      },
+      {
+        "name": "Chapter 5-2 Enabled - Locked by Randomized Characters",
+        "img": "images/settings/chapter2.png",
+        "inherit_codes": false,
+        "codes": "5_2_enabled, 5_2_requires_random_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/random.png"
       },
       {
         "name": "Chapter 5-2 Enabled - Locked by Story Characters",
@@ -671,6 +853,13 @@
         "codes": "5_3_enabled, 5_3_requires_unlock_item"
       },
       {
+        "name": "Chapter 5-3 Enabled - Locked by Randomized Characters",
+        "img": "images/settings/chapter3.png",
+        "inherit_codes": false,
+        "codes": "5_3_enabled, 5_3_requires_random_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/random.png"
+      },
+      {
         "name": "Chapter 5-3 Enabled - Locked by Story Characters",
         "img": "images/settings/chapter3.png",
         "inherit_codes": false,
@@ -698,6 +887,13 @@
         "codes": "5_4_enabled, 5_4_requires_unlock_item"
       },
       {
+        "name": "Chapter 5-4 Enabled - Locked by Randomized Characters",
+        "img": "images/settings/chapter4.png",
+        "inherit_codes": false,
+        "codes": "5_4_enabled, 5_4_requires_random_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/random.png"
+      },
+      {
         "name": "Chapter 5-4 Enabled - Locked by Story Characters",
         "img": "images/settings/chapter4.png",
         "inherit_codes": false,
@@ -718,6 +914,13 @@
         "codes": "5_5_enabled, 5_5_requires_unlock_item"
       },
       {
+        "name": "Chapter 5-5 Enabled - Locked by Randomized Characters",
+        "img": "images/settings/chapter5.png",
+        "inherit_codes": false,
+        "codes": "5_5_enabled, 5_5_requires_random_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/random.png"
+      },
+      {
         "name": "Chapter 5-5 Enabled - Locked by Story Characters",
         "img": "images/settings/chapter5.png",
         "inherit_codes": false,
@@ -736,6 +939,13 @@
         "name": "Chapter 5-6 Enabled - Locked by 5-6 Unlock",
         "img": "images/settings/chapter6.png",
         "codes": "5_6_enabled, 5_6_requires_unlock_item"
+      },
+      {
+        "name": "Chapter 5-6 Enabled - Locked by Randomized Characters",
+        "img": "images/settings/chapter6.png",
+        "inherit_codes": false,
+        "codes": "5_6_enabled, 5_6_requires_random_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/random.png"
       },
       {
         "name": "Chapter 5-6 Enabled - Locked by Story Characters",
@@ -765,6 +975,13 @@
         "codes": "6_1_enabled, 6_1_requires_unlock_item"
       },
       {
+        "name": "Chapter 6-1 Enabled - Locked by Randomized Characters",
+        "img": "images/settings/chapter1.png",
+        "inherit_codes": false,
+        "codes": "6_1_enabled, 6_1_requires_random_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/random.png"
+      },
+      {
         "name": "Chapter 6-1 Enabled - Locked by Story Characters",
         "img": "images/settings/chapter1.png",
         "inherit_codes": false,
@@ -790,6 +1007,13 @@
         "name": "Chapter 6-2 Enabled - Locked by 6-2 Unlock",
         "img": "images/settings/chapter2.png",
         "codes": "6_2_enabled, 6_2_requires_unlock_item"
+      },
+      {
+        "name": "Chapter 6-2 Enabled - Locked by Randomized Characters",
+        "img": "images/settings/chapter2.png",
+        "inherit_codes": false,
+        "codes": "6_2_enabled, 6_2_requires_random_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/random.png"
       },
       {
         "name": "Chapter 6-2 Enabled - Locked by Story Characters",
@@ -819,6 +1043,13 @@
         "codes": "6_3_enabled, 6_3_requires_unlock_item"
       },
       {
+        "name": "Chapter 6-3 Enabled - Locked by Randomized Characters",
+        "img": "images/settings/chapter3.png",
+        "inherit_codes": false,
+        "codes": "6_3_enabled, 6_3_requires_random_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/random.png"
+      },
+      {
         "name": "Chapter 6-3 Enabled - Locked by Story Characters",
         "img": "images/settings/chapter3.png",
         "inherit_codes": false,
@@ -837,6 +1068,13 @@
         "name": "Chapter 6-4 Enabled - Locked by 6-4 Unlock",
         "img": "images/settings/chapter4.png",
         "codes": "6_4_enabled, 6_4_requires_unlock_item"
+      },
+      {
+        "name": "Chapter 6-4 Enabled - Locked by Randomized Characters",
+        "img": "images/settings/chapter4.png",
+        "inherit_codes": false,
+        "codes": "6_4_enabled, 6_4_requires_random_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/random.png"
       },
       {
         "name": "Chapter 6-4 Enabled - Locked by Story Characters",
@@ -866,6 +1104,13 @@
         "codes": "6_5_enabled, 6_5_requires_unlock_item"
       },
       {
+        "name": "Chapter 6-5 Enabled - Locked by Randomized Characters",
+        "img": "images/settings/chapter5.png",
+        "inherit_codes": false,
+        "codes": "6_5_enabled, 6_5_requires_random_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/random.png"
+      },
+      {
         "name": "Chapter 6-5 Enabled - Locked by Story Characters",
         "img": "images/settings/chapter5.png",
         "inherit_codes": false,
@@ -891,6 +1136,13 @@
         "name": "Chapter 6-6 Enabled - Locked by 6-6 Unlock",
         "img": "images/settings/chapter6.png",
         "codes": "6_6_enabled, 6_6_requires_unlock_item"
+      },
+      {
+        "name": "Chapter 6-6 Enabled - Locked by Randomized Characters",
+        "img": "images/settings/chapter6.png",
+        "inherit_codes": false,
+        "codes": "6_6_enabled, 6_6_requires_random_characters",
+        "img_mods": "overlay|images/settings/chapter_requirements/random.png"
       },
       {
         "name": "Chapter 6-6 Enabled - Locked by Story Characters",
