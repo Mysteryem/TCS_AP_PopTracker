@@ -341,6 +341,7 @@ function onClear(slot_data)
                 local chapter_short_name = string.format("%i-%i", episode, chapter)
                 local chapter_code = string.format("%i_%i", episode, chapter)
                 local characters_codes_required = {}
+                local character_names_required = {}
                 for _, character_id in ipairs(chapter_random_character_counts[chapter_short_name] or {}) do
                     local character_table = ITEM_MAPPING[character_id] or {}
                     local first_inner_table = character_table[1] or {}
@@ -348,12 +349,49 @@ function onClear(slot_data)
                     if character_code ~= nil then
                         table.insert(characters_codes_required, character_code)
                     end
+                    -- Can't get the name of a JsonItem from secripts currently, so get the name from the Archipelago
+                    -- datapackage instead.
+                    local character_name = Archipelago:GetItemName(character_id, "Lego Star Wars: The Complete Saga")
+                    if character_name == nil then
+                        character_name = string.format("Unknown%i", character_id)
+                    end
+                    table.insert(character_names_required, character_name)
                 end
                 CHAPTER_RANDOMIZED_CHARACTER_REQUIREMENTS[chapter_code] = characters_codes_required
 
                 local unlock_requirement = Tracker:FindObjectForCode(chapter_code.."_enabled")
                 unlock_requirement.CurrentStage = 1
                 local required_count = Tracker:FindObjectForCode(chapter_code.."_required_character_count")
+                local overlay_text = nil
+                for _, character_name in ipairs(character_names_required) do
+                    if overlay_text == nil then
+                        overlay_text = character_name
+                    else
+                        overlay_text = overlay_text .. ", " .. character_name
+                    end
+                end
+                local string_length = string.len(overlay_text or "")
+                local font_size
+                -- Had a 161 that would not fit at size 7.
+                if string_length >= 160 then
+                    font_size = 6
+                -- Had a 133 that would not fit at size 8.
+                elseif string_length >= 130 then
+                    font_size = 7
+                elseif string_length >= 100 then
+                    font_size = 8
+                elseif string_length >= 80 then
+                    font_size = 9
+                elseif string_length >= 40 then
+                    font_size = 10
+                else
+                    font_size = 11
+                end
+                print("Setting "..chapter_short_name.." overlay text to "..tostring(string_length).." length, size "..tostring(font_size)..": "..tostring(overlay_text))
+                required_count:SetOverlay(overlay_text or "")
+                required_count:SetOverlayAlign("left")
+                required_count:SetOverlayFontSize(font_size)
+                required_count:SetOverlayBackground("#77000000")
                 -- Subtract 1 because stage 0 is 1 required count.
                 required_count.CurrentStage = (chapter_required_character_counts[chapter_short_name] or 9) - 1
             end
@@ -421,6 +459,8 @@ function onClear(slot_data)
                 else
                     required_count.CurrentStage = required_character_count - 1
                 end
+                -- Clear any overlay text if there is any.
+                required_count:SetOverlay("")
             end
         end
     end
