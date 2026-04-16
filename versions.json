@@ -1,6 +1,16 @@
 {
     "versions": [
         {
+            "package_version": "1.4.0",
+            "download_url": "https://github.com/Mysteryem/TCS_AP_PopTracker/archive/refs/tags/v1.4.0.zip",
+            "sha256": "55f8c650ecae74e7db03e4cb0556ac8bf5de9bfdb135eecf76187c24d3c92ecd",
+            "changelog": [
+                "Updates the tracker to support the 1.4.0 apworld",
+                "The Blue Diamonds beneath chapters that show the required items no longer necessarily go from Blue -> Grey when the chapter is unlocked",
+                "C-3PO, Chewbacca and R2-D2 now use special items where left click toggles them on/off, and right click toggles whether they contribute to Story Character Chapter unlock requirements"
+            ]
+        },
+        {
             "package_version": "1.3.2",
             "download_url": "https://github.com/Mysteryem/TCS_AP_PopTracker/archive/refs/tags/v1.3.2.zip",
             "sha256": "2419609f0e4748af015d80a8e113a98ac6ad0bd403cd59282f85b807dfa1df5f",
