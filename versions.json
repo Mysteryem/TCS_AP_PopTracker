@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "1.4.1",
+            "download_url": "https://github.com/Mysteryem/TCS_AP_PopTracker/archive/refs/tags/v1.4.1.zip",
+            "sha256": "4acc65f0173b4653bad66b4d6f7b11c34b1fa6585609a444dea829766d864d98",
+            "changelog": [
+                "Add the B'omarr Monk Ridesanity location that was missed from the 1.4.0 PopTracker Pack update."
+            ]
+        },
+        {
             "package_version": "1.4.0",
             "download_url": "https://github.com/Mysteryem/TCS_AP_PopTracker/archive/refs/tags/v1.4.0.zip",
             "sha256": "55f8c650ecae74e7db03e4cb0556ac8bf5de9bfdb135eecf76187c24d3c92ecd",
