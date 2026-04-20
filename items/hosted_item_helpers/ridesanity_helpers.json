@@ -187,5 +187,12 @@
     "img_mods": "@disabled,@disabled",
     "disabled_img_mods": "",
     "codes": "ride_at-at"
+  },
+  {
+    "type": "toggle",
+    "img": "images/ridesanity/bomarr_monk.png",
+    "img_mods": "@disabled,@disabled",
+    "disabled_img_mods": "",
+    "codes": "ride_b'omarr_monk"
   }
 ]

@@ -169,6 +169,16 @@
                 "visibility_rules": [
                   "story_character_locations"
                 ]
+              },
+              {
+                "name": "Ride B'omarr Monk",
+                "hosted_item": "ride_b'omarr_monk",
+                "access_rules": [
+                  "can_ride_vehicles"
+                ],
+                "visibility_rules": [
+                  "setting_ridesanity_enabled"
+                ]
               }
             ],
             "map_locations": [

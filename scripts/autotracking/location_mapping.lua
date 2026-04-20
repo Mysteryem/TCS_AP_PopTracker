@@ -656,6 +656,7 @@ LOCATION_MAPPING = {
     [655] = {"@Cantina/Purchase Silhouettes"},
     [656] = {"@Cantina/Purchase Beep Beep"},
     [657] = {"chapter_completion_unlock_helper_naboostarfighter"},
+    [658] = {"ride_b'omarr_monk"},
 
     -- Included here with a location IDs that will never match, purely so that it gets auto-reset when connecting to AP.
     goal_event = {"@Cantina/Goal Event/Goal"},
